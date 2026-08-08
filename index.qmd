@@ -111,3 +111,30 @@ subtitle: "2025–2027 syllabus · 9701"
 - 34.4 Amino acids：zwitterions、isoelectric point、electrophoresis、peptide bonds 与 condensation polymers
 - 8 道完整 Structured Questions（7.6 Easy/Medium；当前题包没有独立 Hard），保留完整英文题目、所有分问、从 PDF 直接提取的局部题图与完整解答步骤
 :::
+
+::: {.topic-card}
+### [35 Polymerisation](a-level/35-polymerisation.qmd)
+
+- 35.1 Condensation Polymerisation：polyesters、polyamides、polyurethanes、amino-acid polymers、ester/amide/urethane links 与由 repeat unit 反推 monomers
+- 35.2 Predicting the Type of Polymerisation：addition polymerisation、co-polymers、condensation polymerisation 的判断依据与结构识别
+- 35.3 Degradable Polymers：polyalkenes 的难降解性、photodegradable polymers、polyester/polyamide 的 acid and alkaline hydrolysis
+- 10 道完整 Structured Questions（7.7 Easy/Medium/Hard），保留完整英文题目、所有分问、直接从 PDF 提取并合成白底的题目图与完整解答步骤
+:::
+
+::: {.topic-card}
+### [36 Organic synthesis](a-level/36-organic-synthesis.qmd)
+
+- 36.1 Organic synthesis：multiple functional groups、functional-group interconversion、aromatic and aliphatic synthetic routes、multi-step synthesis 与 route analysis
+- 重点掌握试剂和条件、反应类型、selectivity、by-products、separation，以及由目标分子倒推合成路线
+- 14 道完整 Structured Questions（7.8 Easy/Medium/Hard），保留完整英文题目、所有分问、从 PDF 独立提取的局部题图与完整解答步骤
+:::
+
+::: {.topic-card}
+### [37 Analytical techniques](a-level/37-analytical-techniques.qmd)
+
+- 37.1 Thin-Layer Chromatography：stationary/mobile phases、$R_f$ values、spot identification 与实验设计
+- 37.2 Gas-Liquid Chromatography：carrier gas、stationary phase、retention time、peak area 与 chromatogram interpretation
+- 37.3 Carbon-13 NMR Spectroscopy：equivalent carbon environments、symmetry、chemical shifts 与 TMS reference
+- 37.4 Proton (¹H) NMR Spectroscopy：chemical shift、integration、splitting、$n+1$ rule，以及 MS/IR/NMR 综合鉴定
+- 14 道完整 Structured Questions（8.1 Easy/Medium/Hard），保留完整英文题目、所有分问、PDF 独立提取的局部题图与完整解答步骤
+:::

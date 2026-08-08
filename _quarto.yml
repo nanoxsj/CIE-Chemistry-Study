@@ -15,6 +15,9 @@ project:
     - a-level/32-hydroxy-compounds.qmd
     - a-level/33-carboxylic-acids-and-derivatives.qmd
     - a-level/34-nitrogen-compounds.qmd
+    - a-level/35-polymerisation.qmd
+    - a-level/36-organic-synthesis.qmd
+    - a-level/37-analytical-techniques.qmd
 
 website:
   title: "CIE Chemistry 9701"
@@ -51,6 +54,12 @@ website:
             text: "33 Carboxylic acids and derivatives"
           - href: a-level/34-nitrogen-compounds.qmd
             text: "34 Nitrogen compounds"
+          - href: a-level/35-polymerisation.qmd
+            text: "35 Polymerisation"
+          - href: a-level/36-organic-synthesis.qmd
+            text: "36 Organic synthesis"
+          - href: a-level/37-analytical-techniques.qmd
+            text: "37 Analytical techniques"
 
 format:
   html:
