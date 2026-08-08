@@ -101,3 +101,13 @@ subtitle: "2025–2027 syllabus · 9701"
 - 33.3 Acyl chlorides：nucleophilic addition–elimination、hydrolysis、ester/amides/phenyl esters、relative reactivity 与 synthesis routes
 - 8 道完整 Structured Questions（7.5 Easy/Medium；当前题包没有独立 Hard），保留完整英文题目、所有分问、PDF 独立提取的局部题图与完整解答步骤
 :::
+
+::: {.topic-card}
+### [34 Nitrogen compounds](a-level/34-nitrogen-compounds.qmd)
+
+- 34.1 Primary and secondary amines：amine structures、basicity、halogenoalkane substitution、amide/nitrile reduction 与 acyl-chloride reactions
+- 34.2 Phenylamine and azo compounds：nitrobenzene reduction、bromination、diazonium salts、azo coupling 与 azo dyes
+- 34.3 Amides：formation、acid/alkaline hydrolysis、LiAlH₄ reduction 与 amides 的 weak basicity
+- 34.4 Amino acids：zwitterions、isoelectric point、electrophoresis、peptide bonds 与 condensation polymers
+- 8 道完整 Structured Questions（7.6 Easy/Medium；当前题包没有独立 Hard），保留完整英文题目、所有分问、从 PDF 直接提取的局部题图与完整解答步骤
+:::
