@@ -1,0 +1,400 @@
+# 24 Electrochemistry - Structured Questions
+
+本页只选取与电化学标准电势、SHE、半电池、电池电势、Nernst equation、Gibbs energy，以及考纲中的 Faraday、电镀和 Avogadro constant 计算直接相关的 Structured Questions。独立的定性 Electrolysis 产物判断题不在本页；保留的 Faraday 题用于训练考纲要求的电量、电子数和沉积量计算。
+
+### 24.1 Electrolysis
+
+::: {.question-card}
+### Example 6 · Faraday constant from charge measurements · 24.1 SQ Medium Q1
+
+An experiment passes a measured charge through a cell. The amount of substance formed is calculated from the number of electrons in its half-equation.
+
+**(a)** State the relationship between charge, current and time. `[1 mark]`
+
+**(b)** State the value and unit of the Faraday constant. `[1 mark]`
+
+**(c)** Explain why the number of moles of electrons must be found before the amount of product is calculated. `[2 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)** $Q=It$. `[1]`
+- **(b)** $F=96500\ \mathrm{C\ mol^{-1}}$ of electrons. `[1]`
+- **(c)** The charge is related to moles of electrons by $Q=n(e^-)F$; the half-equation gives the mole ratio between electrons and the required product. `[2]`
+</details>
+:::
+
+::: {.question-card}
+### Example 13 · Electroplating zinc · 24.1 SQ Medium Q2
+
+A current of $2.50\ \mathrm{A}$ is passed for $20.0$ minutes. Zinc is deposited according to:
+
+$$\ce{Zn^{2+} + 2e- -> Zn}$$
+
+Calculate the mass of zinc deposited. Use $F=96500\ \mathrm{C\ mol^{-1}}$ and $A_r(\ce{Zn})=65.4$.
+
+`[4 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+$$Q=It=2.50\times(20.0\times60)=3000\ \mathrm{C}$$
+
+$$n(e^-)=\frac{3000}{96500}=0.0311\ \mathrm{mol}$$
+
+$$n(\ce{Zn})=\frac{0.0311}{2}=0.0155\ \mathrm{mol}$$
+
+$$m=0.0155\times65.4=1.01\ \mathrm{g}$$ `[4]`
+</details>
+:::
+
+::: {.question-card}
+### Example 14 · Avogadro constant experiment · 24.1 SQ Medium Q3
+
+In an experiment, a copper electrode gains $0.299\ \mathrm{g}$ after a current of $0.375\ \mathrm{A}$ flows for $40.0$ minutes. Copper is deposited according to $\ce{Cu^{2+}+2e- -> Cu}$. Use $A_r(\ce{Cu})=63.5$ and the electronic charge $e=1.60\times10^{-19}\ \mathrm{C}$.
+
+**(a)** Calculate the charge passed. `[1 mark]`
+
+**(b)** Calculate the Faraday constant from the mass change. `[3 marks]`
+
+**(c)** Calculate the Avogadro constant $L$ using $F=Le$. `[2 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)** $Q=0.375\times(40.0\times60)=900\ \mathrm{C}$. `[1]`
+- **(b)** $n(\ce{Cu})=0.299/63.5=4.71\times10^{-3}\ \mathrm{mol}$; $n(e^-)=2n(\ce{Cu})=9.42\times10^{-3}\ \mathrm{mol}$; $F=Q/n(e^-)=9.55\times10^4\ \mathrm{C\ mol^{-1}}$. `[3]`
+- **(c)** $L=F/e=(9.55\times10^4)/(1.60\times10^{-19})\approx5.97\times10^{23}\ \mathrm{mol^{-1}}$. `[2]`
+</details>
+:::
+
+### 24.2 Standard electrode potentials - Easy
+
+::: {.question-card}
+### Example 1 · Chromium half-cell and standard conditions · 24.2 SQ Easy Q1
+
+The chromium half-cell containing $\ce{Cr/Cr^{3+}}$ is connected to a copper half-cell containing $\ce{Cu/Cu^{2+}}$. For the copper half-cell, $E^\ominus=+0.34\ \mathrm{V}$. The standard cell potential is $+1.08\ \mathrm{V}$ and the copper half-cell undergoes reduction.
+
+**(a)** Calculate the standard electrode potential of the $\ce{Cr/Cr^{3+}}$ half-cell. `[2 marks]`
+
+**(b)** Write the two half-equations that occur if the chromium half-cell is connected to the standard hydrogen electrode. `[2 marks]`
+
+**(c)** State the standard conditions used when measuring a standard electrode potential. `[3 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)** $E^\ominus(\ce{Cr^{3+}/Cr})=+0.34-1.08=-0.74\ \mathrm{V}$. `[2]`
+- **(b)** Chromium: $\ce{Cr -> Cr^{3+}+3e-}$; hydrogen: $\ce{2H+ +2e- -> H2}$. `[2]`
+- **(c)** Temperature $298\ \mathrm{K}$; gas pressure $101\ \mathrm{kPa}$; aqueous ion concentration $1.00\ \mathrm{mol\ dm^{-3}}$. `[3]`
+</details>
+:::
+
+::: {.question-card}
+### Example 2 · Equilibrium position and standard hydrogen electrode · 24.2 SQ Easy Q2
+
+The following reduction half-equations have standard electrode potentials of $+0.80\ \mathrm{V}$, $+0.89\ \mathrm{V}$ and $-0.83\ \mathrm{V}$ respectively.
+
+**(a)** Identify which half-equation has its equilibrium position furthest left and which has its equilibrium position furthest right. `[2 marks]`
+
+**(b)** Describe a standard hydrogen electrode. `[2 marks]`
+
+**(c)** State the standard electrode potential of the standard hydrogen electrode. `[1 mark]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)** The most negative value, $-0.83\ \mathrm{V}$, is furthest left; the most positive value, $+0.89\ \mathrm{V}$, is furthest right. `[2]`
+- **(b)** Platinum electrode in contact with hydrogen gas at standard pressure and an aqueous solution with $[\ce{H+}]=1.00\ \mathrm{mol\ dm^{-3}}$, at $298\ \mathrm{K}$. `[2]`
+- **(c)** $E^\ominus=0.00\ \mathrm{V}$. `[1]`
+</details>
+:::
+
+::: {.question-card}
+### Example 3 · Half-cell types and cell notation · 24.2 SQ Easy Q3
+
+**(a)** State the electrode required for each half-cell:
+
+- $\ce{Cu^{2+}(aq) / Cu(s)}$;
+- $\ce{Br2(l) / Br-(aq)}$;
+- $\ce{Fe^{3+}(aq), Fe^{2+}(aq)}$.
+
+`[3 marks]`
+
+**(b)** Write the conventional cell diagram for a zinc/copper cell. `[2 marks]`
+
+**(c)** State the direction of electron flow in the external circuit. `[1 mark]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)** $\ce{Cu^{2+}/Cu}$ is metal/metal ion and does not need Pt; $\ce{Br2/Br-}$ is non-metal/non-metal ion and needs Pt; $\ce{Fe^{3+}/Fe^{2+}}$ is ion/ion and needs Pt. `[3]`
+- **(b)** $\ce{Zn(s) | Zn^{2+}(aq) || Cu^{2+}(aq) | Cu(s)}$. `[2]`
+- **(c)** From zinc / the negative electrode to copper / the positive electrode. `[1]`
+</details>
+:::
+
+### 24.2 Standard electrode potentials - Medium
+
+::: {.question-card}
+### Example 4 · Salt bridge and electrode polarity · 24.2 SQ Medium Q1
+
+A cell is made from $\ce{Fe^{2+}/Fe}$ and $\ce{Cu^{2+}/Cu}$ half-cells.
+
+**(a)** Explain two functions of the salt bridge. `[2 marks]`
+
+**(b)** Use the following data to identify the negative electrode:
+
+$$\ce{Cu^{2+} + 2e- -> Cu} \qquad E^\ominus=+0.34\ \mathrm{V}$$
+
+$$\ce{Fe^{2+} + 2e- -> Fe} \qquad E^\ominus=-0.44\ \mathrm{V}$$
+
+`[1 mark]`
+
+**(c)** Write the overall cell equation. `[2 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)** It allows ion movement to maintain electrical neutrality; it completes the internal circuit. `[2]`
+- **(b)** Iron / the Fe electrode. `[1]`
+- **(c)** $\ce{Fe(s) + Cu^{2+}(aq) -> Fe^{2+}(aq) + Cu(s)}$. `[2]`
+</details>
+:::
+
+::: {.question-card}
+### Example 5 · Feasibility and oxidising/reducing agents · 24.2 SQ Medium Q2
+
+The following standard electrode potentials are available:
+
+$$\ce{Cl2 + 2e- <=> 2Cl-} \qquad E^\ominus=+1.36\ \mathrm{V}$$
+
+$$\ce{Cu^{2+} + 2e- <=> Cu} \qquad E^\ominus=+0.34\ \mathrm{V}$$
+
+**(a)** Identify the oxidising agent and reducing agent in the reaction between chlorine and copper. `[2 marks]`
+
+**(b)** Calculate $E^\ominus_{\mathrm{cell}}$. `[1 mark]`
+
+**(c)** State whether the reaction $\ce{Cl2 + Cu -> 2Cl- + Cu^{2+}}$ is feasible under standard conditions. `[1 mark]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)** Oxidising agent: $\ce{Cl2}$; reducing agent: Cu. `[2]`
+- **(b)** $E^\ominus_{\mathrm{cell}}=+1.36-(+0.34)=+1.02\ \mathrm{V}$. `[1]`
+- **(c)** Yes, because $E^\ominus_{\mathrm{cell}}$ is positive. `[1]`
+</details>
+:::
+
+### 24.2 Standard electrode potentials - Hard
+
+::: {.question-card}
+### Example 7 · Lithium-iodine cell · 24.2 SQ Hard Q1
+
+A lithium-iodine cell contains no aqueous electrolyte. The relevant half-equations are:
+
+$$\ce{Li+ + e- -> Li} \qquad E^\ominus=-3.05\ \mathrm{V}$$
+
+$$\ce{I2 + 2e- -> 2I-} \qquad E^\ominus=+0.53\ \mathrm{V}$$
+
+**(a)** Identify the oxidation and reduction half-reactions when the cell discharges. `[2 marks]`
+
+**(b)** Write the overall equation. `[2 marks]`
+
+**(c)** Calculate $E^\ominus_{\mathrm{cell}}$. `[1 mark]`
+
+**(d)** Suggest why an aqueous salt bridge is not suitable for this cell. `[1 mark]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)** Oxidation: $\ce{Li -> Li+ + e-}$; reduction: $\ce{I2 + 2e- -> 2I-}$. `[2]`
+- **(b)** $\ce{2Li + I2 -> 2Li+ + 2I-}$. `[2]`
+- **(c)** $E^\ominus_{\mathrm{cell}}=+0.53-(-3.05)=+3.58\ \mathrm{V}$. `[1]`
+- **(d)** Water would react with lithium / the cell is designed to operate without liquid water. `[1]`
+</details>
+:::
+
+::: {.question-card}
+### Example 8 · Testing a standard hydrogen electrode setup · 24.2 SQ Hard Q2
+
+A student proposes a standard hydrogen electrode using an ammeter, ethanoic acid and a potassium chloride salt bridge. Explain the correction needed in each case.
+
+**(a)** The ammeter. `[1 mark]`
+
+**(b)** The ethanoic acid solution. `[2 marks]`
+
+**(c)** The potassium chloride salt bridge when the other half-cell contains $\ce{Ag+}$. `[2 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)** Replace the ammeter with a high-resistance voltmeter so that essentially no current flows during the potential measurement. `[1]`
+- **(b)** Use a strong acid with $[\ce{H+}]=1.00\ \mathrm{mol\ dm^{-3}}$; ethanoic acid is only partially dissociated and does not provide the stated hydrogen-ion concentration reliably. `[2]`
+- **(c)** Replace KCl with a nitrate salt bridge; $\ce{Cl-}$ would react with $\ce{Ag+}$ to form $\ce{AgCl(s)}$. `[2]`
+</details>
+:::
+
+::: {.question-card}
+### Example 9 · Balancing a redox equation from electrode potentials · 24.2 SQ Hard Q3
+
+In acidic solution:
+
+$$\ce{Cr2O7^{2-} + 14H+ + 6e- -> 2Cr^{3+} + 7H2O} \qquad E^\ominus=+1.36\ \mathrm{V}$$
+
+$$\ce{Br2 + 2e- -> 2Br-} \qquad E^\ominus=+1.09\ \mathrm{V}$$
+
+**(a)** Write the oxidation half-equation for bromide ions. `[1 mark]`
+
+**(b)** Write the balanced overall equation. `[3 marks]`
+
+**(c)** Calculate $E^\ominus_{\mathrm{cell}}$ and state whether the reaction is feasible. `[2 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)** $\ce{2Br- -> Br2 + 2e-}$. `[1]`
+- **(b)** Multiply the bromide equation by 3 and add: $\ce{Cr2O7^{2-} + 14H+ + 6Br- -> 2Cr^{3+} + 3Br2 + 7H2O}$. `[3]`
+- **(c)** $E^\ominus_{\mathrm{cell}}=1.36-1.09=+0.27\ \mathrm{V}$; feasible under standard conditions. `[2]`
+</details>
+:::
+
+### 24.2 Standard electrode potentials and calculations - Easy
+
+::: {.question-card}
+### Example 10 · Magnesium-iodine cell calculation · 24.2 SQ Easy Q4
+
+The standard electrode potentials are:
+
+$$\ce{Mg^{2+} + 2e- -> Mg} \qquad E^\ominus=-2.38\ \mathrm{V}$$
+
+$$\ce{I2 + 2e- -> 2I-} \qquad E^\ominus=+0.54\ \mathrm{V}$$
+
+**(a)** Write the overall reaction. `[2 marks]`
+
+**(b)** Calculate $E^\ominus_{\mathrm{cell}}$. `[1 mark]`
+
+**(c)** State the strongest oxidising agent in the two half-equations. `[1 mark]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)** $\ce{Mg + I2 -> Mg^{2+} + 2I-}$. `[2]`
+- **(b)** $E^\ominus_{\mathrm{cell}}=+0.54-(-2.38)=+2.92\ \mathrm{V}$. `[1]`
+- **(c)** $\ce{I2}$, because it is the oxidised species in the half-equation with the more positive reduction potential. `[1]`
+</details>
+:::
+
+::: {.question-card}
+### Example 11 · Nernst equation for a copper half-cell · 24.2 SQ Easy Q5
+
+For $\ce{Cu^{2+} + 2e- <=> Cu}$, $E^\ominus=+0.34\ \mathrm{V}$. Calculate the electrode potential at $298\ \mathrm{K}$ when $[\ce{Cu^{2+}}]=0.0010\ \mathrm{mol\ dm^{-3}}$.
+
+`[3 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+$$E=E^\ominus+\frac{0.059}{2}\log_{10}[\ce{Cu^{2+}}]$$
+
+$$E=0.34+\frac{0.059}{2}\log_{10}(0.0010)=+0.25\ \mathrm{V}$$
+
+The solid copper has unit activity and is omitted from the quotient. `[3]`
+</details>
+:::
+
+::: {.question-card}
+### Example 12 · Gibbs free energy from cell potential · 24.2 SQ Easy Q6
+
+For a cell reaction, $E^\ominus_{\mathrm{cell}}=+0.43\ \mathrm{V}$ and $n=2$.
+
+**(a)** Calculate $\Delta G^\ominus$. Use $F=96500\ \mathrm{C\ mol^{-1}}$. `[2 marks]`
+
+**(b)** Explain the sign of your answer. `[1 mark]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)** $\Delta G^\ominus=-nFE^\ominus_{\mathrm{cell}}=-2\times96500\times0.43=-8.30\times10^4\ \mathrm{J\ mol^{-1}}=-83.0\ \mathrm{kJ\ mol^{-1}}$. `[2]`
+- **(b)** It is negative because the cell reaction is thermodynamically feasible under standard conditions. `[1]`
+</details>
+:::
+
+### 24.2 Standard electrode potentials and calculations - Medium
+
+::: {.question-card}
+### Example 15 · Common-ion effect and electrode potential · 24.2 SQ Medium Q3
+
+An iron/silver cell is set up. Silver ions are removed from the solution by adding chloride ions, forming $\ce{AgCl(s)}$.
+
+**(a)** Explain how the concentration of silver ions changes. `[1 mark]`
+
+**(b)** Use the Nernst equation to explain the effect on the $\ce{Ag+/Ag}$ electrode potential. `[2 marks]`
+
+**(c)** State how the cell potential changes if the iron half-cell is unchanged. `[1 mark]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)** $[\ce{Ag+}]$ decreases because insoluble $\ce{AgCl}$ precipitates. `[1]`
+- **(b)** For $\ce{Ag+ + e- <=> Ag}$, $E=E^\ominus+0.059\log_{10}[\ce{Ag+}]$ at $298\ \mathrm{K}$; decreasing $[\ce{Ag+}]$ makes $E$ less positive. `[2]`
+- **(c)** The cell potential decreases if the silver half-cell remains the reduction half-cell. `[1]`
+</details>
+:::
+
+### 24.2 Standard electrode potentials and calculations - Hard
+
+::: {.question-card}
+### Example 16 · Nernst equation at 20 °C · 24.2 SQ Hard Q4
+
+For $\ce{Ag+ + e- <=> Ag}$, $E^\ominus=+0.80\ \mathrm{V}$. Calculate $[\ce{Ag+}]$ at $20\ ^\circ\mathrm{C}$ when $E=+0.72\ \mathrm{V}$.
+
+Use $R=8.31\ \mathrm{J\ K^{-1}\ mol^{-1}}$, $F=96500\ \mathrm{C\ mol^{-1}}$.
+
+`[3 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+$$T=293\ \mathrm{K}$$
+
+$$0.72=0.80+\frac{RT}{nF}\ln[\ce{Ag+}]$$
+
+$$\ln[\ce{Ag+}]=\frac{(0.72-0.80)\times96500}{8.31\times293}=-3.17$$
+
+$$[\ce{Ag+}]=e^{-3.17}=4.2\times10^{-2}\ \mathrm{mol\ dm^{-3}}$$ `[3]`
+</details>
+:::
+
+::: {.question-card}
+### Example 17 · Dichromate and bromide in acidic solution · 24.2 SQ Hard Q5
+
+Use the half-equations below to answer the questions.
+
+$$\ce{Cr2O7^{2-} + 14H+ + 6e- -> 2Cr^{3+} + 7H2O} \qquad E^\ominus=+1.33\ \mathrm{V}$$
+
+$$\ce{Br2 + 2e- -> 2Br-} \qquad E^\ominus=+1.07\ \mathrm{V}$$
+
+**(a)** Write the overall ionic equation. `[3 marks]`
+
+**(b)** Calculate $E^\ominus_{\mathrm{cell}}$. `[1 mark]`
+
+**(c)** Calculate $\Delta G^\ominus$ for the overall reaction and state whether it is feasible. Use $F=96500\ \mathrm{C\ mol^{-1}}$. `[3 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)** $\ce{Cr2O7^{2-} + 14H+ + 6Br- -> 2Cr^{3+} + 3Br2 + 7H2O}$. `[3]`
+- **(b)** $E^\ominus_{\mathrm{cell}}=1.33-1.07=+0.26\ \mathrm{V}$. `[1]`
+- **(c)** $\Delta G^\ominus=-6\times96500\times0.26=-1.50\times10^5\ \mathrm{J\ mol^{-1}}=-150\ \mathrm{kJ\ mol^{-1}}$; the negative value shows the reaction is feasible under standard conditions. `[3]`
+</details>
+:::
+
+::: {.question-card}
+### Example 18 · Comparing electrochemical series data · 24.2 SQ Hard Q6
+
+The following values are given:
+
+| Reduction half-equation | $E^\ominus$/V |
+|---|---:|
+| $\ce{Co^{3+} + e- -> Co^{2+}}$ | $+1.82$ |
+| $\ce{Fe^{3+} + e- -> Fe^{2+}}$ | $+0.77$ |
+| $\ce{Cu^{2+} + 2e- -> Cu}$ | $+0.34$ |
+| $\ce{Zn^{2+} + 2e- -> Zn}$ | $-0.76$ |
+
+**(a)** Identify the strongest oxidising agent. `[1 mark]`
+
+**(b)** Identify the strongest reducing agent among the reduced species shown. `[1 mark]`
+
+**(c)** Predict whether $\ce{2Fe^{3+} + Cu -> 2Fe^{2+} + Cu^{2+}}$ is feasible and calculate $E^\ominus_{\mathrm{cell}}$. `[2 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)** $\ce{Co^{3+}}$, because it has the most positive reduction potential. `[1]`
+- **(b)** Zn, because $\ce{Zn^{2+}/Zn}$ has the most negative reduction potential and Zn is most readily oxidised. `[1]`
+- **(c)** $E^\ominus_{\mathrm{cell}}=0.77-0.34=+0.43\ \mathrm{V}$; yes, it is feasible under standard conditions. `[2]`
+</details>
+:::

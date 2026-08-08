@@ -1,0 +1,452 @@
+# 27 Group 2 - Structured Questions
+
+本页保留 `6.1 Group 2 (A Level Only)` 题包中的全部 Structured Questions，按 Easy、Medium、Hard 分组。每题保留完整英文题目、所有分问、题目图（如原 PDF 有可独立提取的图）以及完整 model-answer steps。
+
+### 6.1 Group 2 (A Level Only) - Easy
+
+::: {.question-card}
+### Example 1 · Carbonates and thermal stability · 6.1 SQ Easy Q1
+
+This question is about Group 2 carbonates.
+
+Magnesium carbonate is used as an antacid and used to treat heartburn.
+
+**(a)**
+
+1. Write the chemical formula of magnesium carbonate. `[1 mark]`
+2. Write a balanced symbol equation for the reaction of magnesium carbonate with dilute nitric acid. `[2 marks]`
+
+**(b)**
+
+1. From the list below, identify the compound that will decompose at the lowest temperature.
+
+   - calcium carbonate
+   - strontium carbonate
+   - barium carbonate
+
+   `[1 mark]`
+
+2. Write a balanced symbol equation for the decomposition of your chosen carbonate. `[1 mark]`
+
+**(c)** Group 2 nitrates become more thermally stable going down the group. Explain why. `[2 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)(1)** $\ce{MgCO3}$. `[1]`
+- **(a)(2)**
+
+  $$\ce{MgCO3(s) + 2HNO3(aq) -> Mg(NO3)2(aq) + CO2(g) + H2O(l)}$$
+
+  Correct formulae and correct balancing. `[2]`
+- **(b)(1)** Calcium carbonate. `[1]`
+- **(b)(2)**
+
+  $$\ce{CaCO3(s) -> CaO(s) + CO2(g)}$$ `[1]`
+- **(c)** Nitrate thermal stability increases down Group 2. The ionic radius of the cation increases, so its charge density and polarising power decrease. The nitrate ion is less polarised and the N–O bonds are less weakened. `[2]`
+</details>
+:::
+
+::: {.question-card}
+### Example 2 · Reactions and sulfate solubility · 6.1 SQ Easy Q2
+
+This question is about Group 2 compounds.
+
+Strontium will react with water.
+
+**(a)**
+
+1. Write a balanced symbol equation for the reaction. `[1 mark]`
+2. Describe a test to identify the gas produced. `[1 mark]`
+
+**(b)** Calcium hydroxide reacts with sulfuric acid to produce calcium sulfate and water.
+
+1. Write the balanced symbol equation for this reaction. `[1 mark]`
+2. Describe the trend in the solubility of the Group 2 sulfates. `[1 mark]`
+
+**(c)** The trend in solubility of the Group 2 sulfates is due to the lattice energy, $\Delta H^\ominus_{\mathrm{latt}}$, and enthalpy change of hydration, $\Delta H^\ominus_{\mathrm{hyd}}$, of the Group 2 sulfates changing. Describe the trend in $\Delta H^\ominus_{\mathrm{latt}}$ and $\Delta H^\ominus_{\mathrm{hyd}}$ of Group 2 sulfates going down Group 2. `[2 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)(1)**
+
+  $$\ce{Sr(s) + 2H2O(l) -> Sr(OH)2(s) + H2(g)}$$ `[1]`
+- **(a)(2)** Collect the gas and test it with a lighted splint. Hydrogen gives a squeaky pop. `[1]`
+- **(b)(1)**
+
+  $$\ce{Ca(OH)2(s) + H2SO4(aq) -> CaSO4(s) + 2H2O(l)}$$ `[1]`
+- **(b)(2)** Solubility decreases down Group 2. `[1]`
+- **(c)** Both lattice energy and enthalpy change of hydration decrease down the group. The hydration enthalpy decreases by a larger amount than the lattice energy, so $\Delta H^\ominus_{\mathrm{sol}}$ becomes more endothermic. `[2]`
+</details>
+:::
+
+::: {.question-card}
+### Example 3 · Water reactions and nitrate decomposition · 6.1 SQ Easy Q3
+
+The elements in Group 2 from Mg to Ba can be used to show the trends in properties down a group in the Periodic Table. The Group 2 elements react with water.
+
+**(a)**
+
+1. State the trend in reactivity with water of the elements down Group 2 from Mg to Ba. `[1 mark]`
+2. Predict a possible pH for the solutions formed when Group 2 elements are added to water. `[1 mark]`
+
+**(b)** Give the formula of the hydroxide of the element in Group 2 from Mg to Ba that is most soluble in water. `[1 mark]`
+
+**(c)** A trend in the thermal decomposition of Group 2 nitrates can also be observed.
+
+1. Give the oxidation number of nitrogen in $\ce{Ca(NO3)2}$. `[1 mark]`
+2. Write an equation for the thermal decomposition of $\ce{Ca(NO3)2}$. `[2 marks]`
+3. State the trend in thermal stability of Group 2 nitrates. `[1 mark]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)(1)** Reactivity with water increases down Group 2. `[1]`
+- **(a)(2)** A possible pH is 10–12. `[1]`
+- **(b)** $\ce{Ba(OH)2}$. `[1]`
+- **(c)(1)** Nitrogen is in oxidation state $+5$. `[1]`
+- **(c)(2)**
+
+  $$\ce{2Ca(NO3)2(s) -> 2CaO(s) + 4NO2(g) + O2(g)}$$ `[2]`
+- **(c)(3)** Thermal stability increases down Group 2. `[1]`
+</details>
+:::
+
+### 6.1 Group 2 (A Level Only) - Medium
+
+::: {.question-card}
+### Example 4 · Strontium nitrate and polarisation · 6.1 SQ Medium Q1
+
+This question is about Group 2 nitrates.
+
+Strontium nitrate is a Group 2 nitrate used to produce a colour in fireworks.
+
+**(a)**
+
+1. Give the formula of strontium nitrate. `[1 mark]`
+2. Give the colour that strontium nitrate will give in fireworks. `[1 mark]`
+
+**(b)**
+
+1. Write an equation for the reaction that occurs when strontium nitrate is heated. You should include state symbols. `[2 marks]`
+2. Give one observation of this reaction. `[1 mark]`
+
+**(c)** The nitrate ion, $\ce{NO3^-}$, contains a dative covalent bond. Complete the following ‘dot-and-cross’ diagram of the bonding in the nitrate ion.
+
+Use the following code for your electrons:
+
+- • electrons from oxygen
+- x electrons from nitrogen
+- □ added electron(s) responsible for the overall negative charge
+
+![Question diagram: incomplete nitrate dot-and-cross diagram](../assets/questions/group-2/medium-q1c-nitrate-dot-cross.webp){.question-figure fig-alt="Incomplete nitrate dot-and-cross diagram"}
+
+`[3 marks]`
+
+**(d)** Describe and explain the trend in thermal stabilities of the nitrates of the Group 2 elements. `[3 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)(1)** $\ce{Sr(NO3)2}$. `[1]`
+- **(a)(2)** Red or scarlet. `[1]`
+- **(b)(1)**
+
+  $$\ce{2Sr(NO3)2(s) -> 2SrO(s) + 4NO2(g) + O2(g)}$$
+
+  Correct formulae and balancing. `[2]`
+- **(b)(2)** Brown gas is produced, or a white precipitate forms. `[1]`
+- **(c)** Complete the diagram with a dative covalent bond to an oxygen atom using two electrons from nitrogen; show eight electrons around nitrogen in one double bond and two single bonds; show a total of 24 outer-shell electrons including one added electron symbol for the overall $-1$ charge. `[3]`
+- **(d)** Thermal stability increases down Group 2. The cation radius increases and charge density decreases, so polarisation or distortion of the nitrate ion decreases. The N–O bonds are less weakened and more heat is required for decomposition. `[3]`
+</details>
+:::
+
+::: {.question-card}
+### Example 5 · Magnesium, sulfates and hydroxides · 6.1 SQ Medium Q2
+
+Magnesium is a Group 2 metal.
+
+**(a)** Write an equation, including state symbols, for the reaction between:
+
+1. magnesium and steam; `[1 mark]`
+2. magnesium and sulfuric acid. `[1 mark]`
+
+**(b)** Magnesium sulfate is soluble in water. Describe and explain how the solubilities of the sulfates of the Group 2 elements vary down the group. `[4 marks]`
+
+**(c)** The following table lists some enthalpy changes for magnesium and strontium compounds.
+
+| Enthalpy change / $\mathrm{kJ\,mol^{-1}}$ | Value for magnesium | Value for strontium |
+|---|---:|---:|
+| lattice enthalpy of $\ce{M(OH)2}$ | $-2993$ | $-2467$ |
+| enthalpy change of hydration of $\ce{M^{2+}(g)}$ | $-1890$ | $-1414$ |
+| enthalpy change of hydration of $\ce{OH^-(g)}$ | $-550$ | $-550$ |
+
+Use the above data to calculate values of $\Delta H^\ominus_{\mathrm{sol}}$ for $\ce{Mg(OH)2}$ and $\ce{Sr(OH)2}$. `[2 marks]`
+
+**(d)** Use your results from part (c) to suggest whether $\ce{Sr(OH)2}$ is more or less soluble in water than $\ce{Mg(OH)2}$, assuming all other factors are the same. `[2 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)(1)**
+
+  $$\ce{Mg(s) + H2O(g) -> MgO(s) + H2(g)}$$ `[1]`
+- **(a)(2)**
+
+  $$\ce{Mg(s) + H2SO4(aq) -> MgSO4(aq) + H2(g)}$$ `[1]`
+- **(b)** Solubility decreases down Group 2. Both lattice energy and hydration enthalpy decrease down the group, but the hydration enthalpy decreases by a larger amount. Therefore $\Delta H^\ominus_{\mathrm{sol}}$ becomes more endothermic and the sulfates become less soluble. `[4]`
+- **(c)**
+
+  $$\Delta H^\ominus_{\mathrm{sol}}(\ce{Mg(OH)2})=[-1890+2(-550)]-(-2993)=+3\ \mathrm{kJ\,mol^{-1}}$$
+
+  $$\Delta H^\ominus_{\mathrm{sol}}(\ce{Sr(OH)2})=[-1414+2(-550)]-(-2467)=-47\ \mathrm{kJ\,mol^{-1}}$$ `[2]`
+- **(d)** $\ce{Sr(OH)2}$ is more soluble because its enthalpy of solution is more exothermic or more negative. `[2]`
+</details>
+:::
+
+::: {.question-card}
+### Example 6 · Carbonates and transition elements · 6.1 SQ Medium Q3
+
+This question is about Group 2 carbonates.
+
+Group 2 carbonates can react with acids.
+
+**(a)**
+
+1. Compare the reaction of calcium carbonate with hydrochloric acid and sulfuric acid. `[2 marks]`
+2. Write an equation for the reaction between calcium carbonate and sulfuric acid, including state symbols. `[1 mark]`
+
+**(b)** Describe and explain the trend observed in the thermal stability of the carbonates of the Group 2 elements. `[3 marks]`
+
+**(c)** The ionic radii of three ions are shown below.
+
+| Ion | Ionic radius / nm |
+|---|---:|
+| $\ce{Ca^{2+}}$ | 0.099 |
+| $\ce{Zn^{2+}}$ | 0.074 |
+| $\ce{Pb^{2+}}$ | 0.120 |
+
+Suggest how the thermal stabilities of zinc carbonate and lead carbonate might compare to that of calcium carbonate. `[2 marks]`
+
+**(d)** Zinc is found in the d-block of the Periodic Table but is not a transition element.
+
+1. Explain why zinc is not classed as a transition element. `[1 mark]`
+2. Describe three characteristic chemical properties of transition elements that are not shown by Group 2 elements. `[3 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)(1)** Calcium carbonate reacts with both acids to form a salt, carbon dioxide and water. Calcium chloride is soluble, but calcium sulfate is insoluble or forms an insoluble coating on the carbonate. `[2]`
+- **(a)(2)**
+
+  $$\ce{CaCO3(s) + H2SO4(aq) -> CaSO4(s) + H2O(l) + CO2(g)}$$ `[1]`
+- **(b)** Thermal stability increases down Group 2. The cation radius increases and charge density decreases, so the carbonate ion is less polarised or distorted. The C–O bonds are less weakened and more heat is required for decomposition. `[3]`
+- **(c)** Zinc carbonate is less thermally stable than calcium carbonate because $\ce{Zn^{2+}}$ is smaller and has greater charge density. Lead carbonate is more thermally stable because $\ce{Pb^{2+}}$ is larger and has lower charge density. `[2]`
+- **(d)(1)** Zinc forms an ion with a complete $d^{10}$ subshell, so it does not form a stable ion with an incomplete d-subshell. `[1]`
+- **(d)(2)** Any three: forms coloured ions or compounds; has variable oxidation states; forms complex ions; acts as or is used as a catalyst. `[3]`
+</details>
+:::
+
+::: {.question-card}
+### Example 7 · Hydroxide solubility and enthalpy of solution · 6.1 SQ Medium Q4
+
+This question is about Group 2 hydroxides.
+
+Samples of magnesium, calcium, strontium and barium are reacted with water to form their hydroxides. The resulting solutions are then filtered to collect the precipitates.
+
+**(a)** Explain the trend in the expected mass for the precipitates. `[2 marks]`
+
+**(b)** The table shows the solubility data for the Group 2 metal hydroxides.
+
+| Group 2 metal hydroxide | Solubility / $\mathrm{g\,dm^{-3}}$ at 20 °C |
+|---|---:|
+| Magnesium hydroxide | 0.140 |
+| Calcium hydroxide | 1.730 |
+| Strontium hydroxide | 17.70 |
+| Barium hydroxide | 38.90 |
+
+A student determined that a $50\ \mathrm{cm^3}$ solution of an unknown Group 2 metal hydroxide contained $802\ \mathrm{mg}$ of the metal hydroxide. Identify the metal hydroxide in the unknown sample. `[2 marks]`
+
+**(c)** Write an equation for the reaction between magnesium hydroxide and sulfuric acid. You should include state symbols. `[2 marks]`
+
+**(d)** The solubility of Group 2 hydroxides increases going down the group because the enthalpy of solution, $\Delta H^\ominus_{\mathrm{sol}}$, gets more exothermic.
+
+1. Define the term enthalpy of solution, $\Delta H^\ominus_{\mathrm{sol}}$. `[2 marks]`
+2. Explain why going down Group 2 the enthalpy of solution gets more exothermic. `[3 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)** Magnesium hydroxide gives the greatest mass of precipitate and the mass decreases down the group. This is because hydroxide solubility increases down Group 2, so more remains dissolved for the lower members. `[2]`
+- **(b)**
+
+  $$0.802\ \mathrm{g\ in\ }50\ \mathrm{cm^3}$$
+
+  $$0.802\times20=16.04\ \mathrm{g\,dm^{-3}}$$
+
+  The closest value is $17.70\ \mathrm{g\,dm^{-3}}$, so the unknown is $\ce{Sr(OH)2}$. `[2]`
+- **(c)**
+
+  $$\ce{Mg(OH)2(s) + H2SO4(aq) -> MgSO4(aq) + 2H2O(l)}$$ `[2]`
+- **(d)(1)** The enthalpy change when one mole of an ionic solid dissolves in sufficient water to form a dilute solution under standard conditions. `[2]`
+- **(d)(2)** Down the group, hydration enthalpy becomes less exothermic and lattice energy also becomes less exothermic. For hydroxides, the decrease in lattice energy is greater than the decrease in hydration enthalpy, so $\Delta H^\ominus_{\mathrm{sol}}$ becomes more negative or more exothermic. `[3]`
+</details>
+:::
+
+### 6.1 Group 2 (A Level Only) - Hard
+
+::: {.question-card}
+### Example 8 · Redox, ionisation energy and peroxide stability · 6.1 SQ Hard Q1
+
+This question is about magnesium.
+
+Magnesium forms a nitrate, $\ce{Mg(NO3)2}$, which decomposes on heating as shown below:
+
+$$\ce{2Mg(NO3)2(s) -> 2MgO(s) + 4NO2(g) + O2(g)}$$
+
+**(a)** Using oxidation numbers, explain why the reaction involves both oxidation and reduction. `[3 marks]`
+
+**(b)** The values for the first, second and third ionisation energies of magnesium are shown below.
+
+| Ionisation energy | Value / $\mathrm{kJ\,mol^{-1}}$ |
+|---|---:|
+| First ionisation energy | 738 |
+| Second ionisation energy | 1451 |
+| Third ionisation energy | 7732 |
+
+1. Write an equation for the second ionisation energy of magnesium. `[2 marks]`
+2. Explain the trend in the first three ionisation energies of magnesium. `[3 marks]`
+3. Explain why magnesium has a greater second ionisation energy than barium. `[3 marks]`
+
+**(c)** Metal peroxides contain the $\ce{O-O^{2-}}$ ion. The peroxides of the Group 2 elements, $\ce{MO2}$, decompose in a similar way to Group 2 metal carbonates.
+
+1. Write an equation for the thermal decomposition of strontium peroxide, $\ce{SrO2}$. `[1 mark]`
+2. Suggest how the temperature at which thermal decomposition of $\ce{MO2}$ occurs varies down Group 2. Explain your answer. `[3 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)** Nitrogen changes from $+5$ in nitrate to $+4$ in $\ce{NO2}$, so nitrogen is reduced. Oxygen changes from $-2$ to $0$ in $\ce{O2}$, so oxygen is oxidised. Both oxidation and reduction occur. `[3]`
+- **(b)(1)**
+
+  $$\ce{Mg+(g) -> Mg2+(g) + e-}$$
+
+  Correct equation and state symbols. `[2]`
+- **(b)(2)** Ionisation energies increase because the nuclear charge increases while shielding is similar. There is a large jump between the second and third ionisation energies because the third electron is removed from an inner-shell $2p$ orbital rather than the outer $3s$ orbital. `[3]`
+- **(b)(3)** Magnesium has a smaller ionic radius or fewer occupied shells than barium. There is less shielding and greater nuclear attraction for the second electron removed from magnesium. `[3]`
+- **(c)(1)**
+
+  $$\ce{2SrO2(s) -> 2SrO(s) + O2(g)}$$ `[1]`
+- **(c)(2)** The decomposition temperature increases down the group. The cation charge density decreases, so the peroxide ion is less polarised and the O–O bond is less weakened. `[3]`
+</details>
+:::
+
+::: {.question-card}
+### Example 9 · Hydroxide solubility and $K_{sp}$ · 6.1 SQ Hard Q2
+
+The table below shows the solubility data for the Group 2 metal hydroxides.
+
+| Group 2 metal hydroxide | Solubility / $\mathrm{g\,dm^{-3}}$ at 20 °C |
+|---|---:|
+| Magnesium hydroxide | 0.140 |
+| Calcium hydroxide | 1.730 |
+| Strontium hydroxide | 17.70 |
+| Barium hydroxide | 38.90 |
+
+**(a)** State and explain the factors responsible for the trend in the solubility of the Group 2 hydroxides. `[3 marks]`
+
+**(b)** Milk of magnesia, $\ce{Mg(OH)2}$, is used to neutralise stomach acid. Explain why $\ce{Mg(OH)2}$ cannot be used to test for carbon dioxide but $\ce{Ba(OH)2}$ can. `[2 marks]`
+
+**(c)**
+
+1. Write an expression for the solubility product of $\ce{Sr(OH)2}$. `[1 mark]`
+2. Use the solubility data above to calculate the value of $K_{sp}$ at 293 K. Include units and show your working. `[3 marks]`
+
+**(d)** Use the solubility data above to calculate the pH of a saturated solution of $\ce{Mg(OH)2}$ at 293 K. Show your working.
+
+  $K_w$ at 293 K $=0.681\times10^{-14}\ \mathrm{mol^2\,dm^{-6}}$. `[5 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)** The factors are lattice energy and hydration energy. Both decrease down the group, but lattice energy decreases more than hydration energy. Therefore the enthalpy of solution becomes more negative or more exothermic, and hydroxide solubility increases. `[3]`
+- **(b)** $\ce{Mg(OH)2}$ is not sufficiently soluble to give a clear solution. $\ce{Ba(OH)2}$ is soluble and reacts with carbon dioxide to form insoluble $\ce{BaCO3}$:
+
+  $$\ce{Ba(OH)2(aq) + CO2(g) -> BaCO3(s) + H2O(l)}$$ `[2]`
+- **(c)(1)**
+
+  $$K_{sp}=[\ce{Sr^{2+}}][\ce{OH^-}]^2$$ `[1]`
+- **(c)(2)**
+
+  $$[\ce{Sr(OH)2}]=\frac{17.70}{121.6}=0.146\ \mathrm{mol\,dm^{-3}}$$
+
+  $$[\ce{Sr^{2+}}]=0.146,\qquad [\ce{OH^-}]=2(0.146)$$
+
+  $$K_{sp}=(0.146)(2\times0.146)^2=0.012\ \mathrm{mol^3\,dm^{-9}}$$ `[3]`
+- **(d)**
+
+  $$[\ce{Mg(OH)2}]=\frac{0.140}{58.3}=0.0024\ \mathrm{mol\,dm^{-3}}$$
+
+  $$\ce{Mg(OH)2(s) <=> Mg^{2+}(aq) + 2OH-(aq)}$$
+
+  $$[\ce{OH^-}]=2(0.0024)=0.0048\ \mathrm{mol\,dm^{-3}}$$
+
+  $$K_w=[\ce{H+}][\ce{OH^-}]$$
+
+  $$[\ce{H+}]=\frac{0.681\times10^{-14}}{0.0048}=1.42\times10^{-12}\ \mathrm{mol\,dm^{-3}}$$
+
+  $$pH=-\log_{10}[\ce{H+}]=11.8\text{–}11.85$$ `[5]`
+</details>
+:::
+
+::: {.question-card}
+### Example 10 · Carbonate thermodynamics and $K_{sp}$ · 6.1 SQ Hard Q3
+
+Calcium carbonate can be thermally decomposed to make calcium oxide.
+
+$$\ce{CaCO3(s) -> CaO(s) + CO2(g)}\qquad \Delta H=+178\ \mathrm{kJ\,mol^{-1}}$$
+
+The standard entropies are:
+
+| Substance | $\mathrm{S^\ominus / J\,K^{-1}\,mol^{-1}}$ |
+|---|---:|
+| $\ce{CaCO3(s)}$ | 89 |
+| $\ce{CaO(s)}$ | 40 |
+| $\ce{CO2(g)}$ | 214 |
+
+**(a)**
+
+1. Use the information in the table to show that calcium carbonate is stable at room temperature ($25\ ^\circ\mathrm{C}$). `[4 marks]`
+2. Calculate the minimum temperature needed to decompose calcium carbonate. `[2 marks]`
+
+**(b)** Describe and explain the trend that is observed in the thermal decomposition of the Group 2 carbonates. `[3 marks]`
+
+**(c)**
+
+1. Write an equation to show the equilibrium for the solubility product of $\ce{CaCO3}$. Include state symbols. `[1 mark]`
+2. With reference to your equation in part (c)(1), suggest what is observed when a few $\mathrm{cm^3}$ of concentrated $\ce{K2CO3(aq)}$ are added to a saturated solution of $\ce{CaCO3}$. Explain your answer. `[2 marks]`
+
+**(d)** $\ce{CaCO3}$ has a solubility product, $K_{sp}$, in water at 298 K of $5\times10^{-9}\ \mathrm{mol^2\,dm^{-6}}$. Calculate the solubility of $\ce{CaCO3}$ in water at 298 K, in $\mathrm{g\,dm^{-3}}$. `[2 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary>
+
+- **(a)(1)**
+
+  $$\Delta S^\ominus=40+214-89=165\ \mathrm{J\,K^{-1}\,mol^{-1}}$$
+
+  Convert to $\mathrm{kJ\,K^{-1}\,mol^{-1}}$: $\Delta S^\ominus=0.165\ \mathrm{kJ\,K^{-1}\,mol^{-1}}$.
+
+  $$\Delta G^\ominus=\Delta H^\ominus-T\Delta S^\ominus$$
+
+  $$\Delta G^\ominus=178-(298\times0.165)=+129\ \mathrm{kJ\,mol^{-1}}$$
+
+  Since $\Delta G^\ominus$ is positive, decomposition is not feasible at room temperature and calcium carbonate is stable. `[4]`
+- **(a)(2)** At the minimum temperature, $\Delta G^\ominus=0$:
+
+  $$T=\frac{\Delta H^\ominus}{\Delta S^\ominus}=\frac{178}{0.165}=1079\ \mathrm{K}\approx806\ ^\circ\mathrm{C}$$ `[2]`
+- **(b)** Carbonates become more thermally stable down the group and need a higher temperature to decompose. The cation radius increases or charge density decreases, so polarisation of the carbonate ion and weakening of the C–O bonds decrease. `[3]`
+- **(c)(1)**
+
+  $$\ce{CaCO3(s) <=> Ca^{2+}(aq) + CO3^{2-}(aq)}$$ `[1]`
+- **(c)(2)** A white precipitate of calcium carbonate forms. Adding concentrated $\ce{K2CO3}$ increases $[\ce{CO3^{2-}}]$, so the equilibrium shifts left and more $\ce{CaCO3}$ precipitates. `[2]`
+- **(d)** For $\ce{CaCO3}$, $K_{sp}=s^2$:
+
+  $$s=\sqrt{5\times10^{-9}}=7.07\times10^{-5}\ \mathrm{mol\,dm^{-3}}$$
+
+  $$m=s\times M_r(\ce{CaCO3})=(7.07\times10^{-5})(100.1)$$
+
+  $$m=7.08\times10^{-3}\ \mathrm{g\,dm^{-3}}$$ `[2]`
+</details>
+:::

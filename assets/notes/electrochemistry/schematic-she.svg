@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Standard hydrogen electrode</title>
+  <desc id="desc">A clean schematic of the standard hydrogen electrode with platinum electrode, hydrogen gas and one molar hydrogen ions.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L9,3 L0,6 Z" fill="#2563eb"/></marker>
+    <style>
+      .ink{font-family:Arial,Helvetica,sans-serif;fill:#172033}.label{font-size:24px;font-weight:700}.small{font-size:20px}.title{font-size:34px;font-weight:700}.box{fill:#f8fbff;stroke:#94a3b8;stroke-width:2}.line{stroke:#334155;stroke-width:4;fill:none}.blue{stroke:#2563eb;stroke-width:4;fill:none}.water{fill:#bae6fd;stroke:#0284c7;stroke-width:3}.pt{fill:#475569;stroke:#0f172a;stroke-width:3}.gas{fill:#f8fafc;stroke:#64748b;stroke-width:3}.dot{fill:#ffffff;stroke:#0284c7;stroke-width:2}
+    </style>
+  </defs>
+  <rect width="1200" height="720" fill="#ffffff"/>
+  <text x="600" y="58" text-anchor="middle" class="ink title">The standard hydrogen electrode (SHE)</text>
+  <rect x="365" y="205" width="470" height="360" rx="8" class="water"/>
+  <path d="M365 205 Q600 225 835 205" fill="#bae6fd" stroke="#0284c7" stroke-width="3"/>
+  <text x="600" y="615" text-anchor="middle" class="ink small">acidic solution: [H⁺] = 1.00 mol dm⁻³</text>
+  <path d="M540 95 L540 440" class="line"/>
+  <path d="M660 95 L660 440" class="line"/>
+  <rect x="540" y="95" width="120" height="345" rx="55" class="gas"/>
+  <path d="M585 95 L585 365" stroke="#0f172a" stroke-width="8"/>
+  <path d="M585 365 L585 465" class="line"/>
+  <path d="M550 465 L620 465 L600 505 L570 505 Z" class="pt"/>
+  <circle cx="505" cy="420" r="8" class="dot"/><circle cx="530" cy="385" r="8" class="dot"/><circle cx="485" cy="350" r="8" class="dot"/>
+  <circle cx="515" cy="315" r="8" class="dot"/><circle cx="490" cy="280" r="8" class="dot"/>
+  <path d="M585 365 C565 340 565 315 585 290" class="blue" marker-end="url(#arrow)"/>
+  <path d="M585 290 C605 315 605 340 585 365" class="blue" marker-end="url(#arrow)"/>
+  <rect x="65" y="145" width="250" height="92" rx="12" class="box"/>
+  <text x="190" y="182" text-anchor="middle" class="ink label">H₂(g)</text><text x="190" y="212" text-anchor="middle" class="ink small">p = 101 kPa</text>
+  <path d="M315 190 L535 190" class="line" marker-end="url(#arrow)"/>
+  <rect x="855" y="118" width="275" height="96" rx="12" class="box"/>
+  <text x="992" y="157" text-anchor="middle" class="ink label">platinum wire</text><text x="992" y="187" text-anchor="middle" class="ink small">external conductor</text>
+  <path d="M855 190 L665 190" class="line" marker-end="url(#arrow)"/>
+  <rect x="70" y="365" width="260" height="100" rx="12" class="box"/>
+  <text x="200" y="405" text-anchor="middle" class="ink label">Pt electrode</text><text x="200" y="437" text-anchor="middle" class="ink small">inert conductor</text>
+  <path d="M330 415 L545 475" class="line" marker-end="url(#arrow)"/>
+  <rect x="865" y="350" width="260" height="106" rx="12" class="box"/>
+  <text x="995" y="390" text-anchor="middle" class="ink label">298 K</text><text x="995" y="422" text-anchor="middle" class="ink small">standard conditions</text>
+  <path d="M865 405 L730 405" class="line" marker-end="url(#arrow)"/>
+  <text x="600" y="680" text-anchor="middle" class="ink small">2H⁺(aq) + 2e⁻ ⇌ H₂(g)      E° = 0.00 V</text>
+</svg>

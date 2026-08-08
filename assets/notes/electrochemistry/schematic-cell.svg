@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">Zinc copper galvanic cell</title>
+  <desc id="desc">A zinc copper galvanic cell showing salt bridge, electron flow, oxidation at the anode and reduction at the cathode.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto"><path d="M0,0 L11,4 L0,8 Z" fill="#2563eb"/></marker><style>.ink{font-family:Arial,Helvetica,sans-serif;fill:#172033}.title{font-size:34px;font-weight:700}.head{font-size:25px;font-weight:700}.txt{font-size:21px}.small{font-size:19px}.box{fill:#f8fbff;stroke:#94a3b8;stroke-width:2}.beaker{fill:#bae6fd;stroke:#0284c7;stroke-width:3}.metal{stroke:#334155;stroke-width:14}.wire{stroke:#334155;stroke-width:5;fill:none}.electron{stroke:#2563eb;stroke-width:5;fill:none;marker-end:url(#a)}.salt{fill:#fef3c7;stroke:#d97706;stroke-width:3}</style></defs>
+  <rect width="1400" height="760" fill="#fff"/><text x="700" y="52" text-anchor="middle" class="ink title">A simple galvanic cell: Zn / Cu</text>
+  <path d="M300 210 L300 585 L575 585 L575 210" class="beaker"/><path d="M825 210 L825 585 L1100 585 L1100 210" class="beaker"/>
+  <path d="M300 210 Q438 225 575 210" fill="#bae6fd" stroke="#0284c7" stroke-width="3"/><path d="M825 210 Q962 225 1100 210" fill="#bae6fd" stroke="#0284c7" stroke-width="3"/>
+  <line x1="438" y1="145" x2="438" y2="495" class="metal"/><line x1="962" y1="145" x2="962" y2="495" class="metal"/>
+  <path d="M438 145 L438 100 L650 100 L650 75 L750 75 L750 100 L962 100 L962 145" class="wire"/>
+  <rect x="650" y="45" width="100" height="60" rx="10" class="box"/><text x="700" y="82" text-anchor="middle" class="ink txt">V</text>
+  <path d="M438 125 L930 125" class="electron"/><text x="700" y="145" text-anchor="middle" class="ink small">electron flow in external circuit</text>
+  <path d="M575 230 C660 170 740 170 825 230 L825 280 C740 220 660 220 575 280 Z" class="salt"/><text x="700" y="205" text-anchor="middle" class="ink txt">salt bridge</text>
+  <path d="M620 250 L620 300" class="electron"/><path d="M780 300 L780 250" class="electron"/>
+  <text x="438" y="635" text-anchor="middle" class="ink head">Zn electrode</text><text x="438" y="670" text-anchor="middle" class="ink txt">anode, negative pole</text><text x="438" y="704" text-anchor="middle" class="ink txt">Zn → Zn²⁺ + 2e⁻</text>
+  <text x="962" y="635" text-anchor="middle" class="ink head">Cu electrode</text><text x="962" y="670" text-anchor="middle" class="ink txt">cathode, positive pole</text><text x="962" y="704" text-anchor="middle" class="ink txt">Cu²⁺ + 2e⁻ → Cu</text>
+  <text x="438" y="260" text-anchor="middle" class="ink txt">Zn²⁺(aq)</text><text x="962" y="260" text-anchor="middle" class="ink txt">Cu²⁺(aq)</text>
+</svg>

@@ -1,0 +1,63 @@
+<script>
+(() => {
+  const sectionOrder = [
+    'properties-of-transition-elements-a-level-only---easy',
+    'example-1-definitions-and-electron-configurations-6.2-sq-easy-q1',
+    'example-2-ligands-and-geometries-6.2-sq-easy-q2',
+    'example-3-d-orbitals-and-splitting-6.2-sq-easy-q3',
+    'properties-of-transition-elements-a-level-only---medium',
+    'example-4-monodentate-ligands-colour-and-isomerism-6.2-sq-medium-q1',
+    'example-5-copper-complexes-and-catalysis-6.2-sq-medium-q2',
+    'example-6-stability-constants-and-copper-colours-6.2-sq-medium-q3',
+    'example-7-variable-oxidation-states-and-coloured-complexes-6.2-sq-medium-q4',
+    'properties-of-transition-elements-a-level-only---hard',
+    'transition-element-complexes-isomers-reactions-stability-a-level-only---easy',
+    'example-8-copper-ligand-exchange-6.3-sq-easy-q1',
+    'example-9-electrode-potentials-and-permanganate-6.3-sq-easy-q2q3',
+    'transition-element-complexes-isomers-reactions-stability-a-level-only---medium',
+    'example-10-catalysis-and-redox-potentials-6.3-sq-medium-q1',
+    'example-11-complex-ions-and-stereoisomerism-6.3-sq-medium-q2',
+    'example-12-cobalt-complexes-and-ligand-exchange-6.3-sq-medium-q3',
+    'example-13-cobalt-stereoisomerism-and-colour-6.3-sq-medium-q4',
+    'transition-element-complexes-isomers-reactions-stability-a-level-only---hard',
+    'example-14-platinum-complexes-and-stereoisomerism-6.3-sq-hard-q1',
+    'example-15-chromium-complexes-edta-and-empirical-formulae-6.3-sq-hard-q2',
+    'example-16-iron-supplements-and-redox-titration-6.3-sq-hard-q3',
+    'example-17-ethanedioic-acid-and-permanganate-titration-6.3-sq-hard-q4',
+    'original-question-pdfs'
+  ];
+
+  const structured = document.getElementById('chemistry-of-transition-elements-structured-questions');
+  if (!structured) return;
+
+  const order = new Map(sectionOrder.map((id, index) => [id, index]));
+  const moveInOrder = (parent, selector) => {
+    [...parent.querySelectorAll(`:scope > ${selector}`)]
+      .sort((a, b) => (order.get(a.id) ?? 9999) - (order.get(b.id) ?? 9999))
+      .forEach(node => parent.appendChild(node));
+  };
+
+  moveInOrder(structured, 'section');
+
+  const tocRoot = document.getElementById('toc-chemistry-of-transition-elements-structured-questions');
+  const tocList = tocRoot?.parentElement?.querySelector(':scope > ul');
+  if (tocList) {
+    [...tocList.children]
+      .sort((a, b) => {
+        const aId = a.querySelector(':scope > a')?.getAttribute('href')?.slice(1);
+        const bId = b.querySelector(':scope > a')?.getAttribute('href')?.slice(1);
+        return (order.get(aId) ?? 9999) - (order.get(bId) ?? 9999);
+      })
+      .forEach(node => tocList.appendChild(node));
+  }
+
+  const replaceText = node => {
+    if (node.nodeType === Node.TEXT_NODE) {
+      node.nodeValue = node.nodeValue.replace(/\u001a/g, '→');
+    } else {
+      node.childNodes.forEach(replaceText);
+    }
+  };
+  replaceText(structured);
+})();
+</script>
