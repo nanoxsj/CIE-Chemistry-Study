@@ -1,0 +1,1569 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hans" xml:lang="zh-Hans"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>25 Equilibria – CIE Chemistry 9701</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../a-level/26-reaction-kinetics.html" rel="next">
+<link href="../a-level/24-electrochemistry.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a2a938b4dd5711f7a799c87bd16ba44c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "没有结果",
+    "search-matching-documents-text": "匹配的文档",
+    "search-copy-link-title": "复制搜索链接",
+    "search-hide-matches-text": "隐藏其它匹配结果",
+    "search-more-match-text": "更多匹配结果",
+    "search-more-matches-text": "更多匹配结果",
+    "search-clear-button-title": "清除",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "提交",
+    "search-label": "搜索"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../a-level/23-chemical-energetics.html">A Level</a></li><li class="breadcrumb-item"><a href="../a-level/25-equilibria.html">25 Equilibria</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="搜索" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">CIE Chemistry 9701</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="搜索"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">学习首页</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">A Level</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/23-chemical-energetics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">23 Chemical energetics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/24-electrochemistry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">24 Electrochemistry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/25-equilibria.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">25 Equilibria</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/26-reaction-kinetics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">26 Reaction kinetics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/27-group-2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">27 Group 2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/28-transition-elements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">28 Chemistry of transition elements</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">该页面内容</h2>
+   
+  <ul>
+  <li><a href="#equilibria" id="toc-equilibria" class="nav-link active" data-scroll-target="#equilibria">25 Equilibria</a>
+  <ul class="collapse">
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
+  <li><a href="#acids-and-bases" id="toc-acids-and-bases" class="nav-link" data-scroll-target="#acids-and-bases">25.1 Acids and bases</a>
+  <ul class="collapse">
+  <li><a href="#brønstedlowry-acids-bases-and-conjugate-pairs" id="toc-brønstedlowry-acids-bases-and-conjugate-pairs" class="nav-link" data-scroll-target="#brønstedlowry-acids-bases-and-conjugate-pairs">Brønsted–Lowry acids, bases and conjugate pairs</a></li>
+  <li><a href="#ph-k_a-pk_a-and-k_w" id="toc-ph-k_a-pk_a-and-k_w" class="nav-link" data-scroll-target="#ph-k_a-pk_a-and-k_w">pH, <span class="math inline">\(K_a\)</span>, p<span class="math inline">\(K_a\)</span> and <span class="math inline">\(K_w\)</span></a></li>
+  <li><a href="#buffer-solutions" id="toc-buffer-solutions" class="nav-link" data-scroll-target="#buffer-solutions">Buffer solutions</a></li>
+  <li><a href="#buffer-calculation-formula" id="toc-buffer-calculation-formula" class="nav-link" data-scroll-target="#buffer-calculation-formula">Buffer calculation formula</a></li>
+  <li><a href="#solubility-products-and-the-common-ion-effect" id="toc-solubility-products-and-the-common-ion-effect" class="nav-link" data-scroll-target="#solubility-products-and-the-common-ion-effect">Solubility products and the common-ion effect</a></li>
+  </ul></li>
+  <li><a href="#partition-coefficients" id="toc-partition-coefficients" class="nav-link" data-scroll-target="#partition-coefficients">25.2 Partition coefficients</a>
+  <ul class="collapse">
+  <li><a href="#definition-and-calculation-of-k_pc" id="toc-definition-and-calculation-of-k_pc" class="nav-link" data-scroll-target="#definition-and-calculation-of-k_pc">Definition and calculation of <span class="math inline">\(K_{pc}\)</span></a></li>
+  </ul></li>
+  <li><a href="#chapter-checklist" id="toc-chapter-checklist" class="nav-link" data-scroll-target="#chapter-checklist">Chapter checklist</a></li>
+  <li><a href="#structured-questions" id="toc-structured-questions" class="nav-link" data-scroll-target="#structured-questions">Structured questions</a></li>
+  </ul></li>
+  <li><a href="#equilibria---structured-questions" id="toc-equilibria---structured-questions" class="nav-link" data-scroll-target="#equilibria---structured-questions">25 Equilibria - Structured Questions</a>
+  <ul class="collapse">
+  <li><a href="#equilibria-a-level-only---easy" id="toc-equilibria-a-level-only---easy" class="nav-link" data-scroll-target="#equilibria-a-level-only---easy">5.5 Equilibria (A Level Only) - Easy</a></li>
+  <li><a href="#example-1-silver-chloride-and-ironii-hydroxide-k_sp-5.5-sq-easy-q1" id="toc-example-1-silver-chloride-and-ironii-hydroxide-k_sp-5.5-sq-easy-q1" class="nav-link" data-scroll-target="#example-1-silver-chloride-and-ironii-hydroxide-k_sp-5.5-sq-easy-q1">Example 1 · Silver chloride and iron(II) hydroxide <span class="math inline">\(K_{sp}\)</span> · 5.5 SQ Easy Q1</a></li>
+  <li><a href="#example-2-ethylamine-partition-coefficient-5.5-sq-easy-q2" id="toc-example-2-ethylamine-partition-coefficient-5.5-sq-easy-q2" class="nav-link" data-scroll-target="#example-2-ethylamine-partition-coefficient-5.5-sq-easy-q2">Example 2 · Ethylamine partition coefficient · 5.5 SQ Easy Q2</a></li>
+  <li><a href="#example-3-compound-a-partition-coefficient-5.5-sq-easy-q2c" id="toc-example-3-compound-a-partition-coefficient-5.5-sq-easy-q2c" class="nav-link" data-scroll-target="#example-3-compound-a-partition-coefficient-5.5-sq-easy-q2c">Example 3 · Compound A partition coefficient · 5.5 SQ Easy Q2(c)</a></li>
+  <li><a href="#example-4-common-ion-effect-in-silver-bromide-5.5-sq-easy-q3" id="toc-example-4-common-ion-effect-in-silver-bromide-5.5-sq-easy-q3" class="nav-link" data-scroll-target="#example-4-common-ion-effect-in-silver-bromide-5.5-sq-easy-q3">Example 4 · Common-ion effect in silver bromide · 5.5 SQ Easy Q3</a></li>
+  <li><a href="#example-5-propanoic-acid-buffer-5.5-sq-easy-q4" id="toc-example-5-propanoic-acid-buffer-5.5-sq-easy-q4" class="nav-link" data-scroll-target="#example-5-propanoic-acid-buffer-5.5-sq-easy-q4">Example 5 · Propanoic acid buffer · 5.5 SQ Easy Q4</a></li>
+  <li><a href="#example-6-strong-and-weak-acid-ph-5.5-sq-easy-q5" id="toc-example-6-strong-and-weak-acid-ph-5.5-sq-easy-q5" class="nav-link" data-scroll-target="#example-6-strong-and-weak-acid-ph-5.5-sq-easy-q5">Example 6 · Strong and weak acid pH · 5.5 SQ Easy Q5</a></li>
+  <li><a href="#equilibria-a-level-only---medium" id="toc-equilibria-a-level-only---medium" class="nav-link" data-scroll-target="#equilibria-a-level-only---medium">5.5 Equilibria (A Level Only) - Medium</a></li>
+  <li><a href="#example-7-ammonia-partition-coefficient-and-polarity-5.5-sq-medium-q1a" id="toc-example-7-ammonia-partition-coefficient-and-polarity-5.5-sq-medium-q1a" class="nav-link" data-scroll-target="#example-7-ammonia-partition-coefficient-and-polarity-5.5-sq-medium-q1a">Example 7 · Ammonia partition coefficient and polarity · 5.5 SQ Medium Q1(a)</a></li>
+  <li><a href="#example-8-piperidine-titration-and-conjugate-acid-salts-5.5-sq-medium-q3" id="toc-example-8-piperidine-titration-and-conjugate-acid-salts-5.5-sq-medium-q3" class="nav-link" data-scroll-target="#example-8-piperidine-titration-and-conjugate-acid-salts-5.5-sq-medium-q3">Example 8 · Piperidine titration and conjugate acid salts · 5.5 SQ Medium Q3</a></li>
+  <li><a href="#example-9-buffers-and-bicarbonate-equilibrium-5.5-sq-medium-q4" id="toc-example-9-buffers-and-bicarbonate-equilibrium-5.5-sq-medium-q4" class="nav-link" data-scroll-target="#example-9-buffers-and-bicarbonate-equilibrium-5.5-sq-medium-q4">Example 9 · Buffers and bicarbonate equilibrium · 5.5 SQ Medium Q4</a></li>
+  <li><a href="#example-10-k_sp-precipitation-and-common-ions-5.5-sq-medium-q5" id="toc-example-10-k_sp-precipitation-and-common-ions-5.5-sq-medium-q5" class="nav-link" data-scroll-target="#example-10-k_sp-precipitation-and-common-ions-5.5-sq-medium-q5">Example 10 · <span class="math inline">\(K_{sp}\)</span> precipitation and common ions · 5.5 SQ Medium Q5</a></li>
+  <li><a href="#equilibria-a-level-only---hard" id="toc-equilibria-a-level-only---hard" class="nav-link" data-scroll-target="#equilibria-a-level-only---hard">5.5 Equilibria (A Level Only) - Hard</a></li>
+  <li><a href="#example-11-sulfuric-acid-dissociation-and-benzoic-acid-ph-5.5-sq-hard-q1bd" id="toc-example-11-sulfuric-acid-dissociation-and-benzoic-acid-ph-5.5-sq-hard-q1bd" class="nav-link" data-scroll-target="#example-11-sulfuric-acid-dissociation-and-benzoic-acid-ph-5.5-sq-hard-q1bd">Example 11 · Sulfuric acid dissociation and benzoic acid pH · 5.5 SQ Hard Q1(b–d)</a></li>
+  <li><a href="#example-12-isocyanic-acid-and-weak-acid-titration-5.5-sq-hard-q2bc" id="toc-example-12-isocyanic-acid-and-weak-acid-titration-5.5-sq-hard-q2bc" class="nav-link" data-scroll-target="#example-12-isocyanic-acid-and-weak-acid-titration-5.5-sq-hard-q2bc">Example 12 · Isocyanic acid and weak-acid titration · 5.5 SQ Hard Q2(b–c)</a></li>
+  <li><a href="#example-13-buffer-calculations-and-buffer-action-5.5-sq-hard-q3" id="toc-example-13-buffer-calculations-and-buffer-action-5.5-sq-hard-q3" class="nav-link" data-scroll-target="#example-13-buffer-calculations-and-buffer-action-5.5-sq-hard-q3">Example 13 · Buffer calculations and buffer action · 5.5 SQ Hard Q3</a></li>
+  <li><a href="#original-question-pdfs" id="toc-original-question-pdfs" class="nav-link" data-scroll-target="#original-question-pdfs">Original question PDFs</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../a-level/23-chemical-energetics.html">A Level</a></li><li class="breadcrumb-item"><a href="../a-level/25-equilibria.html">25 Equilibria</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">25 Equilibria</h1>
+<p class="subtitle lead">Acids and bases, buffers, solubility products, common-ion effect and partition coefficients</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="equilibria" class="level1">
+<h1>25 Equilibria</h1>
+<p>本章按 CIE 2025–2027 syllabus 的章节编号组织为 <strong>25.1 Acids and bases</strong> 与 <strong>25.2 Partition coefficients</strong>。题目来源仍保留旧专题题包的 <code>5.5 Equilibria (A Level Only)</code> 作为 source label，但页面知识点使用新考纲编号；不混入 AS 7.1 Chemical Equilibria，也不加入不属于 25 的旧题主题。</p>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
+<p>学完本章后，你应该能够：</p>
+<ul>
+<li>explain Brønsted–Lowry acids and bases and identify conjugate acid–base pairs;</li>
+<li>use <span class="math inline">\(pH=-\log_{10}[\ce{H+}]\)</span>, <span class="math inline">\(K_a\)</span>, p<span class="math inline">\(K_a\)</span> and <span class="math inline">\(K_w\)</span>;</li>
+<li>distinguish strong acids, strong alkalis and weak acids, and calculate their pH values;</li>
+<li>define buffer solutions, explain how they resist pH change and calculate their pH;</li>
+<li>explain the bicarbonate buffer system in blood;</li>
+<li>write <span class="math inline">\(K_{sp}\)</span> expressions, calculate <span class="math inline">\(K_{sp}\)</span> or solubility, and use the common-ion effect;</li>
+<li>decide whether a precipitate forms by comparing the ionic product with <span class="math inline">\(K_{sp}\)</span>;</li>
+<li>define <span class="math inline">\(K_{pc}\)</span>, calculate it from equilibrium concentrations and explain its value using solute and solvent polarity.</li>
+</ul>
+</section>
+<section id="acids-and-bases" class="level2">
+<h2 class="anchored" data-anchor-id="acids-and-bases">25.1 Acids and bases</h2>
+<section id="brønstedlowry-acids-bases-and-conjugate-pairs" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="brønstedlowry-acids-bases-and-conjugate-pairs">Brønsted–Lowry acids, bases and conjugate pairs</h3>
+<p>在 Brønsted–Lowry 定义中，<strong>an acid is a proton donor</strong>，而 <strong>a base is a proton acceptor</strong>。酸失去一个质子后形成它的 <strong>conjugate base</strong>；碱接受一个质子后形成它的 <strong>conjugate acid</strong>。</p>
+<p>例如：</p>
+<p><span class="math display">\[\ce{HCl + H2O -&gt; Cl- + H3O+}\]</span></p>
+<p>这里 <span class="math inline">\(\ce{HCl/Cl-}\)</span> 是一对 conjugate acid–base pair，<span class="math inline">\(\ce{H2O/H3O+}\)</span> 是另一对。conjugate pair 只相差一个 <span class="math inline">\(\ce{H+}\)</span>。</p>
+<p>对弱酸：</p>
+<p><span class="math display">\[\ce{HA(aq) &lt;=&gt; H+(aq) + A-(aq)}\]</span></p>
+<p><span class="math inline">\(\ce{HA}\)</span> 是 acid，<span class="math inline">\(\ce{A-}\)</span> 是 conjugate base。平衡向右的程度越大，酸越强。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/equilibria/note-conjugate-acid-base.webp" class="concept-figure img-fluid figure-img" alt="Conjugate acid-base pairs and proton transfer"></p>
+<figcaption>Conjugate acid–base pairs and proton transfer</figcaption>
+</figure>
+</div>
+</section>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · 笔记例题</span></p>
+<section id="identifying-conjugate-acidbase-pairs" class="level3">
+<h3 class="anchored" data-anchor-id="identifying-conjugate-acidbase-pairs">Identifying conjugate acid–base pairs</h3>
+<p><strong>Identify the conjugate acid-base pairs in the following equilibrium reaction:</strong></p>
+<p><span class="math display">\[\ce{NH3(g) + H2O(l) &lt;=&gt; NH4+(aq) + OH-(aq)}\]</span></p>
+<div class="we-answer">
+<p><strong>Forward reaction:</strong></p>
+<ol type="1">
+<li><span class="math inline">\(\ce{NH3}\)</span> accepts a proton to form <span class="math inline">\(\ce{NH4+}\)</span>. Therefore, <span class="math inline">\(\ce{NH4+}\)</span> is the conjugate acid of <span class="math inline">\(\ce{NH3}\)</span>.</li>
+<li><span class="math inline">\(\ce{H2O}\)</span> donates a proton to form <span class="math inline">\(\ce{OH-}\)</span>. Therefore, <span class="math inline">\(\ce{OH-}\)</span> is the conjugate base of <span class="math inline">\(\ce{H2O}\)</span>.</li>
+</ol>
+<p><strong>Reverse reaction:</strong></p>
+<ol start="3" type="1">
+<li><span class="math inline">\(\ce{NH4+}\)</span> donates a proton to form <span class="math inline">\(\ce{NH3}\)</span>. Therefore, <span class="math inline">\(\ce{NH3}\)</span> is the conjugate base of <span class="math inline">\(\ce{NH4+}\)</span>.</li>
+<li><span class="math inline">\(\ce{OH-}\)</span> accepts a proton to form <span class="math inline">\(\ce{H2O}\)</span>. Therefore, <span class="math inline">\(\ce{H2O}\)</span> is the conjugate acid of <span class="math inline">\(\ce{OH-}\)</span>.</li>
+</ol>
+<p><strong>Final answer:</strong> the conjugate acid-base pairs are <span class="math inline">\(\ce{NH3/NH4+}\)</span> and <span class="math inline">\(\ce{H2O/OH-}\)</span>.</p>
+</div>
+</section>
+</div>
+<section id="ph-k_a-pk_a-and-k_w" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="ph-k_a-pk_a-and-k_w">pH, <span class="math inline">\(K_a\)</span>, p<span class="math inline">\(K_a\)</span> and <span class="math inline">\(K_w\)</span></h3>
+<p>对水溶液：</p>
+<p><span class="math display">\[pH=-\log_{10}[\ce{H+}]\]</span></p>
+<p><span class="math display">\[[\ce{H+}]=10^{-pH}\]</span></p>
+<p>弱酸的 acid dissociation constant 为：</p>
+<p><span class="math display">\[K_a=\frac{[\ce{H+}][\ce{A-}]}{[\ce{HA}]}\]</span></p>
+<p><span class="math display">\[pK_a=-\log_{10}K_a\]</span></p>
+<p><span class="math inline">\(K_a\)</span> 越大，酸越强；p<span class="math inline">\(K_a\)</span> 越小，酸越强。水的离子积为：</p>
+<p><span class="math display">\[K_w=[\ce{H+}][\ce{OH-}]=1.00\times10^{-14}\quad (298\ \mathrm{K})\]</span></p>
+<p>因此：</p>
+<p><span class="math display">\[[\ce{OH-}]=\frac{K_w}{[\ce{H+}]}\]</span></p>
+<p>考纲本节不要求使用 <span class="math inline">\(K_b\)</span>，也不要求使用 <span class="math inline">\(K_w=K_aK_b\)</span>。</p>
+</section>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · 笔记例题</span></p>
+<section id="calculating-the-ph-of-acids" class="level3">
+<h3 class="anchored" data-anchor-id="calculating-the-ph-of-acids">Calculating the pH of acids</h3>
+<p><strong>Calculate the pH of ethanoic acid, at 298 K, when the hydrogen ion concentration is <span class="math inline">\(1.32\times10^{-3}\ \mathrm{mol\,dm^{-3}}\)</span>.</strong></p>
+<div class="we-answer">
+<p>Use the definition of pH:</p>
+<p><span class="math display">\[pH=-\log_{10}[\ce{H+}]\]</span></p>
+<p>Substitute the hydrogen ion concentration:</p>
+<p><span class="math display">\[pH=-\log(1.32\times10^{-3})\]</span></p>
+<p><span class="math display">\[pH=2.9\]</span></p>
+<p><strong>Final answer:</strong> <span class="math inline">\(pH=2.9\)</span>.</p>
+</div>
+</section>
+</div>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · 笔记例题</span></p>
+<section id="calculating-k_a-and-pk_a-of-a-weak-acid" class="level3">
+<h3 class="anchored" data-anchor-id="calculating-k_a-and-pk_a-of-a-weak-acid">Calculating <span class="math inline">\(K_a\)</span> and p<span class="math inline">\(K_a\)</span> of a weak acid</h3>
+<p><strong>Calculate the <span class="math inline">\(K_a\)</span> and p<span class="math inline">\(K_a\)</span> values of <span class="math inline">\(0.100\ \mathrm{mol\,dm^{-3}}\)</span> ethanoic acid at 298 K which forms <span class="math inline">\(1.32\times10^{-3}\ \mathrm{mol\,dm^{-3}}\)</span> of <span class="math inline">\(\ce{H+}\)</span> ions in solution.</strong></p>
+<div class="we-answer">
+<p>Write the dissociation equilibrium:</p>
+<p><span class="math display">\[\ce{CH3COOH(aq) &lt;=&gt; H+(aq) + CH3COO-(aq)}\]</span></p>
+<p>Write the expression for <span class="math inline">\(K_a\)</span>:</p>
+<p><span class="math display">\[K_a=\frac{[\ce{H+}][\ce{CH3COO-}]}{[\ce{CH3COOH}]}\]</span></p>
+<p>The ratio of <span class="math inline">\(\ce{H+}\)</span> to <span class="math inline">\(\ce{CH3COO-}\)</span> formed is 1:1, so:</p>
+<p><span class="math display">\[K_a=\frac{[\ce{H+}]^2}{[\ce{CH3COOH}]}\]</span></p>
+<p>Substitute the concentrations:</p>
+<p><span class="math display">\[K_a=\frac{(1.32\times10^{-3})^2}{0.100}\]</span></p>
+<p><span class="math display">\[K_a=1.74\times10^{-5}\ \mathrm{mol\,dm^{-3}}\]</span></p>
+<p>The units are:</p>
+<p><span class="math display">\[K_a=\frac{(\mathrm{mol\,dm^{-3}})^2}{\mathrm{mol\,dm^{-3}}}=\mathrm{mol\,dm^{-3}}\]</span></p>
+<p>Now calculate p<span class="math inline">\(K_a\)</span>:</p>
+<p><span class="math display">\[pK_a=-\log_{10}K_a\]</span></p>
+<p><span class="math display">\[pK_a=-\log_{10}(1.74\times10^{-5})=4.76\]</span></p>
+<p><strong>Final answer:</strong> <span class="math inline">\(K_a=1.74\times10^{-5}\ \mathrm{mol\,dm^{-3}}\)</span> and p<span class="math inline">\(K_a=4.76\)</span>.</p>
+</div>
+</section>
+</div>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · 笔记例题</span></p>
+<section id="calculating-the-concentration-of-ceh-in-pure-water" class="level3">
+<h3 class="anchored" data-anchor-id="calculating-the-concentration-of-ceh-in-pure-water">Calculating the concentration of <span class="math inline">\(\ce{H+}\)</span> in pure water</h3>
+<p><strong>Calculate the concentration of <span class="math inline">\(\ce{H+}\)</span> in pure water, using the ionic product of water.</strong></p>
+<div class="we-answer">
+<p>The ionisation of water is:</p>
+<p><span class="math display">\[\ce{H2O(l) &lt;=&gt; H+(aq) + OH-(aq)}\]</span></p>
+<p>The ionic product of water is:</p>
+<p><span class="math display">\[K_w=\frac{[\ce{H+}][\ce{OH-}]}{[\ce{H2O}]}\]</span></p>
+<p>Because the concentration of water is approximately constant, it is included in the constant:</p>
+<p><span class="math display">\[K_w=[\ce{H+}][\ce{OH-}]\]</span></p>
+<p>In pure water, <span class="math inline">\([\ce{H+}]=[\ce{OH-}]\)</span>, so:</p>
+<p><span class="math display">\[K_w=[\ce{H+}]^2\]</span></p>
+<p>Rearrange and substitute:</p>
+<p><span class="math display">\[[\ce{H+}]=\sqrt{K_w}=\sqrt{1.00\times10^{-14}}\]</span></p>
+<p><span class="math display">\[[\ce{H+}]=1.00\times10^{-7}\ \mathrm{mol\,dm^{-3}}\]</span></p>
+<p><strong>Final answer:</strong> <span class="math inline">\([\ce{H+}]=1.00\times10^{-7}\ \mathrm{mol\,dm^{-3}}\)</span>.</p>
+</div>
+</section>
+</div>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · 笔记例题</span></p>
+<section id="ph-calculations-of-a-strong-acid" class="level3">
+<h3 class="anchored" data-anchor-id="ph-calculations-of-a-strong-acid">pH calculations of a strong acid</h3>
+<p><strong>For a solution of hydrochloric acid, calculate the following:</strong></p>
+<p><strong>1. The pH when the hydrogen ion concentration is <span class="math inline">\(1.6\times10^{-4}\ \mathrm{mol\,dm^{-3}}\)</span>.</strong></p>
+<p><strong>2. The hydrogen ion concentration when the pH is 3.1.</strong></p>
+<div class="we-answer">
+<p>Hydrochloric acid is a strong monobasic acid:</p>
+<p><span class="math display">\[\ce{HCl(aq) -&gt; H+(aq) + Cl-(aq)}\]</span></p>
+<p><strong>1. Calculate the pH:</strong></p>
+<p><span class="math display">\[pH=-\log[\ce{H+}]\]</span></p>
+<p><span class="math display">\[pH=-\log(1.6\times10^{-4})\]</span></p>
+<p><span class="math display">\[pH=3.80\]</span></p>
+<p><strong>2. Calculate the hydrogen ion concentration:</strong></p>
+<p><span class="math display">\[pH=-\log[\ce{H+}]\]</span></p>
+<p><span class="math display">\[[\ce{H+}]=10^{-pH}\]</span></p>
+<p><span class="math display">\[[\ce{H+}]=10^{-3.1}\]</span></p>
+<p><span class="math display">\[[\ce{H+}]=7.9\times10^{-4}\ \mathrm{mol\,dm^{-3}}\]</span></p>
+<p><strong>Final answer:</strong> 1. <span class="math inline">\(pH=3.80\)</span>; 2. <span class="math inline">\([\ce{H+}]=7.9\times10^{-4}\ \mathrm{mol\,dm^{-3}}\)</span>.</p>
+</div>
+</section>
+</div>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · 笔记例题</span></p>
+<section id="ph-calculations-of-a-strong-alkali" class="level3">
+<h3 class="anchored" data-anchor-id="ph-calculations-of-a-strong-alkali">pH calculations of a strong alkali</h3>
+<p><strong>For a solution of sodium hydroxide, calculate the following:</strong></p>
+<p><strong>1. The pH when the hydrogen ion concentration is <span class="math inline">\(3.5\times10^{-11}\ \mathrm{mol\,dm^{-3}}\)</span>.</strong></p>
+<p><strong>2. The hydroxide ion concentration when the pH is 12.3.</strong></p>
+<div class="we-answer">
+<p>Sodium hydroxide is a strong base:</p>
+<p><span class="math display">\[\ce{NaOH(aq) -&gt; Na+(aq) + OH-(aq)}\]</span></p>
+<p><strong>1. Calculate the pH:</strong></p>
+<p><span class="math display">\[pH=-\log[\ce{H+}]\]</span></p>
+<p><span class="math display">\[pH=-\log(3.5\times10^{-11})\]</span></p>
+<p><span class="math display">\[pH=10.5\]</span></p>
+<p><strong>2. Calculate the hydroxide ion concentration:</strong></p>
+<p>First calculate <span class="math inline">\([\ce{H+}]\)</span> from the pH:</p>
+<p><span class="math display">\[[\ce{H+}]=10^{-pH}=10^{-12.3}=5.01\times10^{-13}\ \mathrm{mol\,dm^{-3}}\]</span></p>
+<p>Use the ionic product of water:</p>
+<p><span class="math display">\[K_w=[\ce{H+}][\ce{OH-}]\]</span></p>
+<p><span class="math display">\[[\ce{OH-}]=\frac{K_w}{[\ce{H+}]}\]</span></p>
+<p><span class="math display">\[[\ce{OH-}]=\frac{1.00\times10^{-14}}{5.01\times10^{-13}}\]</span></p>
+<p><span class="math display">\[[\ce{OH-}]=0.0199\ \mathrm{mol\,dm^{-3}}\]</span></p>
+<p><strong>Final answer:</strong> 1. <span class="math inline">\(pH=10.5\)</span>; 2. <span class="math inline">\([\ce{OH-}]=0.0199\ \mathrm{mol\,dm^{-3}}\)</span>.</p>
+</div>
+</section>
+</div>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · 笔记例题</span></p>
+<section id="ph-calculations-of-weak-acids" class="level3">
+<h3 class="anchored" data-anchor-id="ph-calculations-of-weak-acids">pH calculations of weak acids</h3>
+<p><strong>Calculate the pH of <span class="math inline">\(0.100\ \mathrm{mol\,dm^{-3}}\)</span> ethanoic acid at 298 K with a <span class="math inline">\(K_a\)</span> value of <span class="math inline">\(1.74\times10^{-5}\ \mathrm{mol\,dm^{-3}}\)</span>.</strong></p>
+<div class="we-answer">
+<p>Write the dissociation equilibrium:</p>
+<p><span class="math display">\[\ce{CH3COOH(aq) &lt;=&gt; H+(aq) + CH3COO-(aq)}\]</span></p>
+<p>Write the expression for <span class="math inline">\(K_a\)</span>:</p>
+<p><span class="math display">\[K_a=\frac{[\ce{H+}][\ce{CH3COO-}]}{[\ce{CH3COOH}]}\]</span></p>
+<p>As the ions are formed in a 1:1 ratio, <span class="math inline">\([\ce{H+}]=[\ce{CH3COO-}]\)</span>:</p>
+<p><span class="math display">\[K_a=\frac{[\ce{H+}]^2}{[\ce{CH3COOH}]}\]</span></p>
+<p>Rearrange and substitute:</p>
+<p><span class="math display">\[[\ce{H+}]=\sqrt{K_a[\ce{CH3COOH}]}\]</span></p>
+<p><span class="math display">\[[\ce{H+}]=\sqrt{(1.74\times10^{-5})(0.100)}=1.32\times10^{-3}\ \mathrm{mol\,dm^{-3}}\]</span></p>
+<p><span class="math display">\[pH=-\log_{10}(1.32\times10^{-3})=2.88\]</span></p>
+<p><strong>Final answer:</strong> <span class="math inline">\([\ce{H+}]=1.32\times10^{-3}\ \mathrm{mol\,dm^{-3}}\)</span> and <span class="math inline">\(pH=2.88\)</span>.</p>
+</div>
+</section>
+</div>
+<section id="buffer-solutions" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="buffer-solutions">Buffer solutions</h3>
+<p><strong>A buffer solution resists changes in pH when small amounts of acid or alkali are added.</strong></p>
+<p>An acidic buffer contains a weak acid, <span class="math inline">\(\ce{HA}\)</span>, and a soluble salt containing its conjugate base, <span class="math inline">\(\ce{A-}\)</span>, for example ethanoic acid and sodium ethanoate:</p>
+<p><span class="math display">\[\ce{CH3COOH(aq) &lt;=&gt; H+(aq) + CH3COO-(aq)}\]</span></p>
+<p><span class="math display">\[\ce{CH3COONa(aq) -&gt; Na+(aq) + CH3COO-(aq)}\]</span></p>
+<p>When a small amount of acid is added, the conjugate base removes most of the added <span class="math inline">\(\ce{H+}\)</span>:</p>
+<p><span class="math display">\[\ce{CH3COO-(aq) + H+(aq) -&gt; CH3COOH(aq)}\]</span></p>
+<p>When a small amount of alkali is added, the weak acid removes most of the added <span class="math inline">\(\ce{OH-}\)</span>:</p>
+<p><span class="math display">\[\ce{CH3COOH(aq) + OH-(aq) -&gt; CH3COO-(aq) + H2O(l)}\]</span></p>
+<p>因此 <span class="math inline">\([\ce{H+}]\)</span> 变化很小，pH 只发生小幅变化。血液中的 bicarbonate buffer 可用下列平衡表示：</p>
+<p><span class="math display">\[\ce{CO2(g) + H2O(l) &lt;=&gt; H+(aq) + HCO3-(aq)}\]</span></p>
+<p>加入少量酸时，<span class="math inline">\(\ce{HCO3-}\)</span> 消耗 <span class="math inline">\(\ce{H+}\)</span>；加入少量碱时，碳酸体系补充 <span class="math inline">\(\ce{H+}\)</span>，从而减小 pH 变化。</p>
+</section>
+<section id="buffer-calculation-formula" class="level3 formula-panel">
+<h3 class="anchored" data-anchor-id="buffer-calculation-formula">Buffer calculation formula</h3>
+<p>在弱酸 dissociation 的近似下：</p>
+<p><span class="math display">\[K_a=\frac{[\ce{H+}][\ce{A-}]}{[\ce{HA}]}\]</span></p>
+<p><span class="math display">\[[\ce{H+}]=K_a\frac{[\ce{HA}]}{[\ce{A-}]}\]</span></p>
+<p><span class="math display">\[pH=pK_a+\log_{10}\frac{[\ce{A-}]}{[\ce{HA}]}\]</span></p>
+<p>这里 <span class="math inline">\([\ce{A-}]\)</span> 可用 soluble salt 的浓度表示，<span class="math inline">\([\ce{HA}]\)</span> 可用 weak acid 的浓度表示。使用这些式子时，需要假设 weak acid 的 dissociation 很小，且盐完全 dissociate。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/equilibria/note-buffer-equation.webp" class="concept-figure img-fluid figure-img" alt="Buffer equilibrium expression"></p>
+<figcaption>Buffer equilibrium expression</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/equilibria/note-buffer-henderson.webp" class="concept-figure img-fluid figure-img" alt="Henderson-Hasselbalch buffer equation"></p>
+<figcaption>Henderson–Hasselbalch form of the buffer equation</figcaption>
+</figure>
+</div>
+</section>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · 笔记例题</span></p>
+<section id="calculating-the-ph-of-a-buffer-solution" class="level3">
+<h3 class="anchored" data-anchor-id="calculating-the-ph-of-a-buffer-solution">Calculating the pH of a buffer solution</h3>
+<p><strong>A buffer solution contains ethanoic acid at <span class="math inline">\(0.305\ \mathrm{mol\,dm^{-3}}\)</span> and sodium ethanoate at <span class="math inline">\(0.520\ \mathrm{mol\,dm^{-3}}\)</span>. The value of <span class="math inline">\(K_a\)</span> for ethanoic acid is <span class="math inline">\(1.43\times10^{-5}\ \mathrm{mol\,dm^{-3}}\)</span>. Calculate the pH of the buffer solution.</strong></p>
+<div class="we-answer">
+<p>Use the buffer equation:</p>
+<p><span class="math display">\[[\ce{H+}]=K_a\frac{[\ce{CH3COOH}]}{[\ce{CH3COO-}]}\]</span></p>
+<p><span class="math display">\[[\ce{H+}]=(1.43\times10^{-5})\frac{0.305}{0.520}=8.39\times10^{-6}\ \mathrm{mol\,dm^{-3}}\]</span></p>
+<p><span class="math display">\[pH=-\log_{10}(8.39\times10^{-6})=5.08\]</span></p>
+<p><strong>Final answer:</strong> <span class="math inline">\(pH=5.08\)</span>.</p>
+</div>
+</section>
+</div>
+<section id="solubility-products-and-the-common-ion-effect" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="solubility-products-and-the-common-ion-effect">Solubility products and the common-ion effect</h3>
+<p>For a sparingly soluble ionic compound, the saturated solution is in dynamic equilibrium with the solid. For example:</p>
+<p><span class="math display">\[\ce{AgCl(s) &lt;=&gt; Ag+(aq) + Cl-(aq)}\]</span></p>
+<p><span class="math display">\[K_{sp}=[\ce{Ag+}][\ce{Cl-}]\]</span></p>
+<p>Pure solids are not included in the expression. If the dissolution produces unequal numbers of ions, use the stoichiometric coefficients as powers:</p>
+<p><span class="math display">\[\ce{Ca(OH)2(s) &lt;=&gt; Ca^{2+}(aq) + 2OH-(aq)}\]</span></p>
+<p><span class="math display">\[K_{sp}=[\ce{Ca^{2+}}][\ce{OH-}]^2\]</span></p>
+<p>The common-ion effect is explained by Le Chatelier’s principle. Adding a common ion shifts the equilibrium to the left and decreases solubility. Removing one of the dissolved ions can shift the equilibrium to the right and increase solubility.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/equilibria/note-solubility-equilibrium.webp" class="concept-figure img-fluid figure-img" alt="Solubility equilibrium and solubility product"></p>
+<figcaption>Solubility equilibrium and ion concentrations</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/equilibria/note-common-ion-effect.webp" class="concept-figure img-fluid figure-img" alt="Common-ion effect on solubility equilibrium"></p>
+<figcaption>Common-ion effect on a saturated solution</figcaption>
+</figure>
+</div>
+</section>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · 笔记例题</span></p>
+<section id="expressing-k_sp-of-ionic-compounds" class="level3">
+<h3 class="anchored" data-anchor-id="expressing-k_sp-of-ionic-compounds">Expressing <span class="math inline">\(K_{sp}\)</span> of ionic compounds</h3>
+<p><strong>Give the equilibrium expressions, including units, for the solubility products of the following ionic compounds:</strong></p>
+<p><strong>1. <span class="math inline">\(\ce{Ca(OH)2}\)</span></strong></p>
+<p><strong>2. <span class="math inline">\(\ce{Fe2O3}\)</span></strong></p>
+<p><strong>3. <span class="math inline">\(\ce{SnCO3}\)</span></strong></p>
+<div class="we-answer">
+<ol type="1">
+<li><p><span class="math display">\[\ce{Ca(OH)2(s) &lt;=&gt; Ca^{2+}(aq) + 2OH-(aq)}\]</span></p>
+<p><span class="math display">\[K_{sp}=[\ce{Ca^{2+}}][\ce{OH-}]^2\]</span></p>
+<p><span class="math display">\[K_{sp}=(\mathrm{mol\,dm^{-3}})(\mathrm{mol\,dm^{-3}})^2
+=\mathrm{mol^3\,dm^{-9}}\]</span></p></li>
+<li><p><span class="math display">\[\ce{Fe2O3(s) &lt;=&gt; 2Fe^{3+}(aq) + 3O^{2-}(aq)}\]</span></p>
+<p><span class="math display">\[K_{sp}=[\ce{Fe^{3+}}]^2[\ce{O^{2-}}]^3\]</span></p>
+<p><span class="math display">\[K_{sp}=(\mathrm{mol\,dm^{-3}})^2(\mathrm{mol\,dm^{-3}})^3
+=\mathrm{mol^5\,dm^{-15}}\]</span></p></li>
+<li><p><span class="math display">\[\ce{SnCO3(s) &lt;=&gt; Sn^{2+}(aq) + CO3^{2-}(aq)}\]</span></p>
+<p><span class="math display">\[K_{sp}=[\ce{Sn^{2+}}][\ce{CO3^{2-}}]\]</span></p>
+<p><span class="math display">\[K_{sp}=(\mathrm{mol\,dm^{-3}})(\mathrm{mol\,dm^{-3}})
+=\mathrm{mol^2\,dm^{-6}}\]</span></p></li>
+</ol>
+<p><strong>Final answer:</strong></p>
+<ol type="1">
+<li><span class="math inline">\(K_{sp}= [\ce{Ca^{2+}}][\ce{OH-}]^2\)</span>, with units <span class="math inline">\(\mathrm{mol^3\,dm^{-9}}\)</span>.</li>
+<li><span class="math inline">\(K_{sp}= [\ce{Fe^{3+}}]^2[\ce{O^{2-}}]^3\)</span>, with units <span class="math inline">\(\mathrm{mol^5\,dm^{-15}}\)</span>.</li>
+<li><span class="math inline">\(K_{sp}= [\ce{Sn^{2+}}][\ce{CO3^{2-}}]\)</span>, with units <span class="math inline">\(\mathrm{mol^2\,dm^{-6}}\)</span>.</li>
+</ol>
+</div>
+</section>
+</div>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · 笔记例题</span></p>
+<section id="calculating-k_sp-from-solubility" class="level3">
+<h3 class="anchored" data-anchor-id="calculating-k_sp-from-solubility">Calculating <span class="math inline">\(K_{sp}\)</span> from solubility</h3>
+<p><strong>Calculate the solubility product of a saturated solution of lead(II) bromide, <span class="math inline">\(\ce{PbBr2}\)</span>, with a solubility of <span class="math inline">\(1.39\times10^{-3}\ \mathrm{mol\,dm^{-3}}\)</span>.</strong></p>
+<div class="we-answer">
+<p><span class="math display">\[\ce{PbBr2(s) &lt;=&gt; Pb^{2+}(aq) + 2Br-(aq)}\]</span></p>
+<p>The solubility of <span class="math inline">\(\ce{PbBr2}\)</span> is:</p>
+<p><span class="math display">\[[\ce{PbBr2}]=1.39\times10^{-3}\ \mathrm{mol\,dm^{-3}}\]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[[\ce{Pb^{2+}}]=1.39\times10^{-3}\ \mathrm{mol\,dm^{-3}}\]</span></p>
+<p><span class="math display">\[[\ce{Br-}]=2\times1.39\times10^{-3}=2.78\times10^{-3}\ \mathrm{mol\,dm^{-3}}\]</span></p>
+<p>Use the solubility product expression:</p>
+<p><span class="math display">\[K_{sp}=[\ce{Pb^{2+}}][\ce{Br-}]^2\]</span></p>
+<p><span class="math display">\[K_{sp}=(1.39\times10^{-3})(2.78\times10^{-3})^2\]</span></p>
+<p><span class="math display">\[K_{sp}=1.07\times10^{-8}\ \mathrm{mol^3\,dm^{-9}}\]</span></p>
+<p><strong>Final answer:</strong> <span class="math inline">\(K_{sp}=1.07\times10^{-8}\ \mathrm{mol^3\,dm^{-9}}\)</span>.</p>
+</div>
+</section>
+</div>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · 笔记例题</span></p>
+<section id="calculating-solubility-from-k_sp" class="level3">
+<h3 class="anchored" data-anchor-id="calculating-solubility-from-k_sp">Calculating solubility from <span class="math inline">\(K_{sp}\)</span></h3>
+<p><strong>Calculate the solubility of a saturated solution of copper(II) oxide, <span class="math inline">\(\ce{CuO}\)</span>, with a solubility product of <span class="math inline">\(5.9\times10^{-36}\ \mathrm{mol^2\,dm^{-6}}\)</span>.</strong></p>
+<div class="we-answer">
+<p><span class="math display">\[\ce{CuO(s) &lt;=&gt; Cu^{2+}(aq) + O^{2-}(aq)}\]</span></p>
+<p>The two ions are formed in a 1:1 ratio, so:</p>
+<p><span class="math display">\[[\ce{Cu^{2+}}]=[\ce{O^{2-}}]\]</span></p>
+<p><span class="math display">\[K_{sp}=[\ce{Cu^{2+}}][\ce{O^{2-}}]=[\ce{Cu^{2+}}]^2\]</span></p>
+<p>Substitute the given <span class="math inline">\(K_{sp}\)</span> value:</p>
+<p><span class="math display">\[5.9\times10^{-36}=[\ce{Cu^{2+}}]^2\]</span></p>
+<p><span class="math display">\[[\ce{Cu^{2+}}]=\sqrt{5.9\times10^{-36}}
+=2.4\times10^{-18}\ \mathrm{mol\,dm^{-3}}\]</span></p>
+<p>Since <span class="math inline">\([\ce{CuO(s)}]=[\ce{Cu^{2+}(aq)}]\)</span> on a molar basis, the solubility of <span class="math inline">\(\ce{CuO}\)</span> is the same value.</p>
+<p><strong>Final answer:</strong> the solubility is <span class="math inline">\(2.4\times10^{-18}\ \mathrm{mol\,dm^{-3}}\)</span>.</p>
+</div>
+</section>
+</div>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · 笔记例题</span></p>
+<section id="calculating-precipitate-formation-using-k_sp-and-a-common-ion" class="level3">
+<h3 class="anchored" data-anchor-id="calculating-precipitate-formation-using-k_sp-and-a-common-ion">Calculating precipitate formation using <span class="math inline">\(K_{sp}\)</span> and a common ion</h3>
+<p><strong>Predict whether a precipitate of <span class="math inline">\(\ce{CaSO4}\)</span> will form if a saturated solution of <span class="math inline">\(1.0\times10^{-3}\ \mathrm{mol\,dm^{-3}}\)</span> <span class="math inline">\(\ce{CaSO4}\)</span> is mixed with an equal volume of <span class="math inline">\(1.0\times10^{-3}\ \mathrm{mol\,dm^{-3}}\)</span> <span class="math inline">\(\ce{Na2SO4}\)</span>.</strong></p>
+<p><strong><span class="math inline">\(K_{sp}\)</span> for <span class="math inline">\(\ce{CaSO4}=2.0\times10^{-5}\ \mathrm{mol^2\,dm^{-6}}\)</span>.</strong></p>
+<div class="we-answer">
+<p>Write the equilibrium and <span class="math inline">\(K_{sp}\)</span> expression:</p>
+<p><span class="math display">\[\ce{CaSO4(s) &lt;=&gt; Ca^{2+}(aq) + SO4^{2-}(aq)}\]</span></p>
+<p><span class="math display">\[K_{sp}=[\ce{Ca^{2+}}][\ce{SO4^{2-}}]\]</span></p>
+<p>Equal volumes mean that the total solution volume doubles, so the calcium ion concentration is halved:</p>
+<p><span class="math display">\[[\ce{Ca^{2+}}]=\frac{1.0\times10^{-3}}{2}=5.0\times10^{-4}\ \mathrm{mol\,dm^{-3}}\]</span></p>
+<p>Sulfate is the common ion. Its concentration is:</p>
+<p><span class="math display">\[[\ce{SO4^{2-}}]=1.0\times10^{-3}\ \mathrm{mol\,dm^{-3}}\]</span></p>
+<p>Calculate the ionic product:</p>
+<p><span class="math display">\[[\ce{Ca^{2+}}][\ce{SO4^{2-}}]
+=(5.0\times10^{-4})(1.0\times10^{-3})
+=5.0\times10^{-7}\ \mathrm{mol^2\,dm^{-6}}\]</span></p>
+<p>Compare <span class="math inline">\(Q_{sp}\)</span> with <span class="math inline">\(K_{sp}\)</span>:</p>
+<p><span class="math display">\[5.0\times10^{-7}&lt;2.0\times10^{-5}\]</span></p>
+<p>Because the ionic product is less than <span class="math inline">\(K_{sp}\)</span>, the solution is not saturated with respect to <span class="math inline">\(\ce{CaSO4}\)</span>.</p>
+<p><strong>Final answer:</strong> no precipitate forms.</p>
+</div>
+</section>
+</div>
+</section>
+<section id="partition-coefficients" class="level2">
+<h2 class="anchored" data-anchor-id="partition-coefficients">25.2 Partition coefficients</h2>
+<section id="definition-and-calculation-of-k_pc" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="definition-and-calculation-of-k_pc">Definition and calculation of <span class="math inline">\(K_{pc}\)</span></h3>
+<p>When a solute is shaken with two immiscible solvents, it distributes between the two layers and reaches equilibrium. At a fixed temperature:</p>
+<p><strong>The partition coefficient, <span class="math inline">\(K_{pc}\)</span>, is the ratio of the equilibrium concentrations of a solute in two immiscible solvents.</strong></p>
+<p>For organic solvent / aqueous solvent, the convention used here is:</p>
+<p><span class="math display">\[K_{pc}=\frac{[\text{solute}]_{\text{organic}}}{[\text{solute}]_{\text{aqueous}}}\]</span></p>
+<p>Both concentrations must use the same units, normally mol dm<span class="math inline">\(^{-3}\)</span>. If <span class="math inline">\(K_{pc}&gt;1\)</span>, the solute is more concentrated in the organic layer under the stated conditions; if <span class="math inline">\(K_{pc}&lt;1\)</span>, it is more concentrated in the aqueous layer.</p>
+<p>The value depends on the polarity of both solute and solvent. Polar solutes generally interact more strongly with polar water; less-polar or hydrophobic parts of a molecule favour a less-polar organic solvent. The layers must be allowed to reach equilibrium, and the temperature should be kept constant.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/equilibria/note-partition-coefficient.webp" class="concept-figure img-fluid figure-img" alt="Partition coefficient between aqueous and organic layers"></p>
+<figcaption>Partition of a solute between aqueous and organic layers</figcaption>
+</figure>
+</div>
+</section>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · 笔记例题</span></p>
+<section id="methylamine-partition-coefficient-between-water-and-an-organic-solvent" class="level3">
+<h3 class="anchored" data-anchor-id="methylamine-partition-coefficient-between-water-and-an-organic-solvent">Methylamine partition coefficient between water and an organic solvent</h3>
+<p><strong>A mixture contains <span class="math inline">\(100\ \mathrm{cm^3}\)</span> of aqueous methylamine and <span class="math inline">\(75.0\ \mathrm{cm^3}\)</span> of an organic solvent. The original aqueous methylamine concentration is <span class="math inline">\(0.150\ \mathrm{mol\,dm^{-3}}\)</span>. A <span class="math inline">\(50.0\ \mathrm{cm^3}\)</span> sample of the aqueous layer requires <span class="math inline">\(14.1\ \mathrm{cm^3}\)</span> of <span class="math inline">\(0.225\ \mathrm{mol\,dm^{-3}}\)</span> hydrochloric acid for complete reaction. Calculate the partition coefficient of methylamine between the organic solvent and water.</strong></p>
+<div class="we-answer">
+<p>The reaction with hydrochloric acid is 1:1:</p>
+<p><span class="math display">\[\ce{CH3NH2 + HCl -&gt; CH3NH3+ + Cl-}\]</span></p>
+<ol type="1">
+<li><p>Moles of methylamine in the <span class="math inline">\(50.0\ \mathrm{cm^3}\)</span> aqueous sample:</p>
+<p><span class="math display">\[n(\ce{HCl})=0.225\times\frac{14.1}{1000}=3.17\times10^{-3}\ \mathrm{mol}\]</span></p>
+<p>Therefore <span class="math inline">\(n(\ce{CH3NH2})=3.17\times10^{-3}\ \mathrm{mol}\)</span> in <span class="math inline">\(50.0\ \mathrm{cm^3}\)</span>.</p></li>
+<li><p>Moles in the full <span class="math inline">\(100\ \mathrm{cm^3}\)</span> aqueous layer:</p>
+<p><span class="math display">\[n_{\mathrm{aqueous}}=2(3.17\times10^{-3})=6.34\times10^{-3}\ \mathrm{mol}\]</span></p></li>
+<li><p>Total moles initially present:</p>
+<p><span class="math display">\[n_{\mathrm{initial}}=0.150\times\frac{100}{1000}=0.0150\ \mathrm{mol}\]</span></p>
+<p>Moles in the organic layer:</p>
+<p><span class="math display">\[n_{\mathrm{organic}}=0.0150-0.00634=8.67\times10^{-3}\ \mathrm{mol}\]</span></p></li>
+<li><p>Equilibrium concentrations:</p>
+<p><span class="math display">\[[\ce{CH3NH2}]_{\mathrm{aqueous}}=\frac{6.34\times10^{-3}}{0.100}=0.0634\ \mathrm{mol\,dm^{-3}}\]</span></p>
+<p><span class="math display">\[[\ce{CH3NH2}]_{\mathrm{organic}}=\frac{8.67\times10^{-3}}{0.0750}=0.116\ \mathrm{mol\,dm^{-3}}\]</span></p></li>
+<li><p>Calculate <span class="math inline">\(K_{pc}\)</span>:</p>
+<p><span class="math display">\[K_{pc}=\frac{0.116}{0.0634}=1.83\]</span></p></li>
+</ol>
+<p><strong>Final answer:</strong> <span class="math inline">\(K_{pc}=1.83\)</span> for organic solvent / water, so methylamine is more concentrated in the organic layer in this experiment.</p>
+</div>
+</section>
+</div>
+</section>
+<section id="chapter-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="chapter-checklist">Chapter checklist</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">我能用 Brønsted–Lowry 定义识别 acid、base 和 conjugate pairs。</label></li>
+<li><label><input type="checkbox">我能使用 <span class="math inline">\(pH\)</span>、<span class="math inline">\(K_a\)</span>、p<span class="math inline">\(K_a\)</span> 和 <span class="math inline">\(K_w\)</span> 公式。</label></li>
+<li><label><input type="checkbox">我能区分 strong acid、strong alkali 和 weak acid，并完成 pH 计算。</label></li>
+<li><label><input type="checkbox">我能解释 buffer 如何抵抗少量 acid 或 alkali 的加入，并完成 buffer pH 计算。</label></li>
+<li><label><input type="checkbox">我能写出 bicarbonate buffer 的相关平衡和反应。</label></li>
+<li><label><input type="checkbox">我能写出不同 ionic compounds 的 <span class="math inline">\(K_{sp}\)</span> expression，并处理离子计量数。</label></li>
+<li><label><input type="checkbox">我能由 solubility 计算 <span class="math inline">\(K_{sp}\)</span>，或由 <span class="math inline">\(K_{sp}\)</span> 反推 solubility。</label></li>
+<li><label><input type="checkbox">我能使用 <span class="math inline">\(Q_{sp}\)</span> 与 <span class="math inline">\(K_{sp}\)</span> 判断是否形成 precipitate，并解释 common-ion effect。</label></li>
+<li><label><input type="checkbox">我能定义和计算 <span class="math inline">\(K_{pc}\)</span>，并根据 polarity 解释分配趋势。</label></li>
+</ul>
+</section>
+<section id="structured-questions" class="level2">
+<h2 class="anchored" data-anchor-id="structured-questions">Structured questions</h2>
+</section>
+</section>
+<section id="equilibria---structured-questions" class="level1">
+<h1>25 Equilibria - Structured Questions</h1>
+<p>本页保留 <code>5.5 Equilibria (A Level Only)</code> 题包中与新考纲 <strong>25.1 Acids and bases</strong> 和 <strong>25.2 Partition coefficients</strong> 直接相关的 Structured Questions。每题保留完整英文题干、分问和完整解答步骤；旧题包中属于 entropy、Gibbs energy、Group 2 carbonate thermal stability 或有机反应机理的内容不属于新考纲 25，因此不收入本页。</p>
+<section id="equilibria-a-level-only---easy" class="level3">
+<h3 class="anchored" data-anchor-id="equilibria-a-level-only---easy">5.5 Equilibria (A Level Only) - Easy</h3>
+</section>
+<section id="example-1-silver-chloride-and-ironii-hydroxide-k_sp-5.5-sq-easy-q1" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-1-silver-chloride-and-ironii-hydroxide-k_sp-5.5-sq-easy-q1">Example 1 · Silver chloride and iron(II) hydroxide <span class="math inline">\(K_{sp}\)</span> · 5.5 SQ Easy Q1</h3>
+<p>A saturated solution of silver(I) chloride has a solubility of <span class="math inline">\(1.46\times10^{-3}\ \mathrm{mol\,dm^{-3}}\)</span>.</p>
+<p><strong>(a)</strong> Write the expression for the solubility product, <span class="math inline">\(K_{sp}\)</span>, for silver(I) chloride. <code>[1 mark]</code></p>
+<p><strong>(b)</strong> Using the information and your answer given in part (a), calculate the solubility product, <span class="math inline">\(K_{sp}\)</span>, and its units for silver chloride. Show your working. <code>[3 marks]</code></p>
+<p>A saturated solution of iron(II) hydroxide has a solubility of <span class="math inline">\(5.82\times10^{-6}\ \mathrm{mol\,dm^{-3}}\)</span>.</p>
+<p><strong>(c)(i)</strong> Write the expression for the solubility product, <span class="math inline">\(K_{sp}\)</span>, for iron(II) hydroxide. <code>[1 mark]</code></p>
+<p><strong>(c)(ii)</strong> Calculate the solubility product and units for iron(II) hydroxide. Show your working. <code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><p><strong>(a)</strong> <span class="math display">\[\ce{AgCl(s) &lt;=&gt; Ag+(aq) + Cl-(aq)}\]</span></p>
+<p><span class="math display">\[K_{sp}=[\ce{Ag+}][\ce{Cl-}]\]</span> <code>[1]</code></p></li>
+<li><p><strong>(b)</strong> For AgCl, the ion concentrations are both <span class="math inline">\(1.46\times10^{-3}\ \mathrm{mol\,dm^{-3}}\)</span>:</p>
+<p><span class="math display">\[K_{sp}=(1.46\times10^{-3})(1.46\times10^{-3})=2.13\times10^{-6}\]</span></p>
+<p>Units: <span class="math inline">\((\mathrm{mol\,dm^{-3}})^2=\mathrm{mol^2\,dm^{-6}}\)</span>. <code>[3]</code></p></li>
+<li><p><strong>(c)(i)</strong> <span class="math display">\[\ce{Fe(OH)2(s) &lt;=&gt; Fe^{2+}(aq) + 2OH-(aq)}\]</span></p>
+<p><span class="math display">\[K_{sp}=[\ce{Fe^{2+}}][\ce{OH-}]^2\]</span> <code>[1]</code></p></li>
+<li><p><strong>(c)(ii)</strong></p>
+<p><span class="math display">\[[\ce{Fe^{2+}}]=5.82\times10^{-6}\]</span></p>
+<p><span class="math display">\[[\ce{OH-}]=2(5.82\times10^{-6})=1.164\times10^{-5}\]</span></p>
+<p><span class="math display">\[K_{sp}=(5.82\times10^{-6})(1.164\times10^{-5})^2=7.89\times10^{-16}\ \mathrm{mol^3\,dm^{-9}}\]</span> <code>[3]</code></p></li>
+</ul>
+</details>
+</section>
+<section id="example-2-ethylamine-partition-coefficient-5.5-sq-easy-q2" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-2-ethylamine-partition-coefficient-5.5-sq-easy-q2">Example 2 · Ethylamine partition coefficient · 5.5 SQ Easy Q2</h3>
+<p>The general equilibrium expression for the partition coefficient is:</p>
+<p><span class="math display">\[K_{pc}=\frac{\text{equilibrium concentration in organic layer}}{\text{equilibrium concentration in aqueous layer}}\]</span></p>
+<p><span class="math inline">\(100\ \mathrm{cm^3}\)</span> of a <span class="math inline">\(0.5\ \mathrm{mol\,dm^{-3}}\)</span> solution of aqueous ethylamine, <span class="math inline">\(\ce{CH3CH2NH2}\)</span>, was shaken with <span class="math inline">\(100\ \mathrm{cm^3}\)</span> of an organic solvent at <span class="math inline">\(25\ ^\circ\mathrm{C}\)</span> and left in a separating funnel to allow an equilibrium to be established. The equilibrium equation is:</p>
+<p><span class="math display">\[\ce{CH3CH2NH2(aq) &lt;=&gt; CH3CH2NH2(organic solvent)}\]</span></p>
+<p>Only <span class="math inline">\(50\ \mathrm{cm^3}\)</span> of the aqueous layer was run off and titrated against <span class="math inline">\(0.50\ \mathrm{mol\,dm^{-3}}\)</span> dilute hydrochloric acid. <span class="math inline">\(15.0\ \mathrm{cm^3}\)</span> of hydrochloric acid was required to reach the end point.</p>
+<p><span class="math display">\[\ce{CH3CH2NH2(aq) + HCl(aq) -&gt; CH3CH2NH3+(aq) + Cl-(aq)}\]</span></p>
+<p><strong>(a)(i)</strong> Calculate the amount, in moles, of ethylamine that has reacted with hydrochloric acid. <code>[1 mark]</code></p>
+<p><strong>(a)(ii)</strong> Calculate the amount, in moles, of ethylamine in the aqueous layer. <code>[1 mark]</code></p>
+<p><strong>(a)(iii)</strong> Calculate the amount, in moles, of ethylamine in the organic layer. <code>[1 mark]</code></p>
+<p><strong>(a)(iv)</strong> Calculate the concentration, in mol dm<span class="math inline">\(^{-3}\)</span>, of ethylamine in the aqueous and organic layer. <code>[1 mark]</code></p>
+<p><strong>(a)(v)</strong> Calculate the partition coefficient, <span class="math inline">\(K_{pc}\)</span>, of ethylamine between water and the organic solvent. <code>[1 mark]</code></p>
+<p><strong>(b)</strong> Use your answer to part (a) to determine whether ethylamine is more soluble in the aqueous or organic solvent. Explain your answer. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ol type="1">
+<li><p>In the <span class="math inline">\(50\ \mathrm{cm^3}\)</span> titrated sample:</p>
+<p><span class="math display">\[n(\ce{HCl})=0.50\times0.0150=0.0075\ \mathrm{mol}\]</span></p>
+<p>The reaction is 1:1, so <span class="math inline">\(n(\ce{CH3CH2NH2})=0.0075\ \mathrm{mol}\)</span>. <code>[1]</code></p></li>
+<li><p>The titrated sample is half of the <span class="math inline">\(100\ \mathrm{cm^3}\)</span> aqueous layer:</p>
+<p><span class="math display">\[n_{\mathrm{aqueous}}=2(0.0075)=0.015\ \mathrm{mol}\]</span> <code>[1]</code></p></li>
+<li><p>Total initial moles:</p>
+<p><span class="math display">\[n_{\mathrm{initial}}=0.5\times0.100=0.050\ \mathrm{mol}\]</span></p>
+<p><span class="math display">\[n_{\mathrm{organic}}=0.050-0.015=0.035\ \mathrm{mol}\]</span> <code>[1]</code></p></li>
+<li><p>Concentrations:</p>
+<p><span class="math display">\[[\ce{CH3CH2NH2}]_{aq}=\frac{0.015}{0.100}=0.15\ \mathrm{mol\,dm^{-3}}\]</span></p>
+<p><span class="math display">\[[\ce{CH3CH2NH2}]_{org}=\frac{0.035}{0.100}=0.35\ \mathrm{mol\,dm^{-3}}\]</span> <code>[1]</code></p></li>
+<li><p><span class="math display">\[K_{pc}=\frac{0.35}{0.15}=2.3\]</span> <code>[1]</code></p></li>
+</ol>
+<ul>
+<li><strong>(b)</strong> Ethylamine is more soluble in the organic solvent because <span class="math inline">\(K_{pc}&gt;1\)</span>, so its equilibrium concentration is higher in the organic layer. <code>[2]</code></li>
+</ul>
+</details>
+</section>
+<section id="example-3-compound-a-partition-coefficient-5.5-sq-easy-q2c" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-3-compound-a-partition-coefficient-5.5-sq-easy-q2c">Example 3 · Compound A partition coefficient · 5.5 SQ Easy Q2(c)</h3>
+<p>A solution containing <span class="math inline">\(1.00\ \mathrm{g}\)</span> of compound A in <span class="math inline">\(100\ \mathrm{cm^3}\)</span> of water was shaken with <span class="math inline">\(10\ \mathrm{cm^3}\)</span> of ether. <span class="math inline">\(0.60\ \mathrm{g}\)</span> of A was transferred to the ether layer.</p>
+<p>Calculate the partition coefficient of compound A between ether and water. Show your working. <code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<p>Mass of A in ether: <span class="math inline">\(0.60\ \mathrm{g}\)</span>.</p>
+<p>Mass of A remaining in water: <span class="math inline">\(1.00-0.60=0.40\ \mathrm{g}\)</span>.</p>
+<p>Convert to concentrations:</p>
+<p><span class="math display">\[[A]_{ether}=\frac{0.60}{0.010}=60\ \mathrm{g\,dm^{-3}}\]</span></p>
+<p><span class="math display">\[[A]_{water}=\frac{0.40}{0.100}=4.0\ \mathrm{g\,dm^{-3}}\]</span></p>
+<p><span class="math display">\[K_{pc}=\frac{[A]_{ether}}{[A]_{water}}=\frac{60}{4.0}=15\]</span></p>
+<strong>Final answer:</strong> <span class="math inline">\(K_{pc}=15\)</span>. <code>[3]</code>
+</details>
+</section>
+<section id="example-4-common-ion-effect-in-silver-bromide-5.5-sq-easy-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-4-common-ion-effect-in-silver-bromide-5.5-sq-easy-q3">Example 4 · Common-ion effect in silver bromide · 5.5 SQ Easy Q3</h3>
+<p>The <span class="math inline">\(K_{sp}\)</span> value for silver bromide, <span class="math inline">\(\ce{AgBr(s)}\)</span>, is <span class="math inline">\(3.3\times10^{-8}\)</span> at <span class="math inline">\(298\ \mathrm{K}\)</span>.</p>
+<p><strong>(a)</strong> Write the equilibrium equation for the changes that happen in a saturated solution of silver bromide in the presence of some solid. <code>[1 mark]</code></p>
+<p><strong>(b)</strong> A solution of sodium bromide was added to a saturated solution of silver bromide. How would the concentration of dissolved silver ions change? Explain your answer. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> Calculate the concentration, in mol dm<span class="math inline">\(^{-3}\)</span>, of silver ions at <span class="math inline">\(298\ \mathrm{K}\)</span> in a saturated solution of silver bromide. Show your working. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><p><strong>(a)</strong> <span class="math display">\[\ce{AgBr(s) &lt;=&gt; Ag+(aq) + Br-(aq)}\]</span> <code>[1]</code></p></li>
+<li><p><strong>(b)</strong> <span class="math inline">\([\ce{Ag+}]\)</span> decreases. Adding <span class="math inline">\(\ce{Br-}\)</span> shifts the equilibrium to the left, so more solid AgBr forms and the solubility decreases. <code>[2]</code></p></li>
+<li><p><strong>(c)</strong> In a saturated solution with equal ion concentrations, <span class="math inline">\(K_{sp}=s^2\)</span>:</p>
+<p><span class="math display">\[s=\sqrt{3.3\times10^{-8}}=5.74\times10^{-4}\ \mathrm{mol\,dm^{-3}}\]</span></p>
+<p><strong>Final answer:</strong> <span class="math inline">\([\ce{Ag+}]=5.74\times10^{-4}\ \mathrm{mol\,dm^{-3}}\)</span>. <code>[2]</code></p></li>
+</ul>
+</details>
+</section>
+<section id="example-5-propanoic-acid-buffer-5.5-sq-easy-q4" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-5-propanoic-acid-buffer-5.5-sq-easy-q4">Example 5 · Propanoic acid buffer · 5.5 SQ Easy Q4</h3>
+<p>Acidic buffer solutions are made of a weak acid and its salt. pH calculations of buffer solutions can be conducted using:</p>
+<p><span class="math display">\[K_a=\frac{[\ce{H+}][\ce{A-}]}{[\ce{HA}]}\]</span></p>
+<p><strong>(a)</strong> State the assumptions made when using this equation for buffer solutions. <code>[3 marks]</code></p>
+<p><strong>(b)</strong> Suggest a salt that could be used to form a buffer solution with propanoic acid, <span class="math inline">\(\ce{CH3CH2COOH}\)</span>. <code>[1 mark]</code></p>
+<p>A buffer solution contains a <span class="math inline">\(0.15\ \mathrm{mol\,dm^{-3}}\)</span> concentration of propanoic acid and a propanoate salt with a concentration of <span class="math inline">\([\ce{A-}]=0.30\ \mathrm{mol\,dm^{-3}}\)</span>. At <span class="math inline">\(298\ \mathrm{K}\)</span>, <span class="math inline">\(K_a\)</span> for propanoic acid is <span class="math inline">\(1.35\times10^{-5}\ \mathrm{mol\,dm^{-3}}\)</span>.</p>
+<p><strong>(c)(i)</strong> Calculate <span class="math inline">\([\ce{H+}]\)</span> in this buffer solution. <code>[3 marks]</code></p>
+<p><strong>(c)(ii)</strong> Calculate the pH of the buffer solution to two decimal places. <code>[1 mark]</code></p>
+<p><strong>(d)</strong> Predict and explain the effect on pH of increasing the concentration of the salt only. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><p><strong>(a)</strong> Assume <span class="math inline">\([\ce{HA}]\)</span> is the concentration of the weak acid; <span class="math inline">\([\ce{A-}]\)</span> is the concentration supplied by the salt; and dissociation of the weak acid is small, so its change in concentration can be neglected. <code>[3]</code></p></li>
+<li><p><strong>(b)</strong> Sodium propanoate, <span class="math inline">\(\ce{CH3CH2COONa}\)</span>, or potassium propanoate. <code>[1]</code></p></li>
+<li><p><strong>(c)(i)</strong></p>
+<p><span class="math display">\[[\ce{H+}]=K_a\frac{[\ce{HA}]}{[\ce{A-}]}=(1.35\times10^{-5})\frac{0.15}{0.30}=6.75\times10^{-6}\ \mathrm{mol\,dm^{-3}}\]</span> <code>[3]</code></p></li>
+<li><p><strong>(c)(ii)</strong> <span class="math display">\[pH=-\log_{10}(6.75\times10^{-6})=5.17\]</span> <code>[1]</code></p></li>
+<li><p><strong>(d)</strong> pH increases because increasing <span class="math inline">\([\ce{A-}]\)</span> decreases <span class="math inline">\([\ce{H+}]\)</span> in <span class="math inline">\([\ce{H+}]=K_a[\ce{HA}]/[\ce{A-}]\)</span>. <code>[2]</code></p></li>
+</ul>
+</details>
+</section>
+<section id="example-6-strong-and-weak-acid-ph-5.5-sq-easy-q5" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-6-strong-and-weak-acid-ph-5.5-sq-easy-q5">Example 6 · Strong and weak acid pH · 5.5 SQ Easy Q5</h3>
+<p>Two acids used in the same laboratory, which both have the same concentration, <span class="math inline">\(0.1\ \mathrm{mol\,dm^{-3}}\)</span>, can have significantly different pH values. Explain why. <code>[2 marks]</code></p>
+<p><strong>(a)</strong> Calculate the pH of a solution of <span class="math inline">\(0.1\ \mathrm{mol\,dm^{-3}}\)</span> HCl. Show your working. <code>[2 marks]</code></p>
+<p>A sample of <span class="math inline">\(0.1\ \mathrm{mol\,dm^{-3}}\)</span> methanoic acid has a <span class="math inline">\(K_a\)</span> value of <span class="math inline">\(1.78\times10^{-4}\ \mathrm{mol\,dm^{-3}}\)</span> at <span class="math inline">\(298\ \mathrm{K}\)</span>.</p>
+<p><strong>(b)(i)</strong> Write an expression for <span class="math inline">\(K_a\)</span> for methanoic acid. <code>[1 mark]</code></p>
+<p><strong>(b)(ii)</strong> Calculate the pH of the <span class="math inline">\(0.1\ \mathrm{mol\,dm^{-3}}\)</span> methanoic acid. Give your answer to two decimal places and show your working. <code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><p>Equal concentrations can give different pH values because acids have different strengths. A strong acid dissociates completely, whereas a weak acid only partially dissociates; pH depends on <span class="math inline">\([\ce{H+}]\)</span>. <code>[2]</code></p></li>
+<li><p><strong>(a)</strong> HCl is strong:</p>
+<p><span class="math display">\[[\ce{H+}]=0.100\]</span></p>
+<p><span class="math display">\[pH=-\log_{10}(0.100)=1.00\]</span> <code>[2]</code></p></li>
+<li><p><strong>(b)(i)</strong></p>
+<p><span class="math display">\[\ce{HCOOH(aq) &lt;=&gt; H+(aq) + HCOO-(aq)}\]</span></p>
+<p><span class="math display">\[K_a=\frac{[\ce{H+}][\ce{HCOO-}]}{[\ce{HCOOH}]}\]</span> <code>[1]</code></p></li>
+<li><p><strong>(b)(ii)</strong></p>
+<p><span class="math display">\[[\ce{H+}]=\sqrt{K_a[\ce{HCOOH}]}=\sqrt{(1.78\times10^{-4})(0.100)}=4.22\times10^{-3}\]</span></p>
+<p><span class="math display">\[pH=-\log_{10}(4.22\times10^{-3})=2.37\]</span> <code>[3]</code></p></li>
+</ul>
+</details>
+</section>
+<section id="equilibria-a-level-only---medium" class="level3">
+<h3 class="anchored" data-anchor-id="equilibria-a-level-only---medium">5.5 Equilibria (A Level Only) - Medium</h3>
+</section>
+<section id="example-7-ammonia-partition-coefficient-and-polarity-5.5-sq-medium-q1a" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-7-ammonia-partition-coefficient-and-polarity-5.5-sq-medium-q1a">Example 7 · Ammonia partition coefficient and polarity · 5.5 SQ Medium Q1(a)</h3>
+<p>Ammonia is soluble in both water and organic solvents. An aqueous solution of ammonia is shaken with the immiscible organic solvent trichloromethane. The mixture is left to reach equilibrium. Samples are taken from each layer and titrated with dilute hydrochloric acid.</p>
+<p>A <span class="math inline">\(25.0\ \mathrm{cm^3}\)</span> sample from the trichloromethane layer requires <span class="math inline">\(13.0\ \mathrm{cm^3}\)</span> of <span class="math inline">\(0.100\ \mathrm{mol\,dm^{-3}}\)</span> HCl to reach the end-point. A <span class="math inline">\(10.0\ \mathrm{cm^3}\)</span> sample from the aqueous layer requires <span class="math inline">\(12.5\ \mathrm{cm^3}\)</span> of <span class="math inline">\(0.100\ \mathrm{mol\,dm^{-3}}\)</span> HCl.</p>
+<p><strong>(a)(i)</strong> State what is meant by partition coefficient. <code>[2 marks]</code></p>
+<p><strong>(a)(ii)</strong> Calculate the partition coefficient, <span class="math inline">\(K_{pc}\)</span>, of ammonia between trichloromethane and water. Show your working. <code>[2 marks]</code></p>
+<p><strong>(a)(iii)</strong> Butylamine, <span class="math inline">\(\ce{C4H9NH2}\)</span>, is also soluble in both water and organic solvents. Suggest how the numerical value of <span class="math inline">\(K_{pc}\)</span> of butylamine between trichloromethane and water would compare to the value calculated in (a)(ii). Explain your answer. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><p><strong>(a)(i)</strong> <span class="math inline">\(K_{pc}\)</span> is the ratio of the equilibrium concentrations of a solute in two immiscible solvents at a fixed temperature. <code>[2]</code></p></li>
+<li><p><strong>(a)(ii)</strong></p>
+<p>For the aqueous sample:</p>
+<p><span class="math display">\[[\ce{NH3}]_{aq}=\frac{0.100\times0.0125}{0.0100}=0.125\ \mathrm{mol\,dm^{-3}}\]</span></p>
+<p>For the organic sample:</p>
+<p><span class="math display">\[[\ce{NH3}]_{org}=\frac{0.100\times0.0130}{0.0250}=0.0520\ \mathrm{mol\,dm^{-3}}\]</span></p>
+<p><span class="math display">\[K_{pc}=\frac{0.0520}{0.125}=0.416\]</span></p>
+<p>The reciprocal definition, water / organic, gives <span class="math inline">\(2.40\)</span> and should be labelled clearly. <code>[2]</code></p></li>
+<li><p><strong>(a)(iii)</strong> If organic / water is used, butylamine has a <span class="math inline">\(K_{pc}\)</span> larger than <span class="math inline">\(0.416\)</span>. Its hydrophobic, non-polar C4 chain makes it more soluble in trichloromethane. <code>[2]</code></p></li>
+</ul>
+</details>
+</section>
+<section id="example-8-piperidine-titration-and-conjugate-acid-salts-5.5-sq-medium-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-8-piperidine-titration-and-conjugate-acid-salts-5.5-sq-medium-q3">Example 8 · Piperidine titration and conjugate acid salts · 5.5 SQ Medium Q3</h3>
+<p>The pH of a <span class="math inline">\(0.150\ \mathrm{mol\,dm^{-3}}\)</span> solution of piperidine is 11.9. <span class="math inline">\(20.0\ \mathrm{cm^3}\)</span> of <span class="math inline">\(0.200\ \mathrm{mol\,dm^{-3}}\)</span> HCl was slowly added to a <span class="math inline">\(20.0\ \mathrm{cm^3}\)</span> sample of <span class="math inline">\(0.150\ \mathrm{mol\,dm^{-3}}\)</span> piperidine. One mole of hydrochloric acid reacts with one mole of piperidine.</p>
+<p><strong>(a)(i)</strong> Calculate the number of moles of HCl remaining at the end of the addition. <code>[2 marks]</code></p>
+<p><strong>(a)(ii)</strong> Hence calculate <span class="math inline">\([\ce{H+}]\)</span> and the pH at the end of the addition. <code>[3 marks]</code></p>
+<p><strong>(b)</strong> Sketch how the pH will change during addition of a total of <span class="math inline">\(20.0\ \mathrm{cm^3}\)</span> of <span class="math inline">\(0.200\ \mathrm{mol\,dm^{-3}}\)</span> HCl. <code>[3 marks]</code></p>
+<p><strong>(c)</strong> The student repeated the titration using <span class="math inline">\(25.0\ \mathrm{cm^3}\)</span> of <span class="math inline">\(0.100\ \mathrm{mol\,dm^{-3}}\)</span> nitric acid, <span class="math inline">\(\ce{HNO3(aq)}\)</span>, and <span class="math inline">\(0.100\ \mathrm{mol\,dm^{-3}}\)</span> ammonia, <span class="math inline">\(\ce{NH3(aq)}\)</span>.</p>
+<p><strong>(c)(i)</strong> State the equation for this reaction. <code>[1 mark]</code></p>
+<p><strong>(c)(ii)</strong> Explain why the salt produced in this reaction is acidic. <code>[4 marks]</code></p>
+<p><strong>(d)</strong> State the equation for the reaction between nitric acid and water and identify the conjugate acid formed. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><p><strong>(a)(i)</strong></p>
+<p><span class="math display">\[n(\ce{HCl})_{start}=0.0200\times0.200=4.00\times10^{-3}\ \mathrm{mol}\]</span></p>
+<p><span class="math display">\[n(\ce{piperidine})=0.0200\times0.150=3.00\times10^{-3}\ \mathrm{mol}\]</span></p>
+<p><span class="math display">\[n(\ce{HCl})_{remaining}=4.00\times10^{-3}-3.00\times10^{-3}=1.00\times10^{-3}\ \mathrm{mol}\]</span> <code>[2]</code></p></li>
+<li><p><strong>(a)(ii)</strong> Total volume is <span class="math inline">\(40.0\ \mathrm{cm^3}\)</span>:</p>
+<p><span class="math display">\[[\ce{H+}]=\frac{1.00\times10^{-3}}{0.0400}=0.0250\ \mathrm{mol\,dm^{-3}}\]</span></p>
+<p><span class="math display">\[pH=-\log_{10}(0.0250)=1.60\]</span> <code>[3]</code></p></li>
+<li><p><strong>(b)</strong> Start at pH 11.9, decrease gradually, then show a steep vertical change centred at the equivalence point <span class="math inline">\(15.0\ \mathrm{cm^3}\)</span>, and level off near pH 1.60 at <span class="math inline">\(20.0\ \mathrm{cm^3}\)</span>. <code>[3]</code></p></li>
+<li><p><strong>(c)(i)</strong> <span class="math display">\[\ce{HNO3(aq) + NH3(aq) -&gt; NH4NO3(aq)}\]</span> <code>[1]</code></p></li>
+<li><p><strong>(c)(ii)</strong> <span class="math inline">\(\ce{NH4NO3}\)</span> dissociates into <span class="math inline">\(\ce{NH4+}\)</span> and <span class="math inline">\(\ce{NO3-}\)</span>. <span class="math inline">\(\ce{NH4+}\)</span> is the conjugate acid of the weak base <span class="math inline">\(\ce{NH3}\)</span> and reacts with hydroxide ions:</p>
+<p><span class="math display">\[\ce{NH4+(aq) + OH-(aq) -&gt; NH3(aq) + H2O(l)}\]</span></p>
+<p>This increases acidity and lowers pH. <code>[4]</code></p></li>
+<li><p><strong>(d)</strong></p>
+<p><span class="math display">\[\ce{HNO3(aq) + H2O(l) -&gt; NO3-(aq) + H3O+(aq)}\]</span></p>
+<p>Conjugate acid: <span class="math inline">\(\ce{H3O+}\)</span>. <code>[2]</code></p></li>
+</ul>
+</details>
+</section>
+<section id="example-9-buffers-and-bicarbonate-equilibrium-5.5-sq-medium-q4" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-9-buffers-and-bicarbonate-equilibrium-5.5-sq-medium-q4">Example 9 · Buffers and bicarbonate equilibrium · 5.5 SQ Medium Q4</h3>
+<p><strong>(a)</strong> Give the meaning of the term buffer solution. <code>[1 mark]</code></p>
+<p><strong>(b)</strong> Buffers can be acidic but they can also be basic.</p>
+<p><strong>(b)(i)</strong> Describe how an acidic buffer is made. <code>[1 mark]</code></p>
+<p><strong>(b)(ii)</strong> State the key feature which makes a buffer acidic. <code>[1 mark]</code></p>
+<p><strong>(c)</strong> Ethanoic acid is a weak acid. Hydrogen carbonate ions act as a weak acid if they are in an aqueous solution.</p>
+<p><strong>(c)(i)</strong> Write equations for each of these weak acids at equilibrium. <code>[2 marks]</code></p>
+<p><strong>(c)(ii)</strong> A solution was made up containing sodium hydrogen carbonate and sodium carbonate. Explain how this solution would act as a buffer if a small amount of acid was added to it. <code>[2 marks]</code></p>
+<p><strong>(d)</strong> Explain how a solution of ethanoic acid works as a buffer when small amounts of alkali are added. <code>[2 marks]</code></p>
+<p><strong>(e)</strong> A buffer solution contains <span class="math inline">\(0.10\ \mathrm{mol\,dm^{-3}}\)</span> methanoic acid and <span class="math inline">\(0.20\ \mathrm{mol\,dm^{-3}}\)</span> sodium methanoate. <span class="math inline">\(K_a\)</span> for methanoic acid is <span class="math inline">\(1.80\times10^{-4}\ \mathrm{mol\,dm^{-3}}\)</span>. Calculate the pH at <span class="math inline">\(298\ \mathrm{K}\)</span>, to two decimal places. <code>[4 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><p><strong>(a)</strong> A buffer resists or minimises changes in pH when small amounts of acid or alkali are added. <code>[1]</code></p></li>
+<li><p><strong>(b)</strong> <strong>(i)</strong> Mix a weak acid with a soluble salt of the same weak acid. <strong>(ii)</strong> Its pH is below 7. <code>[2]</code></p></li>
+<li><p><strong>(c)(i)</strong></p>
+<p><span class="math display">\[\ce{CH3COOH(aq) &lt;=&gt; H+(aq) + CH3COO-(aq)}\]</span></p>
+<p><span class="math display">\[\ce{HCO3-(aq) &lt;=&gt; H+(aq) + CO3^{2-}(aq)}\]</span> <code>[2]</code></p>
+<p><strong>(c)(ii)</strong> Added <span class="math inline">\(\ce{H+}\)</span> reacts with <span class="math inline">\(\ce{CO3^{2-}}\)</span> to form <span class="math inline">\(\ce{HCO3-}\)</span>, so most added acid is removed and pH changes only slightly. <code>[2]</code></p></li>
+<li><p><strong>(d)</strong> Added <span class="math inline">\(\ce{OH-}\)</span> reacts with <span class="math inline">\(\ce{H+}\)</span>; the ethanoic acid equilibrium shifts right and dissociation replaces much of the removed <span class="math inline">\(\ce{H+}\)</span>. <code>[2]</code></p></li>
+<li><p><strong>(e)</strong></p>
+<p><span class="math display">\[[\ce{H+}]=K_a\frac{[\ce{HCOOH}]}{[\ce{HCOO-}]}=(1.80\times10^{-4})\frac{0.10}{0.20}=9.0\times10^{-5}\]</span></p>
+<p><span class="math display">\[pH=-\log_{10}(9.0\times10^{-5})=5.05\]</span> <code>[4]</code></p></li>
+</ul>
+</details>
+</section>
+<section id="example-10-k_sp-precipitation-and-common-ions-5.5-sq-medium-q5" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-10-k_sp-precipitation-and-common-ions-5.5-sq-medium-q5">Example 10 · <span class="math inline">\(K_{sp}\)</span> precipitation and common ions · 5.5 SQ Medium Q5</h3>
+<p>A <span class="math inline">\(1.70\times10^{-3}\ \mathrm{mol\,dm^{-3}}\)</span> solution of calcium nitrate is mixed with an equal volume of <span class="math inline">\(1.50\times10^{-3}\ \mathrm{mol\,dm^{-3}}\)</span> potassium sulfate. Predict whether calcium sulfate, <span class="math inline">\(K_{sp}=2.00\times10^{-5}\)</span>, will precipitate. Show your working. <code>[3 marks]</code></p>
+<p>Water containing <span class="math inline">\(\ce{Mn^{2+}}\)</span> at a concentration above <span class="math inline">\(1.8\times10^{-6}\ \mathrm{mol\,dm^{-3}}\)</span> causes clothes to stain. Manganese can precipitate as <span class="math inline">\(\ce{Mn(OH)2(s)}\)</span>, which has <span class="math inline">\(K_{sp}=4.5\times10^{-14}\)</span>.</p>
+<p><strong>(b)(i)</strong> State the expression for <span class="math inline">\(K_{sp}\)</span>. <code>[1 mark]</code></p>
+<p><strong>(b)(ii)</strong> Calculate the concentration of <span class="math inline">\(\ce{OH-}\)</span> ions required. <code>[2 marks]</code></p>
+<p><strong>(b)(iii)</strong> Calculate the minimum pH at <span class="math inline">\(298\ \mathrm{K}\)</span> required to prevent clothes from being stained. Use <span class="math inline">\(K_w=1.00\times10^{-14}\)</span>. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> Consider the saturated equilibrium:</p>
+<p><span class="math display">\[\ce{AgBr(s) &lt;=&gt; Ag+(aq) + Br-(aq)}\]</span></p>
+<p>Explain what happens to the solubility of AgBr if the following are added: <span class="math inline">\(\ce{AgNO3}\)</span>, <span class="math inline">\(\ce{NaBr}\)</span> and <span class="math inline">\(\ce{Pb(NO3)2}\)</span>. <code>[3 marks]</code></p>
+<p><strong>(d)</strong> Explain why more <span class="math inline">\(\ce{Mg(OH)2}\)</span> dissolves when hydrochloric acid is added to a saturated solution of <span class="math inline">\(\ce{Mg(OH)2}\)</span>. <code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><p><strong>(a)</strong> Equal volumes double the total volume, so:</p>
+<p><span class="math display">\[[\ce{Ca^{2+}}]=\frac{1.70\times10^{-3}}{2}=8.50\times10^{-4}\]</span></p>
+<p><span class="math display">\[[\ce{SO4^{2-}}]=\frac{1.50\times10^{-3}}{2}=7.50\times10^{-4}\]</span></p>
+<p><span class="math display">\[Q_{sp}=(8.50\times10^{-4})(7.50\times10^{-4})=6.38\times10^{-7}\]</span></p>
+<p>Since <span class="math inline">\(Q_{sp}&lt;K_{sp}\)</span>, no precipitate forms. <code>[3]</code></p></li>
+<li><p><strong>(b)(i)</strong> <span class="math display">\[K_{sp}=[\ce{Mn^{2+}}][\ce{OH-}]^2\]</span> <code>[1]</code></p></li>
+<li><p><strong>(b)(ii)</strong> At the threshold:</p>
+<p><span class="math display">\[4.5\times10^{-14}=(1.8\times10^{-6})[\ce{OH-}]^2\]</span></p>
+<p><span class="math display">\[[\ce{OH-}]=1.58\times10^{-4}\ \mathrm{mol\,dm^{-3}}\]</span> <code>[2]</code></p></li>
+<li><p><strong>(b)(iii)</strong></p>
+<p><span class="math display">\[[\ce{H+}]=\frac{1.00\times10^{-14}}{1.58\times10^{-4}}=6.32\times10^{-11}\]</span></p>
+<p><span class="math display">\[pH=10.2\]</span> <code>[2]</code></p></li>
+<li><p><strong>(c)</strong> <span class="math inline">\(\ce{AgNO3}\)</span> adds common <span class="math inline">\(\ce{Ag+}\)</span> and decreases solubility; <span class="math inline">\(\ce{NaBr}\)</span> adds common <span class="math inline">\(\ce{Br-}\)</span> and decreases solubility; <span class="math inline">\(\ce{Pb(NO3)2}\)</span> removes <span class="math inline">\(\ce{Br-}\)</span> by forming <span class="math inline">\(\ce{PbBr2(s)}\)</span>, so the AgBr equilibrium shifts right and solubility increases. <code>[3]</code></p></li>
+<li><p><strong>(d)</strong></p>
+<p><span class="math display">\[\ce{Mg(OH)2(s) &lt;=&gt; Mg^{2+}(aq) + 2OH-(aq)}\]</span></p>
+<p>Added <span class="math inline">\(\ce{H+}\)</span> reacts with <span class="math inline">\(\ce{OH-}\)</span>:</p>
+<p><span class="math display">\[\ce{H+(aq) + OH-(aq) -&gt; H2O(l)}\]</span></p>
+<p>Removing <span class="math inline">\(\ce{OH-}\)</span> shifts the solubility equilibrium right, so more solid dissolves. <code>[3]</code></p></li>
+</ul>
+</details>
+</section>
+<section id="equilibria-a-level-only---hard" class="level3">
+<h3 class="anchored" data-anchor-id="equilibria-a-level-only---hard">5.5 Equilibria (A Level Only) - Hard</h3>
+</section>
+<section id="example-11-sulfuric-acid-dissociation-and-benzoic-acid-ph-5.5-sq-hard-q1bd" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-11-sulfuric-acid-dissociation-and-benzoic-acid-ph-5.5-sq-hard-q1bd">Example 11 · Sulfuric acid dissociation and benzoic acid pH · 5.5 SQ Hard Q1(b–d)</h3>
+<p>When concentrated sulfuric acid is added to water, dissociation takes place in two stages:</p>
+<p><span class="math display">\[\ce{H2SO4 -&gt; H+ + HSO4-}\]</span></p>
+<p><span class="math display">\[\ce{HSO4- &lt;=&gt; H+ + SO4^{2-}}\]</span></p>
+<p>For stage 2, <span class="math inline">\(K_{a2}=1.0\times10^{-2}\ \mathrm{mol\,dm^{-3}}\)</span>.</p>
+<p><strong>(a)</strong> Write the expression for <span class="math inline">\(K_{a2}\)</span>. <code>[1 mark]</code></p>
+<p><strong>(b)</strong> <span class="math inline">\(\ce{H2SO4}\)</span> is considered a strong acid whereas <span class="math inline">\(\ce{HSO4-}\)</span> is considered a weak acid. Suggest how the magnitude of <span class="math inline">\(K_{a1}\)</span> compares to <span class="math inline">\(K_{a2}\)</span>. <code>[1 mark]</code></p>
+<p>Benzoic acid, <span class="math inline">\(\ce{C6H5CO2H}\)</span>, is a weak acid. <span class="math inline">\(K_a=6.3\times10^{-5}\ \mathrm{mol\,dm^{-3}}\)</span> at <span class="math inline">\(298\ \mathrm{K}\)</span>.</p>
+<p><strong>(c)</strong> Calculate the pH of <span class="math inline">\(0.50\ \mathrm{g}\)</span> benzoic acid dissolved in <span class="math inline">\(250\ \mathrm{cm^3}\)</span> of water. <span class="math inline">\(M_r(\ce{C6H5CO2H})=122.0\)</span>. Give your answer to two decimal places. <code>[4 marks]</code></p>
+<p><strong>(d)</strong> Calculate the pH of the solution formed when <span class="math inline">\(0.060\ \mathrm{g}\)</span> sodium hydroxide is added to <span class="math inline">\(500.00\ \mathrm{cm^3}\)</span> of <span class="math inline">\(0.005\ \mathrm{mol\,dm^{-3}}\)</span> benzoic acid. Give your answer to two decimal places. <code>[5 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><p><strong>(a)</strong></p>
+<p><span class="math display">\[K_{a2}=\frac{[\ce{H+}][\ce{SO4^{2-}}]}{[\ce{HSO4-}]}\]</span> <code>[1]</code></p></li>
+<li><p><strong>(b)</strong> <span class="math inline">\(K_{a1}\)</span> is larger than <span class="math inline">\(K_{a2}\)</span> because the first dissociation is more complete and sulfuric acid is the stronger acid. <code>[1]</code></p></li>
+<li><p><strong>(c)</strong></p>
+<p><span class="math display">\[n=\frac{0.50}{122.0}=4.10\times10^{-3}\ \mathrm{mol}\]</span></p>
+<p><span class="math display">\[[\ce{C6H5CO2H}]=\frac{4.10\times10^{-3}}{0.250}=0.0164\ \mathrm{mol\,dm^{-3}}\]</span></p>
+<p><span class="math display">\[[\ce{H+}]=\sqrt{K_a[\ce{HA}]}=\sqrt{(6.3\times10^{-5})(0.0164)}=1.01\times10^{-3}\]</span></p>
+<p><span class="math display">\[pH=2.99\approx3.00\]</span> <code>[4]</code></p></li>
+<li><p><strong>(d)</strong></p>
+<p><span class="math display">\[n(\ce{NaOH})=\frac{0.060}{40.0}=1.50\times10^{-3}\ \mathrm{mol}\]</span></p>
+<p><span class="math display">\[n(\ce{benzoic\ acid})=0.00500\times0.500=2.50\times10^{-3}\ \mathrm{mol}\]</span></p>
+<p>Neutralisation leaves <span class="math inline">\(1.00\times10^{-3}\ \mathrm{mol}\)</span> acid and forms <span class="math inline">\(1.50\times10^{-3}\ \mathrm{mol}\)</span> benzoate.</p>
+<p><span class="math display">\[[\ce{H+}]=K_a\frac{n(\ce{acid})}{n(\ce{benzoate})}=6.3\times10^{-5}\frac{0.0010}{0.0015}=4.2\times10^{-5}\]</span></p>
+<p><span class="math display">\[pH=4.38\]</span> <code>[5]</code></p></li>
+</ul>
+</details>
+</section>
+<section id="example-12-isocyanic-acid-and-weak-acid-titration-5.5-sq-hard-q2bc" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-12-isocyanic-acid-and-weak-acid-titration-5.5-sq-hard-q2bc">Example 12 · Isocyanic acid and weak-acid titration · 5.5 SQ Hard Q2(b–c)</h3>
+<p>Isocyanic acid is a weak acid:</p>
+<p><span class="math display">\[\ce{HNCO &lt;=&gt; H+ + NCO-}\qquad K_a=1.2\times10^{-4}\ \mathrm{mol\,dm^{-3}}\]</span></p>
+<p><strong>(a)</strong> Calculate the pH of a <span class="math inline">\(0.10\ \mathrm{mol\,dm^{-3}}\)</span> solution of isocyanic acid. <code>[2 marks]</code></p>
+<p>Sodium cyanate, <span class="math inline">\(\ce{NaNCO}\)</span>, is prepared commercially by reacting urea, <span class="math inline">\(\ce{(NH2)2CO}\)</span>, with sodium carbonate. Other products include ammonia and steam.</p>
+<p><strong>(b)</strong> Write an equation for the production of <span class="math inline">\(\ce{NaNCO}\)</span>. <code>[1 mark]</code></p>
+<p>Barium hydroxide, <span class="math inline">\(\ce{Ba(OH)2}\)</span>, is completely ionised in aqueous solutions. During the addition of <span class="math inline">\(30.0\ \mathrm{cm^3}\)</span> of <span class="math inline">\(0.100\ \mathrm{mol\,dm^{-3}}\)</span> barium hydroxide to <span class="math inline">\(20.0\ \mathrm{cm^3}\)</span> of <span class="math inline">\(0.100\ \mathrm{mol\,dm^{-3}}\)</span> isocyanic acid, the pH was measured.</p>
+<p><strong>(c)(i)</strong> Calculate <span class="math inline">\([\ce{OH-}]\)</span> at the end of the addition. <code>[2 marks]</code></p>
+<p><strong>(c)(ii)</strong> Use your value in (c)(i) to calculate <span class="math inline">\([\ce{H+}]\)</span> and the pH at the end. <code>[2 marks]</code></p>
+<p><strong>(c)(iii)</strong> State the important features of the pH curve during the addition. <code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><p><strong>(a)</strong></p>
+<p><span class="math display">\[[\ce{H+}]=\sqrt{(1.2\times10^{-4})(0.10)}=3.46\times10^{-3}\]</span></p>
+<p><span class="math display">\[pH=-\log_{10}(3.46\times10^{-3})=2.46\]</span> <code>[2]</code></p></li>
+<li><p><strong>(b)</strong></p>
+<p><span class="math display">\[\ce{Na2CO3 + 2(NH2)2CO -&gt; 2NaNCO + CO2 + 2NH3 + H2O}\]</span> <code>[1]</code></p></li>
+<li><p><strong>(c)(i)</strong></p>
+<p>Moles of <span class="math inline">\(\ce{OH-}\)</span> initially:</p>
+<p><span class="math display">\[2(0.100)(0.0300)=6.00\times10^{-3}\ \mathrm{mol}\]</span></p>
+<p>Moles of acid neutralised:</p>
+<p><span class="math display">\[0.100(0.0200)=2.00\times10^{-3}\ \mathrm{mol}\]</span></p>
+<p>Remaining <span class="math inline">\(\ce{OH-}=4.00\times10^{-3}\ \mathrm{mol}\)</span> in <span class="math inline">\(0.0500\ \mathrm{dm^3}\)</span>:</p>
+<p><span class="math display">\[[\ce{OH-}]=0.0800\ \mathrm{mol\,dm^{-3}}\]</span> <code>[2]</code></p></li>
+<li><p><strong>(c)(ii)</strong></p>
+<p><span class="math display">\[[\ce{H+}]=\frac{1.00\times10^{-14}}{0.0800}=1.25\times10^{-13}\]</span></p>
+<p><span class="math display">\[pH=12.9\]</span> <code>[2]</code></p></li>
+<li><p><strong>(c)(iii)</strong> The curve starts near pH 2.46, has a steep vertical section at the endpoint of <span class="math inline">\(10.0\ \mathrm{cm^3}\)</span> of <span class="math inline">\(\ce{Ba(OH)2}\)</span>, and finishes near pH 12.9. <code>[3]</code></p></li>
+</ul>
+</details>
+</section>
+<section id="example-13-buffer-calculations-and-buffer-action-5.5-sq-hard-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-13-buffer-calculations-and-buffer-action-5.5-sq-hard-q3">Example 13 · Buffer calculations and buffer action · 5.5 SQ Hard Q3</h3>
+<p><strong>(a)</strong> Calculate the pH of a buffer solution made by dissolving <span class="math inline">\(0.275\ \mathrm{g}\)</span> benzoic acid, <span class="math inline">\(K_a=6.3\times10^{-5}\ \mathrm{mol\,dm^{-3}}\)</span>, and <span class="math inline">\(0.525\ \mathrm{g}\)</span> sodium benzoate in <span class="math inline">\(250\ \mathrm{cm^3}\)</span> of water. Give your answer to two decimal places. <code>[5 marks]</code></p>
+<p><strong>(b)</strong> Calculate the pH of a buffer solution made by mixing <span class="math inline">\(130\ \mathrm{cm^3}\)</span> of <span class="math inline">\(0.200\ \mathrm{mol\,dm^{-3}}\)</span> ethanoic acid, <span class="math inline">\(K_a=1.74\times10^{-5}\ \mathrm{mol\,dm^{-3}}\)</span>, and <span class="math inline">\(85\ \mathrm{cm^3}\)</span> of <span class="math inline">\(0.450\ \mathrm{mol\,dm^{-3}}\)</span> sodium ethanoate. Give your answer to two decimal places. <code>[3 marks]</code></p>
+<p><strong>(c)</strong> Calculate the new pH if <span class="math inline">\(1.00\ \mathrm{cm^3}\)</span> of <span class="math inline">\(1.00\ \mathrm{mol\,dm^{-3}}\)</span> sodium hydroxide is added. Comment on the pH value after the addition. <code>[5 marks]</code></p>
+<p><strong>(d)</strong> Write two equations for the separate addition of a small volume of base and acid to the buffer solution in part (b). <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><p><strong>(a)</strong></p>
+<p><span class="math display">\[n(\ce{C6H5COOH})=\frac{0.275}{122.0}=2.254\times10^{-3}\ \mathrm{mol}\]</span></p>
+<p><span class="math display">\[[\ce{C6H5COOH}]=2.254\times10^{-3}\times4=9.016\times10^{-3}\]</span></p>
+<p>Taking <span class="math inline">\(M_r(\ce{C6H5COONa})=144.0\)</span>:</p>
+<p><span class="math display">\[n(\ce{C6H5COO-})=\frac{0.525}{144.0}=3.646\times10^{-3}\ \mathrm{mol}\]</span></p>
+<p><span class="math display">\[[\ce{C6H5COO-}]=3.646\times10^{-3}\times4=0.01458\]</span></p>
+<p><span class="math display">\[[\ce{H+}]=6.3\times10^{-5}\frac{0.009016}{0.01458}=3.90\times10^{-5}\]</span></p>
+<p><span class="math display">\[pH=4.41\]</span> <code>[5]</code></p></li>
+<li><p><strong>(b)</strong> Total volume is <span class="math inline">\(215\ \mathrm{cm^3}\)</span>:</p>
+<p><span class="math display">\[[\ce{CH3COOH}]=\frac{0.200(0.130)}{0.215}=0.1209\]</span></p>
+<p><span class="math display">\[[\ce{CH3COO-}]=\frac{0.450(0.085)}{0.215}=0.1779\]</span></p>
+<p><span class="math display">\[[\ce{H+}]=1.74\times10^{-5}\frac{0.1209}{0.1779}=1.18\times10^{-5}\]</span></p>
+<p><span class="math display">\[pH=4.92\]</span> <code>[3]</code></p></li>
+<li><p><strong>(c)</strong> Moles of <span class="math inline">\(\ce{OH-}\)</span> added: <span class="math inline">\(0.00100\ \mathrm{mol}\)</span>.</p>
+<p><span class="math display">\[n(\ce{CH3COOH})=0.0260-0.0010=0.0250\ \mathrm{mol}\]</span></p>
+<p><span class="math display">\[n(\ce{CH3COO-})=0.03825+0.0010=0.03925\ \mathrm{mol}\]</span></p>
+<p><span class="math display">\[[\ce{H+}]=1.74\times10^{-5}\frac{0.0250}{0.03925}=1.12\times10^{-5}\]</span></p>
+<p><span class="math display">\[pH=4.95\]</span></p>
+<p>The pH increases by only about <span class="math inline">\(0.02\)</span>, showing that the buffer has resisted the added alkali. <code>[5]</code></p></li>
+<li><p><strong>(d)</strong> Added base:</p>
+<p><span class="math display">\[\ce{CH3COOH(aq) + OH-(aq) -&gt; CH3COO-(aq) + H2O(l)}\]</span></p>
+<p>Added acid:</p>
+<p><span class="math display">\[\ce{CH3COO-(aq) + H+(aq) -&gt; CH3COOH(aq)}\]</span> <code>[2]</code></p></li>
+</ul>
+</details>
+</section>
+<section id="original-question-pdfs" class="level3">
+<h3 class="anchored" data-anchor-id="original-question-pdfs">Original question PDFs</h3>
+<ul>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/equilibria/25-equilibria-5.5-easy.pdf">5.5 Equilibria (A Level Only) – Easy</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/equilibria/25-equilibria-5.5-medium.pdf">5.5 Equilibria (A Level Only) – Medium</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/equilibria/25-equilibria-5.5-hard.pdf">5.5 Equilibria (A Level Only) – Hard</a></li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".done-toggle input").forEach((input) => {
+    const key = `cie-chem-${input.dataset.progress}`;
+    input.checked = localStorage.getItem(key) === "true";
+    input.closest(".question-card")?.classList.toggle("is-complete", input.checked);
+    input.addEventListener("change", () => {
+      localStorage.setItem(key, input.checked);
+      input.closest(".question-card")?.classList.toggle("is-complete", input.checked);
+    });
+  });
+
+  document.querySelectorAll(".mc-question").forEach((card) => {
+    const answer = card.dataset.answer;
+    const feedback = card.querySelector(".mc-feedback");
+    const check = card.querySelector(".check-answer");
+    let selected = localStorage.getItem(`cie-chem-${card.id}-choice`) || "";
+
+    const showSelection = () => {
+      card.querySelectorAll(".mc-choice").forEach((choice) => {
+        choice.classList.toggle("is-selected", choice.dataset.choice === selected);
+      });
+    };
+    showSelection();
+
+    card.querySelectorAll(".mc-choice").forEach((choice) => {
+      choice.addEventListener("click", () => {
+        selected = choice.dataset.choice;
+        localStorage.setItem(`cie-chem-${card.id}-choice`, selected);
+        feedback.textContent = "";
+        feedback.className = "mc-feedback";
+        showSelection();
+      });
+    });
+
+    check?.addEventListener("click", () => {
+      if (!selected) {
+        feedback.textContent = "Select an answer first.";
+        feedback.className = "mc-feedback is-pending";
+        return;
+      }
+      const correct = selected === answer;
+      feedback.textContent = correct ? "Correct." : `Not quite. The correct answer is ${answer}.`;
+      feedback.className = `mc-feedback ${correct ? "is-correct" : "is-incorrect"}`;
+    });
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已复制");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已复制");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../a-level/24-electrochemistry.html" class="pagination-link" aria-label="24 Electrochemistry">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">24 Electrochemistry</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../a-level/26-reaction-kinetics.html" class="pagination-link" aria-label="26 Reaction kinetics">
+        <span class="nav-page-text">26 Reaction kinetics</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

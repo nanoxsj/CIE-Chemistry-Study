@@ -1,0 +1,1651 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hans" xml:lang="zh-Hans"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>24 Electrochemistry – CIE Chemistry 9701</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../a-level/25-equilibria.html" rel="next">
+<link href="../a-level/23-chemical-energetics.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a2a938b4dd5711f7a799c87bd16ba44c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "没有结果",
+    "search-matching-documents-text": "匹配的文档",
+    "search-copy-link-title": "复制搜索链接",
+    "search-hide-matches-text": "隐藏其它匹配结果",
+    "search-more-match-text": "更多匹配结果",
+    "search-more-matches-text": "更多匹配结果",
+    "search-clear-button-title": "清除",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "提交",
+    "search-label": "搜索"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../a-level/23-chemical-energetics.html">A Level</a></li><li class="breadcrumb-item"><a href="../a-level/24-electrochemistry.html">24 Electrochemistry</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="搜索" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">CIE Chemistry 9701</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="搜索"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">学习首页</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">A Level</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/23-chemical-energetics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">23 Chemical energetics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/24-electrochemistry.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">24 Electrochemistry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/25-equilibria.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">25 Equilibria</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/26-reaction-kinetics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">26 Reaction kinetics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/27-group-2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">27 Group 2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/28-transition-elements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">28 Chemistry of transition elements</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">该页面内容</h2>
+   
+  <ul>
+  <li><a href="#electrochemistry" id="toc-electrochemistry" class="nav-link active" data-scroll-target="#electrochemistry">24 Electrochemistry</a>
+  <ul class="collapse">
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
+  <li><a href="#electrolysis" id="toc-electrolysis" class="nav-link" data-scroll-target="#electrolysis">24.1 Electrolysis</a>
+  <ul class="collapse">
+  <li><a href="#faradays-law-and-electrochemical-calculations" id="toc-faradays-law-and-electrochemical-calculations" class="nav-link" data-scroll-target="#faradays-law-and-electrochemical-calculations">Faraday’s law and electrochemical calculations</a></li>
+  <li><a href="#electroplating-and-the-avogadro-constant" id="toc-electroplating-and-the-avogadro-constant" class="nav-link" data-scroll-target="#electroplating-and-the-avogadro-constant">Electroplating and the Avogadro constant</a></li>
+  </ul></li>
+  <li><a href="#standard-electrode-potentials-standard-cell-potentials-and-the-nernst-equation" id="toc-standard-electrode-potentials-standard-cell-potentials-and-the-nernst-equation" class="nav-link" data-scroll-target="#standard-electrode-potentials-standard-cell-potentials-and-the-nernst-equation">24.2 Standard electrode potentials, standard cell potentials and the Nernst equation</a>
+  <ul class="collapse">
+  <li><a href="#electrode-potential-and-reduction-half-equations" id="toc-electrode-potential-and-reduction-half-equations" class="nav-link" data-scroll-target="#electrode-potential-and-reduction-half-equations">Electrode potential and reduction half-equations</a></li>
+  <li><a href="#standard-conditions-and-eominus" id="toc-standard-conditions-and-eominus" class="nav-link" data-scroll-target="#standard-conditions-and-eominus">Standard conditions and <span class="math inline">\(E^\ominus\)</span></a></li>
+  <li><a href="#standard-hydrogen-electrode-she" id="toc-standard-hydrogen-electrode-she" class="nav-link" data-scroll-target="#standard-hydrogen-electrode-she">Standard hydrogen electrode (SHE)</a></li>
+  <li><a href="#types-of-half-cell-and-the-electrode-required" id="toc-types-of-half-cell-and-the-electrode-required" class="nav-link" data-scroll-target="#types-of-half-cell-and-the-electrode-required">Types of half-cell and the electrode required</a></li>
+  <li><a href="#salt-bridge-and-conventional-cell-diagrams" id="toc-salt-bridge-and-conventional-cell-diagrams" class="nav-link" data-scroll-target="#salt-bridge-and-conventional-cell-diagrams">Salt bridge and conventional cell diagrams</a></li>
+  <li><a href="#calculating-eominus_mathrmcell-and-feasibility" id="toc-calculating-eominus_mathrmcell-and-feasibility" class="nav-link" data-scroll-target="#calculating-eominus_mathrmcell-and-feasibility">Calculating <span class="math inline">\(E^\ominus_{\mathrm{cell}}\)</span> and feasibility</a></li>
+  <li><a href="#oxidising-and-reducing-agents" id="toc-oxidising-and-reducing-agents" class="nav-link" data-scroll-target="#oxidising-and-reducing-agents">Oxidising and reducing agents</a></li>
+  <li><a href="#balancing-ionic-redox-equations" id="toc-balancing-ionic-redox-equations" class="nav-link" data-scroll-target="#balancing-ionic-redox-equations">Balancing ionic redox equations</a></li>
+  <li><a href="#nernst-equation-and-non-standard-conditions" id="toc-nernst-equation-and-non-standard-conditions" class="nav-link" data-scroll-target="#nernst-equation-and-non-standard-conditions">Nernst equation and non-standard conditions</a></li>
+  <li><a href="#effect-of-concentration-on-electrode-potential" id="toc-effect-of-concentration-on-electrode-potential" class="nav-link" data-scroll-target="#effect-of-concentration-on-electrode-potential">Effect of concentration on electrode potential</a></li>
+  <li><a href="#linking-eominus_mathrmcell-and-delta-gominus" id="toc-linking-eominus_mathrmcell-and-delta-gominus" class="nav-link" data-scroll-target="#linking-eominus_mathrmcell-and-delta-gominus">Linking <span class="math inline">\(E^\ominus_{\mathrm{cell}}\)</span> and <span class="math inline">\(\Delta G^\ominus\)</span></a></li>
+  </ul></li>
+  <li><a href="#structured-questions" id="toc-structured-questions" class="nav-link" data-scroll-target="#structured-questions">Structured Questions</a></li>
+  </ul></li>
+  <li><a href="#electrochemistry---structured-questions" id="toc-electrochemistry---structured-questions" class="nav-link" data-scroll-target="#electrochemistry---structured-questions">24 Electrochemistry - Structured Questions</a>
+  <ul class="collapse">
+  <li><a href="#electrolysis-1" id="toc-electrolysis-1" class="nav-link" data-scroll-target="#electrolysis-1">24.1 Electrolysis</a></li>
+  <li><a href="#example-6-faraday-constant-from-charge-measurements-24.1-sq-medium-q1" id="toc-example-6-faraday-constant-from-charge-measurements-24.1-sq-medium-q1" class="nav-link" data-scroll-target="#example-6-faraday-constant-from-charge-measurements-24.1-sq-medium-q1">Example 6 · Faraday constant from charge measurements · 24.1 SQ Medium Q1</a></li>
+  <li><a href="#example-13-electroplating-zinc-24.1-sq-medium-q2" id="toc-example-13-electroplating-zinc-24.1-sq-medium-q2" class="nav-link" data-scroll-target="#example-13-electroplating-zinc-24.1-sq-medium-q2">Example 13 · Electroplating zinc · 24.1 SQ Medium Q2</a></li>
+  <li><a href="#example-14-avogadro-constant-experiment-24.1-sq-medium-q3" id="toc-example-14-avogadro-constant-experiment-24.1-sq-medium-q3" class="nav-link" data-scroll-target="#example-14-avogadro-constant-experiment-24.1-sq-medium-q3">Example 14 · Avogadro constant experiment · 24.1 SQ Medium Q3</a></li>
+  <li><a href="#standard-electrode-potentials---easy" id="toc-standard-electrode-potentials---easy" class="nav-link" data-scroll-target="#standard-electrode-potentials---easy">24.2 Standard electrode potentials - Easy</a></li>
+  <li><a href="#example-1-chromium-half-cell-and-standard-conditions-24.2-sq-easy-q1" id="toc-example-1-chromium-half-cell-and-standard-conditions-24.2-sq-easy-q1" class="nav-link" data-scroll-target="#example-1-chromium-half-cell-and-standard-conditions-24.2-sq-easy-q1">Example 1 · Chromium half-cell and standard conditions · 24.2 SQ Easy Q1</a></li>
+  <li><a href="#example-2-equilibrium-position-and-standard-hydrogen-electrode-24.2-sq-easy-q2" id="toc-example-2-equilibrium-position-and-standard-hydrogen-electrode-24.2-sq-easy-q2" class="nav-link" data-scroll-target="#example-2-equilibrium-position-and-standard-hydrogen-electrode-24.2-sq-easy-q2">Example 2 · Equilibrium position and standard hydrogen electrode · 24.2 SQ Easy Q2</a></li>
+  <li><a href="#example-3-half-cell-types-and-cell-notation-24.2-sq-easy-q3" id="toc-example-3-half-cell-types-and-cell-notation-24.2-sq-easy-q3" class="nav-link" data-scroll-target="#example-3-half-cell-types-and-cell-notation-24.2-sq-easy-q3">Example 3 · Half-cell types and cell notation · 24.2 SQ Easy Q3</a></li>
+  <li><a href="#standard-electrode-potentials---medium" id="toc-standard-electrode-potentials---medium" class="nav-link" data-scroll-target="#standard-electrode-potentials---medium">24.2 Standard electrode potentials - Medium</a></li>
+  <li><a href="#example-4-salt-bridge-and-electrode-polarity-24.2-sq-medium-q1" id="toc-example-4-salt-bridge-and-electrode-polarity-24.2-sq-medium-q1" class="nav-link" data-scroll-target="#example-4-salt-bridge-and-electrode-polarity-24.2-sq-medium-q1">Example 4 · Salt bridge and electrode polarity · 24.2 SQ Medium Q1</a></li>
+  <li><a href="#example-5-feasibility-and-oxidisingreducing-agents-24.2-sq-medium-q2" id="toc-example-5-feasibility-and-oxidisingreducing-agents-24.2-sq-medium-q2" class="nav-link" data-scroll-target="#example-5-feasibility-and-oxidisingreducing-agents-24.2-sq-medium-q2">Example 5 · Feasibility and oxidising/reducing agents · 24.2 SQ Medium Q2</a></li>
+  <li><a href="#standard-electrode-potentials---hard" id="toc-standard-electrode-potentials---hard" class="nav-link" data-scroll-target="#standard-electrode-potentials---hard">24.2 Standard electrode potentials - Hard</a></li>
+  <li><a href="#example-7-lithium-iodine-cell-24.2-sq-hard-q1" id="toc-example-7-lithium-iodine-cell-24.2-sq-hard-q1" class="nav-link" data-scroll-target="#example-7-lithium-iodine-cell-24.2-sq-hard-q1">Example 7 · Lithium-iodine cell · 24.2 SQ Hard Q1</a></li>
+  <li><a href="#example-8-testing-a-standard-hydrogen-electrode-setup-24.2-sq-hard-q2" id="toc-example-8-testing-a-standard-hydrogen-electrode-setup-24.2-sq-hard-q2" class="nav-link" data-scroll-target="#example-8-testing-a-standard-hydrogen-electrode-setup-24.2-sq-hard-q2">Example 8 · Testing a standard hydrogen electrode setup · 24.2 SQ Hard Q2</a></li>
+  <li><a href="#example-9-balancing-a-redox-equation-from-electrode-potentials-24.2-sq-hard-q3" id="toc-example-9-balancing-a-redox-equation-from-electrode-potentials-24.2-sq-hard-q3" class="nav-link" data-scroll-target="#example-9-balancing-a-redox-equation-from-electrode-potentials-24.2-sq-hard-q3">Example 9 · Balancing a redox equation from electrode potentials · 24.2 SQ Hard Q3</a></li>
+  <li><a href="#standard-electrode-potentials-and-calculations---easy" id="toc-standard-electrode-potentials-and-calculations---easy" class="nav-link" data-scroll-target="#standard-electrode-potentials-and-calculations---easy">24.2 Standard electrode potentials and calculations - Easy</a></li>
+  <li><a href="#example-10-magnesium-iodine-cell-calculation-24.2-sq-easy-q4" id="toc-example-10-magnesium-iodine-cell-calculation-24.2-sq-easy-q4" class="nav-link" data-scroll-target="#example-10-magnesium-iodine-cell-calculation-24.2-sq-easy-q4">Example 10 · Magnesium-iodine cell calculation · 24.2 SQ Easy Q4</a></li>
+  <li><a href="#example-11-nernst-equation-for-a-copper-half-cell-24.2-sq-easy-q5" id="toc-example-11-nernst-equation-for-a-copper-half-cell-24.2-sq-easy-q5" class="nav-link" data-scroll-target="#example-11-nernst-equation-for-a-copper-half-cell-24.2-sq-easy-q5">Example 11 · Nernst equation for a copper half-cell · 24.2 SQ Easy Q5</a></li>
+  <li><a href="#example-12-gibbs-free-energy-from-cell-potential-24.2-sq-easy-q6" id="toc-example-12-gibbs-free-energy-from-cell-potential-24.2-sq-easy-q6" class="nav-link" data-scroll-target="#example-12-gibbs-free-energy-from-cell-potential-24.2-sq-easy-q6">Example 12 · Gibbs free energy from cell potential · 24.2 SQ Easy Q6</a></li>
+  <li><a href="#standard-electrode-potentials-and-calculations---medium" id="toc-standard-electrode-potentials-and-calculations---medium" class="nav-link" data-scroll-target="#standard-electrode-potentials-and-calculations---medium">24.2 Standard electrode potentials and calculations - Medium</a></li>
+  <li><a href="#example-15-common-ion-effect-and-electrode-potential-24.2-sq-medium-q3" id="toc-example-15-common-ion-effect-and-electrode-potential-24.2-sq-medium-q3" class="nav-link" data-scroll-target="#example-15-common-ion-effect-and-electrode-potential-24.2-sq-medium-q3">Example 15 · Common-ion effect and electrode potential · 24.2 SQ Medium Q3</a></li>
+  <li><a href="#standard-electrode-potentials-and-calculations---hard" id="toc-standard-electrode-potentials-and-calculations---hard" class="nav-link" data-scroll-target="#standard-electrode-potentials-and-calculations---hard">24.2 Standard electrode potentials and calculations - Hard</a></li>
+  <li><a href="#example-16-nernst-equation-at-20-c-24.2-sq-hard-q4" id="toc-example-16-nernst-equation-at-20-c-24.2-sq-hard-q4" class="nav-link" data-scroll-target="#example-16-nernst-equation-at-20-c-24.2-sq-hard-q4">Example 16 · Nernst equation at 20 °C · 24.2 SQ Hard Q4</a></li>
+  <li><a href="#example-17-dichromate-and-bromide-in-acidic-solution-24.2-sq-hard-q5" id="toc-example-17-dichromate-and-bromide-in-acidic-solution-24.2-sq-hard-q5" class="nav-link" data-scroll-target="#example-17-dichromate-and-bromide-in-acidic-solution-24.2-sq-hard-q5">Example 17 · Dichromate and bromide in acidic solution · 24.2 SQ Hard Q5</a></li>
+  <li><a href="#example-18-comparing-electrochemical-series-data-24.2-sq-hard-q6" id="toc-example-18-comparing-electrochemical-series-data-24.2-sq-hard-q6" class="nav-link" data-scroll-target="#example-18-comparing-electrochemical-series-data-24.2-sq-hard-q6">Example 18 · Comparing electrochemical series data · 24.2 SQ Hard Q6</a></li>
+  <li><a href="#chapter-checklist" id="toc-chapter-checklist" class="nav-link" data-scroll-target="#chapter-checklist">Chapter checklist</a>
+  <ul class="collapse">
+  <li><a href="#original-question-pdfs" id="toc-original-question-pdfs" class="nav-link" data-scroll-target="#original-question-pdfs">Original question PDFs</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../a-level/23-chemical-energetics.html">A Level</a></li><li class="breadcrumb-item"><a href="../a-level/24-electrochemistry.html">24 Electrochemistry</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">24 Electrochemistry</h1>
+<p class="subtitle lead">Electrolysis, standard electrode potentials, electrochemical cells, the Nernst equation and Gibbs energy</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="electrochemistry" class="level1">
+<h1>24 Electrochemistry</h1>
+<p>本章按 CIE 2025–2027 syllabus 的顺序组织为 <strong>24.1 Electrolysis</strong> 和 <strong>24.2 Standard electrode potentials, standard cell potentials and the Nernst equation</strong>。24.1 只保留考纲要求的 Faraday、<span class="math inline">\(Q=It\)</span>、<span class="math inline">\(F=Le\)</span>、electroplating 和 Avogadro constant 计算；不展开 AS 1.6 的定性 electrolysis 产物判断。</p>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
+<p>学完本章后，你应该能够：</p>
+<ul>
+<li>use <span class="math inline">\(Q=It\)</span>, <span class="math inline">\(Q=nF\)</span> and <span class="math inline">\(F=Le\)</span> in electrolysis calculations;</li>
+<li>use half-equations to calculate the mass of a deposited substance and the volume of a gas;</li>
+<li>describe copper electroplating and the experiment used to determine the Avogadro constant;</li>
+<li>state the standard conditions and describe the standard hydrogen electrode (SHE);</li>
+<li>explain electrode potential as the tendency of a redox system to undergo reduction;</li>
+<li>identify the electrode required for different types of half-cell;</li>
+<li>draw and interpret conventional cell diagrams, including the salt bridge and electron flow;</li>
+<li>calculate <span class="math inline">\(E^\ominus_{\mathrm{cell}}\)</span> and use its sign to assess feasibility;</li>
+<li>identify oxidising agents, reducing agents, anodes, cathodes, positive poles and negative poles;</li>
+<li>use the Nernst equation at 298 K and at other temperatures;</li>
+<li>calculate <span class="math inline">\(\Delta G^\ominus\)</span> from <span class="math inline">\(E^\ominus_{\mathrm{cell}}\)</span>.</li>
+</ul>
+</section>
+<section id="electrolysis" class="level2">
+<h2 class="anchored" data-anchor-id="electrolysis">24.1 Electrolysis</h2>
+<section id="faradays-law-and-electrochemical-calculations" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="faradays-law-and-electrochemical-calculations">Faraday’s law and electrochemical calculations</h3>
+<p>Faraday’s law relates the charge passed through an electrolytic cell to the amount of chemical change. The first step in every calculation is to write the relevant half-equation and identify the mole ratio between the required product and electrons.</p>
+<p><span class="math display">\[Q=It\]</span></p>
+<p><span class="math display">\[Q=n(e^-)F\]</span></p>
+<p><span class="math display">\[F=96500\ \mathrm{C\ mol^{-1}}\]</span></p>
+<p>where <span class="math inline">\(Q\)</span> is charge in coulombs, <span class="math inline">\(I\)</span> is current in amperes, <span class="math inline">\(t\)</span> is time in seconds, and <span class="math inline">\(n(e^-)\)</span> is the amount of electrons in moles.</p>
+<p>对于金属离子 <span class="math inline">\(\ce{M^{z+}}\)</span>：</p>
+<p><span class="math display">\[\ce{M^{z+} + z e- -&gt; M}\]</span></p>
+<p>所以生成 1 mol 金属需要 <span class="math inline">\(z\)</span> mol electrons。气体体积则要先由 half-equation 确定 gas 与 electrons 的 mole ratio，再使用题目给出的 molar gas volume。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/electrochemistry/pdf/24-1-image-008.webp" class="concept-figure img-fluid figure-img" alt="Electrolysis apparatus with direct current, anode, cathode and electrolyte"></p>
+<figcaption>Electrolysis apparatus showing the direct current supply, anode, cathode and electrolyte</figcaption>
+</figure>
+</div>
+</section>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · Faraday’s law</span></p>
+<section id="amount-of-electricity-required-for-electrochemical-reactions" class="level3">
+<h3 class="anchored" data-anchor-id="amount-of-electricity-required-for-electrochemical-reactions">Amount of electricity required for electrochemical reactions</h3>
+<p><strong>Determine the amount of electricity required for the following reactions:</strong></p>
+<ol type="1">
+<li>To deposit 1 mol of sodium<br>
+<span class="math inline">\(\ce{Na+(aq) + e- -&gt; Na(s)}\)</span></li>
+<li>To deposit 1 mol of magnesium<br>
+<span class="math inline">\(\ce{Mg2+(aq) + 2e- -&gt; Mg(s)}\)</span></li>
+<li>To form 1 mole of fluorine gas<br>
+<span class="math inline">\(\ce{2F-(aq) -&gt; F2(g) + 2e-}\)</span></li>
+<li>To form 1 mole of oxygen<br>
+<span class="math inline">\(\ce{4OH-(aq) -&gt; O2(g) + 2H2O(l) + 4e-}\)</span></li>
+</ol>
+<div class="we-answer">
+<p>One Faraday is the amount of charge, <span class="math inline">\(96\,500\ \mathrm{C}\)</span>, carried by one mole of electrons.</p>
+<ol type="1">
+<li><p>For sodium, the half-equation shows that one mole of electrons is required:</p>
+<p><span class="math display">\[1\ F=96\,500\ \mathrm{C}\]</span></p></li>
+<li><p>For magnesium, two moles of electrons are required:</p>
+<p><span class="math display">\[2\ F=2\times96\,500=193\,000\ \mathrm{C}\]</span></p></li>
+<li><p>For fluorine, two moles of electrons are released when one mole of fluorine gas is formed:</p>
+<p><span class="math display">\[2\ F=193\,000\ \mathrm{C}\]</span></p></li>
+<li><p>For oxygen, four moles of electrons are released when one mole of oxygen is formed:</p>
+<p><span class="math display">\[4\ F=386\,000\ \mathrm{C}\]</span></p></li>
+</ol>
+</div>
+</section>
+</div>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · Electrolysis calculation</span></p>
+<section id="deposition-of-magnesium" class="level3">
+<h3 class="anchored" data-anchor-id="deposition-of-magnesium">Deposition of magnesium</h3>
+<p><strong>Calculate the amount of magnesium deposited when a current of 2.20 A flows through the molten bromide for 15 minutes.</strong></p>
+<div class="we-answer">
+<ol type="1">
+<li><p>Write the cathode half-equation:</p>
+<p><span class="math display">\[\ce{Mg2+(aq) + 2e- -&gt; Mg(s)}\]</span></p></li>
+<li><p>Calculate the charge needed to deposit one mole of magnesium:</p>
+<p><span class="math display">\[F=2\times96\,500=193\,000\ \mathrm{C\ mol^{-1}}\]</span></p></li>
+<li><p>Calculate the charge transferred. Convert minutes to seconds:</p>
+<p><span class="math display">\[Q=I\times t=2.20\times(60\times15)=1980\ \mathrm{C}\]</span></p></li>
+<li><p>Calculate the amount of magnesium deposited:</p>
+<p><span class="math display">\[n(\ce{Mg})=\frac{1980}{193\,000}=0.0103\ \mathrm{mol}\]</span></p>
+<p><span class="math display">\[m=0.0103\times24=0.25\ \mathrm{g}\]</span></p></li>
+<li><p><strong>Final answer:</strong> <span class="math inline">\(0.25\ \mathrm{g}\)</span> of magnesium is deposited at the cathode.</p></li>
+</ol>
+</div>
+</section>
+</div>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · Electrolysis calculation</span></p>
+<section id="production-of-oxygen-gas" class="level3">
+<h3 class="anchored" data-anchor-id="production-of-oxygen-gas">Production of oxygen gas</h3>
+<p><strong>Calculate the volume of oxygen gas produced at room temperature, when a concentrated aqueous solution of sulfuric acid, H₂SO₄, is electrolysed for 35.0 minutes using a current of 0.75 A.</strong></p>
+<div class="we-answer">
+<ol type="1">
+<li><p>Write the anode half-equation:</p>
+<p><span class="math display">\[\ce{4OH-(aq) -&gt; O2(g) + 2H2O(l) + 4e-}\]</span></p></li>
+<li><p>Calculate the charge required to form one mole of oxygen:</p>
+<p><span class="math display">\[F=4\times96\,500=386\,000\ \mathrm{C\ mol^{-1}}\]</span></p></li>
+<li><p>Calculate the charge transferred:</p>
+<p><span class="math display">\[Q=0.75\times(60\times35)=1575\ \mathrm{C}\]</span></p></li>
+<li><p>Calculate the amount of oxygen:</p>
+<p><span class="math display">\[n(\ce{O2})=\frac{1575}{386\,000}=4.08\times10^{-3}\ \mathrm{mol}\]</span></p></li>
+<li><p>At room temperature, one mole of gas occupies <span class="math inline">\(24.0\ \mathrm{dm^3}\)</span>:</p>
+<p><span class="math display">\[V=4.08\times10^{-3}\times24=0.0979\ \mathrm{dm^3}\]</span></p></li>
+<li><p><strong>Final answer:</strong> <span class="math inline">\(0.0979\ \mathrm{dm^3}\)</span> of oxygen is formed at the anode.</p></li>
+</ol>
+</div>
+</section>
+</div>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · Electrolysis calculation</span></p>
+<section id="production-of-hydrogen-gas" class="level3">
+<h3 class="anchored" data-anchor-id="production-of-hydrogen-gas">Production of hydrogen gas</h3>
+<p><strong>Calculate the volume of hydrogen gas produced at room temperature, when a concentrated aqueous solution of sodium sulfate, Na₂SO₄, is electrolysed for 17.5 minutes using a current of 3.25 A.</strong></p>
+<div class="we-answer">
+<ol type="1">
+<li><p>Write the cathode half-equation:</p>
+<p><span class="math display">\[\ce{2H+(aq) + 2e- -&gt; H2(g)}\]</span></p></li>
+<li><p>Calculate the charge required to form one mole of hydrogen:</p>
+<p><span class="math display">\[F=2\times96\,500=193\,000\ \mathrm{C\ mol^{-1}}\]</span></p></li>
+<li><p>Calculate the charge transferred:</p>
+<p><span class="math display">\[Q=3.25\times(60\times17.5)=3413\ \mathrm{C}\]</span></p></li>
+<li><p>Calculate the amount of hydrogen:</p>
+<p><span class="math display">\[n(\ce{H2})=\frac{3413}{193\,000}=1.76\times10^{-2}\ \mathrm{mol}\]</span></p></li>
+<li><p>Calculate the volume at room temperature:</p>
+<p><span class="math display">\[V=1.76\times10^{-2}\times24=0.42\ \mathrm{dm^3}\]</span></p></li>
+<li><p><strong>Final answer:</strong> <span class="math inline">\(0.42\ \mathrm{dm^3}\)</span> of hydrogen is formed at the cathode.</p></li>
+</ol>
+</div>
+</section>
+</div>
+<section id="electroplating-and-the-avogadro-constant" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="electroplating-and-the-avogadro-constant">Electroplating and the Avogadro constant</h3>
+<p>In electroplating, the object to be coated is connected as the <strong>cathode</strong>. Metal ions in the electrolyte are reduced and deposited on its surface. For copper electroplating, the electrolyte may be aqueous copper(II) sulfate, with a copper anode and the object being plated as the cathode.</p>
+<p><span class="math display">\[\ce{Cu2+(aq) + 2e- -&gt; Cu(s)}\]</span></p>
+<p>The Faraday constant can be related to the electronic charge and the Avogadro constant:</p>
+<p><span class="math display">\[F=Le\]</span></p>
+<p><span class="math display">\[L=\frac{F}{e}\]</span></p>
+<p>实验中要准确测量 current、time 和 electrode mass。电极在实验前后应清洗、用 propanone 干燥并称量；cathode gains mass，而 anode loses mass。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/electrochemistry/pdf/24-1-image-030.webp" class="concept-figure img-fluid figure-img" alt="Copper electroplating apparatus with ammeter, variable resistor, copper electrodes and copper(II) sulfate solution"></p>
+<figcaption>Copper electroplating apparatus used to determine the Avogadro constant</figcaption>
+</figure>
+</div>
+</section>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · Avogadro constant experiment</span></p>
+<section id="determining-the-avogadro-constant-from-copper-electroplating" class="level3">
+<h3 class="anchored" data-anchor-id="determining-the-avogadro-constant-from-copper-electroplating">Determining the Avogadro constant from copper electroplating</h3>
+<p><strong>A copper anode and cathode are weighed. A variable resistor is used to maintain a current of about 0.17 A. Current passes for 40 minutes. The electrodes are washed with distilled water, dried with propanone and reweighed. The cathode gains mass and the anode loses mass. In one experiment the mass change is 0.13 g Cu. Determine the Avogadro constant.</strong></p>
+<div class="we-answer">
+<ol type="1">
+<li><p>Calculate the charge passed:</p>
+<p><span class="math display">\[Q=I\times t=0.17\times(60\times40)=408\ \mathrm{C}\]</span></p></li>
+<li><p>Convert the mass of copper to an amount of copper:</p>
+<p><span class="math display">\[n(\ce{Cu})=\frac{0.13}{63.5}=2.0\times10^{-3}\ \mathrm{mol}\]</span></p></li>
+<li><p>Calculate the charge required for one mole of copper:</p>
+<p><span class="math display">\[\frac{408}{0.13/63.5}=199\,292\ \mathrm{C\ mol^{-1}}\]</span></p></li>
+<li><p>Use the copper half-equation:</p>
+<p><span class="math display">\[\ce{Cu2+(aq) + 2e- -&gt; Cu(s)}\]</span></p>
+<p>Two moles of electrons are needed per mole of copper, so the charge on one mole of electrons is:</p>
+<p><span class="math display">\[F=\frac{199\,292}{2}=99\,646\ \mathrm{C\ mol^{-1}}\]</span></p></li>
+<li><p>Use <span class="math inline">\(F=Le\)</span>, where <span class="math inline">\(e=1.60\times10^{-19}\ \mathrm{C}\)</span>:</p>
+<p><span class="math display">\[L=\frac{99\,646}{1.60\times10^{-19}}\approx6.23\times10^{23}\ \mathrm{mol^{-1}}\]</span></p></li>
+<li><p><strong>Final answer:</strong> <span class="math inline">\(L\approx6.23\times10^{23}\ \mathrm{mol^{-1}}\)</span>, which is close to the theoretical value <span class="math inline">\(6.02\times10^{23}\ \mathrm{mol^{-1}}\)</span>.</p></li>
+</ol>
+</div>
+</section>
+</div>
+</section>
+<section id="standard-electrode-potentials-standard-cell-potentials-and-the-nernst-equation" class="level2">
+<h2 class="anchored" data-anchor-id="standard-electrode-potentials-standard-cell-potentials-and-the-nernst-equation">24.2 Standard electrode potentials, standard cell potentials and the Nernst equation</h2>
+<section id="electrode-potential-and-reduction-half-equations" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="electrode-potential-and-reduction-half-equations">Electrode potential and reduction half-equations</h3>
+<p>把金属棒插入含有该金属离子的溶液时，会同时发生氧化和还原：</p>
+<p><span class="math display">\[\ce{M(s) &lt;=&gt; M^{z+}(aq) + z e-}\]</span></p>
+<p>在本章中 half-equation 统一写成 reduction half-equation：</p>
+<p><span class="math display">\[\ce{M^{z+}(aq) + z e- &lt;=&gt; M(s)}\]</span></p>
+<p><strong>The electrode potential is a measure of how readily the species on the left-hand side of a reduction half-equation accepts electrons.</strong></p>
+<ul>
+<li><span class="math inline">\(E\)</span> 越正，越容易发生 reduction；左侧物种是更强的 oxidising agent。</li>
+<li><span class="math inline">\(E\)</span> 越负，左侧物种越不容易发生 reduction；右侧还原态物种通常是更强的 reducing agent。</li>
+<li>Electrode potential 不能单独直接测量，必须与另一个 half-cell 比较。</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/electrochemistry/pdf/24-2-image-012.webp" class="concept-figure img-fluid figure-img" alt="Copper atoms undergoing oxidation to copper ions at an electrode"></p>
+<figcaption>Oxidation of copper atoms to copper ions</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/electrochemistry/pdf/24-2-image-018.webp" class="concept-figure img-fluid figure-img" alt="Copper ions undergoing reduction to copper atoms at an electrode"></p>
+<figcaption>Reduction of copper ions to copper atoms</figcaption>
+</figure>
+</div>
+</section>
+<section id="standard-conditions-and-eominus" class="level3 formula-panel">
+<h3 class="anchored" data-anchor-id="standard-conditions-and-eominus">Standard conditions and <span class="math inline">\(E^\ominus\)</span></h3>
+<p><strong>The standard electrode potential, <span class="math inline">\(E^\ominus\)</span>, is the potential of a half-cell measured relative to the standard hydrogen electrode under standard conditions.</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 42%">
+<col style="width: 57%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Condition</th>
+<th style="text-align: right;">Standard value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Temperature</td>
+<td style="text-align: right;"><span class="math inline">\(298\ \mathrm{K}\)</span></td>
+</tr>
+<tr class="even">
+<td>Pressure of gases</td>
+<td style="text-align: right;"><span class="math inline">\(101\ \mathrm{kPa}\)</span></td>
+</tr>
+<tr class="odd">
+<td>Concentration of aqueous ions</td>
+<td style="text-align: right;"><span class="math inline">\(1.00\ \mathrm{mol\ dm^{-3}}\)</span></td>
+</tr>
+<tr class="even">
+<td>Current during measurement</td>
+<td style="text-align: right;">approximately zero; use a high-resistance voltmeter</td>
+</tr>
+</tbody>
+</table>
+<p>所有 <span class="math inline">\(E^\ominus\)</span> 都是 reduction potentials。如果半方程式反向作为 oxidation half-equation，数值符号必须反过来。</p>
+</section>
+<section id="standard-hydrogen-electrode-she" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="standard-hydrogen-electrode-she">Standard hydrogen electrode (SHE)</h3>
+<p>SHE 是测量其他标准电极电势的 primary reference electrode：</p>
+<p><span class="math display">\[\ce{2H+(aq) + 2e- &lt;=&gt; H2(g)}\qquad E^\ominus=0.00\ \mathrm{V}\]</span></p>
+<p>它包括 inert platinum electrode、标准压力的 hydrogen gas、<span class="math inline">\([\ce{H+}]=1.00\ \mathrm{mol\ dm^{-3}}\)</span> 的酸性溶液和 <span class="math inline">\(298\ \mathrm{K}\)</span>。与另一个 half-cell 连接时还需要 salt bridge 和 high-resistance voltmeter。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/electrochemistry/pdf/24-2-image-024.webp" class="concept-figure img-fluid figure-img" alt="Standard hydrogen electrode with platinum electrode, hydrogen gas and acidic solution"></p>
+<figcaption>Standard hydrogen electrode connected to a reference half-cell</figcaption>
+</figure>
+</div>
+</section>
+<section id="types-of-half-cell-and-the-electrode-required" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="types-of-half-cell-and-the-electrode-required">Types of half-cell and the electrode required</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Half-cell type</th>
+<th>Example</th>
+<th>Electrode needed</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>metal / metal ion</td>
+<td><span class="math inline">\(\ce{Cu^{2+}(aq) / Cu(s)}\)</span></td>
+<td>Cu metal electrode</td>
+</tr>
+<tr class="even">
+<td>non-metal / non-metal ion</td>
+<td><span class="math inline">\(\ce{Br2(l) / Br-(aq)}\)</span></td>
+<td>inert Pt electrode</td>
+</tr>
+<tr class="odd">
+<td>ions with different oxidation states</td>
+<td><span class="math inline">\(\ce{MnO4-(aq), Mn^{2+}(aq), H+(aq)}\)</span></td>
+<td>inert Pt electrode</td>
+</tr>
+</tbody>
+</table>
+<p>当 half-cell 中没有能导电且参与平衡的固体电极时，必须使用 platinum。Pt 是 inert conductor，不应写成反应物或生成物。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/electrochemistry/pdf/24-2-image-034.webp" class="concept-figure img-fluid figure-img" alt="Silver and silver-ion half-cell connected to the standard hydrogen electrode"></p>
+<figcaption>Ag/Ag+ half-cell connected to the standard hydrogen electrode</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/electrochemistry/pdf/24-2-image-040.webp" class="concept-figure img-fluid figure-img" alt="Bromine and bromide half-cell with an inert platinum electrode connected to the standard hydrogen electrode"></p>
+<figcaption>Br2/Br- half-cell connected to the standard hydrogen electrode</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/electrochemistry/pdf/24-2-image-046.webp" class="concept-figure img-fluid figure-img" alt="Permanganate and manganese(II) half-cell with an inert platinum electrode"></p>
+<figcaption>MnO4-/Mn2+ half-cell connected to the standard hydrogen electrode</figcaption>
+</figure>
+</div>
+</section>
+<section id="salt-bridge-and-conventional-cell-diagrams" class="level3 formula-panel">
+<h3 class="anchored" data-anchor-id="salt-bridge-and-conventional-cell-diagrams">Salt bridge and conventional cell diagrams</h3>
+<p>Salt bridge 让离子移动、维持两侧电中性并闭合内电路。若一侧有 <span class="math inline">\(\ce{Ag+}\)</span>，不要使用含 <span class="math inline">\(\ce{Cl-}\)</span> 的 KCl，因为会生成 <span class="math inline">\(\ce{AgCl(s)}\)</span>。</p>
+<p>以 Zn/Cu galvanic cell 为例：</p>
+<p><span class="math display">\[\ce{Zn(s) | Zn^{2+}(aq) || Cu^{2+}(aq) | Cu(s)}\]</span></p>
+<p>左侧写 oxidation half-cell，通常是 negative pole / anode；右侧写 reduction half-cell，通常是 positive pole / cathode。电子由 <strong>negative pole to positive pole</strong>。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/electrochemistry/pdf/24-2-image-056.webp" class="concept-figure img-fluid figure-img" alt="Electron flow and electrode processes in an electrochemical cell"></p>
+<figcaption>Electron flow in a copper/chlorine electrochemical cell</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/electrochemistry/pdf/24-2-image-062.webp" class="concept-figure img-fluid figure-img" alt="Electrochemical cell used to assess the feasibility of a copper and chlorine reaction"></p>
+<figcaption>Feasibility cell with copper and chlorine half-cells</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/electrochemistry/pdf/24-2-image-090.webp" class="concept-figure img-fluid figure-img" alt="Zinc and copper galvanic cell showing oxidation at zinc and reduction at copper"></p>
+<figcaption>Zinc/copper cell showing oxidation and reduction</figcaption>
+</figure>
+</div>
+</section>
+<section id="calculating-eominus_mathrmcell-and-feasibility" class="level3 formula-panel">
+<h3 class="anchored" data-anchor-id="calculating-eominus_mathrmcell-and-feasibility">Calculating <span class="math inline">\(E^\ominus_{\mathrm{cell}}\)</span> and feasibility</h3>
+<p><span class="math display">\[E^\ominus_{\mathrm{cell}}=E^\ominus_{\mathrm{reduction}}-E^\ominus_{\mathrm{oxidation}}\]</span></p>
+<p>也可以说是 more positive <span class="math inline">\(E^\ominus\)</span> 减去 less positive <span class="math inline">\(E^\ominus\)</span>。不要把两个 reduction potentials 相加，也不要在已经反向写出 oxidation equation 后忘记变号。</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 57%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;"><span class="math inline">\(E^\ominus_{\mathrm{cell}}\)</span></th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">positive</td>
+<td>reaction is feasible under standard conditions</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">zero</td>
+<td>no net driving force at equilibrium</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">negative</td>
+<td>written forward reaction is not feasible under standard conditions</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Feasible</strong> 表示热力学上有可能发生，不等于反应一定快速发生；速率还可能受 activation energy 和其他动力学因素影响。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/electrochemistry/pdf/24-2-image-068.webp" class="concept-figure img-fluid figure-img" alt="Oxidation and reduction directions with the overall electrochemical equation"></p>
+<figcaption>Oxidation, reduction and the overall equation for an electrochemical cell</figcaption>
+</figure>
+</div>
+</section>
+<section id="oxidising-and-reducing-agents" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="oxidising-and-reducing-agents">Oxidising and reducing agents</h3>
+<ul>
+<li><strong>Oxidising agent</strong> accepts electrons and is reduced；在 reduction half-equation 左侧寻找。</li>
+<li><strong>Reducing agent</strong> donates electrons and is oxidised；在 reduction half-equation 右侧寻找。</li>
+<li>较正的左侧物种通常是较强 oxidising agent；较负半方程式右侧物种通常是较强 reducing agent。</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/electrochemistry/pdf/24-2-image-096.webp" class="concept-figure img-fluid figure-img" alt="Electrochemical series showing the relative strength of oxidising and reducing agents"></p>
+<figcaption>Electrochemical series and oxidising/reducing agent strength</figcaption>
+</figure>
+</div>
+</section>
+<section id="balancing-ionic-redox-equations" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="balancing-ionic-redox-equations">Balancing ionic redox equations</h3>
+<p>根据 <span class="math inline">\(E^\ominus\)</span> 选 reduction；反转另一个方程式作 oxidation；配平电子数；相加并约去电子；检查原子、电荷和状态符号。酸性条件下可以使用 <span class="math inline">\(\ce{H+}\)</span>、<span class="math inline">\(\ce{H2O}\)</span> 配平；不要把电子写在最终 overall equation 中。</p>
+</section>
+<section id="nernst-equation-and-non-standard-conditions" class="level3 formula-panel">
+<h3 class="anchored" data-anchor-id="nernst-equation-and-non-standard-conditions">Nernst equation and non-standard conditions</h3>
+<p>标准电极电势只适用于 standard conditions。改变 ion concentration、gas pressure 或 temperature 后，要使用实际 electrode potential <span class="math inline">\(E\)</span>。</p>
+<p><span class="math display">\[E=E^\ominus-\frac{RT}{nF}\ln Q\]</span></p>
+<p>对于 reduction half-equation <span class="math inline">\(\ce{Ox + n e- &lt;=&gt; Red}\)</span>：</p>
+<p><span class="math display">\[E=E^\ominus+\frac{RT}{nF}\ln\left(\frac{[\mathrm{Ox}]}{[\mathrm{Red}]}\right)\]</span></p>
+<p>298 K 时：</p>
+<p><span class="math display">\[E=E^\ominus+\frac{0.059}{n}\log_{10}\left(\frac{[\mathrm{oxidised\ species}]}{[\mathrm{reduced\ species}]}\right)\]</span></p>
+<p>其中 <span class="math inline">\(R=8.31\ \mathrm{J\ K^{-1}\ mol^{-1}}\)</span>，<span class="math inline">\(F=96500\ \mathrm{C\ mol^{-1}}\)</span>，<span class="math inline">\(n\)</span> 是转移电子数。纯固体和纯液体的 activity 取 1，不写入 concentration quotient。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/electrochemistry/pdf/24-2-image-120.webp" class="concept-figure img-fluid figure-img" alt="Nernst equation formula for calculating electrode potential"></p>
+<figcaption>Nernst equation at 298 K</figcaption>
+</figure>
+</div>
+</section>
+<section id="effect-of-concentration-on-electrode-potential" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="effect-of-concentration-on-electrode-potential">Effect of concentration on electrode potential</h3>
+<p>对 <span class="math inline">\(\ce{Ox + n e- &lt;=&gt; Red}\)</span>，增加 <span class="math inline">\([\ce{Ox}]\)</span> 会使平衡右移、<span class="math inline">\(E\)</span> 变得更正；增加 <span class="math inline">\([\ce{Red}]\)</span> 会使平衡左移、<span class="math inline">\(E\)</span> 变得更负。Common-ion effect 可能通过沉淀降低某个 ion 的浓度，进而改变 <span class="math inline">\(E\)</span>。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/electrochemistry/pdf/24-2-image-106.webp" class="concept-figure img-fluid figure-img" alt="Effect of changing concentration on electrode potential"></p>
+<figcaption>Effect of concentration on electrode potential</figcaption>
+</figure>
+</div>
+</section>
+<section id="linking-eominus_mathrmcell-and-delta-gominus" class="level3 formula-panel">
+<h3 class="anchored" data-anchor-id="linking-eominus_mathrmcell-and-delta-gominus">Linking <span class="math inline">\(E^\ominus_{\mathrm{cell}}\)</span> and <span class="math inline">\(\Delta G^\ominus\)</span></h3>
+<p><span class="math display">\[\Delta G^\ominus=-nFE^\ominus_{\mathrm{cell}}\]</span></p>
+<p><span class="math inline">\(\Delta G^\ominus\)</span> 的单位先得到 <span class="math inline">\(\mathrm{J\ mol^{-1}}\)</span>；若题目要求 <span class="math inline">\(\mathrm{kJ\ mol^{-1}}\)</span>，最后除以 1000。<span class="math inline">\(E^\ominus_{\mathrm{cell}}&gt;0\)</span> 时，<span class="math inline">\(\Delta G^\ominus&lt;0\)</span>，正向反应 thermodynamically feasible。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/electrochemistry/pdf/24-2-image-068.webp" class="concept-figure img-fluid figure-img" alt="Electrochemical cell reaction and electron flow used when linking cell potential to Gibbs energy"></p>
+<figcaption>Electron flow and the overall reaction in an electrochemical cell</figcaption>
+</figure>
+</div>
+</section>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · Nernst equation</span></p>
+<section id="fe³fe²-half-cell" class="level3">
+<h3 class="anchored" data-anchor-id="fe³fe²-half-cell">Fe³⁺/Fe²⁺ half-cell</h3>
+<p><strong>Calculate the electrode potential at 298 K of a Fe³⁺/Fe²⁺ half-cell.</strong></p>
+<p><span class="math display">\[\ce{Fe3+(aq) + e- &lt;=&gt; Fe2+(aq)}\]</span></p>
+<p><span class="math display">\[[\ce{Fe3+}]=0.034\ \mathrm{mol\ dm^{-3}}\]</span></p>
+<p><span class="math display">\[[\ce{Fe2+}]=0.64\ \mathrm{mol\ dm^{-3}}\]</span></p>
+<p><span class="math display">\[E^\ominus=+0.77\ \mathrm{V}\]</span></p>
+<div class="we-answer">
+<ul>
+<li><p>Oxidised species: <span class="math inline">\(\ce{Fe3+}\)</span>.</p></li>
+<li><p>Reduced species: <span class="math inline">\(\ce{Fe2+}\)</span>.</p></li>
+<li><p><span class="math inline">\(z=1\)</span>.</p></li>
+<li><p>Use the Nernst equation:</p>
+<p><span class="math display">\[E=E^\ominus+\frac{0.059}{z}\log_{10}\left(\frac{[\mathrm{oxidised\ species}]}{[\mathrm{reduced\ species}]}\right)\]</span></p></li>
+<li><p>Substitute the values:</p>
+<p><span class="math display">\[E=(+0.77)+\frac{0.059}{1}\log_{10}\left(\frac{0.034}{0.64}\right)\]</span></p>
+<p><span class="math display">\[E=(+0.77)+(-0.075)\]</span></p></li>
+<li><p><strong>Final answer:</strong> <span class="math inline">\(E=+0.69\ \mathrm{V}\)</span>.</p></li>
+</ul>
+</div>
+</section>
+</div>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · Nernst equation</span></p>
+<section id="cu²cu-half-cell" class="level3">
+<h3 class="anchored" data-anchor-id="cu²cu-half-cell">Cu²⁺/Cu half-cell</h3>
+<p><strong>Calculate the electrode potential at 298 K of a Cu²⁺/Cu half-cell.</strong></p>
+<p><span class="math display">\[\ce{Cu2+(aq) + 2e- &lt;=&gt; Cu(s)}\]</span></p>
+<p><span class="math display">\[[\ce{Cu2+}]=0.0010\ \mathrm{mol\ dm^{-3}}\]</span></p>
+<p><span class="math display">\[E^\ominus=+0.34\ \mathrm{V}\]</span></p>
+<div class="we-answer">
+<ul>
+<li><p>Oxidised species: <span class="math inline">\(\ce{Cu2+}\)</span>.</p></li>
+<li><p>Reduced species: <span class="math inline">\(\ce{Cu(s)}\)</span>.</p></li>
+<li><p>Solid Cu is not included in the Nernst quotient; its activity is fixed at 1.0.</p></li>
+<li><p><span class="math inline">\(z=2\)</span>.</p></li>
+<li><p>Substitute the values:</p>
+<p><span class="math display">\[E=0.34+\frac{0.059}{2}\log_{10}\left(\frac{0.0010}{1.0}\right)\]</span></p>
+<p><span class="math display">\[E=(+0.34)+(-0.089)\]</span></p></li>
+<li><p><strong>Final answer:</strong> <span class="math inline">\(E=+0.25\ \mathrm{V}\)</span>.</p></li>
+</ul>
+<p><strong>Exam tip:</strong> use the full Nernst equation if the temperature is not 298 K; the simplified equation above is the syllabus form for 298 K.</p>
+</div>
+</section>
+</div>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · Gibbs energy</span></p>
+<section id="standard-gibbs-free-energy-change-for-an-electrochemical-cell" class="level3">
+<h3 class="anchored" data-anchor-id="standard-gibbs-free-energy-change-for-an-electrochemical-cell">Standard Gibbs free energy change for an electrochemical cell</h3>
+<p><strong>Calculate the standard Gibbs free energy change for the following electrochemical cell:</strong></p>
+<p><span class="math display">\[\ce{2Fe3+(aq) + Cu(s) -&gt; 2Fe2+(aq) + Cu2+(aq)}\]</span></p>
+<div class="we-answer">
+<ol type="1">
+<li><p>Write the relevant half-equations and their standard electrode potentials:</p>
+<p><span class="math display">\[\ce{Fe3+(aq) + e- &lt;=&gt; Fe2+(aq)}\qquad E^\ominus=+0.77\ \mathrm{V}\]</span></p>
+<p><span class="math display">\[\ce{Cu2+(aq) + 2e- &lt;=&gt; Cu(s)}\qquad E^\ominus=+0.34\ \mathrm{V}\]</span></p></li>
+<li><p>Calculate the standard cell potential:</p>
+<p><span class="math display">\[E^\ominus_{\mathrm{cell}}=E^\ominus_{\mathrm{red}}-E^\ominus_{\mathrm{ox}}=(+0.77)-(+0.34)=+0.43\ \mathrm{V}\]</span></p></li>
+<li><p>The <span class="math inline">\(\ce{Cu2+/Cu}\)</span> half-cell has the smaller <span class="math inline">\(E^\ominus\)</span>, so Cu is oxidised and transfers two electrons to two <span class="math inline">\(\ce{Fe3+}\)</span> ions. Therefore, <span class="math inline">\(n=2\)</span>.</p></li>
+<li><p>Use:</p>
+<p><span class="math display">\[\Delta G^\ominus=-n\times E^\ominus_{\mathrm{cell}}\times F\]</span></p></li>
+<li><p>Substitute <span class="math inline">\(F=96\,500\ \mathrm{C\ mol^{-1}}\)</span>:</p>
+<p><span class="math display">\[\Delta G^\ominus=-2\times(+0.43)\times96\,500\]</span></p>
+<p><span class="math display">\[\Delta G^\ominus=-82\,990\ \mathrm{J\ mol^{-1}}\]</span></p></li>
+<li><p><strong>Final answer:</strong> <span class="math inline">\(\Delta G^\ominus\approx-83\ \mathrm{kJ\ mol^{-1}}\)</span>.</p></li>
+</ol>
+</div>
+</section>
+</div>
+</section>
+<section id="structured-questions" class="level2">
+<h2 class="anchored" data-anchor-id="structured-questions">Structured Questions</h2>
+</section>
+</section>
+<section id="electrochemistry---structured-questions" class="level1">
+<h1>24 Electrochemistry - Structured Questions</h1>
+<p>本页只选取与电化学标准电势、SHE、半电池、电池电势、Nernst equation、Gibbs energy，以及考纲中的 Faraday、电镀和 Avogadro constant 计算直接相关的 Structured Questions。独立的定性 Electrolysis 产物判断题不在本页；保留的 Faraday 题用于训练考纲要求的电量、电子数和沉积量计算。</p>
+<section id="electrolysis-1" class="level3">
+<h3 class="anchored" data-anchor-id="electrolysis-1">24.1 Electrolysis</h3>
+</section>
+<section id="example-6-faraday-constant-from-charge-measurements-24.1-sq-medium-q1" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-6-faraday-constant-from-charge-measurements-24.1-sq-medium-q1">Example 6 · Faraday constant from charge measurements · 24.1 SQ Medium Q1</h3>
+<p>An experiment passes a measured charge through a cell. The amount of substance formed is calculated from the number of electrons in its half-equation.</p>
+<p><strong>(a)</strong> State the relationship between charge, current and time. <code>[1 mark]</code></p>
+<p><strong>(b)</strong> State the value and unit of the Faraday constant. <code>[1 mark]</code></p>
+<p><strong>(c)</strong> Explain why the number of moles of electrons must be found before the amount of product is calculated. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><strong>(a)</strong> <span class="math inline">\(Q=It\)</span>. <code>[1]</code></li>
+<li><strong>(b)</strong> <span class="math inline">\(F=96500\ \mathrm{C\ mol^{-1}}\)</span> of electrons. <code>[1]</code></li>
+<li><strong>(c)</strong> The charge is related to moles of electrons by <span class="math inline">\(Q=n(e^-)F\)</span>; the half-equation gives the mole ratio between electrons and the required product. <code>[2]</code></li>
+</ul>
+</details>
+</section>
+<section id="example-13-electroplating-zinc-24.1-sq-medium-q2" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-13-electroplating-zinc-24.1-sq-medium-q2">Example 13 · Electroplating zinc · 24.1 SQ Medium Q2</h3>
+<p>A current of <span class="math inline">\(2.50\ \mathrm{A}\)</span> is passed for <span class="math inline">\(20.0\)</span> minutes. Zinc is deposited according to:</p>
+<p><span class="math display">\[\ce{Zn^{2+} + 2e- -&gt; Zn}\]</span></p>
+<p>Calculate the mass of zinc deposited. Use <span class="math inline">\(F=96500\ \mathrm{C\ mol^{-1}}\)</span> and <span class="math inline">\(A_r(\ce{Zn})=65.4\)</span>.</p>
+<p><code>[4 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<p><span class="math display">\[Q=It=2.50\times(20.0\times60)=3000\ \mathrm{C}\]</span></p>
+<p><span class="math display">\[n(e^-)=\frac{3000}{96500}=0.0311\ \mathrm{mol}\]</span></p>
+<p><span class="math display">\[n(\ce{Zn})=\frac{0.0311}{2}=0.0155\ \mathrm{mol}\]</span></p>
+<span class="math display">\[m=0.0155\times65.4=1.01\ \mathrm{g}\]</span> <code>[4]</code>
+</details>
+</section>
+<section id="example-14-avogadro-constant-experiment-24.1-sq-medium-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-14-avogadro-constant-experiment-24.1-sq-medium-q3">Example 14 · Avogadro constant experiment · 24.1 SQ Medium Q3</h3>
+<p>In an experiment, a copper electrode gains <span class="math inline">\(0.299\ \mathrm{g}\)</span> after a current of <span class="math inline">\(0.375\ \mathrm{A}\)</span> flows for <span class="math inline">\(40.0\)</span> minutes. Copper is deposited according to <span class="math inline">\(\ce{Cu^{2+}+2e- -&gt; Cu}\)</span>. Use <span class="math inline">\(A_r(\ce{Cu})=63.5\)</span> and the electronic charge <span class="math inline">\(e=1.60\times10^{-19}\ \mathrm{C}\)</span>.</p>
+<p><strong>(a)</strong> Calculate the charge passed. <code>[1 mark]</code></p>
+<p><strong>(b)</strong> Calculate the Faraday constant from the mass change. <code>[3 marks]</code></p>
+<p><strong>(c)</strong> Calculate the Avogadro constant <span class="math inline">\(L\)</span> using <span class="math inline">\(F=Le\)</span>. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><strong>(a)</strong> <span class="math inline">\(Q=0.375\times(40.0\times60)=900\ \mathrm{C}\)</span>. <code>[1]</code></li>
+<li><strong>(b)</strong> <span class="math inline">\(n(\ce{Cu})=0.299/63.5=4.71\times10^{-3}\ \mathrm{mol}\)</span>; <span class="math inline">\(n(e^-)=2n(\ce{Cu})=9.42\times10^{-3}\ \mathrm{mol}\)</span>; <span class="math inline">\(F=Q/n(e^-)=9.55\times10^4\ \mathrm{C\ mol^{-1}}\)</span>. <code>[3]</code></li>
+<li><strong>(c)</strong> <span class="math inline">\(L=F/e=(9.55\times10^4)/(1.60\times10^{-19})\approx5.97\times10^{23}\ \mathrm{mol^{-1}}\)</span>. <code>[2]</code></li>
+</ul>
+</details>
+</section>
+<section id="standard-electrode-potentials---easy" class="level3">
+<h3 class="anchored" data-anchor-id="standard-electrode-potentials---easy">24.2 Standard electrode potentials - Easy</h3>
+</section>
+<section id="example-1-chromium-half-cell-and-standard-conditions-24.2-sq-easy-q1" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-1-chromium-half-cell-and-standard-conditions-24.2-sq-easy-q1">Example 1 · Chromium half-cell and standard conditions · 24.2 SQ Easy Q1</h3>
+<p>The chromium half-cell containing <span class="math inline">\(\ce{Cr/Cr^{3+}}\)</span> is connected to a copper half-cell containing <span class="math inline">\(\ce{Cu/Cu^{2+}}\)</span>. For the copper half-cell, <span class="math inline">\(E^\ominus=+0.34\ \mathrm{V}\)</span>. The standard cell potential is <span class="math inline">\(+1.08\ \mathrm{V}\)</span> and the copper half-cell undergoes reduction.</p>
+<p><strong>(a)</strong> Calculate the standard electrode potential of the <span class="math inline">\(\ce{Cr/Cr^{3+}}\)</span> half-cell. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Write the two half-equations that occur if the chromium half-cell is connected to the standard hydrogen electrode. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> State the standard conditions used when measuring a standard electrode potential. <code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><strong>(a)</strong> <span class="math inline">\(E^\ominus(\ce{Cr^{3+}/Cr})=+0.34-1.08=-0.74\ \mathrm{V}\)</span>. <code>[2]</code></li>
+<li><strong>(b)</strong> Chromium: <span class="math inline">\(\ce{Cr -&gt; Cr^{3+}+3e-}\)</span>; hydrogen: <span class="math inline">\(\ce{2H+ +2e- -&gt; H2}\)</span>. <code>[2]</code></li>
+<li><strong>(c)</strong> Temperature <span class="math inline">\(298\ \mathrm{K}\)</span>; gas pressure <span class="math inline">\(101\ \mathrm{kPa}\)</span>; aqueous ion concentration <span class="math inline">\(1.00\ \mathrm{mol\ dm^{-3}}\)</span>. <code>[3]</code></li>
+</ul>
+</details>
+</section>
+<section id="example-2-equilibrium-position-and-standard-hydrogen-electrode-24.2-sq-easy-q2" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-2-equilibrium-position-and-standard-hydrogen-electrode-24.2-sq-easy-q2">Example 2 · Equilibrium position and standard hydrogen electrode · 24.2 SQ Easy Q2</h3>
+<p>The following reduction half-equations have standard electrode potentials of <span class="math inline">\(+0.80\ \mathrm{V}\)</span>, <span class="math inline">\(+0.89\ \mathrm{V}\)</span> and <span class="math inline">\(-0.83\ \mathrm{V}\)</span> respectively.</p>
+<p><strong>(a)</strong> Identify which half-equation has its equilibrium position furthest left and which has its equilibrium position furthest right. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Describe a standard hydrogen electrode. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> State the standard electrode potential of the standard hydrogen electrode. <code>[1 mark]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><strong>(a)</strong> The most negative value, <span class="math inline">\(-0.83\ \mathrm{V}\)</span>, is furthest left; the most positive value, <span class="math inline">\(+0.89\ \mathrm{V}\)</span>, is furthest right. <code>[2]</code></li>
+<li><strong>(b)</strong> Platinum electrode in contact with hydrogen gas at standard pressure and an aqueous solution with <span class="math inline">\([\ce{H+}]=1.00\ \mathrm{mol\ dm^{-3}}\)</span>, at <span class="math inline">\(298\ \mathrm{K}\)</span>. <code>[2]</code></li>
+<li><strong>(c)</strong> <span class="math inline">\(E^\ominus=0.00\ \mathrm{V}\)</span>. <code>[1]</code></li>
+</ul>
+</details>
+</section>
+<section id="example-3-half-cell-types-and-cell-notation-24.2-sq-easy-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-3-half-cell-types-and-cell-notation-24.2-sq-easy-q3">Example 3 · Half-cell types and cell notation · 24.2 SQ Easy Q3</h3>
+<p><strong>(a)</strong> State the electrode required for each half-cell:</p>
+<ul>
+<li><span class="math inline">\(\ce{Cu^{2+}(aq) / Cu(s)}\)</span>;</li>
+<li><span class="math inline">\(\ce{Br2(l) / Br-(aq)}\)</span>;</li>
+<li><span class="math inline">\(\ce{Fe^{3+}(aq), Fe^{2+}(aq)}\)</span>.</li>
+</ul>
+<p><code>[3 marks]</code></p>
+<p><strong>(b)</strong> Write the conventional cell diagram for a zinc/copper cell. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> State the direction of electron flow in the external circuit. <code>[1 mark]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><strong>(a)</strong> <span class="math inline">\(\ce{Cu^{2+}/Cu}\)</span> is metal/metal ion and does not need Pt; <span class="math inline">\(\ce{Br2/Br-}\)</span> is non-metal/non-metal ion and needs Pt; <span class="math inline">\(\ce{Fe^{3+}/Fe^{2+}}\)</span> is ion/ion and needs Pt. <code>[3]</code></li>
+<li><strong>(b)</strong> <span class="math inline">\(\ce{Zn(s) | Zn^{2+}(aq) || Cu^{2+}(aq) | Cu(s)}\)</span>. <code>[2]</code></li>
+<li><strong>(c)</strong> From zinc / the negative electrode to copper / the positive electrode. <code>[1]</code></li>
+</ul>
+</details>
+</section>
+<section id="standard-electrode-potentials---medium" class="level3">
+<h3 class="anchored" data-anchor-id="standard-electrode-potentials---medium">24.2 Standard electrode potentials - Medium</h3>
+</section>
+<section id="example-4-salt-bridge-and-electrode-polarity-24.2-sq-medium-q1" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-4-salt-bridge-and-electrode-polarity-24.2-sq-medium-q1">Example 4 · Salt bridge and electrode polarity · 24.2 SQ Medium Q1</h3>
+<p>A cell is made from <span class="math inline">\(\ce{Fe^{2+}/Fe}\)</span> and <span class="math inline">\(\ce{Cu^{2+}/Cu}\)</span> half-cells.</p>
+<p><strong>(a)</strong> Explain two functions of the salt bridge. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Use the following data to identify the negative electrode:</p>
+<p><span class="math display">\[\ce{Cu^{2+} + 2e- -&gt; Cu} \qquad E^\ominus=+0.34\ \mathrm{V}\]</span></p>
+<p><span class="math display">\[\ce{Fe^{2+} + 2e- -&gt; Fe} \qquad E^\ominus=-0.44\ \mathrm{V}\]</span></p>
+<p><code>[1 mark]</code></p>
+<p><strong>(c)</strong> Write the overall cell equation. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><strong>(a)</strong> It allows ion movement to maintain electrical neutrality; it completes the internal circuit. <code>[2]</code></li>
+<li><strong>(b)</strong> Iron / the Fe electrode. <code>[1]</code></li>
+<li><strong>(c)</strong> <span class="math inline">\(\ce{Fe(s) + Cu^{2+}(aq) -&gt; Fe^{2+}(aq) + Cu(s)}\)</span>. <code>[2]</code></li>
+</ul>
+</details>
+</section>
+<section id="example-5-feasibility-and-oxidisingreducing-agents-24.2-sq-medium-q2" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-5-feasibility-and-oxidisingreducing-agents-24.2-sq-medium-q2">Example 5 · Feasibility and oxidising/reducing agents · 24.2 SQ Medium Q2</h3>
+<p>The following standard electrode potentials are available:</p>
+<p><span class="math display">\[\ce{Cl2 + 2e- &lt;=&gt; 2Cl-} \qquad E^\ominus=+1.36\ \mathrm{V}\]</span></p>
+<p><span class="math display">\[\ce{Cu^{2+} + 2e- &lt;=&gt; Cu} \qquad E^\ominus=+0.34\ \mathrm{V}\]</span></p>
+<p><strong>(a)</strong> Identify the oxidising agent and reducing agent in the reaction between chlorine and copper. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Calculate <span class="math inline">\(E^\ominus_{\mathrm{cell}}\)</span>. <code>[1 mark]</code></p>
+<p><strong>(c)</strong> State whether the reaction <span class="math inline">\(\ce{Cl2 + Cu -&gt; 2Cl- + Cu^{2+}}\)</span> is feasible under standard conditions. <code>[1 mark]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><strong>(a)</strong> Oxidising agent: <span class="math inline">\(\ce{Cl2}\)</span>; reducing agent: Cu. <code>[2]</code></li>
+<li><strong>(b)</strong> <span class="math inline">\(E^\ominus_{\mathrm{cell}}=+1.36-(+0.34)=+1.02\ \mathrm{V}\)</span>. <code>[1]</code></li>
+<li><strong>(c)</strong> Yes, because <span class="math inline">\(E^\ominus_{\mathrm{cell}}\)</span> is positive. <code>[1]</code></li>
+</ul>
+</details>
+</section>
+<section id="standard-electrode-potentials---hard" class="level3">
+<h3 class="anchored" data-anchor-id="standard-electrode-potentials---hard">24.2 Standard electrode potentials - Hard</h3>
+</section>
+<section id="example-7-lithium-iodine-cell-24.2-sq-hard-q1" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-7-lithium-iodine-cell-24.2-sq-hard-q1">Example 7 · Lithium-iodine cell · 24.2 SQ Hard Q1</h3>
+<p>A lithium-iodine cell contains no aqueous electrolyte. The relevant half-equations are:</p>
+<p><span class="math display">\[\ce{Li+ + e- -&gt; Li} \qquad E^\ominus=-3.05\ \mathrm{V}\]</span></p>
+<p><span class="math display">\[\ce{I2 + 2e- -&gt; 2I-} \qquad E^\ominus=+0.53\ \mathrm{V}\]</span></p>
+<p><strong>(a)</strong> Identify the oxidation and reduction half-reactions when the cell discharges. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Write the overall equation. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> Calculate <span class="math inline">\(E^\ominus_{\mathrm{cell}}\)</span>. <code>[1 mark]</code></p>
+<p><strong>(d)</strong> Suggest why an aqueous salt bridge is not suitable for this cell. <code>[1 mark]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><strong>(a)</strong> Oxidation: <span class="math inline">\(\ce{Li -&gt; Li+ + e-}\)</span>; reduction: <span class="math inline">\(\ce{I2 + 2e- -&gt; 2I-}\)</span>. <code>[2]</code></li>
+<li><strong>(b)</strong> <span class="math inline">\(\ce{2Li + I2 -&gt; 2Li+ + 2I-}\)</span>. <code>[2]</code></li>
+<li><strong>(c)</strong> <span class="math inline">\(E^\ominus_{\mathrm{cell}}=+0.53-(-3.05)=+3.58\ \mathrm{V}\)</span>. <code>[1]</code></li>
+<li><strong>(d)</strong> Water would react with lithium / the cell is designed to operate without liquid water. <code>[1]</code></li>
+</ul>
+</details>
+</section>
+<section id="example-8-testing-a-standard-hydrogen-electrode-setup-24.2-sq-hard-q2" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-8-testing-a-standard-hydrogen-electrode-setup-24.2-sq-hard-q2">Example 8 · Testing a standard hydrogen electrode setup · 24.2 SQ Hard Q2</h3>
+<p>A student proposes a standard hydrogen electrode using an ammeter, ethanoic acid and a potassium chloride salt bridge. Explain the correction needed in each case.</p>
+<p><strong>(a)</strong> The ammeter. <code>[1 mark]</code></p>
+<p><strong>(b)</strong> The ethanoic acid solution. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> The potassium chloride salt bridge when the other half-cell contains <span class="math inline">\(\ce{Ag+}\)</span>. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><strong>(a)</strong> Replace the ammeter with a high-resistance voltmeter so that essentially no current flows during the potential measurement. <code>[1]</code></li>
+<li><strong>(b)</strong> Use a strong acid with <span class="math inline">\([\ce{H+}]=1.00\ \mathrm{mol\ dm^{-3}}\)</span>; ethanoic acid is only partially dissociated and does not provide the stated hydrogen-ion concentration reliably. <code>[2]</code></li>
+<li><strong>(c)</strong> Replace KCl with a nitrate salt bridge; <span class="math inline">\(\ce{Cl-}\)</span> would react with <span class="math inline">\(\ce{Ag+}\)</span> to form <span class="math inline">\(\ce{AgCl(s)}\)</span>. <code>[2]</code></li>
+</ul>
+</details>
+</section>
+<section id="example-9-balancing-a-redox-equation-from-electrode-potentials-24.2-sq-hard-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-9-balancing-a-redox-equation-from-electrode-potentials-24.2-sq-hard-q3">Example 9 · Balancing a redox equation from electrode potentials · 24.2 SQ Hard Q3</h3>
+<p>In acidic solution:</p>
+<p><span class="math display">\[\ce{Cr2O7^{2-} + 14H+ + 6e- -&gt; 2Cr^{3+} + 7H2O} \qquad E^\ominus=+1.36\ \mathrm{V}\]</span></p>
+<p><span class="math display">\[\ce{Br2 + 2e- -&gt; 2Br-} \qquad E^\ominus=+1.09\ \mathrm{V}\]</span></p>
+<p><strong>(a)</strong> Write the oxidation half-equation for bromide ions. <code>[1 mark]</code></p>
+<p><strong>(b)</strong> Write the balanced overall equation. <code>[3 marks]</code></p>
+<p><strong>(c)</strong> Calculate <span class="math inline">\(E^\ominus_{\mathrm{cell}}\)</span> and state whether the reaction is feasible. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><strong>(a)</strong> <span class="math inline">\(\ce{2Br- -&gt; Br2 + 2e-}\)</span>. <code>[1]</code></li>
+<li><strong>(b)</strong> Multiply the bromide equation by 3 and add: <span class="math inline">\(\ce{Cr2O7^{2-} + 14H+ + 6Br- -&gt; 2Cr^{3+} + 3Br2 + 7H2O}\)</span>. <code>[3]</code></li>
+<li><strong>(c)</strong> <span class="math inline">\(E^\ominus_{\mathrm{cell}}=1.36-1.09=+0.27\ \mathrm{V}\)</span>; feasible under standard conditions. <code>[2]</code></li>
+</ul>
+</details>
+</section>
+<section id="standard-electrode-potentials-and-calculations---easy" class="level3">
+<h3 class="anchored" data-anchor-id="standard-electrode-potentials-and-calculations---easy">24.2 Standard electrode potentials and calculations - Easy</h3>
+</section>
+<section id="example-10-magnesium-iodine-cell-calculation-24.2-sq-easy-q4" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-10-magnesium-iodine-cell-calculation-24.2-sq-easy-q4">Example 10 · Magnesium-iodine cell calculation · 24.2 SQ Easy Q4</h3>
+<p>The standard electrode potentials are:</p>
+<p><span class="math display">\[\ce{Mg^{2+} + 2e- -&gt; Mg} \qquad E^\ominus=-2.38\ \mathrm{V}\]</span></p>
+<p><span class="math display">\[\ce{I2 + 2e- -&gt; 2I-} \qquad E^\ominus=+0.54\ \mathrm{V}\]</span></p>
+<p><strong>(a)</strong> Write the overall reaction. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Calculate <span class="math inline">\(E^\ominus_{\mathrm{cell}}\)</span>. <code>[1 mark]</code></p>
+<p><strong>(c)</strong> State the strongest oxidising agent in the two half-equations. <code>[1 mark]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><strong>(a)</strong> <span class="math inline">\(\ce{Mg + I2 -&gt; Mg^{2+} + 2I-}\)</span>. <code>[2]</code></li>
+<li><strong>(b)</strong> <span class="math inline">\(E^\ominus_{\mathrm{cell}}=+0.54-(-2.38)=+2.92\ \mathrm{V}\)</span>. <code>[1]</code></li>
+<li><strong>(c)</strong> <span class="math inline">\(\ce{I2}\)</span>, because it is the oxidised species in the half-equation with the more positive reduction potential. <code>[1]</code></li>
+</ul>
+</details>
+</section>
+<section id="example-11-nernst-equation-for-a-copper-half-cell-24.2-sq-easy-q5" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-11-nernst-equation-for-a-copper-half-cell-24.2-sq-easy-q5">Example 11 · Nernst equation for a copper half-cell · 24.2 SQ Easy Q5</h3>
+<p>For <span class="math inline">\(\ce{Cu^{2+} + 2e- &lt;=&gt; Cu}\)</span>, <span class="math inline">\(E^\ominus=+0.34\ \mathrm{V}\)</span>. Calculate the electrode potential at <span class="math inline">\(298\ \mathrm{K}\)</span> when <span class="math inline">\([\ce{Cu^{2+}}]=0.0010\ \mathrm{mol\ dm^{-3}}\)</span>.</p>
+<p><code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<p><span class="math display">\[E=E^\ominus+\frac{0.059}{2}\log_{10}[\ce{Cu^{2+}}]\]</span></p>
+<p><span class="math display">\[E=0.34+\frac{0.059}{2}\log_{10}(0.0010)=+0.25\ \mathrm{V}\]</span></p>
+The solid copper has unit activity and is omitted from the quotient. <code>[3]</code>
+</details>
+</section>
+<section id="example-12-gibbs-free-energy-from-cell-potential-24.2-sq-easy-q6" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-12-gibbs-free-energy-from-cell-potential-24.2-sq-easy-q6">Example 12 · Gibbs free energy from cell potential · 24.2 SQ Easy Q6</h3>
+<p>For a cell reaction, <span class="math inline">\(E^\ominus_{\mathrm{cell}}=+0.43\ \mathrm{V}\)</span> and <span class="math inline">\(n=2\)</span>.</p>
+<p><strong>(a)</strong> Calculate <span class="math inline">\(\Delta G^\ominus\)</span>. Use <span class="math inline">\(F=96500\ \mathrm{C\ mol^{-1}}\)</span>. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Explain the sign of your answer. <code>[1 mark]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><strong>(a)</strong> <span class="math inline">\(\Delta G^\ominus=-nFE^\ominus_{\mathrm{cell}}=-2\times96500\times0.43=-8.30\times10^4\ \mathrm{J\ mol^{-1}}=-83.0\ \mathrm{kJ\ mol^{-1}}\)</span>. <code>[2]</code></li>
+<li><strong>(b)</strong> It is negative because the cell reaction is thermodynamically feasible under standard conditions. <code>[1]</code></li>
+</ul>
+</details>
+</section>
+<section id="standard-electrode-potentials-and-calculations---medium" class="level3">
+<h3 class="anchored" data-anchor-id="standard-electrode-potentials-and-calculations---medium">24.2 Standard electrode potentials and calculations - Medium</h3>
+</section>
+<section id="example-15-common-ion-effect-and-electrode-potential-24.2-sq-medium-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-15-common-ion-effect-and-electrode-potential-24.2-sq-medium-q3">Example 15 · Common-ion effect and electrode potential · 24.2 SQ Medium Q3</h3>
+<p>An iron/silver cell is set up. Silver ions are removed from the solution by adding chloride ions, forming <span class="math inline">\(\ce{AgCl(s)}\)</span>.</p>
+<p><strong>(a)</strong> Explain how the concentration of silver ions changes. <code>[1 mark]</code></p>
+<p><strong>(b)</strong> Use the Nernst equation to explain the effect on the <span class="math inline">\(\ce{Ag+/Ag}\)</span> electrode potential. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> State how the cell potential changes if the iron half-cell is unchanged. <code>[1 mark]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><strong>(a)</strong> <span class="math inline">\([\ce{Ag+}]\)</span> decreases because insoluble <span class="math inline">\(\ce{AgCl}\)</span> precipitates. <code>[1]</code></li>
+<li><strong>(b)</strong> For <span class="math inline">\(\ce{Ag+ + e- &lt;=&gt; Ag}\)</span>, <span class="math inline">\(E=E^\ominus+0.059\log_{10}[\ce{Ag+}]\)</span> at <span class="math inline">\(298\ \mathrm{K}\)</span>; decreasing <span class="math inline">\([\ce{Ag+}]\)</span> makes <span class="math inline">\(E\)</span> less positive. <code>[2]</code></li>
+<li><strong>(c)</strong> The cell potential decreases if the silver half-cell remains the reduction half-cell. <code>[1]</code></li>
+</ul>
+</details>
+</section>
+<section id="standard-electrode-potentials-and-calculations---hard" class="level3">
+<h3 class="anchored" data-anchor-id="standard-electrode-potentials-and-calculations---hard">24.2 Standard electrode potentials and calculations - Hard</h3>
+</section>
+<section id="example-16-nernst-equation-at-20-c-24.2-sq-hard-q4" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-16-nernst-equation-at-20-c-24.2-sq-hard-q4">Example 16 · Nernst equation at 20 °C · 24.2 SQ Hard Q4</h3>
+<p>For <span class="math inline">\(\ce{Ag+ + e- &lt;=&gt; Ag}\)</span>, <span class="math inline">\(E^\ominus=+0.80\ \mathrm{V}\)</span>. Calculate <span class="math inline">\([\ce{Ag+}]\)</span> at <span class="math inline">\(20\ ^\circ\mathrm{C}\)</span> when <span class="math inline">\(E=+0.72\ \mathrm{V}\)</span>.</p>
+<p>Use <span class="math inline">\(R=8.31\ \mathrm{J\ K^{-1}\ mol^{-1}}\)</span>, <span class="math inline">\(F=96500\ \mathrm{C\ mol^{-1}}\)</span>.</p>
+<p><code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<p><span class="math display">\[T=293\ \mathrm{K}\]</span></p>
+<p><span class="math display">\[0.72=0.80+\frac{RT}{nF}\ln[\ce{Ag+}]\]</span></p>
+<p><span class="math display">\[\ln[\ce{Ag+}]=\frac{(0.72-0.80)\times96500}{8.31\times293}=-3.17\]</span></p>
+<span class="math display">\[[\ce{Ag+}]=e^{-3.17}=4.2\times10^{-2}\ \mathrm{mol\ dm^{-3}}\]</span> <code>[3]</code>
+</details>
+</section>
+<section id="example-17-dichromate-and-bromide-in-acidic-solution-24.2-sq-hard-q5" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-17-dichromate-and-bromide-in-acidic-solution-24.2-sq-hard-q5">Example 17 · Dichromate and bromide in acidic solution · 24.2 SQ Hard Q5</h3>
+<p>Use the half-equations below to answer the questions.</p>
+<p><span class="math display">\[\ce{Cr2O7^{2-} + 14H+ + 6e- -&gt; 2Cr^{3+} + 7H2O} \qquad E^\ominus=+1.33\ \mathrm{V}\]</span></p>
+<p><span class="math display">\[\ce{Br2 + 2e- -&gt; 2Br-} \qquad E^\ominus=+1.07\ \mathrm{V}\]</span></p>
+<p><strong>(a)</strong> Write the overall ionic equation. <code>[3 marks]</code></p>
+<p><strong>(b)</strong> Calculate <span class="math inline">\(E^\ominus_{\mathrm{cell}}\)</span>. <code>[1 mark]</code></p>
+<p><strong>(c)</strong> Calculate <span class="math inline">\(\Delta G^\ominus\)</span> for the overall reaction and state whether it is feasible. Use <span class="math inline">\(F=96500\ \mathrm{C\ mol^{-1}}\)</span>. <code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><strong>(a)</strong> <span class="math inline">\(\ce{Cr2O7^{2-} + 14H+ + 6Br- -&gt; 2Cr^{3+} + 3Br2 + 7H2O}\)</span>. <code>[3]</code></li>
+<li><strong>(b)</strong> <span class="math inline">\(E^\ominus_{\mathrm{cell}}=1.33-1.07=+0.26\ \mathrm{V}\)</span>. <code>[1]</code></li>
+<li><strong>(c)</strong> <span class="math inline">\(\Delta G^\ominus=-6\times96500\times0.26=-1.50\times10^5\ \mathrm{J\ mol^{-1}}=-150\ \mathrm{kJ\ mol^{-1}}\)</span>; the negative value shows the reaction is feasible under standard conditions. <code>[3]</code></li>
+</ul>
+</details>
+</section>
+<section id="example-18-comparing-electrochemical-series-data-24.2-sq-hard-q6" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-18-comparing-electrochemical-series-data-24.2-sq-hard-q6">Example 18 · Comparing electrochemical series data · 24.2 SQ Hard Q6</h3>
+<p>The following values are given:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Reduction half-equation</th>
+<th style="text-align: right;"><span class="math inline">\(E^\ominus\)</span>/V</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(\ce{Co^{3+} + e- -&gt; Co^{2+}}\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(+1.82\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\ce{Fe^{3+} + e- -&gt; Fe^{2+}}\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(+0.77\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\ce{Cu^{2+} + 2e- -&gt; Cu}\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(+0.34\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\ce{Zn^{2+} + 2e- -&gt; Zn}\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(-0.76\)</span></td>
+</tr>
+</tbody>
+</table>
+<p><strong>(a)</strong> Identify the strongest oxidising agent. <code>[1 mark]</code></p>
+<p><strong>(b)</strong> Identify the strongest reducing agent among the reduced species shown. <code>[1 mark]</code></p>
+<p><strong>(c)</strong> Predict whether <span class="math inline">\(\ce{2Fe^{3+} + Cu -&gt; 2Fe^{2+} + Cu^{2+}}\)</span> is feasible and calculate <span class="math inline">\(E^\ominus_{\mathrm{cell}}\)</span>. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><strong>(a)</strong> <span class="math inline">\(\ce{Co^{3+}}\)</span>, because it has the most positive reduction potential. <code>[1]</code></li>
+<li><strong>(b)</strong> Zn, because <span class="math inline">\(\ce{Zn^{2+}/Zn}\)</span> has the most negative reduction potential and Zn is most readily oxidised. <code>[1]</code></li>
+<li><strong>(c)</strong> <span class="math inline">\(E^\ominus_{\mathrm{cell}}=0.77-0.34=+0.43\ \mathrm{V}\)</span>; yes, it is feasible under standard conditions. <code>[2]</code></li>
+</ul>
+</details>
+</section>
+<section id="chapter-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="chapter-checklist">Chapter checklist</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">我能用 <span class="math inline">\(Q=It\)</span>、<span class="math inline">\(Q=nF\)</span> 和 <span class="math inline">\(F=Le\)</span> 完成 electrolysis calculations。</label></li>
+<li><label><input type="checkbox">我能从 half-equation 判断 electrons 与 product 的 mole ratio。</label></li>
+<li><label><input type="checkbox">我能解释 electroplating 中 cathode、anode 和 electrolyte 的作用。</label></li>
+<li><label><input type="checkbox">我能描述用 copper electroplating 测定 Avogadro constant 的实验步骤。</label></li>
+<li><label><input type="checkbox">我能解释 electrode potential 和 <span class="math inline">\(E^\ominus\)</span> 的含义。</label></li>
+<li><label><input type="checkbox">我能写出 SHE 的组成、标准条件和 <span class="math inline">\(E^\ominus=0.00\ \mathrm{V}\)</span>。</label></li>
+<li><label><input type="checkbox">我能识别三类 half-cell，知道何时需要 Pt electrode。</label></li>
+<li><label><input type="checkbox">我能画 conventional cell diagram，写出 salt bridge、positive/negative pole 和 electron flow。</label></li>
+<li><label><input type="checkbox">我能用 <span class="math inline">\(E^\ominus_{\mathrm{cell}}=E^\ominus_{\mathrm{reduction}}-E^\ominus_{\mathrm{oxidation}}\)</span> 判断可行性。</label></li>
+<li><label><input type="checkbox">我能从 electrochemical series 找出 oxidising agent 和 reducing agent。</label></li>
+<li><label><input type="checkbox">我能用 half-equation method 配平 ionic redox equation。</label></li>
+<li><label><input type="checkbox">我能在 298 K 和非 298 K 条件下正确使用 Nernst equation。</label></li>
+<li><label><input type="checkbox">我能用 <span class="math inline">\(\Delta G^\ominus=-nFE^\ominus_{\mathrm{cell}}\)</span> 做单位正确的计算。</label></li>
+</ul>
+<section id="original-question-pdfs" class="level3">
+<h3 class="anchored" data-anchor-id="original-question-pdfs">Original question PDFs</h3>
+<ul>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/electrochemistry/24.1-electrolysis-calculations-easy.pdf">24.1 Electrolysis calculations - Easy</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/electrochemistry/24.1-electrolysis-calculations-medium.pdf">24.1 Electrolysis calculations - Medium</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/electrochemistry/24.1-electrolysis-calculations-hard.pdf">24.1 Electrolysis calculations - Hard</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/electrochemistry/24.2-standard-electrode-potentials-easy.pdf">24.2 Standard electrode potentials - Easy</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/electrochemistry/24.2-standard-electrode-potentials-medium.pdf">24.2 Standard electrode potentials - Medium</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/electrochemistry/24.2-standard-electrode-potentials-hard.pdf">24.2 Standard electrode potentials - Hard</a></li>
+</ul>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".done-toggle input").forEach((input) => {
+    const key = `cie-chem-${input.dataset.progress}`;
+    input.checked = localStorage.getItem(key) === "true";
+    input.closest(".question-card")?.classList.toggle("is-complete", input.checked);
+    input.addEventListener("change", () => {
+      localStorage.setItem(key, input.checked);
+      input.closest(".question-card")?.classList.toggle("is-complete", input.checked);
+    });
+  });
+
+  document.querySelectorAll(".mc-question").forEach((card) => {
+    const answer = card.dataset.answer;
+    const feedback = card.querySelector(".mc-feedback");
+    const check = card.querySelector(".check-answer");
+    let selected = localStorage.getItem(`cie-chem-${card.id}-choice`) || "";
+
+    const showSelection = () => {
+      card.querySelectorAll(".mc-choice").forEach((choice) => {
+        choice.classList.toggle("is-selected", choice.dataset.choice === selected);
+      });
+    };
+    showSelection();
+
+    card.querySelectorAll(".mc-choice").forEach((choice) => {
+      choice.addEventListener("click", () => {
+        selected = choice.dataset.choice;
+        localStorage.setItem(`cie-chem-${card.id}-choice`, selected);
+        feedback.textContent = "";
+        feedback.className = "mc-feedback";
+        showSelection();
+      });
+    });
+
+    check?.addEventListener("click", () => {
+      if (!selected) {
+        feedback.textContent = "Select an answer first.";
+        feedback.className = "mc-feedback is-pending";
+        return;
+      }
+      const correct = selected === answer;
+      feedback.textContent = correct ? "Correct." : `Not quite. The correct answer is ${answer}.`;
+      feedback.className = `mc-feedback ${correct ? "is-correct" : "is-incorrect"}`;
+    });
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已复制");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已复制");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../a-level/23-chemical-energetics.html" class="pagination-link" aria-label="23 Chemical energetics">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">23 Chemical energetics</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../a-level/25-equilibria.html" class="pagination-link" aria-label="25 Equilibria">
+        <span class="nav-page-text">25 Equilibria</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
