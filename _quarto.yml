@@ -9,6 +9,7 @@ project:
     - a-level/26-reaction-kinetics.qmd
     - a-level/27-group-2.qmd
     - a-level/28-transition-elements.qmd
+    - a-level/29-organic-chemistry.qmd
 
 website:
   title: "CIE Chemistry 9701"
@@ -33,6 +34,8 @@ website:
             text: "27 Group 2"
           - href: a-level/28-transition-elements.qmd
             text: "28 Chemistry of transition elements"
+          - href: a-level/29-organic-chemistry.qmd
+            text: "29 An introduction to A Level organic chemistry"
 
 format:
   html:

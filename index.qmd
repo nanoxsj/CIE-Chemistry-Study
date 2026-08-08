@@ -60,3 +60,13 @@ subtitle: "2025–2027 syllabus · 9701"
 - 28.5 Stability constants：$K_{\mathrm{stab}}$ 表达式、ligand exchange 和稳定性比较
 - 17 道完整 Structured Questions：6.2 Easy/Medium（本地无 Hard 题包）以及 6.3 Easy/Medium/Hard；题图使用从 PDF 独立提取的局部图片，答案保留完整解题步骤
 :::
+
+::: {.topic-card}
+### [29 An introduction to A Level organic chemistry](a-level/29-organic-chemistry.qmd)
+
+- 29.1 Formulas, Functional Groups - the Naming of Organic Compounds (AL)：functional groups、general / structural / displayed / skeletal formula、脂肪族与芳香族化合物的系统命名
+- 29.2 Characteristic Organic Reactions (AL)：electrophilic substitution 与 addition–elimination 两类机制术语
+- 29.3 Shapes of Aromatic Organic Molecules; σ - π Bonds：benzene 的平面结构、$sp^2$ hybridisation、$\sigma$ bonds 与 delocalised $\pi$ system
+- 29.4 Isomerism Optical：chiral centre、enantiomers、plane-polarised light、racemic mixture 与 chiral catalysts 在药物合成中的意义
+- 13 道完整 Structured Questions（7.1 Easy/Medium/Hard），保留完整英文题目、所有分问、独立提取的局部题图与完整解答步骤
+:::
