@@ -10,6 +10,7 @@ project:
     - a-level/27-group-2.qmd
     - a-level/28-transition-elements.qmd
     - a-level/29-organic-chemistry.qmd
+    - a-level/30-hydrocarbons.qmd
 
 website:
   title: "CIE Chemistry 9701"
@@ -36,6 +37,8 @@ website:
             text: "28 Chemistry of transition elements"
           - href: a-level/29-organic-chemistry.qmd
             text: "29 An introduction to A Level organic chemistry"
+          - href: a-level/30-hydrocarbons.qmd
+            text: "30 Hydrocarbons"
 
 format:
   html:
