@@ -55,12 +55,21 @@ details.answer-panel summary { cursor: pointer; font-weight: 650; color: #065f46
 .mc-feedback.is-correct { color: #047857; }
 .mc-feedback.is-incorrect { color: #b91c1c; }
 .mc-feedback.is-pending { color: #92400e; }
-.question-figure { display: block; width: min(100%, 680px); height: auto; margin: 0.8rem auto; border: 1px solid var(--chem-border); border-radius: 8px; background: #fff; }
+.question-figure { display: block; width: auto; max-width: 100%; height: auto; margin: 0.8rem auto; border: 1px solid var(--chem-border); border-radius: 8px; background: #fff; }
 .question-figure-grid { display: grid; gap: 0.65rem; margin: 1rem auto; }
 .question-figure-pair { display: flex; align-items: center; justify-content: center; gap: 0.35rem; min-height: 110px; }
 .question-figure-pair img:first-child { width: min(100%, 100px); margin: 0; }
 .question-figure-pair img:last-child { width: min(100%, 160px); margin: 0; border: 0; }
 .concept-figure { display: block; width: min(100%, 920px); height: auto; margin: 1rem auto 0.35rem; padding: 0.35rem; border: 1px solid var(--chem-border); border-radius: 12px; background: #fff; box-shadow: 0 4px 14px rgba(21, 94, 155, 0.05); }
+.concept-figure[src*="assets/notes/transition-elements/"],
+.concept-figure[src*="assets/notes/hydrocarbons/"],
+.concept-figure[src*="assets/notes/equilibria/"],
+.concept-figure[src*="assets/notes/reaction-kinetics/"] {
+  width: auto;
+  max-width: min(100%, 700px);
+  max-height: 540px;
+  object-fit: contain;
+}
 .vector-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.85rem; max-width: 750px; margin: 1rem auto; }
 .vector-option { padding: 0.6rem; border: 1px solid var(--chem-border); border-radius: 8px; background: #fff; }
 .vector-option span { display: block; margin-bottom: 0.25rem; font-weight: 700; color: #075985; }

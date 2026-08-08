@@ -1,0 +1,2008 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hans" xml:lang="zh-Hans"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>37 Analytical techniques – CIE Chemistry 9701</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../a-level/36-organic-synthesis.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a2a938b4dd5711f7a799c87bd16ba44c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "没有结果",
+    "search-matching-documents-text": "匹配的文档",
+    "search-copy-link-title": "复制搜索链接",
+    "search-hide-matches-text": "隐藏其它匹配结果",
+    "search-more-match-text": "更多匹配结果",
+    "search-more-matches-text": "更多匹配结果",
+    "search-clear-button-title": "清除",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "提交",
+    "search-label": "搜索"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../a-level/23-chemical-energetics.html">A Level</a></li><li class="breadcrumb-item"><a href="../a-level/37-analytical-techniques.html">37 Analytical techniques</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="搜索" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">CIE Chemistry 9701</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="搜索"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">学习首页</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">A Level</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/23-chemical-energetics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">23 Chemical energetics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/24-electrochemistry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">24 Electrochemistry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/25-equilibria.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">25 Equilibria</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/26-reaction-kinetics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">26 Reaction kinetics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/27-group-2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">27 Group 2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/28-transition-elements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">28 Chemistry of transition elements</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/29-organic-chemistry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">29 An introduction to A Level organic chemistry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/30-hydrocarbons.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">30 Hydrocarbons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/31-halogen-compounds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">31 Halogen compounds</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/32-hydroxy-compounds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">32 Hydroxy compounds</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/33-carboxylic-acids-and-derivatives.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">33 Carboxylic acids and derivatives</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/34-nitrogen-compounds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">34 Nitrogen compounds</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/35-polymerisation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">35 Polymerisation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/36-organic-synthesis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">36 Organic synthesis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/37-analytical-techniques.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">37 Analytical techniques</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">该页面内容</h2>
+   
+  <ul>
+  <li><a href="#analytical-techniques" id="toc-analytical-techniques" class="nav-link active" data-scroll-target="#analytical-techniques">37 Analytical techniques</a>
+  <ul class="collapse">
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
+  <li><a href="#thin-layer-chromatography" id="toc-thin-layer-chromatography" class="nav-link" data-scroll-target="#thin-layer-chromatography">37.1 Thin-Layer Chromatography</a>
+  <ul class="collapse">
+  <li><a href="#stationary-phase-mobile-phase-and-separation" id="toc-stationary-phase-mobile-phase-and-separation" class="nav-link" data-scroll-target="#stationary-phase-mobile-phase-and-separation">Stationary phase, mobile phase and separation</a></li>
+  <li><a href="#retention-factor-r_f" id="toc-retention-factor-r_f" class="nav-link" data-scroll-target="#retention-factor-r_f">Retention factor, <span class="math inline">\(R_f\)</span></a></li>
+  </ul></li>
+  <li><a href="#gas-liquid-chromatography" id="toc-gas-liquid-chromatography" class="nav-link" data-scroll-target="#gas-liquid-chromatography">37.2 Gas-Liquid Chromatography</a>
+  <ul class="collapse">
+  <li><a href="#phases-and-retention-time" id="toc-phases-and-retention-time" class="nav-link" data-scroll-target="#phases-and-retention-time">Phases and retention time</a></li>
+  <li><a href="#reading-a-chromatogram" id="toc-reading-a-chromatogram" class="nav-link" data-scroll-target="#reading-a-chromatogram">Reading a chromatogram</a></li>
+  </ul></li>
+  <li><a href="#carbon-13-nmr-spectroscopy" id="toc-carbon-13-nmr-spectroscopy" class="nav-link" data-scroll-target="#carbon-13-nmr-spectroscopy">37.3 Carbon-13 NMR Spectroscopy</a>
+  <ul class="collapse">
+  <li><a href="#carbon-environments-and-number-of-peaks" id="toc-carbon-environments-and-number-of-peaks" class="nav-link" data-scroll-target="#carbon-environments-and-number-of-peaks">Carbon environments and number of peaks</a></li>
+  <li><a href="#chemical-shift-ranges" id="toc-chemical-shift-ranges" class="nav-link" data-scroll-target="#chemical-shift-ranges">Chemical-shift ranges</a></li>
+  </ul></li>
+  <li><a href="#proton-¹h-nmr-spectroscopy" id="toc-proton-¹h-nmr-spectroscopy" class="nav-link" data-scroll-target="#proton-¹h-nmr-spectroscopy">37.4 Proton (¹H) NMR Spectroscopy</a>
+  <ul class="collapse">
+  <li><a href="#tms-chemical-shift-and-integration" id="toc-tms-chemical-shift-and-integration" class="nav-link" data-scroll-target="#tms-chemical-shift-and-integration">TMS, chemical shift and integration</a></li>
+  <li><a href="#splitting-and-the-n1-rule" id="toc-splitting-and-the-n1-rule" class="nav-link" data-scroll-target="#splitting-and-the-n1-rule">Splitting and the <span class="math inline">\(n+1\)</span> rule</a></li>
+  <li><a href="#interpreting-a-proton-nmr-spectrum" id="toc-interpreting-a-proton-nmr-spectrum" class="nav-link" data-scroll-target="#interpreting-a-proton-nmr-spectrum">Interpreting a proton NMR spectrum</a></li>
+  </ul></li>
+  <li><a href="#chapter-checklist" id="toc-chapter-checklist" class="nav-link" data-scroll-target="#chapter-checklist">Chapter checklist</a>
+  <ul class="collapse">
+  <li><a href="#practice-questions" id="toc-practice-questions" class="nav-link" data-scroll-target="#practice-questions">Practice questions</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#analytical-techniques-a-level-only---structured-questions" id="toc-analytical-techniques-a-level-only---structured-questions" class="nav-link" data-scroll-target="#analytical-techniques-a-level-only---structured-questions">8.1 Analytical Techniques (A Level Only) - Structured Questions</a>
+  <ul class="collapse">
+  <li><a href="#analytical-techniques-a-level-only---easy" id="toc-analytical-techniques-a-level-only---easy" class="nav-link" data-scroll-target="#analytical-techniques-a-level-only---easy">8.1 Analytical Techniques (A Level Only) - Easy</a></li>
+  <li><a href="#example-1-gas-chromatography-8.1-sq-easy-q1" id="toc-example-1-gas-chromatography-8.1-sq-easy-q1" class="nav-link" data-scroll-target="#example-1-gas-chromatography-8.1-sq-easy-q1">Example 1 · Gas chromatography · 8.1 SQ Easy Q1</a></li>
+  <li><a href="#example-2-nmr-analysis-of-pentane-isomers-8.1-sq-easy-q2" id="toc-example-2-nmr-analysis-of-pentane-isomers-8.1-sq-easy-q2" class="nav-link" data-scroll-target="#example-2-nmr-analysis-of-pentane-isomers-8.1-sq-easy-q2">Example 2 · NMR analysis of pentane isomers · 8.1 SQ Easy Q2</a></li>
+  <li><a href="#example-3-thin-layer-chromatography-8.1-sq-easy-q3" id="toc-example-3-thin-layer-chromatography-8.1-sq-easy-q3" class="nav-link" data-scroll-target="#example-3-thin-layer-chromatography-8.1-sq-easy-q3">Example 3 · Thin-layer chromatography · 8.1 SQ Easy Q3</a></li>
+  <li><a href="#analytical-techniques-a-level-only---medium" id="toc-analytical-techniques-a-level-only---medium" class="nav-link" data-scroll-target="#analytical-techniques-a-level-only---medium">8.1 Analytical Techniques (A Level Only) - Medium</a></li>
+  <li><a href="#example-4-verdigris-and-azurite-analysis-8.1-sq-medium-q1" id="toc-example-4-verdigris-and-azurite-analysis-8.1-sq-medium-q1" class="nav-link" data-scroll-target="#example-4-verdigris-and-azurite-analysis-8.1-sq-medium-q1">Example 4 · Verdigris and azurite analysis · 8.1 SQ Medium Q1</a></li>
+  <li><a href="#example-5-adsorption-by-activated-charcoal-8.1-sq-medium-q2" id="toc-example-5-adsorption-by-activated-charcoal-8.1-sq-medium-q2" class="nav-link" data-scroll-target="#example-5-adsorption-by-activated-charcoal-8.1-sq-medium-q2">Example 5 · Adsorption by activated charcoal · 8.1 SQ Medium Q2</a></li>
+  <li><a href="#example-6-gas-chromatography-8.1-sq-medium-q3" id="toc-example-6-gas-chromatography-8.1-sq-medium-q3" class="nav-link" data-scroll-target="#example-6-gas-chromatography-8.1-sq-medium-q3">Example 6 · Gas chromatography · 8.1 SQ Medium Q3</a></li>
+  <li><a href="#example-7-thin-layer-chromatography-and-dinitrobenzene-8.1-sq-medium-q4" id="toc-example-7-thin-layer-chromatography-and-dinitrobenzene-8.1-sq-medium-q4" class="nav-link" data-scroll-target="#example-7-thin-layer-chromatography-and-dinitrobenzene-8.1-sq-medium-q4">Example 7 · Thin-layer chromatography and dinitrobenzene · 8.1 SQ Medium Q4</a></li>
+  <li><a href="#example-8-nmr-reference-standards-and-carbon-environments-8.1-sq-medium-q5" id="toc-example-8-nmr-reference-standards-and-carbon-environments-8.1-sq-medium-q5" class="nav-link" data-scroll-target="#example-8-nmr-reference-standards-and-carbon-environments-8.1-sq-medium-q5">Example 8 · NMR reference standards and carbon environments · 8.1 SQ Medium Q5</a></li>
+  <li><a href="#example-9-methyl-cinnamate-and-proton-nmr-8.1-sq-medium-q6" id="toc-example-9-methyl-cinnamate-and-proton-nmr-8.1-sq-medium-q6" class="nav-link" data-scroll-target="#example-9-methyl-cinnamate-and-proton-nmr-8.1-sq-medium-q6">Example 9 · Methyl cinnamate and proton NMR · 8.1 SQ Medium Q6</a></li>
+  <li><a href="#example-10-ms-ir-and-nmr-comparison-8.1-sq-medium-q7" id="toc-example-10-ms-ir-and-nmr-comparison-8.1-sq-medium-q7" class="nav-link" data-scroll-target="#example-10-ms-ir-and-nmr-comparison-8.1-sq-medium-q7">Example 10 · MS, IR and NMR comparison · 8.1 SQ Medium Q7</a></li>
+  <li><a href="#analytical-techniques-a-level-only---hard" id="toc-analytical-techniques-a-level-only---hard" class="nav-link" data-scroll-target="#analytical-techniques-a-level-only---hard">8.1 Analytical Techniques (A Level Only) - Hard</a></li>
+  <li><a href="#example-11-identifying-an-ester-p-8.1-sq-hard-q1" id="toc-example-11-identifying-an-ester-p-8.1-sq-hard-q1" class="nav-link" data-scroll-target="#example-11-identifying-an-ester-p-8.1-sq-hard-q1">Example 11 · Identifying an ester P · 8.1 SQ Hard Q1</a></li>
+  <li><a href="#example-12-isomers-of-cec8h10-8.1-sq-hard-q2" id="toc-example-12-isomers-of-cec8h10-8.1-sq-hard-q2" class="nav-link" data-scroll-target="#example-12-isomers-of-cec8h10-8.1-sq-hard-q2">Example 12 · Isomers of <span class="math inline">\(\ce{C8H10}\)</span> · 8.1 SQ Hard Q2</a></li>
+  <li><a href="#example-13-gc-ms-of-hydrocarbon-isomers-8.1-sq-hard-q3" id="toc-example-13-gc-ms-of-hydrocarbon-isomers-8.1-sq-hard-q3" class="nav-link" data-scroll-target="#example-13-gc-ms-of-hydrocarbon-isomers-8.1-sq-hard-q3">Example 13 · GC-MS of hydrocarbon isomers · 8.1 SQ Hard Q3</a></li>
+  <li><a href="#example-14-dinitrobenzene-positional-isomers-and-tlc-8.1-sq-hard-q4" id="toc-example-14-dinitrobenzene-positional-isomers-and-tlc-8.1-sq-hard-q4" class="nav-link" data-scroll-target="#example-14-dinitrobenzene-positional-isomers-and-tlc-8.1-sq-hard-q4">Example 14 · Dinitrobenzene positional isomers and TLC · 8.1 SQ Hard Q4</a></li>
+  <li><a href="#original-question-pdfs" id="toc-original-question-pdfs" class="nav-link" data-scroll-target="#original-question-pdfs">Original question PDFs</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../a-level/23-chemical-energetics.html">A Level</a></li><li class="breadcrumb-item"><a href="../a-level/37-analytical-techniques.html">37 Analytical techniques</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">37 Analytical techniques</h1>
+<p class="subtitle lead">Chromatography, carbon-13 NMR and proton NMR spectroscopy</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="analytical-techniques" class="level1">
+<h1>37 Analytical techniques</h1>
+<p>本章对应 CIE 9701 2025–2027 syllabus 的 <strong>37.1 Thin-Layer Chromatography</strong>、<strong>37.2 Gas-Liquid Chromatography</strong>、<strong>37.3 Carbon-13 NMR Spectroscopy</strong> 与 <strong>37.4 Proton (¹H) NMR Spectroscopy</strong>。题目部分对应专题题包 <strong>8.1 Analytical Techniques (A Level Only)</strong>；完整 Easy、Medium、Hard Structured Questions 放在本页底部。</p>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
+<p>学完本章后，你应该能够：</p>
+<ul>
+<li>describe the stationary and mobile phases in thin-layer chromatography and gas-liquid chromatography;</li>
+<li>calculate and interpret <span class="math inline">\(R_f\)</span> values and gas-chromatography retention times;</li>
+<li>use peak areas in gas chromatography to compare the relative amounts of components;</li>
+<li>identify equivalent carbon environments in carbon-13 NMR spectra;</li>
+<li>explain why TMS is used as the reference standard;</li>
+<li>interpret chemical shifts, integration and splitting in high-resolution proton NMR spectra;</li>
+<li>combine MS, IR, carbon-13 NMR and proton NMR evidence to identify an organic compound.</li>
+</ul>
+</section>
+<section id="thin-layer-chromatography" class="level2">
+<h2 class="anchored" data-anchor-id="thin-layer-chromatography">37.1 Thin-Layer Chromatography</h2>
+<section id="stationary-phase-mobile-phase-and-separation" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="stationary-phase-mobile-phase-and-separation">Stationary phase, mobile phase and separation</h3>
+<p>Thin-layer chromatography (TLC) separates components because each component has a different balance between its attraction to two phases:</p>
+<ul>
+<li>the <strong>stationary phase</strong> is a thin layer of a solid adsorbent, usually silica, silicon dioxide (<span class="math inline">\(\ce{SiO2}\)</span>), or alumina (<span class="math inline">\(\ce{Al2O3}\)</span>);</li>
+<li>the <strong>mobile phase</strong> is the solvent, which moves up the plate by capillary action.</li>
+</ul>
+<p>The sample is placed on a pencil baseline. The baseline must remain above the solvent level so that the spots dissolve into the rising solvent rather than directly into the solvent reservoir. A lid helps to prevent evaporation and allows the atmosphere in the chamber to become saturated with solvent vapour.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/analytical-techniques/37-1-tlc-setup.webp" class="concept-figure img-fluid figure-img" alt="Thin-layer chromatography setup with a plate, solvent and pencil baseline"></p>
+<figcaption>TLC apparatus and labelled baseline</figcaption>
+</figure>
+</div>
+<p>The distance travelled by a component depends mainly on its <strong>solubility in the mobile phase</strong> and its <strong>retention by, or interaction with, the stationary phase</strong>. A component that is more soluble in the solvent and less strongly adsorbed by silica travels further.</p>
+</section>
+<section id="retention-factor-r_f" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="retention-factor-r_f">Retention factor, <span class="math inline">\(R_f\)</span></h3>
+<p>For a particular solvent, temperature and stationary phase, the characteristic retention factor is</p>
+<p><span class="math display">\[R_f=\frac{\text{distance travelled by component}}{\text{distance travelled by solvent front}}\]</span></p>
+<p>Measure both distances from the baseline. The centre of a broad spot should be used; if the spot is large, measuring to its top and bottom and taking the mean gives a better estimate.</p>
+<p>An <span class="math inline">\(R_f\)</span> value is between 0 and 1. A value close to 1 means that the component travelled almost as far as the solvent front: it has relatively high affinity for the mobile phase and relatively low affinity for the stationary phase. A value close to 0 indicates strong retention by the stationary phase.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/analytical-techniques/37-1-rf-calculation.webp" class="concept-figure img-fluid figure-img" alt="TLC retention factor calculation using component and solvent distances"></p>
+<figcaption>Calculation of an <span class="math inline">\(R_f\)</span> value</figcaption>
+</figure>
+</div>
+<p>To identify an unknown, run it beside known reference compounds under exactly the same conditions and compare the <span class="math inline">\(R_f\)</span> values. The result is not an absolute physical constant: changing the solvent, adsorbent, temperature or development distance can change the value.</p>
+</section>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · Calculating and interpreting <span class="math inline">\(R_f\)</span></span></p>
+<section id="identifying-a-component-by-tlc" class="level3">
+<h3 class="anchored" data-anchor-id="identifying-a-component-by-tlc">Identifying a component by TLC</h3>
+<p><strong>A spot travels 4.8 cm from the pencil baseline while the solvent front travels 7.5 cm. Calculate the <span class="math inline">\(R_f\)</span> value. A reference compound has an <span class="math inline">\(R_f\)</span> value of 0.64 under the same conditions. State whether the unknown could be the reference compound.</strong></p>
+<div class="we-answer">
+<ol type="1">
+<li><p>Use the TLC definition:</p>
+<p><span class="math display">\[R_f=\frac{\text{distance travelled by component}}{\text{distance travelled by solvent}}\]</span></p></li>
+<li><p>Substitute the measured distances:</p>
+<p><span class="math display">\[R_f=\frac{4.8}{7.5}=0.64\]</span></p></li>
+<li><p>The unknown has the same <span class="math inline">\(R_f\)</span> value as the reference compound. It <strong>could</strong> be the same compound, provided that the solvent, stationary phase and other experimental conditions were identical. An <span class="math inline">\(R_f\)</span> match alone is not definitive proof of identity.</p></li>
+</ol>
+</div>
+</section>
+</div>
+</section>
+<section id="gas-liquid-chromatography" class="level2">
+<h2 class="anchored" data-anchor-id="gas-liquid-chromatography">37.2 Gas-Liquid Chromatography</h2>
+<section id="phases-and-retention-time" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="phases-and-retention-time">Phases and retention time</h3>
+<p>Gas-liquid chromatography (GLC), often called gas chromatography (GC), is used for gases, volatile liquids and solids that can be vaporised without decomposition. The sample is injected and vaporised before entering a column.</p>
+<ul>
+<li>The <strong>mobile phase</strong> is an inert carrier gas such as helium, nitrogen or argon.</li>
+<li>The <strong>stationary phase</strong> is a non-volatile liquid with a high boiling point, spread as a thin film on a solid support inside the column.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/analytical-techniques/37-2-gc-overview.webp" class="concept-figure img-fluid figure-img" alt="Gas-liquid chromatography column, carrier gas and detector"></p>
+<figcaption>Overview of gas-liquid chromatography</figcaption>
+</figure>
+</div>
+<p><strong>Retention time is the time taken from injection of a component until it reaches the detector.</strong> It depends on the attraction between the component and both phases, the polarity and volatility of the component, and its chemical structure. A component that interacts strongly with the stationary phase remains in the column for longer and has a longer retention time.</p>
+</section>
+<section id="reading-a-chromatogram" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="reading-a-chromatogram">Reading a chromatogram</h3>
+<p>A GC chromatogram shows detector response against time. Each peak represents a component of the mixture. The position of a peak gives its retention time and can help identify the component by comparison with standards. The relative area under a peak, or its relative height when the peaks have comparable shapes, gives the <strong>relative amount or concentration</strong> of that component.</p>
+<p>For a polar stationary phase, a more polar component generally interacts more strongly with the stationary phase and therefore has a longer retention time. The carrier gas must be inert so that it does not react with the sample or stationary phase.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/analytical-techniques/37-2-gc-peak-area.webp" class="concept-figure img-fluid figure-img" alt="Gas chromatogram showing peak areas used to estimate relative composition"></p>
+<figcaption>GC peak area and relative composition</figcaption>
+</figure>
+</div>
+</section>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · Interpreting a GC chromatogram</span></p>
+<section id="relative-composition-of-a-mixture" class="level3">
+<h3 class="anchored" data-anchor-id="relative-composition-of-a-mixture">Relative composition of a mixture</h3>
+<p><strong>A chromatogram has four peaks with areas 18, 32, 25 and 25 arbitrary units. The stationary phase is polar. Peak B has the longest retention time. Estimate the percentage of the mixture represented by peak C and state which component is most polar.</strong></p>
+<div class="we-answer">
+<ol type="1">
+<li><p>Add the peak areas:</p>
+<p><span class="math display">\[18+32+25+25=100\]</span></p></li>
+<li><p>Calculate the relative percentage for C:</p>
+<p><span class="math display">\[\%\text{ of C}=\frac{25}{100}\times100=25\%\]</span></p></li>
+<li><p>Peak B has the longest retention time. With a polar stationary phase, this means B has the strongest interaction with the stationary phase and is the <strong>most polar</strong> of the components under these conditions.</p></li>
+<li><p>The peak area gives relative amount, not necessarily an exact percentage unless the detector response factors for all components are assumed to be equal.</p></li>
+</ol>
+</div>
+</section>
+</div>
+</section>
+<section id="carbon-13-nmr-spectroscopy" class="level2">
+<h2 class="anchored" data-anchor-id="carbon-13-nmr-spectroscopy">37.3 Carbon-13 NMR Spectroscopy</h2>
+<section id="carbon-environments-and-number-of-peaks" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="carbon-environments-and-number-of-peaks">Carbon environments and number of peaks</h3>
+<p>In broadband-decoupled carbon-13 NMR, each chemically different carbon environment produces one signal. Equivalent carbon atoms, often revealed by a plane or centre of symmetry, give one signal rather than separate signals.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/analytical-techniques/37-3-carbon-environments.webp" class="concept-figure img-fluid figure-img" alt="Examples of equivalent and non-equivalent carbon environments"></p>
+<figcaption>Equivalent carbon environments</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/analytical-techniques/37-3-carbon-environments-2.webp" class="concept-figure img-fluid figure-img" alt="Carbon-13 NMR carbon environment assignments"></p>
+<figcaption>Additional carbon-environment examples</figcaption>
+</figure>
+</div>
+<p>To count signals, draw the displayed or skeletal structure, mark carbons related by symmetry, and then count the different environments. Do not count the number of carbon atoms directly: a molecule with ten carbon atoms can give fewer than ten peaks if some carbons are equivalent.</p>
+</section>
+<section id="chemical-shift-ranges" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="chemical-shift-ranges">Chemical-shift ranges</h3>
+<p>The chemical shift, <span class="math inline">\(\delta\)</span>, is measured in parts per million (ppm) relative to TMS. The following approximate ranges are useful for CIE questions:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 42%">
+<col style="width: 57%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Carbon environment</th>
+<th style="text-align: right;">Approximate <span class="math inline">\(\delta\)</span> / ppm</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Saturated carbon away from strongly electron-withdrawing groups</td>
+<td style="text-align: right;">0–50</td>
+</tr>
+<tr class="even">
+<td>Carbon attached to O, halogen or another electronegative environment</td>
+<td style="text-align: right;">50–70</td>
+</tr>
+<tr class="odd">
+<td>Alkene or aromatic carbon, <span class="math inline">\(\ce{C=C}\)</span> / arene</td>
+<td style="text-align: right;">110–160</td>
+</tr>
+<tr class="even">
+<td>Carbonyl carbon in aldehydes or ketones</td>
+<td style="text-align: right;">190–220</td>
+</tr>
+<tr class="odd">
+<td>Carbonyl carbon in carboxylic acids, esters or amides</td>
+<td style="text-align: right;">160–185</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/analytical-techniques/37-3-carbon-shifts.webp" class="concept-figure img-fluid figure-img" alt="Approximate carbon-13 NMR chemical shift ranges"></p>
+<figcaption>Carbon-13 chemical-shift ranges</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/analytical-techniques/37-3-nmr-examples.webp" class="concept-figure img-fluid figure-img" alt="Carbon-13 NMR spectra and assignments for organic compounds"></p>
+<figcaption>Carbon-13 NMR examples</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/analytical-techniques/37-3-symmetry.webp" class="concept-figure img-fluid figure-img" alt="Using molecular symmetry to count carbon-13 NMR environments"></p>
+<figcaption>Symmetry and carbon environments</figcaption>
+</figure>
+</div>
+</section>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · Counting carbon-13 signals</span></p>
+<section id="ethylbenzene" class="level3">
+<h3 class="anchored" data-anchor-id="ethylbenzene">Ethylbenzene</h3>
+<p><strong>Ethylbenzene, <span class="math inline">\(\ce{C6H5CH2CH3}\)</span>, gives a carbon-13 NMR spectrum. Predict the number of signals and assign the approximate chemical-shift ranges of the ethyl carbons and the aromatic carbons.</strong></p>
+<div class="we-answer">
+<ol type="1">
+<li><p>In a monosubstituted benzene ring, the two ortho carbons are equivalent, the two meta carbons are equivalent, and the ipso carbon is unique. The ring therefore gives <strong>four</strong> different carbon environments.</p></li>
+<li><p>The two carbons in the ethyl group are different: the benzylic <span class="math inline">\(\ce{CH2}\)</span> carbon and the terminal <span class="math inline">\(\ce{CH3}\)</span> carbon give two further environments.</p></li>
+<li><p>Total number of carbon-13 signals:</p>
+<p><span class="math display">\[4+2=6\]</span></p></li>
+<li><p>The aromatic carbons are in the approximate <span class="math inline">\(\delta=110\)</span>–<span class="math inline">\(160\)</span> ppm range. The benzylic <span class="math inline">\(\ce{CH2}\)</span> is typically around 20–40 ppm and the terminal <span class="math inline">\(\ce{CH3}\)</span> is in the saturated-carbon region, usually around 10–20 ppm.</p></li>
+</ol>
+</div>
+</section>
+</div>
+</section>
+<section id="proton-¹h-nmr-spectroscopy" class="level2">
+<h2 class="anchored" data-anchor-id="proton-¹h-nmr-spectroscopy">37.4 Proton (¹H) NMR Spectroscopy</h2>
+<section id="tms-chemical-shift-and-integration" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="tms-chemical-shift-and-integration">TMS, chemical shift and integration</h3>
+<p>Tetramethylsilane, TMS, has the structural formula <span class="math inline">\(\ce{Si(CH3)4}\)</span>. It is used as the reference standard because it is chemically inert, volatile, gives one sharp signal, and its signal is assigned <span class="math inline">\(\delta=0\)</span> ppm, away from most organic proton signals.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/analytical-techniques/37-4-tms-structure.webp" class="concept-figure img-fluid figure-img" alt="Tetramethylsilane structural formula used in proton NMR"></p>
+<figcaption>TMS structure and reference standard</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/analytical-techniques/37-4-tms-diagram.webp" class="concept-figure img-fluid figure-img" alt="Tetramethylsilane with four equivalent methyl groups"></p>
+<figcaption>TMS molecular diagram</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/analytical-techniques/37-4-tms-chemical-shift.webp" class="concept-figure img-fluid figure-img" alt="TMS at zero chemical shift in an NMR spectrum"></p>
+<figcaption>TMS chemical shift</figcaption>
+</figure>
+</div>
+<p>The <strong>number of signals</strong> indicates the number of different proton environments. The <strong>relative integration</strong> of signals gives the relative number of protons in each environment. A deuterated solvent such as <span class="math inline">\(\ce{CDCl3}\)</span> is used because ordinary <span class="math inline">\(\ce{CHCl3}\)</span> would produce a proton signal that could interfere with the sample spectrum.</p>
+</section>
+<section id="splitting-and-the-n1-rule" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="splitting-and-the-n1-rule">Splitting and the <span class="math inline">\(n+1\)</span> rule</h3>
+<p>In a high-resolution proton NMR spectrum, a proton signal is split by adjacent, non-equivalent protons. If a proton has <span class="math inline">\(n\)</span> equivalent neighbouring protons, its signal is split into <span class="math inline">\(n+1\)</span> lines:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: right;">Neighbouring protons, <span class="math inline">\(n\)</span></th>
+<th>Multiplet</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">0</td>
+<td>singlet</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1</td>
+<td>doublet</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2</td>
+<td>triplet</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3</td>
+<td>quartet</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/analytical-techniques/37-4-splitting.webp" class="concept-figure img-fluid figure-img" alt="The n plus one rule for proton NMR splitting"></p>
+<figcaption>Proton NMR splitting</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/analytical-techniques/37-4-integration.webp" class="concept-figure img-fluid figure-img" alt="Proton NMR integration traces and relative proton numbers"></p>
+<figcaption>Integration in proton NMR</figcaption>
+</figure>
+</div>
+<p>Splitting is not normally observed between rapidly exchanging acidic protons such as many <span class="math inline">\(\ce{O-H}\)</span> protons. Always use the structure to identify neighbouring protons rather than assuming that identical functional groups must have identical splitting.</p>
+</section>
+<section id="interpreting-a-proton-nmr-spectrum" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="interpreting-a-proton-nmr-spectrum">Interpreting a proton NMR spectrum</h3>
+<p>Use a consistent sequence:</p>
+<ol type="1">
+<li>Count the signals to find the number of proton environments.</li>
+<li>Use the integration ratio to assign the number of protons to each signal.</li>
+<li>Use splitting to identify neighbouring proton groups.</li>
+<li>Use chemical-shift ranges to identify environments next to oxygen, carbonyl groups, aromatic rings or other electron-withdrawing groups.</li>
+<li>Check that every hydrogen in the proposed structure has been accounted for.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/analytical-techniques/37-4-nmr-spectrum.webp" class="concept-figure img-fluid figure-img" alt="Annotated proton NMR spectrum"></p>
+<figcaption>Proton NMR spectrum</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/analytical-techniques/37-4-nmr-spectrum-example.webp" class="concept-figure img-fluid figure-img" alt="Example proton NMR spectrum with chemical shifts"></p>
+<figcaption>Proton NMR example spectrum</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/analytical-techniques/37-4-proton-nmr-interpretation.webp" class="concept-figure img-fluid figure-img" alt="Step-by-step proton NMR interpretation"></p>
+<figcaption>Interpreting proton NMR</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/analytical-techniques/37-4-nmr-examples.webp" class="concept-figure img-fluid figure-img" alt="Proton NMR examples linked to organic structures"></p>
+<figcaption>Proton NMR example structures</figcaption>
+</figure>
+</div>
+</section>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · Using integration and splitting</span></p>
+<section id="identifying-an-ester-from-a-proton-nmr-spectrum" class="level3">
+<h3 class="anchored" data-anchor-id="identifying-an-ester-from-a-proton-nmr-spectrum">Identifying an ester from a proton NMR spectrum</h3>
+<p><strong>An ester has two proton NMR signals: a quartet integrating to four protons at about <span class="math inline">\(\delta=4.1\)</span> ppm and a triplet integrating to three protons at about <span class="math inline">\(\delta=1.3\)</span> ppm. Suggest the relevant structure and explain the splitting.</strong></p>
+<div class="we-answer">
+<ol type="1">
+<li>A quartet and a triplet with an integration ratio of <span class="math inline">\(4:3\)</span> indicate an ethyl group, <span class="math inline">\(\ce{-CH2CH3}\)</span>.</li>
+<li>The quartet is from the <span class="math inline">\(\ce{-OCH2-}\)</span> group. Its chemical shift is relatively high because the <span class="math inline">\(\ce{CH2}\)</span> carbon is directly attached to oxygen. The two neighbouring protons on <span class="math inline">\(\ce{CH3}\)</span> give <span class="math inline">\(n+1=2+1=3\)</span> lines, so the <span class="math inline">\(\ce{CH2}\)</span> signal is a quartet.</li>
+<li>The triplet is from the terminal <span class="math inline">\(\ce{-CH3}\)</span> group. It has two neighbouring protons on <span class="math inline">\(\ce{CH2}\)</span>, so <span class="math inline">\(n+1=2+1=3\)</span> lines.</li>
+<li>A structure consistent with these signals is ethyl ethanoate, <span class="math inline">\(\ce{CH3COOCH2CH3}\)</span>, provided that the remaining methyl signal from the ethanoate group is also present in the complete spectrum.</li>
+</ol>
+</div>
+</section>
+</div>
+</section>
+<section id="chapter-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="chapter-checklist">Chapter checklist</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">I can distinguish the stationary and mobile phases in TLC and GLC.</label></li>
+<li><label><input type="checkbox">I can calculate <span class="math inline">\(R_f\)</span> values and explain why they cannot exceed 1.</label></li>
+<li><label><input type="checkbox">I can use GC retention times and peak areas to interpret a mixture.</label></li>
+<li><label><input type="checkbox">I can count equivalent carbon environments and assign approximate carbon-13 shifts.</label></li>
+<li><label><input type="checkbox">I can explain the role of TMS and deuterated solvents in proton NMR.</label></li>
+<li><label><input type="checkbox">I can use proton NMR integration, splitting and chemical shift to test a proposed structure.</label></li>
+<li><label><input type="checkbox">I can combine analytical evidence from MS, IR and NMR to identify an unknown compound.</label></li>
+</ul>
+<section id="practice-questions" class="level3">
+<h3 class="anchored" data-anchor-id="practice-questions">Practice questions</h3>
+</section>
+</section>
+</section>
+<section id="analytical-techniques-a-level-only---structured-questions" class="level1">
+<h1>8.1 Analytical Techniques (A Level Only) - Structured Questions</h1>
+<p>本页保留 8.1 题包中的全部 Structured Questions：Easy 3 题、Medium 7 题和 Hard 4 题。每题保留完整英文题干、所有分问、原始分值和题目中需要的独立图片；答案按 Model Answers 整理，并展示计算过程与解释步骤。</p>
+<section id="analytical-techniques-a-level-only---easy" class="level3">
+<h3 class="anchored" data-anchor-id="analytical-techniques-a-level-only---easy">8.1 Analytical Techniques (A Level Only) - Easy</h3>
+</section>
+<section id="example-1-gas-chromatography-8.1-sq-easy-q1" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-1-gas-chromatography-8.1-sq-easy-q1">Example 1 · Gas chromatography · 8.1 SQ Easy Q1</h3>
+<p>This question is about gas chromatography.</p>
+<p><strong>(a)</strong> Name the three types of chemical that gas chromatography is used for. <code>[3 marks]</code></p>
+<p><strong>(b)</strong> Silica and alumina are commonly used as the stationary phase in thin-layer chromatography. State the type of chemical that is commonly used as the stationary phase in gas chromatography. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> State the type of chemical that is used for the mobile phase in gas chromatography. You should include at least one specific example in your answer. <code>[2 marks]</code></p>
+<p>Results in gas chromatography are based on retention time.</p>
+<p><strong>(d)(i)</strong> Define the term retention time. <code>[1 mark]</code></p>
+<p><strong>(d)(ii)</strong> State three factors that retention time depends upon. <code>[3 marks]</code></p>
+<p><strong>(e)</strong> State what information the relative size or area under the peak on a gas chromatogram provides. <code>[1 mark]</code></p>
+<p>Gas chromatography is carried out using a polar stationary phase and argon as the carrier gas. Use the chromatogram in Fig. 1.1 to answer the following questions.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/easy-q1-gc-chromatogram.webp" class="question-figure img-fluid figure-img" alt="Gas chromatogram used in Easy Question 1"></p>
+<figcaption>Gas chromatogram showing compounds A, B and C</figcaption>
+</figure>
+</div>
+<p><strong>(f)(i)</strong> State which compound has the lowest retention time. <code>[1 mark]</code></p>
+<p><strong>(f)(ii)</strong> State which compound is the least polar. <code>[1 mark]</code></p>
+<p><strong>(f)(iii)</strong> State which compound has the greatest interaction with the stationary phase. <code>[1 mark]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><strong>(a)</strong> The three types are <strong>gases</strong>, <strong>volatile liquids</strong> and <strong>solids in their vapour form</strong>. <code>[3]</code></li>
+<li><strong>(b)</strong> A <strong>non-polar liquid on a solid support</strong>, which is non-volatile or has a high boiling point. <code>[2]</code></li>
+<li><strong>(c)</strong> An inert carrier gas, for example <strong>helium</strong>, <strong>nitrogen</strong> or <strong>argon</strong>. <code>[2]</code></li>
+<li><strong>(d)(i)</strong> Retention time is the time taken for a component to travel through the column, or the time from injection until detection. <code>[1]</code></li>
+<li><strong>(d)(ii)</strong> Any three from: attraction to the stationary phase; attraction to the mobile phase; polarity; volatility; chemical structure/nature of the component. <code>[3]</code></li>
+<li><strong>(e)</strong> The relative concentration or amount of each component. <code>[1]</code></li>
+<li><strong>(f)(i)</strong> <strong>A</strong>, because its peak occurs first. <code>[1]</code></li>
+<li><strong>(f)(ii)</strong> <strong>A</strong>. With a polar stationary phase, the least polar component has the weakest attraction and the shortest retention time. <code>[1]</code></li>
+<li><strong>(f)(iii)</strong> <strong>C</strong>, because its retention time is greatest, so it is retained most strongly by the stationary phase. <code>[1]</code></li>
+</ul>
+</details>
+</section>
+<section id="example-2-nmr-analysis-of-pentane-isomers-8.1-sq-easy-q2" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-2-nmr-analysis-of-pentane-isomers-8.1-sq-easy-q2">Example 2 · NMR analysis of pentane isomers · 8.1 SQ Easy Q2</h3>
+<p>This question is about the NMR analysis of various organic compounds.</p>
+<p><strong>(a)</strong> Name and draw the structure of the chemical that is commonly used as a standard in NMR spectroscopy. <code>[2 marks]</code></p>
+<p>Fig. 2.1 shows the structures of compounds A, B and C. Compound A is pentane, <span class="math inline">\(\ce{C5H12}\)</span>. Compound B is 2-methylbutane and compound C is 2,2-dimethylpropane; B and C are both isomers of pentane.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/easy-q2-pentane-isomers.webp" class="question-figure img-fluid figure-img" alt="Pentane isomers A, B and C"></p>
+<figcaption>Structures of pentane, 2-methylbutane and 2,2-dimethylpropane</figcaption>
+</figure>
+</div>
+<p><strong>(b)</strong> State the number of hydrogen peaks expected in the low-resolution <span class="math inline">\(^1\)</span>H NMR spectrum of each isomer. <code>[3 marks]</code></p>
+<p>More structural details can be deduced using high-resolution <span class="math inline">\(^1\)</span>H NMR.</p>
+<p><strong>(c)</strong> Explain why the methyl groups in 2-methylbutane, compound B, give a doublet splitting pattern while the methyl groups in 2,2-dimethylpropane, compound C, give a singlet splitting pattern. <code>[3 marks]</code></p>
+<p>Carbon-13 NMR is also commonly used to distinguish chemicals.</p>
+<p><strong>(d)</strong> Predict the number of peaks in the carbon-13 NMR spectra of compounds A, B and C. <code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><strong>(a)</strong> The standard is <strong>tetramethylsilane</strong>, TMS, with structural formula <span class="math inline">\(\ce{Si(CH3)4}\)</span>. <code>[2]</code></li>
+<li><strong>(b)</strong> The number of <span class="math inline">\(^1\)</span>H environments is: pentane A = <strong>3</strong>, 2-methylbutane B = <strong>4</strong>, and 2,2-dimethylpropane C = <strong>1</strong>. <code>[3]</code></li>
+<li><strong>(c)</strong> Splitting depends on neighbouring protons. In B, each methyl group is next to one proton on the adjacent <span class="math inline">\(\ce{CH}\)</span> group, so <span class="math inline">\(n+1=1+1=2\)</span>: a <strong>doublet</strong>. In C, the methyl groups are next to a quaternary carbon with no hydrogen, so <span class="math inline">\(n+1=0+1=1\)</span>: a <strong>singlet</strong>. <code>[3]</code></li>
+<li><strong>(d)</strong> The number of carbon environments is A = <strong>3</strong>, B = <strong>4</strong>, C = <strong>2</strong>. <code>[3]</code></li>
+</ul>
+</details>
+</section>
+<section id="example-3-thin-layer-chromatography-8.1-sq-easy-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-3-thin-layer-chromatography-8.1-sq-easy-q3">Example 3 · Thin-layer chromatography · 8.1 SQ Easy Q3</h3>
+<p>This question is about thin-layer chromatography.</p>
+<p><strong>(a)</strong> Name the two phases of chromatography and give one example of a chemical used for each phase. <code>[4 marks]</code></p>
+<p>Thin-layer chromatography is used to check if an unknown food colouring contains a banned colouring.</p>
+<p><strong>(b)</strong> Draw a labelled diagram to show the experimental setup for this TLC analysis. <code>[3 marks]</code></p>
+<p><strong>(c)</strong> State two factors that the rate of separation depends upon. <code>[2 marks]</code></p>
+<p><strong>(d)</strong> State the equation used to calculate the unique retention factor of a compound. <code>[1 mark]</code></p>
+<p><strong>(e)</strong> Calculate the <span class="math inline">\(R_f\)</span> value of the compound shown in the chromatogram below.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/easy-q3-tlc-calculation.webp" class="question-figure img-fluid figure-img" alt="TLC chromatogram used to calculate an Rf value"></p>
+<figcaption>TLC plate for an <span class="math inline">\(R_f\)</span> calculation</figcaption>
+</figure>
+</div>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><p><strong>(a)</strong> The mobile phase is a solvent, for example water, ethanol or hexane. The stationary phase is silica, <span class="math inline">\(\ce{SiO2}\)</span>, or alumina, <span class="math inline">\(\ce{Al2O3}\)</span>. <code>[4]</code></p></li>
+<li><p><strong>(b)</strong> The diagram should show a <strong>TLC plate</strong> in a covered beaker, a <strong>pencil baseline</strong>, known and unknown spots on the baseline, and the <strong>solvent level below the baseline</strong>. <code>[3]</code></p></li>
+<li><p><strong>(c)</strong> Separation depends on the solubility of each component in the mobile phase and its retention/interaction with the stationary phase. <code>[2]</code></p></li>
+<li><p><strong>(d)</strong></p>
+<p><span class="math display">\[R_f=\frac{\text{distance travelled by component}}{\text{distance travelled by solvent front}}\]</span></p>
+<p><code>[1]</code></p></li>
+<li><p><strong>(e)</strong> From the diagram, the compound has travelled 16 units and the solvent front has travelled 20 units:</p>
+<p><span class="math display">\[R_f=\frac{16}{20}=0.80\]</span></p>
+<p><code>[3]</code></p></li>
+</ul>
+</details>
+</section>
+<section id="analytical-techniques-a-level-only---medium" class="level3">
+<h3 class="anchored" data-anchor-id="analytical-techniques-a-level-only---medium">8.1 Analytical Techniques (A Level Only) - Medium</h3>
+</section>
+<section id="example-4-verdigris-and-azurite-analysis-8.1-sq-medium-q1" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-4-verdigris-and-azurite-analysis-8.1-sq-medium-q1">Example 4 · Verdigris and azurite analysis · 8.1 SQ Medium Q1</h3>
+<p>Verdigris is a green pigment that contains both copper(II) carbonate, <span class="math inline">\(\ce{CuCO3}\)</span>, and copper(II) hydroxide, <span class="math inline">\(\ce{Cu(OH)2}\)</span>, in varying amounts. Both copper compounds react with dilute hydrochloric acid:</p>
+<p><span class="math display">\[\ce{CuCO3(s) + 2HCl(aq) -&gt; CuCl2(aq) + CO2(g) + H2O(l)}\]</span></p>
+<p><span class="math display">\[\ce{Cu(OH)2(s) + 2HCl(aq) -&gt; CuCl2(aq) + 2H2O(l)}\]</span></p>
+<p>You are to plan an experiment to determine the percentage of copper(II) carbonate in a sample of verdigris. Your method should involve the reaction of verdigris with excess dilute hydrochloric acid. You are provided with 0.494 g of verdigris, 10.0 mol dm<span class="math inline">\(^{-3}\)</span> hydrochloric acid and commonly available laboratory reagents and equipment. You may assume that any other material present in verdigris is unaffected by heating and is not acidic or basic.</p>
+<p><strong>(a)(i)</strong> A student suggests that finding the volume of dilute hydrochloric acid required to react with a known mass of verdigris would be a suitable method to determine the percentage of copper(II) carbonate. Suggest why this method would not work. <code>[1 mark]</code></p>
+<p><strong>(a)(ii)</strong> The 10.0 mol dm<span class="math inline">\(^{-3}\)</span> HCl is too concentrated. Describe how to accurately prepare 250.0 cm<span class="math inline">\(^3\)</span> of 0.500 mol dm<span class="math inline">\(^{-3}\)</span> hydrochloric acid from the HCl provided. State the name and capacity of any apparatus used. <code>[3 marks]</code></p>
+<p><strong>(a)(iii)</strong> The percentage can be determined by measuring the volume of gas produced when excess hydrochloric acid is added. Draw a diagram to show how to set up the apparatus and chemicals to measure the total volume of gas. Label your diagram. <code>[2 marks]</code></p>
+<p><strong>(a)(iv)</strong> Sketch a graph to show how the volume of gas produced would change during the experiment. Put the independent variable on the x-axis, label both axes and extend the graph beyond the point at which the reaction is complete. <code>[2 marks]</code></p>
+<p><strong>(a)(v)</strong> A student thinks that the 0.494 g sample contains only <span class="math inline">\(\ce{CuCO3}\)</span>. Calculate the minimum volume, in cm<span class="math inline">\(^3\)</span>, of 0.500 mol dm<span class="math inline">\(^{-3}\)</span> HCl needed to completely react with the sample. Show your working. <span class="math inline">\([M_r(\ce{CuCO3})=123.5]\)</span> <code>[2 marks]</code></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/medium-q1-axes.webp" class="question-figure img-fluid figure-img" alt="Axes used for the verdigris gas-volume graph"></p>
+<figcaption>Axes for the gas-volume graph</figcaption>
+</figure>
+</div>
+<p>Azurite is a blue copper-containing mineral. The copper compound in azurite has formula <span class="math inline">\(\ce{Cu3(CO3)2(OH)2}\)</span> and reacts with sulfuric acid:</p>
+<p><span class="math display">\[\ce{Cu3(CO3)2(OH)2(s) + 3H2SO4(aq) -&gt; 3CuSO4(aq) + 2CO2(g) + 4H2O(l)}\]</span></p>
+<p>A student carries out titrations on 1.50 g samples of solid azurite using 0.400 mol dm<span class="math inline">\(^{-3}\)</span> sulfuric acid. The data are:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Titration</th>
+<th style="text-align: right;">Rough</th>
+<th style="text-align: right;">1</th>
+<th style="text-align: right;">2</th>
+<th style="text-align: right;">3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Final reading / cm<span class="math inline">\(^3\)</span></td>
+<td style="text-align: right;">25.55</td>
+<td style="text-align: right;">23.90</td>
+<td style="text-align: right;">48.30</td>
+<td style="text-align: right;">28.10</td>
+</tr>
+<tr class="even">
+<td>Initial reading / cm<span class="math inline">\(^3\)</span></td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">23.90</td>
+<td style="text-align: right;">3.95</td>
+</tr>
+<tr class="odd">
+<td>Titre / cm<span class="math inline">\(^3\)</span></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+<p>The indicator is bromophenol blue, which is blue at pH 4.6 and yellow at pH 3.0.</p>
+<p><strong>(b)(i)</strong> Complete the table. <code>[1 mark]</code></p>
+<p><strong>(b)(ii)</strong> Calculate the percentage uncertainty in titre 1. <code>[1 mark]</code></p>
+<p><strong>(b)(iii)</strong> The student concludes that 24.15 cm<span class="math inline">\(^3\)</span> of 0.400 mol dm<span class="math inline">\(^{-3}\)</span> sulfuric acid completely reacts with 1.50 g of azurite. Calculate the percentage by mass of <span class="math inline">\(\ce{Cu3(CO3)2(OH)2}\)</span> in the sample. Give your answer to three significant figures. <span class="math inline">\([M_r=344.5]\)</span> <code>[3 marks]</code></p>
+<p><strong>(b)(iv)</strong> Identify two possible problems with the titration experiment and suggest improvements. <code>[4 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><p><strong>(a)(i)</strong> The method cannot distinguish <span class="math inline">\(\ce{CuCO3}\)</span> from <span class="math inline">\(\ce{Cu(OH)2}\)</span> because both compounds react with HCl. <code>[1]</code></p></li>
+<li><p><strong>(a)(ii)</strong> Calculate the stock volume using <span class="math inline">\(c_1V_1=c_2V_2\)</span>:</p>
+<p><span class="math display">\[V_1=\frac{0.500\times250.0}{10.0}=12.50\text{ cm}^3\]</span></p>
+<p>Use a burette or graduated pipette to transfer 12.50 cm<span class="math inline">\(^3\)</span> of the stock HCl into a 250.0 cm<span class="math inline">\(^3\)</span> volumetric flask. Add distilled water to the calibration mark, stopper and invert several times to mix. <code>[3]</code></p></li>
+<li><p><strong>(a)(iii)</strong> Use a divided conical flask or a flask in which the solid can be added without initial gas loss, connected by a tight bung and delivery tube to a gas syringe or an inverted measuring cylinder over water. The gas is carbon dioxide. <code>[2]</code></p></li>
+<li><p><strong>(a)(iv)</strong> Plot volume of gas against time. The curve starts at the origin, rises as carbon dioxide is produced, then reaches a horizontal plateau when the reaction is complete. <code>[2]</code></p></li>
+<li><p><strong>(a)(v)</strong></p>
+<p><span class="math display">\[n(\ce{CuCO3})=\frac{0.494}{123.5}=0.00400\text{ mol}\]</span></p>
+<p><span class="math display">\[n(\ce{HCl})=2(0.00400)=0.00800\text{ mol}\]</span></p>
+<p><span class="math display">\[V=\frac{n}{c}=\frac{0.00800}{0.500}=0.0160\text{ dm}^3=16.0\text{ cm}^3\]</span></p>
+<p><code>[2]</code></p></li>
+<li><p><strong>(b)(i)</strong> The titres are: rough = 25.55 cm<span class="math inline">\(^3\)</span>, titre 1 = 23.90 cm<span class="math inline">\(^3\)</span>, titre 2 = 24.40 cm<span class="math inline">\(^3\)</span>, titre 3 = 24.15 cm<span class="math inline">\(^3\)</span>. <code>[1]</code></p></li>
+<li><p><strong>(b)(ii)</strong></p>
+<p><span class="math display">\[\%\text{ uncertainty}=\frac{0.05\times2}{23.90}\times100=0.42\%\]</span></p>
+<p><code>[1]</code></p></li>
+<li><p><strong>(b)(iii)</strong></p>
+<p><span class="math display">\[n(\ce{H2SO4})=0.400\times\frac{24.15}{1000}=9.66\times10^{-3}\text{ mol}\]</span></p>
+<p>The equation requires 3 mol of acid per mol of azurite:</p>
+<p><span class="math display">\[n(\ce{Cu3(CO3)2(OH)2})=\frac{9.66\times10^{-3}}{3}=3.22\times10^{-3}\text{ mol}\]</span></p>
+<p><span class="math display">\[m=3.22\times10^{-3}\times344.5=1.11\text{ g}\]</span></p>
+<p><span class="math display">\[\%\text{ by mass}=\frac{1.11}{1.50}\times100=74.0\%\]</span></p></li>
+<li><p><strong>(b)(iv)</strong> The titres are not concordant, so repeat until two titres agree within about 0.10 cm<span class="math inline">\(^3\)</span>. The colour change of bromophenol blue is difficult to judge, so use a more suitable indicator or another endpoint method. <code>[4]</code></p></li>
+</ul>
+</details>
+</section>
+<section id="example-5-adsorption-by-activated-charcoal-8.1-sq-medium-q2" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-5-adsorption-by-activated-charcoal-8.1-sq-medium-q2">Example 5 · Adsorption by activated charcoal · 8.1 SQ Medium Q2</h3>
+<p>Activated charcoal is a form of carbon with a very high surface area. It can remove impurities from mixtures by adsorption, where particles of the impurity bond to the charcoal surface. The relationship is:</p>
+<p><span class="math display">\[\log\left(\frac{D}{m}\right)=A+b\log[X]\]</span></p>
+<p>where <span class="math inline">\(D\)</span> is the difference in dye concentration before and after adsorption, <span class="math inline">\(m\)</span> is the mass of activated charcoal, <span class="math inline">\([X]\)</span> is the final dye concentration, and <span class="math inline">\(A\)</span> and <span class="math inline">\(b\)</span> are constants.</p>
+<p>A student places 50.0 cm<span class="math inline">\(^3\)</span> of a 25.00 g dm<span class="math inline">\(^{-3}\)</span> blue-dye solution in a conical flask, adds a weighed mass of activated charcoal, stirs for three minutes, leaves the mixture for one hour, filters it and determines <span class="math inline">\([X]\)</span>. The procedure is repeated using different masses.</p>
+<p><strong>(a)(i)</strong> Process the results to complete the table. Record data to two decimal places.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;"><span class="math inline">\(m\)</span> / g</th>
+<th style="text-align: right;">Initial concentration / g dm<span class="math inline">\(^{-3}\)</span></th>
+<th style="text-align: right;">Final concentration <span class="math inline">\([X]\)</span> / g dm<span class="math inline">\(^{-3}\)</span></th>
+<th style="text-align: right;"><span class="math inline">\(D\)</span> / g dm<span class="math inline">\(^{-3}\)</span></th>
+<th style="text-align: right;"><span class="math inline">\(D/m\)</span></th>
+<th style="text-align: right;"><span class="math inline">\(\log(D/m)\)</span></th>
+<th style="text-align: right;"><span class="math inline">\(\log[X]\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">0.20</td>
+<td style="text-align: right;">25.00</td>
+<td style="text-align: right;">0.96</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">0.25</td>
+<td style="text-align: right;">25.00</td>
+<td style="text-align: right;">0.69</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">0.30</td>
+<td style="text-align: right;">25.00</td>
+<td style="text-align: right;">0.60</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">0.35</td>
+<td style="text-align: right;">25.00</td>
+<td style="text-align: right;">0.41</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">0.40</td>
+<td style="text-align: right;">25.00</td>
+<td style="text-align: right;">0.33</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">0.45</td>
+<td style="text-align: right;">25.00</td>
+<td style="text-align: right;">0.27</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">0.50</td>
+<td style="text-align: right;">25.00</td>
+<td style="text-align: right;">0.23</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">0.55</td>
+<td style="text-align: right;">25.00</td>
+<td style="text-align: right;">0.20</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">0.60</td>
+<td style="text-align: right;">25.00</td>
+<td style="text-align: right;">0.17</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+<p><code>[2 marks]</code></p>
+<p><strong>(a)(ii)</strong> Identify the dependent variable in this experiment. <code>[1 mark]</code></p>
+<p><strong>(a)(iii)</strong> State and explain the effect, if any, of increasing the mass of activated charcoal on the amount of adsorption. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Plot a graph on the grid to show the relationship between <span class="math inline">\(\log(D/m)\)</span> and <span class="math inline">\(\log[X]\)</span>. Use a cross to plot each data point and draw the straight line of best fit. <code>[2 marks]</code></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/medium-q2-graph-grid-1.webp" class="question-figure img-fluid figure-img" alt="Graph grid for activated charcoal adsorption"></p>
+<figcaption>First grid for the adsorption graph</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/medium-q2-graph-grid-2.webp" class="question-figure img-fluid figure-img" alt="Additional graph grid for activated charcoal adsorption"></p>
+<figcaption>Second graph grid for the adsorption question</figcaption>
+</figure>
+</div>
+<p><strong>(c)</strong> Circle the most anomalous point on the graph. Suggest why this anomaly may have happened during the experimental procedure. <code>[1 mark]</code></p>
+<p><strong>(d)(i)</strong> Use the graph to determine the gradient of the line of best fit. State the coordinates of both points used. These must be selected from the line of best fit. Give the gradient to three significant figures. <code>[2 marks]</code></p>
+<p><strong>(d)(ii)</strong> Use the graph to determine a value for <span class="math inline">\(A\)</span>. <code>[1 mark]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><p><strong>(a)(i)</strong> The completed values are:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: right;"><span class="math inline">\(m\)</span> / g</th>
+<th style="text-align: right;"><span class="math inline">\(D\)</span></th>
+<th style="text-align: right;"><span class="math inline">\(D/m\)</span></th>
+<th style="text-align: right;"><span class="math inline">\(\log(D/m)\)</span></th>
+<th style="text-align: right;"><span class="math inline">\(\log[X]\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">0.20</td>
+<td style="text-align: right;">24.04</td>
+<td style="text-align: right;">120.20</td>
+<td style="text-align: right;">2.08</td>
+<td style="text-align: right;">−0.02</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">0.25</td>
+<td style="text-align: right;">24.31</td>
+<td style="text-align: right;">97.24</td>
+<td style="text-align: right;">1.99</td>
+<td style="text-align: right;">−0.16</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">0.30</td>
+<td style="text-align: right;">24.40</td>
+<td style="text-align: right;">81.33</td>
+<td style="text-align: right;">1.91</td>
+<td style="text-align: right;">−0.22</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">0.35</td>
+<td style="text-align: right;">24.59</td>
+<td style="text-align: right;">70.26</td>
+<td style="text-align: right;">1.85</td>
+<td style="text-align: right;">−0.39</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">0.40</td>
+<td style="text-align: right;">24.67</td>
+<td style="text-align: right;">61.68</td>
+<td style="text-align: right;">1.79</td>
+<td style="text-align: right;">−0.48</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">0.45</td>
+<td style="text-align: right;">24.73</td>
+<td style="text-align: right;">54.96</td>
+<td style="text-align: right;">1.74</td>
+<td style="text-align: right;">−0.57</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">0.50</td>
+<td style="text-align: right;">24.77</td>
+<td style="text-align: right;">49.54</td>
+<td style="text-align: right;">1.69</td>
+<td style="text-align: right;">−0.64</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">0.55</td>
+<td style="text-align: right;">24.80</td>
+<td style="text-align: right;">45.09</td>
+<td style="text-align: right;">1.65</td>
+<td style="text-align: right;">−0.70</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">0.60</td>
+<td style="text-align: right;">24.83</td>
+<td style="text-align: right;">41.38</td>
+<td style="text-align: right;">1.62</td>
+<td style="text-align: right;">−0.77</td>
+</tr>
+</tbody>
+</table>
+<p><code>[2]</code></p></li>
+<li><p><strong>(a)(ii)</strong> The dependent variable is the final concentration of blue dye, <span class="math inline">\([X]\)</span>. <code>[1]</code></p></li>
+<li><p><strong>(a)(iii)</strong> Increasing the mass of charcoal decreases the final dye concentration and increases adsorption because more charcoal provides a greater surface area and more adsorption sites. <code>[2]</code></p></li>
+<li><p><strong>(b)</strong> Plot all nine points and draw a straight line of best fit with approximately equal numbers of points on either side. <code>[2]</code></p></li>
+<li><p><strong>(c)</strong> The most anomalous point is approximately <span class="math inline">\((-0.22,1.91)\)</span>. A lower-than-expected adsorption result could result from insufficient stirring, too little charcoal, coagulated/bulkier particles, insufficient contact time or a surface area that was too low. <code>[1]</code></p></li>
+<li><p><strong>(d)(i)</strong> Choose two well-separated points on the best-fit line. A suitable result is:</p>
+<p><span class="math display">\[\text{gradient}=\frac{\Delta y}{\Delta x}\approx0.625\]</span></p>
+<p><code>[2]</code></p></li>
+<li><p><strong>(d)(ii)</strong> The intercept on the <span class="math inline">\(y\)</span>-axis gives <span class="math inline">\(A\)</span>, approximately <strong>2.09–2.10</strong>. <code>[1]</code></p></li>
+</ul>
+</details>
+</section>
+<section id="example-6-gas-chromatography-8.1-sq-medium-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-6-gas-chromatography-8.1-sq-medium-q3">Example 6 · Gas chromatography · 8.1 SQ Medium Q3</h3>
+<p>Column chromatography is a variation of thin-layer chromatography. Column chromatography and gas chromatography work by the same principles of components travelling through the column at different rates.</p>
+<p><strong>(a)</strong> State the difference between the mobile phases involved in column chromatography and gas-liquid chromatography. <code>[1 mark]</code></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/medium-q3-gc-chromatogram.webp" class="question-figure img-fluid figure-img" alt="Gas chromatogram used in Medium Question 3"></p>
+<figcaption>Gas chromatogram for a mixture</figcaption>
+</figure>
+</div>
+<p><strong>(b)</strong> Three compounds, A, B and C, of similar volatility are mixed together. The mixture is analysed in a gas chromatograph using the chromatogram shown. State which compound has the greatest affinity for the solid phase. Explain your reasoning. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> Use the chromatogram to identify the most abundant compound in the mixture. Explain your answer. <code>[1 mark]</code></p>
+<p><strong>(d)</strong> An oil tanker is travelling through the English Channel. The tanker has a slight leak, and some oil is noticed on a beach. Suggest how gas chromatography could be used to identify the tanker as the source of the crude-oil pollution. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><strong>(a)</strong> Column chromatography uses a <strong>liquid</strong> mobile phase, whereas gas-liquid chromatography uses a <strong>gas</strong> mobile phase. <code>[1]</code></li>
+<li><strong>(b)</strong> <strong>Compound C</strong> has the greatest affinity for the solid/stationary phase because it has the <strong>longest retention time</strong>; it remains in the column for longer. <code>[2]</code></li>
+<li><strong>(c)</strong> <strong>Compound B</strong> is the most abundant because it has the highest/largest peak. The area under a chromatogram peak is proportional to the amount of that component. <code>[1]</code></li>
+<li><strong>(d)</strong> Perform gas chromatography on a sample of oil from the tanker and a sample of oil from the beach. Compare the chromatograms; matching patterns/retention times would support the conclusion that the tanker is the source. <code>[2]</code></li>
+</ul>
+</details>
+</section>
+<section id="example-7-thin-layer-chromatography-and-dinitrobenzene-8.1-sq-medium-q4" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-7-thin-layer-chromatography-and-dinitrobenzene-8.1-sq-medium-q4">Example 7 · Thin-layer chromatography and dinitrobenzene · 8.1 SQ Medium Q4</h3>
+<p><strong>(a)</strong> Draw a labelled apparatus that would be used to identify the number of compounds in a mixture by thin-layer chromatography. <code>[2 marks]</code></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/medium-q4-tlc-plate.webp" class="question-figure img-fluid figure-img" alt="TLC plate for identifying components in a mixture"></p>
+<figcaption>TLC plate and apparatus</figcaption>
+</figure>
+</div>
+<p><strong>(b)</strong> State the steps that a student should perform to determine the identity of the compounds using <span class="math inline">\(R_f\)</span> values. <code>[4 marks]</code></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/medium-q4-tlc-measurements.webp" class="question-figure img-fluid figure-img" alt="Measurements from a TLC plate used for Rf values"></p>
+<figcaption>TLC spot measurements</figcaption>
+</figure>
+</div>
+<p><strong>(c)</strong> Suggest an improved method to locate the centre of each spot. <code>[2 marks]</code></p>
+<p><strong>(d)</strong> Calculate the <span class="math inline">\(R_f\)</span> values for benzaldehyde and benzyl alcohol in the chromatogram. The solvent front travelled 5.0 cm; the benzaldehyde spot travelled 3.2 cm and the benzyl alcohol spot travelled 1.5 cm. <code>[2 marks]</code></p>
+<p><strong>(e)</strong> Explain why the maximum <span class="math inline">\(R_f\)</span> value of a compound cannot exceed 1. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><p><strong>(a)</strong> Show a covered beaker containing a TLC plate, with the solvent level below the pencil baseline. <code>[2]</code></p></li>
+<li><p><strong>(b)</strong> Measure the distance travelled by the solvent front; measure the distance travelled by each spot; calculate each <span class="math inline">\(R_f\)</span> value; compare the values with data for known compounds. <code>[4]</code></p></li>
+<li><p><strong>(c)</strong> Measure to the top and bottom of each spot and use the mean:</p>
+<p><span class="math display">\[\text{centre}=\frac{\text{distance to top}+\text{distance to bottom}}{2}\]</span></p>
+<p><code>[2]</code></p></li>
+<li><p><strong>(d)</strong></p>
+<p><span class="math display">\[R_f(\text{benzaldehyde})=\frac{3.2}{5.0}=0.64\]</span></p>
+<p><span class="math display">\[R_f(\text{benzyl alcohol})=\frac{1.5}{5.0}=0.30\]</span></p></li>
+<li><p><strong>(e)</strong></p>
+<p><span class="math display">\[R_f=\frac{\text{distance travelled by compound}}{\text{distance travelled by solvent}}\]</span></p>
+<p>The spot cannot travel further than the solvent front, so the numerator cannot be larger than the denominator. An <span class="math inline">\(R_f\)</span> of 1 means the component travelled exactly as far as the solvent front. <code>[2]</code></p></li>
+</ul>
+</details>
+</section>
+<section id="example-8-nmr-reference-standards-and-carbon-environments-8.1-sq-medium-q5" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-8-nmr-reference-standards-and-carbon-environments-8.1-sq-medium-q5">Example 8 · NMR reference standards and carbon environments · 8.1 SQ Medium Q5</h3>
+<p>During the production of an NMR spectrum, tetramethylsilane (TMS) is mixed with the sample.</p>
+<p><strong>(a)(i)</strong> Give the structural formula of the standard reference chemical used for <span class="math inline">\(^1\)</span>H NMR spectroscopy. <code>[1 mark]</code></p>
+<p><strong>(a)(ii)</strong> Explain why tetramethylsilane is used as the standard reference chemical. <code>[2 marks]</code></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/medium-q5-ethylbenzene.webp" class="question-figure img-fluid figure-img" alt="Ethylbenzene used for carbon-13 NMR environment counting"></p>
+<figcaption>Ethylbenzene structure and carbon environments</figcaption>
+</figure>
+</div>
+<p><strong>(b)</strong> State the number of peaks in the carbon-13 NMR spectrum of 1,3-dichlorobenzene. <code>[1 mark]</code></p>
+<p><strong>(c)(i)</strong> State the number of peaks in the carbon-13 NMR spectrum of ethylbenzene. <code>[1 mark]</code></p>
+<p><strong>(c)(ii)</strong> State the carbon-13 chemical-shift range for the carbon marked with an asterisk in the question figure. <code>[1 mark]</code></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/medium-q5-mass-spectrum.webp" class="question-figure img-fluid figure-img" alt="Mass spectrum used to identify a dinitrobenzene molecular ion"></p>
+<figcaption>Mass spectrum of compound A</figcaption>
+</figure>
+</div>
+<p><strong>(d)(i)</strong> The mass spectrum of compound A has a peak at <span class="math inline">\(m/e=76\)</span>. Identify the molecular ion responsible for this peak. <code>[1 mark]</code></p>
+<p><strong>(d)(ii)</strong> Draw the three possible isomers of compound A containing a benzene ring. <code>[3 marks]</code></p>
+<p><strong>(d)(iii)</strong> The carbon-13 NMR spectrum of compound A has four peaks. Identify the structure of A. Explain your reasoning by labelling the different carbon environments in all the structures drawn in part (d)(ii). <code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><strong>(a)(i)</strong> <span class="math inline">\(\ce{Si(CH3)4}\)</span>, tetramethylsilane. <code>[1]</code></li>
+<li><strong>(a)(ii)</strong> TMS is inert, volatile, gives one sharp signal and has its signal assigned to <span class="math inline">\(\delta=0\)</span> ppm, well separated from most organic signals. Any two correct reasons earn the marks. <code>[2]</code></li>
+<li><strong>(b)</strong> <strong>Four</strong> peaks. The ring carbons form four different environments because of symmetry. <code>[1]</code></li>
+<li><strong>(c)(i)</strong> <strong>Six</strong> peaks: four aromatic environments and two different ethyl-group carbons. <code>[1]</code></li>
+<li><strong>(c)(ii)</strong> The aromatic carbon is in the range <strong>110–160 ppm</strong>. <code>[1]</code></li>
+<li><strong>(d)(i)</strong> The peak at <span class="math inline">\(m/e=76\)</span> is due to the benzene-ring fragment ion <strong><span class="math inline">\(\ce{C6H4+}\)</span></strong> because <span class="math inline">\(6(12.0)+4(1.0)=76\)</span>. It is a positively charged fragment ion, not the molecular ion of dinitrobenzene. <code>[1]</code></li>
+<li><strong>(d)(ii)</strong> The three positional isomers are <strong>1,2-dinitrobenzene</strong>, <strong>1,3-dinitrobenzene</strong> and <strong>1,4-dinitrobenzene</strong>. <code>[3]</code></li>
+<li><strong>(d)(iii)</strong> Compound A is <strong>1,3-dinitrobenzene</strong>. It gives four carbon-13 environments, whereas 1,2-dinitrobenzene gives three and 1,4-dinitrobenzene gives two. <code>[3]</code></li>
+</ul>
+</details>
+</section>
+<section id="example-9-methyl-cinnamate-and-proton-nmr-8.1-sq-medium-q6" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-9-methyl-cinnamate-and-proton-nmr-8.1-sq-medium-q6">Example 9 · Methyl cinnamate and proton NMR · 8.1 SQ Medium Q6</h3>
+<p>Methyl cinnamate, <span class="math inline">\(\ce{C10H10O2}\)</span>, is a white crystalline solid used in the perfume industry. The proton NMR spectrum of methyl cinnamate in the solvent <span class="math inline">\(\ce{CDCl3}\)</span> is shown in Fig. 6.1.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/medium-q6-proton-nmr-1.webp" class="question-figure img-fluid figure-img" alt="Proton NMR spectrum of methyl cinnamate"></p>
+<figcaption>Methyl cinnamate proton NMR spectrum</figcaption>
+</figure>
+</div>
+<p><strong>(a)(i)</strong> Explain why <span class="math inline">\(\ce{CDCl3}\)</span> is used as a solvent instead of <span class="math inline">\(\ce{CHCl3}\)</span>. <code>[1 mark]</code></p>
+<p><strong>(a)(ii)</strong> Explain why TMS is added to give the small peak at chemical shift <span class="math inline">\(\delta=0\)</span>. <code>[1 mark]</code></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/medium-q6-methyl-cinnamate.webp" class="question-figure img-fluid figure-img" alt="Methyl cinnamate structure"></p>
+<figcaption>Methyl cinnamate structure</figcaption>
+</figure>
+</div>
+<p><strong>(b)</strong> The spectrum has a peak at <span class="math inline">\(\delta=3.8\)</span> ppm. Identify the proton environment, state its splitting pattern and use the integration to explain your answer. <code>[3 marks]</code></p>
+<p><strong>(c)</strong> Draw the two esters with formula <span class="math inline">\(\ce{C6H12O2}\)</span> that each have only two peaks, both singlets, in their <span class="math inline">\(^1\)</span>H NMR spectra. <code>[2 marks]</code></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/medium-q6-proton-nmr-2.webp" class="question-figure img-fluid figure-img" alt="Proton NMR integration and splitting question"></p>
+<figcaption>Proton NMR spectrum with integration values</figcaption>
+</figure>
+</div>
+<p><strong>(d)(i)</strong> State the simplest ratio of protons in each environment. <code>[1 mark]</code></p>
+<p><strong>(d)(ii)</strong> Describe and explain the splitting patterns of the peaks at <span class="math inline">\(\delta=3.5\)</span> and <span class="math inline">\(\delta=1.2\)</span>. <code>[4 marks]</code></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/medium-q6-isomers.webp" class="question-figure img-fluid figure-img" alt="Possible ester isomers for proton NMR analysis"></p>
+<figcaption>Possible ester isomers</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/medium-q6-carbon-nmr.webp" class="question-figure img-fluid figure-img" alt="Carbon-13 NMR spectrum for ester isomers"></p>
+<figcaption>Carbon-13 NMR of ester isomers</figcaption>
+</figure>
+</div>
+<p><strong>(e)</strong> Which isomer produced the spectrum in Fig. 6.5? <code>[1 mark]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><p><strong>(a)(i)</strong> <span class="math inline">\(\ce{CDCl3}\)</span> is deuterated and does not give an interfering proton peak, whereas <span class="math inline">\(\ce{CHCl3}\)</span> would give a signal. <code>[1]</code></p></li>
+<li><p><strong>(a)(ii)</strong> TMS provides the reference signal at <span class="math inline">\(\delta=0\)</span> so that the chemical shifts of the sample can be measured relative to it. <code>[1]</code></p></li>
+<li><p><strong>(b)</strong> The signal at <span class="math inline">\(\delta=3.8\)</span> ppm is the methyl group in <span class="math inline">\(\ce{-OCH3}\)</span>. It is a singlet because there are no adjacent protons on the atom next to the methyl group. Its integration of 3 corresponds to three protons. <code>[3]</code></p></li>
+<li><p><strong>(c)</strong> The two esters are:</p>
+<p><span class="math display">\[\ce{(CH3)3CCOOCH3}\]</span></p>
+<p>and</p>
+<p><span class="math display">\[\ce{CH3COOC(CH3)3}\]</span></p>
+<p>Each has two proton environments with areas 9:3, and both are singlets because there are no neighbouring protons across the ester linkage. <code>[2]</code></p></li>
+<li><p><strong>(d)(i)</strong> The simplest integration ratio is <strong>2:2:2:3:3</strong>. <code>[1]</code></p></li>
+<li><p><strong>(d)(ii)</strong> The <span class="math inline">\(\delta=3.5\)</span> signal is from a <span class="math inline">\(\ce{CH2}\)</span> group next to oxygen, <span class="math inline">\(\ce{-OCH2-}\)</span>. It is a quartet because it has three neighbouring protons on an adjacent <span class="math inline">\(\ce{CH3}\)</span> group. The <span class="math inline">\(\delta=1.2\)</span> signal is from a methyl group next to <span class="math inline">\(\ce{CH2}\)</span> and is a triplet because it has two neighbouring protons. <code>[4]</code></p></li>
+<li><p><strong>(e)</strong> The isomer is <strong>B</strong>, as its number of carbon environments and chemical-shift assignments match the spectrum. <code>[1]</code></p></li>
+</ul>
+</details>
+</section>
+<section id="example-10-ms-ir-and-nmr-comparison-8.1-sq-medium-q7" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-10-ms-ir-and-nmr-comparison-8.1-sq-medium-q7">Example 10 · MS, IR and NMR comparison · 8.1 SQ Medium Q7</h3>
+<p>Ethane-1,2-diol, <span class="math inline">\(\ce{C2H6O2}\)</span>, can be distinguished from ethanedioic acid, <span class="math inline">\(\ce{C2H2O4}\)</span>, by several analytical techniques including MS, IR and NMR.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/medium-q7-mass-spectrum-a.webp" class="question-figure img-fluid figure-img" alt="Mass spectrum A for the ethane-1,2-diol and ethanedioic-acid comparison"></p>
+<figcaption>Mass spectrum A</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/medium-q7-mass-spectrum-b.webp" class="question-figure img-fluid figure-img" alt="Mass spectrum B for the ethane-1,2-diol and ethanedioic-acid comparison"></p>
+<figcaption>Mass spectrum B</figcaption>
+</figure>
+</div>
+<p><strong>(a)</strong> Complete the table to suggest which compound is responsible for each mass spectrum and explain your answer.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Spectrum</th>
+<th>Organic compound</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>B</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><code>[2 marks]</code></p>
+<p>The IR spectra of ethane-1,2-diol and ethanedioic acid dihydrate are shown below. Use the data in the question to complete the table.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/medium-q7-ir-spectrum-c.webp" class="question-figure img-fluid figure-img" alt="IR spectrum C"></p>
+<figcaption>IR spectrum C</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/medium-q7-ir-spectrum-d.webp" class="question-figure img-fluid figure-img" alt="IR spectrum D"></p>
+<figcaption>IR spectrum D</figcaption>
+</figure>
+</div>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Spectrum</th>
+<th>Organic compound</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>D</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><code>[2 marks]</code></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/medium-q7-proton-nmr.webp" class="question-figure img-fluid figure-img" alt="Proton NMR spectrum used in the comparison"></p>
+<figcaption>Proton NMR spectrum for ethane-1,2-diol and ethanedioic acid</figcaption>
+</figure>
+</div>
+<p><strong>(c)</strong> Explain the number of peaks and integration ratio in the proton NMR spectrum of ethane-1,2-diol. <code>[3 marks]</code></p>
+<p><strong>(d)</strong> State the number of peaks and splitting pattern expected for ethanedioic acid. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><strong>(a)</strong> Spectrum A is <strong>ethane-1,2-diol</strong> because its molecular ion is at <span class="math inline">\(m/e=62\)</span>, which is <span class="math inline">\(M_r(\ce{C2H6O2})\)</span>. Spectrum B is <strong>ethanedioic acid</strong> because its molecular ion is at <span class="math inline">\(m/e=90\)</span>, which is <span class="math inline">\(M_r(\ce{C2H2O4})\)</span>. <code>[2]</code></li>
+<li><strong>(b)</strong> Spectrum C is <strong>ethanedioic acid</strong> because it contains a strong <span class="math inline">\(\ce{C=O}\)</span> absorption at about 1700–1750 cm<span class="math inline">\(^{-1}\)</span>. Spectrum D is <strong>ethane-1,2-diol</strong> because it has a broad alcohol <span class="math inline">\(\ce{O-H}\)</span> absorption around 3200–3600 cm<span class="math inline">\(^{-1}\)</span>. <code>[2]</code></li>
+<li><strong>(c)</strong> Ethane-1,2-diol gives two proton environments. The two <span class="math inline">\(\ce{CH2}\)</span> groups are equivalent and account for four protons; the two <span class="math inline">\(\ce{OH}\)</span> protons account for two protons. The integration ratio is therefore <strong>2:1</strong>. <code>[3]</code></li>
+<li><strong>(d)</strong> Ethanedioic acid gives <strong>one</strong> proton signal and it is a <strong>singlet</strong>, because the two acidic protons are equivalent and do not split each other. <code>[2]</code></li>
+</ul>
+</details>
+</section>
+<section id="analytical-techniques-a-level-only---hard" class="level3">
+<h3 class="anchored" data-anchor-id="analytical-techniques-a-level-only---hard">8.1 Analytical Techniques (A Level Only) - Hard</h3>
+</section>
+<section id="example-11-identifying-an-ester-p-8.1-sq-hard-q1" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-11-identifying-an-ester-p-8.1-sq-hard-q1">Example 11 · Identifying an ester P · 8.1 SQ Hard Q1</h3>
+<p>Compound P is a naturally occurring chemical found in strawberries, apples and Parmesan cheese. Its percentage composition by mass is carbon 58.82%, hydrogen 9.80% and oxygen 31.38%. The mass spectrum of compound P is shown.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/hard-q1-mass-spectrum.webp" class="question-figure img-fluid figure-img" alt="Mass spectrum of unknown compound P"></p>
+<figcaption>Mass spectrum of compound P</figcaption>
+</figure>
+</div>
+<p><strong>(a)</strong> Determine the molecular formula of compound P. Show your working. <code>[3 marks]</code></p>
+<p>Qualitative tests give the following results: addition of water forms separate layers; sodium carbonate solution gives no visible change; 2,4-DNPH gives no visible change; Tollens’ reagent gives no visible change.</p>
+<p><strong>(b)</strong> Analyse the potential functional groups in compound P and explain your answers. <code>[4 marks]</code></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/hard-q1-carbon-nmr.webp" class="question-figure img-fluid figure-img" alt="Carbon-13 NMR spectrum of compound P"></p>
+<figcaption>Carbon-13 NMR spectrum of compound P</figcaption>
+</figure>
+</div>
+<p><strong>(c)</strong> Identify the functional group(s) present in compound P using your answer in (b) and the carbon-13 NMR spectrum. Explain your answer. <code>[3 marks]</code></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/hard-q1-proton-nmr.webp" class="question-figure img-fluid figure-img" alt="High-resolution proton NMR spectrum of compound P"></p>
+<figcaption>High-resolution proton NMR spectrum of compound P</figcaption>
+</figure>
+</div>
+<p><strong>(d)</strong> Suggest the structure of compound P using all the information. Explain your answer. <code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><p><strong>(a)</strong></p>
+<p><span class="math display">\[\frac{58.82}{12.0}:\frac{9.80}{1.0}:\frac{31.38}{16.0}=4.90:9.80:1.96\approx5:10:2\]</span></p>
+<p>The empirical and molecular formula is <span class="math inline">\(\ce{C5H10O2}\)</span>, with <span class="math inline">\(M_r=102\)</span>, matching the molecular-ion peak at <span class="math inline">\(m/e=102\)</span>. <code>[3]</code></p></li>
+<li><p><strong>(b)</strong> No reaction with <span class="math inline">\(\ce{Na2CO3}\)</span> means no carboxylic acid. A negative 2,4-DNPH test means no aldehyde or ketone. A negative Tollens’ test means no aldehyde. With two oxygen atoms and no positive test for these groups, an ester is a strong possibility, although an insoluble diol cannot be completely excluded at this stage. <code>[4]</code></p></li>
+<li><p><strong>(c)</strong> The functional group is an <strong>ester</strong>. A signal near <span class="math inline">\(\delta=162\)</span> ppm is consistent with an ester carbonyl, while a signal near <span class="math inline">\(\delta=63\)</span> ppm is consistent with a carbon attached to oxygen. <code>[3]</code></p></li>
+<li><p><strong>(d)</strong> The structure is <strong>ethyl propanoate</strong>, <span class="math inline">\(\ce{CH3CH2COOCH2CH3}\)</span>. The proton spectrum contains two quartets and two triplets; each quartet/triplet pair indicates an ethyl group, and the two ethyl groups are non-identical. <code>[3]</code></p></li>
+</ul>
+</details>
+</section>
+<section id="example-12-isomers-of-cec8h10-8.1-sq-hard-q2" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-12-isomers-of-cec8h10-8.1-sq-hard-q2">Example 12 · Isomers of <span class="math inline">\(\ce{C8H10}\)</span> · 8.1 SQ Hard Q2</h3>
+<p>Three hydrocarbons, L, M and N, have molecular formula <span class="math inline">\(\ce{C8H10}\)</span>. Information about the number of peaks in their carbon-13 NMR spectra is given in Table 2.1.</p>
+<p><strong>(a)</strong> Suggest structures for compounds L, M and N. <code>[3 marks]</code></p>
+<p><strong>(b)</strong> Complete the table to give details of the proton NMR spectra for isomers L, M and N.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Isomer</th>
+<th style="text-align: right;">Number of peaks</th>
+<th>Relative peak area</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>L</td>
+<td style="text-align: right;"></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>M</td>
+<td style="text-align: right;"></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>N</td>
+<td style="text-align: right;"></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><code>[3 marks]</code></p>
+<p><strong>(c)</strong> Explain which of the three isomers, L, M or N, has the highest melting point. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><p><strong>(a)</strong> The compounds are the three dimethylbenzene positional isomers: L = <strong>1,4-dimethylbenzene (para-xylene)</strong>, M = <strong>1,3-dimethylbenzene (meta-xylene)</strong>, N = <strong>1,2-dimethylbenzene (ortho-xylene)</strong>. <code>[3]</code></p></li>
+<li><p><strong>(b)</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Isomer</th>
+<th style="text-align: right;">Number of peaks</th>
+<th>Relative peak area</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>L</td>
+<td style="text-align: right;">2</td>
+<td>3:2</td>
+</tr>
+<tr class="even">
+<td>M</td>
+<td style="text-align: right;">4</td>
+<td>6:1:2:1</td>
+</tr>
+<tr class="odd">
+<td>N</td>
+<td style="text-align: right;">3</td>
+<td>3:1:1</td>
+</tr>
+</tbody>
+</table>
+<p><code>[3]</code></p></li>
+<li><p><strong>(c)</strong> <strong>L</strong>, the para isomer, has the highest melting point. Its greater symmetry allows more regular crystal packing and stronger effective intermolecular attractions in the solid. <code>[2]</code></p></li>
+</ul>
+</details>
+</section>
+<section id="example-13-gc-ms-of-hydrocarbon-isomers-8.1-sq-hard-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-13-gc-ms-of-hydrocarbon-isomers-8.1-sq-hard-q3">Example 13 · GC-MS of hydrocarbon isomers · 8.1 SQ Hard Q3</h3>
+<p>Gas chromatography is often connected to mass spectroscopy to analyse each compound as it exits the column. The combined technique is GC-MS. The gas chromatogram of an organic mixture is shown; the stationary phase is a polar, high-boiling-point liquid on a solid support.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/hard-q3-gc-chromatogram.webp" class="question-figure img-fluid figure-img" alt="GC chromatogram in Hard Question 3"></p>
+<figcaption>GC chromatogram of the organic mixture</figcaption>
+</figure>
+</div>
+<p><strong>(a)(i)</strong> Name an appropriate mobile phase. <code>[1 mark]</code></p>
+<p><strong>(a)(ii)</strong> Identify the number of compounds present and explain how to identify the most polar compound. <code>[2 marks]</code></p>
+<p>Two compounds in the mixture are hydrocarbons with similar retention times. Their mass spectra show the same molecular formula but structural isomerism. Both give no colour change with bromine water.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/hard-q3-mass-spectrum.webp" class="question-figure img-fluid figure-img" alt="Mass spectrum used to identify the hydrocarbon"></p>
+<figcaption>Mass spectrum of a hydrocarbon</figcaption>
+</figure>
+</div>
+<p><strong>(b)(i)</strong> Identify the molar mass and molecular formula of the isomers. <code>[2 marks]</code></p>
+<p><strong>(b)(ii)</strong> Identify the fragments at <span class="math inline">\(m/z=29\)</span>, 43 and 57. <code>[3 marks]</code></p>
+<p><strong>(b)(iii)</strong> Suggest the most likely structure of the isomer responsible for the spectrum. <code>[1 mark]</code></p>
+<p><strong>(c)(i)</strong> Explain the small additional peak at <span class="math inline">\(m/e=87\)</span>. <code>[1 mark]</code></p>
+<p><strong>(c)(ii)</strong> State the type of molecules for which the additional peak becomes more pronounced and explain why. <code>[2 marks]</code></p>
+<p>One other isomer is 2,3-dimethylbutane.</p>
+<p><strong>(d)(i)</strong> Suggest one way in which its mass spectrum differs from the spectrum in part (b). <code>[1 mark]</code></p>
+<p><strong>(d)(ii)</strong> Suggest an alternative spectroscopic technique for distinguishing the two isomers. <code>[1 mark]</code></p>
+<p><strong>(d)(iii)</strong> Predict which isomer has the longest retention time and explain your answer. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><strong>(a)(i)</strong> Helium, nitrogen or argon. <code>[1]</code></li>
+<li><strong>(a)(ii)</strong> There are <strong>four</strong> compounds, shown by four peaks. The most polar component has the longest retention time; in this chromatogram it is the component at about 11.1 minutes. <code>[2]</code></li>
+<li><strong>(b)(i)</strong> <span class="math inline">\(M_r=86\)</span> g mol<span class="math inline">\(^{-1}\)</span> and the molecular formula is <span class="math inline">\(\ce{C6H14}\)</span>. The orange bromine water confirms that the hydrocarbon is saturated. <code>[2]</code></li>
+<li><strong>(b)(ii)</strong> <span class="math inline">\(m/z=29=\ce{C2H5+}\)</span>, <span class="math inline">\(m/z=43=\ce{C3H7+}\)</span> and <span class="math inline">\(m/z=57=\ce{C4H9+}\)</span>. <code>[3]</code></li>
+<li><strong>(b)(iii)</strong> The most likely structure is <strong>hexane</strong>, <span class="math inline">\(\ce{CH3CH2CH2CH2CH2CH3}\)</span>, because the <span class="math inline">\(\ce{C4H9+}\)</span> fragment supports a straight chain. <code>[1]</code></li>
+<li><strong>(c)(i)</strong> The peak at 87 is due to an <span class="math inline">\(M+1\)</span> ion containing one <span class="math inline">\(^{13}\ce{C}\)</span> atom. <code>[1]</code></li>
+<li><strong>(c)(ii)</strong> It is more pronounced for molecules with more carbon atoms because the probability of one carbon being <span class="math inline">\(^{13}\ce{C}\)</span> increases with the number of carbon atoms. <code>[2]</code></li>
+<li><strong>(d)(i)</strong> 2,3-dimethylbutane has no or only a very small <span class="math inline">\(m/e=57\)</span> peak; it may show a peak at <span class="math inline">\(m/e=27\)</span> instead. <code>[1]</code></li>
+<li><strong>(d)(ii)</strong> Carbon-13 NMR or proton NMR. <code>[1]</code></li>
+<li><strong>(d)(iii)</strong> 2,3-dimethylbutane has the longer retention time in the supplied model answer because its branching can cause stronger interaction or snagging with the stationary phase. <code>[2]</code></li>
+</ul>
+</details>
+</section>
+<section id="example-14-dinitrobenzene-positional-isomers-and-tlc-8.1-sq-hard-q4" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-14-dinitrobenzene-positional-isomers-and-tlc-8.1-sq-hard-q4">Example 14 · Dinitrobenzene positional isomers and TLC · 8.1 SQ Hard Q4</h3>
+<p>Dinitrobenzene has molecular formula <span class="math inline">\(\ce{C6H4N2O4}\)</span>.</p>
+<p><strong>(a)</strong> Draw the isomers of dinitrobenzene and name the type of isomerism. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> State the factors that determine the distance travelled by a spot in thin-layer chromatography. <code>[1 mark]</code></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/analytical-techniques/hard-q4-tlc-plate.webp" class="question-figure img-fluid figure-img" alt="TLC plate used to compare dinitrobenzene isomers"></p>
+<figcaption>TLC plate containing 1,4-dinitrobenzene</figcaption>
+</figure>
+</div>
+<p><strong>(c)</strong> Fig. 4.1 shows the chromatogram with the spot for 1,4-dinitrobenzene. Draw the expected position of the spot for 1,2-dinitrobenzene. Explain your answer. <code>[3 marks]</code></p>
+<p><strong>(d)</strong> Explain what the student could do to reverse the relative positions of the 1,2-dinitrobenzene and 1,4-dinitrobenzene spots. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li><strong>(a)</strong> Draw 1,2-, 1,3- and 1,4-dinitrobenzene. They are <strong>positional isomers</strong>. <code>[2]</code></li>
+<li><strong>(b)</strong> The distance depends on the compound’s solubility/affinity for the mobile phase and its retention/interaction with the stationary phase. <code>[1]</code></li>
+<li><strong>(c)</strong> Place the 1,2-dinitrobenzene spot below the existing 1,4-dinitrobenzene spot. Silica is polar and hexane is non-polar; 1,2-dinitrobenzene is more polar because the nitro groups are adjacent, so it interacts more strongly with silica and travels less far. <code>[3]</code></li>
+<li><strong>(d)</strong> Replace hexane with a more polar solvent. The more polar 1,2-dinitrobenzene will then have greater affinity for the mobile phase and travel further, reversing the relative positions. <code>[2]</code></li>
+</ul>
+</details>
+</section>
+<section id="original-question-pdfs" class="level3">
+<h3 class="anchored" data-anchor-id="original-question-pdfs">Original question PDFs</h3>
+<ul>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/analytical-techniques/37.1-analytical-techniques-easy.pdf">8.1 Analytical Techniques (A Level Only) – Easy</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/analytical-techniques/37.1-analytical-techniques-medium.pdf">8.1 Analytical Techniques (A Level Only) – Medium</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/analytical-techniques/37.1-analytical-techniques-hard.pdf">8.1 Analytical Techniques (A Level Only) – Hard</a></li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".done-toggle input").forEach((input) => {
+    const key = `cie-chem-${input.dataset.progress}`;
+    input.checked = localStorage.getItem(key) === "true";
+    input.closest(".question-card")?.classList.toggle("is-complete", input.checked);
+    input.addEventListener("change", () => {
+      localStorage.setItem(key, input.checked);
+      input.closest(".question-card")?.classList.toggle("is-complete", input.checked);
+    });
+  });
+
+  document.querySelectorAll(".mc-question").forEach((card) => {
+    const answer = card.dataset.answer;
+    const feedback = card.querySelector(".mc-feedback");
+    const check = card.querySelector(".check-answer");
+    let selected = localStorage.getItem(`cie-chem-${card.id}-choice`) || "";
+
+    const showSelection = () => {
+      card.querySelectorAll(".mc-choice").forEach((choice) => {
+        choice.classList.toggle("is-selected", choice.dataset.choice === selected);
+      });
+    };
+    showSelection();
+
+    card.querySelectorAll(".mc-choice").forEach((choice) => {
+      choice.addEventListener("click", () => {
+        selected = choice.dataset.choice;
+        localStorage.setItem(`cie-chem-${card.id}-choice`, selected);
+        feedback.textContent = "";
+        feedback.className = "mc-feedback";
+        showSelection();
+      });
+    });
+
+    check?.addEventListener("click", () => {
+      if (!selected) {
+        feedback.textContent = "Select an answer first.";
+        feedback.className = "mc-feedback is-pending";
+        return;
+      }
+      const correct = selected === answer;
+      feedback.textContent = correct ? "Correct." : `Not quite. The correct answer is ${answer}.`;
+      feedback.className = `mc-feedback ${correct ? "is-correct" : "is-incorrect"}`;
+    });
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已复制");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已复制");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../a-level/36-organic-synthesis.html" class="pagination-link" aria-label="36 Organic synthesis">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">36 Organic synthesis</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
