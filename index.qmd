@@ -77,3 +77,10 @@ subtitle: "2025–2027 syllabus · 9701"
 - 30.1 Arenes：benzene 的结构与芳香稳定性、electrophilic substitution、nitration、halogenation、Friedel–Crafts alkylation/acylation、methylbenzene 的 side-chain reactions、oxidation、hydrogenation、aryl halides 与合成路线
 - 6 道完整 Structured Questions（7.2 Easy/Hard；当前题包没有 Medium），保留完整英文题目、所有分问、PDF 独立提取并合成白底的局部题图与完整解答步骤
 :::
+
+::: {.topic-card}
+### [31 Halogen compounds](a-level/31-halogen-compounds.qmd)
+
+- 31.1 Halogen compounds：benzene 与 methylbenzene 的 halogenation、electrophilic substitution、2,4-directing effects、side-chain free-radical substitution、halogenoalkanes 与 halogenoarenes 的 nucleophilic substitution reactivity、C–X bond 的 partial double-bond character 与 aromatic synthesis
+- 9 道完整 Structured Questions（7.3 Easy/Medium/Hard），保留完整英文题目、所有分问、从 PDF 独立提取并合成白底的局部题图与完整解答步骤
+:::

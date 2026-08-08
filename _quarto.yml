@@ -11,6 +11,7 @@ project:
     - a-level/28-transition-elements.qmd
     - a-level/29-organic-chemistry.qmd
     - a-level/30-hydrocarbons.qmd
+    - a-level/31-halogen-compounds.qmd
 
 website:
   title: "CIE Chemistry 9701"
@@ -39,6 +40,8 @@ website:
             text: "29 An introduction to A Level organic chemistry"
           - href: a-level/30-hydrocarbons.qmd
             text: "30 Hydrocarbons"
+          - href: a-level/31-halogen-compounds.qmd
+            text: "31 Halogen compounds"
 
 format:
   html:
