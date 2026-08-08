@@ -1,7 +1,0 @@
-.DS_Store
-**/.DS_Store
-.quarto/
-_site/
-tmp/
-/.quarto/
-**/*.quarto_ipynb
