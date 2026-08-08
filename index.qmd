@@ -92,3 +92,12 @@ subtitle: "2025–2027 syllabus · 9701"
 - 32.2 Phenol：weak acidity、phenoxide、bromination、nitration、diazonium coupling、1-naphthol 与 mesalamine synthesis
 - 11 道完整 Structured Questions（7.4 Easy/Medium/Hard），保留完整英文题目、所有分问、局部题目图与完整 model answers
 :::
+
+::: {.topic-card}
+### [33 Carboxylic acids and derivatives](a-level/33-carboxylic-acids-and-derivatives.qmd)
+
+- 33.1 Carboxylic acids：oxidation、weak acidity、carboxylate-ion delocalisation、substituent effects 与 acyl-chloride preparation
+- 33.2 Esters：esterification、condensation、hydrolysis、naming 与 reversible equilibrium
+- 33.3 Acyl chlorides：nucleophilic addition–elimination、hydrolysis、ester/amides/phenyl esters、relative reactivity 与 synthesis routes
+- 8 道完整 Structured Questions（7.5 Easy/Medium；当前题包没有独立 Hard），保留完整英文题目、所有分问、PDF 独立提取的局部题图与完整解答步骤
+:::

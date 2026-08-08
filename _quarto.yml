@@ -13,6 +13,7 @@ project:
     - a-level/30-hydrocarbons.qmd
     - a-level/31-halogen-compounds.qmd
     - a-level/32-hydroxy-compounds.qmd
+    - a-level/33-carboxylic-acids-and-derivatives.qmd
 
 website:
   title: "CIE Chemistry 9701"
@@ -45,6 +46,8 @@ website:
             text: "31 Halogen compounds"
           - href: a-level/32-hydroxy-compounds.qmd
             text: "32 Hydroxy compounds"
+          - href: a-level/33-carboxylic-acids-and-derivatives.qmd
+            text: "33 Carboxylic acids and derivatives"
 
 format:
   html:
