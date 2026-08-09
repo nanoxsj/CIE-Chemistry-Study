@@ -1,0 +1,2222 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hans" xml:lang="zh-Hans"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>1 Atomic structure – CIE Chemistry 9701</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a2a938b4dd5711f7a799c87bd16ba44c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "没有结果",
+    "search-matching-documents-text": "匹配的文档",
+    "search-copy-link-title": "复制搜索链接",
+    "search-hide-matches-text": "隐藏其它匹配结果",
+    "search-more-match-text": "更多匹配结果",
+    "search-more-matches-text": "更多匹配结果",
+    "search-clear-button-title": "清除",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "提交",
+    "search-label": "搜索"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../a-level/1-atomic-structure.html">1 Atomic structure</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="搜索" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">CIE Chemistry 9701</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="搜索"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">学习首页</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-as" role="navigation" aria-expanded="true">
+ <span class="menu-text">AS Level</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-as" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a>
+      </div>
+      <ul id="quarto-sidebar-section-as" class="collapse list-unstyled sidebar-section depth1 show">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/1-atomic-structure.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">1 Atomic structure</span></a>
+  </div>
+</li>
+      </ul>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">该页面内容</h2>
+   
+  <ul>
+  <li><a href="#atomic-structure" id="toc-atomic-structure" class="nav-link active" data-scroll-target="#atomic-structure">1 Atomic structure</a>
+  <ul class="collapse">
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
+  <li><a href="#particles-in-the-atom-and-atomic-radius" id="toc-particles-in-the-atom-and-atomic-radius" class="nav-link" data-scroll-target="#particles-in-the-atom-and-atomic-radius">1.1 Particles in the atom and atomic radius</a>
+  <ul class="collapse">
+  <li><a href="#subatomic-particles" id="toc-subatomic-particles" class="nav-link" data-scroll-target="#subatomic-particles">Subatomic particles</a></li>
+  <li><a href="#atomic-number-nucleon-number-and-atomic-radius" id="toc-atomic-number-nucleon-number-and-atomic-radius" class="nav-link" data-scroll-target="#atomic-number-nucleon-number-and-atomic-radius">Atomic number, nucleon number and atomic radius</a></li>
+  </ul></li>
+  <li><a href="#isotopes" id="toc-isotopes" class="nav-link" data-scroll-target="#isotopes">1.2 Isotopes</a>
+  <ul class="collapse">
+  <li><a href="#definition-and-properties-of-isotopes" id="toc-definition-and-properties-of-isotopes" class="nav-link" data-scroll-target="#definition-and-properties-of-isotopes">Definition and properties of isotopes</a></li>
+  <li><a href="#ions-isotopes-and-free-radicals" id="toc-ions-isotopes-and-free-radicals" class="nav-link" data-scroll-target="#ions-isotopes-and-free-radicals">Ions, isotopes and free radicals</a></li>
+  </ul></li>
+  <li><a href="#electrons-energy-levels-and-atomic-orbitals" id="toc-electrons-energy-levels-and-atomic-orbitals" class="nav-link" data-scroll-target="#electrons-energy-levels-and-atomic-orbitals">1.3 Electrons, energy levels and atomic orbitals</a>
+  <ul class="collapse">
+  <li><a href="#shells-subshells-and-orbitals" id="toc-shells-subshells-and-orbitals" class="nav-link" data-scroll-target="#shells-subshells-and-orbitals">Shells, subshells and orbitals</a></li>
+  <li><a href="#filling-orbitals-and-writing-configurations" id="toc-filling-orbitals-and-writing-configurations" class="nav-link" data-scroll-target="#filling-orbitals-and-writing-configurations">Filling orbitals and writing configurations</a></li>
+  <li><a href="#transition-metal-configurations-and-ions" id="toc-transition-metal-configurations-and-ions" class="nav-link" data-scroll-target="#transition-metal-configurations-and-ions">Transition-metal configurations and ions</a></li>
+  </ul></li>
+  <li><a href="#ionisation-energy" id="toc-ionisation-energy" class="nav-link" data-scroll-target="#ionisation-energy">1.4 Ionisation energy</a>
+  <ul class="collapse">
+  <li><a href="#first-ionisation-energy" id="toc-first-ionisation-energy" class="nav-link" data-scroll-target="#first-ionisation-energy">First ionisation energy</a></li>
+  <li><a href="#trend-across-a-period-and-down-a-group" id="toc-trend-across-a-period-and-down-a-group" class="nav-link" data-scroll-target="#trend-across-a-period-and-down-a-group">Trend across a period and down a group</a></li>
+  <li><a href="#successive-ionisation-energies-and-anomalies" id="toc-successive-ionisation-energies-and-anomalies" class="nav-link" data-scroll-target="#successive-ionisation-energies-and-anomalies">Successive ionisation energies and anomalies</a></li>
+  </ul></li>
+  <li><a href="#chapter-checklist" id="toc-chapter-checklist" class="nav-link" data-scroll-target="#chapter-checklist">Chapter checklist</a></li>
+  <li><a href="#multiple-choice-questions" id="toc-multiple-choice-questions" class="nav-link" data-scroll-target="#multiple-choice-questions">Multiple choice questions</a>
+  <ul class="collapse">
+  <li><a href="#atomic-structure---multiple-choice-easy" id="toc-atomic-structure---multiple-choice-easy" class="nav-link" data-scroll-target="#atomic-structure---multiple-choice-easy">1.1 Atomic Structure - Multiple Choice: Easy</a></li>
+  <li><a href="#question-1-atomic-theory" id="toc-question-1-atomic-theory" class="nav-link" data-scroll-target="#question-1-atomic-theory">Question 1 · Atomic theory</a></li>
+  <li><a href="#question-2-the-h₃-ion" id="toc-question-2-the-h₃-ion" class="nav-link" data-scroll-target="#question-2-the-h₃-ion">Question 2 · The H₃⁺ ion</a></li>
+  <li><a href="#question-3-atomic-proton-and-mass-numbers" id="toc-question-3-atomic-proton-and-mass-numbers" class="nav-link" data-scroll-target="#question-3-atomic-proton-and-mass-numbers">Question 3 · Atomic, proton and mass numbers</a></li>
+  <li><a href="#question-4-subatomic-particles-in-32_15cep3-" id="toc-question-4-subatomic-particles-in-32_15cep3-" class="nav-link" data-scroll-target="#question-4-subatomic-particles-in-32_15cep3-">Question 4 · Subatomic particles in <span class="math inline">\(^{32}_{15}\ce{P^{3-}}\)</span></a></li>
+  <li><a href="#question-5-relative-charge-and-mass" id="toc-question-5-relative-charge-and-mass" class="nav-link" data-scroll-target="#question-5-relative-charge-and-mass">Question 5 · Relative charge and mass</a></li>
+  <li><a href="#question-6-particles-in-an-electric-field" id="toc-question-6-particles-in-an-electric-field" class="nav-link" data-scroll-target="#question-6-particles-in-an-electric-field">Question 6 · Particles in an electric field</a></li>
+  <li><a href="#atomic-structure---multiple-choice-medium" id="toc-atomic-structure---multiple-choice-medium" class="nav-link" data-scroll-target="#atomic-structure---multiple-choice-medium">1.1 Atomic Structure - Multiple Choice: Medium</a></li>
+  <li><a href="#question-1-particle-counts" id="toc-question-1-particle-counts" class="nav-link" data-scroll-target="#question-1-particle-counts">Question 1 · Particle counts</a></li>
+  <li><a href="#question-2-why-atoms-are-neutral" id="toc-question-2-why-atoms-are-neutral" class="nav-link" data-scroll-target="#question-2-why-atoms-are-neutral">Question 2 · Why atoms are neutral</a></li>
+  <li><a href="#question-3-metallic-radius-down-group-1" id="toc-question-3-metallic-radius-down-group-1" class="nav-link" data-scroll-target="#question-3-metallic-radius-down-group-1">Question 3 · Metallic radius down Group 1</a></li>
+  <li><a href="#question-4-distribution-of-mass-and-charge" id="toc-question-4-distribution-of-mass-and-charge" class="nav-link" data-scroll-target="#question-4-distribution-of-mass-and-charge">Question 4 · Distribution of mass and charge</a></li>
+  <li><a href="#question-5-unpaired-electrons" id="toc-question-5-unpaired-electrons" class="nav-link" data-scroll-target="#question-5-unpaired-electrons">Question 5 · Unpaired electrons</a></li>
+  <li><a href="#question-6-second-ionisation-energy-of-magnesium" id="toc-question-6-second-ionisation-energy-of-magnesium" class="nav-link" data-scroll-target="#question-6-second-ionisation-energy-of-magnesium">Question 6 · Second ionisation energy of magnesium</a></li>
+  <li><a href="#question-7-orbital-shapes-and-orientations" id="toc-question-7-orbital-shapes-and-orientations" class="nav-link" data-scroll-target="#question-7-orbital-shapes-and-orientations">Question 7 · Orbital shapes and orientations</a></li>
+  <li><a href="#atomic-structure---multiple-choice-hard" id="toc-atomic-structure---multiple-choice-hard" class="nav-link" data-scroll-target="#atomic-structure---multiple-choice-hard">1.1 Atomic Structure - Multiple Choice: Hard</a></li>
+  <li><a href="#question-1-isoelectronic-radii" id="toc-question-1-isoelectronic-radii" class="nav-link" data-scroll-target="#question-1-isoelectronic-radii">Question 1 · Isoelectronic radii</a></li>
+  <li><a href="#question-2-deflection-in-an-electric-field" id="toc-question-2-deflection-in-an-electric-field" class="nav-link" data-scroll-target="#question-2-deflection-in-an-electric-field">Question 2 · Deflection in an electric field</a></li>
+  <li><a href="#question-3-atomic-radius-across-period-3" id="toc-question-3-atomic-radius-across-period-3" class="nav-link" data-scroll-target="#question-3-atomic-radius-across-period-3">Question 3 · Atomic radius across Period 3</a></li>
+  <li><a href="#question-4-successive-ionisation-energies" id="toc-question-4-successive-ionisation-energies" class="nav-link" data-scroll-target="#question-4-successive-ionisation-energies">Question 4 · Successive ionisation energies</a></li>
+  <li><a href="#question-5-oxygen-ionisation-energies" id="toc-question-5-oxygen-ionisation-energies" class="nav-link" data-scroll-target="#question-5-oxygen-ionisation-energies">Question 5 · Oxygen ionisation energies</a></li>
+  <li><a href="#question-6-isotopes-and-chemical-behaviour" id="toc-question-6-isotopes-and-chemical-behaviour" class="nav-link" data-scroll-target="#question-6-isotopes-and-chemical-behaviour">Question 6 · Isotopes and chemical behaviour</a></li>
+  <li><a href="#question-7-half-filled-p-orbitals" id="toc-question-7-half-filled-p-orbitals" class="nav-link" data-scroll-target="#question-7-half-filled-p-orbitals">Question 7 · Half-filled p orbitals</a></li>
+  </ul></li>
+  <li><a href="#structured-questions" id="toc-structured-questions" class="nav-link" data-scroll-target="#structured-questions">Structured questions</a>
+  <ul class="collapse">
+  <li><a href="#atomic-structure---structured-questions-easy" id="toc-atomic-structure---structured-questions-easy" class="nav-link" data-scroll-target="#atomic-structure---structured-questions-easy">1.1 Atomic Structure - Structured Questions: Easy</a></li>
+  <li><a href="#example-1-subatomic-particles-and-isotopes-1.1-sq-easy-q1" id="toc-example-1-subatomic-particles-and-isotopes-1.1-sq-easy-q1" class="nav-link" data-scroll-target="#example-1-subatomic-particles-and-isotopes-1.1-sq-easy-q1">Example 1 · Subatomic particles and isotopes · 1.1 SQ Easy Q1</a></li>
+  <li><a href="#example-2-aluminium-and-orbitals-1.1-sq-easy-q3" id="toc-example-2-aluminium-and-orbitals-1.1-sq-easy-q3" class="nav-link" data-scroll-target="#example-2-aluminium-and-orbitals-1.1-sq-easy-q3">Example 2 · Aluminium and orbitals · 1.1 SQ Easy Q3</a></li>
+  <li><a href="#example-3-electric-fields-and-particle-counts-1.1-sq-easy-q5" id="toc-example-3-electric-fields-and-particle-counts-1.1-sq-easy-q5" class="nav-link" data-scroll-target="#example-3-electric-fields-and-particle-counts-1.1-sq-easy-q5">Example 3 · Electric fields and particle counts · 1.1 SQ Easy Q5</a></li>
+  <li><a href="#atomic-structure---structured-questions-medium" id="toc-atomic-structure---structured-questions-medium" class="nav-link" data-scroll-target="#atomic-structure---structured-questions-medium">1.1 Atomic Structure - Structured Questions: Medium</a></li>
+  <li><a href="#example-4-atomic-and-nucleon-numbers-1.1-sq-medium-q1" id="toc-example-4-atomic-and-nucleon-numbers-1.1-sq-medium-q1" class="nav-link" data-scroll-target="#example-4-atomic-and-nucleon-numbers-1.1-sq-medium-q1">Example 4 · Atomic and nucleon numbers · 1.1 SQ Medium Q1</a></li>
+  <li><a href="#example-5-gold-atoms-isotopes-and-orbitals-1.1-sq-medium-q2" id="toc-example-5-gold-atoms-isotopes-and-orbitals-1.1-sq-medium-q2" class="nav-link" data-scroll-target="#example-5-gold-atoms-isotopes-and-orbitals-1.1-sq-medium-q2">Example 5 · Gold atoms, isotopes and orbitals · 1.1 SQ Medium Q2</a></li>
+  <li><a href="#example-6-first-ionisation-energy-and-period-3-1.1-sq-medium-q3" id="toc-example-6-first-ionisation-energy-and-period-3-1.1-sq-medium-q3" class="nav-link" data-scroll-target="#example-6-first-ionisation-energy-and-period-3-1.1-sq-medium-q3">Example 6 · First ionisation energy and Period 3 · 1.1 SQ Medium Q3</a></li>
+  <li><a href="#atomic-structure---structured-questions-hard" id="toc-atomic-structure---structured-questions-hard" class="nav-link" data-scroll-target="#atomic-structure---structured-questions-hard">1.1 Atomic Structure - Structured Questions: Hard</a></li>
+  <li><a href="#example-7-periodic-trends-and-successive-ionisation-1.1-sq-hard-q1" id="toc-example-7-periodic-trends-and-successive-ionisation-1.1-sq-hard-q1" class="nav-link" data-scroll-target="#example-7-periodic-trends-and-successive-ionisation-1.1-sq-hard-q1">Example 7 · Periodic trends and successive ionisation · 1.1 SQ Hard Q1</a></li>
+  <li><a href="#example-8-oxygen-shells-and-electron-configurations-1.1-sq-hard-q2" id="toc-example-8-oxygen-shells-and-electron-configurations-1.1-sq-hard-q2" class="nav-link" data-scroll-target="#example-8-oxygen-shells-and-electron-configurations-1.1-sq-hard-q2">Example 8 · Oxygen shells and electron configurations · 1.1 SQ Hard Q2</a></li>
+  <li><a href="#example-9-period-2-radii-and-group-2-1.1-sq-hard-q4" id="toc-example-9-period-2-radii-and-group-2-1.1-sq-hard-q4" class="nav-link" data-scroll-target="#example-9-period-2-radii-and-group-2-1.1-sq-hard-q4">Example 9 · Period 2 radii and Group 2 · 1.1 SQ Hard Q4</a></li>
+  <li><a href="#example-10-oxygen-and-carbon-orbitals-1.1-sq-hard-q5" id="toc-example-10-oxygen-and-carbon-orbitals-1.1-sq-hard-q5" class="nav-link" data-scroll-target="#example-10-oxygen-and-carbon-orbitals-1.1-sq-hard-q5">Example 10 · Oxygen and carbon orbitals · 1.1 SQ Hard Q5</a></li>
+  <li><a href="#original-question-pdfs" id="toc-original-question-pdfs" class="nav-link" data-scroll-target="#original-question-pdfs">Original question PDFs</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">1 Atomic structure</h1>
+<p class="subtitle lead">Particles, isotopes, electronic structure and ionisation energy</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="atomic-structure" class="level1">
+<h1>1 Atomic structure</h1>
+<p>本章对应 CIE 9701 2025–2027 syllabus 的 <strong>1.1–1.4 Atomic structure</strong>。内容覆盖 subatomic particles、isotopes、electron shells and orbitals，以及 first and successive ionisation energies。</p>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
+<p>学完本章后，你应该能够：</p>
+<ul>
+<li>describe the relative charge, relative mass and location of protons, neutrons and electrons;</li>
+<li>use atomic number, nucleon number and ionic charge to calculate numbers of protons, neutrons and electrons;</li>
+<li>define isotopes and explain why isotopes have similar chemical properties but slightly different physical properties;</li>
+<li>write full electronic configurations and use orbital box notation;</li>
+<li>describe the shapes and orientations of s and p orbitals;</li>
+<li>define first ionisation energy and write ionisation-energy equations with state symbols;</li>
+<li>explain periodic trends and anomalies in first and successive ionisation energies.</li>
+</ul>
+</section>
+<section id="particles-in-the-atom-and-atomic-radius" class="level2">
+<h2 class="anchored" data-anchor-id="particles-in-the-atom-and-atomic-radius">1.1 Particles in the atom and atomic radius</h2>
+<section id="subatomic-particles" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="subatomic-particles">Subatomic particles</h3>
+<p>An atom contains a small, dense nucleus surrounded by electrons. The nucleus contains positively charged protons and neutral neutrons; electrons are negatively charged and occupy regions of space described as shells and orbitals.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Subatomic particle</th>
+<th style="text-align: right;">Relative charge</th>
+<th style="text-align: right;">Relative mass</th>
+<th>Location</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>proton</td>
+<td style="text-align: right;"><span class="math inline">\(+1\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(1\)</span></td>
+<td>nucleus</td>
+</tr>
+<tr class="even">
+<td>neutron</td>
+<td style="text-align: right;"><span class="math inline">\(0\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(1\)</span></td>
+<td>nucleus</td>
+</tr>
+<tr class="odd">
+<td>electron</td>
+<td style="text-align: right;"><span class="math inline">\(-1\)</span></td>
+<td style="text-align: right;"><span class="math inline">\(\frac{1}{1836}\)</span></td>
+<td>outside the nucleus</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/atomic-structure/1-1-particles-in-the-atom.webp" class="concept-figure img-fluid figure-img" alt="Proton, neutron and electron relative charge and mass"></p>
+<figcaption>Relative charge and mass of the three subatomic particles</figcaption>
+</figure>
+</div>
+<p>The nucleus is very small compared with the atom, but it contains almost all of the atom’s mass. Most of the volume of an atom is empty space occupied by the electron cloud.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/atomic-structure/1-1-nucleus-and-empty-space.webp" class="concept-figure img-fluid figure-img" alt="Nucleus and empty space in an atom"></p>
+<figcaption>The small dense nucleus and the mainly empty space in an atom</figcaption>
+</figure>
+</div>
+</section>
+<section id="atomic-number-nucleon-number-and-atomic-radius" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="atomic-number-nucleon-number-and-atomic-radius">Atomic number, nucleon number and atomic radius</h3>
+<p>The <strong>atomic number</strong>, <span class="math inline">\(Z\)</span>, is the number of protons in the nucleus. It identifies the element. The <strong>nucleon number</strong>, <span class="math inline">\(A\)</span>, is the total number of protons and neutrons:</p>
+<p><span class="math display">\[A = Z + \text{number of neutrons}\]</span></p>
+<p>For a neutral atom, the number of electrons equals the number of protons. For an ion, adjust the number of electrons for the charge:</p>
+<ul>
+<li>a <span class="math inline">\(+1\)</span> ion has one fewer electron than the neutral atom;</li>
+<li>a <span class="math inline">\(2-\)</span> ion has two more electrons than the neutral atom.</li>
+</ul>
+<p>Atomic radius generally decreases across a period because nuclear charge increases while electrons are added to the same shell. The stronger attraction pulls the outer electrons closer to the nucleus. Atomic radius increases down a group because an additional occupied shell is added.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/atomic-structure/1-1-atomic-radius-trend.webp" class="concept-figure img-fluid figure-img" alt="Atomic radius decreases across a period"></p>
+<figcaption>Atomic radius trend across a period</figcaption>
+</figure>
+</div>
+</section>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · Note knowledge check</span></p>
+<section id="counting-subatomic-particles" class="level3">
+<h3 class="anchored" data-anchor-id="counting-subatomic-particles">Counting subatomic particles</h3>
+<p><strong>Calculate the numbers of protons, neutrons and electrons in <span class="math inline">\(^{32}_{15}\mathrm{P}^{3-}\)</span>, and state the electronic configuration of the ion.</strong></p>
+<div class="we-answer">
+<p>The atomic number is 15, so there are <strong>15 protons</strong>.</p>
+<p><span class="math display">\[\text{neutrons}=32-15=17\]</span></p>
+<p>The <span class="math inline">\(3-\)</span> charge means that three electrons have been gained:</p>
+<p><span class="math display">\[\text{electrons}=15+3=18\]</span></p>
+<p>The ion has the same number of electrons as argon:</p>
+<p><span class="math display">\[\boxed{1s^2\,2s^2\,2p^6\,3s^2\,3p^6}\]</span></p>
+</div>
+</section>
+</div>
+</section>
+<section id="isotopes" class="level2">
+<h2 class="anchored" data-anchor-id="isotopes">1.2 Isotopes</h2>
+<section id="definition-and-properties-of-isotopes" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="definition-and-properties-of-isotopes">Definition and properties of isotopes</h3>
+<p><strong>Isotopes are atoms of the same element with the same number of protons but different numbers of neutrons.</strong> They therefore have the same atomic number but different nucleon numbers.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/atomic-structure/1-2-isotope-definition.webp" class="concept-figure img-fluid figure-img" alt="Isotopes have the same proton number and different neutron numbers"></p>
+<figcaption>Definition of isotopes</figcaption>
+</figure>
+</div>
+<p>Because isotopes of an element have the same number of electrons and the same electron configuration, they have the same chemical properties. Their different numbers of neutrons give different masses, so they can have slightly different physical properties such as density, melting point and boiling point.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/atomic-structure/1-2-isotopes.webp" class="concept-figure img-fluid figure-img" alt="Examples of isotopes of hydrogen and carbon"></p>
+<figcaption>Examples of isotopes</figcaption>
+</figure>
+</div>
+</section>
+<section id="ions-isotopes-and-free-radicals" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="ions-isotopes-and-free-radicals">Ions, isotopes and free radicals</h3>
+<p>An ion has a net charge because the number of electrons is different from the number of protons. This is different from an isotope, where the difference is in the number of neutrons.</p>
+<p>A <strong>free radical</strong> is an atom or group of atoms with one or more unpaired electrons. Free radicals are highly reactive. For example, homolytic fission of chlorine under ultraviolet light produces chlorine radicals:</p>
+<p><span class="math display">\[\ce{Cl2 -&gt;[UV] 2Cl^.}\]</span></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/atomic-structure/1-1-ions-and-isotopes.webp" class="concept-figure img-fluid figure-img" alt="Comparison of ions and isotopes"></p>
+<figcaption>Ions, isotopes and free radicals</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/atomic-structure/1-1-free-radicals.webp" class="concept-figure img-fluid figure-img" alt="Free radical and unpaired electron"></p>
+<figcaption>A free radical with an unpaired electron</figcaption>
+</figure>
+</div>
+</section>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · Note definition check</span></p>
+<section id="comparing-isotopes" class="level3">
+<h3 class="anchored" data-anchor-id="comparing-isotopes">Comparing isotopes</h3>
+<p><strong>Explain why <span class="math inline">\(^{35}\mathrm{Cl}\)</span> and <span class="math inline">\(^{37}\mathrm{Cl}\)</span> have similar chemical properties but different physical properties.</strong></p>
+<div class="we-answer">
+<p>They are isotopes, so they have the same number of protons and the same number of electrons. Their electron configurations are therefore identical, and chemical reactions depend mainly on the outer electrons.</p>
+<p>They have different numbers of neutrons and therefore different masses. This produces small differences in physical properties such as density and boiling point.</p>
+</div>
+</section>
+</div>
+</section>
+<section id="electrons-energy-levels-and-atomic-orbitals" class="level2">
+<h2 class="anchored" data-anchor-id="electrons-energy-levels-and-atomic-orbitals">1.3 Electrons, energy levels and atomic orbitals</h2>
+<section id="shells-subshells-and-orbitals" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="shells-subshells-and-orbitals">Shells, subshells and orbitals</h3>
+<p>Electrons occupy principal energy levels, or shells, numbered <span class="math inline">\(n=1,2,3,\ldots\)</span>. Each shell contains subshells. The subshells used at AS Level are <span class="math inline">\(s\)</span>, <span class="math inline">\(p\)</span> and, for transition elements, <span class="math inline">\(d\)</span>.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Subshell</th>
+<th style="text-align: right;">Number of orbitals</th>
+<th style="text-align: right;">Maximum electrons</th>
+<th>Shape</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(s\)</span></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+<td>spherical</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(p\)</span></td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">6</td>
+<td>three dumbbell-shaped orbitals</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(d\)</span></td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">10</td>
+<td>five orbitals</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/atomic-structure/1-3-energy-levels.webp" class="concept-figure img-fluid figure-img" alt="Principal electron energy levels"></p>
+<figcaption>Principal energy levels</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/atomic-structure/1-3-subshells.webp" class="concept-figure img-fluid figure-img" alt="s p and d subshell capacities"></p>
+<figcaption>Subshells and their capacities</figcaption>
+</figure>
+</div>
+<p>The three p orbitals are oriented at right angles to one another and are labelled <span class="math inline">\(p_x\)</span>, <span class="math inline">\(p_y\)</span> and <span class="math inline">\(p_z\)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/atomic-structure/1-3-orbitals.webp" class="concept-figure img-fluid figure-img" alt="s and p orbital shapes"></p>
+<figcaption>The three p orbitals</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/atomic-structure/1-3-p-orbital-orientation.webp" class="concept-figure img-fluid figure-img" alt="px py and pz orbital orientations"></p>
+<figcaption>Orientation of the p orbitals</figcaption>
+</figure>
+</div>
+</section>
+<section id="filling-orbitals-and-writing-configurations" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="filling-orbitals-and-writing-configurations">Filling orbitals and writing configurations</h3>
+<p>Electrons fill the lowest available energy orbitals first. An orbital can contain a maximum of two electrons, which must have opposite spins. In a set of degenerate orbitals, electrons occupy separate orbitals before pairing.</p>
+<p>The usual order for the first few subshells is:</p>
+<p><span class="math display">\[1s &lt; 2s &lt; 2p &lt; 3s &lt; 3p &lt; 4s &lt; 3d &lt; 4p\]</span></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/atomic-structure/1-3-electron-filling.webp" class="concept-figure img-fluid figure-img" alt="Orbital filling order"></p>
+<figcaption>Order in which orbitals are filled</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/atomic-structure/1-3-electron-configurations.webp" class="concept-figure img-fluid figure-img" alt="Examples of electronic configurations"></p>
+<figcaption>Full electronic configurations</figcaption>
+</figure>
+</div>
+<p>For example:</p>
+<p><span class="math display">\[\ce{Na}:1s^2\,2s^2\,2p^6\,3s^1\]</span></p>
+<p><span class="math display">\[\ce{Cl^-}:1s^2\,2s^2\,2p^6\,3s^2\,3p^6\]</span></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/atomic-structure/1-3-box-notation.webp" class="concept-figure img-fluid figure-img" alt="Orbital box notation"></p>
+<figcaption>Orbital box notation</figcaption>
+</figure>
+</div>
+</section>
+<section id="transition-metal-configurations-and-ions" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="transition-metal-configurations-and-ions">Transition-metal configurations and ions</h3>
+<p>For transition-metal atoms, the <span class="math inline">\(4s\)</span> subshell is filled before <span class="math inline">\(3d\)</span>, but the <span class="math inline">\(4s\)</span> electrons are removed first when positive ions form. For example:</p>
+<p><span class="math display">\[\ce{Sc}: [Ar]4s^2 3d^1\]</span></p>
+<p><span class="math display">\[\ce{Sc^{2+}}: [Ar]3d^1\]</span></p>
+<p>The chromium and copper atoms are exceptions to the simple filling pattern because half-filled or completely filled <span class="math inline">\(3d\)</span> subshells are more stable:</p>
+<p><span class="math display">\[\ce{Cr}: [Ar]4s^1 3d^5\]</span></p>
+<p><span class="math display">\[\ce{Cu}: [Ar]4s^1 3d^{10}\]</span></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/atomic-structure/1-3-transition-metal-configuration.webp" class="concept-figure img-fluid figure-img" alt="Transition metal electron configurations"></p>
+<figcaption>Transition-metal electron configurations</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/atomic-structure/1-3-ion-configuration.webp" class="concept-figure img-fluid figure-img" alt="Removing 4s electrons before 3d electrons"></p>
+<figcaption>Electron configurations of ions</figcaption>
+</figure>
+</div>
+</section>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · Note electron configuration</span></p>
+<section id="writing-configurations-and-box-notation" class="level3">
+<h3 class="anchored" data-anchor-id="writing-configurations-and-box-notation">Writing configurations and box notation</h3>
+<p><strong>Give the full electronic configurations of <span class="math inline">\(\ce{K+}\)</span>, Ti and Co.</strong></p>
+<div class="we-answer">
+<p>Potassium has atomic number 19. Removing one electron gives:</p>
+<p><span class="math display">\[\ce{K+}:1s^2\,2s^2\,2p^6\,3s^2\,3p^6\]</span></p>
+<p>Titanium has 22 electrons:</p>
+<p><span class="math display">\[\ce{Ti}:1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,4s^2\,3d^2\]</span></p>
+<p>Cobalt has 27 electrons:</p>
+<p><span class="math display">\[\ce{Co}:1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,4s^2\,3d^7\]</span></p>
+</div>
+</section>
+</div>
+</section>
+<section id="ionisation-energy" class="level2">
+<h2 class="anchored" data-anchor-id="ionisation-energy">1.4 Ionisation energy</h2>
+<section id="first-ionisation-energy" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="first-ionisation-energy">First ionisation energy</h3>
+<p><strong>The first ionisation energy is the enthalpy change required to remove one mole of electrons from one mole of gaseous atoms to form one mole of gaseous <span class="math inline">\(1+\)</span> ions.</strong></p>
+<p>The equation for the first ionisation energy of magnesium is:</p>
+<p><span class="math display">\[\ce{Mg(g) -&gt; Mg+(g) + e-}\]</span></p>
+<p>Ionisation energy is always endothermic because energy is needed to overcome the attraction between the nucleus and the electron being removed.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/atomic-structure/1-4-ionisation-definition.webp" class="concept-figure img-fluid figure-img" alt="First ionisation energy definition"></p>
+<figcaption>Definition of first ionisation energy</figcaption>
+</figure>
+</div>
+</section>
+<section id="trend-across-a-period-and-down-a-group" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="trend-across-a-period-and-down-a-group">Trend across a period and down a group</h3>
+<p>First ionisation energy generally increases across a period because:</p>
+<ol type="1">
+<li>nuclear charge increases as proton number increases;</li>
+<li>electrons are added to the same principal shell, so shielding is similar;</li>
+<li>atomic radius decreases and the attraction between the nucleus and the outer electron increases.</li>
+</ol>
+<p>First ionisation energy generally decreases down a group because the outer electron is in a higher shell, farther from the nucleus, and more shielded by inner electrons. The increase in nuclear charge is outweighed by the greater distance and shielding.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/atomic-structure/1-4-ionisation-energy-trend.webp" class="concept-figure img-fluid figure-img" alt="First ionisation energy trend across Period 3"></p>
+<figcaption>First ionisation energy trend</figcaption>
+</figure>
+</div>
+</section>
+<section id="successive-ionisation-energies-and-anomalies" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="successive-ionisation-energies-and-anomalies">Successive ionisation energies and anomalies</h3>
+<p>Successive ionisation energies increase because each electron is removed from an increasingly positive ion. A large jump shows that the next electron is being removed from an inner shell. The number of electrons removed before the large jump indicates the number of outer-shell electrons and therefore the group.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/atomic-structure/1-3-successive-ionisation.webp" class="concept-figure img-fluid figure-img" alt="Successive ionisation energies reveal electron shells"></p>
+<figcaption>Successive ionisation energies</figcaption>
+</figure>
+</div>
+<p>The small anomalies across Period 3 are important:</p>
+<ul>
+<li>aluminium is lower than magnesium because the electron removed from Al is in the higher-energy, more shielded <span class="math inline">\(3p\)</span> subshell rather than <span class="math inline">\(3s\)</span>;</li>
+<li>sulfur is lower than phosphorus because sulfur has a pair of electrons in one <span class="math inline">\(3p\)</span> orbital, so electron–electron repulsion makes one electron easier to remove.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/atomic-structure/1-4-successive-ionisation-energies.webp" class="concept-figure img-fluid figure-img" alt="Large jumps in successive ionisation energy"></p>
+<figcaption>Successive ionisation energy pattern</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/atomic-structure/1-4-ionisation-anomalies.webp" class="concept-figure img-fluid figure-img" alt="Aluminium and sulfur ionisation energy anomalies"></p>
+<figcaption>Ionisation-energy anomalies</figcaption>
+</figure>
+</div>
+</section>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · Note ionisation-energy calculation</span></p>
+<section id="interpreting-successive-ionisation-energies" class="level3">
+<h3 class="anchored" data-anchor-id="interpreting-successive-ionisation-energies">Interpreting successive ionisation energies</h3>
+<p><strong>The successive ionisation energies of an element are 950, 1800, 2700, 4800, 6000 and 12 300 kJ mol<span class="math inline">\(^{-1}\)</span>. Deduce the group of the element and explain your answer.</strong></p>
+<div class="we-answer">
+<p>There is a large jump between the fifth and sixth ionisation energies. The first five electrons are therefore in the outer shell, while the sixth electron is removed from an inner shell.</p>
+<p>The element has five outer-shell electrons and is in <strong>Group 15 (Group 5 in the older notation)</strong>.</p>
+</div>
+</section>
+</div>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · Note periodic trend</span></p>
+<section id="explaining-an-anomaly" class="level3">
+<h3 class="anchored" data-anchor-id="explaining-an-anomaly">Explaining an anomaly</h3>
+<p><strong>Explain why the first ionisation energy of aluminium is lower than that of magnesium.</strong></p>
+<div class="we-answer">
+<p>Magnesium loses an electron from the <span class="math inline">\(3s\)</span> subshell, whereas aluminium loses an electron from the <span class="math inline">\(3p\)</span> subshell. The <span class="math inline">\(3p\)</span> electron is at a higher energy and is slightly more shielded, so it is easier to remove. Therefore aluminium has the lower first ionisation energy.</p>
+</div>
+</section>
+</div>
+</section>
+<section id="chapter-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="chapter-checklist">Chapter checklist</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">我能写出 proton、neutron 和 electron 的 relative charge、relative mass 与位置。</label></li>
+<li><label><input type="checkbox">我能用 atomic number、nucleon number 和 charge 计算粒子数。</label></li>
+<li><label><input type="checkbox">我能定义 isotopes，并解释 chemical / physical properties 的差异。</label></li>
+<li><label><input type="checkbox">我能写 full electronic configurations 和 orbital box notation。</label></li>
+<li><label><input type="checkbox">我能画出并识别 <span class="math inline">\(s\)</span> 和 <span class="math inline">\(p\)</span> orbitals。</label></li>
+<li><label><input type="checkbox">我能写出带 state symbols 的 ionisation-energy equations。</label></li>
+<li><label><input type="checkbox">我能解释 across a period、down a group、Al / S anomalies 和 successive-ionisation-energy jumps。</label></li>
+</ul>
+</section>
+<section id="multiple-choice-questions" class="level2">
+<h2 class="anchored" data-anchor-id="multiple-choice-questions">Multiple choice questions</h2>
+<section id="atomic-structure---multiple-choice-easy" class="level3">
+<h3 class="anchored" data-anchor-id="atomic-structure---multiple-choice-easy">1.1 Atomic Structure - Multiple Choice: Easy</h3>
+</section>
+<div id="atomic-choice-easy-q1" class="mc-question" data-answer="B">
+<section id="question-1-atomic-theory" class="level3">
+<h3 class="anchored" data-anchor-id="question-1-atomic-theory">Question 1 · Atomic theory</h3>
+<p>Which statement from Dalton’s atomic theory is still considered correct today?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>All matter is made of indivisible atoms.</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>All atoms are very small in size.</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>All atoms of one element have a different mass from atoms of every other element.</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>All atoms of the same element have the same mass.</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> Atoms are extremely small, but they contain subatomic particles and isotopes exist.
+</p>
+</details>
+</section>
+</div>
+<div id="atomic-choice-easy-q2" class="mc-question" data-answer="B">
+<section id="question-2-the-h₃-ion" class="level3">
+<h3 class="anchored" data-anchor-id="question-2-the-h₃-ion">Question 2 · The H₃⁺ ion</h3>
+<p>The reaction <span class="math inline">\(\ce{H2(g) + H2+(g) -&gt; H(g) + H3+(g)}\)</span> occurs in gas clouds. What is the composition of <span class="math inline">\(\ce{H3+}\)</span>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>3 protons, 0 neutrons, 1 electron</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>3 protons, 0 neutrons, 2 electrons</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>2 protons, 1 neutron, 1 electron</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>2 protons, 1 neutron, 2 electrons</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> Three hydrogen nuclei give three protons and no neutrons; the <span class="math inline">\(+1\)</span> charge means two electrons remain.
+</p>
+</details>
+</section>
+</div>
+<div id="atomic-choice-easy-q3" class="mc-question" data-answer="D">
+<section id="question-3-atomic-proton-and-mass-numbers" class="level3">
+<h3 class="anchored" data-anchor-id="question-3-atomic-proton-and-mass-numbers">Question 3 · Atomic, proton and mass numbers</h3>
+<p>Which row is correct?</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Atomic number is the number of</th>
+<th>Proton number is the number of</th>
+<th>Mass number is the number of</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A</td>
+<td>atoms</td>
+<td>protons</td>
+<td>protons</td>
+</tr>
+<tr class="even">
+<td>B</td>
+<td>electrons</td>
+<td>neutrons</td>
+<td>nucleons</td>
+</tr>
+<tr class="odd">
+<td>C</td>
+<td>electrons</td>
+<td>neutrons</td>
+<td>protons</td>
+</tr>
+<tr class="even">
+<td>D</td>
+<td>protons</td>
+<td>protons</td>
+<td>nucleons</td>
+</tr>
+</tbody>
+</table>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>D.</strong> Atomic number and proton number are the number of protons; mass number is the number of nucleons.
+</p>
+</details>
+</section>
+</div>
+<div id="atomic-choice-easy-q4" class="mc-question" data-answer="B">
+<section id="question-4-subatomic-particles-in-32_15cep3-" class="level3">
+<h3 class="anchored" data-anchor-id="question-4-subatomic-particles-in-32_15cep3-">Question 4 · Subatomic particles in <span class="math inline">\(^{32}_{15}\ce{P^{3-}}\)</span></h3>
+<p>What is the composition of the phosphide ion <span class="math inline">\(^{32}_{15}\ce{P^{3-}}\)</span>?</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Protons</th>
+<th style="text-align: right;">Neutrons</th>
+<th style="text-align: right;">Electrons</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">32</td>
+</tr>
+<tr class="even">
+<td>B</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">18</td>
+</tr>
+<tr class="odd">
+<td>C</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">15</td>
+</tr>
+<tr class="even">
+<td>D</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">32</td>
+</tr>
+</tbody>
+</table>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> Protons <span class="math inline">\(=15\)</span>, neutrons <span class="math inline">\(=32-15=17\)</span>, and the <span class="math inline">\(3-\)</span> charge gives <span class="math inline">\(15+3=18\)</span> electrons.
+</p>
+</details>
+</section>
+</div>
+<div id="atomic-choice-easy-q5" class="mc-question" data-answer="C">
+<section id="question-5-relative-charge-and-mass" class="level3">
+<h3 class="anchored" data-anchor-id="question-5-relative-charge-and-mass">Question 5 · Relative charge and mass</h3>
+<p>Which option correctly describes the relative charges and masses of the subatomic particles?</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Proton</th>
+<th style="text-align: right;">Neutron</th>
+<th style="text-align: right;">Electron</th>
+<th style="text-align: right;">Relative mass of an electron</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">−1</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td>B</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;"><span class="math inline">\(\frac{1}{1840}\)</span></td>
+</tr>
+<tr class="odd">
+<td>C</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">−1</td>
+<td style="text-align: right;"><span class="math inline">\(\frac{1}{1840}\)</span></td>
+</tr>
+<tr class="even">
+<td>D</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">−1</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> Protons are <span class="math inline">\(+1\)</span>, neutrons are neutral, electrons are <span class="math inline">\(-1\)</span>, and an electron has a relative mass of about <span class="math inline">\(1/1840\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="atomic-choice-easy-q6" class="mc-question" data-answer="A">
+<section id="question-6-particles-in-an-electric-field" class="level3">
+<h3 class="anchored" data-anchor-id="question-6-particles-in-an-electric-field">Question 6 · Particles in an electric field</h3>
+<p>The trajectories of protons, neutrons and electrons in an electric field are shown below. Which diagrams are correct?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/atomic-structure/choice-easy-q6-electric-field.webp" class="question-figure img-fluid figure-img" alt="Electric-field trajectories for protons, neutrons and electrons"></p>
+<figcaption>Electric-field trajectories for protons, neutrons and electrons</figcaption>
+</figure>
+</div>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>2 and 3</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>1 and 2</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>1, 2 and 3</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>2 only</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>A.</strong> Neutrons are undeflected; electrons bend towards the positive plate; the proton diagram must bend towards the negative plate.
+</p>
+</details>
+</section>
+</div>
+<section id="atomic-structure---multiple-choice-medium" class="level3">
+<h3 class="anchored" data-anchor-id="atomic-structure---multiple-choice-medium">1.1 Atomic Structure - Multiple Choice: Medium</h3>
+</section>
+<div id="atomic-choice-medium-q1" class="mc-question" data-answer="A">
+<section id="question-1-particle-counts" class="level3">
+<h3 class="anchored" data-anchor-id="question-1-particle-counts">Question 1 · Particle counts</h3>
+<p>In which species are the numbers of protons, neutrons and electrons all different?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(^{23}\ce{Na+}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(^{27}\ce{Al}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(^{19}\ce{F-}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(^{32}\ce{S^{2-}}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>A.</strong> <span class="math inline">\(^{23}\ce{Na+}\)</span> has 11 protons, 12 neutrons and 10 electrons.
+</p>
+</details>
+</section>
+</div>
+<div id="atomic-choice-medium-q2" class="mc-question" data-answer="B">
+<section id="question-2-why-atoms-are-neutral" class="level3">
+<h3 class="anchored" data-anchor-id="question-2-why-atoms-are-neutral">Question 2 · Why atoms are neutral</h3>
+<p>Which statement explains why atoms are electrically neutral?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>A proton has a mass 1840 times greater than an electron.</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>The charge on an electron is equal and opposite to the charge on a proton.</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>The charge difference is balanced by neutrons.</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Electrons are in shells while protons are in the nucleus.</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> A neutral atom has equal numbers of protons and electrons, whose charges are equal in magnitude and opposite in sign.
+</p>
+</details>
+</section>
+</div>
+<div id="atomic-choice-medium-q3" class="mc-question" data-answer="C">
+<section id="question-3-metallic-radius-down-group-1" class="level3">
+<h3 class="anchored" data-anchor-id="question-3-metallic-radius-down-group-1">Question 3 · Metallic radius down Group 1</h3>
+<p>Which statements correctly describe the trend in metallic radius from Na to Rb?</p>
+<ol type="1">
+<li>It increases moving down the group.<br>2. It increases because extra electron shells are added.<br>3. It decreases because nuclear forces increase.</li>
+</ol>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>1, 2 and 3</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>2 and 3</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>1 and 2</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>1 only</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> Each step down adds an occupied shell, increasing the distance of the outer electron from the nucleus.
+</p>
+</details>
+</section>
+</div>
+<div id="atomic-choice-medium-q4" class="mc-question" data-answer="C">
+<section id="question-4-distribution-of-mass-and-charge" class="level3">
+<h3 class="anchored" data-anchor-id="question-4-distribution-of-mass-and-charge">Question 4 · Distribution of mass and charge</h3>
+<p>Which statements correctly describe the distribution of mass and charge in an atom?</p>
+<ol type="1">
+<li>Negative charge is concentrated in one area outside the nucleus.<br>2. Mass is concentrated inside the nucleus.<br>3. Negative charge is spread around outside the nucleus.</li>
+</ol>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>1 and 3</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>1 and 2</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>2 and 3</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>1, 2 and 3</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> Nearly all mass is in the small nucleus, while the electron charge is distributed through the space around it.
+</p>
+</details>
+</section>
+</div>
+<div id="atomic-choice-medium-q5" class="mc-question" data-answer="D">
+<section id="question-5-unpaired-electrons" class="level3">
+<h3 class="anchored" data-anchor-id="question-5-unpaired-electrons">Question 5 · Unpaired electrons</h3>
+<p>There are six unpaired electrons in atoms of element Z. What could element Z be?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Sulfur</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Iron</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Carbon</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Chromium</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>D.</strong> Chromium is <span class="math inline">\([\ce{Ar}]4s^1 3d^5\)</span>, giving six unpaired electrons.
+</p>
+</details>
+</section>
+</div>
+<div id="atomic-choice-medium-q6" class="mc-question" data-answer="B">
+<section id="question-6-second-ionisation-energy-of-magnesium" class="level3">
+<h3 class="anchored" data-anchor-id="question-6-second-ionisation-energy-of-magnesium">Question 6 · Second ionisation energy of magnesium</h3>
+<p>The second ionisation energy of magnesium is <span class="math inline">\(1451\ \mathrm{kJ\ mol^{-1}}\)</span>. Which equation represents this statement?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(\ce{Mg+(g) -&gt; Mg^{2+}(g) + e-}\)</span>, <span class="math inline">\(\Delta H^\ominus=-1451\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(\ce{Mg+(g) -&gt; Mg^{2+}(g) + e-}\)</span>, <span class="math inline">\(\Delta H^\ominus=+1451\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(\ce{Mg(g) -&gt; Mg^{2+}(g) + 2e-}\)</span>, <span class="math inline">\(\Delta H^\ominus=+1451\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(\ce{Mg(g) -&gt; Mg+(g) + e-}\)</span>, <span class="math inline">\(\Delta H^\ominus=-1451\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> The second electron is removed from <span class="math inline">\(\ce{Mg+}\)</span>, and ionisation is endothermic.
+</p>
+</details>
+</section>
+</div>
+<div id="atomic-choice-medium-q7" class="mc-question" data-answer="D">
+<section id="question-7-orbital-shapes-and-orientations" class="level3">
+<h3 class="anchored" data-anchor-id="question-7-orbital-shapes-and-orientations">Question 7 · Orbital shapes and orientations</h3>
+<p>The diagram shows three orbitals labelled 1, 2 and 3. What is the correct label for each orbital?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/atomic-structure/choice-medium-q7-orbitals.webp" class="question-figure img-fluid figure-img" alt="Three labelled s and p orbitals"></p>
+<figcaption>Three labelled s and p orbitals</figcaption>
+</figure>
+</div>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(p_x, p_y, p_z\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(s, p_z, p_y\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(s, p_x, p_z\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(s, p_x, p_y\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>D.</strong> Orbital 1 is spherical (<span class="math inline">\(s\)</span>); orbitals 2 and 3 point along the <span class="math inline">\(x\)</span>- and <span class="math inline">\(y\)</span>-axes respectively.
+</p>
+</details>
+</section>
+</div>
+<section id="atomic-structure---multiple-choice-hard" class="level3">
+<h3 class="anchored" data-anchor-id="atomic-structure---multiple-choice-hard">1.1 Atomic Structure - Multiple Choice: Hard</h3>
+</section>
+<div id="atomic-choice-hard-q1" class="mc-question" data-answer="B">
+<section id="question-1-isoelectronic-radii" class="level3">
+<h3 class="anchored" data-anchor-id="question-1-isoelectronic-radii">Question 1 · Isoelectronic radii</h3>
+<p>The species <span class="math inline">\(\ce{Cl-}\)</span>, <span class="math inline">\(\ce{K+}\)</span> and Ar are isoelectronic. In which order do their radii decrease?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(\ce{K+ &gt; Cl- &gt; Ar}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(\ce{Cl- &gt; Ar &gt; K+}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(\ce{K+ &gt; Ar &gt; Cl-}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(\ce{Ar &gt; K+ &gt; Cl-}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> With the same number of electrons, the species with more protons has the stronger attraction and smaller radius.
+</p>
+</details>
+</section>
+</div>
+<div id="atomic-choice-hard-q2" class="mc-question" data-answer="A">
+<section id="question-2-deflection-in-an-electric-field" class="level3">
+<h3 class="anchored" data-anchor-id="question-2-deflection-in-an-electric-field">Question 2 · Deflection in an electric field</h3>
+<p>The trajectories of subatomic particles moving at the same velocity are shown. Which statements are correct?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/atomic-structure/choice-hard-q2-electric-field.webp" class="question-figure img-fluid figure-img" alt="Electric-field trajectories of electrons, neutrons and protons"></p>
+<figcaption>Electric-field trajectories of electrons, neutrons and protons</figcaption>
+</figure>
+</div>
+<ol type="1">
+<li>The proton and electron are deflected because they are charged.<br>2. Neutrons are undeflected because they have no charge.<br>3. Electrons are deflected more than protons because they have less mass.</li>
+</ol>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>1, 2 and 3</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>1 only</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>2 and 3</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>1 and 3</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>A.</strong> Charged particles are deflected; neutrons are not, and the much smaller electron mass gives a greater deflection.
+</p>
+</details>
+</section>
+</div>
+<div id="atomic-choice-hard-q3" class="mc-question" data-answer="C">
+<section id="question-3-atomic-radius-across-period-3" class="level3">
+<h3 class="anchored" data-anchor-id="question-3-atomic-radius-across-period-3">Question 3 · Atomic radius across Period 3</h3>
+<p>Why does atomic radius decrease across Period 3?</p>
+<ol type="1">
+<li>Electron shells are added across the period, increasing nuclear attraction.<br>2. Nuclear charge increases as atomic number increases.<br>3. There is a greater attraction between the nucleus and the electrons.</li>
+</ol>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>1 and 2</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>1, 2 and 3</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>2 and 3</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>1 only</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> Electrons are added to the same shell, not new shells; nuclear charge and attraction increase.
+</p>
+</details>
+</section>
+</div>
+<div id="atomic-choice-hard-q4" class="mc-question" data-answer="A">
+<section id="question-4-successive-ionisation-energies" class="level3">
+<h3 class="anchored" data-anchor-id="question-4-successive-ionisation-energies">Question 4 · Successive ionisation energies</h3>
+<p>Element X is in Period 2 and has first seven ionisation energies 1300, 3380, 5330, 7460, 11 010, 13 320 and 71 200 <span class="math inline">\(\mathrm{kJ\ mol^{-1}}\)</span>. What is its electronic configuration?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(1s^2 2s^2 2p^4\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(1s^2 2s^2 2p^2\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(1s^2 2s^2 2p^3\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(1s^2 2s^2 2p^6\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>A.</strong> The large jump after the sixth electron shows six outer-shell electrons, so the atom is <span class="math inline">\(1s^2 2s^2 2p^4\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="atomic-choice-hard-q5" class="mc-question" data-answer="C">
+<section id="question-5-oxygen-ionisation-energies" class="level3">
+<h3 class="anchored" data-anchor-id="question-5-oxygen-ionisation-energies">Question 5 · Oxygen ionisation energies</h3>
+<p>For successive ionisation energies of oxygen, where is the highest jump expected?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Second ionisation energy</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>First ionisation energy</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Seventh ionisation energy</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Sixth ionisation energy</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> Oxygen has six outer-shell electrons; the seventh electron is removed from the inner <span class="math inline">\(1s\)</span> shell.
+</p>
+</details>
+</section>
+</div>
+<div id="atomic-choice-hard-q6" class="mc-question" data-answer="B">
+<section id="question-6-isotopes-and-chemical-behaviour" class="level3">
+<h3 class="anchored" data-anchor-id="question-6-isotopes-and-chemical-behaviour">Question 6 · Isotopes and chemical behaviour</h3>
+<p>Which statement explains the similarity in chemical behaviour of isotopes of the same element?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>They may have the same configuration, depending on the reaction.</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>They have the same electronic configuration.</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Their mass numbers are different.</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>They have different numbers of neutrons.</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> Isotopes have the same proton number and, for neutral atoms, the same electron configuration.
+</p>
+</details>
+</section>
+</div>
+<div id="atomic-choice-hard-q7" class="mc-question" data-answer="D">
+<section id="question-7-half-filled-p-orbitals" class="level3">
+<h3 class="anchored" data-anchor-id="question-7-half-filled-p-orbitals">Question 7 · Half-filled p orbitals</h3>
+<p>Which species produces a half-filled set of p orbitals on losing one electron?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(\ce{Li+}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>F</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(\ce{N+}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(\ce{N-}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>D.</strong> <span class="math inline">\(\ce{N-}\)</span> is <span class="math inline">\(1s^2 2s^2 2p^4\)</span>; losing one electron gives nitrogen’s half-filled <span class="math inline">\(2p^3\)</span>.
+</p>
+</details>
+</section>
+</div>
+</section>
+<section id="structured-questions" class="level2">
+<h2 class="anchored" data-anchor-id="structured-questions">Structured questions</h2>
+<section id="atomic-structure---structured-questions-easy" class="level3">
+<h3 class="anchored" data-anchor-id="atomic-structure---structured-questions-easy">1.1 Atomic Structure - Structured Questions: Easy</h3>
+</section>
+<section id="example-1-subatomic-particles-and-isotopes-1.1-sq-easy-q1" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-1-subatomic-particles-and-isotopes-1.1-sq-easy-q1">Example 1 · Subatomic particles and isotopes · 1.1 SQ Easy Q1</h3>
+<p><strong>(a)</strong> Complete the relative charge and relative mass of the proton, neutron and electron. <code>[4 marks]</code></p>
+<p><strong>(b)</strong> Complete the numbers of protons, neutrons and electrons in <span class="math inline">\(^{31}_{15}\ce{P}\)</span>, <span class="math inline">\(^{24}_{11}\ce{Na+}\)</span> and <span class="math inline">\(^{37}_{17}\ce{Cl-}\)</span>. <code>[3 marks]</code></p>
+<p><strong>(c)</strong> State why isotopes have different physical properties. <code>[2 marks]</code></p>
+<p><strong>(d)</strong> Explain why <span class="math inline">\(^{35}\ce{Cl}\)</span> and <span class="math inline">\(^{37}\ce{Cl}\)</span> have similar chemical properties. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> Proton: <span class="math inline">\(+1,1\)</span>; neutron: <span class="math inline">\(0,1\)</span>; electron: <span class="math inline">\(-1,1/1836\)</span>.
+</li>
+<li>
+<strong>(b)</strong> <span class="math inline">\(^{31}_{15}\ce{P}\)</span>: 15 p, 16 n, 15 e; <span class="math inline">\(^{24}_{11}\ce{Na+}\)</span>: 11 p, 13 n, 10 e; <span class="math inline">\(^{37}_{17}\ce{Cl-}\)</span>: 17 p, 20 n, 18 e.
+</li>
+<li>
+<strong>(c)</strong> Different neutron numbers give different masses and therefore slightly different physical properties.
+</li>
+<li>
+<strong>(d)</strong> They have the same number of electrons and the same electronic configuration.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-2-aluminium-and-orbitals-1.1-sq-easy-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-2-aluminium-and-orbitals-1.1-sq-easy-q3">Example 2 · Aluminium and orbitals · 1.1 SQ Easy Q3</h3>
+<p>Aluminium is a Group 13 metal.</p>
+<p><strong>(a)</strong> Complete the electron configuration using box notation. <code>[1 mark]</code></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/atomic-structure/sq-easy-q3a-aluminium-box.webp" class="question-figure img-fluid figure-img" alt="Aluminium box notation"></p>
+<figcaption>Aluminium orbital box notation question</figcaption>
+</figure>
+</div>
+<p><strong>(b)</strong> Draw the <span class="math inline">\(2s\)</span> orbital on the axes. <code>[1 mark]</code></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/atomic-structure/sq-easy-q3b-2s-orbital.webp" class="question-figure img-fluid figure-img" alt="2s orbital drawing axes"></p>
+<figcaption>2s orbital question</figcaption>
+</figure>
+</div>
+<p><strong>(c)</strong> The first ionisation energy of Mg is <span class="math inline">\(738\ \mathrm{kJ\ mol^{-1}}\)</span>. Complete the values for Na and Li. <code>[1 mark]</code></p>
+<p><strong>(d)</strong> Explain why the first ionisation energy of aluminium is lower than that of magnesium. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> <span class="math inline">\(\ce{Al}:1s^2 2s^2 2p^6 3s^2 3p^1\)</span>, with one pair and two single electrons in <span class="math inline">\(2p\)</span>.
+</li>
+<li>
+<strong>(b)</strong> A spherical orbital centred on the nucleus.
+</li>
+<li>
+<strong>(c)</strong> Na = 496; Li = 520 <span class="math inline">\(\mathrm{kJ\ mol^{-1}}\)</span>.
+</li>
+<li>
+<strong>(d)</strong> Al loses a higher-energy, more shielded <span class="math inline">\(3p\)</span> electron, while Mg loses a <span class="math inline">\(3s\)</span> electron.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-3-electric-fields-and-particle-counts-1.1-sq-easy-q5" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-3-electric-fields-and-particle-counts-1.1-sq-easy-q5">Example 3 · Electric fields and particle counts · 1.1 SQ Easy Q5</h3>
+<p>Particles with the same velocity pass through an electric field.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/atomic-structure/sq-easy-q5-electric-field.webp" class="question-figure img-fluid figure-img" alt="Paths of protons neutrons and electrons in an electric field"></p>
+<figcaption>Electric-field particle question</figcaption>
+</figure>
+</div>
+<p><strong>(a)</strong> Label the positive and negative plates. <code>[1 mark]</code></p>
+<p><strong>(b)</strong> Complete the numbers of protons, neutrons and electrons in <span class="math inline">\(^{23}\ce{Na}\)</span>, <span class="math inline">\(^{32}\ce{S^{2-}}\)</span> and <span class="math inline">\(^{86}\ce{Sr^{2+}}\)</span>. <code>[3 marks]</code></p>
+<p><strong>(c)</strong> Write the electronic configuration of <span class="math inline">\(\ce{S^{2-}}\)</span>. <code>[1 mark]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<p>
+<strong>(a)</strong> Upper plate positive; lower plate negative. <strong>(b)</strong> <span class="math inline">\(^{23}\ce{Na}\)</span>: 11 p, 12 n, 11 e; <span class="math inline">\(^{32}\ce{S^{2-}}\)</span>: 16 p, 16 n, 18 e; <span class="math inline">\(^{86}\ce{Sr^{2+}}\)</span>: 38 p, 48 n, 36 e. <strong>(c)</strong> <span class="math inline">\(1s^2 2s^2 2p^6 3s^2 3p^6\)</span>.
+</p>
+</details>
+</section>
+<section id="atomic-structure---structured-questions-medium" class="level3">
+<h3 class="anchored" data-anchor-id="atomic-structure---structured-questions-medium">1.1 Atomic Structure - Structured Questions: Medium</h3>
+</section>
+<section id="example-4-atomic-and-nucleon-numbers-1.1-sq-medium-q1" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-4-atomic-and-nucleon-numbers-1.1-sq-medium-q1">Example 4 · Atomic and nucleon numbers · 1.1 SQ Medium Q1</h3>
+<p><strong>(a)</strong> Complete the table for atomic number 9, nucleon number 19, 10 electrons and for atomic number 13, nucleon number 27, 13 electrons. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Give the symbol and full configuration of the potassium <span class="math inline">\(1+\)</span> ion with nucleon number 39. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> Add and label the proton and neutron paths to the electron-beam diagram.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/atomic-structure/sq-medium-q1c-electric-field.webp" class="question-figure img-fluid figure-img" alt="Medium electric field paths"></p>
+<figcaption>Medium electric-field question</figcaption>
+</figure>
+</div>
+<p><strong>(d)</strong> The fifth to eighth ionisation energies of Y are 7012, 8496, 27107 and 31671 <span class="math inline">\(\mathrm{kJ\ mol^{-1}}\)</span>. State its group and explain the large jump. <code>[1 mark]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> <span class="math inline">\(^{19}_{9}\ce{F-}\)</span>: 9 p, 10 n; <span class="math inline">\(^{27}_{13}\ce{Al}\)</span>: 13 p, 14 n.
+</li>
+<li>
+<strong>(b)</strong> <span class="math inline">\(^{39}_{19}\ce{K+}\)</span>; <span class="math inline">\(1s^2 2s^2 2p^6 3s^2 3p^6\)</span>.
+</li>
+<li>
+<strong>(c)</strong> Neutrons pass straight through; protons bend towards the negative plate, less than electrons.
+</li>
+<li>
+<strong>(d)</strong> Group 16; the jump after the sixth electron shows that the seventh comes from an inner shell.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-5-gold-atoms-isotopes-and-orbitals-1.1-sq-medium-q2" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-5-gold-atoms-isotopes-and-orbitals-1.1-sq-medium-q2">Example 5 · Gold atoms, isotopes and orbitals · 1.1 SQ Medium Q2</h3>
+<p>For an atom of <span class="math inline">\(^{197}_{79}\ce{Au}\)</span>:</p>
+<p><strong>(a)</strong> Give the relative mass, relative charge, location and total number of neutrons and electrons. <code>[4 marks]</code></p>
+<p><strong>(b)</strong> Explain what is meant by isotopes and why a mixture of gold isotopes has the same chemical properties as a pure isotope. <code>[3 marks]</code></p>
+<p><strong>(c)</strong> Complete chloride-ion box notation.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/atomic-structure/sq-medium-q2c-chloride-box.webp" class="question-figure img-fluid figure-img" alt="Chloride ion electron box notation"></p>
+<figcaption>Chloride-ion box notation</figcaption>
+</figure>
+</div>
+<p><strong>(d)</strong> Draw and label one <span class="math inline">\(s\)</span> and one <span class="math inline">\(p\)</span> orbital.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/atomic-structure/sq-medium-q2d-orbitals.webp" class="question-figure img-fluid figure-img" alt="s and p orbital shapes question"></p>
+<figcaption>Orbital shapes question</figcaption>
+</figure>
+</div>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> Neutron: mass 1, charge 0, nucleus, 118; electron: mass <span class="math inline">\(1/1836\)</span>, charge −1, outside nucleus, 79.
+</li>
+<li>
+<strong>(b)</strong> Same proton number but different neutron number; same electron configuration means same chemical properties.
+</li>
+<li>
+<strong>(c)</strong> <span class="math inline">\(\ce{Cl-}:1s^2 2s^2 2p^6 3s^2 3p^6\)</span>.
+</li>
+<li>
+<strong>(d)</strong> Spherical <span class="math inline">\(s\)</span> and dumbbell-shaped <span class="math inline">\(p\)</span> orbital.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-6-first-ionisation-energy-and-period-3-1.1-sq-medium-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-6-first-ionisation-energy-and-period-3-1.1-sq-medium-q3">Example 6 · First ionisation energy and Period 3 · 1.1 SQ Medium Q3</h3>
+<p><strong>(a)</strong> Define first ionisation energy and write the equation for aluminium. <code>[3 marks]</code></p>
+<p><strong>(b)</strong> Successive ionisation energies for Period 3 element A are 1912, 1904, 2914, 4964, 6274, 21268, 25431 and 29872 <span class="math inline">\(\mathrm{kJ\ mol^{-1}}\)</span>. Identify A and explain. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> Explain the general increase across Period 3 and the deviations in the trend.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/atomic-structure/sq-medium-q3c-ionisation-graph.webp" class="question-figure img-fluid figure-img" alt="First ionisation energy across Period 3"></p>
+<figcaption>Period 3 ionisation energy graph</figcaption>
+</figure>
+</div>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<p>
+<strong>(a)</strong> Enthalpy needed to remove one mole of electrons from one mole of gaseous atoms to form gaseous <span class="math inline">\(1+\)</span> ions: <span class="math inline">\(\ce{Al(g) -&gt; Al+(g) + e-}\)</span>. <strong>(b)</strong> Phosphorus; the jump after the fifth electron shows five outer electrons. <strong>(c)</strong> Nuclear charge increases, shielding is similar and radius decreases. Al is lower because its electron is in higher-energy <span class="math inline">\(3p\)</span>; S is lower than P because of paired-electron repulsion in <span class="math inline">\(3p\)</span>.
+</p>
+</details>
+</section>
+<section id="atomic-structure---structured-questions-hard" class="level3">
+<h3 class="anchored" data-anchor-id="atomic-structure---structured-questions-hard">1.1 Atomic Structure - Structured Questions: Hard</h3>
+</section>
+<section id="example-7-periodic-trends-and-successive-ionisation-1.1-sq-hard-q1" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-7-periodic-trends-and-successive-ionisation-1.1-sq-hard-q1">Example 7 · Periodic trends and successive ionisation · 1.1 SQ Hard Q1</h3>
+<p>Identify an element that fits each description: (i) forms a <span class="math inline">\(2-\)</span> ion with the same configuration as Ne; (ii) Period 3 element with the highest boiling point; (iii) largest atomic radius in the first three periods; (iv) highest first ionisation energy; (v) Period 3 element with successive ionisation energies 738, 1451, 7733 and 10541 <span class="math inline">\(\mathrm{kJ\ mol^{-1}}\)</span>.</p>
+<p><strong>(b)</strong> Complete the first-ionisation-energy graph for G–K.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/atomic-structure/sq-hard-q1b-ionisation-graph.webp" class="question-figure img-fluid figure-img" alt="First ionisation energy graph G to K"></p>
+<figcaption>First ionisation energy graph</figcaption>
+</figure>
+</div>
+<p><strong>(c)</strong> Explain why the first ionisation energy of D is greater than that of C. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<p>
+<strong>(a)</strong> (i) Oxygen; (ii) silicon; (iii) sodium; (iv) helium; (v) magnesium. <strong>(b)</strong> Continue the Period 3 pattern, including the Al and S dips. <strong>(c)</strong> The electrons are in the same subshell, but D has greater nuclear charge and attraction.
+</p>
+</details>
+</section>
+<section id="example-8-oxygen-shells-and-electron-configurations-1.1-sq-hard-q2" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-8-oxygen-shells-and-electron-configurations-1.1-sq-hard-q2">Example 8 · Oxygen shells and electron configurations · 1.1 SQ Hard Q2</h3>
+<p>Successive ionisation energies of oxygen are 1314, 3388, 5301, 7469, 10989, 13327, 71337 and 84080 <span class="math inline">\(\mathrm{kJ\ mol^{-1}}\)</span>.</p>
+<p><strong>(a)</strong> Give the equation for the third ionisation energy of oxygen. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Explain how the data shows evidence of two energy shells. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> Give full configurations for Te, <span class="math inline">\(\ce{Zn^{2+}}\)</span>, <span class="math inline">\(\ce{Cu^{2+}}\)</span>, and give <span class="math inline">\(\ce{Zr^{2+}}\)</span> starting with [Kr]. <code>[4 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<p>
+<strong>(a)</strong> <span class="math inline">\(\ce{O^{2+}(g) -&gt; O^{3+}(g) + e-}\)</span>. <strong>(b)</strong> The large jump between the sixth and seventh energies shows six outer electrons and then an inner-shell electron. <strong>(c)</strong> <span class="math inline">\(\ce{Te}:1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10} 4p^6 5s^2 4d^{10} 5p^4\)</span>; <span class="math inline">\(\ce{Zn^{2+}}:[Ar]3d^{10}\)</span>; <span class="math inline">\(\ce{Cu^{2+}}:[Ar]3d^9\)</span>; <span class="math inline">\(\ce{Zr^{2+}}=[Kr]4d^2\)</span>.
+</p>
+</details>
+</section>
+<section id="example-9-period-2-radii-and-group-2-1.1-sq-hard-q4" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-9-period-2-radii-and-group-2-1.1-sq-hard-q4">Example 9 · Period 2 radii and Group 2 · 1.1 SQ Hard Q4</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Element</th>
+<th style="text-align: right;">Li</th>
+<th style="text-align: right;">Be</th>
+<th style="text-align: right;">B</th>
+<th style="text-align: right;">C</th>
+<th style="text-align: right;">N</th>
+<th style="text-align: right;">O</th>
+<th style="text-align: right;">F</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Atomic radius / pm</td>
+<td style="text-align: right;">152</td>
+<td style="text-align: right;">112</td>
+<td style="text-align: right;">88</td>
+<td style="text-align: right;">77</td>
+<td style="text-align: right;">70</td>
+<td style="text-align: right;">66</td>
+<td style="text-align: right;">68</td>
+</tr>
+</tbody>
+</table>
+<p><strong>(a)</strong> Explain the variation in atomic radius. <code>[4 marks]</code></p>
+<p><strong>(b)</strong> Explain why neon’s atomic radius cannot be measured in the same way. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> Complete the excited-state configuration of boron and explain why its first ionisation energy is lower than beryllium’s.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/atomic-structure/sq-hard-q4b-period2-radii.webp" class="question-figure img-fluid figure-img" alt="Period 2 atomic radii table"></p>
+<figcaption>Period 2 radii question</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/atomic-structure/sq-hard-q4b-boron-box.webp" class="question-figure img-fluid figure-img" alt="Boron excited state box notation"></p>
+<figcaption>Boron box notation question</figcaption>
+</figure>
+</div>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<p>
+<strong>(a)</strong> Radius decreases across because nuclear charge increases while shielding is similar and electrons enter the same shell. <strong>(b)</strong> Neon is monatomic and does not form covalent or metallic bonds, so the usual radius definition does not apply. <strong>(c)</strong> Excited B is <span class="math inline">\(1s^2 2s^1 2p^2\)</span>; the <span class="math inline">\(2p\)</span> electron is higher in energy and more shielded than Be’s <span class="math inline">\(2s\)</span> electron.
+</p>
+</details>
+</section>
+<section id="example-10-oxygen-and-carbon-orbitals-1.1-sq-hard-q5" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-10-oxygen-and-carbon-orbitals-1.1-sq-hard-q5">Example 10 · Oxygen and carbon orbitals · 1.1 SQ Hard Q5</h3>
+<p><strong>(a)</strong> Identify and draw the subshell containing the highest-energy occupied electrons in oxygen.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/atomic-structure/sq-hard-q5b-oxygen-orbital.webp" class="question-figure img-fluid figure-img" alt="Oxygen highest occupied subshell"></p>
+<figcaption>Oxygen orbital question</figcaption>
+</figure>
+</div>
+<p><strong>(b)</strong> Complete the excited-state configuration of carbon. <code>[1 mark]</code></p>
+<p><strong>(c)</strong> Identify the hybridisation in carbon monoxide for both atoms and explain how it occurs. <code>[4 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<p>
+<strong>(a)</strong> The highest occupied subshell is <span class="math inline">\(2p\)</span>, which is dumbbell-shaped. <strong>(b)</strong> <span class="math inline">\(1s^2 2s^1 2p^3\)</span>. <strong>(c)</strong> Both atoms use <span class="math inline">\(sp\)</span> hybridisation: one <span class="math inline">\(s\)</span> and one <span class="math inline">\(p\)</span> orbital mix, leaving two unhybridised <span class="math inline">\(p\)</span> orbitals to form two <span class="math inline">\(\pi\)</span> bonds.
+</p>
+</details>
+</section>
+<section id="original-question-pdfs" class="level3">
+<h3 class="anchored" data-anchor-id="original-question-pdfs">Original question PDFs</h3>
+<ul>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/atomic-structure/1.1-atomic-structure-sq-easy.pdf">1.1 Atomic Structure – Structured Questions – Easy</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/atomic-structure/1.1-atomic-structure-sq-medium.pdf">1.1 Atomic Structure – Structured Questions – Medium</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/atomic-structure/1.1-atomic-structure-sq-hard.pdf">1.1 Atomic Structure – Structured Questions – Hard</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/atomic-structure/1.1-atomic-structure-choice-easy.pdf">1.1 Atomic Structure – Multiple Choice – Easy</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/atomic-structure/1.1-atomic-structure-choice-medium.pdf">1.1 Atomic Structure – Multiple Choice – Medium</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/atomic-structure/1.1-atomic-structure-choice-hard.pdf">1.1 Atomic Structure – Multiple Choice – Hard</a></li>
+</ul>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".done-toggle input").forEach((input) => {
+    const key = `cie-chem-${input.dataset.progress}`;
+    input.checked = localStorage.getItem(key) === "true";
+    input.closest(".question-card")?.classList.toggle("is-complete", input.checked);
+    input.addEventListener("change", () => {
+      localStorage.setItem(key, input.checked);
+      input.closest(".question-card")?.classList.toggle("is-complete", input.checked);
+    });
+  });
+
+  document.querySelectorAll(".mc-question").forEach((card) => {
+    const answer = card.dataset.answer;
+    const feedback = card.querySelector(".mc-feedback");
+    const check = card.querySelector(".check-answer");
+    let selected = localStorage.getItem(`cie-chem-${card.id}-choice`) || "";
+
+    const showSelection = () => {
+      card.querySelectorAll(".mc-choice").forEach((choice) => {
+        choice.classList.toggle("is-selected", choice.dataset.choice === selected);
+      });
+    };
+    showSelection();
+
+    card.querySelectorAll(".mc-choice").forEach((choice) => {
+      choice.addEventListener("click", () => {
+        selected = choice.dataset.choice;
+        localStorage.setItem(`cie-chem-${card.id}-choice`, selected);
+        feedback.textContent = "";
+        feedback.className = "mc-feedback";
+        showSelection();
+      });
+    });
+
+    check?.addEventListener("click", () => {
+      if (!selected) {
+        feedback.textContent = "Select an answer first.";
+        feedback.className = "mc-feedback is-pending";
+        return;
+      }
+      const correct = selected === answer;
+      feedback.textContent = correct ? "Correct." : `Not quite. The correct answer is ${answer}.`;
+      feedback.className = `mc-feedback ${correct ? "is-correct" : "is-incorrect"}`;
+    });
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已复制");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已复制");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
