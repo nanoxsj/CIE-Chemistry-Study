@@ -24,6 +24,14 @@ body { color: var(--chem-ink); }
 .question-card h3 { margin-top: 0; }
 .question-card .subparts { margin: 0.7rem 0 0.85rem 1.15rem; padding-left: 1.25rem; }
 .question-card .subparts li { margin: 0.45rem 0; padding-left: 0.3rem; line-height: 1.55; }
+/* Older question cards store consecutive (a), (b), (c) prompts in one paragraph.
+   Keep each label and its prompt on a clearly separate line. */
+.question-card > p > strong {
+  display: block;
+  margin-top: 0.8rem;
+  color: #075985;
+}
+.question-card > p > strong:first-child { margin-top: 0; }
 .clean-diagram { display: block; width: min(100%, 520px); height: auto; margin: 0.85rem auto; padding: 0.45rem; border: 1px solid #d7e1ec; border-radius: 8px; background: #fff; }
 .compact-diagram { width: min(100%, 620px); }
 .question-source-pages { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.75rem; margin: 0.75rem 0 1rem; }
