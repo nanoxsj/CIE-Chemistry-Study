@@ -23,11 +23,11 @@ Magnesium oxide is added to water. Which statement describes the resulting solut
 ::: {.mc-question #periodicity-choice-easy-q3 data-answer="D"}
 ### Question 3 · Hydrolysis of phosphorus pentachloride · 2.1 Choice Easy Q3
 
-Which observations are made when a sample of phosphorus chloride, <span>\(\ce{PCl5}\)</span>, is added to a beaker of water?
+Which observations are made when a sample of phosphorus chloride, <span>$\ce{PCl5}$</span>, is added to a beaker of water?
 
 <div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>No visible changes are observed.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Steamy fumes are the only observation.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>A white precipitate is the only observation.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Steamy fumes and a white precipitate are both observed.</span></button></div>
 <button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
-<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> <span>\(\ce{PCl5 + 4H2O -> H3PO4 + 5HCl}\)</span>. Both products contribute to the acidic observation.</p></details>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> <span>$\ce{PCl5 + 4H2O -> H3PO4 + 5HCl}$</span>. Both products contribute to the acidic observation.</p></details>
 :::
 
 ::: {.mc-question #periodicity-choice-easy-q4 data-answer="C"}
@@ -35,7 +35,7 @@ Which observations are made when a sample of phosphorus chloride, <span>\(\ce{PC
 
 Which substance contains an atom whose outer shell is incomplete in a simple covalent molecule?
 
-<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>\(\ce{H3O+}\)</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>\(\ce{CH4}\)</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>\(\ce{BF3}\)</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>\(\ce{MgO}\)</span></button></div>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$\ce{H3O+}$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$\ce{CH4}$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$\ce{BF3}$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$\ce{MgO}$</span></button></div>
 <button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
 <details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Boron in <span>BF<sub>3</sub></span> forms three covalent bonds and has only six electrons around it.</p></details>
 :::
@@ -65,11 +65,11 @@ Silicon reacts with chlorine to produce silicon chloride. How many moles of chlo
 ::: {.mc-question #periodicity-choice-easy-q7 data-answer="A"}
 ### Question 7 · Oxide stoichiometry · 2.1 Choice Easy Q7
 
-During the manufacture of steel, the impurity <span>\(\ce{P4O10}\)</span> is removed by reacting it with calcium oxide. The only product is calcium phosphate, <span>\(\ce{Ca3(PO4)2}\)</span>. How many moles of <span>\(\ce{P4O10}\)</span> react with three moles of calcium oxide?
+During the manufacture of steel, the impurity <span>$\ce{P4O10}$</span> is removed by reacting it with calcium oxide. The only product is calcium phosphate, <span>$\ce{Ca3(PO4)2}$</span>. How many moles of <span>$\ce{P4O10}$</span> react with three moles of calcium oxide?
 
 <div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>0.5</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1.5</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>6</span></button></div>
 <button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
-<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> <span>\(\ce{P4O10 + 6CaO -> 2Ca3(PO4)2}\)</span>, so three moles of CaO react with 0.5 mol of <span>P<sub>4</sub>O<sub>10</sub></span>.</p></details>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> <span>$\ce{P4O10 + 6CaO -> 2Ca3(PO4)2}$</span>, so three moles of CaO react with 0.5 mol of <span>P<sub>4</sub>O<sub>10</sub></span>.</p></details>
 :::
 
 ::: {.mc-question #periodicity-choice-easy-q8 data-answer="B"}
@@ -77,7 +77,7 @@ During the manufacture of steel, the impurity <span>\(\ce{P4O10}\)</span> is rem
 
 Which two chlorides give approximately neutral solutions when added to water?
 
-1. <span>\(\ce{MgCl2}\)</span>  2. <span>\(\ce{NaCl}\)</span>  3. <span>\(\ce{SiCl4}\)</span>
+1. <span>$\ce{MgCl2}$</span>  2. <span>$\ce{NaCl}$</span>  3. <span>$\ce{SiCl4}$</span>
 
 <div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1, 2 and 3</span></button></div>
 <button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
@@ -87,9 +87,9 @@ Which two chlorides give approximately neutral solutions when added to water?
 ::: {.mc-question #periodicity-choice-easy-q9 data-answer="C"}
 ### Question 9 · Isoelectronic ions · 2.1 Choice Easy Q9
 
-Which is the order of increasing radius for <span>\(\ce{O^{2-}}\)</span>, Ne and <span>\(\ce{Mg^{2+}}\)</span>?
+Which is the order of increasing radius for <span>$\ce{O^{2-}}$</span>, Ne and <span>$\ce{Mg^{2+}}$</span>?
 
-<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>\(\ce{O^{2-} < Ne < Mg^{2+}}\)</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>\(\ce{Ne < Mg^{2+} < O^{2-}}\)</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>\(\ce{Mg^{2+} < Ne < O^{2-}}\)</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>\(\ce{Mg^{2+} < O^{2-} < Ne}\)</span></button></div>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$\ce{O^{2-} < Ne < Mg^{2+}}$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$\ce{Ne < Mg^{2+} < O^{2-}}$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$\ce{Mg^{2+} < Ne < O^{2-}}$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$\ce{Mg^{2+} < O^{2-} < Ne}$</span></button></div>
 <button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
 <details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> These species each have ten electrons. More protons attract the same electron cloud more strongly, so <span>Mg<sup>2+</sup></span> is smallest and <span>O<sup>2−</sup></span> is largest.</p></details>
 :::
@@ -99,7 +99,7 @@ Which is the order of increasing radius for <span>\(\ce{O^{2-}}\)</span>, Ne and
 
 Which graph correctly shows the relative electronegativities and first ionisation energies of Na, Mg, Al and Si?
 
-<div class="question-figure-grid"><img src="../assets/questions/original-source/2-1-choice-easy-q10-option-a.png" alt="Option A graph"><img src="../assets/questions/original-source/2-1-choice-easy-q10-option-b.png" alt="Option B graph"><img src="../assets/questions/original-source/2-1-choice-easy-q10-option-c.png" alt="Option C graph"><img src="../assets/questions/original-source/2-1-choice-easy-q10-option-d.png" alt="Option D graph"></div>
+<div class="question-figure-grid option-figure-grid"><img src="../assets/questions/original-source/2-1-choice-easy-q10-option-a.png" alt="Option A graph"><img src="../assets/questions/original-source/2-1-choice-easy-q10-option-b.png" alt="Option B graph"><img src="../assets/questions/original-source/2-1-choice-easy-q10-option-c.png" alt="Option C graph"><img src="../assets/questions/original-source/2-1-choice-easy-q10-option-d.png" alt="Option D graph"></div>
 <div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Graph A</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Graph B</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Graph C</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Graph D</span></button></div>
 <button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
 <details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Electronegativity increases steadily from Na to Si, while first ionisation energy has the Mg–Al dip because Al loses a 3p electron.</p></details>
@@ -112,7 +112,7 @@ Which graph correctly shows the relative electronegativities and first ionisatio
 
 Which Period 3 chloride does not produce hydrogen chloride fumes when added to water?
 
-<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>\(\ce{AlCl3}\)</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>\(\ce{SiCl4}\)</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>\(\ce{PCl5}\)</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>\(\ce{MgCl2}\)</span></button></div>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$\ce{AlCl3}$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$\ce{SiCl4}$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$\ce{PCl5}$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$\ce{MgCl2}$</span></button></div>
 <button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
 <details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Magnesium chloride is an ionic chloride and dissolves without significant hydrolysis. The other three chlorides hydrolyse and produce HCl.</p></details>
 :::
@@ -120,9 +120,9 @@ Which Period 3 chloride does not produce hydrogen chloride fumes when added to w
 ::: {.mc-question #periodicity-choice-medium-q2 data-answer="C"}
 ### Question 12 · Melting points of chlorides · 2.1 Choice Medium Q2
 
-Which order gives decreasing melting point for HCl, <span>\(\ce{MgCl2}\)</span>, <span>\(\ce{CCl4}\)</span> and <span>\(\ce{S2Cl2}\)</span>?
+Which order gives decreasing melting point for HCl, <span>$\ce{MgCl2}$</span>, <span>$\ce{CCl4}$</span> and <span>$\ce{S2Cl2}$</span>?
 
-<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>\(\ce{HCl > CCl4 > S2Cl2 > MgCl2}\)</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>\(\ce{MgCl2 > S2Cl2 > CCl4 > HCl}\)</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>\(\ce{MgCl2 > CCl4 > S2Cl2 > HCl}\)</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>\(\ce{CCl4 > MgCl2 > HCl > S2Cl2}\)</span></button></div>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$\ce{HCl > CCl4 > S2Cl2 > MgCl2}$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$\ce{MgCl2 > S2Cl2 > CCl4 > HCl}$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$\ce{MgCl2 > CCl4 > S2Cl2 > HCl}$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$\ce{CCl4 > MgCl2 > HCl > S2Cl2}$</span></button></div>
 <button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
 <details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> The ionic lattice in <span>MgCl<sub>2</sub></span> gives the highest melting point. Among simple molecular substances, larger molecules generally have stronger London forces.</p></details>
 :::
@@ -152,7 +152,7 @@ Which pair of Period 4 elements forms oxides that give acidic solutions in water
 
 Which graph correctly shows the relationship between melting point and electronegativity for Mg, Al, Si and P?
 
-<div class="question-figure-grid"><img src="../assets/questions/original-source/2-1-choice-medium-q5-option-a.png" alt="Option A graph"><img src="../assets/questions/original-source/2-1-choice-medium-q5-option-b.png" alt="Option B graph"><img src="../assets/questions/original-source/2-1-choice-medium-q5-option-c.png" alt="Option C graph"><img src="../assets/questions/original-source/2-1-choice-medium-q5-option-d.png" alt="Option D graph"></div>
+<div class="question-figure-grid option-figure-grid"><img src="../assets/questions/original-source/2-1-choice-medium-q5-option-a.png" alt="Option A graph"><img src="../assets/questions/original-source/2-1-choice-medium-q5-option-b.png" alt="Option B graph"><img src="../assets/questions/original-source/2-1-choice-medium-q5-option-c.png" alt="Option C graph"><img src="../assets/questions/original-source/2-1-choice-medium-q5-option-d.png" alt="Option D graph"></div>
 <div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Graph A</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Graph B</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Graph C</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Graph D</span></button></div>
 <button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
 <details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Silicon has a giant covalent structure and the highest melting point; phosphorus is simple molecular and has the lowest. Electronegativity increases from Mg to P.</p></details>

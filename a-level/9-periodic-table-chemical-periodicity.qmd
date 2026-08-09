@@ -69,7 +69,7 @@ Electronegativity helps explain the change from ionic bonding at the left of Per
 
 The melting points of Period 3 elements rise from sodium to magnesium and aluminium because metallic bonding becomes stronger as the number of delocalised electrons and the positive charge of the ions increase. Silicon has a very high melting point because it has a giant covalent structure.
 
-Phosphorus, sulfur, chlorine and argon are simple molecular or atomic substances. Their melting points are much lower than silicon's. Sulfur has a higher melting point than phosphorus and chlorine because it exists as larger \(\ce{S8}\) molecules with stronger London forces.
+Phosphorus, sulfur, chlorine and argon are simple molecular or atomic substances. Their melting points are much lower than silicon's. Sulfur has a higher melting point than phosphorus and chlorine because it exists as larger $\ce{S8}$ molecules with stronger London forces.
 
 ![Period 3 melting-point trend](../assets/notes/periodicity/period3-melting-point-trend.png){.note-figure fig-alt="Melting-point trend across Period 3"}
 
@@ -81,10 +81,10 @@ The oxides become less ionic and more covalent from left to right:
 
 | Oxide | Structure / bonding | Acid–base character |
 |---|---|---|
-| \(\ce{Na2O}\), \(\ce{MgO}\) | giant ionic | basic |
-| \(\ce{Al2O3}\) | giant lattice with significant covalent character | amphoteric |
-| \(\ce{SiO2}\) | giant covalent | acidic oxide |
-| \(\ce{P4O10}\), \(\ce{SO2}\), \(\ce{Cl2O7}\) | simple covalent molecules | acidic |
+| $\ce{Na2O}$, $\ce{MgO}$ | giant ionic | basic |
+| $\ce{Al2O3}$ | giant lattice with significant covalent character | amphoteric |
+| $\ce{SiO2}$ | giant covalent | acidic oxide |
+| $\ce{P4O10}$, $\ce{SO2}$, $\ce{Cl2O7}$ | simple covalent molecules | acidic |
 
 Basic oxides react with water to form hydroxides, while acidic oxides react with water to form acids:
 
@@ -107,7 +107,7 @@ Examples:
 $$\ce{SiCl4(l) + 2H2O(l) -> SiO2(s) + 4HCl(aq)}$$
 $$\ce{PCl5(s) + 4H2O(l) -> H3PO4(aq) + 5HCl(aq)}$$
 
-The hydrolysis of \(\ce{SiCl4}\) is possible because silicon can accept electron density from water and the Si–Cl bonds are polar. Carbon tetrachloride does not hydrolyse appreciably: carbon cannot expand its outer shell in the same way and the C–Cl bonds are less susceptible to attack by water.
+The hydrolysis of $\ce{SiCl4}$ is possible because silicon can accept electron density from water and the Si–Cl bonds are polar. Carbon tetrachloride does not hydrolyse appreciably: carbon cannot expand its outer shell in the same way and the C–Cl bonds are less susceptible to attack by water.
 
 ![Sodium reacting with water](../assets/notes/periodicity/period3-sodium-water.png){.note-figure fig-alt="Sodium reacting with water"}
 
