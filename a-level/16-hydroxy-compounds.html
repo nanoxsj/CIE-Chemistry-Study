@@ -1571,7 +1571,36 @@ Show mark scheme / model answer
 <section id="question-8-3.4-sq-hard-q1" class="level3">
 <h3 class="anchored" data-anchor-id="question-8-3.4-sq-hard-q1">Question 8 · 3.4 SQ Hard Q1</h3>
 <p>Four reactions on butan-2-ol are shown below.</p>
-<p><img src="../assets/questions/extracted/16/sq-hard-q1-02.png" class="question-figure img-fluid" alt="Original reaction scheme for butan-2-ol"> <img src="../assets/questions/extracted/16/sq-hard-q1-03.png" class="question-figure img-fluid" alt="Original continuation for the butan-2-ol question"></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Reaction</th>
+<th>Scheme</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Reaction 1</td>
+<td>Butan-2-ol —<span>H<sub>3</sub>PO<sub>4</sub>, heat</span>→ compound A</td>
+</tr>
+<tr class="even">
+<td>Reaction 2</td>
+<td>Butan-2-ol —<span>reagent X</span>→ compound B + HCl + SO<sub>2</sub></td>
+</tr>
+<tr class="odd">
+<td>Reaction 3</td>
+<td>Butan-2-ol —<span>PBr<sub>3</sub>, room temp</span>→ compound C</td>
+</tr>
+<tr class="even">
+<td>Reaction 4</td>
+<td>Butan-2-ol —<span>reagent Y, room temp</span>→ 2-chlorobutane</td>
+</tr>
+</tbody>
+</table>
 <p>Compound A is a stereoisomer of cis-but-2-ene.</p>
 <p><strong>(a)(i)</strong> Draw the structure of the stereoisomer of cis-but-2-ene. <code>[1 mark]</code></p>
 <p><strong>(a)(ii)</strong> Explain why compound A is less soluble than butan-2-ol. <code>[2 marks]</code></p>
@@ -1853,7 +1882,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/nanoxsj\.github\.io\/CIE-Chemistry-Study\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
