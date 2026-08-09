@@ -5,6 +5,13 @@ format:
   html:
     toc: true
     toc-depth: 3
+include-in-header:
+  - text: |
+      <style>
+      .option-figure-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 760px; }
+      .option-figure-grid img { display: block; width: 100%; max-width: 100%; height: auto; margin: 0 auto; border: 1px solid #dbe5f0; border-radius: 8px; background: #fff; }
+      @media (max-width: 700px) { .option-figure-grid { grid-template-columns: 1fr; } }
+      </style>
 ---
 
 # 9 The Periodic Table: chemical periodicity
