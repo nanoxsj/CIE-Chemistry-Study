@@ -1,0 +1,2599 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>3 Chemical bonding</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="3-chemical-bonding_files/libs/clipboard/clipboard.min.js"></script>
+<script src="3-chemical-bonding_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="3-chemical-bonding_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="3-chemical-bonding_files/libs/quarto-html/popper.min.js"></script>
+<script src="3-chemical-bonding_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="3-chemical-bonding_files/libs/quarto-html/anchor.min.js"></script>
+<link href="3-chemical-bonding_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="3-chemical-bonding_files/libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="3-chemical-bonding_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="3-chemical-bonding_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="3-chemical-bonding_files/libs/bootstrap/bootstrap-138a6193a3bd40baf1e627da441a4734.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#chemical-bonding" id="toc-chemical-bonding" class="nav-link active" data-scroll-target="#chemical-bonding">3 Chemical bonding</a>
+  <ul class="collapse">
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
+  <li><a href="#electronegativity-and-bond-polarity" id="toc-electronegativity-and-bond-polarity" class="nav-link" data-scroll-target="#electronegativity-and-bond-polarity">3.1 Electronegativity and bond polarity</a>
+  <ul class="collapse">
+  <li><a href="#electronegativity" id="toc-electronegativity" class="nav-link" data-scroll-target="#electronegativity">Electronegativity</a></li>
+  <li><a href="#bond-polarity-and-dipoles" id="toc-bond-polarity-and-dipoles" class="nav-link" data-scroll-target="#bond-polarity-and-dipoles">Bond polarity and dipoles</a></li>
+  </ul></li>
+  <li><a href="#ionic-bonding" id="toc-ionic-bonding" class="nav-link" data-scroll-target="#ionic-bonding">3.2 Ionic bonding</a>
+  <ul class="collapse">
+  <li><a href="#formation-of-ions-and-ionic-lattices" id="toc-formation-of-ions-and-ionic-lattices" class="nav-link" data-scroll-target="#formation-of-ions-and-ionic-lattices">Formation of ions and ionic lattices</a></li>
+  <li><a href="#properties-of-ionic-compounds" id="toc-properties-of-ionic-compounds" class="nav-link" data-scroll-target="#properties-of-ionic-compounds">Properties of ionic compounds</a></li>
+  </ul></li>
+  <li><a href="#metallic-bonding" id="toc-metallic-bonding" class="nav-link" data-scroll-target="#metallic-bonding">3.3 Metallic bonding</a>
+  <ul class="collapse">
+  <li><a href="#metallic-structure" id="toc-metallic-structure" class="nav-link" data-scroll-target="#metallic-structure">Metallic structure</a></li>
+  <li><a href="#alloys" id="toc-alloys" class="nav-link" data-scroll-target="#alloys">Alloys</a></li>
+  </ul></li>
+  <li><a href="#covalent-and-coordinate-bonding" id="toc-covalent-and-coordinate-bonding" class="nav-link" data-scroll-target="#covalent-and-coordinate-bonding">3.4 Covalent and coordinate bonding</a>
+  <ul class="collapse">
+  <li><a href="#covalent-bonding" id="toc-covalent-bonding" class="nav-link" data-scroll-target="#covalent-bonding">Covalent bonding</a></li>
+  <li><a href="#coordinate-dative-covalent-bonding" id="toc-coordinate-dative-covalent-bonding" class="nav-link" data-scroll-target="#coordinate-dative-covalent-bonding">Coordinate (dative covalent) bonding</a></li>
+  <li><a href="#bond-length-and-bond-energy" id="toc-bond-length-and-bond-energy" class="nav-link" data-scroll-target="#bond-length-and-bond-energy">Bond length and bond energy</a></li>
+  </ul></li>
+  <li><a href="#shapes-of-molecules" id="toc-shapes-of-molecules" class="nav-link" data-scroll-target="#shapes-of-molecules">3.5 Shapes of molecules</a>
+  <ul class="collapse">
+  <li><a href="#electron-pair-repulsion" id="toc-electron-pair-repulsion" class="nav-link" data-scroll-target="#electron-pair-repulsion">Electron-pair repulsion</a></li>
+  </ul></li>
+  <li><a href="#intermolecular-forces-and-bond-properties" id="toc-intermolecular-forces-and-bond-properties" class="nav-link" data-scroll-target="#intermolecular-forces-and-bond-properties">3.6 Intermolecular forces and bond properties</a>
+  <ul class="collapse">
+  <li><a href="#london-dispersion-forces" id="toc-london-dispersion-forces" class="nav-link" data-scroll-target="#london-dispersion-forces">London dispersion forces</a></li>
+  <li><a href="#permanent-dipole-forces" id="toc-permanent-dipole-forces" class="nav-link" data-scroll-target="#permanent-dipole-forces">Permanent dipole forces</a></li>
+  <li><a href="#hydrogen-bonding" id="toc-hydrogen-bonding" class="nav-link" data-scroll-target="#hydrogen-bonding">Hydrogen bonding</a></li>
+  <li><a href="#comparing-physical-properties" id="toc-comparing-physical-properties" class="nav-link" data-scroll-target="#comparing-physical-properties">Comparing physical properties</a></li>
+  </ul></li>
+  <li><a href="#dot-and-cross-diagrams" id="toc-dot-and-cross-diagrams" class="nav-link" data-scroll-target="#dot-and-cross-diagrams">3.7 Dot-and-cross diagrams</a>
+  <ul class="collapse">
+  <li><a href="#a-reliable-drawing-method" id="toc-a-reliable-drawing-method" class="nav-link" data-scroll-target="#a-reliable-drawing-method">A reliable drawing method</a></li>
+  </ul></li>
+  <li><a href="#chapter-checklist" id="toc-chapter-checklist" class="nav-link" data-scroll-target="#chapter-checklist">Chapter checklist</a></li>
+  <li><a href="#multiple-choice-questions" id="toc-multiple-choice-questions" class="nav-link" data-scroll-target="#multiple-choice-questions">Multiple choice questions</a>
+  <ul class="collapse">
+  <li><a href="#chemical-bonding---multiple-choice-easy" id="toc-chemical-bonding---multiple-choice-easy" class="nav-link" data-scroll-target="#chemical-bonding---multiple-choice-easy">3 Chemical bonding - Multiple Choice: Easy</a></li>
+  <li><a href="#question-1-coordinate-bonding-1.3-choice-easy-q1" id="toc-question-1-coordinate-bonding-1.3-choice-easy-q1" class="nav-link" data-scroll-target="#question-1-coordinate-bonding-1.3-choice-easy-q1">Question 1 · Coordinate bonding · 1.3 Choice Easy Q1</a></li>
+  <li><a href="#question-2-bonding-in-iodine-and-silver-1.3-choice-easy-q2" id="toc-question-2-bonding-in-iodine-and-silver-1.3-choice-easy-q2" class="nav-link" data-scroll-target="#question-2-bonding-in-iodine-and-silver-1.3-choice-easy-q2">Question 2 · Bonding in iodine and silver · 1.3 Choice Easy Q2</a></li>
+  <li><a href="#question-3-more-than-one-type-of-bonding-1.3-choice-easy-q3" id="toc-question-3-more-than-one-type-of-bonding-1.3-choice-easy-q3" class="nav-link" data-scroll-target="#question-3-more-than-one-type-of-bonding-1.3-choice-easy-q3">Question 3 · More than one type of bonding · 1.3 Choice Easy Q3</a></li>
+  <li><a href="#question-4-shape-of-hydrazine-1.3-choice-easy-q4" id="toc-question-4-shape-of-hydrazine-1.3-choice-easy-q4" class="nav-link" data-scroll-target="#question-4-shape-of-hydrazine-1.3-choice-easy-q4">Question 4 · Shape of hydrazine · 1.3 Choice Easy Q4</a></li>
+  <li><a href="#question-5-bond-dipoles-1.3-choice-easy-q5" id="toc-question-5-bond-dipoles-1.3-choice-easy-q5" class="nav-link" data-scroll-target="#question-5-bond-dipoles-1.3-choice-easy-q5">Question 5 · Bond dipoles · 1.3 Choice Easy Q5</a></li>
+  <li><a href="#question-6-formation-of-ammonium-1.3-choice-easy-q6" id="toc-question-6-formation-of-ammonium-1.3-choice-easy-q6" class="nav-link" data-scroll-target="#question-6-formation-of-ammonium-1.3-choice-easy-q6">Question 6 · Formation of ammonium · 1.3 Choice Easy Q6</a></li>
+  <li><a href="#question-7-shapes-of-boron-compounds-1.3-choice-easy-q7" id="toc-question-7-shapes-of-boron-compounds-1.3-choice-easy-q7" class="nav-link" data-scroll-target="#question-7-shapes-of-boron-compounds-1.3-choice-easy-q7">Question 7 · Shapes of boron compounds · 1.3 Choice Easy Q7</a></li>
+  <li><a href="#question-8-electronegativity-trend-1.3-choice-easy-q8" id="toc-question-8-electronegativity-trend-1.3-choice-easy-q8" class="nav-link" data-scroll-target="#question-8-electronegativity-trend-1.3-choice-easy-q8">Question 8 · Electronegativity trend · 1.3 Choice Easy Q8</a></li>
+  <li><a href="#question-9-ionic-or-covalent-1.3-choice-easy-q9" id="toc-question-9-ionic-or-covalent-1.3-choice-easy-q9" class="nav-link" data-scroll-target="#question-9-ionic-or-covalent-1.3-choice-easy-q9">Question 9 · Ionic or covalent · 1.3 Choice Easy Q9</a></li>
+  <li><a href="#question-10-metallic-bonding-definition-1.3-choice-easy-q10" id="toc-question-10-metallic-bonding-definition-1.3-choice-easy-q10" class="nav-link" data-scroll-target="#question-10-metallic-bonding-definition-1.3-choice-easy-q10">Question 10 · Metallic bonding definition · 1.3 Choice Easy Q10</a></li>
+  <li><a href="#question-11-number-of-bonding-types-1.3-choice-easy-q11" id="toc-question-11-number-of-bonding-types-1.3-choice-easy-q11" class="nav-link" data-scroll-target="#question-11-number-of-bonding-types-1.3-choice-easy-q11">Question 11 · Number of bonding types · 1.3 Choice Easy Q11</a></li>
+  <li><a href="#question-12-hydrolysis-of-silicon-tetrachloride-1.3-choice-easy-q12" id="toc-question-12-hydrolysis-of-silicon-tetrachloride-1.3-choice-easy-q12" class="nav-link" data-scroll-target="#question-12-hydrolysis-of-silicon-tetrachloride-1.3-choice-easy-q12">Question 12 · Hydrolysis of silicon tetrachloride · 1.3 Choice Easy Q12</a></li>
+  <li><a href="#chemical-bonding---multiple-choice-medium" id="toc-chemical-bonding---multiple-choice-medium" class="nav-link" data-scroll-target="#chemical-bonding---multiple-choice-medium">3 Chemical bonding - Multiple Choice: Medium</a></li>
+  <li><a href="#question-15-equilibrium-and-molecular-shape-1.3-choice-medium-q1" id="toc-question-15-equilibrium-and-molecular-shape-1.3-choice-medium-q1" class="nav-link" data-scroll-target="#question-15-equilibrium-and-molecular-shape-1.3-choice-medium-q1">Question 15 · Equilibrium and molecular shape · 1.3 Choice Medium Q1</a></li>
+  <li><a href="#question-16-bonding-in-nitrogen-1.3-choice-medium-q2" id="toc-question-16-bonding-in-nitrogen-1.3-choice-medium-q2" class="nav-link" data-scroll-target="#question-16-bonding-in-nitrogen-1.3-choice-medium-q2">Question 16 · Bonding in nitrogen · 1.3 Choice Medium Q2</a></li>
+  <li><a href="#question-18-lone-pairs-on-a-central-atom-1.3-choice-medium-q4" id="toc-question-18-lone-pairs-on-a-central-atom-1.3-choice-medium-q4" class="nav-link" data-scroll-target="#question-18-lone-pairs-on-a-central-atom-1.3-choice-medium-q4">Question 18 · Lone pairs on a central atom · 1.3 Choice Medium Q4</a></li>
+  <li><a href="#question-19-london-forces-only-1.3-choice-medium-q5" id="toc-question-19-london-forces-only-1.3-choice-medium-q5" class="nav-link" data-scroll-target="#question-19-london-forces-only-1.3-choice-medium-q5">Question 19 · London forces only · 1.3 Choice Medium Q5</a></li>
+  <li><a href="#question-20-cyanate-ion-1.3-choice-medium-q6" id="toc-question-20-cyanate-ion-1.3-choice-medium-q6" class="nav-link" data-scroll-target="#question-20-cyanate-ion-1.3-choice-medium-q6">Question 20 · Cyanate ion · 1.3 Choice Medium Q6</a></li>
+  <li><a href="#question-21-bond-comparison-in-hydrogen-halides-1.3-choice-medium-q7" id="toc-question-21-bond-comparison-in-hydrogen-halides-1.3-choice-medium-q7" class="nav-link" data-scroll-target="#question-21-bond-comparison-in-hydrogen-halides-1.3-choice-medium-q7">Question 21 · Bond comparison in hydrogen halides · 1.3 Choice Medium Q7</a></li>
+  <li><a href="#question-23-sigma-and-pi-bonds-1.3-choice-medium-q9" id="toc-question-23-sigma-and-pi-bonds-1.3-choice-medium-q9" class="nav-link" data-scroll-target="#question-23-sigma-and-pi-bonds-1.3-choice-medium-q9">Question 23 · Sigma and pi bonds · 1.3 Choice Medium Q9</a></li>
+  <li><a href="#chemical-bonding---multiple-choice-hard" id="toc-chemical-bonding---multiple-choice-hard" class="nav-link" data-scroll-target="#chemical-bonding---multiple-choice-hard">3 Chemical bonding - Multiple Choice: Hard</a></li>
+  <li><a href="#question-28-hydrogen-bonding-with-methanal-1.3-choice-hard-q1" id="toc-question-28-hydrogen-bonding-with-methanal-1.3-choice-hard-q1" class="nav-link" data-scroll-target="#question-28-hydrogen-bonding-with-methanal-1.3-choice-hard-q1">Question 28 · Hydrogen bonding with methanal · 1.3 Choice Hard Q1</a></li>
+  <li><a href="#question-29-bond-energy-down-a-group-1.3-choice-hard-q2" id="toc-question-29-bond-energy-down-a-group-1.3-choice-hard-q2" class="nav-link" data-scroll-target="#question-29-bond-energy-down-a-group-1.3-choice-hard-q2">Question 29 · Bond energy down a group · 1.3 Choice Hard Q2</a></li>
+  <li><a href="#question-30-electronegativity-and-covalent-bonding-1.3-choice-hard-q3" id="toc-question-30-electronegativity-and-covalent-bonding-1.3-choice-hard-q3" class="nav-link" data-scroll-target="#question-30-electronegativity-and-covalent-bonding-1.3-choice-hard-q3">Question 30 · Electronegativity and covalent bonding · 1.3 Choice Hard Q3</a></li>
+  <li><a href="#question-31-dipoles-in-molecules-1.3-choice-hard-q4" id="toc-question-31-dipoles-in-molecules-1.3-choice-hard-q4" class="nav-link" data-scroll-target="#question-31-dipoles-in-molecules-1.3-choice-hard-q4">Question 31 · Dipoles in molecules · 1.3 Choice Hard Q4</a></li>
+  <li><a href="#question-32-ionic-lattice-and-bonding-types-1.3-choice-hard-q5" id="toc-question-32-ionic-lattice-and-bonding-types-1.3-choice-hard-q5" class="nav-link" data-scroll-target="#question-32-ionic-lattice-and-bonding-types-1.3-choice-hard-q5">Question 32 · Ionic lattice and bonding types · 1.3 Choice Hard Q5</a></li>
+  <li><a href="#question-33-conductivity-and-lattice-structure-1.3-choice-hard-q6" id="toc-question-33-conductivity-and-lattice-structure-1.3-choice-hard-q6" class="nav-link" data-scroll-target="#question-33-conductivity-and-lattice-structure-1.3-choice-hard-q6">Question 33 · Conductivity and lattice structure · 1.3 Choice Hard Q6</a></li>
+  <li><a href="#question-34-expanded-electron-pair-arrangement-1.3-choice-hard-q7" id="toc-question-34-expanded-electron-pair-arrangement-1.3-choice-hard-q7" class="nav-link" data-scroll-target="#question-34-expanded-electron-pair-arrangement-1.3-choice-hard-q7">Question 34 · Expanded electron-pair arrangement · 1.3 Choice Hard Q7</a></li>
+  <li><a href="#question-35-hydrogenation-of-an-alkene-1.3-choice-hard-q8" id="toc-question-35-hydrogenation-of-an-alkene-1.3-choice-hard-q8" class="nav-link" data-scroll-target="#question-35-hydrogenation-of-an-alkene-1.3-choice-hard-q8">Question 35 · Hydrogenation of an alkene · 1.3 Choice Hard Q8</a></li>
+  <li><a href="#question-36-overall-dipole-and-symmetry-1.3-choice-hard-q9" id="toc-question-36-overall-dipole-and-symmetry-1.3-choice-hard-q9" class="nav-link" data-scroll-target="#question-36-overall-dipole-and-symmetry-1.3-choice-hard-q9">Question 36 · Overall dipole and symmetry · 1.3 Choice Hard Q9</a></li>
+  </ul></li>
+  <li><a href="#structured-questions" id="toc-structured-questions" class="nav-link" data-scroll-target="#structured-questions">Structured questions</a>
+  <ul class="collapse">
+  <li><a href="#chemical-bonding---structured-questions-easy" id="toc-chemical-bonding---structured-questions-easy" class="nav-link" data-scroll-target="#chemical-bonding---structured-questions-easy">3 Chemical bonding - Structured Questions: Easy</a></li>
+  <li><a href="#example-1-intermolecular-forces-1.3-sq-easy-q1" id="toc-example-1-intermolecular-forces-1.3-sq-easy-q1" class="nav-link" data-scroll-target="#example-1-intermolecular-forces-1.3-sq-easy-q1">Example 1 · Intermolecular forces · 1.3 SQ Easy Q1</a></li>
+  <li><a href="#example-2-hydrogen-bonding-in-water-and-ammonia-1.3-sq-easy-q2" id="toc-example-2-hydrogen-bonding-in-water-and-ammonia-1.3-sq-easy-q2" class="nav-link" data-scroll-target="#example-2-hydrogen-bonding-in-water-and-ammonia-1.3-sq-easy-q2">Example 2 · Hydrogen bonding in water and ammonia · 1.3 SQ Easy Q2</a></li>
+  <li><a href="#example-3-dot-and-cross-diagrams-1.3-sq-easy-q3" id="toc-example-3-dot-and-cross-diagrams-1.3-sq-easy-q3" class="nav-link" data-scroll-target="#example-3-dot-and-cross-diagrams-1.3-sq-easy-q3">Example 3 · Dot-and-cross diagrams · 1.3 SQ Easy Q3</a></li>
+  <li><a href="#example-4-shapes-and-bond-angles-1.3-sq-easy-q4" id="toc-example-4-shapes-and-bond-angles-1.3-sq-easy-q4" class="nav-link" data-scroll-target="#example-4-shapes-and-bond-angles-1.3-sq-easy-q4">Example 4 · Shapes and bond angles · 1.3 SQ Easy Q4</a></li>
+  <li><a href="#example-5-ionic-bonding-and-physical-properties-1.3-sq-easy-q5" id="toc-example-5-ionic-bonding-and-physical-properties-1.3-sq-easy-q5" class="nav-link" data-scroll-target="#example-5-ionic-bonding-and-physical-properties-1.3-sq-easy-q5">Example 5 · Ionic bonding and physical properties · 1.3 SQ Easy Q5</a></li>
+  <li><a href="#chemical-bonding---structured-questions-medium" id="toc-chemical-bonding---structured-questions-medium" class="nav-link" data-scroll-target="#chemical-bonding---structured-questions-medium">3 Chemical bonding - Structured Questions: Medium</a></li>
+  <li><a href="#example-8-equilibrium-and-shape-of-cepcl3-1.3-sq-medium-q1" id="toc-example-8-equilibrium-and-shape-of-cepcl3-1.3-sq-medium-q1" class="nav-link" data-scroll-target="#example-8-equilibrium-and-shape-of-cepcl3-1.3-sq-medium-q1">Example 8 · Equilibrium and shape of <span class="math inline">\(\ce{PCl3}\)</span> · 1.3 SQ Medium Q1</a></li>
+  <li><a href="#example-9-polarity-and-properties-of-ammonia-1.3-sq-medium-q2" id="toc-example-9-polarity-and-properties-of-ammonia-1.3-sq-medium-q2" class="nav-link" data-scroll-target="#example-9-polarity-and-properties-of-ammonia-1.3-sq-medium-q2">Example 9 · Polarity and properties of ammonia · 1.3 SQ Medium Q2</a></li>
+  <li><a href="#example-10-bonding-in-ammonium-chloride-1.3-sq-medium-q3" id="toc-example-10-bonding-in-ammonium-chloride-1.3-sq-medium-q3" class="nav-link" data-scroll-target="#example-10-bonding-in-ammonium-chloride-1.3-sq-medium-q3">Example 10 · Bonding in ammonium chloride · 1.3 SQ Medium Q3</a></li>
+  <li><a href="#example-11-surface-tension-and-hydrogen-bonding-1.3-sq-medium-q4" id="toc-example-11-surface-tension-and-hydrogen-bonding-1.3-sq-medium-q4" class="nav-link" data-scroll-target="#example-11-surface-tension-and-hydrogen-bonding-1.3-sq-medium-q4">Example 11 · Surface tension and hydrogen bonding · 1.3 SQ Medium Q4</a></li>
+  <li><a href="#example-12-comparing-boiling-points-1.3-sq-medium-q5" id="toc-example-12-comparing-boiling-points-1.3-sq-medium-q5" class="nav-link" data-scroll-target="#example-12-comparing-boiling-points-1.3-sq-medium-q5">Example 12 · Comparing boiling points · 1.3 SQ Medium Q5</a></li>
+  <li><a href="#chemical-bonding---structured-questions-hard" id="toc-chemical-bonding---structured-questions-hard" class="nav-link" data-scroll-target="#chemical-bonding---structured-questions-hard">3 Chemical bonding - Structured Questions: Hard</a></li>
+  <li><a href="#example-14-nitrate-ion-and-resonance-1.3-sq-hard-q1" id="toc-example-14-nitrate-ion-and-resonance-1.3-sq-hard-q1" class="nav-link" data-scroll-target="#example-14-nitrate-ion-and-resonance-1.3-sq-hard-q1">Example 14 · Nitrate ion and resonance · 1.3 SQ Hard Q1</a></li>
+  <li><a href="#example-15-methanamide-shape-and-angles-1.3-sq-hard-q2" id="toc-example-15-methanamide-shape-and-angles-1.3-sq-hard-q2" class="nav-link" data-scroll-target="#example-15-methanamide-shape-and-angles-1.3-sq-hard-q2">Example 15 · Methanamide shape and angles · 1.3 SQ Hard Q2</a></li>
+  <li><a href="#example-16-coordinate-bonds-and-expanded-octets-1.3-sq-hard-q3" id="toc-example-16-coordinate-bonds-and-expanded-octets-1.3-sq-hard-q3" class="nav-link" data-scroll-target="#example-16-coordinate-bonds-and-expanded-octets-1.3-sq-hard-q3">Example 16 · Coordinate bonds and expanded octets · 1.3 SQ Hard Q3</a></li>
+  <li><a href="#example-17-intermolecular-forces-between-water-and-ammonia-1.3-sq-hard-q4" id="toc-example-17-intermolecular-forces-between-water-and-ammonia-1.3-sq-hard-q4" class="nav-link" data-scroll-target="#example-17-intermolecular-forces-between-water-and-ammonia-1.3-sq-hard-q4">Example 17 · Intermolecular forces between water and ammonia · 1.3 SQ Hard Q4</a></li>
+  <li><a href="#example-18-solid-cepcl5-and-liquid-cesbcl5-1.3-sq-hard-q5" id="toc-example-18-solid-cepcl5-and-liquid-cesbcl5-1.3-sq-hard-q5" class="nav-link" data-scroll-target="#example-18-solid-cepcl5-and-liquid-cesbcl5-1.3-sq-hard-q5">Example 18 · Solid <span class="math inline">\(\ce{PCl5}\)</span> and liquid <span class="math inline">\(\ce{SbCl5}\)</span> · 1.3 SQ Hard Q5</a></li>
+  </ul></li>
+  <li><a href="#original-question-pdfs" id="toc-original-question-pdfs" class="nav-link" data-scroll-target="#original-question-pdfs">Original question PDFs</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">3 Chemical bonding</h1>
+<p class="subtitle lead">Electronegativity, bonding, shapes and intermolecular forces</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="chemical-bonding" class="level1">
+<h1>3 Chemical bonding</h1>
+<p>本章对应 CIE 9701 AS Chemistry 的 <strong>Chemical bonding</strong>。内容覆盖 electronegativity、ionic bonding、metallic bonding、covalent and coordinate bonding、shapes of molecules、intermolecular forces、bond properties 以及 dot-and-cross diagrams。</p>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
+<p>学完本章后，你应该能够：</p>
+<ul>
+<li>define electronegativity and explain trends across a period and down a group;</li>
+<li>describe ionic, metallic, covalent and coordinate bonding;</li>
+<li>explain how bonding and structure determine physical properties;</li>
+<li>draw dot-and-cross diagrams for atoms, ions, molecules and polyatomic ions;</li>
+<li>use electron-pair repulsion to predict molecular shapes and bond angles;</li>
+<li>distinguish sigma and pi bonds;</li>
+<li>explain London dispersion forces, permanent dipole forces and hydrogen bonding;</li>
+<li>relate bond polarity, bond length and bond energy to electronegativity and atomic size.</li>
+</ul>
+</section>
+<section id="electronegativity-and-bond-polarity" class="level2">
+<h2 class="anchored" data-anchor-id="electronegativity-and-bond-polarity">3.1 Electronegativity and bond polarity</h2>
+<section id="electronegativity" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="electronegativity">Electronegativity</h3>
+<p><strong>Electronegativity</strong> is the ability of an atom to attract the bonding pair of electrons in a covalent bond.</p>
+<p>Across a period, electronegativity generally increases because nuclear charge increases while the bonding electrons remain in the same principal shell. Atomic radius decreases and the attraction for the bonding pair becomes stronger.</p>
+<p>Down a group, electronegativity generally decreases because the bonding pair is further from the nucleus and more inner shells shield the nuclear charge.</p>
+<p>Fluorine is the most electronegative element in the usual CIE scale. The noble gases are normally omitted because they do not commonly form covalent bonds in the AS syllabus.</p>
+</section>
+<section id="bond-polarity-and-dipoles" class="level3 formula-panel">
+<h3 class="anchored" data-anchor-id="bond-polarity-and-dipoles">Bond polarity and dipoles</h3>
+<p>If two bonded atoms have different electronegativities, the bonding electrons are attracted more strongly to one atom. The more electronegative atom carries a partial negative charge, <span class="math inline">\(\delta-\)</span>, and the other atom carries a partial positive charge, <span class="math inline">\(\delta+\)</span>.</p>
+<p>The C–H bond is treated as approximately non-polar at this level. C–O, C–F and C–Cl bonds are polar with the carbon atom as <span class="math inline">\(\delta+\)</span> and the more electronegative atom as <span class="math inline">\(\delta-\)</span>.</p>
+<p>Bond polarity is not the same as molecular polarity. A molecule can contain polar bonds but have no overall dipole if the bond dipoles cancel because of its symmetrical shape, as in <span class="math inline">\(\ce{CO2}\)</span>.</p>
+</section>
+</section>
+<section id="ionic-bonding" class="level2">
+<h2 class="anchored" data-anchor-id="ionic-bonding">3.2 Ionic bonding</h2>
+<section id="formation-of-ions-and-ionic-lattices" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="formation-of-ions-and-ionic-lattices">Formation of ions and ionic lattices</h3>
+<p>An ionic bond is the strong electrostatic attraction between oppositely charged ions. A metal atom forms a positive ion by losing one or more outer-shell electrons; a non-metal atom forms a negative ion by gaining electrons.</p>
+<p>The ions arrange themselves in a giant three-dimensional lattice. Each ion is surrounded by oppositely charged ions, so the attraction acts in all directions. The formula of an ionic compound gives the simplest whole-number ratio of ions that makes the compound electrically neutral.</p>
+<p>Examples:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Ions</th>
+<th>Formula</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(\ce{Na+}\)</span> and <span class="math inline">\(\ce{Cl-}\)</span></td>
+<td><span class="math inline">\(\ce{NaCl}\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\ce{Mg^{2+}}\)</span> and <span class="math inline">\(\ce{Cl-}\)</span></td>
+<td><span class="math inline">\(\ce{MgCl2}\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\ce{Al^{3+}}\)</span> and <span class="math inline">\(\ce{O^{2-}}\)</span></td>
+<td><span class="math inline">\(\ce{Al2O3}\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\ce{Ca^{2+}}\)</span> and <span class="math inline">\(\ce{PO4^{3-}}\)</span></td>
+<td><span class="math inline">\(\ce{Ca3(PO4)2}\)</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="properties-of-ionic-compounds" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="properties-of-ionic-compounds">Properties of ionic compounds</h3>
+<p>Ionic compounds usually have high melting and boiling points because many strong electrostatic attractions must be overcome.</p>
+<p>They do not conduct electricity when solid because the ions are fixed in position. They conduct when molten or dissolved in water because the ions are then mobile.</p>
+<p>An ionic crystal is brittle. When a layer shifts, ions of the same charge can become adjacent and repel strongly, causing the crystal to split.</p>
+</section>
+</section>
+<section id="metallic-bonding" class="level2">
+<h2 class="anchored" data-anchor-id="metallic-bonding">3.3 Metallic bonding</h2>
+<section id="metallic-structure" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="metallic-structure">Metallic structure</h3>
+<p>Metallic bonding is the strong electrostatic attraction between a lattice of positive metal ions and a sea of delocalised electrons. The outer electrons are not associated with one particular atom and can move through the structure.</p>
+<p>Metals conduct electricity because delocalised electrons carry charge. They conduct heat because mobile electrons transfer energy rapidly through the lattice.</p>
+<p>Metallic bonding is non-directional. Layers of metal ions can slide while the attraction to the delocalised electrons remains, so metals are malleable and ductile.</p>
+</section>
+<section id="alloys" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="alloys">Alloys</h3>
+<p>An alloy contains atoms of different elements. The different-sized atoms distort the layers of the metal lattice and make it more difficult for the layers to slide. Alloys are therefore usually harder than pure metals.</p>
+<p>Increasing the number of delocalised electrons or increasing the charge density of the metal ions generally strengthens metallic bonding, although the exact properties depend on the alloy structure.</p>
+</section>
+</section>
+<section id="covalent-and-coordinate-bonding" class="level2">
+<h2 class="anchored" data-anchor-id="covalent-and-coordinate-bonding">3.4 Covalent and coordinate bonding</h2>
+<section id="covalent-bonding" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="covalent-bonding">Covalent bonding</h3>
+<p>A covalent bond is the strong electrostatic attraction between a shared pair of electrons and the nuclei of the bonded atoms. A single covalent bond contains one shared pair; a double bond contains two shared pairs and a triple bond contains three shared pairs.</p>
+<p>The shared pair is formed by overlap of atomic orbitals. A sigma (<span class="math inline">\(\sigma\)</span>) bond is formed by end-on overlap along the line joining the nuclei. A pi (<span class="math inline">\(\pi\)</span>) bond is formed by sideways overlap of parallel p orbitals and has electron density above and below the internuclear axis.</p>
+<p>A double bond contains one <span class="math inline">\(\sigma\)</span> bond and one <span class="math inline">\(\pi\)</span> bond. A triple bond contains one <span class="math inline">\(\sigma\)</span> bond and two <span class="math inline">\(\pi\)</span> bonds.</p>
+</section>
+<section id="coordinate-dative-covalent-bonding" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="coordinate-dative-covalent-bonding">Coordinate (dative covalent) bonding</h3>
+<p>A coordinate bond is a covalent bond in which both electrons in the shared pair come from the same atom. The donor must have a lone pair and the acceptor must have an empty orbital or be electron-deficient.</p>
+<p>Examples include:</p>
+<p><span class="math display">\[\ce{NH3 + H+ -&gt; NH4+}\]</span></p>
+<p><span class="math display">\[\ce{H2O + H+ -&gt; H3O+}\]</span></p>
+<p>The bond is represented by an arrow from the donor atom to the acceptor atom. Once formed, a coordinate bond behaves like an ordinary covalent bond.</p>
+</section>
+<section id="bond-length-and-bond-energy" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="bond-length-and-bond-energy">Bond length and bond energy</h3>
+<p>A shorter covalent bond is generally stronger and has a greater bond energy. Between the same two elements, bond length decreases and bond energy increases in the order single bond &lt; double bond &lt; triple bond.</p>
+<p>Down a group, larger atoms usually form longer, weaker bonds because the bonding pair is further from the nuclei. A large electronegativity difference increases bond polarity but does not by itself mean that a bond is fully ionic.</p>
+</section>
+</section>
+<section id="shapes-of-molecules" class="level2">
+<h2 class="anchored" data-anchor-id="shapes-of-molecules">3.5 Shapes of molecules</h2>
+<section id="electron-pair-repulsion" class="level3 formula-panel">
+<h3 class="anchored" data-anchor-id="electron-pair-repulsion">Electron-pair repulsion</h3>
+<p>Electron pairs around a central atom repel one another and arrange themselves as far apart as possible. Lone pairs repel more strongly than bonding pairs because their electron density is concentrated closer to the central atom.</p>
+<p>The repulsion order is:</p>
+<p><span class="math display">\[\text{lone pair--lone pair} &gt; \text{lone pair--bond pair} &gt; \text{bond pair--bond pair}\]</span></p>
+<p>Multiple bonds are treated as one region of electron density, but they repel slightly more strongly than a single bond.</p>
+</section>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 27%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">Electron regions around central atom</th>
+<th>Shape</th>
+<th style="text-align: right;">Typical angle</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">2 bonding pairs</td>
+<td>linear</td>
+<td style="text-align: right;"><span class="math inline">\(180^\circ\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3 bonding pairs</td>
+<td>trigonal planar</td>
+<td style="text-align: right;"><span class="math inline">\(120^\circ\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">4 bonding pairs</td>
+<td>tetrahedral</td>
+<td style="text-align: right;"><span class="math inline">\(109.5^\circ\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3 bonding pairs + 1 lone pair</td>
+<td>trigonal pyramidal</td>
+<td style="text-align: right;">about <span class="math inline">\(107^\circ\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2 bonding pairs + 2 lone pairs</td>
+<td>bent / V-shaped</td>
+<td style="text-align: right;">about <span class="math inline">\(104.5^\circ\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">5 bonding pairs</td>
+<td>trigonal bipyramidal</td>
+<td style="text-align: right;"><span class="math inline">\(90^\circ\)</span> and <span class="math inline">\(120^\circ\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">6 bonding pairs</td>
+<td>octahedral</td>
+<td style="text-align: right;"><span class="math inline">\(90^\circ\)</span></td>
+</tr>
+</tbody>
+</table>
+<p>Examples include <span class="math inline">\(\ce{CO2}\)</span> linear, <span class="math inline">\(\ce{BF3}\)</span> trigonal planar, <span class="math inline">\(\ce{CH4}\)</span> tetrahedral, <span class="math inline">\(\ce{NH3}\)</span> trigonal pyramidal and <span class="math inline">\(\ce{H2O}\)</span> bent.</p>
+</section>
+<section id="intermolecular-forces-and-bond-properties" class="level2">
+<h2 class="anchored" data-anchor-id="intermolecular-forces-and-bond-properties">3.6 Intermolecular forces and bond properties</h2>
+<section id="london-dispersion-forces" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="london-dispersion-forces">London dispersion forces</h3>
+<p>London dispersion forces arise from temporary fluctuations in electron density. A temporary dipole can induce a dipole in a neighbouring particle.</p>
+<p>They act between all atoms and molecules. They become stronger when there are more electrons and a larger, more easily polarised electron cloud. Long molecules can also have stronger dispersion forces because they have a larger contact surface.</p>
+</section>
+<section id="permanent-dipole-forces" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="permanent-dipole-forces">Permanent dipole forces</h3>
+<p>Polar molecules have permanent partial charges. The <span class="math inline">\(\delta+\)</span> end of one molecule attracts the <span class="math inline">\(\delta-\)</span> end of another. Permanent dipole–permanent dipole forces are stronger than dispersion forces for molecules of similar size.</p>
+<p>The overall dipole depends on both bond polarity and molecular shape. The polar bonds in <span class="math inline">\(\ce{CO2}\)</span> cancel, whereas the polar bonds in <span class="math inline">\(\ce{H2O}\)</span> do not.</p>
+</section>
+<section id="hydrogen-bonding" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="hydrogen-bonding">Hydrogen bonding</h3>
+<p>Hydrogen bonding is a particularly strong permanent dipole attraction. It occurs when hydrogen is covalently bonded to N, O or F and is attracted to a lone pair on N, O or F in a neighbouring molecule.</p>
+<p>Hydrogen bonding explains the relatively high boiling point of water and the high solubility of small alcohols and ammonia in water. It also contributes to the high surface tension of water.</p>
+</section>
+<section id="comparing-physical-properties" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="comparing-physical-properties">Comparing physical properties</h3>
+<p>Boiling a molecular substance involves overcoming intermolecular forces, not breaking the covalent bonds inside each molecule. Larger molecules often have higher boiling points because their dispersion forces are stronger.</p>
+<p>For molecules with similar size, a polar molecule generally has a higher boiling point than a non-polar molecule. Hydrogen bonding usually gives the largest increase among the intermolecular forces in this syllabus.</p>
+</section>
+</section>
+<section id="dot-and-cross-diagrams" class="level2">
+<h2 class="anchored" data-anchor-id="dot-and-cross-diagrams">3.7 Dot-and-cross diagrams</h2>
+<section id="a-reliable-drawing-method" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="a-reliable-drawing-method">A reliable drawing method</h3>
+<ol type="1">
+<li>Count the total valence electrons, adjusting for the charge of an ion.</li>
+<li>Choose a central atom; hydrogen is never central and the least electronegative suitable atom is usually central.</li>
+<li>Add single bonds and complete the outer atoms’ octets.</li>
+<li>Place remaining electrons on the central atom.</li>
+<li>If the central atom lacks an octet, form multiple bonds where appropriate.</li>
+<li>Put brackets around a polyatomic ion and write its charge outside the bracket.</li>
+</ol>
+<p>In a dot-and-cross diagram, dots and crosses distinguish electrons contributed by different atoms. A shared pair must contain two electrons, while a lone pair remains on one atom.</p>
+</section>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · Ammonium ion</span></p>
+<section id="formation-of-cenh4" class="level3">
+<h3 class="anchored" data-anchor-id="formation-of-cenh4">Formation of <span class="math inline">\(\ce{NH4+}\)</span></h3>
+<p>Ammonia has a lone pair on nitrogen. The hydrogen ion has no electrons. The lone pair is donated to <span class="math inline">\(\ce{H+}\)</span> to form a coordinate bond, giving four N–H bonds and an overall <span class="math inline">\(1+\)</span> charge.</p>
+<p>The nitrogen atom has no lone pair remaining in <span class="math inline">\(\ce{NH4+}\)</span>, and the ion is drawn in square brackets with the charge outside.</p>
+</section>
+</div>
+</section>
+<section id="chapter-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="chapter-checklist">Chapter checklist</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">I can define electronegativity and assign <span class="math inline">\(\delta+\)</span> and <span class="math inline">\(\delta-\)</span> correctly.</label></li>
+<li><label><input type="checkbox">I can compare ionic, metallic and covalent structures.</label></li>
+<li><label><input type="checkbox">I can explain conductivity, melting point, brittleness and malleability from structure.</label></li>
+<li><label><input type="checkbox">I can identify coordinate bonds and count <span class="math inline">\(\sigma\)</span> and <span class="math inline">\(\pi\)</span> bonds.</label></li>
+<li><label><input type="checkbox">I can predict shapes and bond angles using electron-pair repulsion.</label></li>
+<li><label><input type="checkbox">I can distinguish London, permanent dipole and hydrogen-bond attractions.</label></li>
+<li><label><input type="checkbox">I can draw dot-and-cross diagrams and polyatomic ions.</label></li>
+</ul>
+</section>
+<section id="multiple-choice-questions" class="level2">
+<h2 class="anchored" data-anchor-id="multiple-choice-questions">Multiple choice questions</h2>
+<section id="chemical-bonding---multiple-choice-easy" class="level3">
+<h3 class="anchored" data-anchor-id="chemical-bonding---multiple-choice-easy">3 Chemical bonding - Multiple Choice: Easy</h3>
+</section>
+<div id="bonding-choice-easy-q1" class="mc-question" data-answer="B">
+<section id="question-1-coordinate-bonding-1.3-choice-easy-q1" class="level3">
+<h3 class="anchored" data-anchor-id="question-1-coordinate-bonding-1.3-choice-easy-q1">Question 1 · Coordinate bonding · 1.3 Choice Easy Q1</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Easy Q1
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-easy-q1.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Easy Q1"></p>
+<figcaption>Original question page for 1.3 Choice Easy Q1</figcaption>
+</figure>
+</div>
+</details>
+<p>Phosphine, <span class="math inline">\(\ce{PH3}\)</span>, reacts with a hydrogen ion to form <span class="math inline">\(\ce{PH4+}\)</span>. Which type of bond is formed between P and H in this reaction?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Hydrogen bond</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Coordinate covalent bond</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Ionic bond</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Metallic bond</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> The lone pair on phosphorus is donated to the electron-deficient <span class="math inline">\(\ce{H+}\)</span> ion.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-easy-q2" class="mc-question" data-answer="D">
+<section id="question-2-bonding-in-iodine-and-silver-1.3-choice-easy-q2" class="level3">
+<h3 class="anchored" data-anchor-id="question-2-bonding-in-iodine-and-silver-1.3-choice-easy-q2">Question 2 · Bonding in iodine and silver · 1.3 Choice Easy Q2</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Easy Q2
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-easy-q2.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Easy Q2"></p>
+<figcaption>Original question page for 1.3 Choice Easy Q2</figcaption>
+</figure>
+</div>
+</details>
+<p>Which forces act between neighbouring iodine molecules in solid iodine and between particles in solid silver?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Metallic bonds; covalent bonds</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Ionic bonds; metallic bonds</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Covalent bonds; covalent bonds</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>London dispersion forces; metallic bonds</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>D.</strong> <span class="math inline">\(\ce{I2}\)</span> molecules are held together by London forces; silver has a lattice of metal ions and delocalised electrons.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-easy-q3" class="mc-question" data-answer="D">
+<section id="question-3-more-than-one-type-of-bonding-1.3-choice-easy-q3" class="level3">
+<h3 class="anchored" data-anchor-id="question-3-more-than-one-type-of-bonding-1.3-choice-easy-q3">Question 3 · More than one type of bonding · 1.3 Choice Easy Q3</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Easy Q3
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-easy-q3.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Easy Q3"></p>
+<figcaption>Original question page for 1.3 Choice Easy Q3</figcaption>
+</figure>
+</div>
+</details>
+<p>Which solid contains more than one type of bonding?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Diamond</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Sodium chloride</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Iron</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Ice</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>D.</strong> Ice contains covalent bonds within water molecules and hydrogen bonds between molecules.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-easy-q4" class="mc-question" data-answer="B">
+<section id="question-4-shape-of-hydrazine-1.3-choice-easy-q4" class="level3">
+<h3 class="anchored" data-anchor-id="question-4-shape-of-hydrazine-1.3-choice-easy-q4">Question 4 · Shape of hydrazine · 1.3 Choice Easy Q4</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Easy Q4
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-easy-q4.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Easy Q4"></p>
+<figcaption>Original question page for 1.3 Choice Easy Q4</figcaption>
+</figure>
+</div>
+</details>
+<p>What is the shape around each nitrogen atom in hydrazine, <span class="math inline">\(\ce{N2H4}\)</span>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Trigonal planar, <span class="math inline">\(120^\circ\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Trigonal pyramidal, about <span class="math inline">\(107^\circ\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Linear, <span class="math inline">\(180^\circ\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Square planar, <span class="math inline">\(90^\circ\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> Each N has three bonding pairs and one lone pair. Lone-pair repulsion reduces the tetrahedral angle to about <span class="math inline">\(107^\circ\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-easy-q5" class="mc-question" data-answer="C">
+<section id="question-5-bond-dipoles-1.3-choice-easy-q5" class="level3">
+<h3 class="anchored" data-anchor-id="question-5-bond-dipoles-1.3-choice-easy-q5">Question 5 · Bond dipoles · 1.3 Choice Easy Q5</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Easy Q5
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-easy-q5.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Easy Q5"></p>
+<figcaption>Original question page for 1.3 Choice Easy Q5</figcaption>
+</figure>
+</div>
+</details>
+<p>Which bond polarity assignment is not correct?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(\ce{C^{\delta+}-O^{\delta-}}\)</span> in propanol</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(\ce{C^{\delta+}=O^{\delta-}}\)</span> in propanal</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(\ce{C^{\delta+}-H^{\delta-}}\)</span> in propane</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(\ce{C^{\delta+}-Cl^{\delta-}}\)</span> in chloropropane</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> Carbon is slightly more electronegative than hydrogen, so the C–H bond is treated as approximately non-polar rather than with H as <span class="math inline">\(\delta-\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-easy-q6" class="mc-question" data-answer="B">
+<section id="question-6-formation-of-ammonium-1.3-choice-easy-q6" class="level3">
+<h3 class="anchored" data-anchor-id="question-6-formation-of-ammonium-1.3-choice-easy-q6">Question 6 · Formation of ammonium · 1.3 Choice Easy Q6</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Easy Q6
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-easy-q6.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Easy Q6"></p>
+<figcaption>Original question page for 1.3 Choice Easy Q6</figcaption>
+</figure>
+</div>
+</details>
+<p>Which statement correctly describes the formation of <span class="math inline">\(\ce{NH4+}\)</span> from <span class="math inline">\(\ce{NH3}\)</span> and <span class="math inline">\(\ce{H+}\)</span>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Hydrogen donates one electron to nitrogen.</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Nitrogen donates its lone pair to hydrogen.</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Four electrons are transferred from nitrogen to hydrogen.</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>The hydrogen ion supplies a lone pair.</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> The N lone pair forms the fourth N–H coordinate bond.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-easy-q7" class="mc-question" data-answer="C">
+<section id="question-7-shapes-of-boron-compounds-1.3-choice-easy-q7" class="level3">
+<h3 class="anchored" data-anchor-id="question-7-shapes-of-boron-compounds-1.3-choice-easy-q7">Question 7 · Shapes of boron compounds · 1.3 Choice Easy Q7</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Easy Q7
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-easy-q7.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Easy Q7"></p>
+<figcaption>Original question page for 1.3 Choice Easy Q7</figcaption>
+</figure>
+</div>
+</details>
+<p>What are the shapes around boron in <span class="math inline">\(\ce{BF3}\)</span> and <span class="math inline">\(\ce{BH4-}\)</span>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Pyramidal; tetrahedral</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Pyramidal; square planar</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Trigonal planar; tetrahedral</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Trigonal planar; square planar</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> <span class="math inline">\(\ce{BF3}\)</span> has three bonding pairs; <span class="math inline">\(\ce{BH4-}\)</span> has four.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-easy-q8" class="mc-question" data-answer="A">
+<section id="question-8-electronegativity-trend-1.3-choice-easy-q8" class="level3">
+<h3 class="anchored" data-anchor-id="question-8-electronegativity-trend-1.3-choice-easy-q8">Question 8 · Electronegativity trend · 1.3 Choice Easy Q8</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Easy Q8
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-easy-q8.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Easy Q8"></p>
+<figcaption>Original question page for 1.3 Choice Easy Q8</figcaption>
+</figure>
+</div>
+</details>
+<p>Which atom is most electronegative?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Cl</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Mg</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Br</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Na</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>A.</strong> Electronegativity decreases down Group 17, so chlorine is more electronegative than bromine.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-easy-q9" class="mc-question" data-answer="B">
+<section id="question-9-ionic-or-covalent-1.3-choice-easy-q9" class="level3">
+<h3 class="anchored" data-anchor-id="question-9-ionic-or-covalent-1.3-choice-easy-q9">Question 9 · Ionic or covalent · 1.3 Choice Easy Q9</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Easy Q9
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-easy-q9.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Easy Q9"></p>
+<figcaption>Original question page for 1.3 Choice Easy Q9</figcaption>
+</figure>
+</div>
+</details>
+<p>Which compound is not an ionic compound?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(\ce{CaCO3}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(\ce{CH3OH}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(\ce{NaOH}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(\ce{BaCl2}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> Methanol is a molecular covalent substance. The other compounds contain ions, even though carbonate or hydroxide also contain covalent bonds internally.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-easy-q10" class="mc-question" data-answer="D">
+<section id="question-10-metallic-bonding-definition-1.3-choice-easy-q10" class="level3">
+<h3 class="anchored" data-anchor-id="question-10-metallic-bonding-definition-1.3-choice-easy-q10">Question 10 · Metallic bonding definition · 1.3 Choice Easy Q10</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Easy Q10
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-easy-q10.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Easy Q10"></p>
+<figcaption>Original question page for 1.3 Choice Easy Q10</figcaption>
+</figure>
+</div>
+</details>
+<p>Which statement describes metallic bonding?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Attraction between oppositely charged ions</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Attraction between permanent molecular dipoles</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Attraction between shared pairs and two nuclei only</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Attraction between positive metal ions and delocalised electrons</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>D.</strong> This is the definition of metallic bonding.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-easy-q11" class="mc-question" data-answer="B">
+<section id="question-11-number-of-bonding-types-1.3-choice-easy-q11" class="level3">
+<h3 class="anchored" data-anchor-id="question-11-number-of-bonding-types-1.3-choice-easy-q11">Question 11 · Number of bonding types · 1.3 Choice Easy Q11</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Easy Q11
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-easy-q11.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Easy Q11"></p>
+<figcaption>Original question page for 1.3 Choice Easy Q11</figcaption>
+</figure>
+</div>
+</details>
+<p>Which material contains only one main type of bonding in its solid structure?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Graphite</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Brass</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Ice</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Iodine crystals</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> Brass is an alloy with metallic bonding. Graphite, ice and iodine have bonding within particles plus intermolecular attractions.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-easy-q12" class="mc-question" data-answer="B">
+<section id="question-12-hydrolysis-of-silicon-tetrachloride-1.3-choice-easy-q12" class="level3">
+<h3 class="anchored" data-anchor-id="question-12-hydrolysis-of-silicon-tetrachloride-1.3-choice-easy-q12">Question 12 · Hydrolysis of silicon tetrachloride · 1.3 Choice Easy Q12</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Easy Q12
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-easy-q12.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Easy Q12"></p>
+<figcaption>Original question page for 1.3 Choice Easy Q12</figcaption>
+</figure>
+</div>
+</details>
+<p>What happens when <span class="math inline">\(\ce{SiCl4}\)</span> is added to water?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>It reacts to give only an acidic solution.</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>It reacts to give a precipitate and an acidic solution.</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>It reacts to give a precipitate and a neutral solution.</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>It dissolves to give only a neutral solution.</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> Hydrolysis forms solid <span class="math inline">\(\ce{SiO2}\)</span> and hydrochloric acid.
+</p>
+</details>
+</section>
+</div>
+<section id="chemical-bonding---multiple-choice-medium" class="level3">
+<h3 class="anchored" data-anchor-id="chemical-bonding---multiple-choice-medium">3 Chemical bonding - Multiple Choice: Medium</h3>
+</section>
+<div id="bonding-choice-medium-q1" class="mc-question" data-answer="C">
+<section id="question-15-equilibrium-and-molecular-shape-1.3-choice-medium-q1" class="level3">
+<h3 class="anchored" data-anchor-id="question-15-equilibrium-and-molecular-shape-1.3-choice-medium-q1">Question 15 · Equilibrium and molecular shape · 1.3 Choice Medium Q1</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Medium Q1
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-medium-q1.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Medium Q1"></p>
+<figcaption>Original question page for 1.3 Choice Medium Q1</figcaption>
+</figure>
+</div>
+</details>
+<p>For <span class="math inline">\(\ce{PCl5(g) &lt;=&gt; PCl3(g) + Cl2(g)}\)</span>, the percentage yield of <span class="math inline">\(\ce{PCl3}\)</span> increases from 13% at <span class="math inline">\(160^\circ\mathrm{C}\)</span> to 100% at <span class="math inline">\(300^\circ\mathrm{C}\)</span>. What is correct?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>The reaction is exothermic; <span class="math inline">\(\ce{PCl3}\)</span> is pyramidal.</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>The reaction is exothermic; <span class="math inline">\(\ce{PCl3}\)</span> is trigonal planar.</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>The reaction is endothermic; <span class="math inline">\(\ce{PCl3}\)</span> is pyramidal.</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>The reaction is endothermic; <span class="math inline">\(\ce{PCl3}\)</span> is trigonal planar.</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> Higher temperature favours the endothermic forward reaction. <span class="math inline">\(\ce{PCl3}\)</span> has three bonds and one lone pair, giving a pyramidal shape.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-medium-q2" class="mc-question" data-answer="C">
+<section id="question-16-bonding-in-nitrogen-1.3-choice-medium-q2" class="level3">
+<h3 class="anchored" data-anchor-id="question-16-bonding-in-nitrogen-1.3-choice-medium-q2">Question 16 · Bonding in nitrogen · 1.3 Choice Medium Q2</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Medium Q2
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-medium-q2.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Medium Q2"></p>
+<figcaption>Original question page for 1.3 Choice Medium Q2</figcaption>
+</figure>
+</div>
+</details>
+<p>Which feature is not present in a nitrogen molecule, <span class="math inline">\(\ce{N2}\)</span>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Two lone pairs in total</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Three shared electron pairs</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Three <span class="math inline">\(\pi\)</span> bonds</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>A bond angle of <span class="math inline">\(180^\circ\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> A triple bond contains one <span class="math inline">\(\sigma\)</span> bond and two <span class="math inline">\(\pi\)</span> bonds.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-medium-q4" class="mc-question" data-answer="B">
+<section id="question-18-lone-pairs-on-a-central-atom-1.3-choice-medium-q4" class="level3">
+<h3 class="anchored" data-anchor-id="question-18-lone-pairs-on-a-central-atom-1.3-choice-medium-q4">Question 18 · Lone pairs on a central atom · 1.3 Choice Medium Q4</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Medium Q4
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-medium-q4.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Medium Q4"></p>
+<figcaption>Original question page for 1.3 Choice Medium Q4</figcaption>
+</figure>
+</div>
+</details>
+<p>Which ion has three lone pairs around its central atom?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(\ce{PF6-}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(\ce{ClF2-}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(\ce{BF4-}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(\ce{SF6}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> In <span class="math inline">\(\ce{ClF2-}\)</span>, chlorine has two bonding pairs and three lone pairs.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-medium-q5" class="mc-question" data-answer="B">
+<section id="question-19-london-forces-only-1.3-choice-medium-q5" class="level3">
+<h3 class="anchored" data-anchor-id="question-19-london-forces-only-1.3-choice-medium-q5">Question 19 · London forces only · 1.3 Choice Medium Q5</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Medium Q5
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-medium-q5.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Medium Q5"></p>
+<figcaption>Original question page for 1.3 Choice Medium Q5</figcaption>
+</figure>
+</div>
+</details>
+<p>Which change of state involves overcoming only London dispersion forces?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(\ce{C3H6(l) -&gt; C3H6(s)}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(\ce{CO2(l) -&gt; CO2(g)}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(\ce{H2O(s) -&gt; H2O(l)}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(\ce{C2H5OH(l) -&gt; C2H5OH(g)}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> Carbon dioxide is non-polar and has no permanent dipole or hydrogen bonding.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-medium-q6" class="mc-question" data-answer="C">
+<section id="question-20-cyanate-ion-1.3-choice-medium-q6" class="level3">
+<h3 class="anchored" data-anchor-id="question-20-cyanate-ion-1.3-choice-medium-q6">Question 20 · Cyanate ion · 1.3 Choice Medium Q6</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Medium Q6
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-medium-q6.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Medium Q6"></p>
+<figcaption>Original question page for 1.3 Choice Medium Q6</figcaption>
+</figure>
+</div>
+</details>
+<p>What is the formula of the cyanate ion in ammonium cyanate?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(\ce{CO-}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(\ce{NO-}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(\ce{CNO-}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(\ce{CNO2-}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> Ammonium cyanate is <span class="math inline">\(\ce{NH4OCN}\)</span> and contains the cyanate ion <span class="math inline">\(\ce{OCN-}\)</span>, written here as <span class="math inline">\(\ce{CNO-}\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-medium-q7" class="mc-question" data-answer="C">
+<section id="question-21-bond-comparison-in-hydrogen-halides-1.3-choice-medium-q7" class="level3">
+<h3 class="anchored" data-anchor-id="question-21-bond-comparison-in-hydrogen-halides-1.3-choice-medium-q7">Question 21 · Bond comparison in hydrogen halides · 1.3 Choice Medium Q7</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Medium Q7
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-medium-q7.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Medium Q7"></p>
+<figcaption>Original question page for 1.3 Choice Medium Q7</figcaption>
+</figure>
+</div>
+</details>
+<p>Which pair of words does not correctly complete the statement: “The bond ___ between H and the halogen in HBr is ___ than in HI”?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>length; shorter</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>energy; greater</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>angle; smaller</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>polarity; greater</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> Hydrogen halides are diatomic, so a bond angle is not defined.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-medium-q9" class="mc-question" data-answer="B">
+<section id="question-23-sigma-and-pi-bonds-1.3-choice-medium-q9" class="level3">
+<h3 class="anchored" data-anchor-id="question-23-sigma-and-pi-bonds-1.3-choice-medium-q9">Question 23 · Sigma and pi bonds · 1.3 Choice Medium Q9</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Medium Q9
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-medium-q9.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Medium Q9"></p>
+<figcaption>Original question page for 1.3 Choice Medium Q9</figcaption>
+</figure>
+</div>
+</details>
+<p>How many <span class="math inline">\(\sigma\)</span> and <span class="math inline">\(\pi\)</span> bonds are in ethene, <span class="math inline">\(\ce{C2H4}\)</span>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>4 <span class="math inline">\(\sigma\)</span>, 1 <span class="math inline">\(\pi\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>5 <span class="math inline">\(\sigma\)</span>, 1 <span class="math inline">\(\pi\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>5 <span class="math inline">\(\sigma\)</span>, 2 <span class="math inline">\(\pi\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>6 <span class="math inline">\(\sigma\)</span>, 1 <span class="math inline">\(\pi\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> There are four C–H <span class="math inline">\(\sigma\)</span> bonds and one C–C <span class="math inline">\(\sigma\)</span> bond, plus one C–C <span class="math inline">\(\pi\)</span> bond.
+</p>
+</details>
+</section>
+</div>
+<section id="chemical-bonding---multiple-choice-hard" class="level3">
+<h3 class="anchored" data-anchor-id="chemical-bonding---multiple-choice-hard">3 Chemical bonding - Multiple Choice: Hard</h3>
+</section>
+<div id="bonding-choice-hard-q1" class="mc-question" data-answer="B">
+<section id="question-28-hydrogen-bonding-with-methanal-1.3-choice-hard-q1" class="level3">
+<h3 class="anchored" data-anchor-id="question-28-hydrogen-bonding-with-methanal-1.3-choice-hard-q1">Question 28 · Hydrogen bonding with methanal · 1.3 Choice Hard Q1</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Hard Q1
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-hard-q1.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Hard Q1"></p>
+<figcaption>Original question page for 1.3 Choice Hard Q1</figcaption>
+</figure>
+</div>
+</details>
+<p>Hydrogen bonding occurs between liquid methanal, <span class="math inline">\(\ce{HCHO}\)</span>, and a second liquid <span class="math inline">\(Y\)</span>. Which substance is most likely to be <span class="math inline">\(Y\)</span>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(\ce{CH3CO2CH3}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(\ce{CH3OH}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(\ce{CH3COCH3}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(\ce{CH3CHO}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> Methanol has an O–H hydrogen-bond donor and oxygen lone pairs; the carbonyl oxygen of methanal can accept the hydrogen bond.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-hard-q2" class="mc-question" data-answer="C">
+<section id="question-29-bond-energy-down-a-group-1.3-choice-hard-q2" class="level3">
+<h3 class="anchored" data-anchor-id="question-29-bond-energy-down-a-group-1.3-choice-hard-q2">Question 29 · Bond energy down a group · 1.3 Choice Hard Q2</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Hard Q2
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-hard-q2.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Hard Q2"></p>
+<figcaption>Original question page for 1.3 Choice Hard Q2</figcaption>
+</figure>
+</div>
+</details>
+<p>Why does the rate of hydrolysis of <span class="math inline">\(\ce{R-Cl}\)</span>, <span class="math inline">\(\ce{R-Br}\)</span> and <span class="math inline">\(\ce{R-I}\)</span> generally increase from chlorine to iodine?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>The first ionisation energy of the halogen increases.</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>The silver halide solubility increases from chloride to iodide.</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>The R–X bond energy decreases from R–Cl to R–I.</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>The R–X bond polarity increases from R–Cl to R–I.</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> The larger iodine atom forms a longer, weaker R–I bond that breaks more readily.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-hard-q3" class="mc-question" data-answer="A">
+<section id="question-30-electronegativity-and-covalent-bonding-1.3-choice-hard-q3" class="level3">
+<h3 class="anchored" data-anchor-id="question-30-electronegativity-and-covalent-bonding-1.3-choice-hard-q3">Question 30 · Electronegativity and covalent bonding · 1.3 Choice Hard Q3</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Hard Q3
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-hard-q3.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Hard Q3"></p>
+<figcaption>Original question page for 1.3 Choice Hard Q3</figcaption>
+</figure>
+</div>
+</details>
+<p>Which atom is most likely to form a covalent bond with fluorine rather than an ionic bond, based on the smallest electronegativity difference?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>H, <span class="math inline">\(\chi=2.20\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Cu, <span class="math inline">\(\chi=1.95\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Mg, <span class="math inline">\(\chi=1.30\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>K, <span class="math inline">\(\chi=0.82\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>A.</strong> Hydrogen has the closest electronegativity to fluorine among the options, so the H–F bond is covalent and strongly polar.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-hard-q4" class="mc-question" data-answer="D">
+<section id="question-31-dipoles-in-molecules-1.3-choice-hard-q4" class="level3">
+<h3 class="anchored" data-anchor-id="question-31-dipoles-in-molecules-1.3-choice-hard-q4">Question 31 · Dipoles in molecules · 1.3 Choice Hard Q4</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Hard Q4
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-hard-q4.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Hard Q4"></p>
+<figcaption>Original question page for 1.3 Choice Hard Q4</figcaption>
+</figure>
+</div>
+</details>
+<p>Which description of dipoles in <span class="math inline">\(\ce{CHCl3}\)</span> and <span class="math inline">\(\ce{Br2}\)</span> is correct?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Induced only in both molecules</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Induced only in <span class="math inline">\(\ce{CHCl3}\)</span>; induced and permanent in <span class="math inline">\(\ce{Br2}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Induced and permanent in both</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Induced and permanent in <span class="math inline">\(\ce{CHCl3}\)</span>; induced only in <span class="math inline">\(\ce{Br2}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>D.</strong> <span class="math inline">\(\ce{CHCl3}\)</span> is polar, while symmetrical <span class="math inline">\(\ce{Br2}\)</span> is non-polar but still has temporary dipoles.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-hard-q5" class="mc-question" data-answer="C">
+<section id="question-32-ionic-lattice-and-bonding-types-1.3-choice-hard-q5" class="level3">
+<h3 class="anchored" data-anchor-id="question-32-ionic-lattice-and-bonding-types-1.3-choice-hard-q5">Question 32 · Ionic lattice and bonding types · 1.3 Choice Hard Q5</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Hard Q5
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-hard-q5.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Hard Q5"></p>
+<figcaption>Original question page for 1.3 Choice Hard Q5</figcaption>
+</figure>
+</div>
+</details>
+<p>Hydroxyapatite contains calcium, hydroxide and phosphate ions. Which statement is correct?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>It contains only metallic bonding.</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Strontium forms covalent bonds with phosphate ions.</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Strontium ions are similar enough in size to replace calcium ions in the lattice.</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Phosphate ions are held together by metallic bonding.</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> Similar-sized ions can occupy similar lattice sites; the bonding between calcium/strontium ions and anions is ionic.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-hard-q6" class="mc-question" data-answer="A">
+<section id="question-33-conductivity-and-lattice-structure-1.3-choice-hard-q6" class="level3">
+<h3 class="anchored" data-anchor-id="question-33-conductivity-and-lattice-structure-1.3-choice-hard-q6">Question 33 · Conductivity and lattice structure · 1.3 Choice Hard Q6</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Hard Q6
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-hard-q6.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Hard Q6"></p>
+<figcaption>Original question page for 1.3 Choice Hard Q6</figcaption>
+</figure>
+</div>
+</details>
+<p>Which substance is expected to have a high melting point and conduct electricity when molten but not when solid?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>A giant ionic compound</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>A simple molecular compound</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>A noble gas</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>A molecular non-polar liquid</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>A.</strong> Strong ionic attractions give a high melting point; mobile ions in the molten state carry charge.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-hard-q7" class="mc-question" data-answer="D">
+<section id="question-34-expanded-electron-pair-arrangement-1.3-choice-hard-q7" class="level3">
+<h3 class="anchored" data-anchor-id="question-34-expanded-electron-pair-arrangement-1.3-choice-hard-q7">Question 34 · Expanded electron-pair arrangement · 1.3 Choice Hard Q7</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Hard Q7
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-hard-q7.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Hard Q7"></p>
+<figcaption>Original question page for 1.3 Choice Hard Q7</figcaption>
+</figure>
+</div>
+</details>
+<p>What is the shape of <span class="math inline">\(\ce{PF6-}\)</span>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Tetrahedral</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Trigonal pyramidal</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Trigonal bipyramidal</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Octahedral</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>D.</strong> Six bonding pairs around phosphorus repel to an octahedral arrangement.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-hard-q8" class="mc-question" data-answer="B">
+<section id="question-35-hydrogenation-of-an-alkene-1.3-choice-hard-q8" class="level3">
+<h3 class="anchored" data-anchor-id="question-35-hydrogenation-of-an-alkene-1.3-choice-hard-q8">Question 35 · Hydrogenation of an alkene · 1.3 Choice Hard Q8</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Hard Q8
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-hard-q8.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Hard Q8"></p>
+<figcaption>Original question page for 1.3 Choice Hard Q8</figcaption>
+</figure>
+</div>
+</details>
+<p>Which feature disappears when <span class="math inline">\(\ce{C2H4}\)</span> is converted to <span class="math inline">\(\ce{C2H6}\)</span> by hydrogenation?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>The C–C <span class="math inline">\(\sigma\)</span> bond</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>The C–C <span class="math inline">\(\pi\)</span> bond</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>All C–H <span class="math inline">\(\sigma\)</span> bonds</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>All electron pairs on carbon</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> Hydrogen adds across the double bond, converting the <span class="math inline">\(\pi\)</span> component into two new C–H bonds.
+</p>
+</details>
+</section>
+</div>
+<div id="bonding-choice-hard-q9" class="mc-question" data-answer="B">
+<section id="question-36-overall-dipole-and-symmetry-1.3-choice-hard-q9" class="level3">
+<h3 class="anchored" data-anchor-id="question-36-overall-dipole-and-symmetry-1.3-choice-hard-q9">Question 36 · Overall dipole and symmetry · 1.3 Choice Hard Q9</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 Choice Hard Q9
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-choice-hard-q9.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 Choice Hard Q9"></p>
+<figcaption>Original question page for 1.3 Choice Hard Q9</figcaption>
+</figure>
+</div>
+</details>
+<p>Which molecule has the largest overall dipole?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(\ce{CCl4}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(\ce{CH2Cl2}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(\ce{BF3}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(\ce{CO2}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> The tetrahedral <span class="math inline">\(\ce{CH2Cl2}\)</span> molecule is not symmetrical enough for its bond dipoles to cancel.
+</p>
+</details>
+</section>
+</div>
+</section>
+<section id="structured-questions" class="level2">
+<h2 class="anchored" data-anchor-id="structured-questions">Structured questions</h2>
+<section id="chemical-bonding---structured-questions-easy" class="level3">
+<h3 class="anchored" data-anchor-id="chemical-bonding---structured-questions-easy">3 Chemical bonding - Structured Questions: Easy</h3>
+</section>
+<section id="example-1-intermolecular-forces-1.3-sq-easy-q1" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-1-intermolecular-forces-1.3-sq-easy-q1">Example 1 · Intermolecular forces · 1.3 SQ Easy Q1</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 SQ Easy Q1
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-sq-easy-q1.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 SQ Easy Q1"></p>
+<figcaption>Original question page for 1.3 SQ Easy Q1</figcaption>
+</figure>
+</div>
+</details>
+<p><strong>(a)</strong> Name the three main types of intermolecular force and arrange them in increasing order of strength. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Methanol, <span class="math inline">\(\ce{CH3OH}\)</span>, is a small polar molecule. Describe how two methanol molecules form a hydrogen bond. Include the partial charges and the lone pair involved. <code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> London dispersion forces, permanent dipole–permanent dipole forces, hydrogen bonds, in that order.
+</li>
+<li>
+<strong>(b)</strong> Oxygen is <span class="math inline">\(\delta-\)</span> and the O–H hydrogen is <span class="math inline">\(\delta+\)</span>. The <span class="math inline">\(\delta+\)</span> hydrogen is attracted to a lone pair on the oxygen atom of a neighbouring molecule. A hydrogen bond is shown as a dashed line.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-2-hydrogen-bonding-in-water-and-ammonia-1.3-sq-easy-q2" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-2-hydrogen-bonding-in-water-and-ammonia-1.3-sq-easy-q2">Example 2 · Hydrogen bonding in water and ammonia · 1.3 SQ Easy Q2</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 SQ Easy Q2
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-sq-easy-q2.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 SQ Easy Q2"></p>
+<figcaption>Original question page for 1.3 SQ Easy Q2</figcaption>
+</figure>
+</div>
+</details>
+<p>Ammonia is very soluble in water.</p>
+<p><strong>(a)</strong> State why ammonia is polar. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Describe two possible hydrogen bonds between one water molecule and one ammonia molecule. <code>[4 marks]</code></p>
+<p><strong>(c)</strong> State one physical property of ammonia caused by its polarity. <code>[1 mark]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> N–H bonds are polar and the molecule is trigonal pyramidal, so the bond dipoles do not cancel.
+</li>
+<li>
+<strong>(b)</strong> A water <span class="math inline">\(\delta+\)</span> H can hydrogen-bond to the lone pair on N; an ammonia <span class="math inline">\(\delta+\)</span> H can hydrogen-bond to a lone pair on O. Partial charges and the dashed attractions must be shown correctly.
+</li>
+<li>
+<strong>(c)</strong> It is soluble in water, or has a higher boiling point than a similar non-polar molecule.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-3-dot-and-cross-diagrams-1.3-sq-easy-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-3-dot-and-cross-diagrams-1.3-sq-easy-q3">Example 3 · Dot-and-cross diagrams · 1.3 SQ Easy Q3</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 SQ Easy Q3
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-sq-easy-q3.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 SQ Easy Q3"></p>
+<figcaption>Original question page for 1.3 SQ Easy Q3</figcaption>
+</figure>
+</div>
+</details>
+<p>Draw dot-and-cross diagrams for <span class="math inline">\(\ce{H2}\)</span>, <span class="math inline">\(\ce{Cl2}\)</span> and <span class="math inline">\(\ce{HCl}\)</span>.</p>
+<p><strong>(a)</strong> Show the bonding pair and all lone pairs. <code>[3 marks]</code></p>
+<p><strong>(b)</strong> Explain why the H–Cl bond is polar. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> Each molecule must have one shared pair. <span class="math inline">\(\ce{H2}\)</span> has no lone pairs; each chlorine in <span class="math inline">\(\ce{Cl2}\)</span> has three lone pairs; chlorine in <span class="math inline">\(\ce{HCl}\)</span> has three lone pairs.
+</li>
+<li>
+<strong>(b)</strong> Chlorine is more electronegative than hydrogen, so the bonding pair is closer to chlorine, giving <span class="math inline">\(\ce{H^{\delta+}-Cl^{\delta-}}\)</span>.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-4-shapes-and-bond-angles-1.3-sq-easy-q4" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-4-shapes-and-bond-angles-1.3-sq-easy-q4">Example 4 · Shapes and bond angles · 1.3 SQ Easy Q4</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 SQ Easy Q4
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-sq-easy-q4.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 SQ Easy Q4"></p>
+<figcaption>Original question page for 1.3 SQ Easy Q4</figcaption>
+</figure>
+</div>
+</details>
+<p>For each species, state the number of bonding pairs, number of lone pairs on the central atom, shape and approximate bond angle: <span class="math inline">\(\ce{CO2}\)</span>, <span class="math inline">\(\ce{BF3}\)</span>, <span class="math inline">\(\ce{CH4}\)</span>, <span class="math inline">\(\ce{NH3}\)</span> and <span class="math inline">\(\ce{H2O}\)</span>. <code>[10 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<span class="math inline">\(\ce{CO2}\)</span>: 2 regions, 0 lone pairs, linear, <span class="math inline">\(180^\circ\)</span>.
+</li>
+<li>
+<span class="math inline">\(\ce{BF3}\)</span>: 3 bonding pairs, 0 lone pairs, trigonal planar, <span class="math inline">\(120^\circ\)</span>.
+</li>
+<li>
+<span class="math inline">\(\ce{CH4}\)</span>: 4 bonding pairs, 0 lone pairs, tetrahedral, <span class="math inline">\(109.5^\circ\)</span>.
+</li>
+<li>
+<span class="math inline">\(\ce{NH3}\)</span>: 3 bonding pairs, 1 lone pair, trigonal pyramidal, about <span class="math inline">\(107^\circ\)</span>.
+</li>
+<li>
+<span class="math inline">\(\ce{H2O}\)</span>: 2 bonding pairs, 2 lone pairs, bent, about <span class="math inline">\(104.5^\circ\)</span>.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-5-ionic-bonding-and-physical-properties-1.3-sq-easy-q5" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-5-ionic-bonding-and-physical-properties-1.3-sq-easy-q5">Example 5 · Ionic bonding and physical properties · 1.3 SQ Easy Q5</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 SQ Easy Q5
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-sq-easy-q5.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 SQ Easy Q5"></p>
+<figcaption>Original question page for 1.3 SQ Easy Q5</figcaption>
+</figure>
+</div>
+</details>
+<p>Sodium chloride is a giant ionic lattice.</p>
+<p><strong>(a)</strong> Describe the structure of solid sodium chloride. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Explain why solid sodium chloride does not conduct electricity but molten sodium chloride does. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> Explain why sodium chloride has a high melting point. <code>[1 mark]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> A regular three-dimensional lattice of oppositely charged <span class="math inline">\(\ce{Na+}\)</span> and <span class="math inline">\(\ce{Cl-}\)</span> ions; each ion is surrounded by ions of opposite charge.
+</li>
+<li>
+<strong>(b)</strong> Solid ions are fixed, whereas molten ions are mobile and can carry charge.
+</li>
+<li>
+<strong>(c)</strong> Strong electrostatic attractions between oppositely charged ions require much energy to overcome.
+</li>
+</ul>
+</details>
+</section>
+<section id="chemical-bonding---structured-questions-medium" class="level3">
+<h3 class="anchored" data-anchor-id="chemical-bonding---structured-questions-medium">3 Chemical bonding - Structured Questions: Medium</h3>
+</section>
+<section id="example-8-equilibrium-and-shape-of-cepcl3-1.3-sq-medium-q1" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-8-equilibrium-and-shape-of-cepcl3-1.3-sq-medium-q1">Example 8 · Equilibrium and shape of <span class="math inline">\(\ce{PCl3}\)</span> · 1.3 SQ Medium Q1</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 SQ Medium Q1
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-sq-medium-q1.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 SQ Medium Q1"></p>
+<figcaption>Original question page for 1.3 SQ Medium Q1</figcaption>
+</figure>
+</div>
+</details>
+<p>The equilibrium is:</p>
+<p><span class="math display">\[\ce{PCl5(g) &lt;=&gt; PCl3(g) + Cl2(g)}\]</span></p>
+<p>The yield of <span class="math inline">\(\ce{PCl3}\)</span> increases as temperature increases.</p>
+<p><strong>(a)</strong> State whether the forward reaction is endothermic or exothermic and explain. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> State the shape and bond angle around phosphorus in <span class="math inline">\(\ce{PCl3}\)</span>. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> Explain why the bond angle is less than <span class="math inline">\(109.5^\circ\)</span>. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> Endothermic; increasing temperature shifts equilibrium in the endothermic direction and increases the product yield.
+</li>
+<li>
+<strong>(b)</strong> Trigonal pyramidal; approximately <span class="math inline">\(107^\circ\)</span>.
+</li>
+<li>
+<strong>(c)</strong> There are three bonding pairs and one lone pair. Lone-pair–bond-pair repulsion is stronger than bond-pair–bond-pair repulsion and compresses the angle.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-9-polarity-and-properties-of-ammonia-1.3-sq-medium-q2" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-9-polarity-and-properties-of-ammonia-1.3-sq-medium-q2">Example 9 · Polarity and properties of ammonia · 1.3 SQ Medium Q2</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 SQ Medium Q2
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-sq-medium-q2.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 SQ Medium Q2"></p>
+<figcaption>Original question page for 1.3 SQ Medium Q2</figcaption>
+</figure>
+</div>
+</details>
+<p><strong>(a)</strong> Explain the meaning of bond polarity using ammonia as an example. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Explain why the ammonia molecule is polar. <code>[1 mark]</code></p>
+<p><strong>(c)</strong> State one physical property of ammonia caused by its polarity. <code>[1 mark]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> Nitrogen is more electronegative than hydrogen, so the shared electron pair in each N–H bond is displaced towards N, giving partial charges.
+</li>
+<li>
+<strong>(b)</strong> Ammonia is trigonal pyramidal, so the three N–H bond dipoles do not cancel.
+</li>
+<li>
+<strong>(c)</strong> High solubility in water, or a relatively high boiling point compared with a similar non-polar molecule.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-10-bonding-in-ammonium-chloride-1.3-sq-medium-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-10-bonding-in-ammonium-chloride-1.3-sq-medium-q3">Example 10 · Bonding in ammonium chloride · 1.3 SQ Medium Q3</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 SQ Medium Q3
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-sq-medium-q3.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 SQ Medium Q3"></p>
+<figcaption>Original question page for 1.3 SQ Medium Q3</figcaption>
+</figure>
+</div>
+</details>
+<p>When ammonia gas reacts with hydrogen chloride, solid ammonium chloride forms.</p>
+<p><strong>(a)</strong> State the types of bond present within one formula unit of <span class="math inline">\(\ce{NH4Cl}\)</span>. <code>[3 marks]</code></p>
+<p><strong>(b)</strong> State how many of each bond type are present if the coordinate bond is shown separately. <code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> Ionic attraction between <span class="math inline">\(\ce{NH4+}\)</span> and <span class="math inline">\(\ce{Cl-}\)</span>; covalent N–H bonds within ammonium; one of the N–H bonds is coordinate.
+</li>
+<li>
+<strong>(b)</strong> One ionic attraction type, four N–H covalent bonds in the ammonium ion, with one formed originally as a coordinate bond. The coordinate bond is chemically equivalent to the other N–H bonds after formation.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-11-surface-tension-and-hydrogen-bonding-1.3-sq-medium-q4" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-11-surface-tension-and-hydrogen-bonding-1.3-sq-medium-q4">Example 11 · Surface tension and hydrogen bonding · 1.3 SQ Medium Q4</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 SQ Medium Q4
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-sq-medium-q4.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 SQ Medium Q4"></p>
+<figcaption>Original question page for 1.3 SQ Medium Q4</figcaption>
+</figure>
+</div>
+</details>
+<p>A paperclip can float on water, but sinks after a small amount of soap is added.</p>
+<p>Explain both observations in terms of intermolecular forces. <code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<p>
+Water has high surface tension caused by hydrogen bonding between water molecules. The surface can support the paperclip if it is placed carefully. Soap disrupts the hydrogen-bond network and lowers surface tension, so the paperclip sinks.
+</p>
+</details>
+</section>
+<section id="example-12-comparing-boiling-points-1.3-sq-medium-q5" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-12-comparing-boiling-points-1.3-sq-medium-q5">Example 12 · Comparing boiling points · 1.3 SQ Medium Q5</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 SQ Medium Q5
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-sq-medium-q5.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 SQ Medium Q5"></p>
+<figcaption>Original question page for 1.3 SQ Medium Q5</figcaption>
+</figure>
+</div>
+</details>
+<p>Compare the boiling points of <span class="math inline">\(\ce{F2}\)</span> and <span class="math inline">\(\ce{HCl}\)</span>.</p>
+<p><strong>(a)</strong> Identify the intermolecular forces present in each substance. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Predict which has the lower boiling point. <code>[1 mark]</code></p>
+<p><strong>(c)</strong> Explain the difference. <code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> Both have London dispersion forces; HCl also has permanent dipole–permanent dipole forces.
+</li>
+<li>
+<strong>(b)</strong> <span class="math inline">\(\ce{F2}\)</span> has the lower boiling point.
+</li>
+<li>
+<strong>(c)</strong> HCl has stronger intermolecular attractions because it is polar, so more energy is required to separate its molecules.
+</li>
+</ul>
+</details>
+</section>
+<section id="chemical-bonding---structured-questions-hard" class="level3">
+<h3 class="anchored" data-anchor-id="chemical-bonding---structured-questions-hard">3 Chemical bonding - Structured Questions: Hard</h3>
+</section>
+<section id="example-14-nitrate-ion-and-resonance-1.3-sq-hard-q1" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-14-nitrate-ion-and-resonance-1.3-sq-hard-q1">Example 14 · Nitrate ion and resonance · 1.3 SQ Hard Q1</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 SQ Hard Q1
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-sq-hard-q1.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 SQ Hard Q1"></p>
+<figcaption>Original question page for 1.3 SQ Hard Q1</figcaption>
+</figure>
+</div>
+</details>
+<p>The nitrate ion is <span class="math inline">\(\ce{NO3-}\)</span>.</p>
+<p><strong>(a)</strong> Calculate the total number of valence electrons in one nitrate ion. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Describe how the electrons are arranged in a valid dot-and-cross structure. <code>[3 marks]</code></p>
+<p><strong>(c)</strong> Explain why the three N–O bonds are equivalent in the real ion. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> N contributes 5, three O atoms contribute 18 and the negative charge contributes one: total 24 electrons.
+</li>
+<li>
+<strong>(b)</strong> N is central, three O atoms are attached, the ion is placed in square brackets with a <span class="math inline">\(1-\)</span> charge, and the octet/charge arrangement is shown correctly. Equivalent resonance structures can be drawn with the double bond in different positions.
+</li>
+<li>
+<strong>(c)</strong> The actual ion is a resonance hybrid; the bonding electrons are delocalised over all three N–O bonds.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-15-methanamide-shape-and-angles-1.3-sq-hard-q2" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-15-methanamide-shape-and-angles-1.3-sq-hard-q2">Example 15 · Methanamide shape and angles · 1.3 SQ Hard Q2</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 SQ Hard Q2
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-sq-hard-q2.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 SQ Hard Q2"></p>
+<figcaption>Original question page for 1.3 SQ Hard Q2</figcaption>
+</figure>
+</div>
+</details>
+<p>Methanamide has formula <span class="math inline">\(\ce{HCONH2}\)</span>.</p>
+<p><strong>(a)</strong> State the shape and approximate bond angle around the carbon atom. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> State the shape and approximate bond angle around the nitrogen atom. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> Explain why the two shapes are different. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> The carbonyl carbon has three regions of electron density, so it is trigonal planar, about <span class="math inline">\(120^\circ\)</span>.
+</li>
+<li>
+<strong>(b)</strong> Nitrogen has three bonding pairs and one lone pair, so it is trigonal pyramidal, about <span class="math inline">\(107^\circ\)</span>.
+</li>
+<li>
+<strong>(c)</strong> The nitrogen lone pair gives four electron regions and stronger lone-pair repulsion; the carbon atom has three regions and no lone pair.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-16-coordinate-bonds-and-expanded-octets-1.3-sq-hard-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-16-coordinate-bonds-and-expanded-octets-1.3-sq-hard-q3">Example 16 · Coordinate bonds and expanded octets · 1.3 SQ Hard Q3</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 SQ Hard Q3
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-sq-hard-q3.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 SQ Hard Q3"></p>
+<figcaption>Original question page for 1.3 SQ Hard Q3</figcaption>
+</figure>
+</div>
+</details>
+<p><strong>(a)</strong> Explain how <span class="math inline">\(\ce{PCl6-}\)</span> can form from <span class="math inline">\(\ce{PCl5}\)</span> and <span class="math inline">\(\ce{Cl-}\)</span>. <code>[3 marks]</code></p>
+<p><strong>(b)</strong> State the shape of <span class="math inline">\(\ce{PCl6-}\)</span> and justify it using electron-pair repulsion. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> Explain why nitrogen cannot form <span class="math inline">\(\ce{NCl5}\)</span>. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> A lone pair on <span class="math inline">\(\ce{Cl-}\)</span> is donated to electron-deficient P, forming a coordinate P–Cl bond and the ion <span class="math inline">\(\ce{PCl6-}\)</span>.
+</li>
+<li>
+<strong>(b)</strong> Octahedral; six bonding pairs repel equally and occupy positions as far apart as possible.
+</li>
+<li>
+<strong>(c)</strong> Nitrogen is a Period 2 atom with no available d orbitals and cannot expand its octet beyond eight electrons.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-17-intermolecular-forces-between-water-and-ammonia-1.3-sq-hard-q4" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-17-intermolecular-forces-between-water-and-ammonia-1.3-sq-hard-q4">Example 17 · Intermolecular forces between water and ammonia · 1.3 SQ Hard Q4</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 SQ Hard Q4
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-sq-hard-q4.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 SQ Hard Q4"></p>
+<figcaption>Original question page for 1.3 SQ Hard Q4</figcaption>
+</figure>
+</div>
+</details>
+<p>Water and ammonia can form hydrogen bonds with each other.</p>
+<p><strong>(a)</strong> Draw or describe the partial charges on <span class="math inline">\(\ce{H2O}\)</span> and <span class="math inline">\(\ce{NH3}\)</span>. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Describe both possible directions of hydrogen bonding between the two molecules. <code>[4 marks]</code></p>
+<p><strong>(c)</strong> Explain why these interactions make ammonia highly soluble in water. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> O and N are <span class="math inline">\(\delta-\)</span>; bonded H atoms are <span class="math inline">\(\delta+\)</span>.
+</li>
+<li>
+<strong>(b)</strong> Water H can donate a hydrogen bond to the lone pair on N. Ammonia H can donate a hydrogen bond to a lone pair on O. Both attractions should be shown with dashed lines.
+</li>
+<li>
+<strong>(c)</strong> Strong attractions form between ammonia and water molecules, replacing some water–water and ammonia–ammonia attractions and allowing the molecules to mix.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-18-solid-cepcl5-and-liquid-cesbcl5-1.3-sq-hard-q5" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-18-solid-cepcl5-and-liquid-cesbcl5-1.3-sq-hard-q5">Example 18 · Solid <span class="math inline">\(\ce{PCl5}\)</span> and liquid <span class="math inline">\(\ce{SbCl5}\)</span> · 1.3 SQ Hard Q5</h3>
+<details class="source-preview">
+<summary>
+Original question page · 1.3 SQ Hard Q5
+</summary>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-3-sq-hard-q5.png" class="question-figure img-fluid figure-img" alt="Original question page 1.3 SQ Hard Q5"></p>
+<figcaption>Original question page for 1.3 SQ Hard Q5</figcaption>
+</figure>
+</div>
+</details>
+<p>Solid phosphorus(V) chloride has a higher melting point than liquid antimony(V) chloride.</p>
+<p><strong>(a)</strong> State the particles and bonding in solid <span class="math inline">\(\ce{PCl5}\)</span>. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> State the particles and intermolecular forces in liquid <span class="math inline">\(\ce{SbCl5}\)</span>. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> Explain the difference in melting points. <code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> Solid <span class="math inline">\(\ce{PCl5}\)</span> contains <span class="math inline">\(\ce{PCl4+}\)</span> and <span class="math inline">\(\ce{PCl6-}\)</span> ions in a giant ionic lattice with strong ionic attractions.
+</li>
+<li>
+<strong>(b)</strong> Liquid <span class="math inline">\(\ce{SbCl5}\)</span> contains covalent molecules held together by relatively weak intermolecular forces.
+</li>
+<li>
+<strong>(c)</strong> More energy is needed to overcome strong ionic attractions in solid <span class="math inline">\(\ce{PCl5}\)</span> than weak intermolecular forces between <span class="math inline">\(\ce{SbCl5}\)</span> molecules.
+</li>
+</ul>
+</details>
+</section>
+</section>
+<section id="original-question-pdfs" class="level2">
+<h2 class="anchored" data-anchor-id="original-question-pdfs">Original question PDFs</h2>
+<ul>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/chemical-bonding/1.3-chemical-bonding-choice-easy.pdf">1.3 Chemical Bonding - Choice - Easy</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/chemical-bonding/1.3-chemical-bonding-choice-medium.pdf">1.3 Chemical Bonding - Choice - Medium</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/chemical-bonding/1.3-chemical-bonding-choice-hard.pdf">1.3 Chemical Bonding - Choice - Hard</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/chemical-bonding/1.3-chemical-bonding-sq-easy.pdf">1.3 Chemical Bonding - Structured Questions - Easy</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/chemical-bonding/1.3-chemical-bonding-sq-medium.pdf">1.3 Chemical Bonding - Structured Questions - Medium</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/chemical-bonding/1.3-chemical-bonding-sq-hard.pdf">1.3 Chemical Bonding - Structured Questions - Hard</a></li>
+</ul>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
