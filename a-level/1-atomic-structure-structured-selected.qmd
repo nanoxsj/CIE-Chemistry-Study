@@ -2,9 +2,6 @@
 
 ::: {.question-card}
 ### Example 1 · Subatomic particles and isotopes · 1.1 SQ Easy Q1
-<details class="source-preview"><summary>Original question page · 1.1 SQ Easy Q1</summary>
-![Original question page for 1.1 SQ Easy Q1](../assets/questions/original-source/1-1-sq-easy-q1.png){.question-figure fig-alt="Original question page 1.1 SQ Easy Q1"}
-</details>
 
 **(a)** Complete the relative charge and relative mass of the proton, neutron and electron. `[4 marks]`
 
@@ -21,9 +18,6 @@
 
 ::: {.question-card}
 ### Example 2 · Aluminium and orbitals · 1.1 SQ Easy Q3
-<details class="source-preview"><summary>Original question page · 1.1 SQ Easy Q3</summary>
-![Original question page for 1.1 SQ Easy Q3](../assets/questions/original-source/1-1-sq-easy-q3.png){.question-figure fig-alt="Original question page 1.1 SQ Easy Q3"}
-</details>
 
 Aluminium is a Group 13 metal.
 
@@ -46,9 +40,6 @@ Aluminium is a Group 13 metal.
 
 ::: {.question-card}
 ### Example 3 · Electric fields and particle counts · 1.1 SQ Easy Q5
-<details class="source-preview"><summary>Original question page · 1.1 SQ Easy Q5</summary>
-![Original question page for 1.1 SQ Easy Q5](../assets/questions/original-source/1-1-sq-easy-q5.png){.question-figure fig-alt="Original question page 1.1 SQ Easy Q5"}
-</details>
 
 Particles with the same velocity pass through an electric field.
 
@@ -67,9 +58,6 @@ Particles with the same velocity pass through an electric field.
 
 ::: {.question-card}
 ### Example 4 · Atomic and nucleon numbers · 1.1 SQ Medium Q1
-<details class="source-preview"><summary>Original question page · 1.1 SQ Medium Q1</summary>
-![Original question page for 1.1 SQ Medium Q1](../assets/questions/original-source/1-1-sq-medium-q1.png){.question-figure fig-alt="Original question page 1.1 SQ Medium Q1"}
-</details>
 
 **(a)** Complete the table for atomic number 9, nucleon number 19, 10 electrons and for atomic number 13, nucleon number 27, 13 electrons. `[2 marks]`
 
@@ -86,9 +74,6 @@ Particles with the same velocity pass through an electric field.
 
 ::: {.question-card}
 ### Example 5 · Gold atoms, isotopes and orbitals · 1.1 SQ Medium Q2
-<details class="source-preview"><summary>Original question page · 1.1 SQ Medium Q2</summary>
-![Original question page for 1.1 SQ Medium Q2](../assets/questions/original-source/1-1-sq-medium-q2.png){.question-figure fig-alt="Original question page 1.1 SQ Medium Q2"}
-</details>
 
 For an atom of $^{197}_{79}\ce{Au}$:
 
@@ -109,9 +94,6 @@ For an atom of $^{197}_{79}\ce{Au}$:
 
 ::: {.question-card}
 ### Example 6 · First ionisation energy and Period 3 · 1.1 SQ Medium Q3
-<details class="source-preview"><summary>Original question page · 1.1 SQ Medium Q3</summary>
-![Original question page for 1.1 SQ Medium Q3](../assets/questions/original-source/1-1-sq-medium-q3.png){.question-figure fig-alt="Original question page 1.1 SQ Medium Q3"}
-</details>
 
 **(a)** Define first ionisation energy and write the equation for aluminium. `[3 marks]`
 
@@ -128,9 +110,6 @@ For an atom of $^{197}_{79}\ce{Au}$:
 
 ::: {.question-card}
 ### Example 7 · Periodic trends and successive ionisation · 1.1 SQ Hard Q1
-<details class="source-preview"><summary>Original question page · 1.1 SQ Hard Q1</summary>
-![Original question page for 1.1 SQ Hard Q1](../assets/questions/original-source/1-1-sq-hard-q1.png){.question-figure fig-alt="Original question page 1.1 SQ Hard Q1"}
-</details>
 
 Identify an element that fits each description: (i) forms a $2-$ ion with the same configuration as Ne; (ii) Period 3 element with the highest boiling point; (iii) largest atomic radius in the first three periods; (iv) highest first ionisation energy; (v) Period 3 element with successive ionisation energies 738, 1451, 7733 and 10541 $\mathrm{kJ\ mol^{-1}}$.
 
@@ -145,9 +124,6 @@ Identify an element that fits each description: (i) forms a $2-$ ion with the sa
 
 ::: {.question-card}
 ### Example 8 · Oxygen shells and electron configurations · 1.1 SQ Hard Q2
-<details class="source-preview"><summary>Original question page · 1.1 SQ Hard Q2</summary>
-![Original question page for 1.1 SQ Hard Q2](../assets/questions/original-source/1-1-sq-hard-q2.png){.question-figure fig-alt="Original question page 1.1 SQ Hard Q2"}
-</details>
 
 Successive ionisation energies of oxygen are 1314, 3388, 5301, 7469, 10989, 13327, 71337 and 84080 $\mathrm{kJ\ mol^{-1}}$.
 
@@ -162,9 +138,6 @@ Successive ionisation energies of oxygen are 1314, 3388, 5301, 7469, 10989, 1332
 
 ::: {.question-card}
 ### Example 9 · Period 2 radii and Group 2 · 1.1 SQ Hard Q4
-<details class="source-preview"><summary>Original question page · 1.1 SQ Hard Q4</summary>
-![Original question page for 1.1 SQ Hard Q4](../assets/questions/original-source/1-1-sq-hard-q4.png){.question-figure fig-alt="Original question page 1.1 SQ Hard Q4"}
-</details>
 
 | Element | Li | Be | B | C | N | O | F |
 |---|---:|---:|---:|---:|---:|---:|---:|
@@ -185,9 +158,6 @@ Successive ionisation energies of oxygen are 1314, 3388, 5301, 7469, 10989, 1332
 
 ::: {.question-card}
 ### Example 10 · Oxygen and carbon orbitals · 1.1 SQ Hard Q5
-<details class="source-preview"><summary>Original question page · 1.1 SQ Hard Q5</summary>
-![Original question page for 1.1 SQ Hard Q5](../assets/questions/original-source/1-1-sq-hard-q5.png){.question-figure fig-alt="Original question page 1.1 SQ Hard Q5"}
-</details>
 
 **(a)** Identify and draw the subshell containing the highest-energy occupied electrons in oxygen.
 

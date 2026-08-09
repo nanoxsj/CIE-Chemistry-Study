@@ -1,0 +1,139 @@
+---
+title: "6 Electrochemistry"
+subtitle: "Oxidation numbers, redox reactions and disproportionation"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+# 6 Electrochemistry
+
+本章对应 CIE 9701 AS Chemistry 的 **Electrochemistry**，重点是用 oxidation numbers 和 electron transfer 判断并解释 redox reactions。
+
+## Learning objectives
+
+学完本章后，你应该能够：
+
+- calculate oxidation numbers using the standard rules;
+- identify oxidation, reduction, oxidising agents and reducing agents;
+- recognise disproportionation reactions;
+- balance redox equations using changes in oxidation number;
+- explain halogen displacement and reactions with concentrated sulfuric acid;
+- use ionic equations and half-equations to explain electron transfer.
+
+## 6.1 Oxidation numbers
+
+::: {.study-card}
+### Core rules
+
+The oxidation number of an uncombined element is zero. The sum of oxidation numbers in a neutral compound is zero; in a polyatomic ion it equals the charge of the ion.
+
+Useful rules are:
+
+- a Group 1 metal is usually $+1$ and a Group 2 metal is usually $+2$;
+- fluorine is always $-1$ in compounds;
+- oxygen is usually $-2$, except in peroxides and compounds with fluorine;
+- hydrogen is usually $+1$, but is $-1$ in metal hydrides;
+- a simple ion has an oxidation number equal to its charge.
+:::
+
+::: {.worked-example}
+<span class="we-tag">Worked example - Sulfate ion</span>
+
+### Oxidation number of sulfur in $\ce{SO4^{2-}}$
+
+The four oxygen atoms contribute $4(-2)=-8$. The ion has charge $-2$, so:
+
+$$x-8=-2\qquad x=+6$$
+
+Sulfur is therefore in oxidation state $+6$.
+:::
+
+## 6.2 Oxidation and reduction
+
+Oxidation is loss of electrons and an increase in oxidation number. Reduction is gain of electrons and a decrease in oxidation number. Remember **OIL RIG**: oxidation is loss, reduction is gain.
+
+The substance that is oxidised is the **reducing agent**, because it supplies electrons. The substance that is reduced is the **oxidising agent**, because it accepts electrons.
+
+For example:
+
+$$\ce{Mg(s) + Fe^{2+}(aq) -> Mg^{2+}(aq) + Fe(s)}$$
+
+Magnesium changes from $0$ to $+2$, so it is oxidised and is the reducing agent. Iron changes from $+2$ to $0$, so $\ce{Fe^{2+}}$ is reduced and is the oxidising agent.
+
+## 6.3 Disproportionation
+
+A disproportionation reaction is a redox reaction in which the same element in one reactant is both oxidised and reduced.
+
+For chlorine in cold aqueous sodium hydroxide:
+
+$$\ce{Cl2 + 2OH^- -> Cl^- + ClO^- + H2O}$$
+
+Chlorine changes from $0$ to $-1$ in $\ce{Cl^-}$ and from $0$ to $+1$ in $\ce{ClO^-}$, so chlorine disproportionates.
+
+For hot aqueous sodium hydroxide, chlorate(V) is formed instead:
+
+$$\ce{3Cl2 + 6OH^- -> 5Cl^- + ClO3^- + 3H2O}$$
+
+The chlorine oxidation numbers are $0$, $-1$ and $+5$.
+
+## 6.4 Balancing redox equations
+
+Use the following sequence:
+
+1. assign oxidation numbers to the changing elements;
+2. identify the increase and decrease in oxidation number;
+3. multiply species so that total increase equals total decrease;
+4. balance the remaining atoms and then the charge using $\ce{H2O}$, $\ce{H+}$ or $\ce{OH^-}$ as appropriate;
+5. check atoms and total charge on both sides.
+
+For example, in acidic solution:
+
+$$\ce{2MnO4^- + 5SO2 + 2H2O -> 2Mn^{2+} + 5SO4^{2-} + 4H+}$$
+
+Manganese changes from $+7$ to $+2$ and sulfur changes from $+4$ to $+6$. The five-electron reduction of each manganese balances the two-electron oxidation of each sulfur.
+
+## 6.5 Halogens and reducing power
+
+The oxidising power of the halogens decreases down Group 17:
+
+$$\ce{F2 > Cl2 > Br2 > I2}$$
+
+Therefore chlorine can oxidise bromide and iodide ions, but iodine cannot oxidise bromide ions:
+
+$$\ce{Cl2 + 2I^- -> 2Cl^- + I2}$$
+
+The reducing power of the halide ions increases down the group:
+
+$$\ce{F^- < Cl^- < Br^- < I^-}$$
+
+Larger halide ions have more shielding and their outer electron is further from the nucleus, so it is easier to remove.
+
+Concentrated sulfuric acid is both an acid and an oxidising agent. It reacts with chloride ions mainly as an acid, but bromide and iodide ions are strong enough reducing agents to reduce sulfuric acid to sulfur dioxide, sulfur or hydrogen sulfide.
+
+## Chapter checklist
+
+- [ ] I can calculate oxidation numbers in compounds and ions.
+- [ ] I can distinguish oxidation from reduction using electrons and oxidation numbers.
+- [ ] I can identify oxidising and reducing agents.
+- [ ] I can recognise and explain disproportionation.
+- [ ] I can balance redox equations and check charge.
+- [ ] I can explain halogen displacement and halide reducing power.
+
+## Multiple choice questions
+
+{{< include 6-electrochemistry-choice.qmd >}}
+
+## Structured questions
+
+{{< include 6-electrochemistry-structured-selected.qmd >}}
+
+## Original question PDFs
+
+- [1.6 Electrochemistry - Choice - Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/electrochemistry/1.6-electrochemistry-choice-easy.pdf)
+- [1.6 Electrochemistry - Choice - Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/electrochemistry/1.6-electrochemistry-choice-medium.pdf)
+- [1.6 Electrochemistry - Choice - Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/electrochemistry/1.6-electrochemistry-choice-hard.pdf)
+- [1.6 Electrochemistry - Structured Questions - Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/electrochemistry/1.6-electrochemistry-sq-easy.pdf)
+- [1.6 Electrochemistry - Structured Questions - Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/electrochemistry/1.6-electrochemistry-sq-medium.pdf)
+- [1.6 Electrochemistry - Structured Questions - Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/electrochemistry/1.6-electrochemistry-sq-hard.pdf)

@@ -1,0 +1,225 @@
+### 7 Equilibria - Multiple Choice: Easy
+
+::: {.mc-question #equilibria-choice-easy-q1 data-answer="B"}
+### Question 1 · Pressure and temperature · 1.7 Choice Easy Q1
+
+For the equilibrium reaction $$\ce{N2O4(g) <=> 2NO2(g)}$$ which conditions give the greatest equilibrium yield of nitrogen dioxide?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>high pressure and low temperature</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>low pressure and high temperature</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>high pressure and high temperature</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>low pressure and low temperature</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> The forward reaction is endothermic and produces more gas moles, so high temperature and low pressure favour NO<sub>2</sub>.</p></details>
+:::
+
+::: {.mc-question #equilibria-choice-easy-q2 data-answer="B"}
+### Question 2 · Contact process · 1.7 Choice Easy Q2
+
+In the Contact process, $$\ce{2SO2(g) + O2(g) <=> 2SO3(g)}\qquad \Delta H=-197\ \mathrm{kJ\ mol^{-1}}$$ Which statement is correct?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Increasing temperature increases the equilibrium yield of SO<sub>3</sub>.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Increasing temperature decreases the equilibrium yield of SO<sub>3</sub>.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>An iron catalyst changes the equilibrium position.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Increasing pressure decreases the equilibrium yield of SO<sub>3</sub>.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> The forward reaction is exothermic, so increasing temperature shifts equilibrium to the left. The industrial catalyst is vanadium(V) oxide and does not change the equilibrium position.</p></details>
+:::
+
+::: {.mc-question #equilibria-choice-easy-q3 data-answer="C"}
+### Question 3 · Dynamic equilibrium · 1.7 Choice Easy Q3
+
+Which statement describes a dynamic equilibrium?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>The forward reaction has stopped.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>The concentrations of reactants and products are equal.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>The forward and reverse reaction rates are equal in a closed system.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Only products are present.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Both reactions continue, but at equal rates; the concentrations therefore remain constant.</p></details>
+:::
+
+::: {.mc-question #equilibria-choice-easy-q4 data-answer="D"}
+### Question 4 · Partial pressures · 1.7 Choice Easy Q4
+
+For $$\ce{A(g) + B(g) <=> 2C(g)}$$ the total pressure is 3.0 atm. If the partial pressure of A is 0.50 atm and A and B have equal partial pressures, what is the partial pressure of C?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>0.50 atm</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1.00 atm</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>1.50 atm</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>2.00 atm</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> The partial pressures of A and B total 1.0 atm, so C contributes 3.0−1.0=2.0 atm.</p></details>
+:::
+
+::: {.mc-question #equilibria-choice-easy-q5 data-answer="C"}
+### Question 5 · Haber process equipment · 1.7 Choice Easy Q5
+
+What is the purpose of the heat exchanger in the Haber process?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>It increases the temperature of the reacting gases.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>It removes nitrogen before the reaction.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>It cools the products and helps ammonia condense from unreacted gases.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>It changes the value of K<sub>c</sub>.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Hot products transfer heat to the incoming gases, then ammonia is cooled and separated while unreacted nitrogen and hydrogen are recycled.</p></details>
+:::
+
+::: {.mc-question #equilibria-choice-easy-q6 data-answer="C"}
+### Question 6 · Ethanol manufacture · 1.7 Choice Easy Q6
+
+Ethanol is manufactured by reacting steam with ethene:
+
+$$\ce{C2H4(g) + H2O(g) <=> C2H5OH(g)}\qquad \Delta H=-45\ \mathrm{kJ\ mol^{-1}}$$
+
+Which changes would increase the equilibrium yield of ethanol?
+
+1. Adding a catalyst.
+2. Increasing the pressure.
+3. Decreasing the temperature.
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 3</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1, 2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> The product side has fewer gas molecules and the forward reaction is exothermic. A catalyst changes rate, not equilibrium yield.</p></details>
+:::
+
+::: {.mc-question #equilibria-choice-easy-q7 data-answer="D"}
+### Question 7 · Equilibrium constant and temperature · 1.7 Choice Easy Q7
+
+Propyl ethanoate is formed in the esterification reaction:
+
+$$\ce{propan-1-ol + ethanoic\ acid <=> propyl\ ethanoate + water}\qquad \Delta H=-10\ \mathrm{kJ\ mol^{-1}}$$
+
+How can the value of K<sub>c</sub> be increased?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Adding a catalyst</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Increasing pressure</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Increasing the concentration of an ester</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Decreasing temperature</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> For an exothermic forward reaction, lowering temperature favours products and increases K<sub>c</sub>. Pressure, concentration and catalysts do not change K<sub>c</sub>.</p></details>
+:::
+
+### 7 Equilibria - Multiple Choice: Medium
+
+::: {.mc-question #equilibria-choice-medium-q1 data-answer="A"}
+### Question 8 · Calculating K<sub>c</sub> · 1.7 Choice Medium Q1
+
+At 450 °C the value for K<sub>c</sub> for $$\ce{H2(g) + I2(g) <=> 2HI(g)}$$ is 60. The equilibrium amounts of H<sub>2</sub> and I<sub>2</sub> are 2.0 mol and 0.30 mol, respectively. How many moles of HI are present at equilibrium in a 2 dm<sup>3</sup> vessel?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>6.0 mol dm<sup>−3</sup></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>18 mol dm<sup>−3</sup></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>36 mol dm<sup>−3</sup></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>120 mol dm<sup>−3</sup></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> $60=[\ce{HI}]^2/(2.0\times0.30)$, so [HI]=6.0 mol dm<sup>−3</sup>.</p></details>
+:::
+
+::: {.mc-question #equilibria-choice-medium-q2 data-answer="B"}
+### Question 9 · Units of K<sub>c</sub> · 1.7 Choice Medium Q2
+
+What are the units of K<sub>c</sub> for $$\ce{2CH4(g) <=> 3H2(g) + C2H2(g)}$$?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>mol dm<sup>−3</sup></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>mol<sup>2</sup> dm<sup>−6</sup></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>mol<sup>−2</sup> dm<sup>6</sup></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>no units</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> The total power of concentration is 4−2=2, giving mol<sup>2</sup> dm<sup>−6</sup>.</p></details>
+:::
+
+::: {.mc-question #equilibria-choice-medium-q3 data-answer="A"}
+### Question 10 · K<sub>p</sub> · 1.7 Choice Medium Q3
+
+For $$\ce{N2O4(g) <=> 2NO2(g)}$$ the equilibrium partial pressures are p(N<sub>2</sub>O<sub>4</sub>) = 0.33 atm and p(NO<sub>2</sub>) = 0.67 atm. What is K<sub>p</sub>?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1.36 atm</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>0.49 atm</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>0.22 atm</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>0.074 atm</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> $K_p=p(\ce{NO2})^2/p(\ce{N2O4})=0.67^2/0.33=1.36$.</p></details>
+:::
+
+::: {.mc-question #equilibria-choice-medium-q4 data-answer="D"}
+### Question 11 · Equilibrium composition · 1.7 Choice Medium Q4
+
+Nitrogen monoxide and oxygen can be formed from the thermal decomposition of nitrogen dioxide:
+
+$$\ce{2NO2(g) <=> 2NO(g) + O2(g)}$$
+
+In an experiment 4.0 mol of nitrogen dioxide are put into a 1 dm<sup>3</sup> container. The equilibrium mixture contains 0.8 mol of oxygen. What is the value of K<sub>c</sub>?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$0.87\times0.8/4^2$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$1.6\times0.8/2.4^2$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$1.67\times0.8/2.4^2$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$1.6^2\times0.8/2.4^2$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> At equilibrium [NO<sub>2</sub>] = 2.4, [NO] = 1.6 and [O<sub>2</sub>] = 0.8 mol dm<sup>−3</sup>. Thus $K_c=(1.6^2\times0.8)/(2.4^2)$.</p></details>
+:::
+
+::: {.mc-question #equilibria-choice-medium-q5 data-answer="C"}
+### Question 12 · Contact process stages · 1.7 Choice Medium Q5
+
+Which statement about the Contact process is correct?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>All three stages are reversible.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>All three stages are endothermic.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>The oxidation of sulfur dioxide is reversible and exothermic.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>The catalyst increases the equilibrium yield of sulfur trioxide.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Sulfur dioxide is oxidised to sulfur trioxide in the reversible, exothermic middle stage; the catalyst only increases rate.</p></details>
+:::
+
+::: {.mc-question #equilibria-choice-medium-q6 data-answer="B"}
+### Question 13 · Temperature, pressure and volume · 1.7 Choice Medium Q6
+
+For a dissociation reaction in which the forward reaction is endothermic and produces more gas molecules, what happens when temperature is increased at constant pressure?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Equilibrium shifts left and volume decreases.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Equilibrium shifts right and volume increases.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Equilibrium shifts left and volume increases.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Equilibrium shifts right and volume decreases.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Higher temperature favours the endothermic direction. At constant pressure, the increased temperature also causes thermal expansion.</p></details>
+:::
+
+::: {.mc-question #equilibria-choice-medium-q7 data-answer="B"}
+### Question 14 · Strong and weak acids · 1.7 Choice Medium Q7
+
+Solutions P and Q each have concentration 2.0 mol dm<sup>−3</sup>. P has pH 9 and Q has pH 6. Which statement is correct?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Q is a strong acid.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Q has a lower percentage dissociation than P.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>P has a higher hydrogen-ion concentration than Q.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>P and Q must be the same acid.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> P is alkaline and Q is acidic. At the same formal concentration, a weak acid has a smaller percentage dissociation than a weak base can have in the corresponding comparison.</p></details>
+:::
+
+### 7 Equilibria - Multiple Choice: Hard
+
+::: {.mc-question #equilibria-choice-hard-q1 data-answer="D"}
+### Question 15 · K<sub>2</sub>O titration · 1.7 Choice Hard Q1
+
+Use of the periodic table is relevant to this question. A sample of potassium oxide, K<sub>2</sub>O, is dissolved in 500 cm<sup>3</sup> of distilled water. 25.0 cm<sup>3</sup> of this solution is titrated against sulfuric acid of concentration 1.5 mol dm<sup>−3</sup>. 20.0 cm<sup>3</sup> of sulfuric acid is needed for complete neutralisation. What is the mass of potassium oxide originally dissolved in 500 cm<sup>3</sup> of distilled water?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>2.83 g</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>28.3 g</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>47.1 g</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>56.6 g</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> In 20.0 cm<sup>3</sup>, $n(\ce{H2SO4})=1.5\times0.0200=0.0300$ mol, so the 25.0 cm<sup>3</sup> portion contains 0.0600 mol KOH. The 500 cm<sup>3</sup> solution therefore contains 1.20 mol KOH and 0.600 mol K<sub>2</sub>O. Its mass is approximately $0.600\times94=56.6$ g.</p></details>
+:::
+
+::: {.mc-question #equilibria-choice-hard-q2 data-answer="D"}
+### Question 16 · Methanol equilibrium · 1.7 Choice Hard Q2
+
+For $$\ce{CO(g) + 2H2(g) <=> CH3OH(g)}$$ a dynamic equilibrium is set up in a 2 dm<sup>3</sup> sealed vessel. At equilibrium there are 6.20×10<sup>−3</sup> mol CO, 4.80×10<sup>−3</sup> mol H<sub>2</sub> and 5.20×10<sup>−5</sup> mol CH<sub>3</sub>OH. Where has the equilibrium shifted, and what is the value of K<sub>c</sub>?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>To the right, K<sub>c</sub> = 364</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>To the left, K<sub>c</sub> = 364</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>To the left, K<sub>c</sub> = 14.56</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>To the right, K<sub>c</sub> = 14.56</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Substituting concentrations into $K_c=[\ce{CH3OH}]/([\ce{CO}][\ce{H2}]^2)$ gives approximately 14.6; the small methanol amount reflects the starting composition and stoichiometry, not a K<sub>c</sub> below 1.</p></details>
+:::
+
+::: {.mc-question #equilibria-choice-hard-q3 data-answer="C"}
+### Question 17 · Percentage yield · 1.7 Choice Hard Q3
+
+Gaseous reactants A and B react to form gaseous product C in a 3:2 ratio in a 5 dm<sup>3</sup> container. In an experiment, 1.0 mol of A and 1.0 mol of B are used. At equilibrium, only 10% of A has reacted. What is the equilibrium concentration of C?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>0.010 mol dm<sup>−3</sup></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>0.020 mol dm<sup>−3</sup></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>0.040 mol dm<sup>−3</sup></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>0.200 mol dm<sup>−3</sup></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> 0.10 mol A reacts and forms 0.20 mol C. Dividing by 5.0 dm<sup>3</sup> gives 0.040 mol dm<sup>−3</sup>.</p></details>
+:::
+
+::: {.mc-question #equilibria-choice-hard-q4 data-answer="A"}
+### Question 18 · Oxygen binding · 1.7 Choice Hard Q4
+
+For $$\ce{Hb + 4O2 <=> Hb(O2)4}$$ the equilibrium concentrations of Hb and Hb(O<sub>2</sub>)<sub>4</sub> are equal. If [O<sub>2</sub>] = 6.7×10<sup>−6</sup> mol dm<sup>−3</sup>, what is K<sub>c</sub>?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>5×10<sup>20</sup> dm<sup>12</sup> mol<sup>−4</sup></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>2×10<sup>−5</sup> dm<sup>12</sup> mol<sup>−4</sup></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>1.5×10<sup>5</sup> dm<sup>3</sup> mol<sup>−1</sup></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>6.7×10<sup>−6</sup> dm<sup>3</sup> mol<sup>−1</sup></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> $K_c=[\ce{Hb(O2)4}]/([\ce{Hb}][\ce{O2}]^4)=1/[\ce{O2}]^4$, which is approximately 5×10<sup>20</sup>.</p></details>
+:::
+
+::: {.mc-question #equilibria-choice-hard-q5 data-answer="B"}
+### Question 19 · Solids omitted from K<sub>c</sub> · 1.7 Choice Hard Q5
+
+An aqueous solution contains 1.0 mol silver nitrate and 1.0 mol iron(II) sulfate in a 2.00 dm<sup>3</sup> container. At equilibrium there are 0.44 mol silver ions:
+
+$$\ce{Ag+(aq) + Fe^{2+}(aq) <=> Ag(s) + Fe^{3+}(aq)}$$
+
+What is the numerical value of K<sub>c</sub>?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>579</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>5.79 mol<sup>−1</sup> dm<sup>3</sup></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>1.27 mol<sup>−1</sup> dm<sup>3</sup></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1.27</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> At equilibrium [Ag<sup>+</sup>] = [Fe<sup>2+</sup>] = 0.44/2.00 and [Fe<sup>3+</sup>] = 0.56/2.00 mol dm<sup>−3</sup>. Pure silver is omitted, giving $K_c=5.79\ \mathrm{mol^{-1}\ dm^3}$.</p></details>
+:::
+
+::: {.mc-question #equilibria-choice-hard-q6 data-answer="C"}
+### Question 20 · Haber process calculation · 1.7 Choice Hard Q6
+
+In the Haber process, 560 kg of nitrogen and 120 kg of hydrogen are mixed. At equilibrium, 96 kg of hydrogen remains. What mass of ammonia is formed?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>4.53×10<sup>4</sup> g</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>9.07×10<sup>4</sup> g</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>1.36×10<sup>5</sup> g</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>2.72×10<sup>5</sup> g</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Hydrogen consumed is 24 kg = 12 000 mol. From $\ce{N2: H2: NH3}=1:3:2$, ammonia formed is 8000 mol = 136 000 g.</p></details>
+:::

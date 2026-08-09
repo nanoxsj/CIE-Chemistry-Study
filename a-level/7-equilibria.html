@@ -1,0 +1,2002 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hans" xml:lang="zh-Hans"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>7 Equilibria – CIE Chemistry 9701</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../a-level/8-reaction-kinetics.html" rel="next">
+<link href="../a-level/6-electrochemistry.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a2a938b4dd5711f7a799c87bd16ba44c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "没有结果",
+    "search-matching-documents-text": "匹配的文档",
+    "search-copy-link-title": "复制搜索链接",
+    "search-hide-matches-text": "隐藏其它匹配结果",
+    "search-more-match-text": "更多匹配结果",
+    "search-more-matches-text": "更多匹配结果",
+    "search-clear-button-title": "清除",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "提交",
+    "search-label": "搜索"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../a-level/1-atomic-structure.html">AS Level</a></li><li class="breadcrumb-item"><a href="../a-level/7-equilibria.html">7 Equilibria</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="搜索" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">CIE Chemistry 9701</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="搜索"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">学习首页</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">AS Level</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/1-atomic-structure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1 Atomic structure</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/2-atoms-molecules-stoichiometry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2 Atoms, molecules and stoichiometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/3-chemical-bonding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3 Chemical bonding</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/4-states-of-matter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4 States of matter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/5-chemical-energetics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5 Chemical energetics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/6-electrochemistry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6 Electrochemistry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/7-equilibria.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">7 Equilibria</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/8-reaction-kinetics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8 Reaction kinetics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/9-periodic-table-chemical-periodicity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9 The Periodic Table: chemical periodicity</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">A Level</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/23-chemical-energetics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">23 Chemical energetics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/24-electrochemistry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">24 Electrochemistry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/25-equilibria.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">25 Equilibria</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/26-reaction-kinetics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">26 Reaction kinetics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/27-group-2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">27 Group 2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/28-transition-elements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">28 Chemistry of transition elements</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/29-organic-chemistry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">29 An introduction to A Level organic chemistry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/30-hydrocarbons.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">30 Hydrocarbons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/31-halogen-compounds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">31 Halogen compounds</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/32-hydroxy-compounds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">32 Hydroxy compounds</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/33-carboxylic-acids-and-derivatives.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">33 Carboxylic acids and derivatives</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/34-nitrogen-compounds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">34 Nitrogen compounds</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/35-polymerisation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">35 Polymerisation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/36-organic-synthesis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">36 Organic synthesis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/37-analytical-techniques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">37 Analytical techniques</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">该页面内容</h2>
+   
+  <ul>
+  <li><a href="#equilibria" id="toc-equilibria" class="nav-link active" data-scroll-target="#equilibria">7 Equilibria</a>
+  <ul class="collapse">
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
+  <li><a href="#dynamic-equilibrium" id="toc-dynamic-equilibrium" class="nav-link" data-scroll-target="#dynamic-equilibrium">7.1 Dynamic equilibrium</a>
+  <ul class="collapse">
+  <li><a href="#what-dynamic-equilibrium-means" id="toc-what-dynamic-equilibrium-means" class="nav-link" data-scroll-target="#what-dynamic-equilibrium-means">What dynamic equilibrium means</a></li>
+  </ul></li>
+  <li><a href="#le-chateliers-principle" id="toc-le-chateliers-principle" class="nav-link" data-scroll-target="#le-chateliers-principle">7.2 Le Chatelier’s principle</a>
+  <ul class="collapse">
+  <li><a href="#temperature" id="toc-temperature" class="nav-link" data-scroll-target="#temperature">Temperature</a></li>
+  <li><a href="#pressure-and-volume" id="toc-pressure-and-volume" class="nav-link" data-scroll-target="#pressure-and-volume">Pressure and volume</a></li>
+  <li><a href="#concentration-and-catalysts" id="toc-concentration-and-catalysts" class="nav-link" data-scroll-target="#concentration-and-catalysts">Concentration and catalysts</a></li>
+  </ul></li>
+  <li><a href="#equilibrium-constants" id="toc-equilibrium-constants" class="nav-link" data-scroll-target="#equilibrium-constants">7.3 Equilibrium constants</a></li>
+  <li><a href="#industrial-equilibria" id="toc-industrial-equilibria" class="nav-link" data-scroll-target="#industrial-equilibria">7.4 Industrial equilibria</a>
+  <ul class="collapse">
+  <li><a href="#haber-process" id="toc-haber-process" class="nav-link" data-scroll-target="#haber-process">Haber process</a></li>
+  <li><a href="#contact-process" id="toc-contact-process" class="nav-link" data-scroll-target="#contact-process">Contact process</a></li>
+  <li><a href="#ethanol-and-ester-manufacture" id="toc-ethanol-and-ester-manufacture" class="nav-link" data-scroll-target="#ethanol-and-ester-manufacture">Ethanol and ester manufacture</a></li>
+  </ul></li>
+  <li><a href="#acids-bases-and-titrations" id="toc-acids-bases-and-titrations" class="nav-link" data-scroll-target="#acids-bases-and-titrations">7.5 Acids, bases and titrations</a></li>
+  <li><a href="#chapter-checklist" id="toc-chapter-checklist" class="nav-link" data-scroll-target="#chapter-checklist">Chapter checklist</a></li>
+  <li><a href="#multiple-choice-questions" id="toc-multiple-choice-questions" class="nav-link" data-scroll-target="#multiple-choice-questions">Multiple choice questions</a>
+  <ul class="collapse">
+  <li><a href="#equilibria---multiple-choice-easy" id="toc-equilibria---multiple-choice-easy" class="nav-link" data-scroll-target="#equilibria---multiple-choice-easy">7 Equilibria - Multiple Choice: Easy</a></li>
+  <li><a href="#question-1-pressure-and-temperature-1.7-choice-easy-q1" id="toc-question-1-pressure-and-temperature-1.7-choice-easy-q1" class="nav-link" data-scroll-target="#question-1-pressure-and-temperature-1.7-choice-easy-q1">Question 1 · Pressure and temperature · 1.7 Choice Easy Q1</a></li>
+  <li><a href="#question-2-contact-process-1.7-choice-easy-q2" id="toc-question-2-contact-process-1.7-choice-easy-q2" class="nav-link" data-scroll-target="#question-2-contact-process-1.7-choice-easy-q2">Question 2 · Contact process · 1.7 Choice Easy Q2</a></li>
+  <li><a href="#question-3-dynamic-equilibrium-1.7-choice-easy-q3" id="toc-question-3-dynamic-equilibrium-1.7-choice-easy-q3" class="nav-link" data-scroll-target="#question-3-dynamic-equilibrium-1.7-choice-easy-q3">Question 3 · Dynamic equilibrium · 1.7 Choice Easy Q3</a></li>
+  <li><a href="#question-4-partial-pressures-1.7-choice-easy-q4" id="toc-question-4-partial-pressures-1.7-choice-easy-q4" class="nav-link" data-scroll-target="#question-4-partial-pressures-1.7-choice-easy-q4">Question 4 · Partial pressures · 1.7 Choice Easy Q4</a></li>
+  <li><a href="#question-5-haber-process-equipment-1.7-choice-easy-q5" id="toc-question-5-haber-process-equipment-1.7-choice-easy-q5" class="nav-link" data-scroll-target="#question-5-haber-process-equipment-1.7-choice-easy-q5">Question 5 · Haber process equipment · 1.7 Choice Easy Q5</a></li>
+  <li><a href="#question-6-ethanol-manufacture-1.7-choice-easy-q6" id="toc-question-6-ethanol-manufacture-1.7-choice-easy-q6" class="nav-link" data-scroll-target="#question-6-ethanol-manufacture-1.7-choice-easy-q6">Question 6 · Ethanol manufacture · 1.7 Choice Easy Q6</a></li>
+  <li><a href="#question-7-equilibrium-constant-and-temperature-1.7-choice-easy-q7" id="toc-question-7-equilibrium-constant-and-temperature-1.7-choice-easy-q7" class="nav-link" data-scroll-target="#question-7-equilibrium-constant-and-temperature-1.7-choice-easy-q7">Question 7 · Equilibrium constant and temperature · 1.7 Choice Easy Q7</a></li>
+  <li><a href="#equilibria---multiple-choice-medium" id="toc-equilibria---multiple-choice-medium" class="nav-link" data-scroll-target="#equilibria---multiple-choice-medium">7 Equilibria - Multiple Choice: Medium</a></li>
+  <li><a href="#question-8-calculating-kc-1.7-choice-medium-q1" id="toc-question-8-calculating-kc-1.7-choice-medium-q1" class="nav-link" data-scroll-target="#question-8-calculating-kc-1.7-choice-medium-q1">Question 8 · Calculating K<sub>c</sub> · 1.7 Choice Medium Q1</a></li>
+  <li><a href="#question-9-units-of-kc-1.7-choice-medium-q2" id="toc-question-9-units-of-kc-1.7-choice-medium-q2" class="nav-link" data-scroll-target="#question-9-units-of-kc-1.7-choice-medium-q2">Question 9 · Units of K<sub>c</sub> · 1.7 Choice Medium Q2</a></li>
+  <li><a href="#question-10-kp-1.7-choice-medium-q3" id="toc-question-10-kp-1.7-choice-medium-q3" class="nav-link" data-scroll-target="#question-10-kp-1.7-choice-medium-q3">Question 10 · K<sub>p</sub> · 1.7 Choice Medium Q3</a></li>
+  <li><a href="#question-11-equilibrium-composition-1.7-choice-medium-q4" id="toc-question-11-equilibrium-composition-1.7-choice-medium-q4" class="nav-link" data-scroll-target="#question-11-equilibrium-composition-1.7-choice-medium-q4">Question 11 · Equilibrium composition · 1.7 Choice Medium Q4</a></li>
+  <li><a href="#question-12-contact-process-stages-1.7-choice-medium-q5" id="toc-question-12-contact-process-stages-1.7-choice-medium-q5" class="nav-link" data-scroll-target="#question-12-contact-process-stages-1.7-choice-medium-q5">Question 12 · Contact process stages · 1.7 Choice Medium Q5</a></li>
+  <li><a href="#question-13-temperature-pressure-and-volume-1.7-choice-medium-q6" id="toc-question-13-temperature-pressure-and-volume-1.7-choice-medium-q6" class="nav-link" data-scroll-target="#question-13-temperature-pressure-and-volume-1.7-choice-medium-q6">Question 13 · Temperature, pressure and volume · 1.7 Choice Medium Q6</a></li>
+  <li><a href="#question-14-strong-and-weak-acids-1.7-choice-medium-q7" id="toc-question-14-strong-and-weak-acids-1.7-choice-medium-q7" class="nav-link" data-scroll-target="#question-14-strong-and-weak-acids-1.7-choice-medium-q7">Question 14 · Strong and weak acids · 1.7 Choice Medium Q7</a></li>
+  <li><a href="#equilibria---multiple-choice-hard" id="toc-equilibria---multiple-choice-hard" class="nav-link" data-scroll-target="#equilibria---multiple-choice-hard">7 Equilibria - Multiple Choice: Hard</a></li>
+  <li><a href="#question-15-k2o-titration-1.7-choice-hard-q1" id="toc-question-15-k2o-titration-1.7-choice-hard-q1" class="nav-link" data-scroll-target="#question-15-k2o-titration-1.7-choice-hard-q1">Question 15 · K<sub>2</sub>O titration · 1.7 Choice Hard Q1</a></li>
+  <li><a href="#question-16-methanol-equilibrium-1.7-choice-hard-q2" id="toc-question-16-methanol-equilibrium-1.7-choice-hard-q2" class="nav-link" data-scroll-target="#question-16-methanol-equilibrium-1.7-choice-hard-q2">Question 16 · Methanol equilibrium · 1.7 Choice Hard Q2</a></li>
+  <li><a href="#question-17-percentage-yield-1.7-choice-hard-q3" id="toc-question-17-percentage-yield-1.7-choice-hard-q3" class="nav-link" data-scroll-target="#question-17-percentage-yield-1.7-choice-hard-q3">Question 17 · Percentage yield · 1.7 Choice Hard Q3</a></li>
+  <li><a href="#question-18-oxygen-binding-1.7-choice-hard-q4" id="toc-question-18-oxygen-binding-1.7-choice-hard-q4" class="nav-link" data-scroll-target="#question-18-oxygen-binding-1.7-choice-hard-q4">Question 18 · Oxygen binding · 1.7 Choice Hard Q4</a></li>
+  <li><a href="#question-19-solids-omitted-from-kc-1.7-choice-hard-q5" id="toc-question-19-solids-omitted-from-kc-1.7-choice-hard-q5" class="nav-link" data-scroll-target="#question-19-solids-omitted-from-kc-1.7-choice-hard-q5">Question 19 · Solids omitted from K<sub>c</sub> · 1.7 Choice Hard Q5</a></li>
+  <li><a href="#question-20-haber-process-calculation-1.7-choice-hard-q6" id="toc-question-20-haber-process-calculation-1.7-choice-hard-q6" class="nav-link" data-scroll-target="#question-20-haber-process-calculation-1.7-choice-hard-q6">Question 20 · Haber process calculation · 1.7 Choice Hard Q6</a></li>
+  </ul></li>
+  <li><a href="#structured-questions" id="toc-structured-questions" class="nav-link" data-scroll-target="#structured-questions">Structured questions</a>
+  <ul class="collapse">
+  <li><a href="#equilibria---structured-questions-easy" id="toc-equilibria---structured-questions-easy" class="nav-link" data-scroll-target="#equilibria---structured-questions-easy">7 Equilibria - Structured Questions: Easy</a></li>
+  <li><a href="#example-1-dynamic-equilibrium-1.7-sq-easy-q1" id="toc-example-1-dynamic-equilibrium-1.7-sq-easy-q1" class="nav-link" data-scroll-target="#example-1-dynamic-equilibrium-1.7-sq-easy-q1">Example 1 · Dynamic equilibrium · 1.7 SQ Easy Q1</a></li>
+  <li><a href="#example-2-contact-process-temperature-and-pressure-1.7-sq-easy-q2" id="toc-example-2-contact-process-temperature-and-pressure-1.7-sq-easy-q2" class="nav-link" data-scroll-target="#example-2-contact-process-temperature-and-pressure-1.7-sq-easy-q2">Example 2 · Contact process temperature and pressure · 1.7 SQ Easy Q2</a></li>
+  <li><a href="#example-3-haber-process-and-kc-1.7-sq-easy-q3" id="toc-example-3-haber-process-and-kc-1.7-sq-easy-q3" class="nav-link" data-scroll-target="#example-3-haber-process-and-kc-1.7-sq-easy-q3">Example 3 · Haber process and K<sub>c</sub> · 1.7 SQ Easy Q3</a></li>
+  <li><a href="#equilibria---structured-questions-medium" id="toc-equilibria---structured-questions-medium" class="nav-link" data-scroll-target="#equilibria---structured-questions-medium">7 Equilibria - Structured Questions: Medium</a></li>
+  <li><a href="#example-4-ethanol-and-esterification-1.7-sq-medium-q1" id="toc-example-4-ethanol-and-esterification-1.7-sq-medium-q1" class="nav-link" data-scroll-target="#example-4-ethanol-and-esterification-1.7-sq-medium-q1">Example 4 · Ethanol and esterification · 1.7 SQ Medium Q1</a></li>
+  <li><a href="#example-5-haber-process-kc-1.7-sq-medium-q2" id="toc-example-5-haber-process-kc-1.7-sq-medium-q2" class="nav-link" data-scroll-target="#example-5-haber-process-kc-1.7-sq-medium-q2">Example 5 · Haber process K<sub>c</sub> · 1.7 SQ Medium Q2</a></li>
+  <li><a href="#example-6-hydrogen-chloride-and-oxygen-1.7-sq-medium-q3" id="toc-example-6-hydrogen-chloride-and-oxygen-1.7-sq-medium-q3" class="nav-link" data-scroll-target="#example-6-hydrogen-chloride-and-oxygen-1.7-sq-medium-q3">Example 6 · Hydrogen chloride and oxygen · 1.7 SQ Medium Q3</a></li>
+  <li><a href="#example-7-esterification-titration-1.7-sq-medium-q4" id="toc-example-7-esterification-titration-1.7-sq-medium-q4" class="nav-link" data-scroll-target="#example-7-esterification-titration-1.7-sq-medium-q4">Example 7 · Esterification titration · 1.7 SQ Medium Q4</a></li>
+  <li><a href="#equilibria---structured-questions-hard" id="toc-equilibria---structured-questions-hard" class="nav-link" data-scroll-target="#equilibria---structured-questions-hard">7 Equilibria - Structured Questions: Hard</a></li>
+  <li><a href="#example-8-calculating-concentrations-and-kc-1.7-sq-hard-q1" id="toc-example-8-calculating-concentrations-and-kc-1.7-sq-hard-q1" class="nav-link" data-scroll-target="#example-8-calculating-concentrations-and-kc-1.7-sq-hard-q1">Example 8 · Calculating concentrations and K<sub>c</sub> · 1.7 SQ Hard Q1</a></li>
+  <li><a href="#example-9-interpreting-equilibrium-graphs-1.7-sq-hard-q2" id="toc-example-9-interpreting-equilibrium-graphs-1.7-sq-hard-q2" class="nav-link" data-scroll-target="#example-9-interpreting-equilibrium-graphs-1.7-sq-hard-q2">Example 9 · Interpreting equilibrium graphs · 1.7 SQ Hard Q2</a></li>
+  <li><a href="#example-10-acidbase-titration-curves-1.7-sq-hard-q3" id="toc-example-10-acidbase-titration-curves-1.7-sq-hard-q3" class="nav-link" data-scroll-target="#example-10-acidbase-titration-curves-1.7-sq-hard-q3">Example 10 · Acid–base titration curves · 1.7 SQ Hard Q3</a></li>
+  </ul></li>
+  <li><a href="#original-question-pdfs" id="toc-original-question-pdfs" class="nav-link" data-scroll-target="#original-question-pdfs">Original question PDFs</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../a-level/1-atomic-structure.html">AS Level</a></li><li class="breadcrumb-item"><a href="../a-level/7-equilibria.html">7 Equilibria</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">7 Equilibria</h1>
+<p class="subtitle lead">Dynamic equilibrium, Le Chatelier’s principle, Kc, Kp and acid–base equilibria</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="equilibria" class="level1">
+<h1>7 Equilibria</h1>
+<p>本章对应 CIE 9701 AS Chemistry 的 <strong>Equilibria</strong>，重点是判断动态平衡的变化、书写并计算 K<sub>c</sub>/K<sub>p</sub>，以及分析工业平衡和酸碱滴定。</p>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
+<p>学完本章后，你应该能够：</p>
+<ul>
+<li>define dynamic equilibrium in a closed system;</li>
+<li>use Le Chatelier’s principle to predict changes in yield and composition;</li>
+<li>write K<sub>c</sub> and K<sub>p</sub> expressions, including correct powers and units;</li>
+<li>calculate equilibrium concentrations, partial pressures and equilibrium constants;</li>
+<li>explain compromise conditions in the Haber, Contact and ethanol processes;</li>
+<li>distinguish strong and weak acids/bases and select indicators for titrations.</li>
+</ul>
+</section>
+<section id="dynamic-equilibrium" class="level2">
+<h2 class="anchored" data-anchor-id="dynamic-equilibrium">7.1 Dynamic equilibrium</h2>
+<section id="what-dynamic-equilibrium-means" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="what-dynamic-equilibrium-means">What dynamic equilibrium means</h3>
+<p>A dynamic equilibrium is established in a <strong>closed system</strong> when the forward and reverse reactions continue at equal rates. The concentrations of reactants and products then remain constant, although they do not have to be equal.</p>
+<p>The reversible arrow, <span class="math inline">\(\ce{&lt;=&gt;}\)</span>, shows that both directions are possible. Equilibrium is dynamic rather than static: particles continue to react in both directions.</p>
+</section>
+<p>For example:</p>
+<p><span class="math display">\[\ce{N2O4(g) &lt;=&gt; 2NO2(g)}\]</span></p>
+<p>At equilibrium, the rate of decomposition of N<sub>2</sub>O<sub>4</sub> equals the rate of formation of N<sub>2</sub>O<sub>4</sub>. A pressure change can alter the composition because the two sides contain different numbers of gas molecules.</p>
+</section>
+<section id="le-chateliers-principle" class="level2">
+<h2 class="anchored" data-anchor-id="le-chateliers-principle">7.2 Le Chatelier’s principle</h2>
+<p>If a system at equilibrium is disturbed, the position of equilibrium shifts to oppose the change.</p>
+<section id="temperature" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="temperature">Temperature</h3>
+<p>Treat heat as a reactant in an endothermic direction and as a product in an exothermic direction.</p>
+<ul>
+<li>Increasing temperature favours the endothermic direction.</li>
+<li>Decreasing temperature favours the exothermic direction.</li>
+<li>Only temperature changes the value of K<sub>c</sub> or K<sub>p</sub>.</li>
+</ul>
+</section>
+<section id="pressure-and-volume" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="pressure-and-volume">Pressure and volume</h3>
+<p>For gaseous equilibria, increasing pressure favours the side with fewer moles of gas. Decreasing pressure favours the side with more moles of gas. If both sides have the same total number of gas moles, pressure has no effect on the equilibrium composition.</p>
+<p>At constant pressure, heating a gas mixture also causes thermal expansion. This volume change must be considered separately from the equilibrium shift.</p>
+</section>
+<section id="concentration-and-catalysts" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="concentration-and-catalysts">Concentration and catalysts</h3>
+<p>Adding a reactant shifts equilibrium towards products; removing a product also shifts equilibrium towards products. A catalyst lowers the activation energy of both directions by a similar amount. It reaches equilibrium faster but does not change the equilibrium position, yield or K value.</p>
+</section>
+</section>
+<section id="equilibrium-constants" class="level2">
+<h2 class="anchored" data-anchor-id="equilibrium-constants">7.3 Equilibrium constants</h2>
+<p>For a general reaction:</p>
+<p><span class="math display">\[\ce{aA + bB &lt;=&gt; cC + dD}\]</span></p>
+<p>the concentration equilibrium constant is:</p>
+<p><span class="math display">\[K_c=\frac{[\ce{C}]^c[\ce{D}]^d}{[\ce{A}]^a[\ce{B}]^b}\]</span></p>
+<p>The powers are the stoichiometric coefficients. Pure solids and pure liquids are omitted because their effective concentrations are constant. For gaseous equilibria using partial pressures:</p>
+<p><span class="math display">\[K_p=\frac{p(\ce{C})^c p(\ce{D})^d}{p(\ce{A})^a p(\ce{B})^b}\]</span></p>
+<p>The numerical value and units of K depend on the balanced equation and the temperature. A large K indicates that products are favoured at equilibrium; a small K indicates that reactants are favoured. K alone does not describe the rate of a reaction.</p>
+<div class="worked-example">
+<p><span class="we-tag">Worked example - Haber process</span></p>
+<section id="calculating-kc" class="level3">
+<h3 class="anchored" data-anchor-id="calculating-kc">Calculating K<sub>c</sub></h3>
+<p>For:</p>
+<p><span class="math display">\[\ce{N2(g) + 3H2(g) &lt;=&gt; 2NH3(g)}\]</span></p>
+<p>if <span class="math inline">\([\ce{N2}]=1.80\)</span>, <span class="math inline">\([\ce{H2}]=3.66\)</span> and <span class="math inline">\([\ce{NH3}]=1.12\ \mathrm{mol\ dm^{-3}}\)</span>:</p>
+<p><span class="math display">\[K_c=\frac{1.12^2}{1.80\times3.66^3}=0.0512\ \mathrm{dm^6\ mol^{-2}}\]</span></p>
+<p>The total concentration power in the numerator is 2 and in the denominator is 4, so the units are <span class="math inline">\(\mathrm{dm^6\ mol^{-2}}\)</span>.</p>
+</section>
+</div>
+</section>
+<section id="industrial-equilibria" class="level2">
+<h2 class="anchored" data-anchor-id="industrial-equilibria">7.4 Industrial equilibria</h2>
+<section id="haber-process" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="haber-process">Haber process</h3>
+<p><span class="math display">\[\ce{N2(g) + 3H2(g) &lt;=&gt; 2NH3(g)}\qquad \Delta H&lt;0\]</span></p>
+<p>High pressure favours ammonia because there are four gas moles on the left and two on the right. Low temperature favours yield because the forward reaction is exothermic, but the rate would be too slow. Industry uses a compromise temperature, high pressure, an iron catalyst, cooling/condensation of ammonia and recycling of unreacted gases.</p>
+</section>
+<section id="contact-process" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="contact-process">Contact process</h3>
+<p>The key equilibrium is:</p>
+<p><span class="math display">\[\ce{2SO2(g) + O2(g) &lt;=&gt; 2SO3(g)}\qquad \Delta H&lt;0\]</span></p>
+<p>High pressure favours SO<sub>3</sub>, but the pressure gain is limited by cost. A compromise temperature gives an acceptable rate and yield. Vanadium(V) oxide is used as a catalyst. The SO<sub>3</sub> is absorbed in concentrated sulfuric acid rather than directly in water.</p>
+</section>
+<section id="ethanol-and-ester-manufacture" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="ethanol-and-ester-manufacture">Ethanol and ester manufacture</h3>
+<p>For:</p>
+<p><span class="math display">\[\ce{C2H4(g) + H2O(g) &lt;=&gt; C2H5OH(g)}\qquad \Delta H&lt;0\]</span></p>
+<p>high pressure and lower temperature favour ethanol, but a catalyst and a compromise temperature are needed for a practical rate. Esterification reactions are reversible liquid equilibria, so changing pressure has little effect; removing an ester or water can increase conversion.</p>
+</section>
+</section>
+<section id="acids-bases-and-titrations" class="level2">
+<h2 class="anchored" data-anchor-id="acids-bases-and-titrations">7.5 Acids, bases and titrations</h2>
+<p>In the Brønsted–Lowry model, an acid donates a proton and a base accepts a proton. A strong acid or base is almost completely dissociated in water; a weak acid or base is only partially dissociated. Weak does not mean dilute.</p>
+<p>For a weak acid:</p>
+<p><span class="math display">\[\ce{HA(aq) &lt;=&gt; H+(aq) + A-(aq)}\]</span></p>
+<p>the position of equilibrium lies mainly to the left. In a titration, the indicator transition range must lie within the steep vertical part of the pH curve near the equivalence point. A strong acid–weak base equivalence point is below pH 7, while a weak acid–strong base equivalence point is above pH 7.</p>
+<div class="worked-example">
+<p><span class="we-tag">Worked example - partial pressures</span></p>
+<p>If the total pressure is 3.0 atm and the equilibrium partial pressures of A and B are both 0.50 atm, then:</p>
+<p><span class="math display">\[p(\ce{C})=3.0-0.50-0.50=2.0\ \mathrm{atm}\]</span></p>
+<p>Always use the sum of all partial pressures to check the total pressure.</p>
+</div>
+</section>
+<section id="chapter-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="chapter-checklist">Chapter checklist</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">I can define dynamic equilibrium and explain why concentrations remain constant.</label></li>
+<li><label><input type="checkbox">I can predict the effect of temperature, pressure, concentration and catalysts.</label></li>
+<li><label><input type="checkbox">I can write K<sub>c</sub> and K<sub>p</sub> expressions from a balanced equation.</label></li>
+<li><label><input type="checkbox">I can calculate K values and their units.</label></li>
+<li><label><input type="checkbox">I can explain industrial compromise conditions.</label></li>
+<li><label><input type="checkbox">I can interpret acid–base titration curves and select an indicator.</label></li>
+</ul>
+</section>
+<section id="multiple-choice-questions" class="level2">
+<h2 class="anchored" data-anchor-id="multiple-choice-questions">Multiple choice questions</h2>
+<section id="equilibria---multiple-choice-easy" class="level3">
+<h3 class="anchored" data-anchor-id="equilibria---multiple-choice-easy">7 Equilibria - Multiple Choice: Easy</h3>
+</section>
+<div id="equilibria-choice-easy-q1" class="mc-question" data-answer="B">
+<section id="question-1-pressure-and-temperature-1.7-choice-easy-q1" class="level3">
+<h3 class="anchored" data-anchor-id="question-1-pressure-and-temperature-1.7-choice-easy-q1">Question 1 · Pressure and temperature · 1.7 Choice Easy Q1</h3>
+<p>For the equilibrium reaction <span class="math display">\[\ce{N2O4(g) &lt;=&gt; 2NO2(g)}\]</span> which conditions give the greatest equilibrium yield of nitrogen dioxide?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>high pressure and low temperature</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>low pressure and high temperature</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>high pressure and high temperature</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>low pressure and low temperature</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> The forward reaction is endothermic and produces more gas moles, so high temperature and low pressure favour NO<sub>2</sub>.
+</p>
+</details>
+</section>
+</div>
+<div id="equilibria-choice-easy-q2" class="mc-question" data-answer="B">
+<section id="question-2-contact-process-1.7-choice-easy-q2" class="level3">
+<h3 class="anchored" data-anchor-id="question-2-contact-process-1.7-choice-easy-q2">Question 2 · Contact process · 1.7 Choice Easy Q2</h3>
+<p>In the Contact process, <span class="math display">\[\ce{2SO2(g) + O2(g) &lt;=&gt; 2SO3(g)}\qquad \Delta H=-197\ \mathrm{kJ\ mol^{-1}}\]</span> Which statement is correct?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Increasing temperature increases the equilibrium yield of SO<sub>3</sub>.</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Increasing temperature decreases the equilibrium yield of SO<sub>3</sub>.</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>An iron catalyst changes the equilibrium position.</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Increasing pressure decreases the equilibrium yield of SO<sub>3</sub>.</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> The forward reaction is exothermic, so increasing temperature shifts equilibrium to the left. The industrial catalyst is vanadium(V) oxide and does not change the equilibrium position.
+</p>
+</details>
+</section>
+</div>
+<div id="equilibria-choice-easy-q3" class="mc-question" data-answer="C">
+<section id="question-3-dynamic-equilibrium-1.7-choice-easy-q3" class="level3">
+<h3 class="anchored" data-anchor-id="question-3-dynamic-equilibrium-1.7-choice-easy-q3">Question 3 · Dynamic equilibrium · 1.7 Choice Easy Q3</h3>
+<p>Which statement describes a dynamic equilibrium?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>The forward reaction has stopped.</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>The concentrations of reactants and products are equal.</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>The forward and reverse reaction rates are equal in a closed system.</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Only products are present.</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> Both reactions continue, but at equal rates; the concentrations therefore remain constant.
+</p>
+</details>
+</section>
+</div>
+<div id="equilibria-choice-easy-q4" class="mc-question" data-answer="D">
+<section id="question-4-partial-pressures-1.7-choice-easy-q4" class="level3">
+<h3 class="anchored" data-anchor-id="question-4-partial-pressures-1.7-choice-easy-q4">Question 4 · Partial pressures · 1.7 Choice Easy Q4</h3>
+<p>For <span class="math display">\[\ce{A(g) + B(g) &lt;=&gt; 2C(g)}\]</span> the total pressure is 3.0 atm. If the partial pressure of A is 0.50 atm and A and B have equal partial pressures, what is the partial pressure of C?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>0.50 atm</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>1.00 atm</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>1.50 atm</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>2.00 atm</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>D.</strong> The partial pressures of A and B total 1.0 atm, so C contributes 3.0−1.0=2.0 atm.
+</p>
+</details>
+</section>
+</div>
+<div id="equilibria-choice-easy-q5" class="mc-question" data-answer="C">
+<section id="question-5-haber-process-equipment-1.7-choice-easy-q5" class="level3">
+<h3 class="anchored" data-anchor-id="question-5-haber-process-equipment-1.7-choice-easy-q5">Question 5 · Haber process equipment · 1.7 Choice Easy Q5</h3>
+<p>What is the purpose of the heat exchanger in the Haber process?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>It increases the temperature of the reacting gases.</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>It removes nitrogen before the reaction.</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>It cools the products and helps ammonia condense from unreacted gases.</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>It changes the value of K<sub>c</sub>.</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> Hot products transfer heat to the incoming gases, then ammonia is cooled and separated while unreacted nitrogen and hydrogen are recycled.
+</p>
+</details>
+</section>
+</div>
+<div id="equilibria-choice-easy-q6" class="mc-question" data-answer="C">
+<section id="question-6-ethanol-manufacture-1.7-choice-easy-q6" class="level3">
+<h3 class="anchored" data-anchor-id="question-6-ethanol-manufacture-1.7-choice-easy-q6">Question 6 · Ethanol manufacture · 1.7 Choice Easy Q6</h3>
+<p>Ethanol is manufactured by reacting steam with ethene:</p>
+<p><span class="math display">\[\ce{C2H4(g) + H2O(g) &lt;=&gt; C2H5OH(g)}\qquad \Delta H=-45\ \mathrm{kJ\ mol^{-1}}\]</span></p>
+<p>Which changes would increase the equilibrium yield of ethanol?</p>
+<ol type="1">
+<li>Adding a catalyst.</li>
+<li>Increasing the pressure.</li>
+<li>Decreasing the temperature.</li>
+</ol>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>1 and 2</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>1 and 3</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>2 and 3</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>1, 2 and 3</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> The product side has fewer gas molecules and the forward reaction is exothermic. A catalyst changes rate, not equilibrium yield.
+</p>
+</details>
+</section>
+</div>
+<div id="equilibria-choice-easy-q7" class="mc-question" data-answer="D">
+<section id="question-7-equilibrium-constant-and-temperature-1.7-choice-easy-q7" class="level3">
+<h3 class="anchored" data-anchor-id="question-7-equilibrium-constant-and-temperature-1.7-choice-easy-q7">Question 7 · Equilibrium constant and temperature · 1.7 Choice Easy Q7</h3>
+<p>Propyl ethanoate is formed in the esterification reaction:</p>
+<p><span class="math display">\[\ce{propan-1-ol + ethanoic\ acid &lt;=&gt; propyl\ ethanoate + water}\qquad \Delta H=-10\ \mathrm{kJ\ mol^{-1}}\]</span></p>
+<p>How can the value of K<sub>c</sub> be increased?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Adding a catalyst</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Increasing pressure</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Increasing the concentration of an ester</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Decreasing temperature</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>D.</strong> For an exothermic forward reaction, lowering temperature favours products and increases K<sub>c</sub>. Pressure, concentration and catalysts do not change K<sub>c</sub>.
+</p>
+</details>
+</section>
+</div>
+<section id="equilibria---multiple-choice-medium" class="level3">
+<h3 class="anchored" data-anchor-id="equilibria---multiple-choice-medium">7 Equilibria - Multiple Choice: Medium</h3>
+</section>
+<div id="equilibria-choice-medium-q1" class="mc-question" data-answer="A">
+<section id="question-8-calculating-kc-1.7-choice-medium-q1" class="level3">
+<h3 class="anchored" data-anchor-id="question-8-calculating-kc-1.7-choice-medium-q1">Question 8 · Calculating K<sub>c</sub> · 1.7 Choice Medium Q1</h3>
+<p>At 450 °C the value for K<sub>c</sub> for <span class="math display">\[\ce{H2(g) + I2(g) &lt;=&gt; 2HI(g)}\]</span> is 60. The equilibrium amounts of H<sub>2</sub> and I<sub>2</sub> are 2.0 mol and 0.30 mol, respectively. How many moles of HI are present at equilibrium in a 2 dm<sup>3</sup> vessel?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>6.0 mol dm<sup>−3</sup></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>18 mol dm<sup>−3</sup></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>36 mol dm<sup>−3</sup></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>120 mol dm<sup>−3</sup></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>A.</strong> <span class="math inline">\(60=[\ce{HI}]^2/(2.0\times0.30)\)</span>, so [HI]=6.0 mol dm<sup>−3</sup>.
+</p>
+</details>
+</section>
+</div>
+<div id="equilibria-choice-medium-q2" class="mc-question" data-answer="B">
+<section id="question-9-units-of-kc-1.7-choice-medium-q2" class="level3">
+<h3 class="anchored" data-anchor-id="question-9-units-of-kc-1.7-choice-medium-q2">Question 9 · Units of K<sub>c</sub> · 1.7 Choice Medium Q2</h3>
+<p>What are the units of K<sub>c</sub> for <span class="math display">\[\ce{2CH4(g) &lt;=&gt; 3H2(g) + C2H2(g)}\]</span>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>mol dm<sup>−3</sup></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>mol<sup>2</sup> dm<sup>−6</sup></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>mol<sup>−2</sup> dm<sup>6</sup></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>no units</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> The total power of concentration is 4−2=2, giving mol<sup>2</sup> dm<sup>−6</sup>.
+</p>
+</details>
+</section>
+</div>
+<div id="equilibria-choice-medium-q3" class="mc-question" data-answer="A">
+<section id="question-10-kp-1.7-choice-medium-q3" class="level3">
+<h3 class="anchored" data-anchor-id="question-10-kp-1.7-choice-medium-q3">Question 10 · K<sub>p</sub> · 1.7 Choice Medium Q3</h3>
+<p>For <span class="math display">\[\ce{N2O4(g) &lt;=&gt; 2NO2(g)}\]</span> the equilibrium partial pressures are p(N<sub>2</sub>O<sub>4</sub>) = 0.33 atm and p(NO<sub>2</sub>) = 0.67 atm. What is K<sub>p</sub>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>1.36 atm</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>0.49 atm</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>0.22 atm</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>0.074 atm</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>A.</strong> <span class="math inline">\(K_p=p(\ce{NO2})^2/p(\ce{N2O4})=0.67^2/0.33=1.36\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="equilibria-choice-medium-q4" class="mc-question" data-answer="D">
+<section id="question-11-equilibrium-composition-1.7-choice-medium-q4" class="level3">
+<h3 class="anchored" data-anchor-id="question-11-equilibrium-composition-1.7-choice-medium-q4">Question 11 · Equilibrium composition · 1.7 Choice Medium Q4</h3>
+<p>Nitrogen monoxide and oxygen can be formed from the thermal decomposition of nitrogen dioxide:</p>
+<p><span class="math display">\[\ce{2NO2(g) &lt;=&gt; 2NO(g) + O2(g)}\]</span></p>
+<p>In an experiment 4.0 mol of nitrogen dioxide are put into a 1 dm<sup>3</sup> container. The equilibrium mixture contains 0.8 mol of oxygen. What is the value of K<sub>c</sub>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(0.87\times0.8/4^2\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(1.6\times0.8/2.4^2\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(1.67\times0.8/2.4^2\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(1.6^2\times0.8/2.4^2\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>D.</strong> At equilibrium [NO<sub>2</sub>] = 2.4, [NO] = 1.6 and [O<sub>2</sub>] = 0.8 mol dm<sup>−3</sup>. Thus <span class="math inline">\(K_c=(1.6^2\times0.8)/(2.4^2)\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="equilibria-choice-medium-q5" class="mc-question" data-answer="C">
+<section id="question-12-contact-process-stages-1.7-choice-medium-q5" class="level3">
+<h3 class="anchored" data-anchor-id="question-12-contact-process-stages-1.7-choice-medium-q5">Question 12 · Contact process stages · 1.7 Choice Medium Q5</h3>
+<p>Which statement about the Contact process is correct?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>All three stages are reversible.</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>All three stages are endothermic.</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>The oxidation of sulfur dioxide is reversible and exothermic.</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>The catalyst increases the equilibrium yield of sulfur trioxide.</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> Sulfur dioxide is oxidised to sulfur trioxide in the reversible, exothermic middle stage; the catalyst only increases rate.
+</p>
+</details>
+</section>
+</div>
+<div id="equilibria-choice-medium-q6" class="mc-question" data-answer="B">
+<section id="question-13-temperature-pressure-and-volume-1.7-choice-medium-q6" class="level3">
+<h3 class="anchored" data-anchor-id="question-13-temperature-pressure-and-volume-1.7-choice-medium-q6">Question 13 · Temperature, pressure and volume · 1.7 Choice Medium Q6</h3>
+<p>For a dissociation reaction in which the forward reaction is endothermic and produces more gas molecules, what happens when temperature is increased at constant pressure?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Equilibrium shifts left and volume decreases.</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Equilibrium shifts right and volume increases.</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Equilibrium shifts left and volume increases.</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Equilibrium shifts right and volume decreases.</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> Higher temperature favours the endothermic direction. At constant pressure, the increased temperature also causes thermal expansion.
+</p>
+</details>
+</section>
+</div>
+<div id="equilibria-choice-medium-q7" class="mc-question" data-answer="B">
+<section id="question-14-strong-and-weak-acids-1.7-choice-medium-q7" class="level3">
+<h3 class="anchored" data-anchor-id="question-14-strong-and-weak-acids-1.7-choice-medium-q7">Question 14 · Strong and weak acids · 1.7 Choice Medium Q7</h3>
+<p>Solutions P and Q each have concentration 2.0 mol dm<sup>−3</sup>. P has pH 9 and Q has pH 6. Which statement is correct?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Q is a strong acid.</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Q has a lower percentage dissociation than P.</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>P has a higher hydrogen-ion concentration than Q.</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>P and Q must be the same acid.</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> P is alkaline and Q is acidic. At the same formal concentration, a weak acid has a smaller percentage dissociation than a weak base can have in the corresponding comparison.
+</p>
+</details>
+</section>
+</div>
+<section id="equilibria---multiple-choice-hard" class="level3">
+<h3 class="anchored" data-anchor-id="equilibria---multiple-choice-hard">7 Equilibria - Multiple Choice: Hard</h3>
+</section>
+<div id="equilibria-choice-hard-q1" class="mc-question" data-answer="D">
+<section id="question-15-k2o-titration-1.7-choice-hard-q1" class="level3">
+<h3 class="anchored" data-anchor-id="question-15-k2o-titration-1.7-choice-hard-q1">Question 15 · K<sub>2</sub>O titration · 1.7 Choice Hard Q1</h3>
+<p>Use of the periodic table is relevant to this question. A sample of potassium oxide, K<sub>2</sub>O, is dissolved in 500 cm<sup>3</sup> of distilled water. 25.0 cm<sup>3</sup> of this solution is titrated against sulfuric acid of concentration 1.5 mol dm<sup>−3</sup>. 20.0 cm<sup>3</sup> of sulfuric acid is needed for complete neutralisation. What is the mass of potassium oxide originally dissolved in 500 cm<sup>3</sup> of distilled water?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>2.83 g</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>28.3 g</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>47.1 g</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>56.6 g</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>D.</strong> In 20.0 cm<sup>3</sup>, <span class="math inline">\(n(\ce{H2SO4})=1.5\times0.0200=0.0300\)</span> mol, so the 25.0 cm<sup>3</sup> portion contains 0.0600 mol KOH. The 500 cm<sup>3</sup> solution therefore contains 1.20 mol KOH and 0.600 mol K<sub>2</sub>O. Its mass is approximately <span class="math inline">\(0.600\times94=56.6\)</span> g.
+</p>
+</details>
+</section>
+</div>
+<div id="equilibria-choice-hard-q2" class="mc-question" data-answer="D">
+<section id="question-16-methanol-equilibrium-1.7-choice-hard-q2" class="level3">
+<h3 class="anchored" data-anchor-id="question-16-methanol-equilibrium-1.7-choice-hard-q2">Question 16 · Methanol equilibrium · 1.7 Choice Hard Q2</h3>
+<p>For <span class="math display">\[\ce{CO(g) + 2H2(g) &lt;=&gt; CH3OH(g)}\]</span> a dynamic equilibrium is set up in a 2 dm<sup>3</sup> sealed vessel. At equilibrium there are 6.20×10<sup>−3</sup> mol CO, 4.80×10<sup>−3</sup> mol H<sub>2</sub> and 5.20×10<sup>−5</sup> mol CH<sub>3</sub>OH. Where has the equilibrium shifted, and what is the value of K<sub>c</sub>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>To the right, K<sub>c</sub> = 364</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>To the left, K<sub>c</sub> = 364</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>To the left, K<sub>c</sub> = 14.56</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>To the right, K<sub>c</sub> = 14.56</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>D.</strong> Substituting concentrations into <span class="math inline">\(K_c=[\ce{CH3OH}]/([\ce{CO}][\ce{H2}]^2)\)</span> gives approximately 14.6; the small methanol amount reflects the starting composition and stoichiometry, not a K<sub>c</sub> below 1.
+</p>
+</details>
+</section>
+</div>
+<div id="equilibria-choice-hard-q3" class="mc-question" data-answer="C">
+<section id="question-17-percentage-yield-1.7-choice-hard-q3" class="level3">
+<h3 class="anchored" data-anchor-id="question-17-percentage-yield-1.7-choice-hard-q3">Question 17 · Percentage yield · 1.7 Choice Hard Q3</h3>
+<p>Gaseous reactants A and B react to form gaseous product C in a 3:2 ratio in a 5 dm<sup>3</sup> container. In an experiment, 1.0 mol of A and 1.0 mol of B are used. At equilibrium, only 10% of A has reacted. What is the equilibrium concentration of C?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>0.010 mol dm<sup>−3</sup></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>0.020 mol dm<sup>−3</sup></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>0.040 mol dm<sup>−3</sup></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>0.200 mol dm<sup>−3</sup></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> 0.10 mol A reacts and forms 0.20 mol C. Dividing by 5.0 dm<sup>3</sup> gives 0.040 mol dm<sup>−3</sup>.
+</p>
+</details>
+</section>
+</div>
+<div id="equilibria-choice-hard-q4" class="mc-question" data-answer="A">
+<section id="question-18-oxygen-binding-1.7-choice-hard-q4" class="level3">
+<h3 class="anchored" data-anchor-id="question-18-oxygen-binding-1.7-choice-hard-q4">Question 18 · Oxygen binding · 1.7 Choice Hard Q4</h3>
+<p>For <span class="math display">\[\ce{Hb + 4O2 &lt;=&gt; Hb(O2)4}\]</span> the equilibrium concentrations of Hb and Hb(O<sub>2</sub>)<sub>4</sub> are equal. If [O<sub>2</sub>] = 6.7×10<sup>−6</sup> mol dm<sup>−3</sup>, what is K<sub>c</sub>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>5×10<sup>20</sup> dm<sup>12</sup> mol<sup>−4</sup></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>2×10<sup>−5</sup> dm<sup>12</sup> mol<sup>−4</sup></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>1.5×10<sup>5</sup> dm<sup>3</sup> mol<sup>−1</sup></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>6.7×10<sup>−6</sup> dm<sup>3</sup> mol<sup>−1</sup></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>A.</strong> <span class="math inline">\(K_c=[\ce{Hb(O2)4}]/([\ce{Hb}][\ce{O2}]^4)=1/[\ce{O2}]^4\)</span>, which is approximately 5×10<sup>20</sup>.
+</p>
+</details>
+</section>
+</div>
+<div id="equilibria-choice-hard-q5" class="mc-question" data-answer="B">
+<section id="question-19-solids-omitted-from-kc-1.7-choice-hard-q5" class="level3">
+<h3 class="anchored" data-anchor-id="question-19-solids-omitted-from-kc-1.7-choice-hard-q5">Question 19 · Solids omitted from K<sub>c</sub> · 1.7 Choice Hard Q5</h3>
+<p>An aqueous solution contains 1.0 mol silver nitrate and 1.0 mol iron(II) sulfate in a 2.00 dm<sup>3</sup> container. At equilibrium there are 0.44 mol silver ions:</p>
+<p><span class="math display">\[\ce{Ag+(aq) + Fe^{2+}(aq) &lt;=&gt; Ag(s) + Fe^{3+}(aq)}\]</span></p>
+<p>What is the numerical value of K<sub>c</sub>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>579</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>5.79 mol<sup>−1</sup> dm<sup>3</sup></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>1.27 mol<sup>−1</sup> dm<sup>3</sup></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>1.27</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> At equilibrium [Ag<sup>+</sup>] = [Fe<sup>2+</sup>] = 0.44/2.00 and [Fe<sup>3+</sup>] = 0.56/2.00 mol dm<sup>−3</sup>. Pure silver is omitted, giving <span class="math inline">\(K_c=5.79\ \mathrm{mol^{-1}\ dm^3}\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="equilibria-choice-hard-q6" class="mc-question" data-answer="C">
+<section id="question-20-haber-process-calculation-1.7-choice-hard-q6" class="level3">
+<h3 class="anchored" data-anchor-id="question-20-haber-process-calculation-1.7-choice-hard-q6">Question 20 · Haber process calculation · 1.7 Choice Hard Q6</h3>
+<p>In the Haber process, 560 kg of nitrogen and 120 kg of hydrogen are mixed. At equilibrium, 96 kg of hydrogen remains. What mass of ammonia is formed?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>4.53×10<sup>4</sup> g</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>9.07×10<sup>4</sup> g</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>1.36×10<sup>5</sup> g</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>2.72×10<sup>5</sup> g</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> Hydrogen consumed is 24 kg = 12 000 mol. From <span class="math inline">\(\ce{N2: H2: NH3}=1:3:2\)</span>, ammonia formed is 8000 mol = 136 000 g.
+</p>
+</details>
+</section>
+</div>
+</section>
+<section id="structured-questions" class="level2">
+<h2 class="anchored" data-anchor-id="structured-questions">Structured questions</h2>
+<section id="equilibria---structured-questions-easy" class="level3">
+<h3 class="anchored" data-anchor-id="equilibria---structured-questions-easy">7 Equilibria - Structured Questions: Easy</h3>
+</section>
+<section id="example-1-dynamic-equilibrium-1.7-sq-easy-q1" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-1-dynamic-equilibrium-1.7-sq-easy-q1">Example 1 · Dynamic equilibrium · 1.7 SQ Easy Q1</h3>
+<p><strong>(a)</strong> State what is meant by the term dynamic equilibrium. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> A general reaction exists in the following dynamic equilibrium:</p>
+<p><span class="math display">\[\ce{3A + 2B &lt;=&gt; C2 + D}\]</span></p>
+<p>Which part of the equation shows that this reaction is a dynamic equilibrium? <code>[1 mark]</code></p>
+<p><strong>(c)</strong> The gases nitrogen dioxide and dinitrogen tetroxide exist in the following dynamic equilibrium:</p>
+<p><span class="math display">\[\ce{2NO2(g) &lt;=&gt; N2O4(g)}\]</span></p>
+<p>An increase in pressure shifts the equilibrium to the products and increases the yield of dinitrogen tetroxide. State why. <code>[1 mark]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> It is in a closed system and the forward and reverse reactions occur at equal rates, so concentrations remain constant.
+</li>
+<li>
+<strong>(b)</strong> The reversible double arrow, <code>&lt;=&gt;</code>.
+</li>
+<li>
+<strong>(c)</strong> The product side has fewer moles of gas (one rather than two), so higher pressure favours the products.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-2-contact-process-temperature-and-pressure-1.7-sq-easy-q2" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-2-contact-process-temperature-and-pressure-1.7-sq-easy-q2">Example 2 · Contact process temperature and pressure · 1.7 SQ Easy Q2</h3>
+<p>During the manufacture of sulfuric acid in the Contact process, sulfur dioxide is oxidised into sulfur trioxide:</p>
+<p><span class="math display">\[\ce{2SO2(g) + O2(g) &lt;=&gt; 2SO3(g)}\qquad \Delta H=-197\ \mathrm{kJ\ mol^{-1}}\]</span></p>
+<p><strong>(a)</strong> State the effect on the rate of reaction when temperature increases. <code>[1 mark]</code></p>
+<p><strong>(b)</strong> State, with a reason, the effect on the yield of sulfur trioxide when temperature increases. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> Describe and explain the effect of decreasing the pressure on the yield of sulfur trioxide. <code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> The rate increases because particles have more kinetic energy and there are more successful collisions per second.
+</li>
+<li>
+<strong>(b)</strong> The yield decreases. The forward reaction is exothermic, so higher temperature shifts equilibrium to the left.
+</li>
+<li>
+<strong>(c)</strong> The yield decreases because lowering pressure favours the side with more gas molecules: three moles on the left versus two on the right.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-3-haber-process-and-kc-1.7-sq-easy-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-3-haber-process-and-kc-1.7-sq-easy-q3">Example 3 · Haber process and K<sub>c</sub> · 1.7 SQ Easy Q3</h3>
+<p>Ammonia is manufactured from nitrogen and hydrogen using the Haber process:</p>
+<p><span class="math display">\[\ce{N2(g) + 3H2(g) &lt;=&gt; 2NH3(g)}\]</span></p>
+<p><strong>(a)</strong> State the effect that adding an iron catalyst would have on the position of equilibrium. <code>[1 mark]</code></p>
+<p><strong>(b)</strong> Write the expression for K<sub>c</sub>. <code>[1 mark]</code></p>
+<p><strong>(c)</strong> At 450 °C, the equilibrium concentrations are [N<sub>2</sub>] = 17.4 mol dm<sup>−3</sup>, [H<sub>2</sub>] = 0.85 mol dm<sup>−3</sup> and [NH<sub>3</sub>] = 1.25 mol dm<sup>−3</sup>. Calculate K<sub>c</sub> to three significant figures. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> No change. The catalyst makes equilibrium establish faster but does not change the equilibrium position or yield.
+</li>
+<li>
+<strong>(b)</strong> <span class="math inline">\(K_c=[\ce{NH3}]^2/([\ce{N2}][\ce{H2}]^3)\)</span>.
+</li>
+<li>
+<strong>(c)</strong> <span class="math inline">\(K_c=1.25^2/(17.4\times0.85^3)=0.146\)</span> (three significant figures).
+</li>
+</ul>
+</details>
+</section>
+<section id="equilibria---structured-questions-medium" class="level3">
+<h3 class="anchored" data-anchor-id="equilibria---structured-questions-medium">7 Equilibria - Structured Questions: Medium</h3>
+</section>
+<section id="example-4-ethanol-and-esterification-1.7-sq-medium-q1" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-4-ethanol-and-esterification-1.7-sq-medium-q1">Example 4 · Ethanol and esterification · 1.7 SQ Medium Q1</h3>
+<p>Ethanol can be manufactured by the reversible reaction:</p>
+<p><span class="math display">\[\ce{C2H4(g) + H2O(g) &lt;=&gt; C2H5OH(g)}\qquad \Delta H=-46\ \mathrm{kJ\ mol^{-1}}\]</span></p>
+<p>The optimum pressure is between 60 and 70 atm.</p>
+<p><strong>(a)</strong> State and explain the effect, if any, that increasing the overall pressure has on the equilibrium yield of ethanol. <code>[3 marks]</code></p>
+<p><strong>(b)(i)</strong> Use Le Chatelier’s principle to suggest whether a high or low temperature should be used to produce the maximum yield of ethanol. <code>[2 marks]</code></p>
+<p><strong>(b)(ii)</strong> State a problem that may occur from using this temperature. <code>[2 marks]</code></p>
+<p>Ethanol can also be used to manufacture ethyl ethanoate:</p>
+<p><span class="math display">\[\ce{CH3CH2OH(l) + CH3COOH(l) &lt;=&gt; CH3COOCH2CH3(l) + H2O(l)}\]</span></p>
+<p><strong>(c)</strong> Give the expression for K<sub>c</sub>. <code>[1 mark]</code></p>
+<p><strong>(d)</strong> In a 250 cm<sup>3</sup> vessel, the equilibrium amounts are 0.0375 mol ethanol, 0.0615 mol ethanoic acid, 0.0776 mol ester and 0.0834 mol water. Calculate K<sub>c</sub> to two decimal places and deduce its units. <code>[4 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> Yield increases: the product side has fewer gas moles (one versus two), so higher pressure shifts equilibrium right. Beyond the practical optimum, compression is costly.
+</li>
+<li>
+<strong>(b)</strong> Low temperature gives the greatest yield because the forward reaction is exothermic, but the rate becomes too slow.
+</li>
+<li>
+<strong>(c)</strong> <span class="math inline">\(K_c=[\ce{CH3COOCH2CH3}][\ce{H2O}]/([\ce{CH3CH2OH}][\ce{CH3COOH}])\)</span>.
+</li>
+<li>
+<strong>(d)</strong> Using the amounts divided by the same volume, <span class="math inline">\(K_c=(0.0776\times0.0834)/(0.0375\times0.0615)=2.81\)</span>. There are no units because the total concentration powers cancel.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-5-haber-process-kc-1.7-sq-medium-q2" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-5-haber-process-kc-1.7-sq-medium-q2">Example 5 · Haber process K<sub>c</sub> · 1.7 SQ Medium Q2</h3>
+<p>Ammonia is manufactured from nitrogen and hydrogen:</p>
+<p><span class="math display">\[\ce{N2(g) + 3H2(g) &lt;=&gt; 2NH3(g)}\qquad \Delta H=-91\ \mathrm{kJ\ mol^{-1}}\]</span></p>
+<p><strong>(a)</strong> Write an expression for K<sub>c</sub>. <code>[1 mark]</code></p>
+<p><strong>(b)</strong> A mixture contains 10.40 mol N<sub>2</sub> and 22.50 mol H<sub>2</sub> in 5.00 dm<sup>3</sup>. At equilibrium it contains 5.60 mol NH<sub>3</sub>. Calculate K<sub>c</sub> to three significant figures and state its units. <code>[6 marks]</code></p>
+<p><strong>(c)</strong> The mixture is heated to a higher temperature at constant pressure. Explain whether K<sub>c</sub> becomes greater, smaller or stays the same. <code>[1 mark]</code></p>
+<p><strong>(d)</strong> The pressure is increased at constant temperature. Explain whether K<sub>c</sub> becomes greater, smaller or stays the same. <code>[1 mark]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> <span class="math inline">\(K_c=[\ce{NH3}]^2/([\ce{N2}][\ce{H2}]^3)\)</span>.
+</li>
+<li>
+<strong>(b)</strong> At equilibrium: N<sub>2</sub> = 9.00 mol, H<sub>2</sub> = 18.30 mol, NH<sub>3</sub> = 5.60 mol. Concentrations are 1.80, 3.66 and 1.12 mol dm<sup>−3</sup>; <span class="math inline">\(K_c=1.12^2/(1.80\times3.66^3)=0.0512\ \mathrm{dm^6\ mol^{-2}}\)</span>.
+</li>
+<li>
+<strong>(c)</strong> Smaller, because the forward reaction is exothermic.
+</li>
+<li>
+<strong>(d)</strong> The same: K<sub>c</sub> changes only with temperature.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-6-hydrogen-chloride-and-oxygen-1.7-sq-medium-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-6-hydrogen-chloride-and-oxygen-1.7-sq-medium-q3">Example 6 · Hydrogen chloride and oxygen · 1.7 SQ Medium Q3</h3>
+<p>Hydrogen chloride reacts reversibly with oxygen at 400 °C in the presence of a copper(II) chloride catalyst, forming chlorine and water.</p>
+<p><strong>(a)(i)</strong> Write the equation and include state symbols. <code>[2 marks]</code></p>
+<p><strong>(a)(ii)</strong> The reaction is repeated at the same temperature but at a lower pressure. State and explain the effect on the composition of the equilibrium mixture. <code>[4 marks]</code></p>
+<p>Initially 2.00 mol HCl and 0.600 mol O<sub>2</sub> are mixed. At equilibrium 0.700 mol Cl<sub>2</sub> and 0.700 mol H<sub>2</sub>O have formed. The total pressure is 1.15×10<sup>5</sup> Pa.</p>
+<p><strong>(b)</strong> Calculate the equilibrium amounts of HCl and O<sub>2</sub>, then calculate the partial pressure of each species. Write an expression for K<sub>p</sub> and deduce its units. <code>[8 marks]</code></p>
+<p><strong>(c)</strong> The reaction is repeated without a catalyst. State the effect on K<sub>p</sub>. <code>[1 mark]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> <span class="math inline">\(\ce{4HCl(g)+O2(g) &lt;=&gt; 2Cl2(g)+2H2O(g)}\)</span>. Lower pressure shifts left because the left has five moles of gas and the right has four; HCl and O<sub>2</sub> increase while Cl<sub>2</sub> and H<sub>2</sub>O decrease.
+</li>
+<li>
+<strong>(b)</strong> Extent = 0.350 mol, so HCl = 0.600 mol and O<sub>2</sub> = 0.250 mol. Total = 2.25 mol. Partial pressures are approximately <span class="math inline">\(3.07\times10^4\)</span>, <span class="math inline">\(1.28\times10^4\)</span>, <span class="math inline">\(3.58\times10^4\)</span> and <span class="math inline">\(3.58\times10^4\)</span> Pa for HCl, O<sub>2</sub>, Cl<sub>2</sub> and H<sub>2</sub>O respectively. <span class="math inline">\(K_p=p(\ce{Cl2})^2p(\ce{H2O})^2/(p(\ce{HCl})^4p(\ce{O2}))\)</span>, with units Pa<sup>−1</sup>.
+</li>
+<li>
+<strong>(c)</strong> No effect; the catalyst changes rate only.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-7-esterification-titration-1.7-sq-medium-q4" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-7-esterification-titration-1.7-sq-medium-q4">Example 7 · Esterification titration · 1.7 SQ Medium Q4</h3>
+<p>Ethanoic acid reacts with methanol to form methyl ethanoate:</p>
+<p><span class="math display">\[\ce{CH3COOH(l) + CH3OH(l) &lt;=&gt; CH3COOCH3(l) + H2O(l)}\]</span></p>
+<p><strong>(a)</strong> Write an expression for K<sub>c</sub>, clearly stating the units. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> A student places 0.20 mol ethanoic acid, 0.20 mol methanol and 0.01 mol hydrogen chloride catalyst in a sealed flask at 25 °C. After ten days, all contents are titrated with 1.80 mol dm<sup>−3</sup> KOH; 26.30 cm<sup>3</sup> is used.</p>
+<ul>
+<li>Write the balanced equation for ethanoic acid and potassium hydroxide.</li>
+<li>Suggest a suitable indicator. <code>[2 marks]</code></li>
+</ul>
+<p><strong>(c)</strong> Calculate the equilibrium amounts and hence K<sub>c</sub> and its units. <code>[7 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> <span class="math inline">\(K_c=[\ce{CH3COOCH3}][\ce{H2O}]/([\ce{CH3COOH}][\ce{CH3OH}])\)</span>; no units.
+</li>
+<li>
+<strong>(b)</strong> <span class="math inline">\(\ce{CH3COOH+KOH-&gt;CH3COOK+H2O}\)</span>; phenolphthalein is suitable for a weak acid–strong base titration.
+</li>
+<li>
+<strong>(c)</strong> Total KOH = 0.04734 mol; 0.0100 mol neutralises HCl, leaving 0.03734 mol for ethanoic acid. Equilibrium acid = methanol = 0.03734 mol; ester = water = 0.16266 mol. <span class="math inline">\(K_c=(0.16266^2)/(0.03734^2)=18.98\)</span>, with no units.
+</li>
+</ul>
+</details>
+</section>
+<section id="equilibria---structured-questions-hard" class="level3">
+<h3 class="anchored" data-anchor-id="equilibria---structured-questions-hard">7 Equilibria - Structured Questions: Hard</h3>
+</section>
+<section id="example-8-calculating-concentrations-and-kc-1.7-sq-hard-q1" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-8-calculating-concentrations-and-kc-1.7-sq-hard-q1">Example 8 · Calculating concentrations and K<sub>c</sub> · 1.7 SQ Hard Q1</h3>
+<p>The following dynamic equilibrium is reached at temperature T in a closed container:</p>
+<p><span class="math display">\[\ce{3A(g) + 2B(g) &lt;=&gt; 2C(g)}\qquad \Delta H=-65\ \mathrm{kJ\ mol^{-1}}\]</span></p>
+<p>K<sub>c</sub> = 255 mol<sup>−1</sup> dm<sup>3</sup> when the equilibrium mixture contains 3.34 mol A and 4.28 mol C.</p>
+<p><strong>(a)</strong> Give the definition of dynamic equilibrium and write the expression for K<sub>c</sub>. <code>[3 marks]</code></p>
+<p><strong>(b)</strong> Calculate the concentration of B if the container volume is 8.00 dm<sup>3</sup>. <code>[4 marks]</code></p>
+<p><strong>(c)</strong> State the effect on the concentration of B if temperature T is increased, giving a reason. <code>[2 marks]</code></p>
+<p><strong>(d)</strong> Calculate the equilibrium constant for the reverse reaction <span class="math display">\[\ce{2C(g) &lt;=&gt; 3A(g) + 2B(g)}\]</span>. <code>[1 mark]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> Closed system; forward and reverse rates equal; concentrations constant. <span class="math inline">\(K_c=[\ce{C}]^2/([\ce{A}]^3[\ce{B}]^2)\)</span>.
+</li>
+<li>
+<strong>(b)</strong> [A] = 0.4175 and [C] = 0.535 mol dm<sup>−3</sup>. From <span class="math inline">\(255=0.535^2/(0.4175^3[\ce{B}]^2)\)</span>, [B] = 0.124 mol dm<sup>−3</sup>.
+</li>
+<li>
+<strong>(c)</strong> B increases because the forward reaction is exothermic and higher temperature shifts equilibrium left.
+</li>
+<li>
+<strong>(d)</strong> <span class="math inline">\(K_{c,\,reverse}=1/255=0.00392\)</span> (reciprocal units).
+</li>
+</ul>
+</details>
+</section>
+<section id="example-9-interpreting-equilibrium-graphs-1.7-sq-hard-q2" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-9-interpreting-equilibrium-graphs-1.7-sq-hard-q2">Example 9 · Interpreting equilibrium graphs · 1.7 SQ Hard Q2</h3>
+<p>Use Fig. 2.1 in the original question, which shows the effect of pressure and temperature on the equilibrium yield of gaseous molecules.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-7-sq-hard-q2-fig2-1.png" class="question-figure img-fluid figure-img" alt="Equilibrium yield graph for 1.7 SQ Hard Q2 Fig 2.1"></p>
+<figcaption>Equilibrium yield against temperature at three pressures</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-7-sq-hard-q2-fig2-2.png" class="question-figure img-fluid figure-img" alt="Kc against temperature graph for 1.7 SQ Hard Q2 Fig 2.2"></p>
+<figcaption>Equilibrium constant against temperature</figcaption>
+</figure>
+</div>
+<p><strong>(a)</strong> Use the graph to explain whether the forward reaction is exothermic or endothermic. <code>[3 marks]</code></p>
+<p><strong>(b)</strong> Use the graph to explain whether the forward reaction involves an increase or decrease in the number of moles of gas. <code>[3 marks]</code></p>
+<p><strong>(c)</strong> Fig. 2.2 shows the relationship between temperature and K<sub>c</sub> for a different equilibrium. Establish whether the forward reaction is exothermic or endothermic, justifying your answer. <code>[3 marks]</code></p>
+<p><strong>(d)</strong> Explain why it is important for a chemist to know K<sub>c</sub> at a given temperature. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> The forward reaction is exothermic if the graph shows yield decreasing as temperature increases; lower temperature favours the exothermic direction.
+</li>
+<li>
+<strong>(b)</strong> Higher pressure increases yield, so the forward reaction involves fewer gas moles than the reverse reaction.
+</li>
+<li>
+<strong>(c)</strong> If K<sub>c</sub> decreases as temperature increases, the forward reaction is exothermic; if K<sub>c</sub> increases, it is endothermic.
+</li>
+<li>
+<strong>(d)</strong> K<sub>c</sub> predicts the equilibrium composition/yield and helps select practical industrial conditions.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-10-acidbase-titration-curves-1.7-sq-hard-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-10-acidbase-titration-curves-1.7-sq-hard-q3">Example 10 · Acid–base titration curves · 1.7 SQ Hard Q3</h3>
+<p>The indicator ranges are: methyl red 4.2–6.3, bromothymol blue 6.0–7.6, bromocresol green 3.8–5.4 and phenolphthalein 8.2–10.0.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-7-sq-hard-q3-blank-graph.png" class="question-figure img-fluid figure-img" alt="Blank pH titration graph for 1.7 SQ Hard Q3"></p>
+<figcaption>Blank pH titration graph</figcaption>
+</figure>
+</div>
+<p><strong>(a)</strong> Sketch the pH curve for titrating 10.0 cm<sup>3</sup> of 0.200 mol dm<sup>−3</sup> HCl with 0.200 mol dm<sup>−3</sup> aqueous ammonia. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Explain why methyl red is suitable for the first titration but phenolphthalein is not. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> Sketch the pH curve for titrating 25.0 cm<sup>3</sup> of 0.200 mol dm<sup>−3</sup> NaOH with 0.100 mol dm<sup>−3</sup> ethanoic acid. <code>[3 marks]</code></p>
+<p><strong>(d)</strong> Explain why phenolphthalein is suitable for the second titration but methyl red is not. <code>[2 marks]</code></p>
+<p><strong>(e)</strong> Explain whether the other two indicators are suitable for either titration. <code>[4 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> The curve starts at low pH, has an equivalence point at 10.0 cm<sup>3</sup> below pH 7, and rises through the methyl-red range.
+</li>
+<li>
+<strong>(b)</strong> Methyl red changes colour in the steep section near the acidic equivalence point; phenolphthalein changes above the endpoint.
+</li>
+<li>
+<strong>(c)</strong> The equivalence point is at 50.0 cm<sup>3</sup> acid and is above pH 7 because ethanoate hydrolysis makes the solution alkaline.
+</li>
+<li>
+<strong>(d)</strong> Phenolphthalein changes colour in the steep section near this basic equivalence point; methyl red changes too early.
+</li>
+<li>
+<strong>(e)</strong> Bromocresol green may suit the strong-acid/weak-base endpoint if its transition lies within the steep section; bromothymol blue is not suitable for that acidic endpoint. For the weak-acid/strong-base endpoint, phenolphthalein is the suitable choice; the lower-pH ranges are not.
+</li>
+</ul>
+</details>
+</section>
+</section>
+<section id="original-question-pdfs" class="level2">
+<h2 class="anchored" data-anchor-id="original-question-pdfs">Original question PDFs</h2>
+<ul>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/equilibria/1.7-equilibria-choice-easy.pdf">1.7 Equilibria - Choice - Easy</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/equilibria/1.7-equilibria-choice-medium.pdf">1.7 Equilibria - Choice - Medium</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/equilibria/1.7-equilibria-choice-hard.pdf">1.7 Equilibria - Choice - Hard</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/equilibria/1.7-equilibria-sq-easy.pdf">1.7 Equilibria - Structured Questions - Easy</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/equilibria/1.7-equilibria-sq-medium.pdf">1.7 Equilibria - Structured Questions - Medium</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/equilibria/1.7-equilibria-sq-hard.pdf">1.7 Equilibria - Structured Questions - Hard</a></li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".done-toggle input").forEach((input) => {
+    const key = `cie-chem-${input.dataset.progress}`;
+    input.checked = localStorage.getItem(key) === "true";
+    input.closest(".question-card")?.classList.toggle("is-complete", input.checked);
+    input.addEventListener("change", () => {
+      localStorage.setItem(key, input.checked);
+      input.closest(".question-card")?.classList.toggle("is-complete", input.checked);
+    });
+  });
+
+  document.querySelectorAll(".mc-question").forEach((card) => {
+    const answer = card.dataset.answer;
+    const feedback = card.querySelector(".mc-feedback");
+    const check = card.querySelector(".check-answer");
+    let selected = localStorage.getItem(`cie-chem-${card.id}-choice`) || "";
+
+    const showSelection = () => {
+      card.querySelectorAll(".mc-choice").forEach((choice) => {
+        choice.classList.toggle("is-selected", choice.dataset.choice === selected);
+      });
+    };
+    showSelection();
+
+    card.querySelectorAll(".mc-choice").forEach((choice) => {
+      choice.addEventListener("click", () => {
+        selected = choice.dataset.choice;
+        localStorage.setItem(`cie-chem-${card.id}-choice`, selected);
+        feedback.textContent = "";
+        feedback.className = "mc-feedback";
+        showSelection();
+      });
+    });
+
+    check?.addEventListener("click", () => {
+      if (!selected) {
+        feedback.textContent = "Select an answer first.";
+        feedback.className = "mc-feedback is-pending";
+        return;
+      }
+      const correct = selected === answer;
+      feedback.textContent = correct ? "Correct." : `Not quite. The correct answer is ${answer}.`;
+      feedback.className = `mc-feedback ${correct ? "is-correct" : "is-incorrect"}`;
+    });
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已复制");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已复制");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../a-level/6-electrochemistry.html" class="pagination-link" aria-label="6 Electrochemistry">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">6 Electrochemistry</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../a-level/8-reaction-kinetics.html" class="pagination-link" aria-label="8 Reaction kinetics">
+        <span class="nav-page-text">8 Reaction kinetics</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

@@ -2,9 +2,6 @@
 
 ::: {.mc-question #bonding-choice-easy-q1 data-answer="B"}
 ### Question 1 · Coordinate bonding · 1.3 Choice Easy Q1
-<details class="source-preview"><summary>Original question page · 1.3 Choice Easy Q1</summary>
-![Original question page for 1.3 Choice Easy Q1](../assets/questions/original-source/1-3-choice-easy-q1.png){.question-figure fig-alt="Original question page 1.3 Choice Easy Q1"}
-</details>
 
 Phosphine, $\ce{PH3}$, reacts with a hydrogen ion to form $\ce{PH4+}$. Which type of bond is formed between P and H in this reaction?
 
@@ -15,9 +12,6 @@ Phosphine, $\ce{PH3}$, reacts with a hydrogen ion to form $\ce{PH4+}$. Which typ
 
 ::: {.mc-question #bonding-choice-easy-q2 data-answer="D"}
 ### Question 2 · Bonding in iodine and silver · 1.3 Choice Easy Q2
-<details class="source-preview"><summary>Original question page · 1.3 Choice Easy Q2</summary>
-![Original question page for 1.3 Choice Easy Q2](../assets/questions/original-source/1-3-choice-easy-q2.png){.question-figure fig-alt="Original question page 1.3 Choice Easy Q2"}
-</details>
 
 Which forces act between neighbouring iodine molecules in solid iodine and between particles in solid silver?
 
@@ -28,9 +22,6 @@ Which forces act between neighbouring iodine molecules in solid iodine and betwe
 
 ::: {.mc-question #bonding-choice-easy-q3 data-answer="D"}
 ### Question 3 · More than one type of bonding · 1.3 Choice Easy Q3
-<details class="source-preview"><summary>Original question page · 1.3 Choice Easy Q3</summary>
-![Original question page for 1.3 Choice Easy Q3](../assets/questions/original-source/1-3-choice-easy-q3.png){.question-figure fig-alt="Original question page 1.3 Choice Easy Q3"}
-</details>
 
 Which solid contains more than one type of bonding?
 
@@ -41,9 +32,6 @@ Which solid contains more than one type of bonding?
 
 ::: {.mc-question #bonding-choice-easy-q4 data-answer="B"}
 ### Question 4 · Shape of hydrazine · 1.3 Choice Easy Q4
-<details class="source-preview"><summary>Original question page · 1.3 Choice Easy Q4</summary>
-![Original question page for 1.3 Choice Easy Q4](../assets/questions/original-source/1-3-choice-easy-q4.png){.question-figure fig-alt="Original question page 1.3 Choice Easy Q4"}
-</details>
 
 What is the shape around each nitrogen atom in hydrazine, $\ce{N2H4}$?
 
@@ -54,9 +42,6 @@ What is the shape around each nitrogen atom in hydrazine, $\ce{N2H4}$?
 
 ::: {.mc-question #bonding-choice-easy-q5 data-answer="C"}
 ### Question 5 · Bond dipoles · 1.3 Choice Easy Q5
-<details class="source-preview"><summary>Original question page · 1.3 Choice Easy Q5</summary>
-![Original question page for 1.3 Choice Easy Q5](../assets/questions/original-source/1-3-choice-easy-q5.png){.question-figure fig-alt="Original question page 1.3 Choice Easy Q5"}
-</details>
 
 Which bond polarity assignment is not correct?
 
@@ -67,9 +52,6 @@ Which bond polarity assignment is not correct?
 
 ::: {.mc-question #bonding-choice-easy-q6 data-answer="B"}
 ### Question 6 · Formation of ammonium · 1.3 Choice Easy Q6
-<details class="source-preview"><summary>Original question page · 1.3 Choice Easy Q6</summary>
-![Original question page for 1.3 Choice Easy Q6](../assets/questions/original-source/1-3-choice-easy-q6.png){.question-figure fig-alt="Original question page 1.3 Choice Easy Q6"}
-</details>
 
 Which statement correctly describes the formation of $\ce{NH4+}$ from $\ce{NH3}$ and $\ce{H+}$?
 
@@ -80,9 +62,6 @@ Which statement correctly describes the formation of $\ce{NH4+}$ from $\ce{NH3}$
 
 ::: {.mc-question #bonding-choice-easy-q7 data-answer="C"}
 ### Question 7 · Shapes of boron compounds · 1.3 Choice Easy Q7
-<details class="source-preview"><summary>Original question page · 1.3 Choice Easy Q7</summary>
-![Original question page for 1.3 Choice Easy Q7](../assets/questions/original-source/1-3-choice-easy-q7.png){.question-figure fig-alt="Original question page 1.3 Choice Easy Q7"}
-</details>
 
 What are the shapes around boron in $\ce{BF3}$ and $\ce{BH4-}$?
 
@@ -93,9 +72,6 @@ What are the shapes around boron in $\ce{BF3}$ and $\ce{BH4-}$?
 
 ::: {.mc-question #bonding-choice-easy-q8 data-answer="A"}
 ### Question 8 · Electronegativity trend · 1.3 Choice Easy Q8
-<details class="source-preview"><summary>Original question page · 1.3 Choice Easy Q8</summary>
-![Original question page for 1.3 Choice Easy Q8](../assets/questions/original-source/1-3-choice-easy-q8.png){.question-figure fig-alt="Original question page 1.3 Choice Easy Q8"}
-</details>
 
 Which atom is most electronegative?
 
@@ -106,9 +82,6 @@ Which atom is most electronegative?
 
 ::: {.mc-question #bonding-choice-easy-q9 data-answer="B"}
 ### Question 9 · Ionic or covalent · 1.3 Choice Easy Q9
-<details class="source-preview"><summary>Original question page · 1.3 Choice Easy Q9</summary>
-![Original question page for 1.3 Choice Easy Q9](../assets/questions/original-source/1-3-choice-easy-q9.png){.question-figure fig-alt="Original question page 1.3 Choice Easy Q9"}
-</details>
 
 Which compound is not an ionic compound?
 
@@ -119,9 +92,6 @@ Which compound is not an ionic compound?
 
 ::: {.mc-question #bonding-choice-easy-q10 data-answer="D"}
 ### Question 10 · Metallic bonding definition · 1.3 Choice Easy Q10
-<details class="source-preview"><summary>Original question page · 1.3 Choice Easy Q10</summary>
-![Original question page for 1.3 Choice Easy Q10](../assets/questions/original-source/1-3-choice-easy-q10.png){.question-figure fig-alt="Original question page 1.3 Choice Easy Q10"}
-</details>
 
 Which statement describes metallic bonding?
 
@@ -132,9 +102,6 @@ Which statement describes metallic bonding?
 
 ::: {.mc-question #bonding-choice-easy-q11 data-answer="B"}
 ### Question 11 · Number of bonding types · 1.3 Choice Easy Q11
-<details class="source-preview"><summary>Original question page · 1.3 Choice Easy Q11</summary>
-![Original question page for 1.3 Choice Easy Q11](../assets/questions/original-source/1-3-choice-easy-q11.png){.question-figure fig-alt="Original question page 1.3 Choice Easy Q11"}
-</details>
 
 Which material contains only one main type of bonding in its solid structure?
 
@@ -145,9 +112,6 @@ Which material contains only one main type of bonding in its solid structure?
 
 ::: {.mc-question #bonding-choice-easy-q12 data-answer="B"}
 ### Question 12 · Hydrolysis of silicon tetrachloride · 1.3 Choice Easy Q12
-<details class="source-preview"><summary>Original question page · 1.3 Choice Easy Q12</summary>
-![Original question page for 1.3 Choice Easy Q12](../assets/questions/original-source/1-3-choice-easy-q12.png){.question-figure fig-alt="Original question page 1.3 Choice Easy Q12"}
-</details>
 
 What happens when $\ce{SiCl4}$ is added to water?
 
@@ -162,9 +126,6 @@ What happens when $\ce{SiCl4}$ is added to water?
 
 ::: {.mc-question #bonding-choice-medium-q1 data-answer="C"}
 ### Question 15 · Equilibrium and molecular shape · 1.3 Choice Medium Q1
-<details class="source-preview"><summary>Original question page · 1.3 Choice Medium Q1</summary>
-![Original question page for 1.3 Choice Medium Q1](../assets/questions/original-source/1-3-choice-medium-q1.png){.question-figure fig-alt="Original question page 1.3 Choice Medium Q1"}
-</details>
 
 For $\ce{PCl5(g) <=> PCl3(g) + Cl2(g)}$, the percentage yield of $\ce{PCl3}$ increases from 13% at $160^\circ\mathrm{C}$ to 100% at $300^\circ\mathrm{C}$. What is correct?
 
@@ -175,9 +136,6 @@ For $\ce{PCl5(g) <=> PCl3(g) + Cl2(g)}$, the percentage yield of $\ce{PCl3}$ inc
 
 ::: {.mc-question #bonding-choice-medium-q2 data-answer="C"}
 ### Question 16 · Bonding in nitrogen · 1.3 Choice Medium Q2
-<details class="source-preview"><summary>Original question page · 1.3 Choice Medium Q2</summary>
-![Original question page for 1.3 Choice Medium Q2](../assets/questions/original-source/1-3-choice-medium-q2.png){.question-figure fig-alt="Original question page 1.3 Choice Medium Q2"}
-</details>
 
 Which feature is not present in a nitrogen molecule, $\ce{N2}$?
 
@@ -189,9 +147,6 @@ Which feature is not present in a nitrogen molecule, $\ce{N2}$?
 
 ::: {.mc-question #bonding-choice-medium-q4 data-answer="B"}
 ### Question 18 · Lone pairs on a central atom · 1.3 Choice Medium Q4
-<details class="source-preview"><summary>Original question page · 1.3 Choice Medium Q4</summary>
-![Original question page for 1.3 Choice Medium Q4](../assets/questions/original-source/1-3-choice-medium-q4.png){.question-figure fig-alt="Original question page 1.3 Choice Medium Q4"}
-</details>
 
 Which ion has three lone pairs around its central atom?
 
@@ -202,9 +157,6 @@ Which ion has three lone pairs around its central atom?
 
 ::: {.mc-question #bonding-choice-medium-q5 data-answer="B"}
 ### Question 19 · London forces only · 1.3 Choice Medium Q5
-<details class="source-preview"><summary>Original question page · 1.3 Choice Medium Q5</summary>
-![Original question page for 1.3 Choice Medium Q5](../assets/questions/original-source/1-3-choice-medium-q5.png){.question-figure fig-alt="Original question page 1.3 Choice Medium Q5"}
-</details>
 
 Which change of state involves overcoming only London dispersion forces?
 
@@ -215,9 +167,6 @@ Which change of state involves overcoming only London dispersion forces?
 
 ::: {.mc-question #bonding-choice-medium-q6 data-answer="C"}
 ### Question 20 · Cyanate ion · 1.3 Choice Medium Q6
-<details class="source-preview"><summary>Original question page · 1.3 Choice Medium Q6</summary>
-![Original question page for 1.3 Choice Medium Q6](../assets/questions/original-source/1-3-choice-medium-q6.png){.question-figure fig-alt="Original question page 1.3 Choice Medium Q6"}
-</details>
 
 What is the formula of the cyanate ion in ammonium cyanate?
 
@@ -228,9 +177,6 @@ What is the formula of the cyanate ion in ammonium cyanate?
 
 ::: {.mc-question #bonding-choice-medium-q7 data-answer="C"}
 ### Question 21 · Bond comparison in hydrogen halides · 1.3 Choice Medium Q7
-<details class="source-preview"><summary>Original question page · 1.3 Choice Medium Q7</summary>
-![Original question page for 1.3 Choice Medium Q7](../assets/questions/original-source/1-3-choice-medium-q7.png){.question-figure fig-alt="Original question page 1.3 Choice Medium Q7"}
-</details>
 
 Which pair of words does not correctly complete the statement: “The bond ___ between H and the halogen in HBr is ___ than in HI”?
 
@@ -242,9 +188,6 @@ Which pair of words does not correctly complete the statement: “The bond ___ b
 
 ::: {.mc-question #bonding-choice-medium-q9 data-answer="B"}
 ### Question 23 · Sigma and pi bonds · 1.3 Choice Medium Q9
-<details class="source-preview"><summary>Original question page · 1.3 Choice Medium Q9</summary>
-![Original question page for 1.3 Choice Medium Q9](../assets/questions/original-source/1-3-choice-medium-q9.png){.question-figure fig-alt="Original question page 1.3 Choice Medium Q9"}
-</details>
 
 How many $\sigma$ and $\pi$ bonds are in ethene, $\ce{C2H4}$?
 
@@ -261,9 +204,6 @@ How many $\sigma$ and $\pi$ bonds are in ethene, $\ce{C2H4}$?
 
 ::: {.mc-question #bonding-choice-hard-q1 data-answer="B"}
 ### Question 28 · Hydrogen bonding with methanal · 1.3 Choice Hard Q1
-<details class="source-preview"><summary>Original question page · 1.3 Choice Hard Q1</summary>
-![Original question page for 1.3 Choice Hard Q1](../assets/questions/original-source/1-3-choice-hard-q1.png){.question-figure fig-alt="Original question page 1.3 Choice Hard Q1"}
-</details>
 
 Hydrogen bonding occurs between liquid methanal, $\ce{HCHO}$, and a second liquid $Y$. Which substance is most likely to be $Y$?
 
@@ -274,9 +214,6 @@ Hydrogen bonding occurs between liquid methanal, $\ce{HCHO}$, and a second liqui
 
 ::: {.mc-question #bonding-choice-hard-q2 data-answer="C"}
 ### Question 29 · Bond energy down a group · 1.3 Choice Hard Q2
-<details class="source-preview"><summary>Original question page · 1.3 Choice Hard Q2</summary>
-![Original question page for 1.3 Choice Hard Q2](../assets/questions/original-source/1-3-choice-hard-q2.png){.question-figure fig-alt="Original question page 1.3 Choice Hard Q2"}
-</details>
 
 Why does the rate of hydrolysis of $\ce{R-Cl}$, $\ce{R-Br}$ and $\ce{R-I}$ generally increase from chlorine to iodine?
 
@@ -287,9 +224,6 @@ Why does the rate of hydrolysis of $\ce{R-Cl}$, $\ce{R-Br}$ and $\ce{R-I}$ gener
 
 ::: {.mc-question #bonding-choice-hard-q3 data-answer="A"}
 ### Question 30 · Electronegativity and covalent bonding · 1.3 Choice Hard Q3
-<details class="source-preview"><summary>Original question page · 1.3 Choice Hard Q3</summary>
-![Original question page for 1.3 Choice Hard Q3](../assets/questions/original-source/1-3-choice-hard-q3.png){.question-figure fig-alt="Original question page 1.3 Choice Hard Q3"}
-</details>
 
 Which atom is most likely to form a covalent bond with fluorine rather than an ionic bond, based on the smallest electronegativity difference?
 
@@ -300,9 +234,6 @@ Which atom is most likely to form a covalent bond with fluorine rather than an i
 
 ::: {.mc-question #bonding-choice-hard-q4 data-answer="D"}
 ### Question 31 · Dipoles in molecules · 1.3 Choice Hard Q4
-<details class="source-preview"><summary>Original question page · 1.3 Choice Hard Q4</summary>
-![Original question page for 1.3 Choice Hard Q4](../assets/questions/original-source/1-3-choice-hard-q4.png){.question-figure fig-alt="Original question page 1.3 Choice Hard Q4"}
-</details>
 
 Which description of dipoles in $\ce{CHCl3}$ and $\ce{Br2}$ is correct?
 
@@ -313,9 +244,6 @@ Which description of dipoles in $\ce{CHCl3}$ and $\ce{Br2}$ is correct?
 
 ::: {.mc-question #bonding-choice-hard-q5 data-answer="C"}
 ### Question 32 · Ionic lattice and bonding types · 1.3 Choice Hard Q5
-<details class="source-preview"><summary>Original question page · 1.3 Choice Hard Q5</summary>
-![Original question page for 1.3 Choice Hard Q5](../assets/questions/original-source/1-3-choice-hard-q5.png){.question-figure fig-alt="Original question page 1.3 Choice Hard Q5"}
-</details>
 
 Hydroxyapatite contains calcium, hydroxide and phosphate ions. Which statement is correct?
 
@@ -326,9 +254,6 @@ Hydroxyapatite contains calcium, hydroxide and phosphate ions. Which statement i
 
 ::: {.mc-question #bonding-choice-hard-q6 data-answer="A"}
 ### Question 33 · Conductivity and lattice structure · 1.3 Choice Hard Q6
-<details class="source-preview"><summary>Original question page · 1.3 Choice Hard Q6</summary>
-![Original question page for 1.3 Choice Hard Q6](../assets/questions/original-source/1-3-choice-hard-q6.png){.question-figure fig-alt="Original question page 1.3 Choice Hard Q6"}
-</details>
 
 Which substance is expected to have a high melting point and conduct electricity when molten but not when solid?
 
@@ -339,9 +264,6 @@ Which substance is expected to have a high melting point and conduct electricity
 
 ::: {.mc-question #bonding-choice-hard-q7 data-answer="D"}
 ### Question 34 · Expanded electron-pair arrangement · 1.3 Choice Hard Q7
-<details class="source-preview"><summary>Original question page · 1.3 Choice Hard Q7</summary>
-![Original question page for 1.3 Choice Hard Q7](../assets/questions/original-source/1-3-choice-hard-q7.png){.question-figure fig-alt="Original question page 1.3 Choice Hard Q7"}
-</details>
 
 What is the shape of $\ce{PF6-}$?
 
@@ -352,9 +274,6 @@ What is the shape of $\ce{PF6-}$?
 
 ::: {.mc-question #bonding-choice-hard-q8 data-answer="B"}
 ### Question 35 · Hydrogenation of an alkene · 1.3 Choice Hard Q8
-<details class="source-preview"><summary>Original question page · 1.3 Choice Hard Q8</summary>
-![Original question page for 1.3 Choice Hard Q8](../assets/questions/original-source/1-3-choice-hard-q8.png){.question-figure fig-alt="Original question page 1.3 Choice Hard Q8"}
-</details>
 
 Which feature disappears when $\ce{C2H4}$ is converted to $\ce{C2H6}$ by hydrogenation?
 
@@ -365,9 +284,6 @@ Which feature disappears when $\ce{C2H4}$ is converted to $\ce{C2H6}$ by hydroge
 
 ::: {.mc-question #bonding-choice-hard-q9 data-answer="B"}
 ### Question 36 · Overall dipole and symmetry · 1.3 Choice Hard Q9
-<details class="source-preview"><summary>Original question page · 1.3 Choice Hard Q9</summary>
-![Original question page for 1.3 Choice Hard Q9](../assets/questions/original-source/1-3-choice-hard-q9.png){.question-figure fig-alt="Original question page 1.3 Choice Hard Q9"}
-</details>
 
 Which molecule has the largest overall dipole?
 

@@ -2,9 +2,6 @@
 
 ::: {.question-card}
 ### Example 1 · Particle model and gas pressure · 1.4 SQ Easy Q1
-<details class="source-preview"><summary>Original question page · 1.4 SQ Easy Q1</summary>
-![Original question page for 1.4 SQ Easy Q1](../assets/questions/original-source/1-4-sq-easy-q1.png){.question-figure fig-alt="Original question page 1.4 SQ Easy Q1"}
-</details>
 
 **(a)** Describe the arrangement and movement of particles in a gas. `[3 marks]`
 
@@ -17,9 +14,6 @@
 
 ::: {.question-card}
 ### Example 2 · Gas laws · 1.4 SQ Easy Q2
-<details class="source-preview"><summary>Original question page · 1.4 SQ Easy Q2</summary>
-![Original question page for 1.4 SQ Easy Q2](../assets/questions/original-source/1-4-sq-easy-q2.png){.question-figure fig-alt="Original question page 1.4 SQ Easy Q2"}
-</details>
 
 **(a)** State the relationship between volume and pressure for a fixed amount of gas at constant temperature. `[1 mark]`
 
@@ -32,9 +26,6 @@
 
 ::: {.question-card}
 ### Example 3 · Ideal gas assumptions · 1.4 SQ Easy Q3
-<details class="source-preview"><summary>Original question page · 1.4 SQ Easy Q3</summary>
-![Original question page for 1.4 SQ Easy Q3](../assets/questions/original-source/1-4-sq-easy-q3.png){.question-figure fig-alt="Original question page 1.4 SQ Easy Q3"}
-</details>
 
 **(a)** State the two assumptions about particles and intermolecular forces in the ideal gas model. `[2 marks]`
 
@@ -49,9 +40,6 @@
 
 ::: {.question-card}
 ### Example 4 · $\ce{C60}$ and diamond · 1.4 SQ Medium Q1
-<details class="source-preview"><summary>Original question page · 1.4 SQ Medium Q1</summary>
-![Original question page for 1.4 SQ Medium Q1](../assets/questions/original-source/1-4-sq-medium-q1.png){.question-figure fig-alt="Original question page 1.4 SQ Medium Q1"}
-</details>
 
 **(a)** Describe the structure of solid $\ce{C60}$. `[2 marks]`
 
@@ -64,9 +52,6 @@
 
 ::: {.question-card}
 ### Example 5 · Molar mass of a gas · 1.4 SQ Medium Q2
-<details class="source-preview"><summary>Original question page · 1.4 SQ Medium Q2</summary>
-![Original question page for 1.4 SQ Medium Q2](../assets/questions/original-source/1-4-sq-medium-q2.png){.question-figure fig-alt="Original question page 1.4 SQ Medium Q2"}
-</details>
 
 A gas sample has mass $0.800\ \mathrm{g}$, volume $560\ \mathrm{cm^3}$, pressure $101\ \mathrm{kPa}$ and temperature $340\ \mathrm{K}$.
 
@@ -79,9 +64,6 @@ A gas sample has mass $0.800\ \mathrm{g}$, volume $560\ \mathrm{cm^3}$, pressure
 
 ::: {.question-card}
 ### Example 6 · Gas volume and reaction stoichiometry · 1.4 SQ Medium Q3
-<details class="source-preview"><summary>Original question page · 1.4 SQ Medium Q3</summary>
-![Original question page for 1.4 SQ Medium Q3](../assets/questions/original-source/1-4-sq-medium-q3.png){.question-figure fig-alt="Original question page 1.4 SQ Medium Q3"}
-</details>
 
 Sodium reacts with water:
 
@@ -100,9 +82,6 @@ $$\ce{2Na(s) + 2H2O(l) -> 2NaOH(aq) + H2(g)}$$
 
 ::: {.question-card}
 ### Example 7 · Phosphine and ideal-gas volume · 1.4 SQ Hard Q1
-<details class="source-preview"><summary>Original question page · 1.4 SQ Hard Q1</summary>
-![Original question page for 1.4 SQ Hard Q1](../assets/questions/original-source/1-4-sq-hard-q1.png){.question-figure fig-alt="Original question page 1.4 SQ Hard Q1"}
-</details>
 
 Phosphine is formed by decomposition of phosphorous acid:
 
@@ -117,9 +96,6 @@ $$\ce{4H3PO3(s) -> PH3(g) + 3H3PO4(s)}$$
 
 ::: {.question-card}
 ### Example 8 · Oxygen mass and electrons · 1.4 SQ Hard Q2
-<details class="source-preview"><summary>Original question page · 1.4 SQ Hard Q2</summary>
-![Original question page for 1.4 SQ Hard Q2](../assets/questions/original-source/1-4-sq-hard-q2.png){.question-figure fig-alt="Original question page 1.4 SQ Hard Q2"}
-</details>
 
 A sample of oxygen gas occupies $95.0\ \mathrm{cm^3}$ at $303\ \mathrm{kPa}$ and $28^\circ\mathrm{C}$.
 
@@ -132,9 +108,6 @@ A sample of oxygen gas occupies $95.0\ \mathrm{cm^3}$ at $303\ \mathrm{kPa}$ and
 
 ::: {.question-card}
 ### Example 9 · Mixing gases in connected vessels · 1.4 SQ Hard Q3
-<details class="source-preview"><summary>Original question page · 1.4 SQ Hard Q3</summary>
-![Original question page for 1.4 SQ Hard Q3](../assets/questions/original-source/1-4-sq-hard-q3.png){.question-figure fig-alt="Original question page 1.4 SQ Hard Q3"}
-</details>
 
 Vessel X contains pure $\ce{CO2}$ at $25^\circ\mathrm{C}$ and $1.00\times10^5\ \mathrm{Pa}$. Vessel Y has been evacuated and has a volume twice that of X. The valve is opened and the whole system is heated to $160^\circ\mathrm{C}$.
 
@@ -149,9 +122,6 @@ Vessel X contains pure $\ce{CO2}$ at $25^\circ\mathrm{C}$ and $1.00\times10^5\ \
 
 ::: {.question-card}
 ### Example 10 · Comparing ideal and real gases · 1.4 SQ Hard Q4
-<details class="source-preview"><summary>Original question page · 1.4 SQ Hard Q4</summary>
-![Original question page for 1.4 SQ Hard Q4](../assets/questions/original-source/1-4-sq-hard-q4.png){.question-figure fig-alt="Original question page 1.4 SQ Hard Q4"}
-</details>
 
 **(a)** Explain why a real gas deviates from ideal behaviour at high pressure. `[2 marks]`
 

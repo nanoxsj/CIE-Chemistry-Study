@@ -1,0 +1,2003 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hans" xml:lang="zh-Hans"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>5 Chemical energetics – CIE Chemistry 9701</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../a-level/6-electrochemistry.html" rel="next">
+<link href="../a-level/4-states-of-matter.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a2a938b4dd5711f7a799c87bd16ba44c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "没有结果",
+    "search-matching-documents-text": "匹配的文档",
+    "search-copy-link-title": "复制搜索链接",
+    "search-hide-matches-text": "隐藏其它匹配结果",
+    "search-more-match-text": "更多匹配结果",
+    "search-more-matches-text": "更多匹配结果",
+    "search-clear-button-title": "清除",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "提交",
+    "search-label": "搜索"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../a-level/1-atomic-structure.html">AS Level</a></li><li class="breadcrumb-item"><a href="../a-level/5-chemical-energetics.html">5 Chemical energetics</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="搜索" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">CIE Chemistry 9701</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="搜索"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">学习首页</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">AS Level</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/1-atomic-structure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1 Atomic structure</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/2-atoms-molecules-stoichiometry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2 Atoms, molecules and stoichiometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/3-chemical-bonding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3 Chemical bonding</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/4-states-of-matter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4 States of matter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/5-chemical-energetics.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">5 Chemical energetics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/6-electrochemistry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6 Electrochemistry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/7-equilibria.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7 Equilibria</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/8-reaction-kinetics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8 Reaction kinetics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/9-periodic-table-chemical-periodicity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9 The Periodic Table: chemical periodicity</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">A Level</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/23-chemical-energetics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">23 Chemical energetics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/24-electrochemistry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">24 Electrochemistry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/25-equilibria.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">25 Equilibria</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/26-reaction-kinetics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">26 Reaction kinetics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/27-group-2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">27 Group 2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/28-transition-elements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">28 Chemistry of transition elements</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/29-organic-chemistry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">29 An introduction to A Level organic chemistry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/30-hydrocarbons.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">30 Hydrocarbons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/31-halogen-compounds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">31 Halogen compounds</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/32-hydroxy-compounds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">32 Hydroxy compounds</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/33-carboxylic-acids-and-derivatives.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">33 Carboxylic acids and derivatives</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/34-nitrogen-compounds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">34 Nitrogen compounds</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/35-polymerisation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">35 Polymerisation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/36-organic-synthesis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">36 Organic synthesis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/37-analytical-techniques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">37 Analytical techniques</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">该页面内容</h2>
+   
+  <ul>
+  <li><a href="#chemical-energetics" id="toc-chemical-energetics" class="nav-link active" data-scroll-target="#chemical-energetics">5 Chemical energetics</a>
+  <ul class="collapse">
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
+  <li><a href="#energy-changes-in-reactions" id="toc-energy-changes-in-reactions" class="nav-link" data-scroll-target="#energy-changes-in-reactions">5.1 Energy changes in reactions</a>
+  <ul class="collapse">
+  <li><a href="#exothermic-and-endothermic-changes" id="toc-exothermic-and-endothermic-changes" class="nav-link" data-scroll-target="#exothermic-and-endothermic-changes">Exothermic and endothermic changes</a></li>
+  <li><a href="#reaction-profiles" id="toc-reaction-profiles" class="nav-link" data-scroll-target="#reaction-profiles">Reaction profiles</a></li>
+  <li><a href="#standard-enthalpy-changes" id="toc-standard-enthalpy-changes" class="nav-link" data-scroll-target="#standard-enthalpy-changes">Standard enthalpy changes</a></li>
+  </ul></li>
+  <li><a href="#calorimetry" id="toc-calorimetry" class="nav-link" data-scroll-target="#calorimetry">5.2 Calorimetry</a></li>
+  <li><a href="#bond-enthalpy" id="toc-bond-enthalpy" class="nav-link" data-scroll-target="#bond-enthalpy">5.3 Bond enthalpy</a></li>
+  <li><a href="#hess-law" id="toc-hess-law" class="nav-link" data-scroll-target="#hess-law">5.4 Hess’ law</a></li>
+  <li><a href="#chapter-checklist" id="toc-chapter-checklist" class="nav-link" data-scroll-target="#chapter-checklist">Chapter checklist</a></li>
+  <li><a href="#multiple-choice-questions" id="toc-multiple-choice-questions" class="nav-link" data-scroll-target="#multiple-choice-questions">Multiple choice questions</a>
+  <ul class="collapse">
+  <li><a href="#chemical-energetics---multiple-choice-easy" id="toc-chemical-energetics---multiple-choice-easy" class="nav-link" data-scroll-target="#chemical-energetics---multiple-choice-easy">5 Chemical energetics - Multiple Choice: Easy</a></li>
+  <li><a href="#question-1-relative-strength-of-hydrogen-bonds-1.5-choice-easy-q1" id="toc-question-1-relative-strength-of-hydrogen-bonds-1.5-choice-easy-q1" class="nav-link" data-scroll-target="#question-1-relative-strength-of-hydrogen-bonds-1.5-choice-easy-q1">Question 1 · Relative strength of hydrogen bonds · 1.5 Choice Easy Q1</a></li>
+  <li><a href="#question-2-hess-law-cycle-1.5-choice-easy-q2" id="toc-question-2-hess-law-cycle-1.5-choice-easy-q2" class="nav-link" data-scroll-target="#question-2-hess-law-cycle-1.5-choice-easy-q2">Question 2 · Hess’ law cycle · 1.5 Choice Easy Q2</a></li>
+  <li><a href="#question-3-formation-and-combustion-1.5-choice-easy-q3" id="toc-question-3-formation-and-combustion-1.5-choice-easy-q3" class="nav-link" data-scroll-target="#question-3-formation-and-combustion-1.5-choice-easy-q3">Question 3 · Formation and combustion · 1.5 Choice Easy Q3</a></li>
+  <li><a href="#question-4-activation-energy-from-a-pathway-1.5-choice-easy-q4" id="toc-question-4-activation-energy-from-a-pathway-1.5-choice-easy-q4" class="nav-link" data-scroll-target="#question-4-activation-energy-from-a-pathway-1.5-choice-easy-q4">Question 4 · Activation energy from a pathway · 1.5 Choice Easy Q4</a></li>
+  <li><a href="#question-5-reaction-profile-statements-1.5-choice-easy-q5" id="toc-question-5-reaction-profile-statements-1.5-choice-easy-q5" class="nav-link" data-scroll-target="#question-5-reaction-profile-statements-1.5-choice-easy-q5">Question 5 · Reaction profile statements · 1.5 Choice Easy Q5</a></li>
+  <li><a href="#question-6-thermodynamic-possibility-and-rate-1.5-choice-easy-q6" id="toc-question-6-thermodynamic-possibility-and-rate-1.5-choice-easy-q6" class="nav-link" data-scroll-target="#question-6-thermodynamic-possibility-and-rate-1.5-choice-easy-q6">Question 6 · Thermodynamic possibility and rate · 1.5 Choice Easy Q6</a></li>
+  <li><a href="#question-7-heat-transferred-in-calorimetry-1.5-choice-easy-q7" id="toc-question-7-heat-transferred-in-calorimetry-1.5-choice-easy-q7" class="nav-link" data-scroll-target="#question-7-heat-transferred-in-calorimetry-1.5-choice-easy-q7">Question 7 · Heat transferred in calorimetry · 1.5 Choice Easy Q7</a></li>
+  <li><a href="#chemical-energetics---multiple-choice-medium" id="toc-chemical-energetics---multiple-choice-medium" class="nav-link" data-scroll-target="#chemical-energetics---multiple-choice-medium">5 Chemical energetics - Multiple Choice: Medium</a></li>
+  <li><a href="#question-8-molar-enthalpy-of-neutralisation-1.5-choice-medium-q1" id="toc-question-8-molar-enthalpy-of-neutralisation-1.5-choice-medium-q1" class="nav-link" data-scroll-target="#question-8-molar-enthalpy-of-neutralisation-1.5-choice-medium-q1">Question 8 · Molar enthalpy of neutralisation · 1.5 Choice Medium Q1</a></li>
+  <li><a href="#question-9-formation-enthalpy-from-combustion-data-1.5-choice-medium-q2" id="toc-question-9-formation-enthalpy-from-combustion-data-1.5-choice-medium-q2" class="nav-link" data-scroll-target="#question-9-formation-enthalpy-from-combustion-data-1.5-choice-medium-q2">Question 9 · Formation enthalpy from combustion data · 1.5 Choice Medium Q2</a></li>
+  <li><a href="#question-10-neutralisation-calculation-1.5-choice-medium-q3" id="toc-question-10-neutralisation-calculation-1.5-choice-medium-q3" class="nav-link" data-scroll-target="#question-10-neutralisation-calculation-1.5-choice-medium-q3">Question 10 · Neutralisation calculation · 1.5 Choice Medium Q3</a></li>
+  <li><a href="#question-11-enthalpy-from-formation-data-1.5-choice-medium-q4" id="toc-question-11-enthalpy-from-formation-data-1.5-choice-medium-q4" class="nav-link" data-scroll-target="#question-11-enthalpy-from-formation-data-1.5-choice-medium-q4">Question 11 · Enthalpy from formation data · 1.5 Choice Medium Q4</a></li>
+  <li><a href="#question-12-bond-energy-of-nf-1.5-choice-medium-q5" id="toc-question-12-bond-energy-of-nf-1.5-choice-medium-q5" class="nav-link" data-scroll-target="#question-12-bond-energy-of-nf-1.5-choice-medium-q5">Question 12 · Bond energy of N–F · 1.5 Choice Medium Q5</a></li>
+  <li><a href="#question-13-bond-enthalpies-and-combustion-1.5-choice-medium-q6" id="toc-question-13-bond-enthalpies-and-combustion-1.5-choice-medium-q6" class="nav-link" data-scroll-target="#question-13-bond-enthalpies-and-combustion-1.5-choice-medium-q6">Question 13 · Bond enthalpies and combustion · 1.5 Choice Medium Q6</a></li>
+  <li><a href="#question-14-two-step-reaction-profile-1.5-choice-medium-q7" id="toc-question-14-two-step-reaction-profile-1.5-choice-medium-q7" class="nav-link" data-scroll-target="#question-14-two-step-reaction-profile-1.5-choice-medium-q7">Question 14 · Two-step reaction profile · 1.5 Choice Medium Q7</a></li>
+  <li><a href="#chemical-energetics---multiple-choice-hard" id="toc-chemical-energetics---multiple-choice-hard" class="nav-link" data-scroll-target="#chemical-energetics---multiple-choice-hard">5 Chemical energetics - Multiple Choice: Hard</a></li>
+  <li><a href="#question-15-decomposition-of-phosphorus-pentachloride-1.5-choice-hard-q1" id="toc-question-15-decomposition-of-phosphorus-pentachloride-1.5-choice-hard-q1" class="nav-link" data-scroll-target="#question-15-decomposition-of-phosphorus-pentachloride-1.5-choice-hard-q1">Question 15 · Decomposition of phosphorus pentachloride · 1.5 Choice Hard Q1</a></li>
+  <li><a href="#question-16-sulfur-oxide-formation-1.5-choice-hard-q2" id="toc-question-16-sulfur-oxide-formation-1.5-choice-hard-q2" class="nav-link" data-scroll-target="#question-16-sulfur-oxide-formation-1.5-choice-hard-q2">Question 16 · Sulfur oxide formation · 1.5 Choice Hard Q2</a></li>
+  <li><a href="#question-17-calorimetry-with-incomplete-heat-transfer-1.5-choice-hard-q3" id="toc-question-17-calorimetry-with-incomplete-heat-transfer-1.5-choice-hard-q3" class="nav-link" data-scroll-target="#question-17-calorimetry-with-incomplete-heat-transfer-1.5-choice-hard-q3">Question 17 · Calorimetry with incomplete heat transfer · 1.5 Choice Hard Q3</a></li>
+  <li><a href="#question-18-average-cc-bond-enthalpy-1.5-choice-hard-q5" id="toc-question-18-average-cc-bond-enthalpy-1.5-choice-hard-q5" class="nav-link" data-scroll-target="#question-18-average-cc-bond-enthalpy-1.5-choice-hard-q5">Question 18 · Average C–C bond enthalpy · 1.5 Choice Hard Q5</a></li>
+  <li><a href="#question-19-ordering-bond-energy-changes-1.5-choice-hard-q6" id="toc-question-19-ordering-bond-energy-changes-1.5-choice-hard-q6" class="nav-link" data-scroll-target="#question-19-ordering-bond-energy-changes-1.5-choice-hard-q6">Question 19 · Ordering bond-energy changes · 1.5 Choice Hard Q6</a></li>
+  <li><a href="#question-20-formation-enthalpy-from-combustion-data-1.5-choice-hard-q7" id="toc-question-20-formation-enthalpy-from-combustion-data-1.5-choice-hard-q7" class="nav-link" data-scroll-target="#question-20-formation-enthalpy-from-combustion-data-1.5-choice-hard-q7">Question 20 · Formation enthalpy from combustion data · 1.5 Choice Hard Q7</a></li>
+  </ul></li>
+  <li><a href="#structured-questions" id="toc-structured-questions" class="nav-link" data-scroll-target="#structured-questions">Structured questions</a>
+  <ul class="collapse">
+  <li><a href="#chemical-energetics---structured-questions-easy" id="toc-chemical-energetics---structured-questions-easy" class="nav-link" data-scroll-target="#chemical-energetics---structured-questions-easy">5 Chemical energetics - Structured Questions: Easy</a></li>
+  <li><a href="#example-1-standard-enthalpy-definitions-1.5-sq-easy-q1" id="toc-example-1-standard-enthalpy-definitions-1.5-sq-easy-q1" class="nav-link" data-scroll-target="#example-1-standard-enthalpy-definitions-1.5-sq-easy-q1">Example 1 · Standard enthalpy definitions · 1.5 SQ Easy Q1</a></li>
+  <li><a href="#example-2-enthalpy-of-reaction-and-transition-state-1.5-sq-easy-q2" id="toc-example-2-enthalpy-of-reaction-and-transition-state-1.5-sq-easy-q2" class="nav-link" data-scroll-target="#example-2-enthalpy-of-reaction-and-transition-state-1.5-sq-easy-q2">Example 2 · Enthalpy of reaction and transition state · 1.5 SQ Easy Q2</a></li>
+  <li><a href="#example-3-bond-enthalpy-calculations-1.5-sq-easy-q3" id="toc-example-3-bond-enthalpy-calculations-1.5-sq-easy-q3" class="nav-link" data-scroll-target="#example-3-bond-enthalpy-calculations-1.5-sq-easy-q3">Example 3 · Bond enthalpy calculations · 1.5 SQ Easy Q3</a></li>
+  <li><a href="#chemical-energetics---structured-questions-medium" id="toc-chemical-energetics---structured-questions-medium" class="nav-link" data-scroll-target="#chemical-energetics---structured-questions-medium">5 Chemical energetics - Structured Questions: Medium</a></li>
+  <li><a href="#example-4-propane-chlorination-and-bond-energies-1.5-sq-medium-q1" id="toc-example-4-propane-chlorination-and-bond-energies-1.5-sq-medium-q1" class="nav-link" data-scroll-target="#example-4-propane-chlorination-and-bond-energies-1.5-sq-medium-q1">Example 4 · Propane chlorination and bond energies · 1.5 SQ Medium Q1</a></li>
+  <li><a href="#example-5-butan-1-ol-combustion-calorimetry-1.5-sq-medium-q2" id="toc-example-5-butan-1-ol-combustion-calorimetry-1.5-sq-medium-q2" class="nav-link" data-scroll-target="#example-5-butan-1-ol-combustion-calorimetry-1.5-sq-medium-q2">Example 5 · Butan-1-ol combustion calorimetry · 1.5 SQ Medium Q2</a></li>
+  <li><a href="#example-6-hess-law-cycle-for-butane-1.5-sq-medium-q3" id="toc-example-6-hess-law-cycle-for-butane-1.5-sq-medium-q3" class="nav-link" data-scroll-target="#example-6-hess-law-cycle-for-butane-1.5-sq-medium-q3">Example 6 · Hess’ law cycle for butane · 1.5 SQ Medium Q3</a></li>
+  <li><a href="#example-7-nitrogen-oxides-and-no-bond-enthalpy-1.5-sq-medium-q4" id="toc-example-7-nitrogen-oxides-and-no-bond-enthalpy-1.5-sq-medium-q4" class="nav-link" data-scroll-target="#example-7-nitrogen-oxides-and-no-bond-enthalpy-1.5-sq-medium-q4">Example 7 · Nitrogen oxides and N=O bond enthalpy · 1.5 SQ Medium Q4</a></li>
+  <li><a href="#chemical-energetics---structured-questions-hard" id="toc-chemical-energetics---structured-questions-hard" class="nav-link" data-scroll-target="#chemical-energetics---structured-questions-hard">5 Chemical energetics - Structured Questions: Hard</a></li>
+  <li><a href="#example-8-hydrolysis-and-combustion-of-urea-1.5-sq-hard-q1" id="toc-example-8-hydrolysis-and-combustion-of-urea-1.5-sq-hard-q1" class="nav-link" data-scroll-target="#example-8-hydrolysis-and-combustion-of-urea-1.5-sq-hard-q1">Example 8 · Hydrolysis and combustion of urea · 1.5 SQ Hard Q1</a></li>
+  <li><a href="#example-9-ammonium-chloride-calorimetry-1.5-sq-hard-q2" id="toc-example-9-ammonium-chloride-calorimetry-1.5-sq-hard-q2" class="nav-link" data-scroll-target="#example-9-ammonium-chloride-calorimetry-1.5-sq-hard-q2">Example 9 · Ammonium chloride calorimetry · 1.5 SQ Hard Q2</a></li>
+  <li><a href="#example-10-hydrogenation-and-polymerisation-of-propene-1.5-sq-hard-q3" id="toc-example-10-hydrogenation-and-polymerisation-of-propene-1.5-sq-hard-q3" class="nav-link" data-scroll-target="#example-10-hydrogenation-and-polymerisation-of-propene-1.5-sq-hard-q3">Example 10 · Hydrogenation and polymerisation of propene · 1.5 SQ Hard Q3</a></li>
+  </ul></li>
+  <li><a href="#original-question-pdfs" id="toc-original-question-pdfs" class="nav-link" data-scroll-target="#original-question-pdfs">Original question PDFs</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../a-level/1-atomic-structure.html">AS Level</a></li><li class="breadcrumb-item"><a href="../a-level/5-chemical-energetics.html">5 Chemical energetics</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">5 Chemical energetics</h1>
+<p class="subtitle lead">Energy changes, calorimetry, bond enthalpy and Hess’ law</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="chemical-energetics" class="level1">
+<h1>5 Chemical energetics</h1>
+<p>本章对应 CIE 9701 AS Chemistry 的 <strong>Chemical energetics</strong>。重点是用能量变化描述反应，处理量热实验、键焓以及 Hess’ law 能量循环。</p>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
+<p>学完本章后，你应该能够：</p>
+<ul>
+<li>define standard enthalpy changes of formation, combustion and neutralisation;</li>
+<li>identify exothermic and endothermic reactions from data and reaction profiles;</li>
+<li>use <span class="math inline">\(q=mc\Delta T\)</span> and <span class="math inline">\(ΔH=q/n\)</span> in calorimetry;</li>
+<li>define average bond enthalpy and calculate <span class="math inline">\(ΔH\)</span> from bonds broken and formed;</li>
+<li>use standard enthalpies of formation and combustion in Hess’ law cycles;</li>
+<li>label activation energy and enthalpy change on a reaction pathway diagram;</li>
+<li>explain why experimental enthalpy values differ from standard values.</li>
+</ul>
+</section>
+<section id="energy-changes-in-reactions" class="level2">
+<h2 class="anchored" data-anchor-id="energy-changes-in-reactions">5.1 Energy changes in reactions</h2>
+<section id="exothermic-and-endothermic-changes" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="exothermic-and-endothermic-changes">Exothermic and endothermic changes</h3>
+<p>An <strong>exothermic</strong> reaction transfers energy from the reacting system to the surroundings. The surroundings warm and <span class="math inline">\(ΔH\)</span> is negative. Combustion and most strong acid–alkali neutralisations are exothermic.</p>
+<p>An <strong>endothermic</strong> reaction takes in energy from the surroundings. The surroundings cool and <span class="math inline">\(ΔH\)</span> is positive. Bond breaking is endothermic; bond making is exothermic.</p>
+</section>
+<section id="reaction-profiles" class="level3 formula-panel">
+<h3 class="anchored" data-anchor-id="reaction-profiles">Reaction profiles</h3>
+<p>On an energy profile, the vertical difference between reactants and products is the enthalpy change:</p>
+<p><span class="math display">\[ΔH=H_{\text{products}}-H_{\text{reactants}}\]</span></p>
+<p>The activation energy is the energy difference from the reactants to the transition state. For the reverse reaction it is measured from the products to the same maximum. A catalyst lowers the activation energy but does not change <span class="math inline">\(ΔH\)</span>.</p>
+</section>
+<section id="standard-enthalpy-changes" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="standard-enthalpy-changes">Standard enthalpy changes</h3>
+<p>The standard enthalpy change of formation, <span class="math inline">\(ΔH_f^\ominus\)</span>, is the enthalpy change when <strong>one mole of a compound</strong> is formed from its elements in their standard states under standard conditions.</p>
+<p>The standard enthalpy change of combustion, <span class="math inline">\(ΔH_c^\ominus\)</span>, is the enthalpy change when one mole of a substance is completely burned in excess oxygen under standard conditions.</p>
+<p>The standard enthalpy change of neutralisation, <span class="math inline">\(ΔH_{neut}^\ominus\)</span>, is the enthalpy change when one mole of water is formed by reaction between an acid and an alkali under standard conditions. Standard conditions here are <span class="math inline">\(298\ \mathrm{K}\)</span> and <span class="math inline">\(101\ \mathrm{kPa}\)</span>.</p>
+</section>
+</section>
+<section id="calorimetry" class="level2">
+<h2 class="anchored" data-anchor-id="calorimetry">5.2 Calorimetry</h2>
+<p>The heat transferred to a solution is approximated by:</p>
+<p><span class="math display">\[q=mc\Delta T\]</span></p>
+<p>where <span class="math inline">\(q\)</span> is in J, <span class="math inline">\(m\)</span> is the mass of solution in g, <span class="math inline">\(c\)</span> is the specific heat capacity in <span class="math inline">\(\mathrm{J\ g^{-1}\ K^{-1}}\)</span>, and <span class="math inline">\(\Delta T\)</span> is the temperature change. For dilute aqueous solutions, <span class="math inline">\(1\ \mathrm{cm^3}\)</span> is usually taken as <span class="math inline">\(1\ \mathrm{g}\)</span>.</p>
+<p>For a reaction involving <span class="math inline">\(n\)</span> moles:</p>
+<p><span class="math display">\[\Delta H=\frac{q}{n}\]</span></p>
+<p>If the temperature rises, the reaction is exothermic and the enthalpy change is negative. If the temperature falls, the reaction is endothermic and the enthalpy change is positive.</p>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · Neutralisation</span></p>
+<section id="calculating-a-molar-enthalpy-change" class="level3">
+<h3 class="anchored" data-anchor-id="calculating-a-molar-enthalpy-change">Calculating a molar enthalpy change</h3>
+<p>Mix <span class="math inline">\(30.0\ \mathrm{cm^3}\)</span> of <span class="math inline">\(0.0250\ \mathrm{mol\ dm^{-3}}\)</span> potassium hydroxide with the same volume and concentration of nitric acid. The temperature rises by <span class="math inline">\(0.50\ ^\circ\mathrm{C}\)</span> and <span class="math inline">\(c=4.20\ \mathrm{J\ cm^{-3}\ K^{-1}}\)</span>.</p>
+<p><span class="math display">\[q=(60.0)(4.20)(0.50)=126\ \mathrm{J}\]</span></p>
+<p><span class="math display">\[n(\ce{H2O})=0.0300\times0.0250=7.50\times10^{-4}\ \mathrm{mol}\]</span></p>
+<p>The solution warmed, so:</p>
+<p><span class="math display">\[\Delta H=-\frac{126}{7.50\times10^{-4}}=-168\ \mathrm{kJ\ mol^{-1}}\]</span></p>
+</section>
+</div>
+<p>Experimental values are often less exothermic than standard values because heat is lost to the surroundings, combustion may be incomplete, some heat warms the apparatus, and the reactants may not be in their standard states. Insulation, a lid, stirring, a copper spiral and complete combustion reduce these errors.</p>
+</section>
+<section id="bond-enthalpy" class="level2">
+<h2 class="anchored" data-anchor-id="bond-enthalpy">5.3 Bond enthalpy</h2>
+<p>The <strong>average bond enthalpy</strong> is the energy needed to break one mole of a particular type of bond in gaseous molecules, averaged over a range of compounds. It is positive because bond breaking requires energy.</p>
+<p>Use:</p>
+<p><span class="math display">\[\Delta H_r^\ominus=\sum E(\text{bonds broken})-\sum E(\text{bonds formed})\]</span></p>
+<p>Count every bond in the balanced equation. The answer is an estimate because average bond enthalpies are used; the exact bond strength depends on the molecule.</p>
+</section>
+<section id="hess-law" class="level2">
+<h2 class="anchored" data-anchor-id="hess-law">5.4 Hess’ law</h2>
+<p>Hess’ law states that the overall enthalpy change is independent of the route taken between the same initial and final states. Therefore, equations may be reversed and multiplied, provided their enthalpy changes are reversed and multiplied in the same way.</p>
+<p>For formation data:</p>
+<p><span class="math display">\[\Delta H_r^\ominus=\sum \Delta H_f^\ominus(\text{products})-\sum \Delta H_f^\ominus(\text{reactants})\]</span></p>
+<p>For combustion data, construct a cycle in which both the reactants and products burn to the same final products, usually <span class="math inline">\(\ce{CO2(g)}\)</span> and <span class="math inline">\(\ce{H2O(l)}\)</span>. Keep coefficients, state symbols and signs consistent.</p>
+<div class="worked-example">
+<p><span class="we-tag">Worked example · Formation from combustion data</span></p>
+<section id="propanol" class="level3">
+<h3 class="anchored" data-anchor-id="propanol">Propanol</h3>
+<p>For <span class="math inline">\(\ce{C3H6O}\)</span>, suppose <span class="math inline">\(\Delta H_c^\ominus(\ce{H2})=-286\)</span>, <span class="math inline">\(\Delta H_c^\ominus(\ce{C})=-394\)</span> and <span class="math inline">\(\Delta H_c^\ominus(\ce{C3H6O})=-1816\ \mathrm{kJ\ mol^{-1}}\)</span>.</p>
+<p>The elements produce the same combustion products as propanol, so:</p>
+<p><span class="math display">\[\Delta H_f^\ominus=3(-394)+3(-286)-(-1816)=-224\ \mathrm{kJ\ mol^{-1}}\]</span></p>
+</section>
+</div>
+</section>
+<section id="chapter-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="chapter-checklist">Chapter checklist</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">I can distinguish exothermic and endothermic reactions and read an energy profile.</label></li>
+<li><label><input type="checkbox">I can define formation, combustion and neutralisation enthalpies.</label></li>
+<li><label><input type="checkbox">I can use <span class="math inline">\(q=mc\Delta T\)</span> and calculate a molar enthalpy change.</label></li>
+<li><label><input type="checkbox">I can count bonds and use average bond enthalpies.</label></li>
+<li><label><input type="checkbox">I can construct and calculate a Hess’ law cycle.</label></li>
+<li><label><input type="checkbox">I can explain common errors in calorimetry experiments.</label></li>
+</ul>
+</section>
+<section id="multiple-choice-questions" class="level2">
+<h2 class="anchored" data-anchor-id="multiple-choice-questions">Multiple choice questions</h2>
+<section id="chemical-energetics---multiple-choice-easy" class="level3">
+<h3 class="anchored" data-anchor-id="chemical-energetics---multiple-choice-easy">5 Chemical energetics - Multiple Choice: Easy</h3>
+</section>
+<div id="energetics-choice-easy-q1" class="mc-question" data-answer="A">
+<section id="question-1-relative-strength-of-hydrogen-bonds-1.5-choice-easy-q1" class="level3">
+<h3 class="anchored" data-anchor-id="question-1-relative-strength-of-hydrogen-bonds-1.5-choice-easy-q1">Question 1 · Relative strength of hydrogen bonds · 1.5 Choice Easy Q1</h3>
+<p>Which quantity gives the best indication of the relative strengths of the hydrogen bonds between water molecules in the liquid state?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Enthalpy changes of vaporisation</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Bond dissociation energies</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Enthalpy of formation</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Activation energy</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>A.</strong> Vaporisation overcomes intermolecular hydrogen bonds, so its enthalpy is related to their strength.
+</p>
+</details>
+</section>
+</div>
+<div id="energetics-choice-easy-q2" class="mc-question" data-answer="C">
+<section id="question-2-hess-law-cycle-1.5-choice-easy-q2" class="level3">
+<h3 class="anchored" data-anchor-id="question-2-hess-law-cycle-1.5-choice-easy-q2">Question 2 · Hess’ law cycle · 1.5 Choice Easy Q2</h3>
+<p>Enthalpy changes that are difficult to measure directly can often be determined using Hess’ law to construct an enthalpy cycle. Which enthalpy change is indicated by X in the enthalpy cycle shown?</p>
+<p>The arrow for X forms <span class="math inline">\(3\ \mathrm{mol}\)</span> of <span class="math inline">\(\ce{H2O(l)}\)</span> from the elements.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-5-choice-easy-q2-cycle.png" class="question-figure img-fluid figure-img" alt="Hess law cycle for 1.5 Choice Easy Q2"></p>
+<figcaption>Hess’ law cycle for Choice Easy Q2</figcaption>
+</figure>
+</div>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>+<span class="math inline">\(1\times\)</span> enthalpy of formation of water</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>−<span class="math inline">\(1\times\)</span> enthalpy of formation of water</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>+<span class="math inline">\(3\times\)</span> enthalpy of formation of water</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>−<span class="math inline">\(3\times\)</span> enthalpy of formation of water</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> The arrow is in the formation direction and produces three moles of water, so it represents <span class="math inline">\(+3\Delta H_f^\ominus(\ce{H2O})\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="energetics-choice-easy-q3" class="mc-question" data-answer="B">
+<section id="question-3-formation-and-combustion-1.5-choice-easy-q3" class="level3">
+<h3 class="anchored" data-anchor-id="question-3-formation-and-combustion-1.5-choice-easy-q3">Question 3 · Formation and combustion · 1.5 Choice Easy Q3</h3>
+<p>Which equation below can represent both an enthalpy change of formation and combustion?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(\ce{CH4(g) + 2O2(g) -&gt; CO2(g) + 2H2O(l)}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(\ce{4Na(s) + O2(g) -&gt; 2Na2O(s)}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(\ce{HCl(aq) + NaOH(aq) -&gt; NaCl(aq) + H2O(l)}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(\ce{CO(g) + C(s) -&gt; CO2(g)}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> Sodium and oxygen are elements in their standard states and sodium is reacting with oxygen to form its oxide.
+</p>
+</details>
+</section>
+</div>
+<div id="energetics-choice-easy-q4" class="mc-question" data-answer="C">
+<section id="question-4-activation-energy-from-a-pathway-1.5-choice-easy-q4" class="level3">
+<h3 class="anchored" data-anchor-id="question-4-activation-energy-from-a-pathway-1.5-choice-easy-q4">Question 4 · Activation energy from a pathway · 1.5 Choice Easy Q4</h3>
+<p>The reaction pathway for a reversible reaction is shown in the original question page. Which statement is correct?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-5-choice-easy-q4-profile.png" class="question-figure img-fluid figure-img" alt="Reaction pathway for 1.5 Choice Easy Q4"></p>
+<figcaption>Reaction pathway for Choice Easy Q4</figcaption>
+</figure>
+</div>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>The activation energy of the reverse reaction is <span class="math inline">\(+90\ \mathrm{kJ\ mol^{-1}}\)</span>.</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>The activation energy of the forward reaction is <span class="math inline">\(+20\ \mathrm{kJ\ mol^{-1}}\)</span>.</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>The activation energy of the reverse reaction is <span class="math inline">\(+20\ \mathrm{kJ\ mol^{-1}}\)</span>.</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>The enthalpy change of the forward reaction is <span class="math inline">\(-70\ \mathrm{kJ\ mol^{-1}}\)</span>.</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> The products are <span class="math inline">\(70\ \mathrm{kJ\ mol^{-1}}\)</span> above the reactants and the peak is another <span class="math inline">\(20\ \mathrm{kJ\ mol^{-1}}\)</span> above the products.
+</p>
+</details>
+</section>
+</div>
+<div id="energetics-choice-easy-q5" class="mc-question" data-answer="D">
+<section id="question-5-reaction-profile-statements-1.5-choice-easy-q5" class="level3">
+<h3 class="anchored" data-anchor-id="question-5-reaction-profile-statements-1.5-choice-easy-q5">Question 5 · Reaction profile statements · 1.5 Choice Easy Q5</h3>
+<p>The reaction pathway for a reversible reaction is shown in the original question page. Which statements are correct?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-5-choice-easy-q5-profile.png" class="question-figure img-fluid figure-img" alt="Reaction pathway for 1.5 Choice Easy Q5"></p>
+<figcaption>Reaction pathway for Choice Easy Q5</figcaption>
+</figure>
+</div>
+<ol type="1">
+<li>The forward reaction is endothermic.<br></li>
+<li>The enthalpy change for the backward reaction is <span class="math inline">\(-30\ \mathrm{kJ\ mol^{-1}}\)</span>.<br></li>
+<li>The activation energy for the forward reaction is <span class="math inline">\(+90\ \mathrm{kJ\ mol^{-1}}\)</span>.</li>
+</ol>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>1 only</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>1 and 2</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>2 and 3</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>1, 2 and 3</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>D.</strong> Products are <span class="math inline">\(30\ \mathrm{kJ\ mol^{-1}}\)</span> above reactants, the reverse change is <span class="math inline">\(-30\)</span>, and the peak is <span class="math inline">\(90\ \mathrm{kJ\ mol^{-1}}\)</span> above reactants.
+</p>
+</details>
+</section>
+</div>
+<div id="energetics-choice-easy-q6" class="mc-question" data-answer="A">
+<section id="question-6-thermodynamic-possibility-and-rate-1.5-choice-easy-q6" class="level3">
+<h3 class="anchored" data-anchor-id="question-6-thermodynamic-possibility-and-rate-1.5-choice-easy-q6">Question 6 · Thermodynamic possibility and rate · 1.5 Choice Easy Q6</h3>
+<p>Which statement best describes why a reaction is said to be thermodynamically possible yet kinetically controlled?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>The enthalpy of the reactants is higher than the products, and the reaction is very slow.</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>The enthalpy of the reactants is lower than the products, and the reaction is fast.</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>The enthalpy of the reactants is lower than the products, and the reaction is very slow.</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>The reaction is exothermic and very fast.</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>A.</strong> A reaction is thermodynamically favourable when products have lower enthalpy, but it may still be slow because of a large activation energy.
+</p>
+</details>
+</section>
+</div>
+<div id="energetics-choice-easy-q7" class="mc-question" data-answer="D">
+<section id="question-7-heat-transferred-in-calorimetry-1.5-choice-easy-q7" class="level3">
+<h3 class="anchored" data-anchor-id="question-7-heat-transferred-in-calorimetry-1.5-choice-easy-q7">Question 7 · Heat transferred in calorimetry · 1.5 Choice Easy Q7</h3>
+<p>A student carried out an experiment to determine the enthalpy change for combustion of ethanol. The water temperature rose from <span class="math inline">\(21^\circ\mathrm{C}\)</span> to <span class="math inline">\(54^\circ\mathrm{C}\)</span>. The mass of the beaker plus water was <span class="math inline">\(150.00\ \mathrm{g}\)</span> and the mass of the empty beaker was <span class="math inline">\(50.0\ \mathrm{g}\)</span>. The specific heat capacity of water is <span class="math inline">\(4.18\ \mathrm{J\ g^{-1}\ ^\circ C^{-1}}\)</span>. How much heat energy went into the water?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(6897\ \mathrm{J}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(20691\ \mathrm{J}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(22572\ \mathrm{J}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(13794\ \mathrm{J}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>D.</strong> <span class="math inline">\(q=mc\Delta T=(100)(4.18)(33)=13794\ \mathrm{J}\)</span>.
+</p>
+</details>
+</section>
+</div>
+<section id="chemical-energetics---multiple-choice-medium" class="level3">
+<h3 class="anchored" data-anchor-id="chemical-energetics---multiple-choice-medium">5 Chemical energetics - Multiple Choice: Medium</h3>
+</section>
+<div id="energetics-choice-medium-q1" class="mc-question" data-answer="D">
+<section id="question-8-molar-enthalpy-of-neutralisation-1.5-choice-medium-q1" class="level3">
+<h3 class="anchored" data-anchor-id="question-8-molar-enthalpy-of-neutralisation-1.5-choice-medium-q1">Question 8 · Molar enthalpy of neutralisation · 1.5 Choice Medium Q1</h3>
+<p>A student mixed <span class="math inline">\(30.0\ \mathrm{cm^3}\)</span> of <span class="math inline">\(0.0250\ \mathrm{mol\ dm^{-3}}\)</span> potassium hydroxide solution with <span class="math inline">\(30.0\ \mathrm{cm^3}\)</span> of <span class="math inline">\(0.0250\ \mathrm{mol\ dm^{-3}}\)</span> nitric acid. The temperature rose by <span class="math inline">\(0.50^\circ\mathrm{C}\)</span>. The final mixture had a specific heat capacity of <span class="math inline">\(4.20\ \mathrm{J\ cm^{-3}\ K^{-1}}\)</span>. What is the molar enthalpy change for the reaction?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(-0.126\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(-84\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(+168\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(-168\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>D.</strong> <span class="math inline">\(q=60(4.20)(0.50)=126\ \mathrm{J}\)</span> and <span class="math inline">\(n=0.0300(0.0250)=7.50\times10^{-4}\ \mathrm{mol}\)</span>, so <span class="math inline">\(\Delta H=-168\ \mathrm{kJ\ mol^{-1}}\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="energetics-choice-medium-q2" class="mc-question" data-answer="B">
+<section id="question-9-formation-enthalpy-from-combustion-data-1.5-choice-medium-q2" class="level3">
+<h3 class="anchored" data-anchor-id="question-9-formation-enthalpy-from-combustion-data-1.5-choice-medium-q2">Question 9 · Formation enthalpy from combustion data · 1.5 Choice Medium Q2</h3>
+<p>Propanol has molecular formula <span class="math inline">\(\ce{C3H6O}\)</span>. The enthalpy change of combustion of hydrogen is <span class="math inline">\(-286\ \mathrm{kJ\ mol^{-1}}\)</span>, of carbon is <span class="math inline">\(-394\ \mathrm{kJ\ mol^{-1}}\)</span>, and of propanol is <span class="math inline">\(-1816\ \mathrm{kJ\ mol^{-1}}\)</span>. Calculate the enthalpy change for formation of propanol.</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(-3856\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(-224\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(+1154\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(-2478\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> <span class="math inline">\(\Delta H_f=3(-394)+3(-286)-(-1816)=-224\ \mathrm{kJ\ mol^{-1}}\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="energetics-choice-medium-q3" class="mc-question" data-answer="B">
+<section id="question-10-neutralisation-calculation-1.5-choice-medium-q3" class="level3">
+<h3 class="anchored" data-anchor-id="question-10-neutralisation-calculation-1.5-choice-medium-q3">Question 10 · Neutralisation calculation · 1.5 Choice Medium Q3</h3>
+<p>An experiment used <span class="math inline">\(75\ \mathrm{cm^3}\)</span> of <span class="math inline">\(3.00\ \mathrm{mol\ dm^{-3}}\)</span> hydrochloric acid and <span class="math inline">\(75\ \mathrm{cm^3}\)</span> of <span class="math inline">\(3.00\ \mathrm{mol\ dm^{-3}}\)</span> potassium hydroxide. The temperature rose by <span class="math inline">\(14^\circ\mathrm{C}\)</span> and the specific heat capacity was <span class="math inline">\(4.20\ \mathrm{J\ g^{-1}\ K^{-1}}\)</span>. Which calculation is correct for the molar enthalpy change?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(-\dfrac{75\times4.2\times14}{0.150\times6.0}\ \mathrm{J\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(-\dfrac{150\times4.2\times14}{0.075\times3.0}\ \mathrm{J\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(-\dfrac{150\times4.2\times14}{75.0\times3.0}\ \mathrm{J\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(-\dfrac{75\times4.2\times17}{0.075\times6.0}\ \mathrm{J\ mol^{-1}}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> Use the total volume for <span class="math inline">\(q\)</span> and <span class="math inline">\(0.075\times3.00\)</span> moles of water formed.
+</p>
+</details>
+</section>
+</div>
+<div id="energetics-choice-medium-q4" class="mc-question" data-answer="C">
+<section id="question-11-enthalpy-from-formation-data-1.5-choice-medium-q4" class="level3">
+<h3 class="anchored" data-anchor-id="question-11-enthalpy-from-formation-data-1.5-choice-medium-q4">Question 11 · Enthalpy from formation data · 1.5 Choice Medium Q4</h3>
+<p>For the reaction <span class="math inline">\(\ce{4NH3(g) + 5O2(g) -&gt; 4NO(g) + 6H2O(g)}\)</span>, the standard enthalpies of formation are <span class="math inline">\(-51.3\)</span>, <span class="math inline">\(+92.2\)</span> and <span class="math inline">\(-239.6\ \mathrm{kJ\ mol^{-1}}\)</span> for <span class="math inline">\(\ce{NH3(g)}\)</span>, <span class="math inline">\(\ce{NO(g)}\)</span> and <span class="math inline">\(\ce{H2O(g)}\)</span>, respectively. What is <span class="math inline">\(\Delta H_f^\ominus\)</span> for this reaction?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(+863.6\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(-1601.2\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(-863.6\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(-1274.0\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> <span class="math inline">\(\Delta H=[4(92.2)+6(-239.6)]-[4(-51.3)]=-863.6\ \mathrm{kJ\ mol^{-1}}\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="energetics-choice-medium-q5" class="mc-question" data-answer="C">
+<section id="question-12-bond-energy-of-nf-1.5-choice-medium-q5" class="level3">
+<h3 class="anchored" data-anchor-id="question-12-bond-energy-of-nf-1.5-choice-medium-q5">Question 12 · Bond energy of N–F · 1.5 Choice Medium Q5</h3>
+<p>The standard enthalpy change for <span class="math inline">\(\ce{2N(g) + 6F(g) -&gt; 2NF3(g)}\)</span> is <span class="math inline">\(-1776\ \mathrm{kJ}\)</span>. What is the bond energy of the N–F bond?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(-592\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(+592\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(+296\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(-296\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> Six N–F bonds form, so <span class="math inline">\(6E=-(-1776)\)</span> and <span class="math inline">\(E=296\ \mathrm{kJ\ mol^{-1}}\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="energetics-choice-medium-q6" class="mc-question" data-answer="B">
+<section id="question-13-bond-enthalpies-and-combustion-1.5-choice-medium-q6" class="level3">
+<h3 class="anchored" data-anchor-id="question-13-bond-enthalpies-and-combustion-1.5-choice-medium-q6">Question 13 · Bond enthalpies and combustion · 1.5 Choice Medium Q6</h3>
+<p>The complete combustion of ethyne, <span class="math inline">\(\ce{C2H2}\)</span>, is shown in the original question page. Using the average bond enthalpies in that table, what is the enthalpy change of combustion?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(+1307.5\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(-1307.5\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(+1390\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(-1390\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> <span class="math inline">\(\Delta H=2872.5-4180=-1307.5\ \mathrm{kJ\ mol^{-1}}\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="energetics-choice-medium-q7" class="mc-question" data-answer="A">
+<section id="question-14-two-step-reaction-profile-1.5-choice-medium-q7" class="level3">
+<h3 class="anchored" data-anchor-id="question-14-two-step-reaction-profile-1.5-choice-medium-q7">Question 14 · Two-step reaction profile · 1.5 Choice Medium Q7</h3>
+<p>Compound R changes into compound T through isolable compound S. The reaction <span class="math inline">\(R\to S\)</span> has positive <span class="math inline">\(\Delta H\)</span> and <span class="math inline">\(S\to T\)</span> has negative <span class="math inline">\(\Delta H\)</span>. Which reaction profile fits these data?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-5-choice-medium-q7-profiles.png" class="question-figure img-fluid figure-img" alt="Reaction profiles A B C and D for 1.5 Choice Medium Q7"></p>
+<figcaption>Reaction profiles A to D for Choice Medium Q7</figcaption>
+</figure>
+</div>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Profile A in the original question page</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Profile B in the original question page</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Profile C in the original question page</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Profile D in the original question page</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>A.</strong> S must be higher in energy than R, while T must be lower than S.
+</p>
+</details>
+</section>
+</div>
+<section id="chemical-energetics---multiple-choice-hard" class="level3">
+<h3 class="anchored" data-anchor-id="chemical-energetics---multiple-choice-hard">5 Chemical energetics - Multiple Choice: Hard</h3>
+</section>
+<div id="energetics-choice-hard-q1" class="mc-question" data-answer="B">
+<section id="question-15-decomposition-of-phosphorus-pentachloride-1.5-choice-hard-q1" class="level3">
+<h3 class="anchored" data-anchor-id="question-15-decomposition-of-phosphorus-pentachloride-1.5-choice-hard-q1">Question 15 · Decomposition of phosphorus pentachloride · 1.5 Choice Hard Q1</h3>
+<p>In the gas phase, <span class="math inline">\(\ce{PCl5}\)</span> decomposes into <span class="math inline">\(\ce{PCl3}\)</span> and <span class="math inline">\(\ce{Cl2}\)</span>. The P–Cl bond energy is <span class="math inline">\(328\ \mathrm{kJ\ mol^{-1}}\)</span> and the Cl–Cl bond energy is <span class="math inline">\(241\ \mathrm{kJ\ mol^{-1}}\)</span>. What is the enthalpy change?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(-415\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(+415\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(+95\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(-95\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> Two P–Cl bonds are broken and one Cl–Cl bond is formed: <span class="math inline">\(2(328)-241=+415\ \mathrm{kJ\ mol^{-1}}\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="energetics-choice-hard-q2" class="mc-question" data-answer="D">
+<section id="question-16-sulfur-oxide-formation-1.5-choice-hard-q2" class="level3">
+<h3 class="anchored" data-anchor-id="question-16-sulfur-oxide-formation-1.5-choice-hard-q2">Question 16 · Sulfur oxide formation · 1.5 Choice Hard Q2</h3>
+<p>Given <span class="math inline">\(\Delta H_f^\ominus(\ce{SO2})=-297\ \mathrm{kJ\ mol^{-1}}\)</span> and <span class="math inline">\(\Delta H_f^\ominus(\ce{SO3})=-395\ \mathrm{kJ\ mol^{-1}}\)</span>, what is <span class="math inline">\(\Delta H_r^\ominus\)</span> for <span class="math inline">\(\ce{2SO2(g) + O2(g) -&gt; 2SO3(g)}\)</span>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(+98\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(-98\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(+196\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(-196\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>D.</strong> <span class="math inline">\(\Delta H=2(-395)-2(-297)=-196\ \mathrm{kJ\ mol^{-1}}\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="energetics-choice-hard-q3" class="mc-question" data-answer="C">
+<section id="question-17-calorimetry-with-incomplete-heat-transfer-1.5-choice-hard-q3" class="level3">
+<h3 class="anchored" data-anchor-id="question-17-calorimetry-with-incomplete-heat-transfer-1.5-choice-hard-q3">Question 17 · Calorimetry with incomplete heat transfer · 1.5 Choice Hard Q3</h3>
+<p>In a calorimetric experiment, <span class="math inline">\(2.50\ \mathrm{g}\)</span> of fuel is burned. Thirty percent of the energy released is absorbed by <span class="math inline">\(500\ \mathrm{g}\)</span> of water, whose temperature rises from <span class="math inline">\(25^\circ\mathrm{C}\)</span> to <span class="math inline">\(68^\circ\mathrm{C}\)</span>. The specific heat capacity of water is <span class="math inline">\(4.2\ \mathrm{J\ g^{-1}\ K^{-1}}\)</span>. What is the total energy released per gram of fuel?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(25284\ \mathrm{J}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(63210\ \mathrm{J}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(120400\ \mathrm{J}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(301000\ \mathrm{J}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> Water absorbs <span class="math inline">\(500(4.2)(43)=90300\ \mathrm{J}\)</span>, which is <span class="math inline">\(30\%\)</span> of the total. Thus total per gram is <span class="math inline">\(90300/(0.30\times2.50)=120400\ \mathrm{J\ g^{-1}}\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="energetics-choice-hard-q5" class="mc-question" data-answer="C">
+<section id="question-18-average-cc-bond-enthalpy-1.5-choice-hard-q5" class="level3">
+<h3 class="anchored" data-anchor-id="question-18-average-cc-bond-enthalpy-1.5-choice-hard-q5">Question 18 · Average C–C bond enthalpy · 1.5 Choice Hard Q5</h3>
+<p>The enthalpy change of formation of cyclobutane is <span class="math inline">\(+75.1\ \mathrm{kJ\ mol^{-1}}\)</span>, the enthalpy change of atomisation of graphite is <span class="math inline">\(+712\ \mathrm{kJ\ mol^{-1}}\)</span>, the C–H bond enthalpy is <span class="math inline">\(390\ \mathrm{kJ\ mol^{-1}}\)</span> and the H–H bond enthalpy is <span class="math inline">\(429\ \mathrm{kJ\ mol^{-1}}\)</span>. What is the average C–C bond enthalpy in cyclobutane?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(236\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(315\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(342\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(700\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> Using the atomisation cycle, <span class="math inline">\(75.1=4(712)+4(429)-8(390)-4E\)</span>, giving <span class="math inline">\(E\approx342\ \mathrm{kJ\ mol^{-1}}\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="energetics-choice-hard-q6" class="mc-question" data-answer="A">
+<section id="question-19-ordering-bond-energy-changes-1.5-choice-hard-q6" class="level3">
+<h3 class="anchored" data-anchor-id="question-19-ordering-bond-energy-changes-1.5-choice-hard-q6">Question 19 · Ordering bond-energy changes · 1.5 Choice Hard Q6</h3>
+<p>The bond energies are Br–Br <span class="math inline">\(194\)</span>, Cl–Cl <span class="math inline">\(247\)</span>, C–H <span class="math inline">\(412\)</span> and C–Cl <span class="math inline">\(338\ \mathrm{kJ\ mol^{-1}}\)</span>. The reactions are: W, <span class="math inline">\(\ce{Br2 -&gt; 2Br}\)</span>; X, <span class="math inline">\(\ce{2Cl -&gt; Cl2}\)</span>; Y, <span class="math inline">\(\ce{CH3 + Cl -&gt; CH3Cl}\)</span>; Z, <span class="math inline">\(\ce{CH4 -&gt; CH3 + H}\)</span>. What is the order of enthalpy changes from most negative to most positive?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Y → Z → W → X</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Z → W → X → Y</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Y → X → W → Z</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>X → Y → Z → W</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>A.</strong> Y forms C–Cl and is most negative; W, X and Z require respectively <span class="math inline">\(194\)</span>, <span class="math inline">\(247\)</span> and <span class="math inline">\(412\ \mathrm{kJ\ mol^{-1}}\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="energetics-choice-hard-q7" class="mc-question" data-answer="B">
+<section id="question-20-formation-enthalpy-from-combustion-data-1.5-choice-hard-q7" class="level3">
+<h3 class="anchored" data-anchor-id="question-20-formation-enthalpy-from-combustion-data-1.5-choice-hard-q7">Question 20 · Formation enthalpy from combustion data · 1.5 Choice Hard Q7</h3>
+<p>A student calculated the standard enthalpy change of formation of propane using standard enthalpies of combustion of propane (<span class="math inline">\(-2220\ \mathrm{kJ\ mol^{-1}}\)</span>) and hydrogen (<span class="math inline">\(-286\ \mathrm{kJ\ mol^{-1}}\)</span>), but used an incorrect value for combustion of carbon. The final answer was <span class="math inline">\(-158\ \mathrm{kJ\ mol^{-1}}\)</span>. What value did the student use for combustion of carbon?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(-1234\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(-411.3\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(-2084\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(-694.7\ \mathrm{kJ\ mol^{-1}}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> From <span class="math inline">\(-158=3x+4(-286)-(-2220)\)</span>, <span class="math inline">\(x=-411.3\ \mathrm{kJ\ mol^{-1}}\)</span>.
+</p>
+</details>
+</section>
+</div>
+</section>
+<section id="structured-questions" class="level2">
+<h2 class="anchored" data-anchor-id="structured-questions">Structured questions</h2>
+<section id="chemical-energetics---structured-questions-easy" class="level3">
+<h3 class="anchored" data-anchor-id="chemical-energetics---structured-questions-easy">5 Chemical energetics - Structured Questions: Easy</h3>
+</section>
+<section id="example-1-standard-enthalpy-definitions-1.5-sq-easy-q1" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-1-standard-enthalpy-definitions-1.5-sq-easy-q1">Example 1 · Standard enthalpy definitions · 1.5 SQ Easy Q1</h3>
+<p>Standard enthalpy changes include enthalpy of formation, enthalpy of combustion and enthalpy of neutralisation.</p>
+<p><strong>(a)(i)</strong> Define enthalpy of formation. <code>[1 mark]</code></p>
+<p><strong>(a)(ii)</strong> Write an equation that represents the enthalpy of formation of ammonia, <span class="math inline">\(\ce{NH3}\)</span>. <code>[1 mark]</code></p>
+<p><strong>(b)</strong> State what is meant by standard conditions in enthalpy measurements. <code>[1 mark]</code></p>
+<p><strong>(c)</strong> Which of the following equation(s) can represent the enthalpy of neutralisation? Explain your answer. <code>[2 marks]</code></p>
+<ul>
+<li><strong>A</strong> <span class="math inline">\(\ce{H2SO4(aq) + 2NaOH(aq) -&gt; Na2SO4(aq) + 2H2O(l)}\)</span></li>
+<li><strong>B</strong> <span class="math inline">\(\ce{H2SO4(aq) + Na2CO3(aq) -&gt; Na2SO4(aq) + H2O(l) + CO2(g)}\)</span></li>
+<li><strong>C</strong> <span class="math inline">\(\ce{HCl(aq) + NaOH(aq) -&gt; NaCl(aq) + H2O(l)}\)</span></li>
+</ul>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)(i)</strong> The enthalpy change when one mole of a compound is formed from its elements in their standard states under standard conditions.
+</li>
+<li>
+<strong>(a)(ii)</strong> <span class="math inline">\(\frac12\ce{N2(g)}+\frac32\ce{H2(g)}\ce{-&gt;} \ce{NH3(g)}\)</span>.
+</li>
+<li>
+<strong>(b)</strong> <span class="math inline">\(298\ \mathrm{K}\)</span> and <span class="math inline">\(101\ \mathrm{kPa}\)</span>.
+</li>
+<li>
+<strong>(c)</strong> B and C. Each forms one mole of water from an acid and a base; A forms two moles.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-2-enthalpy-of-reaction-and-transition-state-1.5-sq-easy-q2" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-2-enthalpy-of-reaction-and-transition-state-1.5-sq-easy-q2">Example 2 · Enthalpy of reaction and transition state · 1.5 SQ Easy Q2</h3>
+<p>Freon 21 has formula <span class="math inline">\(\ce{CHCl2F}\)</span>. It is produced by:</p>
+<p><span class="math display">\[\ce{CHCl3(g) + HF(g) -&gt; CHCl2F(g) + HCl(g)}\]</span></p>
+<p>The enthalpies of formation are: <span class="math inline">\(\ce{CHCl3(g)}\)</span>, <span class="math inline">\(-103.2\)</span>; <span class="math inline">\(\ce{CHCl2F(g)}\)</span>, <span class="math inline">\(-284.1\)</span>; <span class="math inline">\(\ce{HF(g)}\)</span>, <span class="math inline">\(-273.3\)</span>; and <span class="math inline">\(\ce{HCl(g)}\)</span>, <span class="math inline">\(-92.3\ \mathrm{kJ\ mol^{-1}}\)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-5-sq-easy-q2-fig2-1.png" class="question-figure img-fluid figure-img" alt="Blank reaction pathway diagram for 1.5 SQ Easy Q2"></p>
+<figcaption>Blank reaction pathway axes from Fig. 2.1</figcaption>
+</figure>
+</div>
+<p><strong>(a)</strong> Calculate <span class="math inline">\(\Delta H_r\)</span>. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Using Fig. 2.1, draw a labelled reaction pathway diagram for part (a) and include the activation energy. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> Explain what is meant by the transition state. <code>[1 mark]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> <span class="math inline">\(\Delta H_r=[-284.1+(-92.3)]-[-103.2+(-273.3)]=+0.1\ \mathrm{kJ\ mol^{-1}}\)</span>.
+</li>
+<li>
+<strong>(b)</strong> Draw reactants and products at almost the same energy level because <span class="math inline">\(\Delta H\)</span> is close to zero; show a peak and label the energy from reactants to the peak as <span class="math inline">\(E_a\)</span>.
+</li>
+<li>
+<strong>(c)</strong> The transition state is the short-lived, highest-energy arrangement in which bonds are partly broken and partly formed. It cannot be isolated.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-3-bond-enthalpy-calculations-1.5-sq-easy-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-3-bond-enthalpy-calculations-1.5-sq-easy-q3">Example 3 · Bond enthalpy calculations · 1.5 SQ Easy Q3</h3>
+<p><strong>(a)</strong> Define average bond enthalpy. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Give the formula for calculating the standard enthalpy change of reaction using bond energies. <code>[1 mark]</code></p>
+<p><strong>(c)</strong> Use the data in the original question page to calculate the enthalpy change for:</p>
+<p><span class="math display">\[\ce{CH2=CH2(g) + H2O(g) -&gt; CH3CH2OH(l)}\]</span></p>
+<p><code>[3 marks]</code></p>
+<p><strong>(d)</strong> Use the data in Table 3.2 to calculate the enthalpy change for the reaction of ethane and bromine to form 1,2-dibromoethane and hydrogen bromide. <code>[4 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> The energy required to break one mole of a particular bond in gaseous molecules, averaged over similar compounds.
+</li>
+<li>
+<strong>(b)</strong> <span class="math inline">\(\Delta H_r=\sum E(\text{bonds broken})-\sum E(\text{bonds formed})\)</span>.
+</li>
+<li>
+<strong>(c)</strong> Bonds broken <span class="math inline">\(=614+4(414)+2(463)=3196\ \mathrm{kJ\ mol^{-1}}\)</span>; bonds formed <span class="math inline">\(=346+5(414)+358+463=3237\ \mathrm{kJ\ mol^{-1}}\)</span>; <span class="math inline">\(\Delta H_r=-41\ \mathrm{kJ\ mol^{-1}}\)</span>.
+</li>
+<li>
+<strong>(d)</strong> <span class="math inline">\(\ce{CH3CH3 + 2Br2 -&gt; CH2BrCH2Br + 2HBr}\)</span>; broken <span class="math inline">\(=346+6(414)+2(193)=3216\)</span>; formed <span class="math inline">\(=346+4(414)+2(285)+2(366)=3304\)</span>; <span class="math inline">\(\Delta H_r=-88\ \mathrm{kJ\ mol^{-1}}\)</span>.
+</li>
+</ul>
+</details>
+</section>
+<section id="chemical-energetics---structured-questions-medium" class="level3">
+<h3 class="anchored" data-anchor-id="chemical-energetics---structured-questions-medium">5 Chemical energetics - Structured Questions: Medium</h3>
+</section>
+<section id="example-4-propane-chlorination-and-bond-energies-1.5-sq-medium-q1" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-4-propane-chlorination-and-bond-energies-1.5-sq-medium-q1">Example 4 · Propane chlorination and bond energies · 1.5 SQ Medium Q1</h3>
+<p>Propane reacts with chlorine:</p>
+<p><span class="math display">\[\ce{C3H8(g) + Cl2(g) -&gt; C3H7Cl(g) + HCl(g)}\]</span></p>
+<p>The bond energies are C–H <span class="math inline">\(410\)</span>, C–Cl <span class="math inline">\(340\)</span>, Cl–Cl <span class="math inline">\(242\)</span> and H–Cl <span class="math inline">\(431\ \mathrm{kJ\ mol^{-1}}\)</span>.</p>
+<p><strong>(a)(i)</strong> Use bond energies to calculate the enthalpy change. Include a sign. <code>[3 marks]</code></p>
+<p><strong>(a)(ii)</strong> State the conditions needed for this reaction to occur. <code>[1 mark]</code></p>
+<p><strong>(b)</strong> Construct a labelled reaction pathway diagram including the activation energy. <code>[3 marks]</code></p>
+<p><strong>(c)</strong> Ethane and chlorine also react under the same conditions. State and explain the difference in enthalpy change for the two reactions. <code>[2 marks]</code></p>
+<p><strong>(d)</strong> Propane reacts with bromine in a similar reaction. Suggest, with a reason, whether the sum of the bonds broken would be larger or smaller than for propane and chlorine. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)(i)</strong> Broken: <span class="math inline">\(410+242=+652\)</span>; formed: <span class="math inline">\(340+431=-771\)</span>; <span class="math inline">\(\Delta H=-119\ \mathrm{kJ\ mol^{-1}}\)</span>.
+</li>
+<li>
+<strong>(a)(ii)</strong> UV light or sunlight.
+</li>
+<li>
+<strong>(b)</strong> Exothermic profile with products below reactants; label the upward energy gap to the peak as <span class="math inline">\(E_a\)</span> and the downward gap as <span class="math inline">\(\Delta H_r\)</span>.
+</li>
+<li>
+<strong>(c)</strong> Little or no difference: the same types and numbers of bonds are broken and formed.
+</li>
+<li>
+<strong>(d)</strong> Smaller; Br–Br is weaker than Cl–Cl because bromine atoms are larger and the bond is longer.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-5-butan-1-ol-combustion-calorimetry-1.5-sq-medium-q2" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-5-butan-1-ol-combustion-calorimetry-1.5-sq-medium-q2">Example 5 · Butan-1-ol combustion calorimetry · 1.5 SQ Medium Q2</h3>
+<p>The apparatus in Fig. 2.1 is used to determine the enthalpy of combustion of butan-1-ol, <span class="math inline">\(\ce{C4H9OH}\)</span>, with <span class="math inline">\(M_r=74.12\ \mathrm{g\ mol^{-1}}\)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-5-sq-medium-q2-fig2-1.png" class="question-figure img-fluid figure-img" alt="Calorimetry apparatus for 1.5 SQ Medium Q2"></p>
+<figcaption>Butan-1-ol combustion calorimetry apparatus</figcaption>
+</figure>
+</div>
+<p><strong>(a)(i)</strong> Write an equation for the enthalpy of combustion of butan-1-ol. <code>[2 marks]</code></p>
+<p><strong>(a)(ii)</strong> Suggest the purpose of the copper spiral and small electric heater. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> The volume of water is <span class="math inline">\(875\ \mathrm{cm^3}\)</span>, its temperature rises from <span class="math inline">\(22.5^\circ\mathrm{C}\)</span> to <span class="math inline">\(25.0^\circ\mathrm{C}\)</span>, and <span class="math inline">\(2.20\ \mathrm{g}\)</span> of butan-1-ol is burned. Use <span class="math inline">\(c=4.18\ \mathrm{J\ g^{-1}\ K^{-1}}\)</span> to calculate <span class="math inline">\(q\)</span> to two significant figures. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> Determine the enthalpy of combustion of butan-1-ol. <code>[3 marks]</code></p>
+<p><strong>(d)</strong> The standard value is <span class="math inline">\(-332.42\ \mathrm{kJ\ mol^{-1}}\)</span>. Calculate the percentage error and suggest one source of error. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)(i)</strong> <span class="math inline">\(\ce{C4H9OH(l) + 6O2(g) -&gt; 4CO2(g) + 5H2O(l)}\)</span>.
+</li>
+<li>
+<strong>(a)(ii)</strong> The copper spiral transfers heat from hot gases to the water; the heater ignites or vaporises the alcohol.
+</li>
+<li>
+<strong>(b)</strong> <span class="math inline">\(q=mc\Delta T=875(4.18)(2.5)=9143.75\ \mathrm{J}=9.1\ \mathrm{kJ}\)</span>.
+</li>
+<li>
+<strong>(c)</strong> <span class="math inline">\(n=2.20/74.12=0.02968\ \mathrm{mol}\)</span>; <span class="math inline">\(\Delta H=-9.14375/0.02968=-308\ \mathrm{kJ\ mol^{-1}}\)</span>.
+</li>
+<li>
+<strong>(d)</strong> Percentage error <span class="math inline">\(=(332.42-308)/332.42\times100=7.3\%\)</span>; heat loss, incomplete combustion or incomplete heat transfer.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-6-hess-law-cycle-for-butane-1.5-sq-medium-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-6-hess-law-cycle-for-butane-1.5-sq-medium-q3">Example 6 · Hess’ law cycle for butane · 1.5 SQ Medium Q3</h3>
+<p>Complete the Hess’ law energy cycle relating butane to enthalpies of formation and combustion. Include the relevant species in the two empty boxes, label each enthalpy change and complete the arrows.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-5-sq-medium-q3-fig2-1.png" class="question-figure img-fluid figure-img" alt="Hess law cycle for 1.5 SQ Medium Q3"></p>
+<figcaption>Hess’ law cycle for butane</figcaption>
+</figure>
+</div>
+<p>For the formation-data route, use <span class="math inline">\(\Delta H_f^\ominus(\ce{CO2(g)})=-393.5\)</span>, <span class="math inline">\(\Delta H_f^\ominus(\ce{H2O(g)})=-242\)</span> and <span class="math inline">\(\Delta H_f^\ominus(\ce{C4H10(g)})=-125\ \mathrm{kJ\ mol^{-1}}\)</span>.</p>
+<p><strong>(a)</strong> Complete the cycle. <code>[4 marks]</code></p>
+<p><strong>(b)</strong> Calculate <span class="math inline">\(\Delta H_c^\ominus\)</span> for butane using the formation data. <code>[1 mark]</code></p>
+<p><strong>(c)</strong> Use the bond-energy data C–C <span class="math inline">\(348\)</span>, C–H <span class="math inline">\(410\)</span>, C=O <span class="math inline">\(743\)</span>, H–O <span class="math inline">\(463\)</span>, O=O <span class="math inline">\(495\ \mathrm{kJ\ mol^{-1}}\)</span> to calculate <span class="math inline">\(\Delta H_c\)</span>. <code>[1 mark]</code></p>
+<p><strong>(d)</strong> Suggest, with a reason, which value is likely to be more accurate. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> The common combustion products are <span class="math inline">\(\ce{4CO2(g)+5H2O(g)}\)</span>. The formation and combustion arrows must have correct coefficients and directions.
+</li>
+<li>
+<strong>(b)</strong> <span class="math inline">\(\Delta H_c=4(-393.5)+5(-242)-(-125)=-2659\ \mathrm{kJ\ mol^{-1}}\)</span>.
+</li>
+<li>
+<strong>(c)</strong> <span class="math inline">\(\Delta H=\{3(348)+10(410)+6.5(495)\}-\{8(743)+10(463)\}=-2212.5\ \mathrm{kJ\ mol^{-1}}\)</span>.
+</li>
+<li>
+<strong>(d)</strong> The formation-data value is more accurate because it uses enthalpies for the actual substances; bond enthalpies are average values.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-7-nitrogen-oxides-and-no-bond-enthalpy-1.5-sq-medium-q4" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-7-nitrogen-oxides-and-no-bond-enthalpy-1.5-sq-medium-q4">Example 7 · Nitrogen oxides and N=O bond enthalpy · 1.5 SQ Medium Q4</h3>
+<p>Two common oxides of nitrogen are nitrogen monoxide, <span class="math inline">\(\ce{NO}\)</span>, and nitrogen dioxide, <span class="math inline">\(\ce{NO2}\)</span>.</p>
+<p><strong>(a)(i)</strong> Complete the oxidation numbers of nitrogen in <span class="math inline">\(\ce{NO}\)</span> and <span class="math inline">\(\ce{NO2}\)</span>. <code>[1 mark]</code></p>
+<p><strong>(a)(ii)</strong> Write equations for formation of <span class="math inline">\(\ce{NO2}\)</span> by reaction of <span class="math inline">\(\ce{N2}\)</span> with <span class="math inline">\(\ce{O2}\)</span> and by reaction of <span class="math inline">\(\ce{NO}\)</span> with <span class="math inline">\(\ce{O2}\)</span>. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> The reaction between <span class="math inline">\(\ce{N2}\)</span> and <span class="math inline">\(\ce{O2}\)</span> has <span class="math inline">\(\Delta H_r=+497\ \mathrm{kJ\ mol^{-1}}\)</span>. The N–O bond in <span class="math inline">\(\ce{NO2}\)</span> is a double covalent bond. Use N≡N <span class="math inline">\(941\)</span> and O=O <span class="math inline">\(495\ \mathrm{kJ\ mol^{-1}}\)</span> to calculate the N=O bond enthalpy. <code>[3 marks]</code></p>
+<p><strong>(c)</strong> The boiling points of carbon dioxide and nitrogen dioxide are <span class="math inline">\(-78.5^\circ\mathrm{C}\)</span> and <span class="math inline">\(21^\circ\mathrm{C}\)</span>, respectively. Suggest a reason for the difference. <code>[2 marks]</code></p>
+<p><strong>(d)</strong> Write an equation for the enthalpy of formation of <span class="math inline">\(\ce{NO}\)</span>. <code>[1 mark]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> N is +2 in <span class="math inline">\(\ce{NO}\)</span> and +4 in <span class="math inline">\(\ce{NO2}\)</span>. Suitable equations include <span class="math inline">\(\ce{N2+2O2-&gt;2NO2}\)</span> and <span class="math inline">\(\ce{2NO+O2-&gt;2NO2}\)</span>.
+</li>
+<li>
+<strong>(b)</strong> <span class="math inline">\(+497=941+2(495)-4E\)</span>, so <span class="math inline">\(E=358.5\ \mathrm{kJ\ mol^{-1}}\)</span>.
+</li>
+<li>
+<strong>(c)</strong> <span class="math inline">\(\ce{NO2}\)</span> has stronger intermolecular forces than <span class="math inline">\(\ce{CO2}\)</span>, so more energy is needed to separate its molecules.
+</li>
+<li>
+<strong>(d)</strong> <span class="math inline">\(\frac12\ce{N2(g)}+\frac12\ce{O2(g)}\ce{-&gt;}\ce{NO(g)}\)</span>.
+</li>
+</ul>
+</details>
+</section>
+<section id="chemical-energetics---structured-questions-hard" class="level3">
+<h3 class="anchored" data-anchor-id="chemical-energetics---structured-questions-hard">5 Chemical energetics - Structured Questions: Hard</h3>
+</section>
+<section id="example-8-hydrolysis-and-combustion-of-urea-1.5-sq-hard-q1" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-8-hydrolysis-and-combustion-of-urea-1.5-sq-hard-q1">Example 8 · Hydrolysis and combustion of urea · 1.5 SQ Hard Q1</h3>
+<p>Urea, <span class="math inline">\(\ce{CO(NH2)2}\)</span>, is hydrolysed with water to form ammonia and carbon dioxide. The standard enthalpies of formation are <span class="math inline">\(\ce{H2O(l)}=-287.0\)</span>, <span class="math inline">\(\ce{CO(NH2)2(aq)}=-320.5\)</span>, <span class="math inline">\(\ce{CO2(g)}=-414.5\)</span> and <span class="math inline">\(\ce{NH3(aq)}=-81.0\ \mathrm{kJ\ mol^{-1}}\)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-5-sq-hard-q1-cycle.png" class="question-figure img-fluid figure-img" alt="Formation enthalpy cycle for 1.5 SQ Hard Q1"></p>
+<figcaption>Formation-enthalpy cycle for urea hydrolysis</figcaption>
+</figure>
+</div>
+<p><strong>(a)(i)</strong> Write an equation for the hydrolysis reaction. <code>[1 mark]</code></p>
+<p><strong>(a)(ii)</strong> Construct a simple energy cycle for the hydrolysis. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Use the data to calculate the standard enthalpy change for hydrolysis. <code>[1 mark]</code></p>
+<p><strong>(c)</strong> Calculate the enthalpy of combustion of urea for:</p>
+<p><span class="math display">\[\ce{2CO(NH2)2(s) + 3O2(g) -&gt; 2CO2(g) + 2N2(g) + 4H2O(l)}\]</span></p>
+<p><code>[1 mark]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> <span class="math inline">\(\ce{H2O(l)+CO(NH2)2(aq)-&gt;CO2(g)+2NH3(aq)}\)</span>. In the cycle, connect both sides to the elements using formation enthalpies; the arrows from elements to compounds point upwards in the displayed cycle.
+</li>
+<li>
+<strong>(b)</strong> <span class="math inline">\(\Delta H_r=-(-287.0)-(-320.5)+(-414.5)+2(-81.0)=+31.0\ \mathrm{kJ\ mol^{-1}}\)</span>.
+</li>
+<li>
+<strong>(c)</strong> <span class="math inline">\(\Delta H_c=[2(-414.5)+4(-287.0)]-[2(-320.5)]=-1336\ \mathrm{kJ\ mol^{-1}}\)</span>.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-9-ammonium-chloride-calorimetry-1.5-sq-hard-q2" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-9-ammonium-chloride-calorimetry-1.5-sq-hard-q2">Example 9 · Ammonium chloride calorimetry · 1.5 SQ Hard Q2</h3>
+<p>The enthalpy change of solution for ammonium chloride is measured using calorimetry. <span class="math inline">\(12.04\ \mathrm{g}\)</span> of <span class="math inline">\(\ce{NH4Cl}\)</span> is dissolved in <span class="math inline">\(125.0\ \mathrm{cm^3}\)</span> of water at <span class="math inline">\(19.5^\circ\mathrm{C}\)</span>. The enthalpy of solution is <span class="math inline">\(+15.1\ \mathrm{kJ\ mol^{-1}}\)</span>.</p>
+<p><strong>(a)</strong> Determine the energy change, in J, when the ammonium chloride dissolves. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Use your answer to determine the change in temperature. <code>[1 mark]</code></p>
+<p><strong>(c)</strong> Determine the final temperature of the solution. <code>[1 mark]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> <span class="math inline">\(n=12.04/53.5=0.225\ \mathrm{mol}\)</span>; <span class="math inline">\(q=0.225(15.1\times10^3)=3397.5\ \mathrm{J}\)</span>.
+</li>
+<li>
+<strong>(b)</strong> <span class="math inline">\(\Delta T=q/(mc)=3397.5/[125.0(4.18)]=+6.5^\circ\mathrm{C}\)</span>.
+</li>
+<li>
+<strong>(c)</strong> The dissolution is endothermic, so the temperature falls: <span class="math inline">\(19.5-6.5=13.0^\circ\mathrm{C}\)</span>.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-10-hydrogenation-and-polymerisation-of-propene-1.5-sq-hard-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-10-hydrogenation-and-polymerisation-of-propene-1.5-sq-hard-q3">Example 10 · Hydrogenation and polymerisation of propene · 1.5 SQ Hard Q3</h3>
+<p>Use the following bond enthalpies: H–H <span class="math inline">\(435\)</span>, C–H <span class="math inline">\(413\)</span>, C–C <span class="math inline">\(347\)</span> and C=C <span class="math inline">\(619\ \mathrm{kJ\ mol^{-1}}\)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-5-sq-hard-q3-cycle.png" class="question-figure img-fluid figure-img" alt="Combustion data cycle for 1.5 SQ Hard Q3"></p>
+<figcaption>Combustion data cycle for ethene</figcaption>
+</figure>
+</div>
+<p><strong>(a)</strong> Determine the enthalpy of hydrogenation of propene. <code>[3 marks]</code></p>
+<p><strong>(b)</strong> Suggest, with a reason, whether polymerisation of propene is exothermic or endothermic. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> Use the combustion data in the original question page to calculate the standard enthalpy of formation of ethene at <span class="math inline">\(298\ \mathrm{K}\)</span>. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> <span class="math inline">\(\ce{CH3CH=CH2 + H2 -&gt; CH3CH2CH3}\)</span>; <span class="math inline">\(\Delta H=619+435-347-2(413)=-119\ \mathrm{kJ\ mol^{-1}}\)</span>.
+</li>
+<li>
+<strong>(b)</strong> One C=C bond is broken and two C–C bonds form. Since <span class="math inline">\(619&amp;lt;2(347)=694\)</span>, there is a net energy output and polymerisation is exothermic.
+</li>
+<li>
+<strong>(c)</strong> <span class="math inline">\(\Delta H_f^\ominus=2(-393.7)+2(-285.9)-(-1411.0)=+51.8\ \mathrm{kJ\ mol^{-1}}\)</span>.
+</li>
+</ul>
+</details>
+</section>
+</section>
+<section id="original-question-pdfs" class="level2">
+<h2 class="anchored" data-anchor-id="original-question-pdfs">Original question PDFs</h2>
+<ul>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/chemical-energetics/1.5-chemical-energetics-choice-easy.pdf">1.5 Chemical Energetics - Choice - Easy</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/chemical-energetics/1.5-chemical-energetics-choice-medium.pdf">1.5 Chemical Energetics - Choice - Medium</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/chemical-energetics/1.5-chemical-energetics-choice-hard.pdf">1.5 Chemical Energetics - Choice - Hard</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/chemical-energetics/1.5-chemical-energetics-sq-easy.pdf">1.5 Chemical Energetics - Structured Questions - Easy</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/chemical-energetics/1.5-chemical-energetics-sq-medium.pdf">1.5 Chemical Energetics - Structured Questions - Medium</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/chemical-energetics/1.5-chemical-energetics-sq-hard.pdf">1.5 Chemical Energetics - Structured Questions - Hard</a></li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".done-toggle input").forEach((input) => {
+    const key = `cie-chem-${input.dataset.progress}`;
+    input.checked = localStorage.getItem(key) === "true";
+    input.closest(".question-card")?.classList.toggle("is-complete", input.checked);
+    input.addEventListener("change", () => {
+      localStorage.setItem(key, input.checked);
+      input.closest(".question-card")?.classList.toggle("is-complete", input.checked);
+    });
+  });
+
+  document.querySelectorAll(".mc-question").forEach((card) => {
+    const answer = card.dataset.answer;
+    const feedback = card.querySelector(".mc-feedback");
+    const check = card.querySelector(".check-answer");
+    let selected = localStorage.getItem(`cie-chem-${card.id}-choice`) || "";
+
+    const showSelection = () => {
+      card.querySelectorAll(".mc-choice").forEach((choice) => {
+        choice.classList.toggle("is-selected", choice.dataset.choice === selected);
+      });
+    };
+    showSelection();
+
+    card.querySelectorAll(".mc-choice").forEach((choice) => {
+      choice.addEventListener("click", () => {
+        selected = choice.dataset.choice;
+        localStorage.setItem(`cie-chem-${card.id}-choice`, selected);
+        feedback.textContent = "";
+        feedback.className = "mc-feedback";
+        showSelection();
+      });
+    });
+
+    check?.addEventListener("click", () => {
+      if (!selected) {
+        feedback.textContent = "Select an answer first.";
+        feedback.className = "mc-feedback is-pending";
+        return;
+      }
+      const correct = selected === answer;
+      feedback.textContent = correct ? "Correct." : `Not quite. The correct answer is ${answer}.`;
+      feedback.className = `mc-feedback ${correct ? "is-correct" : "is-incorrect"}`;
+    });
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已复制");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已复制");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../a-level/4-states-of-matter.html" class="pagination-link" aria-label="4 States of matter">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">4 States of matter</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../a-level/6-electrochemistry.html" class="pagination-link" aria-label="6 Electrochemistry">
+        <span class="nav-page-text">6 Electrochemistry</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

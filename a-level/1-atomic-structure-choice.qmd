@@ -2,9 +2,6 @@
 
 ::: {.mc-question #atomic-choice-easy-q1 data-answer="B"}
 ### Question 1 · Atomic theory · 1.1 Choice Easy Q1
-<details class="source-preview"><summary>Original question page · 1.1 Choice Easy Q1</summary>
-![Original question page for 1.1 Choice Easy Q1](../assets/questions/original-source/1-1-choice-easy-q1.png){.question-figure fig-alt="Original question page 1.1 Choice Easy Q1"}
-</details>
 
 Which statement from Dalton's atomic theory is still considered correct today?
 
@@ -20,9 +17,6 @@ Which statement from Dalton's atomic theory is still considered correct today?
 
 ::: {.mc-question #atomic-choice-easy-q2 data-answer="B"}
 ### Question 2 · The H₃⁺ ion · 1.1 Choice Easy Q2
-<details class="source-preview"><summary>Original question page · 1.1 Choice Easy Q2</summary>
-![Original question page for 1.1 Choice Easy Q2](../assets/questions/original-source/1-1-choice-easy-q2.png){.question-figure fig-alt="Original question page 1.1 Choice Easy Q2"}
-</details>
 
 The reaction $\ce{H2(g) + H2+(g) -> H(g) + H3+(g)}$ occurs in gas clouds. What is the composition of $\ce{H3+}$?
 
@@ -38,9 +32,6 @@ The reaction $\ce{H2(g) + H2+(g) -> H(g) + H3+(g)}$ occurs in gas clouds. What i
 
 ::: {.mc-question #atomic-choice-easy-q3 data-answer="D"}
 ### Question 3 · Atomic, proton and mass numbers · 1.1 Choice Easy Q3
-<details class="source-preview"><summary>Original question page · 1.1 Choice Easy Q3</summary>
-![Original question page for 1.1 Choice Easy Q3](../assets/questions/original-source/1-1-choice-easy-q3.png){.question-figure fig-alt="Original question page 1.1 Choice Easy Q3"}
-</details>
 
 Which row is correct?
 
@@ -60,9 +51,6 @@ Which row is correct?
 
 ::: {.mc-question #atomic-choice-easy-q4 data-answer="B"}
 ### Question 4 · Subatomic particles in $^{32}_{15}\ce{P^{3-}}$ · 1.1 Choice Easy Q4
-<details class="source-preview"><summary>Original question page · 1.1 Choice Easy Q4</summary>
-![Original question page for 1.1 Choice Easy Q4](../assets/questions/original-source/1-1-choice-easy-q4.png){.question-figure fig-alt="Original question page 1.1 Choice Easy Q4"}
-</details>
 
 What is the composition of the phosphide ion $^{32}_{15}\ce{P^{3-}}$?
 
@@ -80,9 +68,6 @@ What is the composition of the phosphide ion $^{32}_{15}\ce{P^{3-}}$?
 
 ::: {.mc-question #atomic-choice-easy-q5 data-answer="C"}
 ### Question 5 · Relative charge and mass · 1.1 Choice Easy Q5
-<details class="source-preview"><summary>Original question page · 1.1 Choice Easy Q5</summary>
-![Original question page for 1.1 Choice Easy Q5](../assets/questions/original-source/1-1-choice-easy-q5.png){.question-figure fig-alt="Original question page 1.1 Choice Easy Q5"}
-</details>
 
 Which option correctly describes the relative charges and masses of the subatomic particles?
 
@@ -100,9 +85,6 @@ Which option correctly describes the relative charges and masses of the subatomi
 
 ::: {.mc-question #atomic-choice-easy-q6 data-answer="A"}
 ### Question 6 · Particles in an electric field · 1.1 Choice Easy Q6
-<details class="source-preview"><summary>Original question page · 1.1 Choice Easy Q6</summary>
-![Original question page for 1.1 Choice Easy Q6](../assets/questions/original-source/1-1-choice-easy-q6.png){.question-figure fig-alt="Original question page 1.1 Choice Easy Q6"}
-</details>
 
 The trajectories of protons, neutrons and electrons in an electric field are shown below. Which diagrams are correct?
 
@@ -117,9 +99,6 @@ The trajectories of protons, neutrons and electrons in an electric field are sho
 
 ::: {.mc-question #atomic-choice-medium-q1 data-answer="A"}
 ### Question 1 · Particle counts · 1.1 Choice Medium Q1
-<details class="source-preview"><summary>Original question page · 1.1 Choice Medium Q1</summary>
-![Original question page for 1.1 Choice Medium Q1](../assets/questions/original-source/1-1-choice-medium-q1.png){.question-figure fig-alt="Original question page 1.1 Choice Medium Q1"}
-</details>
 
 In which species are the numbers of protons, neutrons and electrons all different?
 
@@ -130,9 +109,6 @@ In which species are the numbers of protons, neutrons and electrons all differen
 
 ::: {.mc-question #atomic-choice-medium-q2 data-answer="B"}
 ### Question 2 · Why atoms are neutral · 1.1 Choice Medium Q2
-<details class="source-preview"><summary>Original question page · 1.1 Choice Medium Q2</summary>
-![Original question page for 1.1 Choice Medium Q2](../assets/questions/original-source/1-1-choice-medium-q2.png){.question-figure fig-alt="Original question page 1.1 Choice Medium Q2"}
-</details>
 
 Which statement explains why atoms are electrically neutral?
 
@@ -143,9 +119,6 @@ Which statement explains why atoms are electrically neutral?
 
 ::: {.mc-question #atomic-choice-medium-q3 data-answer="C"}
 ### Question 3 · Metallic radius down Group 1 · 1.1 Choice Medium Q3
-<details class="source-preview"><summary>Original question page · 1.1 Choice Medium Q3</summary>
-![Original question page for 1.1 Choice Medium Q3](../assets/questions/original-source/1-1-choice-medium-q3.png){.question-figure fig-alt="Original question page 1.1 Choice Medium Q3"}
-</details>
 
 Which statements correctly describe the trend in metallic radius from Na to Rb?
 
@@ -158,9 +131,6 @@ Which statements correctly describe the trend in metallic radius from Na to Rb?
 
 ::: {.mc-question #atomic-choice-medium-q4 data-answer="C"}
 ### Question 4 · Distribution of mass and charge · 1.1 Choice Medium Q4
-<details class="source-preview"><summary>Original question page · 1.1 Choice Medium Q4</summary>
-![Original question page for 1.1 Choice Medium Q4](../assets/questions/original-source/1-1-choice-medium-q4.png){.question-figure fig-alt="Original question page 1.1 Choice Medium Q4"}
-</details>
 
 Which statements correctly describe the distribution of mass and charge in an atom?
 
@@ -173,9 +143,6 @@ Which statements correctly describe the distribution of mass and charge in an at
 
 ::: {.mc-question #atomic-choice-medium-q5 data-answer="D"}
 ### Question 5 · Unpaired electrons · 1.1 Choice Medium Q5
-<details class="source-preview"><summary>Original question page · 1.1 Choice Medium Q5</summary>
-![Original question page for 1.1 Choice Medium Q5](../assets/questions/original-source/1-1-choice-medium-q5.png){.question-figure fig-alt="Original question page 1.1 Choice Medium Q5"}
-</details>
 
 There are six unpaired electrons in atoms of element Z. What could element Z be?
 
@@ -186,9 +153,6 @@ There are six unpaired electrons in atoms of element Z. What could element Z be?
 
 ::: {.mc-question #atomic-choice-medium-q6 data-answer="B"}
 ### Question 6 · Second ionisation energy of magnesium · 1.1 Choice Medium Q6
-<details class="source-preview"><summary>Original question page · 1.1 Choice Medium Q6</summary>
-![Original question page for 1.1 Choice Medium Q6](../assets/questions/original-source/1-1-choice-medium-q6.png){.question-figure fig-alt="Original question page 1.1 Choice Medium Q6"}
-</details>
 
 The second ionisation energy of magnesium is $1451\ \mathrm{kJ\ mol^{-1}}$. Which equation represents this statement?
 
@@ -199,9 +163,6 @@ The second ionisation energy of magnesium is $1451\ \mathrm{kJ\ mol^{-1}}$. Whic
 
 ::: {.mc-question #atomic-choice-medium-q7 data-answer="D"}
 ### Question 7 · Orbital shapes and orientations · 1.1 Choice Medium Q7
-<details class="source-preview"><summary>Original question page · 1.1 Choice Medium Q7</summary>
-![Original question page for 1.1 Choice Medium Q7](../assets/questions/original-source/1-1-choice-medium-q7.png){.question-figure fig-alt="Original question page 1.1 Choice Medium Q7"}
-</details>
 
 The diagram shows three orbitals labelled 1, 2 and 3. What is the correct label for each orbital?
 
@@ -216,9 +177,6 @@ The diagram shows three orbitals labelled 1, 2 and 3. What is the correct label 
 
 ::: {.mc-question #atomic-choice-hard-q1 data-answer="B"}
 ### Question 1 · Isoelectronic radii · 1.1 Choice Hard Q1
-<details class="source-preview"><summary>Original question page · 1.1 Choice Hard Q1</summary>
-![Original question page for 1.1 Choice Hard Q1](../assets/questions/original-source/1-1-choice-hard-q1.png){.question-figure fig-alt="Original question page 1.1 Choice Hard Q1"}
-</details>
 
 The species $\ce{Cl-}$, $\ce{K+}$ and Ar are isoelectronic. In which order do their radii decrease?
 
@@ -229,9 +187,6 @@ The species $\ce{Cl-}$, $\ce{K+}$ and Ar are isoelectronic. In which order do th
 
 ::: {.mc-question #atomic-choice-hard-q2 data-answer="A"}
 ### Question 2 · Deflection in an electric field · 1.1 Choice Hard Q2
-<details class="source-preview"><summary>Original question page · 1.1 Choice Hard Q2</summary>
-![Original question page for 1.1 Choice Hard Q2](../assets/questions/original-source/1-1-choice-hard-q2.png){.question-figure fig-alt="Original question page 1.1 Choice Hard Q2"}
-</details>
 
 The trajectories of subatomic particles moving at the same velocity are shown. Which statements are correct?
 
@@ -246,9 +201,6 @@ The trajectories of subatomic particles moving at the same velocity are shown. W
 
 ::: {.mc-question #atomic-choice-hard-q3 data-answer="C"}
 ### Question 3 · Atomic radius across Period 3 · 1.1 Choice Hard Q3
-<details class="source-preview"><summary>Original question page · 1.1 Choice Hard Q3</summary>
-![Original question page for 1.1 Choice Hard Q3](../assets/questions/original-source/1-1-choice-hard-q3.png){.question-figure fig-alt="Original question page 1.1 Choice Hard Q3"}
-</details>
 
 Why does atomic radius decrease across Period 3?
 
@@ -261,9 +213,6 @@ Why does atomic radius decrease across Period 3?
 
 ::: {.mc-question #atomic-choice-hard-q4 data-answer="A"}
 ### Question 4 · Successive ionisation energies · 1.1 Choice Hard Q4
-<details class="source-preview"><summary>Original question page · 1.1 Choice Hard Q4</summary>
-![Original question page for 1.1 Choice Hard Q4](../assets/questions/original-source/1-1-choice-hard-q4.png){.question-figure fig-alt="Original question page 1.1 Choice Hard Q4"}
-</details>
 
 Element X is in Period 2 and has first seven ionisation energies 1300, 3380, 5330, 7460, 11 010, 13 320 and 71 200 $\mathrm{kJ\ mol^{-1}}$. What is its electronic configuration?
 
@@ -274,9 +223,6 @@ Element X is in Period 2 and has first seven ionisation energies 1300, 3380, 533
 
 ::: {.mc-question #atomic-choice-hard-q5 data-answer="C"}
 ### Question 5 · Oxygen ionisation energies · 1.1 Choice Hard Q5
-<details class="source-preview"><summary>Original question page · 1.1 Choice Hard Q5</summary>
-![Original question page for 1.1 Choice Hard Q5](../assets/questions/original-source/1-1-choice-hard-q5.png){.question-figure fig-alt="Original question page 1.1 Choice Hard Q5"}
-</details>
 
 For successive ionisation energies of oxygen, where is the highest jump expected?
 
@@ -287,9 +233,6 @@ For successive ionisation energies of oxygen, where is the highest jump expected
 
 ::: {.mc-question #atomic-choice-hard-q6 data-answer="B"}
 ### Question 6 · Isotopes and chemical behaviour · 1.1 Choice Hard Q6
-<details class="source-preview"><summary>Original question page · 1.1 Choice Hard Q6</summary>
-![Original question page for 1.1 Choice Hard Q6](../assets/questions/original-source/1-1-choice-hard-q6.png){.question-figure fig-alt="Original question page 1.1 Choice Hard Q6"}
-</details>
 
 Which statement explains the similarity in chemical behaviour of isotopes of the same element?
 
@@ -300,9 +243,6 @@ Which statement explains the similarity in chemical behaviour of isotopes of the
 
 ::: {.mc-question #atomic-choice-hard-q7 data-answer="D"}
 ### Question 7 · Half-filled p orbitals · 1.1 Choice Hard Q7
-<details class="source-preview"><summary>Original question page · 1.1 Choice Hard Q7</summary>
-![Original question page for 1.1 Choice Hard Q7](../assets/questions/original-source/1-1-choice-hard-q7.png){.question-figure fig-alt="Original question page 1.1 Choice Hard Q7"}
-</details>
 
 Which species produces a half-filled set of p orbitals on losing one electron?
 

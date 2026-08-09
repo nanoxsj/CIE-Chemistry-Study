@@ -6,6 +6,11 @@ project:
     - a-level/2-atoms-molecules-stoichiometry.qmd
     - a-level/3-chemical-bonding.qmd
     - a-level/4-states-of-matter.qmd
+    - a-level/5-chemical-energetics.qmd
+    - a-level/6-electrochemistry.qmd
+    - a-level/7-equilibria.qmd
+    - a-level/8-reaction-kinetics.qmd
+    - a-level/9-periodic-table-chemical-periodicity.qmd
 
 website:
   title: "CIE Chemistry 9701"
@@ -26,6 +31,16 @@ website:
             text: "3 Chemical bonding"
           - href: a-level/4-states-of-matter.html
             text: "4 States of matter"
+          - href: a-level/5-chemical-energetics.html
+            text: "5 Chemical energetics"
+          - href: a-level/6-electrochemistry.html
+            text: "6 Electrochemistry"
+          - href: a-level/7-equilibria.html
+            text: "7 Equilibria"
+          - href: a-level/8-reaction-kinetics.html
+            text: "8 Reaction kinetics"
+          - href: a-level/9-periodic-table-chemical-periodicity.html
+            text: "9 The Periodic Table: chemical periodicity"
       - section: "A Level"
         contents:
           - href: a-level/23-chemical-energetics.html

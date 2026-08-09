@@ -2,9 +2,6 @@
 
 ::: {.mc-question #stoich-choice-easy-q1 data-answer="B"}
 ### Question 1 · Relative atomic mass · 1.2 Choice Easy Q1
-<details class="source-preview"><summary>Original question page · 1.2 Choice Easy Q1</summary>
-![Original question page for 1.2 Choice Easy Q1](../assets/questions/original-source/1-2-choice-easy-q1.png){.question-figure fig-alt="Original question page 1.2 Choice Easy Q1"}
-</details>
 
 What is meant by the relative atomic mass of an element?
 
@@ -20,9 +17,6 @@ What is meant by the relative atomic mass of an element?
 
 ::: {.mc-question #stoich-choice-easy-q2 data-answer="A"}
 ### Question 2 · Isotopes · 1.2 Choice Easy Q2
-<details class="source-preview"><summary>Original question page · 1.2 Choice Easy Q2</summary>
-![Original question page for 1.2 Choice Easy Q2](../assets/questions/original-source/1-2-choice-easy-q2.png){.question-figure fig-alt="Original question page 1.2 Choice Easy Q2"}
-</details>
 
 Which statement correctly describes two isotopes of the same element?
 
@@ -38,9 +32,6 @@ Which statement correctly describes two isotopes of the same element?
 
 ::: {.mc-question #stoich-choice-easy-q3 data-answer="C"}
 ### Question 3 · Relative formula mass · 1.2 Choice Easy Q3
-<details class="source-preview"><summary>Original question page · 1.2 Choice Easy Q3</summary>
-![Original question page for 1.2 Choice Easy Q3](../assets/questions/original-source/1-2-choice-easy-q3.png){.question-figure fig-alt="Original question page 1.2 Choice Easy Q3"}
-</details>
 
 What is the relative formula mass of $(\ce{NH4})2\ce{SO4}$? Use $A_r$: N = 14.0, H = 1.0, S = 32.1 and O = 16.0.
 
@@ -56,9 +47,6 @@ What is the relative formula mass of $(\ce{NH4})2\ce{SO4}$? Use $A_r$: N = 14.0,
 
 ::: {.mc-question #stoich-choice-easy-q4 data-answer="D"}
 ### Question 4 · Weighted isotope abundance · 1.2 Choice Easy Q4
-<details class="source-preview"><summary>Original question page · 1.2 Choice Easy Q4</summary>
-![Original question page for 1.2 Choice Easy Q4](../assets/questions/original-source/1-2-choice-easy-q4.png){.question-figure fig-alt="Original question page 1.2 Choice Easy Q4"}
-</details>
 
 An element contains 91.75% of an isotope with mass 55.0 and 8.25% of an isotope with mass 56.0. What is its relative atomic mass?
 
@@ -74,9 +62,6 @@ An element contains 91.75% of an isotope with mass 55.0 and 8.25% of an isotope 
 
 ::: {.mc-question #stoich-choice-easy-q5 data-answer="D"}
 ### Question 5 · Avogadro constant · 1.2 Choice Easy Q5
-<details class="source-preview"><summary>Original question page · 1.2 Choice Easy Q5</summary>
-![Original question page for 1.2 Choice Easy Q5](../assets/questions/original-source/1-2-choice-easy-q5.png){.question-figure fig-alt="Original question page 1.2 Choice Easy Q5"}
-</details>
 
 What is the number of molecules in $500\ \mathrm{cm^3}$ of oxygen gas at RTP? Take the molar gas volume as $24.0\ \mathrm{dm^3\ mol^{-1}}$.
 
@@ -92,9 +77,6 @@ What is the number of molecules in $500\ \mathrm{cm^3}$ of oxygen gas at RTP? Ta
 
 ::: {.mc-question #stoich-choice-easy-q6 data-answer="A"}
 ### Question 6 · Balancing equations · 1.2 Choice Easy Q6
-<details class="source-preview"><summary>Original question page · 1.2 Choice Easy Q6</summary>
-![Original question page for 1.2 Choice Easy Q6](../assets/questions/original-source/1-2-choice-easy-q6.png){.question-figure fig-alt="Original question page 1.2 Choice Easy Q6"}
-</details>
 
 Which set of coefficients balances the equation?
 
@@ -114,9 +96,6 @@ $$\ce{Mg3N2 + H2O -> Mg(OH)2 + NH3}$$
 
 ::: {.mc-question #stoich-choice-medium-q1 data-answer="C"}
 ### Question 1 · Hydrated salts · 1.2 Choice Medium Q1
-<details class="source-preview"><summary>Original question page · 1.2 Choice Medium Q1</summary>
-![Original question page for 1.2 Choice Medium Q1](../assets/questions/original-source/1-2-choice-medium-q1.png){.question-figure fig-alt="Original question page 1.2 Choice Medium Q1"}
-</details>
 
 A hydrated carbonate has formula $\ce{X2CO3.10H2O}$ and relative formula mass 286. What is element X? Use $A_r$: C = 12.0, O = 16.0 and H = 1.0.
 
@@ -132,9 +111,6 @@ A hydrated carbonate has formula $\ce{X2CO3.10H2O}$ and relative formula mass 28
 
 ::: {.mc-question #stoich-choice-medium-q2 data-answer="C"}
 ### Question 2 · Gas stoichiometry · 1.2 Choice Medium Q2
-<details class="source-preview"><summary>Original question page · 1.2 Choice Medium Q2</summary>
-![Original question page for 1.2 Choice Medium Q2](../assets/questions/original-source/1-2-choice-medium-q2.png){.question-figure fig-alt="Original question page 1.2 Choice Medium Q2"}
-</details>
 
 Nitrogen reacts with excess hydrogen. $2.00\ \mathrm{dm^3}$ of nitrogen is available at standard conditions and 15.0% reacts. What mass of ammonia forms? Use a molar gas volume of $22.4\ \mathrm{dm^3\ mol^{-1}}$ for this question.
 
@@ -152,9 +128,6 @@ $$\ce{N2 + 3H2 -> 2NH3}$$
 
 ::: {.mc-question #stoich-choice-medium-q3 data-answer="B"}
 ### Question 3 · Reacting amounts · 1.2 Choice Medium Q3
-<details class="source-preview"><summary>Original question page · 1.2 Choice Medium Q3</summary>
-![Original question page for 1.2 Choice Medium Q3](../assets/questions/original-source/1-2-choice-medium-q3.png){.question-figure fig-alt="Original question page 1.2 Choice Medium Q3"}
-</details>
 
 Chlorine reacts with cold aqueous sodium hydroxide:
 
@@ -174,9 +147,6 @@ What mass of $\ce{NaOCl}$ forms from $0.125\ \mathrm{mol}$ of $\ce{Cl2}$ with ex
 
 ::: {.mc-question #stoich-choice-medium-q4 data-answer="A"}
 ### Question 4 · Thermal decomposition · 1.2 Choice Medium Q4
-<details class="source-preview"><summary>Original question page · 1.2 Choice Medium Q4</summary>
-![Original question page for 1.2 Choice Medium Q4](../assets/questions/original-source/1-2-choice-medium-q4.png){.question-figure fig-alt="Original question page 1.2 Choice Medium Q4"}
-</details>
 
 When $7.40\ \mathrm{g}$ of $\ce{Mg(NO3)2}$ is heated, what mass of nitrogen dioxide forms? Use $M_r(\ce{Mg(NO3)2})=148$.
 
@@ -192,9 +162,6 @@ When $7.40\ \mathrm{g}$ of $\ce{Mg(NO3)2}$ is heated, what mass of nitrogen diox
 
 ::: {.mc-question #stoich-choice-medium-q5 data-answer="D"}
 ### Question 5 · Empirical formula from a gas · 1.2 Choice Medium Q5
-<details class="source-preview"><summary>Original question page · 1.2 Choice Medium Q5</summary>
-![Original question page for 1.2 Choice Medium Q5](../assets/questions/original-source/1-2-choice-medium-q5.png){.question-figure fig-alt="Original question page 1.2 Choice Medium Q5"}
-</details>
 
 A $0.144\ \mathrm{g}$ aluminium compound burns to form $72.0\ \mathrm{cm^3}$ of $\ce{CO2}$ at RTP. Which is its formula? Use $A_r(\ce{Al})=27.0$.
 
@@ -210,9 +177,6 @@ A $0.144\ \mathrm{g}$ aluminium compound burns to form $72.0\ \mathrm{cm^3}$ of 
 
 ::: {.mc-question #stoich-choice-medium-q6 data-answer="D"}
 ### Question 6 · Limiting reagent · 1.2 Choice Medium Q6
-<details class="source-preview"><summary>Original question page · 1.2 Choice Medium Q6</summary>
-![Original question page for 1.2 Choice Medium Q6](../assets/questions/original-source/1-2-choice-medium-q6.png){.question-figure fig-alt="Original question page 1.2 Choice Medium Q6"}
-</details>
 
 What metal reacts completely with $1.15\ \mathrm{g}$ of metal and $300\ \mathrm{cm^3}$ of oxygen at RTP to form an oxide containing $\ce{O^{2-}}$? Choose from Ca, Na, K and Mg.
 
@@ -228,9 +192,6 @@ What metal reacts completely with $1.15\ \mathrm{g}$ of metal and $300\ \mathrm{
 
 ::: {.mc-question #stoich-choice-medium-q7 data-answer="D"}
 ### Question 7 · Particles in a sample · 1.2 Choice Medium Q7
-<details class="source-preview"><summary>Original question page · 1.2 Choice Medium Q7</summary>
-![Original question page for 1.2 Choice Medium Q7](../assets/questions/original-source/1-2-choice-medium-q7.png){.question-figure fig-alt="Original question page 1.2 Choice Medium Q7"}
-</details>
 
 A coin has mass $10.0\ \mathrm{g}$ and contains 20.0% nickel by mass. How many nickel atoms are present? Use $A_r(\ce{Ni})=58.7$.
 
@@ -248,9 +209,6 @@ A coin has mass $10.0\ \mathrm{g}$ and contains 20.0% nickel by mass. How many n
 
 ::: {.mc-question #stoich-choice-hard-q1 data-answer="D"}
 ### Question 1 · Combustion and gas absorption · 1.2 Choice Hard Q1
-<details class="source-preview"><summary>Original question page · 1.2 Choice Hard Q1</summary>
-![Original question page for 1.2 Choice Hard Q1](../assets/questions/original-source/1-2-choice-hard-q1.png){.question-figure fig-alt="Original question page 1.2 Choice Hard Q1"}
-</details>
 
 Carbon is burned in a limited amount of oxygen. Half the carbon forms $\ce{CO2}$ and half forms $\ce{CO}$. The carbon oxides are passed through excess aqueous sodium hydroxide. Which gas volume remains if the starting carbon sample is $1.00\ \mathrm{g}$ and the gas volume is measured at RTP?
 
@@ -266,9 +224,6 @@ Carbon is burned in a limited amount of oxygen. Half the carbon forms $\ce{CO2}$
 
 ::: {.mc-question #stoich-choice-hard-q2 data-answer="C"}
 ### Question 2 · Neutralisation of carbonate · 1.2 Choice Hard Q2
-<details class="source-preview"><summary>Original question page · 1.2 Choice Hard Q2</summary>
-![Original question page for 1.2 Choice Hard Q2](../assets/questions/original-source/1-2-choice-hard-q2.png){.question-figure fig-alt="Original question page 1.2 Choice Hard Q2"}
-</details>
 
 An eggshell is 5.0% $\ce{CaCO3}$ by mass. Each egg contains a $50.0\ \mathrm{g}$ shell, and the carbonate in the shell neutralises $50.0\ \mathrm{cm^3}$ of $2.00\ \mathrm{mol\ dm^{-3}}$ ethanoic acid. How many eggshells are needed?
 
@@ -286,9 +241,6 @@ $$\ce{CaCO3 + 2CH3COOH -> Ca(CH3COO)2 + H2O + CO2}$$
 
 ::: {.mc-question #stoich-choice-hard-q3 data-answer="C"}
 ### Question 3 · Titration of a basic oxide · 1.2 Choice Hard Q3
-<details class="source-preview"><summary>Original question page · 1.2 Choice Hard Q3</summary>
-![Original question page for 1.2 Choice Hard Q3](../assets/questions/original-source/1-2-choice-hard-q3.png){.question-figure fig-alt="Original question page 1.2 Choice Hard Q3"}
-</details>
 
 An oxide sample is dissolved in $250\ \mathrm{cm^3}$ of solution. A $25.0\ \mathrm{cm^3}$ portion requires $15.0\ \mathrm{cm^3}$ of $2.00\ \mathrm{mol\ dm^{-3}}$ sulfuric acid. If the oxide is $\ce{K2O}$, what mass was present?
 
@@ -306,9 +258,6 @@ $$\ce{K2O + H2SO4 -> K2SO4 + H2O}$$
 
 ::: {.mc-question #stoich-choice-hard-q4 data-answer="A"}
 ### Question 4 · Redox titration · 1.2 Choice Hard Q4
-<details class="source-preview"><summary>Original question page · 1.2 Choice Hard Q4</summary>
-![Original question page for 1.2 Choice Hard Q4](../assets/questions/original-source/1-2-choice-hard-q4.png){.question-figure fig-alt="Original question page 1.2 Choice Hard Q4"}
-</details>
 
 In a ferrochrome sample, $1.00\ \mathrm{g}$ requires $13.1\ \mathrm{cm^3}$ of $0.100\ \mathrm{mol\ dm^{-3}}$ $\ce{K2Cr2O7}$. The chromium(VI) reagent oxidises iron(II) according to a $1:6$ mole ratio. What percentage by mass of the sample is iron?
 
@@ -324,9 +273,6 @@ In a ferrochrome sample, $1.00\ \mathrm{g}$ requires $13.1\ \mathrm{cm^3}$ of $0
 
 ::: {.mc-question #stoich-choice-hard-q5 data-answer="B"}
 ### Question 5 · Combustion gases · 1.2 Choice Hard Q5
-<details class="source-preview"><summary>Original question page · 1.2 Choice Hard Q5</summary>
-![Original question page for 1.2 Choice Hard Q5](../assets/questions/original-source/1-2-choice-hard-q5.png){.question-figure fig-alt="Original question page 1.2 Choice Hard Q5"}
-</details>
 
 Equal volumes of methane and ethane are sparked with excess oxygen. The carbon dioxide is removed by aqueous potassium hydroxide. What fraction of the original hydrocarbon volume is absorbed?
 
@@ -342,9 +288,6 @@ Equal volumes of methane and ethane are sparked with excess oxygen. The carbon d
 
 ::: {.mc-question #stoich-choice-hard-q6 data-answer="B"}
 ### Question 6 · Redox mole ratio · 1.2 Choice Hard Q6
-<details class="source-preview"><summary>Original question page · 1.2 Choice Hard Q6</summary>
-![Original question page for 1.2 Choice Hard Q6](../assets/questions/original-source/1-2-choice-hard-q6.png){.question-figure fig-alt="Original question page 1.2 Choice Hard Q6"}
-</details>
 
 In acid solution, $\ce{Sn^{2+}}$ reduces $\ce{MnO4^-}$ to $\ce{Mn^{2+}}$. What amount of $\ce{Mn^{2+}}$ can form from $9.50\ \mathrm{g}$ of $\ce{SnCl2}$? Take $M_r(\ce{SnCl2})=190$ and use the ratio $5\ce{Sn^{2+}}:2\ce{MnO4^-}$.
 
@@ -360,9 +303,6 @@ In acid solution, $\ce{Sn^{2+}}$ reduces $\ce{MnO4^-}$ to $\ce{Mn^{2+}}$. What a
 
 ::: {.mc-question #stoich-choice-hard-q7 data-answer="C"}
 ### Question 7 · Gas volume from an equation · 1.2 Choice Hard Q7
-<details class="source-preview"><summary>Original question page · 1.2 Choice Hard Q7</summary>
-![Original question page for 1.2 Choice Hard Q7](../assets/questions/original-source/1-2-choice-hard-q7.png){.question-figure fig-alt="Original question page 1.2 Choice Hard Q7"}
-</details>
 
 For the balanced reaction below, what volume of nitrogen forms at RTP when $0.783\ \mathrm{g}$ of $\ce{Ba(NO3)2}$ reacts? Use $M_r(\ce{Ba(NO3)2})=261$.
 

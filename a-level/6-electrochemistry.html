@@ -1,0 +1,1962 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hans" xml:lang="zh-Hans"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>6 Electrochemistry – CIE Chemistry 9701</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../a-level/7-equilibria.html" rel="next">
+<link href="../a-level/5-chemical-energetics.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a2a938b4dd5711f7a799c87bd16ba44c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "没有结果",
+    "search-matching-documents-text": "匹配的文档",
+    "search-copy-link-title": "复制搜索链接",
+    "search-hide-matches-text": "隐藏其它匹配结果",
+    "search-more-match-text": "更多匹配结果",
+    "search-more-matches-text": "更多匹配结果",
+    "search-clear-button-title": "清除",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "提交",
+    "search-label": "搜索"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../a-level/1-atomic-structure.html">AS Level</a></li><li class="breadcrumb-item"><a href="../a-level/6-electrochemistry.html">6 Electrochemistry</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="搜索" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">CIE Chemistry 9701</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="搜索"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">学习首页</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">AS Level</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/1-atomic-structure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1 Atomic structure</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/2-atoms-molecules-stoichiometry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2 Atoms, molecules and stoichiometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/3-chemical-bonding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3 Chemical bonding</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/4-states-of-matter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4 States of matter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/5-chemical-energetics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5 Chemical energetics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/6-electrochemistry.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">6 Electrochemistry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/7-equilibria.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7 Equilibria</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/8-reaction-kinetics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8 Reaction kinetics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/9-periodic-table-chemical-periodicity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9 The Periodic Table: chemical periodicity</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">A Level</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/23-chemical-energetics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">23 Chemical energetics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/24-electrochemistry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">24 Electrochemistry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/25-equilibria.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">25 Equilibria</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/26-reaction-kinetics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">26 Reaction kinetics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/27-group-2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">27 Group 2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/28-transition-elements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">28 Chemistry of transition elements</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/29-organic-chemistry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">29 An introduction to A Level organic chemistry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/30-hydrocarbons.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">30 Hydrocarbons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/31-halogen-compounds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">31 Halogen compounds</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/32-hydroxy-compounds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">32 Hydroxy compounds</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/33-carboxylic-acids-and-derivatives.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">33 Carboxylic acids and derivatives</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/34-nitrogen-compounds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">34 Nitrogen compounds</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/35-polymerisation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">35 Polymerisation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/36-organic-synthesis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">36 Organic synthesis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/37-analytical-techniques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">37 Analytical techniques</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">该页面内容</h2>
+   
+  <ul>
+  <li><a href="#electrochemistry" id="toc-electrochemistry" class="nav-link active" data-scroll-target="#electrochemistry">6 Electrochemistry</a>
+  <ul class="collapse">
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
+  <li><a href="#oxidation-numbers" id="toc-oxidation-numbers" class="nav-link" data-scroll-target="#oxidation-numbers">6.1 Oxidation numbers</a>
+  <ul class="collapse">
+  <li><a href="#core-rules" id="toc-core-rules" class="nav-link" data-scroll-target="#core-rules">Core rules</a></li>
+  </ul></li>
+  <li><a href="#oxidation-and-reduction" id="toc-oxidation-and-reduction" class="nav-link" data-scroll-target="#oxidation-and-reduction">6.2 Oxidation and reduction</a></li>
+  <li><a href="#disproportionation" id="toc-disproportionation" class="nav-link" data-scroll-target="#disproportionation">6.3 Disproportionation</a></li>
+  <li><a href="#balancing-redox-equations" id="toc-balancing-redox-equations" class="nav-link" data-scroll-target="#balancing-redox-equations">6.4 Balancing redox equations</a></li>
+  <li><a href="#halogens-and-reducing-power" id="toc-halogens-and-reducing-power" class="nav-link" data-scroll-target="#halogens-and-reducing-power">6.5 Halogens and reducing power</a></li>
+  <li><a href="#chapter-checklist" id="toc-chapter-checklist" class="nav-link" data-scroll-target="#chapter-checklist">Chapter checklist</a></li>
+  <li><a href="#multiple-choice-questions" id="toc-multiple-choice-questions" class="nav-link" data-scroll-target="#multiple-choice-questions">Multiple choice questions</a>
+  <ul class="collapse">
+  <li><a href="#electrochemistry---multiple-choice-easy" id="toc-electrochemistry---multiple-choice-easy" class="nav-link" data-scroll-target="#electrochemistry---multiple-choice-easy">6 Electrochemistry - Multiple Choice: Easy</a></li>
+  <li><a href="#question-1-oxidation-and-reduction-definitions-1.6-choice-easy-q1" id="toc-question-1-oxidation-and-reduction-definitions-1.6-choice-easy-q1" class="nav-link" data-scroll-target="#question-1-oxidation-and-reduction-definitions-1.6-choice-easy-q1">Question 1 · Oxidation and reduction definitions · 1.6 Choice Easy Q1</a></li>
+  <li><a href="#question-2-oxidation-state-of-magnesium-sulfate-1.6-choice-easy-q2" id="toc-question-2-oxidation-state-of-magnesium-sulfate-1.6-choice-easy-q2" class="nav-link" data-scroll-target="#question-2-oxidation-state-of-magnesium-sulfate-1.6-choice-easy-q2">Question 2 · Oxidation state of magnesium sulfate · 1.6 Choice Easy Q2</a></li>
+  <li><a href="#question-3-common-oxidation-numbers-1.6-choice-easy-q3" id="toc-question-3-common-oxidation-numbers-1.6-choice-easy-q3" class="nav-link" data-scroll-target="#question-3-common-oxidation-numbers-1.6-choice-easy-q3">Question 3 · Common oxidation numbers · 1.6 Choice Easy Q3</a></li>
+  <li><a href="#question-4-chlorate-disproportionation-1.6-choice-easy-q4" id="toc-question-4-chlorate-disproportionation-1.6-choice-easy-q4" class="nav-link" data-scroll-target="#question-4-chlorate-disproportionation-1.6-choice-easy-q4">Question 4 · Chlorate disproportionation · 1.6 Choice Easy Q4</a></li>
+  <li><a href="#question-5-halogen-displacement-1.6-choice-easy-q5" id="toc-question-5-halogen-displacement-1.6-choice-easy-q5" class="nav-link" data-scroll-target="#question-5-halogen-displacement-1.6-choice-easy-q5">Question 5 · Halogen displacement · 1.6 Choice Easy Q5</a></li>
+  <li><a href="#question-6-change-in-nitrogen-oxidation-number-1.6-choice-easy-q6" id="toc-question-6-change-in-nitrogen-oxidation-number-1.6-choice-easy-q6" class="nav-link" data-scroll-target="#question-6-change-in-nitrogen-oxidation-number-1.6-choice-easy-q6">Question 6 · Change in nitrogen oxidation number · 1.6 Choice Easy Q6</a></li>
+  <li><a href="#question-7-oxidation-numbers-in-complex-ions-1.6-choice-easy-q7" id="toc-question-7-oxidation-numbers-in-complex-ions-1.6-choice-easy-q7" class="nav-link" data-scroll-target="#question-7-oxidation-numbers-in-complex-ions-1.6-choice-easy-q7">Question 7 · Oxidation numbers in complex ions · 1.6 Choice Easy Q7</a></li>
+  <li><a href="#electrochemistry---multiple-choice-medium" id="toc-electrochemistry---multiple-choice-medium" class="nav-link" data-scroll-target="#electrochemistry---multiple-choice-medium">6 Electrochemistry - Multiple Choice: Medium</a></li>
+  <li><a href="#question-8-balancing-chlorine-disproportionation-1.6-choice-medium-q1" id="toc-question-8-balancing-chlorine-disproportionation-1.6-choice-medium-q1" class="nav-link" data-scroll-target="#question-8-balancing-chlorine-disproportionation-1.6-choice-medium-q1">Question 8 · Balancing chlorine disproportionation · 1.6 Choice Medium Q1</a></li>
+  <li><a href="#question-9-chlorine-in-water-1.6-choice-medium-q2" id="toc-question-9-chlorine-in-water-1.6-choice-medium-q2" class="nav-link" data-scroll-target="#question-9-chlorine-in-water-1.6-choice-medium-q2">Question 9 · Chlorine in water · 1.6 Choice Medium Q2</a></li>
+  <li><a href="#question-10-identifying-an-oxidising-agent-1.6-choice-medium-q3" id="toc-question-10-identifying-an-oxidising-agent-1.6-choice-medium-q3" class="nav-link" data-scroll-target="#question-10-identifying-an-oxidising-agent-1.6-choice-medium-q3">Question 10 · Identifying an oxidising agent · 1.6 Choice Medium Q3</a></li>
+  <li><a href="#question-11-equal-oxidation-numbers-1.6-choice-medium-q4" id="toc-question-11-equal-oxidation-numbers-1.6-choice-medium-q4" class="nav-link" data-scroll-target="#question-11-equal-oxidation-numbers-1.6-choice-medium-q4">Question 11 · Equal oxidation numbers · 1.6 Choice Medium Q4</a></li>
+  <li><a href="#question-12-sulfuric-acid-and-iodide-1.6-choice-medium-q5" id="toc-question-12-sulfuric-acid-and-iodide-1.6-choice-medium-q5" class="nav-link" data-scroll-target="#question-12-sulfuric-acid-and-iodide-1.6-choice-medium-q5">Question 12 · Sulfuric acid and iodide · 1.6 Choice Medium Q5</a></li>
+  <li><a href="#question-13-titanium-dioxide-redox-analysis-1.6-choice-medium-q6" id="toc-question-13-titanium-dioxide-redox-analysis-1.6-choice-medium-q6" class="nav-link" data-scroll-target="#question-13-titanium-dioxide-redox-analysis-1.6-choice-medium-q6">Question 13 · Titanium dioxide redox analysis · 1.6 Choice Medium Q6</a></li>
+  <li><a href="#question-14-hydrogen-as-an-oxidising-agent-1.6-choice-medium-q7" id="toc-question-14-hydrogen-as-an-oxidising-agent-1.6-choice-medium-q7" class="nav-link" data-scroll-target="#question-14-hydrogen-as-an-oxidising-agent-1.6-choice-medium-q7">Question 14 · Hydrogen as an oxidising agent · 1.6 Choice Medium Q7</a></li>
+  <li><a href="#electrochemistry---multiple-choice-hard" id="toc-electrochemistry---multiple-choice-hard" class="nav-link" data-scroll-target="#electrochemistry---multiple-choice-hard">6 Electrochemistry - Multiple Choice: Hard</a></li>
+  <li><a href="#question-15-ammonium-nitrate-decomposition-1.6-choice-hard-q1" id="toc-question-15-ammonium-nitrate-decomposition-1.6-choice-hard-q1" class="nav-link" data-scroll-target="#question-15-ammonium-nitrate-decomposition-1.6-choice-hard-q1">Question 15 · Ammonium nitrate decomposition · 1.6 Choice Hard Q1</a></li>
+  <li><a href="#question-16-disproportionation-of-hio-1.6-choice-hard-q2" id="toc-question-16-disproportionation-of-hio-1.6-choice-hard-q2" class="nav-link" data-scroll-target="#question-16-disproportionation-of-hio-1.6-choice-hard-q2">Question 16 · Disproportionation of HIO · 1.6 Choice Hard Q2</a></li>
+  <li><a href="#question-17-sulfur-dioxide-titration-with-iodine-1.6-choice-hard-q3" id="toc-question-17-sulfur-dioxide-titration-with-iodine-1.6-choice-hard-q3" class="nav-link" data-scroll-target="#question-17-sulfur-dioxide-titration-with-iodine-1.6-choice-hard-q3">Question 17 · Sulfur dioxide titration with iodine · 1.6 Choice Hard Q3</a></li>
+  <li><a href="#question-18-vanadium-and-thiosulfate-1.6-choice-hard-q4" id="toc-question-18-vanadium-and-thiosulfate-1.6-choice-hard-q4" class="nav-link" data-scroll-target="#question-18-vanadium-and-thiosulfate-1.6-choice-hard-q4">Question 18 · Vanadium and thiosulfate · 1.6 Choice Hard Q4</a></li>
+  <li><a href="#question-19-oxidation-of-chlorine-to-chloratev-1.6-choice-hard-q5" id="toc-question-19-oxidation-of-chlorine-to-chloratev-1.6-choice-hard-q5" class="nav-link" data-scroll-target="#question-19-oxidation-of-chlorine-to-chloratev-1.6-choice-hard-q5">Question 19 · Oxidation of chlorine to chlorate(V) · 1.6 Choice Hard Q5</a></li>
+  <li><a href="#question-20-sulfuric-acid-and-sodium-halides-1.6-choice-hard-q6" id="toc-question-20-sulfuric-acid-and-sodium-halides-1.6-choice-hard-q6" class="nav-link" data-scroll-target="#question-20-sulfuric-acid-and-sodium-halides-1.6-choice-hard-q6">Question 20 · Sulfuric acid and sodium halides · 1.6 Choice Hard Q6</a></li>
+  </ul></li>
+  <li><a href="#structured-questions" id="toc-structured-questions" class="nav-link" data-scroll-target="#structured-questions">Structured questions</a>
+  <ul class="collapse">
+  <li><a href="#electrochemistry---structured-questions-easy" id="toc-electrochemistry---structured-questions-easy" class="nav-link" data-scroll-target="#electrochemistry---structured-questions-easy">6 Electrochemistry - Structured Questions: Easy</a></li>
+  <li><a href="#example-1-oxidation-numbers-of-sulfur-1.6-sq-easy-q1" id="toc-example-1-oxidation-numbers-of-sulfur-1.6-sq-easy-q1" class="nav-link" data-scroll-target="#example-1-oxidation-numbers-of-sulfur-1.6-sq-easy-q1">Example 1 · Oxidation numbers of sulfur · 1.6 SQ Easy Q1</a></li>
+  <li><a href="#example-2-reduction-and-oxidation-numbers-1.6-sq-easy-q2" id="toc-example-2-reduction-and-oxidation-numbers-1.6-sq-easy-q2" class="nav-link" data-scroll-target="#example-2-reduction-and-oxidation-numbers-1.6-sq-easy-q2">Example 2 · Reduction and oxidation numbers · 1.6 SQ Easy Q2</a></li>
+  <li><a href="#example-3-disproportionation-reactions-1.6-sq-easy-q3" id="toc-example-3-disproportionation-reactions-1.6-sq-easy-q3" class="nav-link" data-scroll-target="#example-3-disproportionation-reactions-1.6-sq-easy-q3">Example 3 · Disproportionation reactions · 1.6 SQ Easy Q3</a></li>
+  <li><a href="#electrochemistry---structured-questions-medium" id="toc-electrochemistry---structured-questions-medium" class="nav-link" data-scroll-target="#electrochemistry---structured-questions-medium">6 Electrochemistry - Structured Questions: Medium</a></li>
+  <li><a href="#example-4-calcium-and-iron-redox-reactions-1.6-sq-medium-q1" id="toc-example-4-calcium-and-iron-redox-reactions-1.6-sq-medium-q1" class="nav-link" data-scroll-target="#example-4-calcium-and-iron-redox-reactions-1.6-sq-medium-q1">Example 4 · Calcium and iron redox reactions · 1.6 SQ Medium Q1</a></li>
+  <li><a href="#example-5-sulfur-dichloride-and-disproportionation-1.6-sq-medium-q2" id="toc-example-5-sulfur-dichloride-and-disproportionation-1.6-sq-medium-q2" class="nav-link" data-scroll-target="#example-5-sulfur-dichloride-and-disproportionation-1.6-sq-medium-q2">Example 5 · Sulfur dichloride and disproportionation · 1.6 SQ Medium Q2</a></li>
+  <li><a href="#example-6-balancing-redox-equations-1.6-sq-medium-q3" id="toc-example-6-balancing-redox-equations-1.6-sq-medium-q3" class="nav-link" data-scroll-target="#example-6-balancing-redox-equations-1.6-sq-medium-q3">Example 6 · Balancing redox equations · 1.6 SQ Medium Q3</a></li>
+  <li><a href="#example-7-chlorine-and-sodium-hypochlorite-1.6-sq-medium-q4" id="toc-example-7-chlorine-and-sodium-hypochlorite-1.6-sq-medium-q4" class="nav-link" data-scroll-target="#example-7-chlorine-and-sodium-hypochlorite-1.6-sq-medium-q4">Example 7 · Chlorine and sodium hypochlorite · 1.6 SQ Medium Q4</a></li>
+  <li><a href="#electrochemistry---structured-questions-hard" id="toc-electrochemistry---structured-questions-hard" class="nav-link" data-scroll-target="#electrochemistry---structured-questions-hard">6 Electrochemistry - Structured Questions: Hard</a></li>
+  <li><a href="#example-8-tetrathionate-and-iodine-1.6-sq-hard-q1" id="toc-example-8-tetrathionate-and-iodine-1.6-sq-hard-q1" class="nav-link" data-scroll-target="#example-8-tetrathionate-and-iodine-1.6-sq-hard-q1">Example 8 · Tetrathionate and iodine · 1.6 SQ Hard Q1</a></li>
+  <li><a href="#example-9-photochromic-glass-1.6-sq-hard-q2" id="toc-example-9-photochromic-glass-1.6-sq-hard-q2" class="nav-link" data-scroll-target="#example-9-photochromic-glass-1.6-sq-hard-q2">Example 9 · Photochromic glass · 1.6 SQ Hard Q2</a></li>
+  <li><a href="#example-10-products-of-iodine-and-sulfuric-acid-reactions-1.6-sq-hard-q3" id="toc-example-10-products-of-iodine-and-sulfuric-acid-reactions-1.6-sq-hard-q3" class="nav-link" data-scroll-target="#example-10-products-of-iodine-and-sulfuric-acid-reactions-1.6-sq-hard-q3">Example 10 · Products of iodine and sulfuric acid reactions · 1.6 SQ Hard Q3</a></li>
+  </ul></li>
+  <li><a href="#original-question-pdfs" id="toc-original-question-pdfs" class="nav-link" data-scroll-target="#original-question-pdfs">Original question PDFs</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../a-level/1-atomic-structure.html">AS Level</a></li><li class="breadcrumb-item"><a href="../a-level/6-electrochemistry.html">6 Electrochemistry</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">6 Electrochemistry</h1>
+<p class="subtitle lead">Oxidation numbers, redox reactions and disproportionation</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="electrochemistry" class="level1">
+<h1>6 Electrochemistry</h1>
+<p>本章对应 CIE 9701 AS Chemistry 的 <strong>Electrochemistry</strong>，重点是用 oxidation numbers 和 electron transfer 判断并解释 redox reactions。</p>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
+<p>学完本章后，你应该能够：</p>
+<ul>
+<li>calculate oxidation numbers using the standard rules;</li>
+<li>identify oxidation, reduction, oxidising agents and reducing agents;</li>
+<li>recognise disproportionation reactions;</li>
+<li>balance redox equations using changes in oxidation number;</li>
+<li>explain halogen displacement and reactions with concentrated sulfuric acid;</li>
+<li>use ionic equations and half-equations to explain electron transfer.</li>
+</ul>
+</section>
+<section id="oxidation-numbers" class="level2">
+<h2 class="anchored" data-anchor-id="oxidation-numbers">6.1 Oxidation numbers</h2>
+<section id="core-rules" class="level3 study-card">
+<h3 class="anchored" data-anchor-id="core-rules">Core rules</h3>
+<p>The oxidation number of an uncombined element is zero. The sum of oxidation numbers in a neutral compound is zero; in a polyatomic ion it equals the charge of the ion.</p>
+<p>Useful rules are:</p>
+<ul>
+<li>a Group 1 metal is usually <span class="math inline">\(+1\)</span> and a Group 2 metal is usually <span class="math inline">\(+2\)</span>;</li>
+<li>fluorine is always <span class="math inline">\(-1\)</span> in compounds;</li>
+<li>oxygen is usually <span class="math inline">\(-2\)</span>, except in peroxides and compounds with fluorine;</li>
+<li>hydrogen is usually <span class="math inline">\(+1\)</span>, but is <span class="math inline">\(-1\)</span> in metal hydrides;</li>
+<li>a simple ion has an oxidation number equal to its charge.</li>
+</ul>
+</section>
+<div class="worked-example">
+<p><span class="we-tag">Worked example - Sulfate ion</span></p>
+<section id="oxidation-number-of-sulfur-in-ceso42-" class="level3">
+<h3 class="anchored" data-anchor-id="oxidation-number-of-sulfur-in-ceso42-">Oxidation number of sulfur in <span class="math inline">\(\ce{SO4^{2-}}\)</span></h3>
+<p>The four oxygen atoms contribute <span class="math inline">\(4(-2)=-8\)</span>. The ion has charge <span class="math inline">\(-2\)</span>, so:</p>
+<p><span class="math display">\[x-8=-2\qquad x=+6\]</span></p>
+<p>Sulfur is therefore in oxidation state <span class="math inline">\(+6\)</span>.</p>
+</section>
+</div>
+</section>
+<section id="oxidation-and-reduction" class="level2">
+<h2 class="anchored" data-anchor-id="oxidation-and-reduction">6.2 Oxidation and reduction</h2>
+<p>Oxidation is loss of electrons and an increase in oxidation number. Reduction is gain of electrons and a decrease in oxidation number. Remember <strong>OIL RIG</strong>: oxidation is loss, reduction is gain.</p>
+<p>The substance that is oxidised is the <strong>reducing agent</strong>, because it supplies electrons. The substance that is reduced is the <strong>oxidising agent</strong>, because it accepts electrons.</p>
+<p>For example:</p>
+<p><span class="math display">\[\ce{Mg(s) + Fe^{2+}(aq) -&gt; Mg^{2+}(aq) + Fe(s)}\]</span></p>
+<p>Magnesium changes from <span class="math inline">\(0\)</span> to <span class="math inline">\(+2\)</span>, so it is oxidised and is the reducing agent. Iron changes from <span class="math inline">\(+2\)</span> to <span class="math inline">\(0\)</span>, so <span class="math inline">\(\ce{Fe^{2+}}\)</span> is reduced and is the oxidising agent.</p>
+</section>
+<section id="disproportionation" class="level2">
+<h2 class="anchored" data-anchor-id="disproportionation">6.3 Disproportionation</h2>
+<p>A disproportionation reaction is a redox reaction in which the same element in one reactant is both oxidised and reduced.</p>
+<p>For chlorine in cold aqueous sodium hydroxide:</p>
+<p><span class="math display">\[\ce{Cl2 + 2OH^- -&gt; Cl^- + ClO^- + H2O}\]</span></p>
+<p>Chlorine changes from <span class="math inline">\(0\)</span> to <span class="math inline">\(-1\)</span> in <span class="math inline">\(\ce{Cl^-}\)</span> and from <span class="math inline">\(0\)</span> to <span class="math inline">\(+1\)</span> in <span class="math inline">\(\ce{ClO^-}\)</span>, so chlorine disproportionates.</p>
+<p>For hot aqueous sodium hydroxide, chlorate(V) is formed instead:</p>
+<p><span class="math display">\[\ce{3Cl2 + 6OH^- -&gt; 5Cl^- + ClO3^- + 3H2O}\]</span></p>
+<p>The chlorine oxidation numbers are <span class="math inline">\(0\)</span>, <span class="math inline">\(-1\)</span> and <span class="math inline">\(+5\)</span>.</p>
+</section>
+<section id="balancing-redox-equations" class="level2">
+<h2 class="anchored" data-anchor-id="balancing-redox-equations">6.4 Balancing redox equations</h2>
+<p>Use the following sequence:</p>
+<ol type="1">
+<li>assign oxidation numbers to the changing elements;</li>
+<li>identify the increase and decrease in oxidation number;</li>
+<li>multiply species so that total increase equals total decrease;</li>
+<li>balance the remaining atoms and then the charge using <span class="math inline">\(\ce{H2O}\)</span>, <span class="math inline">\(\ce{H+}\)</span> or <span class="math inline">\(\ce{OH^-}\)</span> as appropriate;</li>
+<li>check atoms and total charge on both sides.</li>
+</ol>
+<p>For example, in acidic solution:</p>
+<p><span class="math display">\[\ce{2MnO4^- + 5SO2 + 2H2O -&gt; 2Mn^{2+} + 5SO4^{2-} + 4H+}\]</span></p>
+<p>Manganese changes from <span class="math inline">\(+7\)</span> to <span class="math inline">\(+2\)</span> and sulfur changes from <span class="math inline">\(+4\)</span> to <span class="math inline">\(+6\)</span>. The five-electron reduction of each manganese balances the two-electron oxidation of each sulfur.</p>
+</section>
+<section id="halogens-and-reducing-power" class="level2">
+<h2 class="anchored" data-anchor-id="halogens-and-reducing-power">6.5 Halogens and reducing power</h2>
+<p>The oxidising power of the halogens decreases down Group 17:</p>
+<p><span class="math display">\[\ce{F2 &gt; Cl2 &gt; Br2 &gt; I2}\]</span></p>
+<p>Therefore chlorine can oxidise bromide and iodide ions, but iodine cannot oxidise bromide ions:</p>
+<p><span class="math display">\[\ce{Cl2 + 2I^- -&gt; 2Cl^- + I2}\]</span></p>
+<p>The reducing power of the halide ions increases down the group:</p>
+<p><span class="math display">\[\ce{F^- &lt; Cl^- &lt; Br^- &lt; I^-}\]</span></p>
+<p>Larger halide ions have more shielding and their outer electron is further from the nucleus, so it is easier to remove.</p>
+<p>Concentrated sulfuric acid is both an acid and an oxidising agent. It reacts with chloride ions mainly as an acid, but bromide and iodide ions are strong enough reducing agents to reduce sulfuric acid to sulfur dioxide, sulfur or hydrogen sulfide.</p>
+</section>
+<section id="chapter-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="chapter-checklist">Chapter checklist</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">I can calculate oxidation numbers in compounds and ions.</label></li>
+<li><label><input type="checkbox">I can distinguish oxidation from reduction using electrons and oxidation numbers.</label></li>
+<li><label><input type="checkbox">I can identify oxidising and reducing agents.</label></li>
+<li><label><input type="checkbox">I can recognise and explain disproportionation.</label></li>
+<li><label><input type="checkbox">I can balance redox equations and check charge.</label></li>
+<li><label><input type="checkbox">I can explain halogen displacement and halide reducing power.</label></li>
+</ul>
+</section>
+<section id="multiple-choice-questions" class="level2">
+<h2 class="anchored" data-anchor-id="multiple-choice-questions">Multiple choice questions</h2>
+<section id="electrochemistry---multiple-choice-easy" class="level3">
+<h3 class="anchored" data-anchor-id="electrochemistry---multiple-choice-easy">6 Electrochemistry - Multiple Choice: Easy</h3>
+</section>
+<div id="electrochemistry-choice-easy-q1" class="mc-question" data-answer="B">
+<section id="question-1-oxidation-and-reduction-definitions-1.6-choice-easy-q1" class="level3">
+<h3 class="anchored" data-anchor-id="question-1-oxidation-and-reduction-definitions-1.6-choice-easy-q1">Question 1 · Oxidation and reduction definitions · 1.6 Choice Easy Q1</h3>
+<p>Which row correctly describes oxidation and reduction in terms of electron transfer and changes in oxidation state?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Oxidation gains electrons and increases oxidation state; reduction loses electrons and decreases oxidation state.</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Oxidation loses electrons and increases oxidation state; reduction gains electrons and decreases oxidation state.</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Oxidation loses electrons and decreases oxidation state; reduction loses electrons and increases oxidation state.</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Oxidation gains electrons and decreases oxidation state; reduction gains electrons and increases oxidation state.</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> Oxidation is loss of electrons and an increase in oxidation number; reduction is gain of electrons and a decrease.
+</p>
+</details>
+</section>
+</div>
+<div id="electrochemistry-choice-easy-q2" class="mc-question" data-answer="D">
+<section id="question-2-oxidation-state-of-magnesium-sulfate-1.6-choice-easy-q2" class="level3">
+<h3 class="anchored" data-anchor-id="question-2-oxidation-state-of-magnesium-sulfate-1.6-choice-easy-q2">Question 2 · Oxidation state of magnesium sulfate · 1.6 Choice Easy Q2</h3>
+<p>What is the oxidation state of <span class="math inline">\(\ce{MgSO4}\)</span>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(-2\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(+2\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(+7\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(0\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>D.</strong> A neutral compound has an overall oxidation state of zero: <span class="math inline">\(+2+6+4(-2)=0\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="electrochemistry-choice-easy-q3" class="mc-question" data-answer="D">
+<section id="question-3-common-oxidation-numbers-1.6-choice-easy-q3" class="level3">
+<h3 class="anchored" data-anchor-id="question-3-common-oxidation-numbers-1.6-choice-easy-q3">Question 3 · Common oxidation numbers · 1.6 Choice Easy Q3</h3>
+<p>Which row describes the most common oxidation numbers of fluorine, oxygen and hydrogen in compounds?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>F <span class="math inline">\(+7\)</span>, O <span class="math inline">\(-1\)</span>, H <span class="math inline">\(+1\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>F <span class="math inline">\(+4\)</span>, O <span class="math inline">\(+2\)</span>, H <span class="math inline">\(+1\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>F <span class="math inline">\(-1\)</span>, O <span class="math inline">\(+1\)</span>, H <span class="math inline">\(-1\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>F <span class="math inline">\(-1\)</span>, O <span class="math inline">\(-2\)</span>, H <span class="math inline">\(+1\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>D.</strong> Fluorine is <span class="math inline">\(-1\)</span>, oxygen is usually <span class="math inline">\(-2\)</span> and hydrogen is usually <span class="math inline">\(+1\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="electrochemistry-choice-easy-q4" class="mc-question" data-answer="A">
+<section id="question-4-chlorate-disproportionation-1.6-choice-easy-q4" class="level3">
+<h3 class="anchored" data-anchor-id="question-4-chlorate-disproportionation-1.6-choice-easy-q4">Question 4 · Chlorate disproportionation · 1.6 Choice Easy Q4</h3>
+<p>Chlorate(I) ions decompose on heating. Which row gives the oxidation states of chlorine in <span class="math inline">\(\ce{ClO^-}\)</span>, <span class="math inline">\(\ce{ClO3^-}\)</span> and <span class="math inline">\(\ce{Cl^-}\)</span>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(+1\)</span>, <span class="math inline">\(+5\)</span>, <span class="math inline">\(-1\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(+1\)</span>, <span class="math inline">\(+3\)</span>, <span class="math inline">\(+1\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(-1\)</span>, <span class="math inline">\(+5\)</span>, <span class="math inline">\(-1\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(-1\)</span>, <span class="math inline">\(+3\)</span>, <span class="math inline">\(+1\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>A.</strong> In <span class="math inline">\(\ce{ClO^-}\)</span> chlorine is <span class="math inline">\(+1\)</span>; in <span class="math inline">\(\ce{ClO3^-}\)</span> it is <span class="math inline">\(+5\)</span>; and in <span class="math inline">\(\ce{Cl^-}\)</span> it is <span class="math inline">\(-1\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="electrochemistry-choice-easy-q5" class="mc-question" data-answer="A">
+<section id="question-5-halogen-displacement-1.6-choice-easy-q5" class="level3">
+<h3 class="anchored" data-anchor-id="question-5-halogen-displacement-1.6-choice-easy-q5">Question 5 · Halogen displacement · 1.6 Choice Easy Q5</h3>
+<p>A student added a solution of iodine to a solution of sodium bromide. Which statement correctly describes what happens?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>No reaction occurs.</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>The bromide ions are oxidised.</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>The iodine atoms are oxidised.</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Both bromide and iodide ions change oxidation state.</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>A.</strong> Iodine is below bromine in Group 17 and is not a strong enough oxidising agent to oxidise bromide ions.
+</p>
+</details>
+</section>
+</div>
+<div id="electrochemistry-choice-easy-q6" class="mc-question" data-answer="D">
+<section id="question-6-change-in-nitrogen-oxidation-number-1.6-choice-easy-q6" class="level3">
+<h3 class="anchored" data-anchor-id="question-6-change-in-nitrogen-oxidation-number-1.6-choice-easy-q6">Question 6 · Change in nitrogen oxidation number · 1.6 Choice Easy Q6</h3>
+<p>In which reaction is the change in oxidation number for nitrogen the smallest?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(\ce{N2 + 3H2 -&gt; 2NH3}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(\ce{3Mg + N2 -&gt; Mg3N2}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(\ce{4NH3 + 5O2 -&gt; 4NO + 6H2O}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(\ce{2NO + O2 -&gt; 2NO2}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>D.</strong> Nitrogen changes from <span class="math inline">\(+2\)</span> in <span class="math inline">\(\ce{NO}\)</span> to <span class="math inline">\(+4\)</span> in <span class="math inline">\(\ce{NO2}\)</span>, a change of only 2.
+</p>
+</details>
+</section>
+</div>
+<div id="electrochemistry-choice-easy-q7" class="mc-question" data-answer="C">
+<section id="question-7-oxidation-numbers-in-complex-ions-1.6-choice-easy-q7" class="level3">
+<h3 class="anchored" data-anchor-id="question-7-oxidation-numbers-in-complex-ions-1.6-choice-easy-q7">Question 7 · Oxidation numbers in complex ions · 1.6 Choice Easy Q7</h3>
+<p>In the compound <span class="math inline">\(\ce{[ICl2]+[SbCl6]-}\)</span>, the oxidation number of chlorine is <span class="math inline">\(-1\)</span>. What are the oxidation numbers of I and Sb?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>I <span class="math inline">\(+1\)</span>, Sb <span class="math inline">\(+5\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>I <span class="math inline">\(+1\)</span>, Sb <span class="math inline">\(+7\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>I <span class="math inline">\(+3\)</span>, Sb <span class="math inline">\(+5\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>I <span class="math inline">\(+3\)</span>, Sb <span class="math inline">\(+7\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> In <span class="math inline">\(\ce{[ICl2]+}\)</span>, I is <span class="math inline">\(+3\)</span>; in <span class="math inline">\(\ce{[SbCl6]-}\)</span>, Sb is <span class="math inline">\(+5\)</span>.
+</p>
+</details>
+</section>
+</div>
+<section id="electrochemistry---multiple-choice-medium" class="level3">
+<h3 class="anchored" data-anchor-id="electrochemistry---multiple-choice-medium">6 Electrochemistry - Multiple Choice: Medium</h3>
+</section>
+<div id="electrochemistry-choice-medium-q1" class="mc-question" data-answer="A">
+<section id="question-8-balancing-chlorine-disproportionation-1.6-choice-medium-q1" class="level3">
+<h3 class="anchored" data-anchor-id="question-8-balancing-chlorine-disproportionation-1.6-choice-medium-q1">Question 8 · Balancing chlorine disproportionation · 1.6 Choice Medium Q1</h3>
+<p>Chlorine and hot aqueous sodium hydroxide react as:</p>
+<p><span class="math display">\[\ce{pCl2 + qOH^- -&gt; rCl^- + sClO3^- + tH2O}\]</span></p>
+<p>What are the values of <span class="math inline">\(p\)</span>, <span class="math inline">\(r\)</span> and <span class="math inline">\(s\)</span>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(p=3\)</span>, <span class="math inline">\(r=5\)</span>, <span class="math inline">\(s=1\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(p=3\)</span>, <span class="math inline">\(r=6\)</span>, <span class="math inline">\(s=2\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(p=2\)</span>, <span class="math inline">\(r=5\)</span>, <span class="math inline">\(s=1\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(p=2\)</span>, <span class="math inline">\(r=4\)</span>, <span class="math inline">\(s=2\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>A.</strong> The balanced ionic equation is <span class="math inline">\(\ce{3Cl2+6OH^- -&gt;5Cl^-+ClO3^-+3H2O}\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="electrochemistry-choice-medium-q2" class="mc-question" data-answer="C">
+<section id="question-9-chlorine-in-water-1.6-choice-medium-q2" class="level3">
+<h3 class="anchored" data-anchor-id="question-9-chlorine-in-water-1.6-choice-medium-q2">Question 9 · Chlorine in water · 1.6 Choice Medium Q2</h3>
+<p>Which statement about Group 17 redox processes is correct?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Bromine can oxidise chloride ions.</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Iodide ions are the weakest reducing agents of the first four halide ions.</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>In reactions with water, chlorine is both oxidised and reduced.</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Fluorine is a weaker oxidising agent than chlorine.</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> In water, chlorine disproportionates to chloride and hypochlorous acid.
+</p>
+</details>
+</section>
+</div>
+<div id="electrochemistry-choice-medium-q3" class="mc-question" data-answer="B">
+<section id="question-10-identifying-an-oxidising-agent-1.6-choice-medium-q3" class="level3">
+<h3 class="anchored" data-anchor-id="question-10-identifying-an-oxidising-agent-1.6-choice-medium-q3">Question 10 · Identifying an oxidising agent · 1.6 Choice Medium Q3</h3>
+<p>In which reaction is the species in bold acting as an oxidising agent?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(\ce{Cr2O7^{2-}+8H+ +3SO3^{2-}-&gt;2Cr^{3+}+4H2O+3SO4^{2-}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(\ce{Mg + Fe^{2+}-&gt;Mg^{2+}+Fe}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(\ce{Cl2+2Br^- -&gt;2Cl^-+Br2}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(\ce{Fe2O3+3CO-&gt;2Fe+3CO2}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> <span class="math inline">\(\ce{Fe^{2+}}\)</span> oxidises magnesium and is itself reduced to iron.
+</p>
+</details>
+</section>
+</div>
+<div id="electrochemistry-choice-medium-q4" class="mc-question" data-answer="C">
+<section id="question-11-equal-oxidation-numbers-1.6-choice-medium-q4" class="level3">
+<h3 class="anchored" data-anchor-id="question-11-equal-oxidation-numbers-1.6-choice-medium-q4">Question 11 · Equal oxidation numbers · 1.6 Choice Medium Q4</h3>
+<p>In which compound are there two different elements with the same oxidation number?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(\ce{Mg(OH)2}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(\ce{Na2SO4}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(\ce{HClO}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(\ce{NH4Cl}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> In <span class="math inline">\(\ce{HClO}\)</span>, H and Cl are both <span class="math inline">\(+1\)</span> while O is <span class="math inline">\(-2\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="electrochemistry-choice-medium-q5" class="mc-question" data-answer="A">
+<section id="question-12-sulfuric-acid-and-iodide-1.6-choice-medium-q5" class="level3">
+<h3 class="anchored" data-anchor-id="question-12-sulfuric-acid-and-iodide-1.6-choice-medium-q5">Question 12 · Sulfuric acid and iodide · 1.6 Choice Medium Q5</h3>
+<p>When sulfuric acid and sodium iodide react, one reaction is:</p>
+<p><span class="math display">\[\ce{8NaI + 9H2SO4 -&gt; 8NaHSO4 + 4I2 + H2S + 4H2O}\]</span></p>
+<p>Which species has been oxidised?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(\ce{I^-}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(\ce{SO4^{2-}}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(\ce{Na+}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(\ce{H+}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>A.</strong> Iodide changes from <span class="math inline">\(-1\)</span> to <span class="math inline">\(0\)</span> in <span class="math inline">\(\ce{I2}\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="electrochemistry-choice-medium-q6" class="mc-question" data-answer="D">
+<section id="question-13-titanium-dioxide-redox-analysis-1.6-choice-medium-q6" class="level3">
+<h3 class="anchored" data-anchor-id="question-13-titanium-dioxide-redox-analysis-1.6-choice-medium-q6">Question 13 · Titanium dioxide redox analysis · 1.6 Choice Medium Q6</h3>
+<p>In the reaction used to determine titanium dioxide in an ore, which element increases in oxidation number?</p>
+<p><span class="math display">\[\ce{3TiO2 + 4BrF5 -&gt; 3TiF4 + 2Br2 + 3O2}\]</span></p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Fluorine</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Bromine</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Titanium</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Oxygen</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>D.</strong> Oxygen changes from <span class="math inline">\(-2\)</span> in <span class="math inline">\(\ce{TiO2}\)</span> to <span class="math inline">\(0\)</span> in <span class="math inline">\(\ce{O2}\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="electrochemistry-choice-medium-q7" class="mc-question" data-answer="A">
+<section id="question-14-hydrogen-as-an-oxidising-agent-1.6-choice-medium-q7" class="level3">
+<h3 class="anchored" data-anchor-id="question-14-hydrogen-as-an-oxidising-agent-1.6-choice-medium-q7">Question 14 · Hydrogen as an oxidising agent · 1.6 Choice Medium Q7</h3>
+<p>In which reaction does hydrogen behave as an oxidising agent?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(\ce{2Na + H2 -&gt; 2NaH}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(\ce{N2 + 3H2 -&gt; 2NH3}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(\ce{H2 + Cl2 -&gt; 2HCl}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(\ce{C2H4 + H2 -&gt; C2H6}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>A.</strong> Hydrogen is reduced from <span class="math inline">\(0\)</span> to <span class="math inline">\(-1\)</span> in <span class="math inline">\(\ce{NaH}\)</span>, so it acts as the oxidising agent.
+</p>
+</details>
+</section>
+</div>
+<section id="electrochemistry---multiple-choice-hard" class="level3">
+<h3 class="anchored" data-anchor-id="electrochemistry---multiple-choice-hard">6 Electrochemistry - Multiple Choice: Hard</h3>
+</section>
+<div id="electrochemistry-choice-hard-q1" class="mc-question" data-answer="A">
+<section id="question-15-ammonium-nitrate-decomposition-1.6-choice-hard-q1" class="level3">
+<h3 class="anchored" data-anchor-id="question-15-ammonium-nitrate-decomposition-1.6-choice-hard-q1">Question 15 · Ammonium nitrate decomposition · 1.6 Choice Hard Q1</h3>
+<p>When heated, ammonium nitrate decomposes:</p>
+<p><span class="math display">\[\ce{NH4NO3 -&gt; N2O + 2H2O}\]</span></p>
+<p>The nitrogen atoms in <span class="math inline">\(\ce{NH4NO3}\)</span> have different oxidation numbers. What are their changes in oxidation number?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(+4, -4\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(-2, -4\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(+4, -6\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(+2, +6\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>A.</strong> Nitrogen changes from <span class="math inline">\(-3\)</span> in <span class="math inline">\(\ce{NH4+}\)</span> to <span class="math inline">\(+1\)</span> in <span class="math inline">\(\ce{N2O}\)</span>, and from <span class="math inline">\(+5\)</span> in <span class="math inline">\(\ce{NO3-}\)</span> to <span class="math inline">\(+1\)</span>: changes are <span class="math inline">\(+4\)</span> and <span class="math inline">\(-4\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="electrochemistry-choice-hard-q2" class="mc-question" data-answer="C">
+<section id="question-16-disproportionation-of-hio-1.6-choice-hard-q2" class="level3">
+<h3 class="anchored" data-anchor-id="question-16-disproportionation-of-hio-1.6-choice-hard-q2">Question 16 · Disproportionation of HIO · 1.6 Choice Hard Q2</h3>
+<p>The acid <span class="math inline">\(\ce{HIO}\)</span> disproportionates in aqueous solution:</p>
+<p><span class="math display">\[\ce{qHIO -&gt; rI2 + sHIO3 + tH2O}\]</span></p>
+<p>The equation is balanced using oxidation numbers. What are the values of <span class="math inline">\(r\)</span> and <span class="math inline">\(s\)</span>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(r=4\)</span>, <span class="math inline">\(s=2\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(r=4\)</span>, <span class="math inline">\(s=1\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(r=2\)</span>, <span class="math inline">\(s=1\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(r=1\)</span>, <span class="math inline">\(s=2\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> The lowest whole-number equation is <span class="math inline">\(\ce{5HIO -&gt; 2I2 + HIO3 + 2H2O}\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="electrochemistry-choice-hard-q3" class="mc-question" data-answer="B">
+<section id="question-17-sulfur-dioxide-titration-with-iodine-1.6-choice-hard-q3" class="level3">
+<h3 class="anchored" data-anchor-id="question-17-sulfur-dioxide-titration-with-iodine-1.6-choice-hard-q3">Question 17 · Sulfur dioxide titration with iodine · 1.6 Choice Hard Q3</h3>
+<p>In winemaking, sulfur dioxide is titrated with iodine. What is the change in oxidation number of sulfur in this reaction?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(+2\)</span> to <span class="math inline">\(+6\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(+4\)</span> to <span class="math inline">\(+6\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(+2\)</span> to <span class="math inline">\(+4\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(+4\)</span> to <span class="math inline">\(+5\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> Sulfur in <span class="math inline">\(\ce{SO2}\)</span> is <span class="math inline">\(+4\)</span> and is oxidised to <span class="math inline">\(+6\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="electrochemistry-choice-hard-q4" class="mc-question" data-answer="C">
+<section id="question-18-vanadium-and-thiosulfate-1.6-choice-hard-q4" class="level3">
+<h3 class="anchored" data-anchor-id="question-18-vanadium-and-thiosulfate-1.6-choice-hard-q4">Question 18 · Vanadium and thiosulfate · 1.6 Choice Hard Q4</h3>
+<p>Using the redox potentials in the original question page, what is the lowest possible oxidation number to which vanadium(V) can be reduced by thiosulfate ions?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="math inline">\(+2\)</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(+3\)</span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="math inline">\(+4\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="math inline">\(+5\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>C.</strong> Only the <span class="math inline">\(\ce{VO2+ / VO^{2+}}\)</span> to <span class="math inline">\(\ce{VO^{2+}}\)</span> step gives a positive emf with thiosulfate, so the final vanadium oxidation state is <span class="math inline">\(+4\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="electrochemistry-choice-hard-q5" class="mc-question" data-answer="D">
+<section id="question-19-oxidation-of-chlorine-to-chloratev-1.6-choice-hard-q5" class="level3">
+<h3 class="anchored" data-anchor-id="question-19-oxidation-of-chlorine-to-chloratev-1.6-choice-hard-q5">Question 19 · Oxidation of chlorine to chlorate(V) · 1.6 Choice Hard Q5</h3>
+<p>Which reagent and conditions are necessary to oxidise elemental chlorine into a compound containing chlorine in oxidation state <span class="math inline">\(+5\)</span>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Concentrated sulfuric acid at room temperature</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="math inline">\(\ce{AgNO3(aq)}\)</span> followed by <span class="math inline">\(\ce{NH3(aq)}\)</span> at room temperature</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Cold dilute <span class="math inline">\(\ce{NaOH(aq)}\)</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Hot concentrated <span class="math inline">\(\ce{NaOH(aq)}\)</span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>D.</strong> Hot concentrated alkali gives chlorate(V), <span class="math inline">\(\ce{ClO3^-}\)</span>, in which chlorine is <span class="math inline">\(+5\)</span>.
+</p>
+</details>
+</section>
+</div>
+<div id="electrochemistry-choice-hard-q6" class="mc-question" data-answer="B">
+<section id="question-20-sulfuric-acid-and-sodium-halides-1.6-choice-hard-q6" class="level3">
+<h3 class="anchored" data-anchor-id="question-20-sulfuric-acid-and-sodium-halides-1.6-choice-hard-q6">Question 20 · Sulfuric acid and sodium halides · 1.6 Choice Hard Q6</h3>
+<p>Concentrated phosphoric acid gives a colourless acidic gas with sodium chloride and sodium iodide. Concentrated sulfuric acid gives a colourless acidic gas with sodium chloride but purple vapour with sodium iodide. Which deduction can be made?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Concentrated sulfuric acid is a stronger oxidising agent than chlorine.</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Concentrated sulfuric acid is a stronger oxidising agent than iodine.</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Concentrated phosphoric acid is a stronger oxidising agent than iodine.</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Concentrated phosphoric acid is a stronger oxidising agent than concentrated sulfuric acid.</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show explanation
+</summary>
+<p>
+<strong>B.</strong> Sulfuric acid oxidises iodide to iodine, whereas phosphoric acid does not; sulfuric acid is therefore the stronger oxidising agent than iodine in this comparison.
+</p>
+</details>
+</section>
+</div>
+</section>
+<section id="structured-questions" class="level2">
+<h2 class="anchored" data-anchor-id="structured-questions">Structured questions</h2>
+<section id="electrochemistry---structured-questions-easy" class="level3">
+<h3 class="anchored" data-anchor-id="electrochemistry---structured-questions-easy">6 Electrochemistry - Structured Questions: Easy</h3>
+</section>
+<section id="example-1-oxidation-numbers-of-sulfur-1.6-sq-easy-q1" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-1-oxidation-numbers-of-sulfur-1.6-sq-easy-q1">Example 1 · Oxidation numbers of sulfur · 1.6 SQ Easy Q1</h3>
+<p>Complete the oxidation numbers of sulfur in <span class="math inline">\(\ce{SO2}\)</span>, <span class="math inline">\(\ce{SO3}\)</span>, <span class="math inline">\(\ce{H2SO4}\)</span> and <span class="math inline">\(\ce{SF4}\)</span>. <code>[4 marks]</code></p>
+<p><strong>(b)</strong> State the oxidation number of sulfur in elemental <span class="math inline">\(\ce{S8}\)</span>. <code>[1 mark]</code></p>
+<p><strong>(c)</strong> In the reaction <span class="math inline">\(\ce{SnCl4 + 2Mg -&gt; 2MgCl2 + Sn}\)</span>:</p>
+<ul>
+<li>state the change in oxidation number of magnesium;</li>
+<li>state the change in oxidation number of tin;</li>
+<li>deduce which species is the reducing agent. <code>[3 marks]</code></li>
+</ul>
+<p><strong>(d)</strong> Antimony reacts with nitric acid to form antimony oxide, nitrogen monoxide and water:</p>
+<p><span class="math display">\[\ce{Sb + HNO3 -&gt; Sb2O3 + NO + H2O}\]</span></p>
+<p>State the change in oxidation number of antimony, the change in oxidation number of nitrogen, and identify the oxidising agent. <code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> Sulfur is <span class="math inline">\(+4\)</span> in <span class="math inline">\(\ce{SO2}\)</span>, <span class="math inline">\(+6\)</span> in <span class="math inline">\(\ce{SO3}\)</span>, <span class="math inline">\(+6\)</span> in <span class="math inline">\(\ce{H2SO4}\)</span> and <span class="math inline">\(+4\)</span> in <span class="math inline">\(\ce{SF4}\)</span>.
+</li>
+<li>
+<strong>(b)</strong> <span class="math inline">\(0\)</span>.
+</li>
+<li>
+<strong>(c)</strong> Mg: <span class="math inline">\(0\to+2\)</span>; Sn: <span class="math inline">\(+4\to0\)</span>; Mg is the reducing agent because it is oxidised.
+</li>
+<li>
+<strong>(d)</strong> Sb: <span class="math inline">\(0\to+3\)</span>; N: <span class="math inline">\(+5\to+2\)</span>; nitric acid is the oxidising agent because it is reduced.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-2-reduction-and-oxidation-numbers-1.6-sq-easy-q2" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-2-reduction-and-oxidation-numbers-1.6-sq-easy-q2">Example 2 · Reduction and oxidation numbers · 1.6 SQ Easy Q2</h3>
+<p><strong>(a)</strong> State two definitions of reduction. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Complete the oxidation numbers in the following species: <span class="math inline">\(\ce{S^{2-}}\)</span>, <span class="math inline">\(\ce{Pb^{2+}}\)</span>, <span class="math inline">\(\ce{V^{3+}}\)</span>, <span class="math inline">\(\ce{Si}\)</span>, <span class="math inline">\(\ce{Sb^{3+}}\)</span> and <span class="math inline">\(\ce{H^-}\)</span>. <code>[3 marks]</code></p>
+<p><strong>(c)</strong> Complete the oxidation numbers in:</p>
+<ul>
+<li>copper in copper(I) oxide;</li>
+<li>iron in iron(III) chloride;</li>
+<li>tin in tin(IV) chloride;</li>
+<li>vanadium in vanadium(II) oxide. <code>[3 marks]</code></li>
+</ul>
+<p><strong>(d)</strong> Explain what is meant by disproportionation, and state whether <span class="math inline">\(\ce{Cu^{2+}+Mg-&gt;Mg^{2+}+Cu}\)</span> is a disproportionation reaction. <code>[4 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> Reduction is gain of electrons and decrease in oxidation number.
+</li>
+<li>
+<strong>(b)</strong> The oxidation numbers are <span class="math inline">\(-2\)</span>, <span class="math inline">\(+2\)</span>, <span class="math inline">\(+3\)</span>, <span class="math inline">\(0\)</span>, <span class="math inline">\(+3\)</span> and <span class="math inline">\(-1\)</span>, respectively.
+</li>
+<li>
+<strong>(c)</strong> The named oxidation numbers are <span class="math inline">\(+1\)</span>, <span class="math inline">\(+3\)</span>, <span class="math inline">\(+4\)</span> and <span class="math inline">\(+2\)</span>.
+</li>
+<li>
+<strong>(d)</strong> Disproportionation is when the same element in one reactant is both oxidised and reduced. The magnesium reaction is not disproportionation: Mg is oxidised and Cu is reduced, so different elements change.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-3-disproportionation-reactions-1.6-sq-easy-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-3-disproportionation-reactions-1.6-sq-easy-q3">Example 3 · Disproportionation reactions · 1.6 SQ Easy Q3</h3>
+<p><strong>(a)</strong> Write a balanced equation for the disproportionation reaction of sulfuric acid with copper(I) oxide to form copper, copper sulfate and water. Identify the element that disproportionates. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Write a balanced equation for the reaction of nitrogen dioxide with water to form nitric acid and nitrous acid, <span class="math inline">\(\ce{HNO2}\)</span>. Identify the element that disproportionates. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> <span class="math inline">\(\ce{Cu2O + H2SO4 -&gt; Cu + CuSO4 + H2O}\)</span>; copper changes from <span class="math inline">\(+1\)</span> to <span class="math inline">\(0\)</span> and <span class="math inline">\(+2\)</span>.
+</li>
+<li>
+<strong>(b)</strong> <span class="math inline">\(\ce{2NO2 + H2O -&gt; HNO3 + HNO2}\)</span>; nitrogen changes from <span class="math inline">\(+4\)</span> to <span class="math inline">\(+5\)</span> and <span class="math inline">\(+3\)</span>.
+</li>
+</ul>
+</details>
+</section>
+<section id="electrochemistry---structured-questions-medium" class="level3">
+<h3 class="anchored" data-anchor-id="electrochemistry---structured-questions-medium">6 Electrochemistry - Structured Questions: Medium</h3>
+</section>
+<section id="example-4-calcium-and-iron-redox-reactions-1.6-sq-medium-q1" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-4-calcium-and-iron-redox-reactions-1.6-sq-medium-q1">Example 4 · Calcium and iron redox reactions · 1.6 SQ Medium Q1</h3>
+<p>When calcium reacts with iron(II) nitrate, a redox reaction occurs:</p>
+<p><span class="math display">\[\ce{Ca + Fe(NO3)2 -&gt; Ca(NO3)2 + Fe}\]</span></p>
+<p><strong>(a)(i)</strong> Explain in terms of electrons which species has been oxidised and which has been reduced. <code>[2 marks]</code></p>
+<p><strong>(a)(ii)</strong> Use oxidation numbers to show which species acts as the reducing agent. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Give the full systematic name for <span class="math inline">\(\ce{Fe(NO3)2}\)</span>. <code>[1 mark]</code></p>
+<p><strong>(c)</strong> For <span class="math inline">\(\ce{Co2O3 + 6HCl -&gt; 2CoCl2 + 3H2O + Cl2}\)</span>, explain what has been reduced and whether the reaction is disproportionation. <code>[5 marks]</code></p>
+<p><strong>(d)</strong> Explain whether <span class="math inline">\(\ce{MgO + HNO3 -&gt; Mg(NO3)2 + H2O}\)</span> is a redox reaction. <code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> Ca loses two electrons and is oxidised; <span class="math inline">\(\ce{Fe^{2+}}\)</span> gains two electrons and is reduced. Ca changes <span class="math inline">\(0\to+2\)</span>, so Ca is the reducing agent.
+</li>
+<li>
+<strong>(b)</strong> Iron(II) nitrate.
+</li>
+<li>
+<strong>(c)</strong> Co changes from <span class="math inline">\(+3\)</span> to <span class="math inline">\(+2\)</span> and is reduced. Chlorine remains <span class="math inline">\(-1\)</span> in HCl and <span class="math inline">\(\ce{CoCl2}\)</span> before forming <span class="math inline">\(\ce{Cl2}\)</span>, but this is not disproportionation because one reactant element is not both oxidised and reduced in the same species.
+</li>
+<li>
+<strong>(d)</strong> It is not redox: Mg remains <span class="math inline">\(+2\)</span>, N remains <span class="math inline">\(+5\)</span>, H remains <span class="math inline">\(+1\)</span> and O remains <span class="math inline">\(-2\)</span>.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-5-sulfur-dichloride-and-disproportionation-1.6-sq-medium-q2" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-5-sulfur-dichloride-and-disproportionation-1.6-sq-medium-q2">Example 5 · Sulfur dichloride and disproportionation · 1.6 SQ Medium Q2</h3>
+<p>Under suitable conditions, <span class="math inline">\(\ce{SCl2}\)</span> reacts with water to produce a yellow precipitate of sulfur and a solution containing <span class="math inline">\(\ce{SO2(aq)}\)</span> and compound B.</p>
+<p><strong>(a)</strong> What is the oxidation number of sulfur in <span class="math inline">\(\ce{SCl2}\)</span>? <code>[1 mark]</code></p>
+<p><strong>(b)</strong> Deduce how sulfur’s oxidation number changes and identify the type of reaction. <code>[4 marks]</code></p>
+<p><strong>(c)</strong> Suggest the identity of B and construct an equation for the reaction between <span class="math inline">\(\ce{SCl2}\)</span> and water. <code>[2 marks]</code></p>
+<p><strong>(d)</strong> State the observations when <span class="math inline">\(\ce{AgNO3(aq)}\)</span> and acidified <span class="math inline">\(\ce{K2Cr2O7(aq)}\)</span> are added to separate samples of solution A. Give the systematic name of <span class="math inline">\(\ce{KMnO4}\)</span>. <code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> Sulfur is <span class="math inline">\(+2\)</span> because <span class="math inline">\(x+2(-1)=0\)</span>.
+</li>
+<li>
+<strong>(b)</strong> Sulfur changes from <span class="math inline">\(+2\)</span> to <span class="math inline">\(+4\)</span> in <span class="math inline">\(\ce{SO2}\)</span> and from <span class="math inline">\(+2\)</span> to <span class="math inline">\(0\)</span> in sulfur. It is both oxidised and reduced, so this is disproportionation.
+</li>
+<li>
+<strong>(c)</strong> B is HCl; <span class="math inline">\(\ce{2SCl2+2H2O-&gt;S+SO2+4HCl}\)</span>.
+</li>
+<li>
+<strong>(d)</strong> <span class="math inline">\(\ce{AgNO3}\)</span> gives a white precipitate of <span class="math inline">\(\ce{AgCl}\)</span>; acidified dichromate turns from orange to green; <span class="math inline">\(\ce{KMnO4}\)</span> is potassium manganate(VII).
+</li>
+</ul>
+</details>
+</section>
+<section id="example-6-balancing-redox-equations-1.6-sq-medium-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-6-balancing-redox-equations-1.6-sq-medium-q3">Example 6 · Balancing redox equations · 1.6 SQ Medium Q3</h3>
+<p>For each equation, write oxidation numbers for the changing elements and balance the equation by adding coefficients.</p>
+<p><strong>(a)(i)</strong></p>
+<p><span class="math display">\[\ce{MnO4^- + SO2 + H2O -&gt; Mn^{2+} + SO4^{2-} + H+}\]</span></p>
+<p><strong>(a)(ii)</strong></p>
+<p><span class="math display">\[\ce{Cr2O7^{2-} + NO2^- + H+ -&gt; Cr^{3+} + NO3^- + H2O}\]</span></p>
+<p><strong>(b)</strong> State what is observed in the reaction in part (a)(ii). <code>[2 marks]</code></p>
+<p><strong>(c)</strong> Zinc displaces copper from copper sulfate. Write the balanced equation and explain, using oxidation numbers, why it is redox. <code>[3 marks]</code></p>
+<p><strong>(d)</strong> Use a half-equation to explain which species is the oxidising reagent in part (c). <code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)(i)</strong> Mn <span class="math inline">\(+7\to+2\)</span>, S <span class="math inline">\(+4\to+6\)</span>; <span class="math inline">\(\ce{2MnO4^-+5SO2+2H2O-&gt;2Mn^{2+}+5SO4^{2-}+4H+}\)</span>.
+</li>
+<li>
+<strong>(a)(ii)</strong> Cr <span class="math inline">\(+6\to+3\)</span>, N <span class="math inline">\(+3\to+5\)</span>; <span class="math inline">\(\ce{Cr2O7^{2-}+3NO2^-+8H+-&gt;2Cr^{3+}+3NO3^-+4H2O}\)</span>.
+</li>
+<li>
+<strong>(b)</strong> Orange dichromate is reduced to green <span class="math inline">\(\ce{Cr^{3+}}\)</span>.
+</li>
+<li>
+<strong>(c)</strong> <span class="math inline">\(\ce{Zn+CuSO4-&gt;ZnSO4+Cu}\)</span>; Zn <span class="math inline">\(0\to+2\)</span> is oxidised and Cu <span class="math inline">\(+2\to0\)</span> is reduced.
+</li>
+<li>
+<strong>(d)</strong> <span class="math inline">\(\ce{Cu^{2+}+2e^- -&gt; Cu}\)</span>; <span class="math inline">\(\ce{Cu^{2+}}\)</span> gains electrons and is the oxidising agent.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-7-chlorine-and-sodium-hypochlorite-1.6-sq-medium-q4" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-7-chlorine-and-sodium-hypochlorite-1.6-sq-medium-q4">Example 7 · Chlorine and sodium hypochlorite · 1.6 SQ Medium Q4</h3>
+<p>Household bleach contains <span class="math inline">\(\ce{NaClO}\)</span>.</p>
+<p><strong>(a)</strong> State the conditions required to produce <span class="math inline">\(\ce{NaClO}\)</span> from chlorine and sodium hydroxide, give its systematic name, and give the formula of sodium chlorate(V). <code>[3 marks]</code></p>
+<p><strong>(b)</strong></p>
+<p><span class="math display">\[\ce{Cl2(aq)+2NaOH(aq)-&gt;NaClO(aq)+NaCl(aq)+H2O(l)}\]</span></p>
+<p>Give the ionic equation and explain, using oxidation numbers, why it is disproportionation. <code>[4 marks]</code></p>
+<p><strong>(c)</strong> In <span class="math inline">\(\ce{NaClO(aq)+H2O2(aq)-&gt;NaCl(aq)+O2(g)+H2O(l)}\)</span>, explain why chlorine has been reduced. <code>[1 mark]</code></p>
+<p><strong>(d)</strong> An excess of hydrogen peroxide is added to <span class="math inline">\(10.0\ \mathrm{cm^3}\)</span> of bleach and <span class="math inline">\(108\ \mathrm{cm^3}\)</span> of oxygen is collected. The molar gas volume is <span class="math inline">\(24.0\ \mathrm{dm^3\ mol^{-1}}\)</span>. Calculate the moles of oxygen, moles of <span class="math inline">\(\ce{NaClO}\)</span>, the concentration of <span class="math inline">\(\ce{NaClO}\)</span>, and the concentration in g per <span class="math inline">\(100\ \mathrm{cm^3}\)</span>. <code>[5 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> Cold aqueous sodium hydroxide; sodium chlorate(I) or sodium hypochlorite; <span class="math inline">\(\ce{NaClO3}\)</span>.
+</li>
+<li>
+<strong>(b)</strong> <span class="math inline">\(\ce{Cl2+2OH^- -&gt; Cl^-+ClO^-+H2O}\)</span>; chlorine changes from <span class="math inline">\(0\)</span> to <span class="math inline">\(-1\)</span> and <span class="math inline">\(+1\)</span>, so it is both reduced and oxidised.
+</li>
+<li>
+<strong>(c)</strong> Chlorine changes from <span class="math inline">\(+1\)</span> in <span class="math inline">\(\ce{ClO^-}\)</span> to <span class="math inline">\(-1\)</span> in <span class="math inline">\(\ce{Cl^-}\)</span>.
+</li>
+<li>
+<strong>(d)</strong> <span class="math inline">\(n(\ce{O2})=0.108/24.0=0.00450\ \mathrm{mol}\)</span>; <span class="math inline">\(n(\ce{NaClO})=0.00450\ \mathrm{mol}\)</span>; concentration <span class="math inline">\(=0.00450/0.0100=0.450\ \mathrm{mol\ dm^{-3}}\)</span>; mass concentration <span class="math inline">\(=0.450(74.5)(0.100)=3.35\ \mathrm{g\ per\ 100\ cm^3}\)</span>.
+</li>
+</ul>
+</details>
+</section>
+<section id="electrochemistry---structured-questions-hard" class="level3">
+<h3 class="anchored" data-anchor-id="electrochemistry---structured-questions-hard">6 Electrochemistry - Structured Questions: Hard</h3>
+</section>
+<section id="example-8-tetrathionate-and-iodine-1.6-sq-hard-q1" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-8-tetrathionate-and-iodine-1.6-sq-hard-q1">Example 8 · Tetrathionate and iodine · 1.6 SQ Hard Q1</h3>
+<p>The tetrathionate ion is <span class="math inline">\(\ce{S4O6^{2-}}\)</span> and is shown in Fig. 1.1.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/questions/original-source/1-6-sq-hard-q1-fig1-1.png" class="question-figure img-fluid figure-img" alt="Tetrathionate ion structure for 1.6 SQ Hard Q1"></p>
+<figcaption>Structure of the tetrathionate ion</figcaption>
+</figure>
+</div>
+<p><strong>(a)</strong> Calculate the oxidation number of sulfur in the tetrathionate ion and explain your answer. <code>[2 marks]</code></p>
+<p><strong>(b)</strong> Sodium tetrathionate can be formed from sodium thiosulfate and iodine.</p>
+<ul>
+<li>suggest an equation for the reaction;</li>
+<li>identify the oxidising agent;</li>
+<li>describe the observation showing that the reaction is complete. <code>[4 marks]</code></li>
+</ul>
+<p><strong>(c)</strong> Sodium tetrathionate can also be made from sodium bisulfite and disulfur dichloride:</p>
+<p><span class="math display">\[\ce{2NaHSO3 + S2Cl2 -&gt; Na2S4O6 + 2HCl}\]</span></p>
+<p>Explain whether this reaction is disproportionation, referring to sulfur oxidation numbers. <code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> The average sulfur oxidation number is <span class="math inline">\(+2.5\)</span>: <span class="math inline">\(4x+6(-2)=-2\)</span>. The structure contains two sulfur atoms at <span class="math inline">\(+5\)</span> and two inner sulfur atoms at <span class="math inline">\(0\)</span>, so the average need not be an integer.
+</li>
+<li>
+<strong>(b)</strong> <span class="math inline">\(\ce{2Na2S2O3+I2-&gt;Na2S4O6+2NaI}\)</span>; iodine is the oxidising agent; the iodine colour disappears, or the starch blue-black colour disappears.
+</li>
+<li>
+<strong>(c)</strong> No.&nbsp;Sulfur in <span class="math inline">\(\ce{NaHSO3}\)</span> is <span class="math inline">\(+4\)</span> and sulfur in <span class="math inline">\(\ce{S2Cl2}\)</span> is <span class="math inline">\(+1\)</span>; one sulfur-containing reactant is oxidised and the other is reduced. Disproportionation requires the same reactant species to undergo both changes.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-9-photochromic-glass-1.6-sq-hard-q2" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-9-photochromic-glass-1.6-sq-hard-q2">Example 9 · Photochromic glass · 1.6 SQ Hard Q2</h3>
+<p>Photochromic glass contains copper(I) chloride and silver(I) chloride. Under sunlight, silver(I) chloride separates into ions; chloride ions become chlorine atoms and silver(I) ions become silver atoms. Silver atoms cluster and darken the lenses.</p>
+<p><strong>(a)</strong> Write equations for the processes involved and state whether each is oxidation or reduction. <code>[3 marks]</code></p>
+<p><strong>(b)</strong> Explain why a driver may not receive the full benefit of photochromic sunglasses on a cold, bright day. <code>[2 marks]</code></p>
+<p><strong>(c)</strong> Write two equations showing how copper(I) chloride reacts with the products to remove silver atoms and lighten the lens. <code>[2 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>(a)</strong> <span class="math inline">\(\ce{AgCl -&gt; Ag+ + Cl^-}\)</span>; <span class="math inline">\(\ce{2Cl^- -&gt; 2Cl + 2e^-}\)</span> is oxidation; <span class="math inline">\(\ce{Ag+ + e^- -&gt; Ag}\)</span> is reduction.
+</li>
+<li>
+<strong>(b)</strong> The darkening reaction is slower at low temperature, so the glass may not darken fully before the light is reduced by the windscreen or surroundings.
+</li>
+<li>
+<strong>(c)</strong> <span class="math inline">\(\ce{Cu+ + Ag -&gt; Cu + Ag+}\)</span> and <span class="math inline">\(\ce{Ag+ + Cl^- -&gt; AgCl}\)</span>.
+</li>
+</ul>
+</details>
+</section>
+<section id="example-10-products-of-iodine-and-sulfuric-acid-reactions-1.6-sq-hard-q3" class="level3 question-card">
+<h3 class="anchored" data-anchor-id="example-10-products-of-iodine-and-sulfuric-acid-reactions-1.6-sq-hard-q3">Example 10 · Products of iodine and sulfuric acid reactions · 1.6 SQ Hard Q3</h3>
+<p>The reaction of sodium iodide with concentrated sulfuric acid forms a variety of products. Complete the table by identifying whether each product is formed by oxidation, reduction or neither: <span class="math inline">\(\ce{NaHSO4}\)</span>, <span class="math inline">\(\ce{SO2}\)</span>, <span class="math inline">\(\ce{Na2SO4}\)</span>, <span class="math inline">\(\ce{I2}\)</span>, <span class="math inline">\(\ce{HI}\)</span>, <span class="math inline">\(\ce{S}\)</span>, <span class="math inline">\(\ce{H2O}\)</span> and <span class="math inline">\(\ce{H2S}\)</span>.</p>
+<p>Sulfur dioxide also reacts with copper(II) chloride:</p>
+<p><span class="math display">\[\ce{SO2 + 2H2O + 2CuCl2 -&gt; H2SO4 + 2HCl + 2CuCl}\]</span></p>
+<p>Identify the reducing agent and oxidising agent. <code>[5 marks]</code></p>
+<p>Sodium iodate reacts with sodium hydrogen sulfite:</p>
+<p><span class="math display">\[\ce{2IO3^- + 5HSO3^- -&gt; 3HSO4^- + 2SO4^{2-} + I2 + H2O}\]</span></p>
+<p>Explain why sodium does not appear in the ionic equation and explain the role of hydrogen sulfite ions. <code>[3 marks]</code></p>
+<details class="answer-panel">
+<summary>
+Show mark scheme / model answer
+</summary>
+<ul>
+<li>
+<strong>Table</strong>: <span class="math inline">\(\ce{NaHSO4}\)</span> neither; <span class="math inline">\(\ce{SO2}\)</span> reduction; <span class="math inline">\(\ce{Na2SO4}\)</span> neither; <span class="math inline">\(\ce{I2}\)</span> oxidation; <span class="math inline">\(\ce{HI}\)</span> neither; <span class="math inline">\(\ce{S}\)</span> reduction; <span class="math inline">\(\ce{H2O}\)</span> neither; <span class="math inline">\(\ce{H2S}\)</span> reduction.
+</li>
+<li>
+<strong>Reducing and oxidising agents</strong>: <span class="math inline">\(\ce{SO2}\)</span> is the reducing agent because sulfur changes <span class="math inline">\(+4\to+6\)</span>; <span class="math inline">\(\ce{Cu^{2+}}\)</span> is the oxidising agent because copper changes <span class="math inline">\(+2\to+1\)</span>.
+</li>
+<li>
+<strong>Ionic equation</strong>: sodium is a spectator ion, so it is omitted. <span class="math inline">\(\ce{HSO3^-}\)</span> is the reducing agent; sulfur changes from <span class="math inline">\(+4\)</span> to <span class="math inline">\(+6\)</span> in sulfate or hydrogen sulfate.
+</li>
+</ul>
+</details>
+</section>
+</section>
+<section id="original-question-pdfs" class="level2">
+<h2 class="anchored" data-anchor-id="original-question-pdfs">Original question PDFs</h2>
+<ul>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/electrochemistry/1.6-electrochemistry-choice-easy.pdf">1.6 Electrochemistry - Choice - Easy</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/electrochemistry/1.6-electrochemistry-choice-medium.pdf">1.6 Electrochemistry - Choice - Medium</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/electrochemistry/1.6-electrochemistry-choice-hard.pdf">1.6 Electrochemistry - Choice - Hard</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/electrochemistry/1.6-electrochemistry-sq-easy.pdf">1.6 Electrochemistry - Structured Questions - Easy</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/electrochemistry/1.6-electrochemistry-sq-medium.pdf">1.6 Electrochemistry - Structured Questions - Medium</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/electrochemistry/1.6-electrochemistry-sq-hard.pdf">1.6 Electrochemistry - Structured Questions - Hard</a></li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".done-toggle input").forEach((input) => {
+    const key = `cie-chem-${input.dataset.progress}`;
+    input.checked = localStorage.getItem(key) === "true";
+    input.closest(".question-card")?.classList.toggle("is-complete", input.checked);
+    input.addEventListener("change", () => {
+      localStorage.setItem(key, input.checked);
+      input.closest(".question-card")?.classList.toggle("is-complete", input.checked);
+    });
+  });
+
+  document.querySelectorAll(".mc-question").forEach((card) => {
+    const answer = card.dataset.answer;
+    const feedback = card.querySelector(".mc-feedback");
+    const check = card.querySelector(".check-answer");
+    let selected = localStorage.getItem(`cie-chem-${card.id}-choice`) || "";
+
+    const showSelection = () => {
+      card.querySelectorAll(".mc-choice").forEach((choice) => {
+        choice.classList.toggle("is-selected", choice.dataset.choice === selected);
+      });
+    };
+    showSelection();
+
+    card.querySelectorAll(".mc-choice").forEach((choice) => {
+      choice.addEventListener("click", () => {
+        selected = choice.dataset.choice;
+        localStorage.setItem(`cie-chem-${card.id}-choice`, selected);
+        feedback.textContent = "";
+        feedback.className = "mc-feedback";
+        showSelection();
+      });
+    });
+
+    check?.addEventListener("click", () => {
+      if (!selected) {
+        feedback.textContent = "Select an answer first.";
+        feedback.className = "mc-feedback is-pending";
+        return;
+      }
+      const correct = selected === answer;
+      feedback.textContent = correct ? "Correct." : `Not quite. The correct answer is ${answer}.`;
+      feedback.className = `mc-feedback ${correct ? "is-correct" : "is-incorrect"}`;
+    });
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已复制");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已复制");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../a-level/5-chemical-energetics.html" class="pagination-link" aria-label="5 Chemical energetics">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">5 Chemical energetics</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../a-level/7-equilibria.html" class="pagination-link" aria-label="7 Equilibria">
+        <span class="nav-page-text">7 Equilibria</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
