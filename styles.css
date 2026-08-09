@@ -27,7 +27,7 @@ body { color: var(--chem-ink); }
 /* Older question cards store consecutive (a), (b), (c) prompts in one paragraph.
    Keep each label and its prompt on a clearly separate line. */
 .question-card > p > strong {
-  display: block;
+  display: block !important;
   margin-top: 0.8rem;
   color: #075985;
 }
