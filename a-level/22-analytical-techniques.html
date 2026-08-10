@@ -1,0 +1,1862 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hans" xml:lang="zh-Hans"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>22 Analytical techniques – CIE Chemistry 9701</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../a-level/23-chemical-energetics.html" rel="next">
+<link href="../a-level/21-organic-synthesis.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a2a938b4dd5711f7a799c87bd16ba44c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "没有结果",
+    "search-matching-documents-text": "匹配的文档",
+    "search-copy-link-title": "复制搜索链接",
+    "search-hide-matches-text": "隐藏其它匹配结果",
+    "search-more-match-text": "更多匹配结果",
+    "search-more-matches-text": "更多匹配结果",
+    "search-clear-button-title": "清除",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "提交",
+    "search-label": "搜索"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../a-level/1-atomic-structure.html">AS Level</a></li><li class="breadcrumb-item"><a href="../a-level/22-analytical-techniques.html">22 Analytical techniques</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="展开或折叠侧边栏导航" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="搜索" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">CIE Chemistry 9701</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="搜索"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">学习首页</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">AS Level</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/1-atomic-structure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1 Atomic structure</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/2-atoms-molecules-stoichiometry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2 Atoms, molecules and stoichiometry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/3-chemical-bonding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3 Chemical bonding</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/4-states-of-matter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4 States of matter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/5-chemical-energetics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5 Chemical energetics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/6-electrochemistry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6 Electrochemistry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/7-equilibria.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7 Equilibria</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/8-reaction-kinetics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8 Reaction kinetics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/9-periodic-table-chemical-periodicity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9 The Periodic Table: chemical periodicity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/10-group-2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10 Group 2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/11-group-17.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">11 Group 17</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/12-nitrogen-and-sulfur.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">12 Nitrogen and sulfur</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/13-introduction-to-as-organic-chemistry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">13 An introduction to AS Level organic chemistry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/14-hydrocarbons.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">14 Hydrocarbons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/15-halogen-compounds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">15 Halogen compounds</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/16-hydroxy-compounds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">16 Hydroxy compounds</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/17-carbonyl-compounds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">17 Carbonyl compounds</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/18-carboxylic-acids-and-derivatives.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">18 Carboxylic acids and derivatives</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/19-nitrogen-compounds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">19 Nitrogen compounds</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/20-polymerisation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">20 Polymerisation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/21-organic-synthesis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">21 Organic synthesis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/22-analytical-techniques.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">22 Analytical techniques</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">A Level</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="展开或折叠此栏">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/23-chemical-energetics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">23 Chemical energetics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/24-electrochemistry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">24 Electrochemistry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/25-equilibria.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">25 Equilibria</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/26-reaction-kinetics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">26 Reaction kinetics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/27-group-2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">27 Group 2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/28-transition-elements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">28 Chemistry of transition elements</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/29-organic-chemistry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">29 An introduction to A Level organic chemistry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/30-hydrocarbons.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">30 Hydrocarbons</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/31-halogen-compounds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">31 Halogen compounds</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/32-hydroxy-compounds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">32 Hydroxy compounds</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/33-carboxylic-acids-and-derivatives.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">33 Carboxylic acids and derivatives</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/34-nitrogen-compounds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">34 Nitrogen compounds</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/35-polymerisation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">35 Polymerisation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/36-organic-synthesis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">36 Organic synthesis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../a-level/37-analytical-techniques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">37 Analytical techniques</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">该页面内容</h2>
+   
+  <ul>
+  <li><a href="#analytical-techniques" id="toc-analytical-techniques" class="nav-link active" data-scroll-target="#analytical-techniques">22 Analytical techniques</a>
+  <ul class="collapse">
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
+  <li><a href="#infrared-spectroscopy" id="toc-infrared-spectroscopy" class="nav-link" data-scroll-target="#infrared-spectroscopy">22.1 Infrared Spectroscopy</a></li>
+  <li><a href="#mass-spectrometry" id="toc-mass-spectrometry" class="nav-link" data-scroll-target="#mass-spectrometry">22.2 Mass Spectrometry</a></li>
+  <li><a href="#multiple-choice-questions" id="toc-multiple-choice-questions" class="nav-link" data-scroll-target="#multiple-choice-questions">Multiple-choice questions</a>
+  <ul class="collapse">
+  <li><a href="#easy" id="toc-easy" class="nav-link" data-scroll-target="#easy">Easy</a></li>
+  <li><a href="#question-1" id="toc-question-1" class="nav-link" data-scroll-target="#question-1">Question 1</a></li>
+  <li><a href="#question-2" id="toc-question-2" class="nav-link" data-scroll-target="#question-2">Question 2</a></li>
+  <li><a href="#question-3" id="toc-question-3" class="nav-link" data-scroll-target="#question-3">Question 3</a></li>
+  <li><a href="#question-4" id="toc-question-4" class="nav-link" data-scroll-target="#question-4">Question 4</a></li>
+  <li><a href="#question-5" id="toc-question-5" class="nav-link" data-scroll-target="#question-5">Question 5</a></li>
+  <li><a href="#medium" id="toc-medium" class="nav-link" data-scroll-target="#medium">Medium</a></li>
+  <li><a href="#question-6" id="toc-question-6" class="nav-link" data-scroll-target="#question-6">Question 6</a></li>
+  <li><a href="#question-7" id="toc-question-7" class="nav-link" data-scroll-target="#question-7">Question 7</a></li>
+  <li><a href="#question-8" id="toc-question-8" class="nav-link" data-scroll-target="#question-8">Question 8</a></li>
+  <li><a href="#question-9" id="toc-question-9" class="nav-link" data-scroll-target="#question-9">Question 9</a></li>
+  <li><a href="#question-10" id="toc-question-10" class="nav-link" data-scroll-target="#question-10">Question 10</a></li>
+  <li><a href="#question-11" id="toc-question-11" class="nav-link" data-scroll-target="#question-11">Question 11</a></li>
+  <li><a href="#question-12" id="toc-question-12" class="nav-link" data-scroll-target="#question-12">Question 12</a></li>
+  <li><a href="#question-13" id="toc-question-13" class="nav-link" data-scroll-target="#question-13">Question 13</a></li>
+  <li><a href="#question-14" id="toc-question-14" class="nav-link" data-scroll-target="#question-14">Question 14</a></li>
+  <li><a href="#question-15" id="toc-question-15" class="nav-link" data-scroll-target="#question-15">Question 15</a></li>
+  <li><a href="#hard" id="toc-hard" class="nav-link" data-scroll-target="#hard">Hard</a></li>
+  <li><a href="#question-16" id="toc-question-16" class="nav-link" data-scroll-target="#question-16">Question 16</a></li>
+  <li><a href="#question-17" id="toc-question-17" class="nav-link" data-scroll-target="#question-17">Question 17</a></li>
+  <li><a href="#question-18" id="toc-question-18" class="nav-link" data-scroll-target="#question-18">Question 18</a></li>
+  <li><a href="#question-19" id="toc-question-19" class="nav-link" data-scroll-target="#question-19">Question 19</a></li>
+  <li><a href="#question-20" id="toc-question-20" class="nav-link" data-scroll-target="#question-20">Question 20</a></li>
+  </ul></li>
+  <li><a href="#structured-questions" id="toc-structured-questions" class="nav-link" data-scroll-target="#structured-questions">Structured questions</a>
+  <ul class="collapse">
+  <li><a href="#easy-1" id="toc-easy-1" class="nav-link" data-scroll-target="#easy-1">Easy</a></li>
+  <li><a href="#question-1-easy" id="toc-question-1-easy" class="nav-link" data-scroll-target="#question-1-easy">Question 1 — Easy</a></li>
+  <li><a href="#question-2-easy" id="toc-question-2-easy" class="nav-link" data-scroll-target="#question-2-easy">Question 2 — Easy</a></li>
+  <li><a href="#question-3-easy" id="toc-question-3-easy" class="nav-link" data-scroll-target="#question-3-easy">Question 3 — Easy</a></li>
+  <li><a href="#medium-1" id="toc-medium-1" class="nav-link" data-scroll-target="#medium-1">Medium</a></li>
+  <li><a href="#question-4-medium" id="toc-question-4-medium" class="nav-link" data-scroll-target="#question-4-medium">Question 4 — Medium</a></li>
+  <li><a href="#question-5-medium" id="toc-question-5-medium" class="nav-link" data-scroll-target="#question-5-medium">Question 5 — Medium</a></li>
+  <li><a href="#question-6-medium" id="toc-question-6-medium" class="nav-link" data-scroll-target="#question-6-medium">Question 6 — Medium</a></li>
+  <li><a href="#question-7-medium" id="toc-question-7-medium" class="nav-link" data-scroll-target="#question-7-medium">Question 7 — Medium</a></li>
+  <li><a href="#hard-1" id="toc-hard-1" class="nav-link" data-scroll-target="#hard-1">Hard</a></li>
+  <li><a href="#question-8-hard" id="toc-question-8-hard" class="nav-link" data-scroll-target="#question-8-hard">Question 8 — Hard</a></li>
+  <li><a href="#question-9-hard" id="toc-question-9-hard" class="nav-link" data-scroll-target="#question-9-hard">Question 9 — Hard</a></li>
+  <li><a href="#question-10-hard" id="toc-question-10-hard" class="nav-link" data-scroll-target="#question-10-hard">Question 10 — Hard</a></li>
+  </ul></li>
+  <li><a href="#source-pdfs" id="toc-source-pdfs" class="nav-link" data-scroll-target="#source-pdfs">Source PDFs</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../a-level/1-atomic-structure.html">AS Level</a></li><li class="breadcrumb-item"><a href="../a-level/22-analytical-techniques.html">22 Analytical techniques</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">22 Analytical techniques</h1>
+<p class="subtitle lead">AS 4.1 Analytical Techniques</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="analytical-techniques" class="level1">
+<h1>22 Analytical techniques</h1>
+<p>本章只覆盖 Cambridge International AS Level Chemistry 9701 的 <strong>4.1 Analytical Techniques</strong>，知识点对应 <strong>22.1 Infrared Spectroscopy</strong> 和 <strong>22.2 Mass Spectrometry</strong>。题目来自 Topical Past Papers/AS 的 4.1 Analytical Techniques 题库；题目保留原题问法、选项结构和小问分值。共 20 道 multiple-choice questions 和 10 道 structured questions。无法独立提取的整页题图不放入页面。</p>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
+<ul>
+<li>use IR wavenumber ranges to identify functional groups;</li>
+<li>explain broad and sharp absorptions and the fingerprint region;</li>
+<li>explain electron bombardment, molecular ions, fragments, base peak and <span class="chem-formula">m/e</span>;</li>
+<li>calculate relative atomic mass from isotope abundance;</li>
+<li>use M+, M+1 and M+2 peaks to deduce molecular mass, carbon number and halogen isotopes;</li>
+<li>combine IR and mass-spectrometry evidence to identify an unknown.</li>
+</ul>
+</section>
+<section id="infrared-spectroscopy" class="level2">
+<h2 class="anchored" data-anchor-id="infrared-spectroscopy">22.1 Infrared Spectroscopy</h2>
+<p>Infrared spectroscopy identifies compounds from changes in atomic vibrations when bonds absorb IR radiation. A spectrophotometer passes IR radiation through a sample and records transmitted intensity. Different bonds absorb at characteristic wavenumbers because vibration depends on bond strength and the masses of the bonded atoms. The spectrum is plotted as transmittance against wavenumber in cm<sup>−1</sup>; an absorption is usually a downward peak.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/analytical-techniques/note-ir-img-012.png" class="concept-figure img-fluid figure-img" alt="IR spectra of propanone and propan-2-ol"></p>
+<figcaption>IR spectra of propanone and propan-2-ol</figcaption>
+</figure>
+</div>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Bond</th>
+<th>Functional group(s)</th>
+<th style="text-align: right;">Characteristic range / cm<sup>−1</sup></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C–O</td>
+<td>hydroxy, ester</td>
+<td style="text-align: right;">1040–1300</td>
+</tr>
+<tr class="even">
+<td>C=C</td>
+<td>aromatic compound, alkene</td>
+<td style="text-align: right;">1500–1680</td>
+</tr>
+<tr class="odd">
+<td>C=O</td>
+<td>amide</td>
+<td style="text-align: right;">1640–1690</td>
+</tr>
+<tr class="even">
+<td>C=O</td>
+<td>carbonyl, carboxyl</td>
+<td style="text-align: right;">1670–1740</td>
+</tr>
+<tr class="odd">
+<td>C=O</td>
+<td>ester</td>
+<td style="text-align: right;">1710–1750</td>
+</tr>
+<tr class="even">
+<td>C≡N</td>
+<td>nitrile</td>
+<td style="text-align: right;">2200–2250</td>
+</tr>
+<tr class="odd">
+<td>C–H</td>
+<td>alkane</td>
+<td style="text-align: right;">2850–2950</td>
+</tr>
+<tr class="even">
+<td>O–H</td>
+<td>carboxyl</td>
+<td style="text-align: right;">2500–3000</td>
+</tr>
+<tr class="odd">
+<td>N–H</td>
+<td>amine, amide</td>
+<td style="text-align: right;">3300–3500</td>
+</tr>
+<tr class="even">
+<td>O–H</td>
+<td>hydroxy</td>
+<td style="text-align: right;">3200–3600</td>
+</tr>
+</tbody>
+</table>
+<p>Hydrogen bonding makes O–H absorptions broad. Carbonyl absorptions are normally strong and sharp. IR is excellent for functional groups but is not always sufficient for a complete structure: bands may overlap, while the fingerprint region below about 1500 cm<sup>−1</sup> is most useful by comparison with a reference spectrum. A strong sharp peak near 1710 cm<sup>−1</sup> indicates C=O in propanone; a broad peak near 3200–3500 cm<sup>−1</sup> indicates O–H in propan-2-ol.</p>
+</section>
+<section id="mass-spectrometry" class="level2">
+<h2 class="anchored" data-anchor-id="mass-spectrometry">22.2 Mass Spectrometry</h2>
+<p>High-energy electrons remove an electron from a molecule:</p>
+<p><span class="chem-formula">M → M<sup>•+</sup> + e<sup>−</sup></span></p>
+<p>The positively charged molecular ion can fragment into positive ions, neutral molecules and radicals. Only positive ions reach the detector. Ions are separated by their mass-to-charge ratio, <span class="chem-formula">m/e</span>; a smaller value is deflected more strongly. The base peak is the most abundant ion and is assigned 100%, not necessarily the molecular ion.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/analytical-techniques/note-ms-img-004.png" class="concept-figure img-fluid figure-img" alt="Mass spectrometry ion formation"></p>
+<figcaption>Mass-spectrometry ion formation</figcaption>
+</figure>
+</div>
+<p>For isotopes:</p>
+<p><span class="chem-formula">A<sub>r</sub> = ((abundance<sub>1</sub> × mass<sub>1</sub>) + (abundance<sub>2</sub> × mass<sub>2</sub>) + …) ÷ total abundance</span></p>
+<p>The molecular ion peak normally has the highest <span class="chem-formula">m/e</span>, ignoring heavier-isotope peaks, and gives the relative molecular mass. Common fragments include <span class="chem-formula">CH<sub>3</sub><sup>+</sup></span> (15), <span class="chem-formula">C<sub>2</sub>H<sub>5</sub><sup>+</sup></span> (29), <span class="chem-formula">C<sub>3</sub>H<sub>7</sub><sup>+</sup></span> (43), <span class="chem-formula">C<sub>4</sub>H<sub>9</sub><sup>+</sup></span> (57), and <span class="chem-formula">CH<sub>2</sub>OH<sup>+</sup></span> (31).</p>
+<p>The M+1 peak is mainly caused by <sup>13</sup>C (about 1.1%). Thus:</p>
+<p><span class="chem-formula">number of C atoms = (100 × abundance of M+1) ÷ (1.1 × abundance of M<sup>+</sup>)</span></p>
+<p>One chlorine atom gives M and M+2 in a 3:1 ratio; two chlorine atoms give M, M+2 and M+4 in a 9:6:1 ratio. One bromine atom gives two approximately equal peaks; two bromine atoms give 1:2:1.</p>
+</section>
+<section id="multiple-choice-questions" class="level2">
+<h2 class="anchored" data-anchor-id="multiple-choice-questions">Multiple-choice questions</h2>
+<p>以下 20 道选择题按 Easy、Medium、Hard 题库选取；答案和解释均根据对应 PDF 后半部分 Model Answers 核对。</p>
+<section id="easy" class="level3">
+<h3 class="anchored" data-anchor-id="easy">Easy</h3>
+</section>
+<div id="n22-mc-e1" class="mc-question" data-answer="D">
+<section id="question-1" class="level3">
+<h3 class="anchored" data-anchor-id="question-1">Question 1</h3>
+<p>Which of the following corresponds to the base peak in a mass spectrum?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>The ion with the lowest <span class="chem-formula">m/e</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>The molecular ion</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Any fragment ion</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>The most abundant ion</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+<strong>D.</strong> The base peak is the most abundant positive ion and is assigned 100% relative abundance. It is not necessarily the molecular ion.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-mc-e2" class="mc-question" data-answer="C">
+<section id="question-2" class="level3">
+<h3 class="anchored" data-anchor-id="question-2">Question 2</h3>
+<p>Which fragment would produce the tallest peak at <span class="chem-formula">m/e=55</span> in the mass spectrum of ricinoleic acid?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="chem-formula">CH<sub>2</sub>CO<sub>2</sub><sup>+</sup></span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="chem-formula">CH=CHCHOH<sup>+</sup></span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="chem-formula">C<sub>4</sub>H<sub>7</sub><sup>+</sup></span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="chem-formula">COOH<sup>+</sup></span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+<strong>C.</strong> <span class="chem-formula">C<sub>4</sub>H<sub>7</sub><sup>+</sup></span> has mass <span class="chem-formula">4(12)+7=55</span>; the other choices have masses 58, 56 and 45.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-mc-e3" class="mc-question" data-answer="D">
+<section id="question-3" class="level3">
+<h3 class="anchored" data-anchor-id="question-3">Question 3</h3>
+<p>In a mass spectrometer, the ions are separated. Which species will be deflected to the greatest extent?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><sup>37</sup>Na<sup>+</sup></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><sup>35</sup>Na<sup>+</sup></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><sup>37</sup>Na</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><sup>35</sup>Na<sup>2+</sup></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+<strong>D.</strong> Deflection depends on <span class="chem-formula">m/e</span>. <sup>35</sup>Na<sup>2+</sup> has <span class="chem-formula">35÷2=17.5</span>, the smallest value; neutral Na is not deflected.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-mc-e4" class="mc-question" data-answer="A">
+<section id="question-4" class="level3">
+<h3 class="anchored" data-anchor-id="question-4">Question 4</h3>
+<p>Which statement about propanal, <span class="chem-formula">CH<sub>3</sub>CH<sub>2</sub>CHO</span>, and propanone, <span class="chem-formula">CH<sub>3</sub>COCH<sub>3</sub></span>, is not correct?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>The molecular ion peaks have different <span class="chem-formula">m/e</span> values</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>They have different fragmentation patterns</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Both show IR absorption due to a carbonyl group</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>They have different fingerprint regions</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+<strong>A.</strong> Both have formula <span class="chem-formula">C<sub>3</sub>H<sub>6</sub>O</span>, so both molecular ions are at <span class="chem-formula">m/e=58</span>. Their fragments and fingerprint regions can differ.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-mc-e5" class="mc-question" data-answer="C">
+<section id="question-5" class="level3">
+<h3 class="anchored" data-anchor-id="question-5">Question 5</h3>
+<p>Silicon has isotopes <sup>28</sup>Si (81.21%), <sup>29</sup>Si (14.10%) and <sup>30</sup>Si (4.69%). What is its relative atomic mass to 1 decimal place?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>29.8</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>29.0</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>28.2</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>28.0</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+<strong>C.</strong> <span class="chem-formula">A<sub>r</sub>=(81.21×28+14.10×29+4.69×30)÷100=28.2348≈28.2</span>.
+</p>
+</details>
+</section>
+</div>
+<section id="medium" class="level3">
+<h3 class="anchored" data-anchor-id="medium">Medium</h3>
+</section>
+<div id="n22-mc-m1" class="mc-question" data-answer="D">
+<section id="question-6" class="level3">
+<h3 class="anchored" data-anchor-id="question-6">Question 6</h3>
+<p>Which alcohol is not likely to have a fragment ion at <span class="chem-formula">m/e=43</span>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="chem-formula">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>OH</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="chem-formula">CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="chem-formula">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="chem-formula">CH<sub>3</sub>CH<sub>2</sub>CH(OH)CH<sub>3</sub></span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+<strong>D.</strong> A 43 ion can be <span class="chem-formula">C<sub>3</sub>H<sub>7</sub><sup>+</sup></span>, such as <span class="chem-formula">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub><sup>+</sup></span> or <span class="chem-formula">(CH<sub>3</sub>)<sub>2</sub>CH<sup>+</sup></span>. Butan-2-ol contains neither fragment.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-mc-m2" class="mc-question" data-answer="A">
+<section id="question-7" class="level3">
+<h3 class="anchored" data-anchor-id="question-7">Question 7</h3>
+<p>Which compound is not likely to have a fragment ion at <span class="chem-formula">m/e=43</span>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Propanoic acid</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Propanal</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Propanone</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Propan-1-ol</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+<strong>A.</strong> The common 43 ions include <span class="chem-formula">C<sub>3</sub>H<sub>7</sub><sup>+</sup></span> and <span class="chem-formula">CH<sub>3</sub>CO<sup>+</sup></span>. Propanoic acid does not contain a suitable three-carbon or acetyl fragment; it can give a 57 ion.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-mc-m3" class="mc-question" data-answer="A">
+<section id="question-8" class="level3">
+<h3 class="anchored" data-anchor-id="question-8">Question 8</h3>
+<p>How many molecular ion peaks are possible for <span class="chem-formula">C<sub>4</sub>H<sub>8</sub>Cl<sub>4</sub></span>, if only chlorine isotopes are considered?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>5</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>4</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>3</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>2</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+<strong>A.</strong> Four chlorine atoms can contain 0, 1, 2, 3 or 4 atoms of <sup>37</sup>Cl, giving five mass groups from M to M+8.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-mc-m4" class="mc-question" data-answer="B">
+<section id="question-9" class="level3">
+<h3 class="anchored" data-anchor-id="question-9">Question 9</h3>
+<p>Bromine isotopes <sup>79</sup>Br and <sup>81</sup>Br have almost equal abundances. Which statement is correct for <span class="chem-formula">C<sub>3</sub>H<sub>7</sub>Br</span>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><sup>79</sup>Br is more reactive</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>There are two molecular ion peaks at 122 and 124</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>The atomic radius of <sup>79</sup>Br is smaller</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>The first ionisation energy of <sup>79</sup>Br is lower</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+<strong>B.</strong> <sup>79</sup>Br gives molecular ion <span class="chem-formula">m/e=122</span> and <sup>81</sup>Br gives 124; their heights are similar. Isotopes have essentially identical chemical and atomic properties.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-mc-m5" class="mc-question" data-answer="A">
+<section id="question-10" class="level3">
+<h3 class="anchored" data-anchor-id="question-10">Question 10</h3>
+<p>Which alcohol is likely to have a fragment ion at <span class="chem-formula">m/e=31</span>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><span class="chem-formula">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>OH</span></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><span class="chem-formula">CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="chem-formula">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>C(OH)(CH<sub>3</sub>)<sub>2</sub></span></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><span class="chem-formula">CH<sub>3</sub>CH<sub>2</sub>CH(OH)CH<sub>3</sub></span></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+<strong>A.</strong> <span class="chem-formula">CH<sub>2</sub>OH<sup>+</sup></span> has mass 31 and is present at the end of 2-methylpropan-1-ol.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-mc-m6" class="mc-question" data-answer="A">
+<section id="question-11" class="level3">
+<h3 class="anchored" data-anchor-id="question-11">Question 11</h3>
+<p>Which pair of compounds both have a singly charged peak at <span class="chem-formula">m/e=29</span>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Propan-1-ol and propanal</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Propanal and propanone</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Propan-2-ol and propanal</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Propan-1-ol and propan-2-ol</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+<strong>A.</strong> Both can form <span class="chem-formula">C<sub>2</sub>H<sub>5</sub><sup>+</sup></span>, whose mass is 29. Propanone cannot form this ethyl fragment.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-mc-m7" class="mc-question" data-answer="D">
+<section id="question-12" class="level3">
+<h3 class="anchored" data-anchor-id="question-12">Question 12</h3>
+<p>An IR spectrum has a peak at 1680–1695 cm<sup>−1</sup> and no broad peak at 3200–3600 cm<sup>−1</sup>. Which compound is consistent with the spectrum?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Propan-1-ol</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Propan-2-ol</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Propanal</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Propanone</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+<strong>D.</strong> The peak is C=O; no broad O–H peak excludes both alcohols. The data match propanone.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-mc-m8" class="mc-question" data-answer="C">
+<section id="question-13" class="level3">
+<h3 class="anchored" data-anchor-id="question-13">Question 13</h3>
+<p>Which ketone is not expected to have a fragment ion at <span class="chem-formula">m/e=57</span>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Hexan-3-one</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Pentan-3-one</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>3-methylbutanone</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Butanone</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+<strong>C.</strong> The 57 ion can be <span class="chem-formula">C<sub>4</sub>H<sub>9</sub><sup>+</sup></span> or <span class="chem-formula">C<sub>2</sub>H<sub>5</sub>CO<sup>+</sup></span>; 3-methylbutanone cannot form either fragment.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-mc-m9" class="mc-question" data-answer="C">
+<section id="question-14" class="level3">
+<h3 class="anchored" data-anchor-id="question-14">Question 14</h3>
+<p>How many molecular ion peaks are possible for <span class="chem-formula">Cl<sub>2</sub></span>?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>5</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>4</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>3</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>2</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+<strong>C.</strong> The isotope combinations are 35–35, 35–37 and 37–37, giving M, M+2 and M+4.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-mc-m10" class="mc-question" data-answer="D">
+<section id="question-15" class="level3">
+<h3 class="anchored" data-anchor-id="question-15">Question 15</h3>
+<p>Which statement about <span class="chem-formula">CH<sub>3</sub>Br</span> is correct?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>One molecular ion peak at 44</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>One molecular ion peak at 95</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>The last two peaks have a 3:1 ratio at 94 and 96</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>The last two peaks are equal in size at 94 and 96</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+<strong>D.</strong> <sup>79</sup>Br gives 94 and <sup>81</sup>Br gives 96; their abundances are approximately equal, so the molecular-ion peaks are equal.
+</p>
+</details>
+</section>
+</div>
+<section id="hard" class="level3">
+<h3 class="anchored" data-anchor-id="hard">Hard</h3>
+</section>
+<div id="n22-mc-h1" class="mc-question" data-answer="C">
+<section id="question-16" class="level3">
+<h3 class="anchored" data-anchor-id="question-16">Question 16</h3>
+<p>Which species produces a peak at <span class="chem-formula">m/e=28</span> in a mass spectrum of iron?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span><sup>84</sup>Kr<sup>3+</sup></span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span><sup>28</sup>Si<sup>+</sup></span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><sup>56</sup>Fe<sup>2+</sup></span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span><sup>58</sup>Fe<sup>+</sup></span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+<strong>C.</strong> <span class="chem-formula">m/e=56÷2=28</span>. A pure iron sample excludes krypton and silicon; <sup>58</sup>Fe<sup>+</sup> would be at 58.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-mc-h2" class="mc-question" data-answer="D">
+<section id="question-17" class="level3">
+<h3 class="anchored" data-anchor-id="question-17">Question 17</h3>
+<p>Two stable isotopes of bromine have relative masses 79 and 81. Which is the correct pattern of peaks in the mass spectrum of molecular bromine?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Only one molecular-ion peak at 160</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Two molecular-ion peaks at 158 and 162 only</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>Three molecular-ion peaks with equal abundance</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>Peaks at 158, 160 and 162 in a 1:2:1 pattern</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+<strong>D.</strong> The combinations 79+79, 79+81 and 81+81 give 158, 160 and 162. The middle combination has twice the probability. Br<sup>+</sup> fragments also give 79 and 81.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-mc-h3" class="mc-question" data-answer="A">
+<section id="question-18" class="level3">
+<h3 class="anchored" data-anchor-id="question-18">Question 18</h3>
+<p>Three mass spectra are shown for compounds with formula <span class="chem-formula">C<sub>4</sub>H<sub>10</sub>O</span>. Which feature confirms the molecular formula?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>All three molecular-ion peaks occur at 74</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>All spectra have a peak at 13</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>All molecular-ion peaks occur at 73</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>All spectra have a peak at 33</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+<strong>A.</strong> <span class="chem-formula">M<sub>r</sub>=4(12)+10+16=74</span>, so the molecular-ion peak is at 74. Fragment peaks do not establish the complete formula.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-mc-h4" class="mc-question" data-answer="B">
+<section id="question-19" class="level3">
+<h3 class="anchored" data-anchor-id="question-19">Question 19</h3>
+<p>An IR spectrum has strong absorption at 1670–1740 cm<sup>−1</sup> and a broad absorption at 3200–3600 cm<sup>−1</sup>, but not at 2500–3000 cm<sup>−1</sup>. Which functional-group combination is present?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>Carboxylic acid only</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Separate C=O and O–H groups</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span>C=C and C=O only</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>C=C and O–H only</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+<strong>B.</strong> The strong peak is C=O and the broad 3200–3600 cm<sup>−1</sup> peak is alcohol O–H. A carboxylic-acid O–H would be in the lower 2500–3000 cm<sup>−1</sup> range.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-mc-h5" class="mc-question" data-answer="D">
+<section id="question-20" class="level3">
+<h3 class="anchored" data-anchor-id="question-20">Question 20</h3>
+<p>In the mass spectrum of trifluoroacetic acid, <span class="chem-formula">CF<sub>3</sub>CO<sub>2</sub>H</span>, intense peaks occur at <span class="chem-formula">m/e=69</span> and 45. The 69 peak has an M+1 peak at 70 of about 1.1%. Which statement is not supported?</p>
+<div class="mc-options">
+<button class="mc-choice" data-choice="A">
+<strong>A</strong><span>C–C bond cleavage occurs</span>
+</button>
+<button class="mc-choice" data-choice="B">
+<strong>B</strong><span>Fluorine is monoisotopic</span>
+</button>
+<button class="mc-choice" data-choice="C">
+<strong>C</strong><span><span class="chem-formula">[HO<sub>2</sub>C]<sup>+</sup></span> is a fragment ion</span>
+</button>
+<button class="mc-choice" data-choice="D">
+<strong>D</strong><span>The molecule fragments by sequential loss of F atoms</span>
+</button>
+</div>
+<button class="check-answer">
+Check answer
+</button>
+<p class="mc-feedback" aria-live="polite">
+</p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+<strong>D.</strong> The peaks are explained by C–C cleavage into <span class="chem-formula">[CF<sub>3</sub>]<sup>+</sup></span> and <span class="chem-formula">[HO<sub>2</sub>C]<sup>+</sup></span>. The M+1 peak is consistent with <sup>13</sup>C, not sequential loss of F atoms.
+</p>
+</details>
+</section>
+</div>
+</section>
+<section id="structured-questions" class="level2">
+<h2 class="anchored" data-anchor-id="structured-questions">Structured questions</h2>
+<p>以下 10 道大题按 Easy 3 题、Medium 4 题、Hard 3 题选取；小问与分值保留，解答根据各 PDF 后半部分 Model Answers 展开。</p>
+<section id="easy-1" class="level3">
+<h3 class="anchored" data-anchor-id="easy-1">Easy</h3>
+</section>
+<div id="n22-sq-e1" class="question-card">
+<section id="question-1-easy" class="level3">
+<h3 class="anchored" data-anchor-id="question-1-easy">Question 1 — Easy</h3>
+<p>There are three possible isomers, A, B and C, with the molecular formula <span class="chem-formula">C<sub>3</sub>H<sub>8</sub>O</span>. Isomers A and B are positional isomers of each other. Isomer C is a functional group isomer of A and B. A student calculates that the percentage by mass of carbon in all three isomers is 60.0%. Calculate the percentage by mass of hydrogen and oxygen in all three isomers. <strong>[2 marks]</strong> The infrared spectrum of isomer C does not have a peak in 3200–3600 cm<sup>−1</sup>. (i) Using the spectrum and Table 1.1, suggest a structure for C. (ii) Suggest which bonds the highlighted peak around 1130 cm<sup>−1</sup> could represent. <strong>[2 marks]</strong> Isomers A and B both have a peak at 3200–3600 cm<sup>−1</sup>. State two possible chemical names. <strong>[1 mark]</strong> Isomer A has a major peak at <span class="chem-formula">m/e=31</span>. Suggest, with a reason, which compound is A. <strong>[2 marks]</strong></p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+<span class="chem-formula">M<sub>r</sub>=60</span>. H: <span class="chem-formula">(8÷60)×100=13.3%</span>; O: <span class="chem-formula">(16÷60)×100=26.7%</span>. With no O–H peak, C is <span class="chem-formula">CH<sub>3</sub>CH<sub>2</sub>OCH<sub>3</sub></span>; the 1130 cm<sup>−1</sup> peak is C–O. A and B are propan-1-ol and propan-2-ol. A is propan-1-ol because it forms <span class="chem-formula">CH<sub>2</sub>OH<sup>+</sup></span> at 31.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-sq-e2" class="question-card">
+<section id="question-2-easy" class="level3">
+<h3 class="anchored" data-anchor-id="question-2-easy">Question 2 — Easy</h3>
+<p>Using mass spectroscopy, a sample of boron was found to contain <sup>10</sup>B and <sup>11</sup>B with relative abundance 20% and 80%. Calculate the relative atomic mass. <strong>[2 marks]</strong> Write the equation for formation of the molecular ion of octane and predict its <span class="chem-formula">m/e</span>. <strong>[2 marks]</strong> Butane has a molecular ion peak at 58.0. Explain the smaller peak at 59.0. <strong>[2 marks]</strong> Which alkane has the higher M+1 peak, octane or butane? Give a reason. <strong>[1 mark]</strong></p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+<span class="chem-formula">A<sub>r</sub>=(20×10+80×11)÷100=10.8</span>. <span class="chem-formula">C<sub>8</sub>H<sub>18</sub>→C<sub>8</sub>H<sub>18</sub><sup>•+</sup>+e<sup>−</sup></span>; <span class="chem-formula">m/e=114</span>. The 59 peak is M+1 from one <sup>13</sup>C atom. Octane has the larger M+1 because it has more carbon atoms.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-sq-e3" class="question-card">
+<section id="question-3-easy" class="level3">
+<h3 class="anchored" data-anchor-id="question-3-easy">Question 3 — Easy</h3>
+<p>Spectrum Y has an absorption at 1700–1750 cm<sup>−1</sup>. Spectrum Z has absorptions at 2500–3000 cm<sup>−1</sup> and 1700–1750 cm<sup>−1</sup>. Identify the type of compound responsible for each spectrum and the bonds responsible. <strong>[2 marks]</strong> Explain how IR confirms a carbonyl group. <strong>[1 mark]</strong> State the bonds responsible for the absorptions at 3400 cm<sup>−1</sup> in ethanol and 1720 cm<sup>−1</sup> in ethanal. Explain why 3400 cm<sup>−1</sup> does not appear in ethanal. <strong>[2 marks]</strong></p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+Y is an aldehyde or ketone: C=O at 1700–1750 cm<sup>−1</sup>. Z is a carboxylic acid: C=O and carboxyl O–H at 2500–3000 cm<sup>−1</sup>. C=O is confirmed by absorption in its characteristic range. Ethanol gives O–H at 3400; ethanal gives C=O at 1720 and has no O–H bond.
+</p>
+</details>
+</section>
+</div>
+<section id="medium-1" class="level3">
+<h3 class="anchored" data-anchor-id="medium-1">Medium</h3>
+</section>
+<div id="n22-sq-m1" class="question-card">
+<section id="question-4-medium" class="level3">
+<h3 class="anchored" data-anchor-id="question-4-medium">Question 4 — Medium</h3>
+<p>Compound X contains carbon, hydrogen and oxygen only. Its mass spectrum has peaks at 102 (100) and 103 (6.5). A molecule contains 6 carbon atoms. Demonstrate this using the figure. Suggest its molecular formula, the fragment formula at <span class="chem-formula">m/e=31</span>, and the functional group using the IR spectrum. <strong>[2+1+1+1 marks]</strong></p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+<span class="chem-formula">n=(100×6.5)÷(1.1×100)=5.91≈6</span>. Mass 102 minus 72 for six C leaves 30: one O and 14 H, so <span class="chem-formula">C<sub>6</sub>H<sub>14</sub>O</span>. The 31 ion is <span class="chem-formula">CH<sub>2</sub>OH<sup>+</sup></span>. A broad peak near 3300 shows hydroxy; one oxygen excludes carboxyl.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-sq-m2" class="question-card">
+<section id="question-5-medium" class="level3">
+<h3 class="anchored" data-anchor-id="question-5-medium">Question 5 — Medium</h3>
+<p>From the mass spectrum of magnesium, complete the relative abundances of <sup>24</sup>Mg, <sup>25</sup>Mg and <sup>26</sup>Mg. Calculate <span class="chem-formula">A<sub>r</sub></span> to two decimal places. Give the full electronic configuration of <sup>26</sup>Mg<sup>2+</sup>. Boron has <sup>10</sup>B and <sup>11</sup>B and <span class="chem-formula">A<sub>r</sub>=10.8</span>; deduce each abundance. <strong>[1+1+1+3 marks]</strong></p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+Read approximately 78–79%, 10% and 11–12%. Using 78%, 10%, 12%: <span class="chem-formula">A<sub>r</sub>=(0.78×24)+(0.10×25)+(0.12×26)=24.34</span>. Configuration: <span class="chem-formula">1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup></span>. Let <sup>10</sup>B be x%: <span class="chem-formula">10x+11(100−x)=1080</span>, so x=20%; <sup>11</sup>B=80%.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-sq-m3" class="question-card">
+<section id="question-6-medium" class="level3">
+<h3 class="anchored" data-anchor-id="question-6-medium">Question 6 — Medium</h3>
+<p>Three compounds X, Y and Z have the same molecular formula. Explain why exact mass would not distinguish them. Identify which compound gives the IR spectrum and explain. Explain why IR alone cannot distinguish X and Y. Explain how mass spectrometry can distinguish X and Y. <strong>[2+2+2+3 marks]</strong></p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+The molecular ions have the same mass because the formula is the same. The spectrum is Z because it has O–H at 3200–3600 and/or C=C at 1620–1680. X and Y both show the same C=O absorption, so IR has no key distinguishing peak. Their fragment patterns differ: X can give 15, 29, 43, 57, while Y can give 13, 15, 28, 29, 42, 43, 57.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-sq-m4" class="question-card">
+<section id="question-7-medium" class="level3">
+<h3 class="anchored" data-anchor-id="question-7-medium">Question 7 — Medium</h3>
+<p>The isomers A and B, <span class="chem-formula">C<sub>3</sub>H<sub>6</sub>O</span>, both form an orange precipitate with 2,4-DNPH. A is unbranched and reacts with alkaline aqueous iodine to produce a yellow precipitate. B does not react with alkaline aqueous iodine. It contains a chiral centre and produces a silver mirror with Tollens’ reagent. Draw the yellow precipitate. Give structural formulae of A and B. Explain chiral centre. <strong>[1+2+3 marks]</strong></p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+The yellow precipitate is tri-iodomethane, <span class="chem-formula">CHI<sub>3</sub></span>. A is propan-2-one, <span class="chem-formula">CH<sub>3</sub>COCH<sub>3</sub></span>, consistent with the iodoform test. B is propanal, <span class="chem-formula">CH<sub>3</sub>CH<sub>2</sub>CHO</span>, consistent with Tollens’ test; use the source figure when checking the chiral-centre wording. A chiral centre is a tetrahedral atom bonded to four different groups, giving non-superimposable mirror images.
+</p>
+</details>
+</section>
+</div>
+<section id="hard-1" class="level3">
+<h3 class="anchored" data-anchor-id="hard-1">Hard</h3>
+</section>
+<div id="n22-sq-h1" class="question-card">
+<section id="question-8-hard" class="level3">
+<h3 class="anchored" data-anchor-id="question-8-hard">Question 8 — Hard</h3>
+<p>Compound B contains carbon, hydrogen and oxygen. Its composition is 69.7% carbon, 18.6% oxygen and the remainder hydrogen. The M+1 peak is at <span class="chem-formula">m/z=87</span>. Calculate the molecular formula. Its IR has a sharp peak at 1705 cm<sup>−1</sup> and its mass spectrum has a fragment at <span class="chem-formula">m/e=28</span>. Give two possible structures and explain. Identify the ion at <span class="chem-formula">m/e=29</span> and explain how its abundance distinguishes the isomers. <strong>[3+3+3 marks]</strong></p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+H=11.7%; moles C=5.80, O=1.16, H=11.7, ratio 5:1:10, so <span class="chem-formula">C<sub>5</sub>H<sub>10</sub>O</span>, mass 86 and M+1=87. C=O at 1705 and the 28 carbonyl fragment support pentan-2-one or pentan-3-one. The 29 ion is <span class="chem-formula">C<sub>2</sub>H<sub>5</sub><sup>+</sup></span>; pentan-3-one can form two such fragments and should have the higher peak.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-sq-h2" class="question-card">
+<section id="question-9-hard" class="level3">
+<h3 class="anchored" data-anchor-id="question-9-hard">Question 9 — Hard</h3>
+<p>Compound C has an IR peak near 2250 cm<sup>−1</sup> and molecular ion at <span class="chem-formula">m/e=55</span>. Identify it and explain. Give two ways M+1 at 56 could form. Calculate the elemental composition of an 8.0 g sample. Suggest reagents for conversion into D and justify using IR. <strong>[3+1+2+2 marks]</strong></p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+2250 cm<sup>−1</sup> indicates C≡N. <span class="chem-formula">55−26=29</span> gives an ethyl group, so C is propanenitrile, <span class="chem-formula">C<sub>2</sub>H<sub>5</sub>CN</span>. M+1 can be <sup>13</sup>C or proton addition. Percentages are C 65.45%, H 9.09%, N 25.45%; in 8.0 g: 5.24 g C, 0.73 g H, 2.04 g N. Use H<sub>2</sub>/Ni or LiAlH<sub>4</sub>/dry ether; C≡N disappears and N–H at 3300–3500 appears.
+</p>
+</details>
+</section>
+</div>
+<div id="n22-sq-h3" class="question-card">
+<section id="question-10-hard" class="level3">
+<h3 class="anchored" data-anchor-id="question-10-hard">Question 10 — Hard</h3>
+<p>Alcohol E oxidises to form a carboxylic acid. Suggest what this tells you about its structure. Draw fully displayed formulae and give systematic names of the four possible primary-alcohol isomers. A major mass-spectrum peak is at <span class="chem-formula">m/e=45</span>; draw the species responsible. E has a branched chain: identify the isomer and explain. <strong>[1+4+1+1 marks]</strong></p>
+<details class="answer-panel">
+<summary>
+Show detailed explanation
+</summary>
+<p>
+E is a primary alcohol. The four isomers are pentan-1-ol, 3-methylbutan-1-ol, 2-methylbutan-1-ol and 2,2-dimethylpropan-1-ol. The 45 ion is <span class="chem-formula">CH<sub>2</sub>CH<sub>2</sub>OH<sup>+</sup></span>. The branched isomer that contains this sequence is 3-methylbutan-1-ol.
+</p>
+</details>
+</section>
+</div>
+</section>
+<section id="source-pdfs" class="level2">
+<h2 class="anchored" data-anchor-id="source-pdfs">Source PDFs</h2>
+<ul>
+<li><a href="../assets/questions/original-source/4.1_analytical_techniques_choice_easy.pdf">4.1 Analytical Techniques — Choice Easy</a></li>
+<li><a href="../assets/questions/original-source/4.1_analytical_techniques_choice_medium.pdf">4.1 Analytical Techniques — Choice Medium</a></li>
+<li><a href="../assets/questions/original-source/4.1_analytical_techniques_choice_hard.pdf">4.1 Analytical Techniques — Choice Hard</a></li>
+<li><a href="../assets/questions/original-source/4.1_analytical_techniques_sq_easy.pdf">4.1 Analytical Techniques — SQ Easy</a></li>
+<li><a href="../assets/questions/original-source/4.1_analytical_techniques_sq_medium.pdf">4.1 Analytical Techniques — SQ Medium</a></li>
+<li><a href="../assets/questions/original-source/4.1_analytical_techniques_sq_hard.pdf">4.1 Analytical Techniques — SQ Hard</a></li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".done-toggle input").forEach((input) => {
+    const key = `cie-chem-${input.dataset.progress}`;
+    input.checked = localStorage.getItem(key) === "true";
+    input.closest(".question-card")?.classList.toggle("is-complete", input.checked);
+    input.addEventListener("change", () => {
+      localStorage.setItem(key, input.checked);
+      input.closest(".question-card")?.classList.toggle("is-complete", input.checked);
+    });
+  });
+
+  document.querySelectorAll(".mc-question").forEach((card) => {
+    const answer = card.dataset.answer;
+    const feedback = card.querySelector(".mc-feedback");
+    const check = card.querySelector(".check-answer");
+    let selected = localStorage.getItem(`cie-chem-${card.id}-choice`) || "";
+
+    const showSelection = () => {
+      card.querySelectorAll(".mc-choice").forEach((choice) => {
+        choice.classList.toggle("is-selected", choice.dataset.choice === selected);
+      });
+    };
+    showSelection();
+
+    card.querySelectorAll(".mc-choice").forEach((choice) => {
+      choice.addEventListener("click", () => {
+        selected = choice.dataset.choice;
+        localStorage.setItem(`cie-chem-${card.id}-choice`, selected);
+        feedback.textContent = "";
+        feedback.className = "mc-feedback";
+        showSelection();
+      });
+    });
+
+    check?.addEventListener("click", () => {
+      if (!selected) {
+        feedback.textContent = "Select an answer first.";
+        feedback.className = "mc-feedback is-pending";
+        return;
+      }
+      const correct = selected === answer;
+      feedback.textContent = correct ? "Correct." : `Not quite. The correct answer is ${answer}.`;
+      feedback.className = `mc-feedback ${correct ? "is-correct" : "is-incorrect"}`;
+    });
+  });
+});
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已复制");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已复制");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/nanoxsj\.github\.io\/CIE-Chemistry-Study\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../a-level/21-organic-synthesis.html" class="pagination-link" aria-label="21 Organic synthesis">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">21 Organic synthesis</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../a-level/23-chemical-energetics.html" class="pagination-link" aria-label="23 Chemical energetics">
+        <span class="nav-page-text">23 Chemical energetics</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
