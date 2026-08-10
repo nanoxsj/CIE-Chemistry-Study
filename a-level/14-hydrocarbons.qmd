@@ -1,0 +1,289 @@
+---
+title: "14 Hydrocarbons"
+subtitle: "Alkanes, alkenes, crude oil and reactions"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+# 14 Hydrocarbons
+
+本章只覆盖 AS 3.2 Hydrocarbons：alkanes、alkenes、crude oil、cracking、combustion、free-radical substitution、electrophilic addition、oxidation 和 addition polymerisation。题目均来自 **3.2 Hydrocarbons** 原题；不能独立提取的题图未使用截图替代。
+
+## Learning objectives
+
+- explain alkane unreactivity and free-radical substitution;
+- describe fractional distillation, cracking and combustion of hydrocarbon fuels;
+- apply electrophilic addition reactions of alkenes;
+- use bromine water and manganate(VII) reactions to identify C=C;
+- explain addition polymerisation and environmental effects of vehicle emissions.
+
+## 14.1 Alkanes and free-radical substitution
+
+Alkanes are saturated hydrocarbons with the general formula C<sub>n</sub>H<sub>2n+2</sub>. They are relatively unreactive because C–C and C–H bonds have high bond enthalpies and are almost non-polar. They undergo combustion and, with halogens under UV light, free-radical substitution.
+
+For chlorination of methane:
+
+<div class="equation-block">Initiation: Cl<sub>2</sub> → 2Cl·<br>Propagation: Cl· + CH<sub>4</sub> → HCl + CH<sub>3</sub>·<br>Propagation: CH<sub>3</sub>· + Cl<sub>2</sub> → CH<sub>3</sub>Cl + Cl·<br>Termination: CH<sub>3</sub>· + CH<sub>3</sub>· → C<sub>2</sub>H<sub>6</sub></div>
+
+Initiation makes radicals, propagation uses and regenerates a radical, and termination removes radicals. Homolytic fission splits the bonding pair equally: Cl–Cl → 2Cl·.
+
+## 14.2 Crude oil, fractionation and cracking
+
+Crude oil is a mixture of hydrocarbons, mainly alkanes. Fractional distillation separates fractions by boiling point: larger molecules have stronger London forces and higher boiling points. A fraction contains hydrocarbons with a range of chain lengths, not one pure compound.
+
+**Cracking** breaks larger saturated hydrocarbons into smaller, more useful molecules, producing alkanes and alkenes. It is carried out by vaporising the fraction and passing it over a hot catalyst such as alumina/silica, or by strong heating. It meets demand for small fuel molecules and for alkene feedstock. For example:
+
+<div class="equation-block">C<sub>8</sub>H<sub>18</sub> → C<sub>5</sub>H<sub>12</sub> + C<sub>3</sub>H<sub>6</sub></div>
+
+## 14.3 Alkenes and electrophilic addition
+
+Alkenes contain C=C and have general formula C<sub>n</sub>H<sub>2n</sub> for an open-chain molecule with one double bond. The π bond is electron-rich and weaker than the σ bond, so it reacts with electrophiles. In electrophilic addition, the alkene first donates π electrons to an electrophile, forming a carbocation; a negative ion then bonds to the positive carbon.
+
+| Reagent and conditions | Product / observation |
+|---|---|
+| Br<sub>2</sub> in organic solvent | dibromoalkane; bromine decolourises |
+| Br<sub>2</sub>(aq) | bromoalcohol and dibromoalkane |
+| steam, phosphoric acid catalyst, 600 K, high pressure | alcohol |
+| HBr | bromoalkane; unsymmetrical alkenes may give major/minor products |
+| H<sub>2</sub>, Ni, heat | alkane |
+| cold dilute acidified KMnO<sub>4</sub> | vicinal diol; purple decolourises |
+| hot concentrated acidified KMnO<sub>4</sub> | oxidative cleavage of C=C |
+
+The more stable carbocation is formed more readily; this explains the major product in addition of HBr to an unsymmetrical alkene.
+
+## 14.4 Combustion, emissions and catalytic converters
+
+Complete combustion has excess oxygen and makes CO<sub>2</sub> and H<sub>2</sub>O. Incomplete combustion, when oxygen is limited, produces CO and/or carbon. Carbon monoxide binds strongly to haemoglobin and reduces oxygen transport. High-temperature engines also form NO<sub>x</sub>; NO<sub>x</sub> and unburnt hydrocarbons contribute to photochemical smog.
+
+Catalytic converters use redox reactions to reduce NO<sub>x</sub> to N<sub>2</sub> and oxidise CO/hydrocarbons to CO<sub>2</sub> and H<sub>2</sub>O, for example 2CO + 2NO → 2CO<sub>2</sub> + N<sub>2</sub>.
+
+## 14.5 Addition polymerisation
+
+In addition polymerisation, many alkene monomers join when the C=C opens, forming only C–C σ bonds in the backbone. The repeat unit is shown in brackets with continuation bonds, for example poly(propene): [–CH<sub>2</sub>–CH(CH<sub>3</sub>)–]<sub>n</sub>. No small molecule is eliminated.
+
+## Multiple choice questions
+
+::: {.mc-question #hc-mc-01 data-answer="B"}
+### Question 1 · 3.2 Choice Easy Q1
+<p>Which equation represents a valid propagation step in the free radical reaction between ethane and chlorine?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>C<sub>2</sub>H<sub>6</sub> + Cl· → C<sub>2</sub>H<sub>5</sub>Cl + H·</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>C<sub>2</sub>H<sub>5</sub>Cl + Cl· → C<sub>2</sub>H<sub>4</sub>Cl· + HCl</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>C<sub>2</sub>H<sub>6</sub> + H· → C<sub>2</sub>H<sub>5</sub>· + HCl</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>C<sub>2</sub>H<sub>5</sub>· + Cl· → C<sub>2</sub>H<sub>5</sub>Cl</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> It consumes one radical and forms one radical. D is termination because radicals are destroyed.</p></details>
+:::
+
+::: {.mc-question #hc-mc-02 data-answer="B"}
+### Question 2 · 3.2 Choice Easy Q2
+<p>A fraction of distilled crude oil contains molecules with between 15 and 19 carbon atoms. This fraction is cracked by strong heating. Why is this done?<br>1 To produce alkenes. 2 To produce smaller molecules which are in higher demand. 3 To insert oxygen atoms into the hydrocarbons.</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 only</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Cracking produces smaller hydrocarbons including alkenes; it does not insert oxygen.</p></details>
+:::
+
+::: {.mc-question #hc-mc-03 data-answer="B"}
+### Question 3 · 3.2 Choice Easy Q3
+<p>Ethene reacts with steam in the presence of sulfuric acid: C<sub>2</sub>H<sub>4</sub> + H<sub>2</sub>O → CH<sub>3</sub>CH<sub>2</sub>OH. What type of reaction is this?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>acid/base</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>addition</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>hydrolysis</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>substitution</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> H and OH add across the C=C.</p></details>
+:::
+
+::: {.mc-question #hc-mc-04 data-answer="C"}
+### Question 4 · 3.2 Choice Easy Q4
+<p>Which statements about alkenes are correct?<br>1 They are less reactive than alkanes towards electrophiles. 2 They are used as monomers for polymerisation. 3 They are formed when higher alkanes are cracked.</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>3 only</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Alkenes are more reactive towards electrophiles because of their π bond.</p></details>
+:::
+
+::: {.mc-question #hc-mc-05 data-answer="D"}
+### Question 5 · 3.2 Choice Easy Q5
+<p>One catalytic-converter reaction is between nitrogen oxide and octane. Which equation gives only non-toxic products?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>C<sub>8</sub>H<sub>18</sub> + 16NO → 8CO + 8N<sub>2</sub> + 9H<sub>2</sub>O</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>C<sub>8</sub>H<sub>18</sub> + 24NO → 8CO<sub>2</sub> + 12N<sub>2</sub> + 8H<sub>2</sub>O</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>C<sub>8</sub>H<sub>18</sub> + 17NO → 8CO + 8½N<sub>2</sub> + 9H<sub>2</sub>O</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>C<sub>8</sub>H<sub>18</sub> + 25NO → 8CO<sub>2</sub> + 12½N<sub>2</sub> + 9H<sub>2</sub>O</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> It is balanced and gives CO<sub>2</sub>, N<sub>2</sub> and water, rather than toxic CO.</p></details>
+:::
+
+::: {.mc-question #hc-mc-06 data-answer="A"}
+### Question 6 · 3.2 Choice Easy Q6
+<p>When bromine reacts with propene in an organic solvent at room temperature, what is the mechanism by which bromine attacks the propene?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>electrophilic addition</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>electrophilic substitution</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>nucleophilic addition</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>nucleophilic substitution</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> The alkene π bond attacks polarised Br<sub>2</sub>.</p></details>
+:::
+
+::: {.mc-question #hc-mc-07 data-answer="B"}
+### Question 7 · 3.2 Choice Easy Q7
+![Polymer sequence used to identify the monomer](../assets/questions/extracted/14/independent/choice-easy-q7-polymer.png){.question-figure fig-alt="Displayed polymer chain with chlorine substituents"}
+<p>Which monomer could produce a polymer with repeating unit –CH<sub>2</sub>–CH(Cl)–?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>CHCl=CHCl</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>CH<sub>2</sub>=CHCl</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>CH<sub>3</sub>CCl=CHCl</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>CH<sub>3</sub>CCl=CH<sub>2</sub></span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Addition polymerisation opens the double bond while retaining the Cl substituent.</p></details>
+:::
+
+::: {.mc-question #hc-mc-08 data-answer="D"}
+### Question 8 · 3.2 Choice Easy Q8
+<p>Four students made statements about alkanes and alkenes. W: bromine reacts with alkanes by electrophilic substitution. X: bromine reacts with alkenes by a free-radical addition mechanism. Y: alkenes can be oxidised by acidified manganate(VII) ions. Z: alkenes are formed from alkanes by cracking. Which two students are correct?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>W and X</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>W and Z</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>X and Y</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Y and Z</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Alkane halogenation is free-radical substitution; alkene bromination is electrophilic addition.</p></details>
+:::
+
+::: {.mc-question #hc-mc-09 data-answer="D"}
+### Question 9 · 3.2 Choice Easy Q9
+<p>The hydrocarbon C<sub>17</sub>H<sub>36</sub> can be cracked. Which compound is least likely to be produced?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>C<sub>3</sub>H<sub>8</sub></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>C<sub>4</sub>H<sub>8</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>C<sub>8</sub>H<sub>16</sub></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>C<sub>16</sub>H<sub>34</sub></span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> This would leave only CH<sub>2</sub>, not a realistic stable hydrocarbon co-product.</p></details>
+:::
+
+::: {.mc-question #hc-mc-10 data-answer="C"}
+### Question 10 · 3.2 Choice Easy Q10
+<p>In ultraviolet light, ethane and chlorine react to give a mixture of products. Which compound could be present?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>CH<sub>3</sub>Cl</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Cl</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Two ethyl radicals can combine in a termination step: C<sub>2</sub>H<sub>5</sub>· + C<sub>2</sub>H<sub>5</sub>· → C<sub>4</sub>H<sub>10</sub>.</p></details>
+:::
+
+::: {.mc-question #hc-mc-11 data-answer="B"}
+### Question 11 · 3.2 Choice Medium Q1
+<p>The cracking of one C<sub>n</sub>H<sub>2n+2</sub> molecule produces two hydrocarbon molecules only. Each contains the same number of carbon atoms and has non-cyclic structural isomers. What is n?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>10</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>8</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>6</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>4</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Each product must have four carbons (the first chain length with structural isomers), so the parent has eight.</p></details>
+:::
+
+::: {.mc-question #hc-mc-12 data-answer="B"}
+### Question 12 · 3.2 Choice Medium Q2
+<p>Which reaction would not give propene?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>hot concentrated sulfuric acid with propan-1-ol</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>warm aqueous sodium hydroxide with 2-bromopropane</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>warm ethanolic sodium hydroxide with 1-bromopropane</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>propan-2-ol vapour over heated aluminium oxide</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Aqueous OH<sup>−</sup> gives substitution to propan-2-ol; ethanolic OH<sup>−</sup> favours elimination.</p></details>
+:::
+
+::: {.mc-question #hc-mc-13 data-answer="C"}
+### Question 13 · 3.2 Choice Medium Q3
+<p>Ethene reacts with aqueous bromine to give CH<sub>2</sub>BrCH<sub>2</sub>Br and CH<sub>2</sub>BrCH<sub>2</sub>OH. Which statement about these products is correct?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>both form by electrophilic substitution</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>both form by nucleophilic addition</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>both can be hydrolysed to form the same organic compound</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>both form hydrogen bonds with water</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Hydrolysis of either can give ethane-1,2-diol; only the bromoalcohol itself has an O–H bond.</p></details>
+:::
+
+::: {.mc-question #hc-mc-14 data-answer="D"}
+### Question 14 · 3.2 Choice Medium Q4
+![Apparatus for cracking pentane over aluminium oxide](../assets/questions/extracted/14/independent/choice-medium-q4-apparatus.png){.question-figure fig-alt="Cracking apparatus with pentane on mineral fibre, aluminium oxide and collection over water" style="filter: invert(1);"}
+<p>Which hydrocarbon would not be collected on heating pentane over aluminium oxide?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>CH<sub>4</sub></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>CH<sub>3</sub>CH<sub>3</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>CH<sub>3</sub>CH<sub>2</sub>CH=CH<sub>2</sub></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>CH<sub>3</sub>(CH<sub>2</sub>)<sub>8</sub>CH<sub>3</sub></span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> A cracking reaction cannot make a ten-carbon product from pentane.</p></details>
+:::
+
+::: {.mc-question #hc-mc-15 data-answer="A"}
+### Question 15 · 3.2 Choice Medium Q5
+<p>Pent-2-ene reacts with cold, dilute, acidified manganate(VII) ions. What is produced in the greatest amount?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>CH<sub>3</sub>CH<sub>2</sub>CH(OH)CH(OH)CH<sub>3</sub></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>CH<sub>3</sub>CH<sub>2</sub>COCOCH<sub>3</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>a mixture of pentanols</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>CH<sub>3</sub>CH<sub>2</sub>COOH and CH<sub>3</sub>COOH</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Mild oxidation adds an OH group to each carbon of C=C, forming a diol.</p></details>
+:::
+
+::: {.mc-question #hc-mc-16 data-answer="C"}
+### Question 16 · 3.2 Choice Medium Q8
+<p>Which alkenes, on reaction with steam at 600 K and high pressure in the presence of phosphoric acid, could produce an alcohol containing a chiral carbon atom?<br>1 (CH<sub>3</sub>)<sub>2</sub>C=CH<sub>2</sub>  2 CH<sub>3</sub>CH=CHCH<sub>3</sub>  3 CH<sub>3</sub>CH<sub>2</sub>CH=CH<sub>2</sub></p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 only</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Hydration of but-2-ene or but-1-ene can give butan-2-ol with four different groups at C2.</p></details>
+:::
+
+::: {.mc-question #hc-mc-17 data-answer="D"}
+### Question 17 · 3.2 Choice Medium Q9
+<p>0.200 mol of a hydrocarbon undergoes complete combustion to give 35.2 g CO<sub>2</sub> and 14.4 g H<sub>2</sub>O. What is its molecular formula?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>C<sub>2</sub>H<sub>4</sub></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>C<sub>2</sub>H<sub>6</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>C<sub>4</sub>H<sub>4</sub></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>C<sub>4</sub>H<sub>8</sub></span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> n(CO<sub>2</sub>)=35.2/44.0=0.800 mol, giving 0.800/0.200=4 carbon atoms. n(H<sub>2</sub>O)=14.4/18.0=0.800 mol, giving 2×0.800/0.200=8 hydrogen atoms.</p></details>
+:::
+
+::: {.mc-question #hc-mc-18 data-answer="C"}
+### Question 18 · 3.2 Choice Hard Q3
+![Structure of acrylic acid with labelled bond angles](../assets/questions/extracted/14/independent/choice-hard-q3-acrylic-acid.png){.question-figure fig-alt="Displayed structure of acrylic acid with bond angles X and Y"}
+<p>Acrylic acid is produced from propene. Which statement about acrylic acid is not correct?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Both indicated carbon bond angles are approximately 120°.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>It decolourises aqueous bromine.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>It gives an orange precipitate with 2,4-dinitrophenylhydrazine reagent.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>It reacts with an alcohol to give an ester.</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> A carboxylic acid does not contain an aldehyde or ketone carbonyl required for the 2,4-DNPH test.</p></details>
+:::
+
+::: {.mc-question #hc-mc-19 data-answer="B"}
+### Question 19 · 3.2 Choice Hard Q6
+<p>Alkane X has formula C<sub>4</sub>H<sub>10</sub>. X reacts with Cl<sub>2</sub> in sunlight to produce only two monochloroalkanes. Both form the same alkene Y, and no other organic products, with hot ethanolic KOH. What is produced when Y is treated with hot concentrated acidified KMnO<sub>4</sub>?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>CO<sub>2</sub> and CH<sub>3</sub>CH<sub>2</sub>CO<sub>2</sub>H</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>CO<sub>2</sub> and CH<sub>3</sub>COCH<sub>3</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>HCO<sub>2</sub>H and CH<sub>3</sub>COCH<sub>3</sub></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>CH<sub>3</sub>CO<sub>2</sub>H only</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> X is 2-methylpropane and Y is 2-methylpropene. Oxidative cleavage gives propanone and CO<sub>2</sub>.</p></details>
+:::
+
+::: {.mc-question #hc-mc-20 data-answer="C"}
+### Question 20 · 3.2 Choice Hard Q7
+![Polymer repeat unit used in the question](../assets/questions/extracted/14/independent/choice-hard-q7-polymer.png){.question-figure fig-alt="Polymer chain with hydroxyl groups on alternating carbon atoms"}
+<p>A possible polymer has repeat unit –CH<sub>2</sub>–CH(OH)–. By which method might this polymer be made?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>polymerise ethene followed by hydration</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>polymerise ethene followed by oxidation with cold acidified KMnO<sub>4</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>polymerise 1,2-dichloroethene followed by hydrolysis</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>polymerise 1,2-dichloroethene followed by oxidation with cold acidified KMnO<sub>4</sub></span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Hydrolysis replaces Cl by OH on the polymer chain.</p></details>
+:::
+
+## Structured questions
+
+::: {.question-card #hc-sq-01}
+### Question 1 · 3.2 SQ Easy Q1(a-d)
+<p><strong>(a)</strong> State two reasons why alkanes are unreactive.</p><p><strong>(b)(i)</strong> State what is meant by a radical.</p>
+<p><strong>(ii)</strong> State the condition required to form chlorine free radicals from Cl<sub>2</sub>.</p><p><strong>(c)</strong> State the type of bond fission involved.</p>
+<p><strong>(d)(i)</strong> Chloromethane is formed from methane and chlorine. Write equations for the two propagation steps.</p><p><strong>(d)(ii)</strong> Write an equation to show how ethane can be formed.</p>
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>C–C/C–H bonds are strong (high bond enthalpy) and almost non-polar.</li><li>A radical is a species with an unpaired electron. UV light is required.</li><li>Homolytic fission: each atom takes one electron from the covalent bond.</li><li>Cl· + CH<sub>4</sub> → HCl + CH<sub>3</sub>·; CH<sub>3</sub>· + Cl<sub>2</sub> → CH<sub>3</sub>Cl + Cl·.</li><li>CH<sub>3</sub>· + CH<sub>3</sub>· → C<sub>2</sub>H<sub>6</sub>; this is a termination step.</li></ol></details>
+:::
+
+::: {.question-card #hc-sq-03}
+### Question 2 · 3.2 SQ Easy Q2(b-d)
+![Electrophilic addition mechanism for propene and hydrogen bromide](../assets/questions/extracted/14/independent/sq-easy-q2-mechanism.png){.question-figure fig-alt="Propene reacting with hydrogen bromide through a carbocation intermediate" style="filter: invert(1);"}
+<p>Propene reacts with hydrogen bromide.</p>
+<p><strong>(a)</strong> Use curly arrows to complete the mechanism for formation of the major product.</p>
+<p><strong>(b)</strong> Draw the displayed formula of the minor product.</p>
+<p><strong>(c)</strong> Explain why there is a major and minor product.</p>
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>The π bond attacks Hδ<sup>+</sup> of HBr and the H–Br bond breaks to Br<sup>−</sup>; then Br<sup>−</sup> attacks the carbocation. The major product is 2-bromopropane.</li><li>The minor product is 1-bromopropane, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br.</li><li>Protonation can form either carbocation. The secondary carbocation is more stable than the primary carbocation, so the route to 2-bromopropane is favoured.</li></ol></details>
+:::
+
+::: {.question-card #hc-sq-04}
+### Question 3 · 3.2 SQ Easy Q3(a-d)
+<p>Alkanes undergo complete and incomplete combustion. State the difference, including a balanced symbol equation for each, using octane. Carbon monoxide is emitted in exhaust fumes.</p>
+<p><strong>(i)</strong> State why it is dangerous.</p>
+<p><strong>(ii)</strong> State another pollutant released in car exhaust fumes and its atmospheric effect.</p>
+<p><strong>(c)(i)</strong> Octane can be cracked to form pentane and one other product. Give the balanced equation.</p><p><strong>(c)(ii)</strong> Describe how catalytic cracking is carried out.</p><p><strong>(d)</strong> Describe a chemical test that distinguishes the two products.</p>
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>Complete combustion uses sufficient O<sub>2</sub>: 2C<sub>8</sub>H<sub>18</sub> + 25O<sub>2</sub> → 16CO<sub>2</sub> + 18H<sub>2</sub>O. Incomplete combustion has limited O<sub>2</sub>, for example 2C<sub>8</sub>H<sub>18</sub> + 17O<sub>2</sub> → 16CO + 18H<sub>2</sub>O.</li><li>CO binds strongly to haemoglobin, reducing oxygen transport in the blood.</li><li>NO<sub>x</sub> contributes to acid rain/photochemical smog; unburnt hydrocarbons contribute to photochemical smog.</li><li>C<sub>8</sub>H<sub>18</sub> → C<sub>5</sub>H<sub>12</sub> + C<sub>3</sub>H<sub>6</sub>; vaporise and pass over hot alumina/silica.</li><li>Bromine water: propene decolourises it; pentane shows no change without UV light.</li></ol></details>
+:::
+
+::: {.question-card #hc-sq-06}
+### Question 4 · 3.2 SQ Medium Q1(a-d)
+![Fig. 4.1 Cyclohexane to chlorocyclohexane to cyclohexene](../assets/questions/extracted/14/independent/sq-medium-q1-fig-4-1.png){.question-figure fig-alt="Reaction scheme converting cyclohexane to chlorocyclohexane and then cyclohexene"}
+![Table 4.1 Free-radical substitution mechanism](../assets/questions/extracted/14/independent/sq-medium-q1-table-4-1.png){.question-figure fig-alt="Completion table for initiation, propagation and termination steps"}
+<p>A reaction scheme involving cyclohexane includes free-radical substitution with chlorine, followed by conversion to cyclohexene.</p>
+<p><strong>(a)</strong> State the essential condition for reaction 1.</p>
+<p><strong>(b)</strong> Give the key initiation, propagation and termination equations.</p>
+<p><strong>(c)</strong> Deduce the type of reaction in reaction 2.</p>
+<p><strong>(d)</strong> Hex-3-ene is converted to propanoic acid: state reagents and conditions.</p>
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>UV light/sunlight.</li><li>Initiation: Cl<sub>2</sub> → 2Cl·. Propagation: Cl· + C<sub>6</sub>H<sub>12</sub> → HCl + C<sub>6</sub>H<sub>11</sub>·; C<sub>6</sub>H<sub>11</sub>· + Cl<sub>2</sub> → C<sub>6</sub>H<sub>11</sub>Cl + Cl·. Termination: two radicals combine.</li><li>Elimination (dehydrohalogenation).</li><li>Hot concentrated acidified KMnO<sub>4</sub>; oxidative cleavage of the central C=C produces two propanoic-acid molecules.</li></ol></details>
+:::
+
+::: {.question-card #hc-sq-07}
+### Question 5 · 3.2 SQ Medium Q2(b-d)
+![Electrophilic addition prompt for pent-2-ene and hydrogen bromide](../assets/questions/extracted/14/independent/sq-medium-q2-mechanism.png){.question-figure fig-alt="Pent-2-ene and hydrogen bromide setup for drawing the electrophilic addition mechanism"}
+<p><strong>(a)</strong> An alcohol reacts with concentrated H<sub>3</sub>PO<sub>4</sub> to form only pent-2-ene. Give the formula of the alcohol and name the reaction type.</p>
+<p><strong>(b)</strong> Pent-2-ene reacts with HBr to form two bromoalkanes: show the mechanism for 2-bromopentane.</p>
+<p><strong>(c)</strong> 1.33 g pent-1-ene is warmed to 60 °C in a 500 cm<sup>3</sup> sealed container. Calculate the pressure.</p>
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>Pentan-3-ol, CH<sub>3</sub>CH<sub>2</sub>CH(OH)CH<sub>2</sub>CH<sub>3</sub>; elimination/dehydration.</li><li>Electrophilic addition: π electrons attack Hδ<sup>+</sup>, H–Br breaks to Br<sup>−</sup>, then Br<sup>−</sup> attacks the carbocation.</li><li>n = 1.33/70.0 = 0.0190 mol; T = 333 K, V = 5.00×10<sup>−4</sup> m<sup>3</sup>. p = nRT/V = 0.0190×8.31×333/(5.00×10<sup>−4</sup>) = 1.05×10<sup>5</sup> Pa.</li></ol></details>
+:::
+
+::: {.question-card #hc-sq-08}
+### Question 6 · 3.2 SQ Medium Q3(a-d)
+<p><strong>(a)</strong> What is meant by cracking and why is it carried out?</p>
+<p><strong>(b)(i)</strong> State two conditions required for cracking alkanes.</p>
+<p><strong>(b)(ii)</strong> Construct a balanced equation for the formation of heptane and two other products by cracking tetradecane.</p>
+<p>An alkane used in gasoline undergoes combustion producing CO, oxides of nitrogen and unburnt hydrocarbons.</p><p><strong>(c)(i)</strong> Explain why CO is dangerous.</p><p><strong>(c)(ii)</strong> Describe the environmental effect of oxides of nitrogen and unburnt hydrocarbons.</p><p><strong>(d)</strong> Use equations to show how a catalytic converter reduces CO and NO<sub>x</sub>.</p>
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>Cracking is thermal decomposition of large hydrocarbon molecules into smaller hydrocarbons. It is carried out to meet demand for smaller fuels and alkenes.</li><li>High temperature and a catalyst (or strong heating in thermal cracking).</li><li>One valid equation is C<sub>14</sub>H<sub>30</sub> → C<sub>7</sub>H<sub>16</sub> + C<sub>4</sub>H<sub>8</sub> + C<sub>3</sub>H<sub>6</sub>.</li><li>CO forms a stable complex with haemoglobin, preventing blood from carrying enough oxygen.</li><li>NO<sub>x</sub> and hydrocarbons react in sunlight to form photochemical smog; NO<sub>x</sub> also forms acids in rain.</li><li>2CO + 2NO → 2CO<sub>2</sub> + N<sub>2</sub>; 2CO + O<sub>2</sub> → 2CO<sub>2</sub>.</li></ol></details>
+:::
+
+::: {.question-card #hc-sq-10}
+### Question 7 · 3.2 SQ Medium Q4(a-d)
+![Reaction flowchart for propene](../assets/questions/extracted/14/independent/sq-medium-q4-flowchart.png){.question-figure fig-alt="Flowchart showing propene reacting with steam, acidified potassium manganate(VII) and bromine"}
+<p>Propene and propane can be made by cracking hexane.</p>
+<p><strong>(a)</strong> Explain why propane is relatively unreactive.</p>
+<p><strong>(b)</strong> Describe a test to distinguish propane and propene.</p>
+<p><strong>(c)</strong> State the products of propene with steam/acid catalyst, cold dilute acidified KMnO<sub>4</sub>, and bromine water.</p>
+<p><strong>(d)</strong> Draw poly(propene), showing two repeat units.</p>
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>Propane has strong C–C/C–H σ bonds with low polarity, so much energy is needed to break bonds and it has no electron-rich π bond.</li><li>Add bromine water: propene decolourises it; propane remains orange/brown under these conditions.</li><li>Steam gives propan-2-ol; cold dilute acidified KMnO<sub>4</sub> gives propane-1,2-diol; bromine water gives 1-bromopropan-2-ol and 1,2-dibromopropane.</li><li>Correct repeat units are –CH<sub>2</sub>–CH(CH<sub>3</sub>)–CH<sub>2</sub>–CH(CH<sub>3</sub>)– within continuation bonds.</li></ol></details>
+:::
+
+::: {.question-card #hc-sq-11}
+### Question 8 · 3.2 SQ Hard Q1(a-d)
+<p><strong>(a)(i)</strong> 1,2-dibromoethane reacts with bromine in UV light. Write an equation for the initiation step.</p><p><strong>(a)(ii)</strong> Explain why this is homolytic fission.</p><p><strong>(b)</strong> Write two propagation equations producing 1,1,2-tribromoethane.</p><p><strong>(c)</strong> Write equations showing formation of 1,2,3,4-tetrabromobutane and hexabromoethane.</p><p><strong>(d)</strong> Suggest limitations of free-radical substitution.</p>
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>Br<sub>2</sub> → 2Br· under UV light.</li><li>One electron from Br–Br goes to each Br atom, making two radicals.</li><li>Br· removes H, then the carbon radical reacts with Br<sub>2</sub>; show correct radical chain equations.</li><li>Radical coupling gives higher-mass products; continued substitution gives heavily brominated products.</li><li>It gives a mixture of products, may substitute at more than one position and makes separation difficult.</li></ol></details>
+:::
+
+::: {.question-card #hc-sq-12}
+### Question 9 · 3.2 SQ Hard Q2(a-c)
+<p><strong>(a)</strong> 10 cm<sup>3</sup> of gaseous hydrocarbon C<sub>x</sub>H<sub>y</sub> burns in excess oxygen. After absorbing CO<sub>2</sub> with NaOH, use gas volumes to calculate CO<sub>2</sub> volume, O<sub>2</sub> used and deduce x, y and z.</p><p><strong>(b)</strong> Branched C<sub>4</sub>H<sub>8</sub> reacts with HBr to give two C<sub>4</sub>H<sub>9</sub>Br isomers. Give structures/names and explain why one product dominates.</p><p><strong>(c)</strong> Draw the mechanism for pent-2-ene with HBr.</p>
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>CO<sub>2</sub> volume is 20 cm<sup>3</sup>; calculate O<sub>2</sub> used from the initial/final gas volumes and balance using volume ratios.</li><li>W is 2-methylpropene. Addition gives 2-bromo-2-methylpropane as the major product through the more stable tertiary carbocation, plus 1-bromo-2-methylpropane.</li><li>Show electrophilic addition: π electrons to H of HBr, C–H bond formation/carbocation, then Br<sup>−</sup> attack.</li></ol></details>
+:::
+
+::: {.question-card #hc-sq-13}
+### Question 10 · 3.2 SQ Hard Q3(a-b)
+![Fig. 3.1 Structures of mono-unsaturated and polyunsaturated oils](../assets/questions/extracted/14/independent/sq-hard-q3-fig-3-1.png){.question-figure fig-alt="Displayed structures comparing a mono-unsaturated oil with a polyunsaturated oil" style="filter: invert(1);"}
+<p><strong>(a)</strong> A student titrates cooking oil with bromine water to determine the number of C=C bonds. Suggest two improvements for more consistent results.</p><p><strong>(b)</strong> Use the titration data, M<sub>r</sub>, density and drop volume to deduce the number of C=C double bonds in one molecule of the oil.</p>
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>Use a fixed measured volume/mass of oil rather than drops; repeat titrations and calculate a mean; use a consistent endpoint and accurate volumetric apparatus.</li><li>Find mean moles of Br<sub>2</sub>, calculate moles of oil from mass/M<sub>r</sub>, then use the 1:1 alkene:Br<sub>2</sub> ratio to find the number of C=C bonds.</li></ol></details>
+:::
+
+## Original question PDFs
+
+- [3.2 Choice Easy](../assets/questions/original-source/3.2_hydrocarbons___choice___easy.pdf)
+- [3.2 Choice Medium](../assets/questions/original-source/3.2_hydrocarbons___choice___medium.pdf)
+- [3.2 Choice Hard](../assets/questions/original-source/3.2_hydrocarbons___choice___hard.pdf)
+- [3.2 SQ Easy](../assets/questions/original-source/3.2_hydrocarbons___sq___easy.pdf)
+- [3.2 SQ Medium](../assets/questions/original-source/3.2_hydrocarbons___sq___medium.pdf)
+- [3.2 SQ Hard](../assets/questions/original-source/3.2_hydrocarbons___sq___hard.pdf)

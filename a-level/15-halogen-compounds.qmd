@@ -1,0 +1,262 @@
+---
+title: "15 Halogen compounds"
+subtitle: "Halogenoalkanes, nucleophilic substitution and CFCs"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+# 15 Halogen compounds
+
+本章只覆盖 AS 3.3 Halogen Compounds：halogenoalkanes 的命名、反应和机制，C–X 键与水解速率，以及 CFCs 和 ozone depletion。下方题目来自 **3.3 Halogen Compounds** 原题；无法独立提取的题图没有截图加入。
+
+## Learning objectives
+
+- identify primary, secondary and tertiary halogenoalkanes;
+- explain nucleophilic substitution and distinguish S<sub>N</sub>1/S<sub>N</sub>2;
+- predict products with OH<sup>−</sup>, CN<sup>−</sup> and NH<sub>3</sub>;
+- use silver nitrate to compare halogenoalkane hydrolysis;
+- explain the stability and environmental impact of CFCs.
+
+## 15.1 Halogenoalkanes and the C–X bond
+
+A halogenoalkane has a halogen attached to an alkyl group, R–X. The carbon bonded to the halogen is δ<sup>+</sup> because halogen is more electronegative; it is attacked by nucleophiles. A **primary** halogenoalkane has the C–X carbon bonded to one other carbon, a secondary to two, and a tertiary to three.
+
+The C–X bond strength decreases down the group: C–F > C–Cl > C–Br > C–I. Thus iodoalkanes hydrolyse fastest and chloroalkanes slowest (among Cl, Br and I). In warm ethanol/water with aqueous AgNO<sub>3</sub>, released halide gives AgCl white, AgBr cream, or AgI yellow precipitate. The rate follows RI > RBr > RCl because less bond energy is needed to break C–I.
+
+## 15.2 Nucleophilic substitution
+
+Nucleophiles donate a lone pair to the δ<sup>+</sup> carbon and replace X<sup>−</sup>. Aqueous OH<sup>−</sup> gives an alcohol; ethanolic CN<sup>−</sup> gives a nitrile; excess ethanolic NH<sub>3</sub> under pressure gives an amine.
+
+<div class="equation-block">R–Br + OH<sup>−</sup> → R–OH + Br<sup>−</sup><br>R–Br + CN<sup>−</sup> → R–CN + Br<sup>−</sup><br>R–Br + 2NH<sub>3</sub> → R–NH<sub>2</sub> + NH<sub>4</sub><sup>+</sup> + Br<sup>−</sup></div>
+
+Using CN<sup>−</sup> is valuable because it adds one carbon atom to the chain. Acid hydrolysis of the nitrile then gives a carboxylic acid.
+
+Primary halogenoalkanes normally react by **S<sub>N</sub>2**: one concerted step, with nucleophile attack and C–X breaking simultaneously; the rate depends on both halogenoalkane and nucleophile. Tertiary halogenoalkanes usually react by **S<sub>N</sub>1**: slow heterolytic C–X fission makes a carbocation, then rapid nucleophile attack; the rate depends only on halogenoalkane concentration.
+
+## 15.3 Elimination and preparation
+
+Hot ethanolic OH<sup>−</sup> promotes elimination: H and X are removed from adjacent atoms to form C=C, for example CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br + OH<sup>−</sup> → CH<sub>3</sub>CH=CH<sub>2</sub> + H<sub>2</sub>O + Br<sup>−</sup>. Aqueous OH<sup>−</sup> instead favours substitution. Halogenoalkanes are also formed by free-radical substitution of alkanes with Cl<sub>2</sub>/UV, and by electrophilic addition of HX or X<sub>2</sub> to alkenes.
+
+## 15.4 CFCs and ozone depletion
+
+CFCs were useful as refrigerants and propellants because they are inert, non-flammable and non-toxic at ground level. Strong C–F bonds help their stability. Their long lifetime lets them diffuse to the stratosphere, where UV radiation causes homolytic bond fission and releases chlorine radicals.
+
+<div class="equation-block">CCl<sub>2</sub>F<sub>2</sub> → CClF<sub>2</sub>· + Cl·<br>Cl· + O<sub>3</sub> → ClO· + O<sub>2</sub><br>ClO· + O → Cl· + O<sub>2</sub></div>
+
+Chlorine radical is regenerated, so one radical can catalyse the destruction of many ozone molecules. Ozone normally absorbs harmful UV radiation; CFC manufacture has therefore been phased out under the Montreal Protocol.
+
+## Multiple choice questions
+
+::: {.mc-question #hal-mc-01 data-answer="C"}
+### Question 1 · 3.3 Choice Easy Q1
+<p>X and Y convert 1-bromopropane into butanoic acid via a nitrile. What are X and Y?</p>
+![Conversion of 1-bromopropane to butanoic acid via a nitrile](../assets/questions/extracted/15/independent/choice-easy-q1-figure.png){.question-figure fig-alt="Reaction sequence from 1-bromopropane to butanoic acid via a nitrile" style="filter: invert(1);"}
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>NH<sub>3</sub>; HCl(aq)</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>KCN in ethanol; NaOH(aq)</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>KCN in ethanol; HCl(aq)</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>HCN; NaOH(aq)</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> CN<sup>−</sup> substitutes for Br then acid hydrolysis converts –CN into –COOH.</p></details>
+:::
+
+::: {.mc-question #hal-mc-02 data-answer="B"}
+### Question 2 · 3.3 Choice Easy Q2
+<p>Which reaction occurs when ethane and chlorine are mixed in diffused sunlight?</p><div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>free-radical substitution with hydrogen given off</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>free-radical substitution with hydrogen chloride given off</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>free-radical substitution with no gas given off</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>nucleophilic substitution with hydrogen chloride given off</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Chlorine radicals replace H atoms and form HCl.</p></details>
+:::
+
+::: {.mc-question #hal-mc-03 data-answer="C"}
+### Question 3 · 3.3 Choice Easy Q3
+<p>Why are CFCs such as CCl<sub>3</sub>F more stable than chloroalkanes such as CCl<sub>4</sub>?</p><div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>F has a higher first ionisation energy than Cl.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>F radicals are more stable than Cl radicals.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>The C–F bond energy is larger than the C–Cl bond energy.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>The C–F bond is more polar than the C–Cl bond.</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> The strong C–F bond resists bond breaking.</p></details>
+:::
+
+::: {.mc-question #hal-mc-04 data-answer="D"}
+### Question 4 · 3.3 Choice Easy Q4
+<p>Light initiates alkane + chlorine → chloroalkane + hydrogen chloride. What happens to chlorine?</p><div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>heterolytic fission to give an electrophile</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>homolytic fission to give an electrophile</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>heterolytic fission to give a free radical</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>homolytic fission to give a free radical</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> UV light splits Cl–Cl equally to give two Cl· radicals.</p></details>
+:::
+
+::: {.mc-question #hal-mc-05 data-answer="C"}
+### Question 5 · 3.3 Choice Easy Q6
+<p>Which reaction is an example of nucleophilic substitution?</p><div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>CH<sub>3</sub>CH<sub>2</sub>Br → CH<sub>2</sub>=CH<sub>2</sub> + HBr</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>CH<sub>2</sub>=CH<sub>2</sub> + HBr → CH<sub>3</sub>CH<sub>2</sub>Br</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>C<sub>3</sub>H<sub>7</sub>Br + H<sub>2</sub>O → C<sub>3</sub>H<sub>7</sub>OH + HBr</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>C<sub>2</sub>H<sub>6</sub> + Br<sub>2</sub> → C<sub>2</sub>H<sub>5</sub>Br + HBr</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Water/OH<sup>−</sup> replaces bromine.</p></details>
+:::
+
+::: {.mc-question #hal-mc-06 data-answer="D"}
+### Question 6 · 3.3 Choice Easy Q7
+<p>Methanol reacts with HBr: CH<sub>3</sub>OH + HBr → CH<sub>3</sub>Br + H<sub>2</sub>O. What type of reaction is this?</p><div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>condensation</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>electrophilic substitution</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>free-radical substitution</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>nucleophilic substitution</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Br<sup>−</sup> replaces the protonated –OH group.</p></details>
+:::
+
+::: {.mc-question #hal-mc-07 data-answer="A"}
+### Question 7 · 3.3 Choice Easy Q8
+<p>Which statement helps explain why dichlorodifluoromethane, CCl<sub>2</sub>F<sub>2</sub>, is chemically inert?</p><div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>The carbon-fluorine bond energy is large.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>The carbon-fluorine bond has low polarity.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Fluorine is highly electronegative.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Fluorine compounds are non-flammable.</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> High C–F bond enthalpy makes bond breaking difficult.</p></details>
+:::
+
+::: {.mc-question #hal-mc-08 data-answer="B"}
+### Question 8 · 3.3 Choice Easy Q9
+<p>What is the function of light in the reaction of chlorine with methane?</p><div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>break C–H bonds in methane</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>break chlorine molecules into radicals</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>break chlorine molecules into ions</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>heat the mixture</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> It supplies energy for homolytic fission of Cl<sub>2</sub>.</p></details>
+:::
+
+::: {.mc-question #hal-mc-09 data-answer="D"}
+### Question 9 · 3.3 Choice Easy Q10
+<p>Which reagents and conditions will convert propane into 1-chloropropane? 1 Cl<sub>2</sub> and sunlight  2 concentrated HCl, reflux  3 PCl<sub>5</sub></p><div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 only</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Only chlorine/UV substitutes H in propane.</p></details>
+:::
+
+::: {.mc-question #hal-mc-10 data-answer="D"}
+### Question 10 · 3.3 Choice Medium Q1
+<p>1-chlorobutane, 1-bromobutane and 1-iodobutane hydrolyse at rates RCl &lt; RBr &lt; RI. Why?</p><div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>R–X bond polarity decreases.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>AgX solubility decreases.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>halogen ionisation energy decreases.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>R–X bond energy decreases from RCl to RI.</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> C–I is weakest, so it breaks most easily.</p></details>
+:::
+
+::: {.mc-question #hal-mc-11 data-answer="B"}
+### Question 11 · 3.3 Choice Medium Q2
+![Two-step conversion of bromoethane to chloroethane](../assets/questions/extracted/15/independent/choice-medium-q2-figure.png){.question-figure fig-alt="Reaction sequence from bromoethane to ethanol to chloroethane"}
+<p>Chloroethane is formed from bromoethane in two steps: C<sub>2</sub>H<sub>5</sub>Br → C<sub>2</sub>H<sub>5</sub>OH → C<sub>2</sub>H<sub>5</sub>Cl. Which statements are correct? 1 Step X involves nucleophilic substitution. 2 Hot aqueous sodium hydroxide is used in X. 3 Hot aqueous sodium chloride is the only possible reagent in Y.</p><div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 only</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> The alcohol can be converted with several chlorinating reagents, not only NaCl(aq).</p></details>
+:::
+
+::: {.mc-question #hal-mc-12 data-answer="A"}
+### Question 12 · 3.3 Choice Medium Q3
+<p>What is involved in the mechanism between aqueous sodium hydroxide and 1-bromobutane?</p><div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Attack by a nucleophile on a carbon atom with a partial positive charge.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Heterolytic fission and nucleophile attack on a carbocation.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Homolytic fission and electrophile attack on a carbanion.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Homolytic fission and nucleophile attack on a carbocation.</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Primary halogenoalkanes react by S<sub>N</sub>2, without a carbocation intermediate.</p></details>
+:::
+
+::: {.mc-question #hal-mc-13 data-answer="D"}
+### Question 13 · 3.3 Choice Medium Q4
+<p>Chlorine and propane in UV light produce 1-chloropropane and 2-chloropropane. Which information is correct?</p><div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>heterolytic fission; 1:1</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>heterolytic fission; 3:1</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>homolytic fission; 1:1</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>homolytic fission; 3:1</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Six equivalent primary H atoms and two secondary H atoms give a 3:1 statistical ratio.</p></details>
+:::
+
+::: {.mc-question #hal-mc-14 data-answer="C"}
+### Question 14 · 3.3 Choice Medium Q5
+<p>Bromine and propene undergo addition. Which is a property of the product?</p><div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>It exists in cis-trans isomers.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>It is more volatile than propene.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>It possesses a chiral centre.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>It possesses hydrogen bonding.</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> 1,2-dibromopropane has a carbon attached to H, Br, CH<sub>3</sub> and CH<sub>2</sub>Br.</p></details>
+:::
+
+::: {.mc-question #hal-mc-15 data-answer="D"}
+### Question 15 · 3.3 Choice Medium Q9
+<p>In hydrolysis of bromoethane by aqueous sodium hydroxide, what are the attacking group and leaving group?</p><div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>electrophile; electrophile</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>electrophile; nucleophile</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>nucleophile; electrophile</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>nucleophile; nucleophile</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> OH<sup>−</sup> donates a pair; Br<sup>−</sup> leaves with the bonding pair.</p></details>
+:::
+
+::: {.mc-question #hal-mc-16 data-answer="C"}
+### Question 16 · 3.3 Choice Medium Q10
+<p>Which reaction gives 2-chloropropane in the best yield?</p><div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>propane with chlorine/UV</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>propan-2-ol with dilute NaCl(aq)</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>propan-2-ol with SOCl<sub>2</sub></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>propene with dilute HCl(aq)</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Thionyl chloride converts the alcohol selectively; the other routes give mixtures/poor reaction.</p></details>
+:::
+
+::: {.mc-question #hal-mc-17 data-answer="A"}
+### Question 17 · 3.3 Choice Medium Q11
+<p>Aqueous sodium hydroxide reacts with 1-bromopropane to give propan-1-ol. How should the first step be described?</p><div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Curly arrow from a lone pair on OH<sup>−</sup> to Cδ<sup>+</sup> of 1-bromopropane.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Curly arrow from Cδ<sup>+</sup> to OH<sup>−</sup>.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Curly arrow from C–Br bond to C.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Homolytic fission of C–Br.</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Electron pairs move from nucleophile to electrophilic carbon.</p></details>
+:::
+
+::: {.mc-question #hal-mc-18 data-answer="C"}
+### Question 18 · 3.3 Choice Hard Q1
+![Hydrolysis rate comparison for chloroethane and Y](../assets/questions/extracted/15/independent/choice-hard-q1-graph.png){.question-figure fig-alt="Graph comparing moles of sodium halide formed from Y and chloroethane over time" style="filter: invert(1);"}
+<p>Hydrolysis of CH<sub>3</sub>CH<sub>2</sub>Cl and Y gives more sodium halide from Y in the same time. Which compounds could be Y? 1 ClCH<sub>2</sub>CH<sub>2</sub>Cl  2 CH<sub>3</sub>CH<sub>2</sub>Br  3 CH<sub>3</sub>CH<sub>2</sub>I</p><div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 only</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Bromo- and iodoethane hydrolyse faster because C–Br/C–I are weaker; a dichloro compound does not have a faster C–Cl bond.</p></details>
+:::
+
+::: {.mc-question #hal-mc-19 data-answer="D"}
+### Question 19 · 3.3 Choice Hard Q2
+<p>An isomer of C<sub>4</sub>H<sub>9</sub>Br hydrolyses at a rate unaffected by [OH<sup>−</sup>]. Which structure is most likely?</p><div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>Br</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>CH<sub>3</sub>CH<sub>2</sub>CHBrCH<sub>3</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>Br</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>(CH<sub>3</sub>)<sub>3</sub>CBr</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> A tertiary halogenoalkane can react by S<sub>N</sub>1; its rate-determining ionisation does not involve OH<sup>−</sup>.</p></details>
+:::
+
+::: {.mc-question #hal-mc-20 data-answer="A"}
+### Question 20 · 3.3 Choice Hard Q3
+<p>Which statements are true for an S<sub>N</sub>2 reaction? 1 One bond is broken as another forms. 2 The transition state involves collision of two species. 3 A carbon in the transition state is bonded fully or partially to five atoms.</p><div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 only</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Bond making and breaking are concerted in a five-coordinate transition state.</p></details>
+:::
+
+## Structured questions
+
+::: {.question-card #hal-sq-01}
+### Question 1 · 3.3 SQ Easy Q1(a-d)
+![Fig. 1.1 Structure of the bromoalkane](../assets/questions/extracted/15/independent/sq-easy-q1-fig-1-1.png){.question-figure fig-alt="Displayed formula of a bromoalkane" style="filter: invert(1);"}
+![Fig. 1.2 Structure of the corresponding chloroalkane](../assets/questions/extracted/15/independent/sq-easy-q1-fig-1-2.png){.question-figure fig-alt="Displayed formula of the corresponding chloroalkane"}
+<p><strong>(a)</strong> Name the bromoalkane shown and state its class.</p>
+<p><strong>(b)</strong> State the colour of precipitate formed with acidified AgNO<sub>3</sub>.</p>
+<p><strong>(c)</strong> The halogenoalkane is heated under reflux with alcoholic KCN: draw the product.</p>
+<p><strong>(d)</strong> Explain why the corresponding chloroalkane reacts more slowly under the same conditions.</p><details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>Use the longest chain and identify whether the C–Br carbon is primary, secondary or tertiary.</li><li>AgBr is cream.</li><li>CN<sup>−</sup> replaces Br; the product is the one-carbon-longer nitrile.</li><li>C–Br has lower bond enthalpy than C–Cl and therefore breaks more readily.</li></ol></details>
+:::
+
+::: {.question-card #hal-sq-02}
+### Question 2 · 3.3 SQ Easy Q2(a-c)
+<p>Propane is converted into 1-chloropropane (step 1), then propene (step 2).</p>
+<p><strong>(a)</strong> State conditions and mechanism for step 1.</p>
+<p><strong>(b)</strong> Write both propagation equations.</p>
+<p><strong>(c)</strong> Name the mechanism in step 2 and state reagent and conditions.</p><details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>Cl<sub>2</sub>, UV light; free-radical substitution.</li><li>Cl· + CH<sub>3</sub>CH<sub>2</sub>CH<sub>3</sub> → HCl + CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>·; CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>· + Cl<sub>2</sub> → CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Cl + Cl·.</li><li>Elimination; hot ethanolic KOH/NaOH.</li></ol></details>
+:::
+
+::: {.question-card #hal-sq-03}
+### Question 3 · 3.3 SQ Easy Q3(a-c)
+![Fig. 3.1 Incomplete SN1 mechanism](../assets/questions/extracted/15/independent/sq-easy-q3-fig-3-1.png){.question-figure fig-alt="Incomplete two-step SN1 mechanism for 2-bromo-2-methylpropane with hydroxide ions" style="filter: invert(1);"}
+<p><strong>(a)</strong> State what is meant by a tertiary halogenoalkane and what the numbers 1 and 2 refer to in S<sub>N</sub>1 and S<sub>N</sub>2.</p>
+<p><strong>(b)</strong> Complete the S<sub>N</sub>1 mechanism for 2-bromo-2-methylpropane with hydroxide ions and identify the rate-determining step.</p>
+<p><strong>(c)</strong> Excess ethanolic ammonia is heated under pressure with 2-bromo-2-methylpropane: draw the product and state its functional group.</p><details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>The C bonded to X is attached to three carbon atoms; 1/2 indicate the number of species in the rate-determining step.</li><li>Slow C–Br heterolytic fission forms a tertiary carbocation and Br<sup>−</sup>; rapid OH<sup>−</sup> attack follows. Step 1 is rate determining.</li><li>(CH<sub>3</sub>)<sub>3</sub>CNH<sub>2</sub>, a primary amine.</li></ol></details>
+:::
+
+::: {.question-card #hal-sq-04}
+### Question 4 · 3.3 SQ Medium Q1(a-e)
+<p><strong>(a)</strong> State the H–C–H bond angle at terminal =CH<sub>2</sub> in propene.</p>
+<p><strong>(b)</strong> State fully the type of reaction when propene forms 1,2-dichloropropane.</p>
+<p><strong>(c)</strong> State conditions and type of reaction for ethane + chlorine → chloroethane + HCl.</p>
+<p><strong>(d)</strong> Use bond enthalpy ideas to explain why iodine does not make iodoethane from ethane.</p>
+<p><strong>(e)</strong> Complete possible radical equations in formation of chloroethane.</p><details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>120°.</li><li>Electrophilic addition.</li><li>UV light; free-radical substitution.</li><li>H abstraction by I· is energetically unfavourable, so the chain process is not sustained.</li><li>CH<sub>3</sub>CH<sub>2</sub>· + Cl<sub>2</sub> → CH<sub>3</sub>CH<sub>2</sub>Cl + Cl·; valid termination equations combine radicals.</li></ol></details>
+:::
+
+::: {.question-card #hal-sq-05}
+### Question 5 · 3.3 SQ Medium Q2(a-e)
+![Fig. 2.1 Reaction scheme from 1-chloropropane](../assets/questions/extracted/15/independent/sq-medium-q2-fig-2-1.png){.question-figure fig-alt="Reaction scheme showing 1-chloropropane forming propene, butanenitrile and propan-1-amine"}
+![Fig. 2.2 Concentration-time graph](../assets/questions/extracted/15/independent/sq-medium-q2-fig-2-2.png){.question-figure fig-alt="Concentration of a tertiary chloroalkane plotted against time"}
+<p>1-chloropropane reacts to form propene, butanenitrile and propan-1-amine.</p>
+<p><strong>(a)</strong> State reagents/conditions for each, including the product with aqueous NaOH.</p>
+<p><strong>(b)</strong> A tertiary chloroalkane reacts with aqueous alkali: calculate rate from the given concentration graph.</p>
+<p><strong>(c)</strong> Classify its mechanism.</p>
+<p><strong>(d)</strong> Give AgNO<sub>3</sub>/ethanol observations and rate order for 1-chloro-, 1-bromo- and 1-iodobutane.</p>
+<p><strong>(e)</strong> Draw the HBr addition mechanism to 2-methylpropene.</p><details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>Hot ethanolic OH<sup>−</sup> gives propene; KCN/ethanol under reflux gives butanenitrile; excess ethanolic NH<sub>3</sub> under pressure gives propan-1-amine; aqueous OH<sup>−</sup> under reflux gives propan-1-ol.</li><li>Use gradient of tangent at 50 s, with units mol dm<sup>−3</sup> s<sup>−1</sup>.</li><li>S<sub>N</sub>1.</li><li>AgBr is cream; RI &gt; RBr &gt; RCl.</li><li>Electrophilic addition via tertiary carbocation, then Br<sup>−</sup> attack.</li></ol></details>
+:::
+
+::: {.question-card #hal-sq-06}
+### Question 6 · 3.3 SQ Hard Q1(a-d)
+<p>A student compares rates of hydrolysis of six halogenoalkanes using ethanol, a 50 °C water bath and AgNO<sub>3</sub>.</p>
+<p><strong>(a)</strong> Suggest improvements to the method and state the reaction type other than precipitation.</p>
+<p><strong>(b)</strong> Describe/explain two factors that affect rate.</p>
+<p><strong>(c)</strong> Aqueous 1-bromopentane reacts with aqueous NaOH: identify the mechanism, number of steps, bromine-containing product and changed conditions that give three products.</p>
+<p><strong>(d)</strong> 1-chloropentane is prepared from an alcohol and SOCl<sub>2</sub>: give equation/state symbols and a justified safety precaution.</p>
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li><strong>(a)</strong> Control volumes/concentrations, use identical apparatus and a thermostated bath, repeat trials. The organic reaction is hydrolysis/nucleophilic substitution.</li><li><strong>(b)</strong> Rate increases with weaker C–X bond and with less steric hindrance / a more stable carbocation where S<sub>N</sub>1 applies.</li><li><strong>(c)</strong> S<sub>N</sub>2, one step; NaBr; using ethanolic NaOH also permits elimination.</li><li><strong>(d)</strong> CH<sub>3</sub>(CH<sub>2</sub>)<sub>4</sub>OH(l) + SOCl<sub>2</sub>(l) → CH<sub>3</sub>(CH<sub>2</sub>)<sub>4</sub>Cl(l) + SO<sub>2</sub>(g) + HCl(g). Use a fume cupboard because acidic/toxic gases are released.</li></ol></details>
+:::
+
+::: {.question-card #hal-sq-07}
+### Question 7 · 3.3 SQ Hard Q2(a-d)
+<p>2-bromo-2-methylpropane is refluxed with ethanolic KOH.</p>
+<p><strong>(a)</strong> Name products and mechanisms.</p>
+<p><strong>(b)</strong> Explain the mixture of alkene and alcohol.</p>
+<p><strong>(c)</strong> Give the equation between butan-2-ol and PI<sub>3</sub>.</p>
+<p><strong>(d)</strong> Explain why sulfuric acid cannot be used to prepare an iodoalkane.</p><details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>2-methylpropene by elimination and 2-methylpropan-2-ol by nucleophilic substitution.</li><li>Ethanolic OH<sup>−</sup> favours elimination but water present can act as nucleophile, producing some alcohol.</li><li>3CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>3</sub> + PI<sub>3</sub> → 3CH<sub>3</sub>CH(I)CH<sub>2</sub>CH<sub>3</sub> + H<sub>3</sub>PO<sub>3</sub>.</li><li>Concentrated H<sub>2</sub>SO<sub>4</sub> oxidises I<sup>−</sup>/HI to I<sub>2</sub> rather than only generating HI.</li></ol></details>
+:::
+
+::: {.question-card #hal-sq-08}
+### Question 8 · 3.3 SQ Hard Q3(a-c)
+![Fig. 3.1 Reaction scheme for compounds G and H](../assets/questions/extracted/15/independent/sq-hard-q3-fig-3-1.png){.question-figure fig-alt="Reaction scheme showing compound G forming compound H and a nitrile" style="filter: invert(1);"}
+<p>A chloroalkane G forms an alkene H and a nitrile. H does not show geometrical isomerism.</p>
+<p><strong>(a)</strong> Draw G and H.</p>
+<p><strong>(b)</strong> State reagents/conditions for reaction A.</p>
+<p><strong>(c)</strong> Name and draw the mechanism for reaction B, including charges, lone pairs and curly arrows.</p><details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>H is an alkene in which one C of C=C has two identical groups; G is the matching chloroalkane.</li><li>Reaction A uses hot ethanolic OH<sup>−</sup> for elimination.</li><li>Reaction B is nucleophilic substitution with KCN in ethanol under reflux: the CN<sup>−</sup> lone pair attacks Cδ<sup>+</sup> and the C–Cl bond electrons move to Cl.</li></ol></details>
+:::
+
+::: {.question-card #hal-sq-09}
+### Question 9 · 3.3 SQ Hard Q4(a-f)
+![Apparatus for producing and collecting gaseous butenes](../assets/questions/extracted/15/independent/sq-hard-q4-apparatus.png){.question-figure fig-alt="Gas syringe and reflux condenser apparatus for producing gaseous butenes"}
+<p>Bromobutanes react with hot ethanolic KOH to produce gaseous butenes.</p>
+<p><strong>(a)</strong> State purpose of the condenser.</p>
+<p><strong>(b)</strong> Give a test for the functional group in the gas.</p>
+<p><strong>(c)</strong> Calculate percentage conversion from given amount and gas volume.</p>
+<p><strong>(d)</strong> Use gas volumes before/after cooling to calculate temperature.</p>
+<p><strong>(e)</strong> Identify reaction/mechanism forming butan-1-ol and give an alcohol test.</p>
+<p><strong>(f)</strong> Draw alkene isomers from 2-bromobutane.</p><details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>The condenser prevents loss of volatile ethanol/reactants while heating under reflux.</li><li>Bromine water decolourises, confirming C=C.</li><li>Use pV=nRT at the stated conditions, then compare moles of alkene with initial 0.0080 mol.</li><li>At constant pressure, V/T is constant.</li><li>Nucleophilic substitution by OH<sup>−</sup>; use acidified dichromate(VI), orange to green on warming, to confirm a primary alcohol.</li><li>But-1-ene, cis-but-2-ene and trans-but-2-ene.</li></ol></details>
+:::
+
+::: {.question-card #hal-sq-10}
+### Question 10 · 3.3 SQ Medium Q3(a-d)
+![Fig. 3.1 Reaction scheme for 1-bromobutane](../assets/questions/extracted/15/independent/sq-medium-q3-fig-3-1.png){.question-figure fig-alt="Reaction scheme showing reactions of 1-bromobutane with aqueous and ethanolic sodium hydroxide"}
+<p>1-bromobutane is prepared from KBr, H<sub>2</sub>SO<sub>4</sub> and butan-1-ol.</p>
+<p><strong>(a)</strong> Write the equations for HBr formation and the alcohol reaction.</p>
+<p><strong>(b)</strong> State two other preparations of 1-bromobutane.</p>
+<p><strong>(c)</strong> Complete the reaction scheme from 1-bromobutane using aqueous/ethanolic NaOH and oxidation.</p>
+<p><strong>(d)</strong> Explain why hydrolysis with aqueous AgNO<sub>3</sub> is slower than with aqueous NaOH.</p><details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>KBr + H<sub>2</sub>SO<sub>4</sub> → KHSO<sub>4</sub> + HBr; CH<sub>3</sub>(CH<sub>2</sub>)<sub>3</sub>OH + HBr → CH<sub>3</sub>(CH<sub>2</sub>)<sub>3</sub>Br + H<sub>2</sub>O.</li><li>For example butan-1-ol with PBr<sub>3</sub>, or substitution of a suitable butane derivative under stated conditions.</li><li>Aqueous OH<sup>−</sup> gives butan-1-ol then oxidation gives butanoic acid; ethanolic OH<sup>−</sup> gives but-1-ene, then hot acidified KMnO<sub>4</sub> cleaves it.</li><li>AgNO<sub>3</sub> provides only water as the attacking nucleophile, whereas OH<sup>−</sup> is a stronger, negatively charged nucleophile.</li></ol></details>
+:::
+
+## Original question PDFs
+
+- [3.3 Choice Easy](../assets/questions/original-source/3.3_halogen_compounds___choice___easy.pdf)
+- [3.3 Choice Medium](../assets/questions/original-source/3.3_halogen_compounds___choice___medium.pdf)
+- [3.3 Choice Hard](../assets/questions/original-source/3.3_halogen_compounds___choice___hard.pdf)
+- [3.3 SQ Easy](../assets/questions/original-source/3.3_halogen_compounds___sq___easy.pdf)
+- [3.3 SQ Medium](../assets/questions/original-source/3.3_halogen_compounds___sq___medium.pdf)
+- [3.3 SQ Hard](../assets/questions/original-source/3.3_halogen_compounds___sq___hard.pdf)
