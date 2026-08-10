@@ -68,8 +68,9 @@ details.answer-panel summary { cursor: pointer; font-weight: 650; color: #065f46
 .source-preview summary { cursor: pointer; color: var(--chem-accent); font-size: 0.92em; }
 .source-preview .question-figure { max-height: 720px; object-fit: contain; }
 .question-figure-grid { display: grid; gap: 0.65rem; margin: 1rem auto; }
-.option-figure-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 760px; }
-.option-figure-grid img { display: block; width: 100%; max-width: 100%; height: auto; margin: 0 auto; border: 1px solid var(--chem-border); border-radius: 8px; background: #fff; }
+.option-figure-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.65rem; max-width: 520px; margin: 1rem auto; }
+.option-figure-grid > span { display: block; text-align: center; }
+.option-figure-grid img { display: block; width: min(100%, 190px); max-width: 100%; height: 150px; object-fit: contain; margin: 0 auto; border: 1px solid var(--chem-border); border-radius: 8px; background: #fff; }
 .question-figure-pair { display: flex; align-items: center; justify-content: center; gap: 0.35rem; min-height: 110px; }
 .question-figure-pair img:first-child { width: min(100%, 100px); margin: 0; }
 .question-figure-pair img:last-child { width: min(100%, 160px); margin: 0; border: 0; }

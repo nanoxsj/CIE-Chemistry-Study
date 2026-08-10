@@ -1,0 +1,647 @@
+---
+title: "17 Carbonyl compounds"
+subtitle: "AS 3.5 Carbonyl compounds"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    smooth-scroll: true
+---
+
+# 17 Carbonyl compounds
+
+本章只覆盖 Cambridge International AS Level Chemistry 9701 的 **3.5 Carbonyl compounds**。题干与选项通过 OCR 录入；原题中的结构式、反应图和表格按原 PDF 中的独立图像对象提取。无法独立提取的页面截图不放入本页；本页不加入 A2 内容。
+
+## Learning objectives
+
+学完本章后，你应该能够：
+
+- identify aldehydes and ketones from their structural and displayed formulae;
+- explain the polarity of the carbonyl group and describe nucleophilic addition with hydrogen cyanide;
+- distinguish aldehydes from ketones using Tollens' reagent, Fehling's solution and 2,4-DNPH;
+- describe oxidation of aldehydes and reduction of aldehydes and ketones;
+- select suitable conditions for controlled oxidation;
+- apply the triiodomethane test and carbonyl reaction pathways.
+
+## 17.1 Structure and properties
+
+The carbonyl group is a carbon atom double-bonded to an oxygen atom, `C=O`. Oxygen is more electronegative than carbon, so the bond is polarised:
+
+$$\ce{C^{delta+}=O^{delta-}}$$
+
+The carbonyl carbon is electron-deficient and is attacked by nucleophiles. The carbonyl carbon is trigonal planar, with bond angles close to 120°. The C=O bond consists of one sigma bond and one pi bond; the pi bond is the part that is broken when a nucleophile adds to the carbonyl group.
+
+![Extracted aldehyde and ketone reduction overview](../assets/notes/carbonyl-compounds/reduction-aldehyde-ketone.png){.question-figure fig-alt="Extracted reduction overview for aldehydes and ketones"}
+
+An aldehyde has the general formula `RCHO`; its carbonyl group is at the end of a carbon chain. A ketone has the general formula `RR'CO`; its carbonyl group is between two carbon atoms.
+
+| Type | General structure | Example |
+|---|---|---|
+| aldehyde | `RCHO` | methanal, `HCHO`; ethanal, `CH3CHO` |
+| ketone | `RR'CO` | propanone, `CH3COCH3`; butanone, `CH3COCH2CH3` |
+
+The suffix for an aldehyde is **-al** and the suffix for a ketone is **-one**. The carbonyl carbon in an aldehyde is carbon 1. In a ketone, the chain is numbered so that the carbonyl carbon has the lowest possible number.
+
+## 17.2 Nucleophilic addition of hydrogen cyanide
+
+### Reaction and conditions
+
+Hydrogen cyanide adds across the C=O bond of both aldehydes and ketones. The reaction uses HCN with a small amount of soluble cyanide, such as KCN or NaCN, as a catalyst. The product is a **hydroxynitrile** (also called a cyanohydrin):
+
+$$\ce{RCHO + HCN -> RCH(OH)CN}$$
+
+$$\ce{RR'CO + HCN -> RR'C(OH)CN}$$
+
+The reaction produces a new C–C bond and converts the planar carbonyl carbon into a tetrahedral carbon atom. If the product carbon is attached to four different groups, a pair of optical isomers can form. The planar carbonyl group can be attacked from either side, so the products are normally formed as a racemic mixture.
+
+### Mechanism
+
+1. The cyanide ion, `CN−`, is the nucleophile. Its lone pair attacks the `δ+` carbonyl carbon.
+2. The C=O pi-electron pair moves onto oxygen, forming an alkoxide ion.
+3. The alkoxide ion accepts a proton from HCN, producing the hydroxyl group and regenerating `CN−`.
+
+![Extracted HCN nucleophilic addition mechanism](../assets/notes/carbonyl-compounds/hcn-mechanism.png){.question-figure fig-alt="Extracted HCN nucleophilic addition mechanism"}
+
+The reaction is called **nucleophilic addition** because a nucleophile adds to a polar multiple bond and only one organic product is formed. It is not nucleophilic substitution: no atom or group is replaced.
+
+## 17.3 Oxidation of aldehydes and ketones
+
+Aldehydes are readily oxidised to carboxylic acids:
+
+$$\ce{RCHO + [O] -> RCOOH}$$
+
+For example:
+
+$$\ce{CH3CHO + [O] -> CH3COOH}$$
+
+Acidified potassium dichromate(VI) changes from orange to green. Acidified potassium manganate(VII) changes from purple to colourless. When a primary alcohol is oxidised, distillation removes the aldehyde as it forms and limits further oxidation. Refluxing allows the aldehyde to remain in the flask and gives the carboxylic acid.
+
+![Extracted oxidising-agent colour changes](../assets/notes/carbonyl-compounds/oxidising-agent-colours.png){.question-figure fig-alt="Extracted colour changes for dichromate and manganate oxidising agents"}
+
+![Extracted controlled oxidation apparatus](../assets/notes/carbonyl-compounds/controlled-oxidation.png){.question-figure fig-alt="Extracted distillation method for controlled oxidation"}
+
+![Extracted oxidation of propan-2-ol to propanone](../assets/notes/carbonyl-compounds/oxidation-secondary-alcohol.png){.question-figure fig-alt="Extracted oxidation of propan-2-ol to propanone"}
+
+Ketones do not oxidise under the usual AS test conditions. Oxidising a ketone requires breaking carbon–carbon bonds, so ketones do not give the aldehyde oxidation tests.
+
+The oxidation distinction is important:
+
+| Compound | Acidified dichromate(VI) / manganate(VII) | Tollens' reagent | Fehling's solution |
+|---|---|---|---|
+| aldehyde | oxidised; oxidising agent changes colour | silver mirror | blue solution gives red precipitate |
+| ketone | no reaction under AS conditions | no visible change | solution remains blue |
+
+## 17.4 Reduction of aldehydes and ketones
+
+The AS reducing agent is aqueous sodium tetrahydridoborate(III), NaBH<sub>4</sub>, usually warmed in aqueous or aqueous-ethanolic solution. In equations, `[H]` may be used to represent the reducing agent.
+
+An aldehyde is reduced to a primary alcohol:
+
+$$\ce{RCHO + 2[H] -> RCH2OH}$$
+
+A ketone is reduced to a secondary alcohol:
+
+$$\ce{RR'CO + 2[H] -> RR'CHOH}$$
+
+The carbonyl carbon becomes tetrahedral. A ketone reduction product may contain a chiral carbon if the two groups originally attached to the carbonyl carbon are different. An aldehyde reduction product has two hydrogen atoms attached to the new alcohol carbon and therefore cannot have a chiral centre at that carbon.
+
+The following extracted note diagram summarises reduction of aldehydes and ketones:
+
+![Extracted reduction products of aldehydes and ketones](../assets/notes/carbonyl-compounds/reduction-aldehyde-ketone.png){.question-figure fig-alt="Extracted comparison of aldehyde and ketone reduction products"}
+
+## 17.5 Chemical tests
+
+### 2,4-dinitrophenylhydrazine (2,4-DNPH)
+
+Add 2,4-DNPH reagent to the carbonyl compound. An aldehyde or ketone gives an orange or deep-orange precipitate of a 2,4-DNPH derivative. A precipitate confirms a carbonyl group but does not distinguish an aldehyde from a ketone.
+
+The derivative can be purified by filtration and recrystallisation. Its melting point can then be compared with reference melting-point data to identify the original carbonyl compound.
+
+![Extracted 2,4-DNPH reaction](../assets/notes/carbonyl-compounds/dnph-reaction.png){.question-figure fig-alt="Extracted 2,4-DNPH condensation reaction"}
+
+![Extracted positive and negative 2,4-DNPH tests](../assets/notes/carbonyl-compounds/dnph-test.png){.question-figure fig-alt="Extracted positive and negative 2,4-DNPH test observations"}
+
+### Tollens' reagent
+
+Tollens' reagent is an alkaline solution containing the diamminesilver(I) complex, `[Ag(NH3)2]+`. Warm the compound with the reagent in a clean test tube:
+
+- an aldehyde is oxidised to a carboxylate ion and silver(I) is reduced to silver, producing a silver mirror;
+- a ketone gives no visible change.
+
+![Extracted Tollens' test](../assets/notes/carbonyl-compounds/tollens-test.png){.question-figure fig-alt="Extracted Tollens' reagent silver mirror test"}
+
+### Fehling's solution
+
+Warm the carbonyl compound with Fehling's solution:
+
+- an aldehyde reduces blue `Cu2+` ions to red copper(I) oxide, `Cu2O`;
+- a ketone gives no reaction and the solution remains blue.
+
+![Extracted Fehling's test](../assets/notes/carbonyl-compounds/fehling-test.png){.question-figure fig-alt="Extracted Fehling's solution test"}
+
+### Triiodomethane test
+
+Warm the compound with alkaline iodine solution. A pale-yellow precipitate of triiodomethane, `CHI3`, indicates either a methyl ketone group, `CH3CO−`, or the related `CH3CH(OH)−` group after oxidation. Propanone and ethanal-derived ethanol-type structures can therefore give a positive result, but not every aldehyde or ketone does.
+
+![Extracted triiodomethane test](../assets/notes/carbonyl-compounds/iodoform-test.png){.question-figure fig-alt="Extracted triiodomethane test for a methyl carbonyl group"}
+
+## 17.6 Reaction pathways and identification strategy
+
+For an unknown organic compound, use the tests in a logical order:
+
+1. Use 2,4-DNPH to establish whether an aldehyde or ketone carbonyl group is present.
+2. If the 2,4-DNPH test is positive, use Tollens' reagent or Fehling's solution to distinguish aldehyde from ketone.
+3. Use acidified dichromate(VI) or manganate(VII) to confirm oxidation of an aldehyde, and record the colour change.
+4. Use NaBH<sub>4</sub> to reduce the carbonyl compound and identify whether the product is a primary or secondary alcohol.
+5. Use the triiodomethane test when a `CH3CO−` or `CH3CH(OH)−` group is suspected.
+6. For a full identification, purify a 2,4-DNPH derivative and compare its melting point with data for known derivatives.
+
+Hydroxynitriles can be hydrolysed under acidic conditions to form an alpha-hydroxycarboxylic acid. Reaction pathways may therefore combine nucleophilic addition, hydrolysis, oxidation, reduction, tests, stereoisomerism and percentage-yield calculations.
+
+## Chapter checklist
+
+- [ ] I can identify aldehydes and ketones.
+- [ ] I can describe HCN nucleophilic addition.
+- [ ] I can distinguish aldehydes and ketones with the standard AS tests.
+- [ ] I can write oxidation and reduction products.
+- [ ] I can apply carbonyl chemistry to reaction pathways and calculations.
+
+## Multiple choice questions
+
+以下 20 道选择题的文字来自原题 OCR；结构式和图示使用完整的独立原图，不使用整页题纸截图。
+
+### 17 Carbonyl compounds — Multiple Choice: Easy
+
+::: {.mc-question #cc17-mc-e1 data-answer="C"}
+### Question 1 · 3.5 Choice Easy Q1
+
+What is formed when butanone is refluxed with a solution of NaBH<sub>4</sub>?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Butane</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Butan-1-ol</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Butan-2-ol</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Butanal</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show answer</summary><p><strong>C.</strong></p></details>
+:::
+
+::: {.mc-question #cc17-mc-e2 data-answer="B"}
+### Question 2 · 3.5 Choice Easy Q2
+
+In 1903 Arthur Lapworth became the first chemist to investigate a reaction mechanism. The reaction of hydrogen cyanide with propanone.
+
+What do we now call the mechanism of this reaction?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Nucleophilic substitution</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Nucleophilic addition</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Electrophilic substitution</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Electrophilic addition</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show answer</summary><p><strong>B.</strong></p></details>
+:::
+
+::: {.mc-question #cc17-mc-e3 data-answer="B"}
+### Question 3 · 3.5 Choice Easy Q3
+
+Which carbonyl compound(s) react with both LiAlH<sub>4</sub> and Tollens' reagent?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Ketones only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Aldehydes only</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Both aldehydes and ketones</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Neither aldehydes nor ketones</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show answer</summary><p><strong>B.</strong></p></details>
+:::
+
+::: {.mc-question #cc17-mc-e4 data-answer="C"}
+### Question 4 · 3.5 Choice Easy Q4
+
+In a nucleophilic addition reaction, aqueous methanolic solution of NaBH<sub>4</sub> acts as a reducing agent when added to propanal, CH<sub>3</sub>CH<sub>2</sub>CHO.
+
+What is the first step of this mechanism?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Attack of an H<sup>−</sup> ion at the oxygen atom of the carbonyl group</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Attack of an H<sup>+</sup> ion at the oxygen atom of the carbonyl group</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Attack of an H<sup>−</sup> ion at the carbon atom of the carbonyl group</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Attack of an H<sup>+</sup> ion at the carbon atom of the carbonyl group</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show answer</summary><p><strong>C.</strong></p></details>
+:::
+
+::: {.mc-question #cc17-mc-e5 data-answer="B"}
+### Question 5 · 3.5 Choice Easy Q5
+
+The characteristic smell of burnt sugar is partly caused by the following compound.
+
+![Complete original carbonyl structure](../assets/questions/extracted/17/carbonyl/source-images/independent/mc-e05-carbonyl.png){.question-figure fig-alt="Complete original structure of the carbonyl compound"}
+
+There are two functional groups in the compound. Which reagent will react with both functional groups?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Sodium hydroxide</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Hydrogen cyanide</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Fehling's solution</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Acidified potassium dichromate (VI)</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show answer</summary><p><strong>B.</strong></p></details>
+:::
+
+::: {.mc-question #cc17-mc-e6 data-answer="B"}
+### Question 6 · 3.5 Choice Easy Q6
+
+In which reaction is the organic compound oxidised?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>CH<sub>3</sub>CH<sub>2</sub>CN + dilute H<sub>2</sub>SO<sub>4</sub></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>CH<sub>3</sub>CH<sub>2</sub>CHO + Tollens' reagent</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>CH<sub>3</sub>COCH<sub>2</sub>CH<sub>3</sub> + 2,4-dinitrophenylhydrazine reagent</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH + concentrated H<sub>3</sub>PO<sub>4</sub></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show answer</summary><p><strong>B.</strong></p></details>
+:::
+
+### 17 Carbonyl compounds — Multiple Choice: Medium
+
+::: {.mc-question #cc17-mc-m1 data-answer="B"}
+### Question 7 · 3.5 Choice Medium Q1
+
+The compounds are:
+
+1. CH<sub>3</sub>COCH<sub>2</sub>CHO &nbsp;&nbsp; 2. CH<sub>3</sub>COCH<sub>2</sub>CH<sub>2</sub>OH &nbsp;&nbsp; 3. CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CHO &nbsp;&nbsp; 4. CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>3</sub>
+
+Which of these compounds gives a positive response to Tollens' reagent and can also be oxidised by acidified dichromate (VI) solution?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 3</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>3 and 4</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show answer</summary><p><strong>B.</strong></p></details>
+:::
+
+::: {.mc-question #cc17-mc-m2 data-answer="D"}
+### Question 8 · 3.5 Choice Medium Q2
+
+When alkaline I<sub>2</sub> solution is added to butanone, a yellow precipitate is formed. Which of the following compounds is responsible for the precipitate?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>CH<sub>3</sub>CH<sub>2</sub>COCH<sub>3</sub></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>CH<sub>3</sub>CH<sub>2</sub>CO<sup>−</sup></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>CH<sub>3</sub>CH(I)COCH<sub>3</sub></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>CHI<sub>3</sub></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show answer</summary><p><strong>D.</strong></p></details>
+:::
+
+::: {.mc-question #cc17-mc-m3 data-answer="D"}
+### Question 9 · 3.5 Choice Medium Q3
+
+Liquid L is known to be either a single organic compound or a mixture of organic compounds. Two tests were done on liquid L:
+
+- When treated with sodium, L gives off hydrogen gas.
+- When treated with 2,4-dinitrophenylhydrazine reagent, L gives orange crystals.
+
+Which deductions about L can definitely be made?
+
+1. At least one component of L is an alcohol.
+2. At least one component of L is a carbonyl compound.
+3. Only one of the components of L is a carbonyl compound.
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>2 only</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show answer</summary><p><strong>D.</strong></p></details>
+:::
+
+::: {.mc-question #cc17-mc-m4 data-answer="C"}
+### Question 10 · 3.5 Choice Medium Q4
+
+The colour of warm acidified sodium dichromate (VI) changes from orange to green when added to compound Y. 1 mol of Y reacts with 2 mol of hydrogen cyanide in the presence of potassium cyanide. What could Y be?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>H<sub>2</sub>C=CHCH<sub>2</sub>CHO</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CHO</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>OHCCH<sub>2</sub>CH<sub>2</sub>CHO</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>CH<sub>3</sub>COCH<sub>2</sub>COCH<sub>3</sub></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show answer</summary><p><strong>C.</strong></p></details>
+:::
+
+::: {.mc-question #cc17-mc-m5 data-answer="C"}
+### Question 11 · 3.5 Choice Medium Q5
+
+Hydroxyethanal has the structural formula HOCH<sub>2</sub>CHO. In an experiment hydroxyethanal is heated under reflux with an excess of acidified potassium dichromate (VI) until no further oxidation takes place.
+
+What is the skeletal formula of the organic product formed in the experiment?
+
+<div class="option-figure-grid"><span><strong>A</strong><img src="../assets/questions/extracted/17/carbonyl/source-images/independent/mc-m05-option-A.png" alt="Option A"></span><span><strong>B</strong><img src="../assets/questions/extracted/17/carbonyl/source-images/independent/mc-m05-option-B.png" alt="Option B"></span><span><strong>C</strong><img src="../assets/questions/extracted/17/carbonyl/source-images/independent/mc-m05-option-C.png" alt="Option C"></span><span><strong>D</strong><img src="../assets/questions/extracted/17/carbonyl/source-images/independent/mc-m05-option-D.png" alt="Option D"></span></div>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Structure A</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Structure B</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Structure C</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Structure D</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show answer</summary><p><strong>C.</strong></p></details>
+:::
+
+::: {.mc-question #cc17-mc-m6 data-answer="A"}
+### Question 12 · 3.5 Choice Medium Q6
+
+Which reagent will give similar results with both propanone and propanal?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>2,4-dinitrophenylhydrazine reagent</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Acidified aqueous potassium dichromate (VI)</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>An aqueous solution containing [Ag(NH<sub>3</sub>)<sub>2</sub>]<sup>+</sup> (Tollens' reagent)</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>An alkaline solution containing complexed Cu<sup>2+</sup> ions (Fehling's solution)</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show answer</summary><p><strong>A.</strong></p></details>
+:::
+
+### 17 Carbonyl compounds — Multiple Choice: Hard
+
+::: {.mc-question #cc17-mc-h1 data-answer="C"}
+### Question 13 · 3.5 Choice Hard Q1
+
+When HCN reacts with butanal, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CHO, product X is formed. If X is then hydrolysed by aqueous acid, product Y is produced. When pentanal, C<sub>4</sub>H<sub>9</sub>CHO, is heated under reflux with acidified potassium dichromate (VI), product Z is formed. What is the difference in relative molecular mass of products Y and Z?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>12</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>14</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>16</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>18</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show answer</summary><p><strong>C.</strong></p></details>
+:::
+
+::: {.mc-question #cc17-mc-h2 data-answer="C"}
+### Question 14 · 3.5 Choice Hard Q2
+
+Cyanohydrins, also called hydroxynitriles, can be made from carbonyl compounds by generating CN<sup>−</sup> ions from HCN in the presence of a weak base.
+
+![Complete original cyanohydrin reaction](../assets/questions/extracted/17/carbonyl/source-images/independent/mc-h02-reaction.png){.question-figure fig-alt="Complete original cyanohydrin reaction scheme"}
+
+In a similar reaction, CH<sub>2</sub>CO<sub>2</sub>CH<sub>3</sub><sup>−</sup> ions are generated from CH<sub>3</sub>CO<sub>2</sub>CH<sub>3</sub> by strong bases. Which compound can be made from an aldehyde and CH<sub>3</sub>CO<sub>2</sub>CH<sub>3</sub> in the presence of a strong base?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>CH<sub>3</sub>CH(OH)CO<sub>2</sub>CH<sub>3</sub></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>CH<sub>3</sub>CO<sub>2</sub>CH<sub>2</sub>CH(OH)CH<sub>3</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>CH<sub>3</sub>CH<sub>2</sub>CH(OH)CH<sub>2</sub>CO<sub>2</sub>CH<sub>3</sub></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>(CH<sub>3</sub>)<sub>2</sub>C(OH)CH<sub>2</sub>CO<sub>2</sub>CH<sub>3</sub></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show answer</summary><p><strong>C.</strong></p></details>
+:::
+
+::: {.mc-question #cc17-mc-h3 data-answer="C"}
+### Question 15 · 3.5 Choice Hard Q3
+
+When compound T reacts with its own oxidation product, a sweet-smelling liquid is produced. What is the identity of compound T?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Butanal</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Butanone</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Butan-1-ol</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Butanoic acid</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show answer</summary><p><strong>C.</strong></p></details>
+:::
+
+::: {.mc-question #cc17-mc-h4 data-answer="B"}
+### Question 16 · 3.5 Choice Hard Q4
+
+Three separate test tubes, 1, 2 and 3, each contain 1 mol of compound X. An excess of sodium borohydride is added to test tube 1 and an excess of acidified sodium permanganate is added to test tube 2. No reagent is added to test tube 3. Following this, 2 mol of HCN(g) is added to each test tube and the HCN completely reacts in all 3. What could X be?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>CH<sub>3</sub>COCH<sub>2</sub>CH<sub>2</sub>CHO</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>CH<sub>3</sub>CH(OH)COCH<sub>3</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>H<sub>2</sub>C=CHCH<sub>2</sub>CHO</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>HOCH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CHO</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show answer</summary><p><strong>B.</strong></p></details>
+:::
+
+::: {.mc-question #cc17-mc-h5 data-answer="B"}
+### Question 17 · 3.5 Choice Hard Q5
+
+Glyceraldehyde, HOCH<sub>2</sub>CH(OH)CHO, is formed during photosynthesis on the pathway to glucose production. Which reagents produce an organic product without a chiral carbon atom when reacted with glyceraldehyde?
+
+1. Warmed acidified K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>
+2. Fehling's reagent
+3. NaBH<sub>4</sub>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 3</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 only</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show answer</summary><p><strong>B.</strong></p></details>
+:::
+
+::: {.mc-question #cc17-mc-h6 data-answer="B"}
+### Question 18 · 3.5 Choice Hard Q6
+
+Which of the following techniques will increase the rate of reaction between ethanal and aqueous hydrogen cyanide?
+
+1. Increasing the temperature.
+2. Performing the reaction under ultraviolet light.
+3. Adding a small quantity of aqueous sodium cyanide.
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 3</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1, 2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show answer</summary><p><strong>B.</strong></p></details>
+:::
+
+::: {.mc-question #cc17-mc-h7 data-answer="C"}
+### Question 19 · 3.5 Choice Hard Q7
+
+Hydrocarbons 1, 2 and 3 all occur naturally.
+
+![Complete original hydrocarbon structures](../assets/questions/extracted/17/carbonyl/source-images/independent/mc-h07-hydrocarbons.png){.question-figure fig-alt="Complete original structures of hydrocarbons 1, 2 and 3"}
+
+All three are treated with hot acidified potassium manganate (VII) separately. Which of the hydrocarbons 1, 2 and 3 will be split into two organic compounds, both containing a ketone group?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 only</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show answer</summary><p><strong>C.</strong></p></details>
+:::
+
+::: {.mc-question #cc17-mc-h8 data-answer="D"}
+### Question 20 · 3.5 Choice Hard Q8
+
+Which carbonyl compounds can be easily oxidised to carboxylic acids that are readily soluble in water?
+
+![Complete original carbonyl compound structures](../assets/questions/extracted/17/carbonyl/source-images/independent/mc-h08-compounds.png){.question-figure fig-alt="Complete original structures of carbonyl compounds 1, 2 and 3"}
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>3 only</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show answer</summary><p><strong>D.</strong></p></details>
+:::
+
+## Structured questions
+
+以下 10 道结构题的题干与小问使用 OCR 文字；仅保留能从原 PDF 独立提取的完整图像对象。
+
+### 17 Carbonyl compounds — Structured Questions: Easy
+
+::: {.question-card #cc17-sq-e1}
+### Question 1 · 3.5 SQ Easy Q1
+
+**(a)** State the reactants that can be oxidised to give an aldehyde and a ketone as products. `[2 marks]`
+
+**(b)** State the oxidation products, where appropriate, of an aldehyde and a ketone. `[2 marks]`
+
+**(c)** Describe how you could use 2,4-DNPH and melting point data to determine the identity of an unknown compound. `[3 marks]`
+:::
+
+::: {.question-card #cc17-sq-e2}
+### Question 2 · 3.5 SQ Easy Q2
+
+Butanone can react with HCN. Complete the reaction mechanism shown in Fig. 2.1 by drawing four curly arrows.
+
+![Complete original mechanism figure](../assets/questions/extracted/17/carbonyl/source-images/independent/sq-e02-mechanism.png){.question-figure fig-alt="Complete original mechanism figure for reaction of butanone with HCN"}
+
+**(b)** Name the organic product produced in part (a). `[1 mark]`
+
+**(c)** Explain why butanone has no positional isomers. `[1 mark]`
+:::
+
+::: {.question-card #cc17-sq-e3}
+### Question 3 · 3.5 SQ Easy Q3
+
+Table 3.1 shows the initial observations for the reaction of Tollens' reagent with aldehydes and ketones. Complete the final observations for aldehydes and ketones. `[2 marks]`
+
+|  | Ketone: initial observation | Ketone: final observation | Aldehyde: initial observation | Aldehyde: final observation |
+|---|---|---|---|---|
+| Tollens' reagent | Colourless solution |  | Colourless solution |  |
+
+Table 3.2 shows the initial observations for the reaction of Fehling's solution with aldehydes and ketones. Complete the final observations for aldehydes and ketones. `[2 marks]`
+
+|  | Ketone: initial observation | Ketone: final observation | Aldehyde: initial observation | Aldehyde: final observation |
+|---|---|---|---|---|
+| Fehling's solution | Blue solution |  | Blue solution |  |
+
+**(c)** Ethanal and propanal are reacted separately and heated with an alkaline solution of iodine.
+
+1. State which aldehyde will give a yellow precipitate.
+2. Explain your answer to part (c)(i). `[2 marks]`
+:::
+
+### 17 Carbonyl compounds — Structured Questions: Medium
+
+::: {.question-card #cc17-sq-m1}
+### Question 4 · 3.5 SQ Medium Q1
+
+Calcium and its compounds have a large variety of applications. Calcium metal reacts readily with most acids. When calcium metal is placed in dilute sulfuric acid, it reacts vigorously at first. After a short time, a layer of calcium sulfate forms on the calcium metal and the reaction stops. Some of the calcium metal and dilute sulfuric acid remain unreacted.
+
+**(a)** Suggest an explanation for these observations. `[1 mark]`
+
+**(b)** Calcium ethanedioate is formed when calcium reacts with ethanedioic acid, HOOCCOOH. Calcium ethanedioate contains one cation and one anion.
+
+1. State the full electronic configuration of the cation in calcium ethanedioate.
+2. Deduce the charge on the cation.
+3. Draw the fully displayed formula of ethanedioic acid. `[3 marks]`
+
+**(c)** Calcium chlorate(I), Ca(ClO)<sub>2</sub>, is used as an alternative to sodium chlorate(I), NaClO, in some household products.
+
+1. Write an ionic equation for the formation of chlorate(I) ion when cold aqueous sodium hydroxide reacts with chlorine. State symbols are not required.
+2. The chlorate(I) ion is unstable and decomposes when heated: 3ClO<sup>−</sup> → 2Cl<sup>−</sup> + ClO<sub>3</sub><sup>−</sup>. Describe what is meant by disproportionation reaction.
+3. Deduce the oxidation number of chlorine in each species in the equation. `[3 marks]`
+
+**(d)** Calcium carbonate reacts with 2-hydroxypropanoic acid to form product Y.
+
+![Complete original Fig. 1.1](../assets/questions/extracted/17/carbonyl/source-images/independent/sq-m01-fig11.png){.question-figure fig-alt="Complete original Fig. 1.1"}
+
+1. Identify the two other products of the reaction of 2-hydroxypropanoic acid with calcium carbonate.
+
+Two possible methods of making 2-hydroxypropanoic acid are shown in Fig. 1.2.
+
+![Complete original Fig. 1.2, first image](../assets/questions/extracted/17/carbonyl/source-images/independent/sq-m01-fig12-0.png){.question-figure fig-alt="Complete original Fig. 1.2 first image"}
+
+![Complete original Fig. 1.2, second image](../assets/questions/extracted/17/carbonyl/source-images/independent/sq-m01-fig12-1.png){.question-figure fig-alt="Complete original Fig. 1.2 second image"}
+
+2. State suitable reagents and conditions for reactions 1 and 3. `[4 marks]`
+:::
+
+::: {.question-card #cc17-sq-m2}
+### Question 5 · 3.5 SQ Medium Q2
+
+Two isomeric compounds are shown below in Fig. 2.1.
+
+![Complete original Fig. 2.1](../assets/questions/extracted/17/carbonyl/source-images/independent/sq-m02-isomers.png){.question-figure fig-alt="Complete original Fig. 2.1 showing isomers A and B"}
+
+1. State the name of each isomer.
+2. Suggest a chemical reagent to distinguish between these isomers and deduce the type of reaction taking place.
+3. State the observations made in each case. `[5 marks]`
+
+**(b)** Compound B, CH<sub>3</sub>CH(CH<sub>3</sub>)CH(OH)COOH, can be oxidised into compound C.
+
+1. Deduce the half-equation for the conversion of compound B into C.
+2. The half-equation for the oxidation reaction using acidified potassium dichromate(VI) is Cr<sub>2</sub>O<sub>7</sub><sup>2−</sup>(aq) + 14H<sup>+</sup>(aq) + 6e<sup>−</sup> → 2Cr<sup>3+</sup>(aq) + 7H<sub>2</sub>O(l). Deduce the overall redox equation for the conversion of B into C. `[3 marks]`
+
+**(c)** The same reaction in part (b) can be used to oxidise ethanol into ethanal or ethanoic acid, depending on the reaction conditions. Outline how the reaction conditions can be changed to produce ethanal or ethanoic acid. `[2 marks]`
+
+**(d)** Under the right conditions, the two molecules of compound A can react together to produce a dimer.
+
+1. Name the type of reaction taking place and state the reaction conditions.
+2. Draw the structure of the product, showing clearly how the two molecules are joined. `[3 marks]`
+:::
+
+::: {.question-card #cc17-sq-m3}
+### Question 6 · 3.5 SQ Medium Q3
+
+Compound W can be converted into three different organic compounds as shown by the reaction scheme in Fig. 3.1.
+
+![Complete original Fig. 3.1](../assets/questions/extracted/17/carbonyl/source-images/independent/sq-m03-scheme.png){.question-figure fig-alt="Complete original reaction scheme Fig. 3.1"}
+
+**(a)** Write an equation for the formation of X. Use `[H]` to represent the reagent in the equation. `[1 mark]`
+
+**(b)** Identify the specific type of isomerism shown by the product Y in Fig. 3.1. Draw the mechanism to show the formation of Y and explain how this leads to the isomers of Y. `[5 marks]`
+
+**(c)** When 5.00 cm<sup>3</sup> of propanal (M<sub>r</sub> = 58.0) were reacted with an excess of acidified potassium dichromate (VI) solution, 4.25 g of propanoic acid (M<sub>r</sub> = 74.0) were obtained. The density of propanal is 0.810 g cm<sup>−3</sup>. Calculate the percentage yield for this reaction. `[3 marks]`
+
+**(d)** A different carbonyl compound, Q (M<sub>r</sub> = 72), reacts with 2,4-dinitrophenylhydrazine but not with Tollens' reagent.
+
+1. State what you would see when Q reacts with 2,4-dinitrophenylhydrazine reagent.
+2. State what functional group is present in Q.
+3. Identify Q either by name or by its structural formula. `[3 marks]`
+
+**(e)** Q can be reduced to compound R.
+
+1. State a suitable reducing agent.
+2. Name the functional group in R (two words are required).
+3. Give the structural formula of R. `[3 marks]`
+:::
+
+::: {.question-card #cc17-sq-m4}
+### Question 7 · 3.5 SQ Medium Q4
+
+2-hydroxybutanoic acid can be made from propanal via a reaction with hydrogen cyanide and the subsequent hydrolysis of 2-hydroxybutanenitrile. A possible pathway is shown in Fig. 4.1. The incomplete mechanism for reaction 2 is shown in Fig. 4.2.
+
+![Complete original Fig. 4.1](../assets/questions/extracted/17/carbonyl/source-images/independent/sq-m04-fig41.png){.question-figure fig-alt="Complete original pathway Fig. 4.1"}
+
+![Complete original Fig. 4.2](../assets/questions/extracted/17/carbonyl/source-images/independent/sq-m04-fig42.png){.question-figure fig-alt="Complete original mechanism Fig. 4.2"}
+
+1. State the reagents and conditions required for reaction 2.
+2. Complete the mechanism for this reaction. `[7 marks]`
+
+**(b)** 2-hydroxybutanenitrile contains a chiral centre. Draw the three-dimensional structures of the two optical isomers. `[2 marks]`
+
+**(c)** State the reagent(s) for reaction 3. `[1 mark]`
+
+**(d)** Compound A forms propanal when reacted with acidified potassium dichromate. Give the structural formula of compound A. `[1 mark]`
+
+**(e)** Compound A and propanal were tested using a series of reagents. For each test, state the positive result and identify which compound(s) would give a positive result. `[6 marks]`
+:::
+
+### 17 Carbonyl compounds — Structured Questions: Hard
+
+::: {.question-card #cc17-sq-h1}
+### Question 8 · 3.5 SQ Hard Q1
+
+**(a)** Aqueous sodium tetrahydridoborate, NaBH<sub>4</sub>, is a common reducing agent. Identify two isomers with the formula C<sub>3</sub>H<sub>6</sub>O that cannot be reduced by aqueous NaBH<sub>4</sub>. `[2 marks]`
+
+**(b)** Identify the two isomers with the formula C<sub>3</sub>H<sub>6</sub>O that can be reduced by aqueous NaBH<sub>4</sub>. `[2 marks]`
+
+**(c)** When NaBH<sub>4</sub> is used as a reducing agent followed by the addition of acid, the reduction products of ketones can exhibit optical isomerism, while the reduction products of aldehydes cannot.
+
+1. Classify the reduction products of aldehydes and ketones.
+2. Explain why the reduction products of ketones can exhibit optical isomerism, while those of aldehydes cannot. `[4 marks]`
+
+**(d)** Explain why the reduction product of a carbonyl compound, by NaBH<sub>4</sub> and acid, cannot be a tertiary alcohol. `[2 marks]`
+:::
+
+::: {.question-card #cc17-sq-h2}
+### Question 9 · 3.5 SQ Hard Q2
+
+**(a)** Analysis of 15.0 g of an organic compound, R, showed it to contain 69.8% carbon, 2.79 g of oxygen and the remaining mass was hydrogen.
+
+1. Calculate the empirical formula of the organic compound R.
+2. Compound R has a molecular mass of 86.0 g mol<sup>−1</sup>. Deduce the molecular formula of compound R. `[4 marks]`
+
+**(b)** Compound R is a straight-chain organic compound. One isomer of compound R produces optical isomers of compound S when reacted with hydrogen cyanide followed by dilute acid.
+
+Compounds R and S were tested with acidified potassium dichromate(VI) and Tollens' reagent. The results are shown in Table 2.1.
+
+| Test | R | S |
+|---|---|---|
+| Acidified potassium dichromate(VI) | Green solution | Green solution |
+| Tollens' reagent | Silver mirror formed | No visible change |
+
+Using this information and your answer from part (a), identify compounds R and S. Justify your answer. `[4 marks]`
+
+**(c)** Draw 3D representations of the two optical isomers of compound S. `[1 mark]`
+
+**(d)** There are some isomers of compound S that do not display optical isomerism. Draw the skeletal formula of these isomers. `[1 mark]`
+:::
+
+::: {.question-card #cc17-sq-h3}
+### Question 10 · 3.5 SQ Hard Q3
+
+**(a)** LiAlH<sub>4</sub> is a reducing agent. LiAlH<sub>4</sub> cannot be used in aqueous solution because it reacts with water to produce LiOH(aq), H<sub>2</sub>(g) and a white precipitate which is soluble in excess sodium hydroxide. Identify the white precipitate. `[1 mark]`
+
+**(b)** Two students try to prepare 2-hydroxybutanoic acid in the laboratory as shown in Fig. 3.1. Both students oxidise butane-1,2-diol to form P in reaction 1. One student then reduces P using LiAlH<sub>4</sub>. Q is formed. The other student reduces P using NaBH<sub>4</sub>. R is formed.
+
+![Complete original Fig. 3.1](../assets/questions/extracted/17/carbonyl/source-images/independent/sq-h03-fig31.png){.question-figure fig-alt="Complete original preparation scheme Fig. 3.1"}
+
+1. State the reagents and conditions required for reaction 1.
+2. Identify which of Q or R is 2-hydroxybutanoic acid and explain the difference between reactions 2 and 3. `[4 marks]`
+
+**(c)** A third student prepares 2-hydroxybutanoic acid using propanal as the starting material as shown in Fig. 3.2. In step 1 the student reacts propanal with a mixture of NaCN and HCN.
+
+![Complete original Fig. 3.2](../assets/questions/extracted/17/carbonyl/source-images/independent/sq-h03-fig32.png){.question-figure fig-alt="Complete original preparation scheme Fig. 3.2"}
+
+Draw the mechanism for the reaction of propanal with the mixture of NaCN and HCN to form S. Identify the ion that reacts with propanal. Draw the structure of the intermediate of the reaction. Include all charges, partial charges, lone pairs and curly arrows. `[4 marks]`
+
+**(d)** Complete the equation for the reaction in step 2, when S is heated under reflux with HCl(aq). `[1 mark]`
+:::
+
+## Original question PDFs
+
+- [3.5 Carbonyl compounds — Choice — Easy](../assets/questions/original-source/3.5_carbonyl_compounds___choice___easy.pdf)
+- [3.5 Carbonyl compounds — Choice — Medium](../assets/questions/original-source/3.5_carbonyl_compounds___choice___medium.pdf)
+- [3.5 Carbonyl compounds — Choice — Hard](../assets/questions/original-source/3.5_carbonyl_compounds___choice___hard.pdf)
+- [3.5 Carbonyl compounds — Structured Questions — Easy](../assets/questions/original-source/3.5_carbonyl_compounds___sq___easy.pdf)
+- [3.5 Carbonyl compounds — Structured Questions — Medium](../assets/questions/original-source/3.5_carbonyl_compounds___sq___medium.pdf)
+- [3.5 Carbonyl compounds — Structured Questions — Hard](../assets/questions/original-source/3.5_carbonyl_compounds___sq___hard.pdf)
