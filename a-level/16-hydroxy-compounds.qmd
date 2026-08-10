@@ -1,0 +1,589 @@
+---
+title: "16 Hydroxy compounds"
+subtitle: "AS 3.4 Alcohols and hydroxy compounds"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+# 16 Hydroxy compounds
+
+本章只覆盖 AS 3.4 Hydroxy compounds，重点是 **alcohols**。题目使用 AS 原题包中的原文，不改写题干；可独立提取的结构式、流程图和装置图保留为独立图像。A2 的 phenol、diazonium coupling、mesalamine 等内容不放在本章。
+
+## Learning objectives
+
+学完本章后，你应该能够：
+
+- classify alcohols as primary, secondary or tertiary;
+- explain the solubility and weak acidity of alcohols;
+- write equations for combustion and reactions with sodium, hydrogen halides, phosphorus halides and thionyl chloride;
+- distinguish oxidation of primary, secondary and tertiary alcohols;
+- select reflux or distillation conditions for controlled oxidation;
+- describe dehydration as an elimination reaction and predict alkene products;
+- explain esterification, optical isomerism and the triiodomethane test.
+
+## 16.1 Classification and properties of alcohols
+
+An alcohol contains a hydroxyl group, `−OH`, bonded to a saturated carbon atom. The class depends on the number of carbon atoms attached to the carbon bearing `−OH`:
+
+| Class | Carbon attached to `−OH` | Example |
+|---|---:|---|
+| primary | one other carbon | propan-1-ol, `CH3CH2CH2OH` |
+| secondary | two other carbons | propan-2-ol, `CH3CH(OH)CH3` |
+| tertiary | three other carbons | 2-methylpropan-2-ol, `(CH3)3COH` |
+
+The oxygen atom in an alcohol is electronegative and has two lone pairs. Alcohol molecules can form hydrogen bonds with water, so lower alcohols are soluble in water. The alkyl group is electron-donating; this makes the alkoxide ion more likely to accept a proton, so alcohols are weaker acids than water.
+
+$$\ce{ROH(aq) <=> RO-(aq) + H+(aq)}$$
+
+## 16.2 Reactions of alcohols
+
+Alcohols burn completely in oxygen to form carbon dioxide and water. They react with sodium to give a sodium alkoxide and hydrogen:
+
+$$\ce{2ROH + 2Na -> 2RONa + H2}$$
+
+Hydrogen halides and phosphorus halides convert alcohols into halogenoalkanes by substitution. For example, phosphorus pentachloride gives hydrogen chloride and phosphoryl chloride:
+
+$$\ce{ROH + PCl5 -> RCl + HCl + POCl3}$$
+
+Alcohols react with carboxylic acids in the presence of concentrated sulfuric acid and heat to form esters and water. The reaction is reversible and is a condensation reaction.
+
+## 16.3 Oxidation of alcohols
+
+Primary alcohols oxidise first to aldehydes and then to carboxylic acids. Distilling the aldehyde off as it forms limits further oxidation; heating under reflux gives the carboxylic acid. Secondary alcohols oxidise to ketones. Tertiary alcohols are not oxidised by acidified dichromate(VI) or manganate(VII) under these conditions because no hydrogen is attached to the carbon bearing `−OH`.
+
+Acidified potassium dichromate(VI) changes from orange to green. Acidified potassium manganate(VII) changes from purple/pink to colourless.
+
+## 16.4 Dehydration, stereoisomerism and tests
+
+Dehydration removes water from one alcohol molecule to form an alkene. Suitable conditions include passing alcohol vapour over hot aluminium oxide or heating with concentrated phosphoric acid/sulfuric acid. A secondary alcohol may form more than one alkene; but-2-ene gives cis–trans isomers because the double bond cannot rotate.
+
+The triiodomethane test is positive for ethanol and alcohols containing the `CH3CH(OH)−` group. A pale yellow precipitate of `CHI3` forms.
+
+## Chapter checklist
+
+- [ ] I can classify an alcohol from its displayed or structural formula.
+- [ ] I can write the balanced equation for complete combustion.
+- [ ] I can distinguish the products of primary, secondary and tertiary alcohol oxidation.
+- [ ] I can choose reflux or distillation conditions for oxidation.
+- [ ] I can write substitution equations using `PCl5`, `PBr3` or hydrogen halides.
+- [ ] I can explain dehydration and identify possible alkene products.
+- [ ] I can use the triiodomethane test and identify a chiral alcohol.
+
+## Multiple choice questions
+
+### 16 Hydroxy compounds — Multiple Choice: Easy
+
+::: {.mc-question #hc16-mc-e1 data-answer="A"}
+### Question 1 · 3.4 Choice Easy Q1
+
+Compound X produces a carboxylic acid when heated under reflux with acidified potassium dichromate (VI). Compound X has no reaction with sodium metal.
+
+What could be the identity of compound X?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Propanal</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Propanone</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Propan-1-ol</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Propan-2-ol</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Propanal oxidises to a carboxylic acid and is not an alcohol, so it does not react with sodium.</p></details>
+:::
+
+::: {.mc-question #hc16-mc-e2 data-answer="C"}
+### Question 2 · 3.4 Choice Easy Q2
+
+Considering only structural isomers, what is the number of alcohols of each type with the formula <span> C<sub>5</sub>H<sub>12</sub>O</span>?
+
+|  | Primary | Secondary | Tertiary |
+|---|---:|---:|---:|
+| A | 3 | 3 | 2 |
+| B | 4 | 2 | 2 |
+| C | 4 | 3 | 1 |
+| D | 5 | 2 | 1 |
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>3, 3, 2</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>4, 2, 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>4, 3, 1</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>5, 2, 1</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> The structural-isomer count is four primary, three secondary and one tertiary alcohol; stereoisomers are not counted separately.</p></details>
+:::
+
+::: {.mc-question #hc16-mc-e3 data-answer="B"}
+### Question 3 · 3.4 Choice Easy Q3
+
+Which sequence of reagents may be used in the laboratory to convert propan-1-ol into 2-bromopropane?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Concentrated sulfuric acid, followed by bromine</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Concentrated sulfuric acid, followed by potassium bromide</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Ethanolic sodium hydroxide, followed by bromine</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Ethanolic sodium hydroxide, followed by potassium bromide</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Concentrated sulfuric acid with potassium bromide generates hydrogen bromide, which substitutes the alcohol group.</p></details>
+:::
+
+::: {.mc-question #hc16-mc-e4 data-answer="D"}
+### Question 4 · 3.4 Choice Easy Q4
+
+Which diagram gives the skeletal formula of 4-chloropentan-2-ol?
+
+<div class="question-figure-grid option-figure-grid"><span><strong>A</strong><img src="../assets/questions/extracted/16/independent/easy-q4-003-000.png" alt="Option A"></span><span><strong>B</strong><img src="../assets/questions/extracted/16/independent/easy-q4-003-001.png" alt="Option B"></span><span><strong>C</strong><img src="../assets/questions/extracted/16/independent/easy-q4-003-002.png" alt="Option C"></span><span><strong>D</strong><img src="../assets/questions/extracted/16/independent/easy-q4-003-003.png" alt="Option D"></span></div>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Diagram A</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Diagram B</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Diagram C</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Diagram D</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Numbering gives the hydroxyl group the lowest locant: OH at carbon 2 and chlorine at carbon 4.</p></details>
+:::
+
+::: {.mc-question #hc16-mc-e5 data-answer="D"}
+### Question 5 · 3.4 Choice Easy Q5
+
+What can be produced when an aqueous solution of butan-2-ol is oxidised under suitable conditions?
+
+1. Butanone<br>2. Butanoic acid<br>3. Butanal
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 only</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Butan-2-ol is a secondary alcohol and oxidises to butanone only.</p></details>
+:::
+
+::: {.mc-question #hc16-mc-e6 data-answer="D"}
+### Question 6 · 3.4 Choice Easy Q6
+
+Which structures show a primary alcohol that cannot be dehydrated to form an alkene?
+
+1. <span>CH<sub>3</sub>OH</span><br>2. <span>CH<sub>3</sub>CH<sub>2</sub>OH</span><br>3. <span>CH<sub>3</sub>CH(OH)CH<sub>3</sub></span>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 only</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Methanol has no adjacent carbon from which a hydrogen can be removed to form a C=C bond.</p></details>
+:::
+
+### 16 Hydroxy compounds — Multiple Choice: Medium
+
+::: {.mc-question #hc16-mc-m1 data-answer="B"}
+### Question 7 · 3.4 Choice Medium Q1
+
+Which isomer of <span>C<sub>4</sub>H<sub>10</sub>O</span> forms three alkenes on dehydration?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Butan-1-ol</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Butan-2-ol</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2-methylpropan-1-ol</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>2-methylpropan-2-ol</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Butan-2-ol gives but-1-ene, cis-but-2-ene and trans-but-2-ene.</p></details>
+:::
+
+::: {.mc-question #hc16-mc-m2 data-answer="C"}
+### Question 8 · 3.4 Choice Medium Q2
+
+Primary alcohols can be oxidised to aldehydes using either acidified potassium dichromate (VI) or acidified potassium manganate (VII). Both these oxidising agents change colour as they are reduced.
+
+What is the colour of each oxidising agent before and after it has reacted?
+
+|  | Acidified potassium dichromate (VI) before | after | Acidified potassium manganate (VII) before | after |
+|---|---|---|---|---|
+| A | Green | Orange | Purple | Colourless |
+| B | Orange | Green | Colourless | Purple |
+| C | Orange | Green | Purple | Colourless |
+| D | Purple | Colourless | Orange | Green |
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Green → orange; purple → colourless</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Orange → green; colourless → purple</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Orange → green; purple → colourless</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Purple → colourless; orange → green</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Dichromate(VI) is orange and is reduced to green chromium(III); manganate(VII) is purple and is reduced to colourless manganate(II).</p></details>
+:::
+
+::: {.mc-question #hc16-mc-m3 data-answer="C"}
+### Question 9 · 3.4 Choice Medium Q3
+
+Lactic acid, <span>CH<sub>3</sub>CH(OH)CO<sub>2</sub>H</span>, causes pain when it builds up in muscles.
+
+Which reagent reacts with both of the `−OH` groups in lactic acid?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Acidified potassium dichromate (VI)</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Ethanol</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Sodium</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Sodium hydroxide</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Sodium reacts with both the alcohol `−OH` and the carboxylic acid `−OH`; sodium hydroxide reacts with the acid group only.</p></details>
+:::
+
+::: {.mc-question #hc16-mc-m4 data-answer="A"}
+### Question 10 · 3.4 Choice Medium Q4
+
+Which reagent could detect the presence of alcohol in a petrol consisting mainly of a mixture of alkanes and alkenes?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Na</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Br<sub>2</sub> (in CCl<sub>4</sub>)</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>KMnO<sub>4</sub> (aq)</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>2,4-dinitrophenylhydrazine</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Sodium reacts with an alcohol to produce hydrogen; alkanes and alkenes do not give this test.</p></details>
+:::
+
+::: {.mc-question #hc16-mc-m5 data-answer="B"}
+### Question 11 · 3.4 Choice Medium Q5
+
+Which reagent reacts with ethanol and also reacts with ethanoic acid?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Acidified potassium dichromate (VI)</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Sodium</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Sodium carbonate</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Sodium hydroxide</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Both ethanol and ethanoic acid react with sodium to form hydrogen.</p></details>
+:::
+
+::: {.mc-question #hc16-mc-m6 data-answer="C"}
+### Question 12 · 3.4 Choice Medium Q6
+
+Prop-2-en-1-ol, also known as allyl alcohol, reacts to form a product that can exist as optical isomers.
+
+Which reagent would produce optical isomers from allyl alcohol?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Phosphorus pentachloride</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Sodium</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Bromine</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Hydrogen and nickel</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Addition of bromine to the double bond gives a molecule with a chiral carbon atom.</p></details>
+:::
+
+### 16 Hydroxy compounds — Multiple Choice: Hard
+
+::: {.mc-question #hc16-mc-h1 data-answer="B"}
+### Question 13 · 3.4 Choice Hard Q1
+
+Which of the following alcohols would give a positive triiodomethane reaction?
+
+<img src="../assets/questions/extracted/16/independent/hard-choice-002-001.png" class="question-figure" alt="Eight alcohol structures labelled 1 to 8" style="filter: invert(1);">
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 7</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>2, 4 and 7</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>3, 4 and 5</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>6, 7 and 8</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> The triiodomethane test is positive for ethanol and alcohols containing the `CH3CH(OH)−` group.</p></details>
+:::
+
+::: {.mc-question #hc16-mc-h2 data-answer="C"}
+### Question 14 · 3.4 Choice Hard Q2
+
+An organic compound J reacts with sodium to produce an organic ion with a charge of −3. J reacts with NaOH (aq) to produce an organic ion with a charge of −1.
+
+What could be the structural formula of J?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>HO<sub>2</sub>CCH(OH)CH<sub>2</sub>CO<sub>2</sub>H</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>HO<sub>2</sub>CCH(OH)CH<sub>2</sub>CHO</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>HOCH<sub>2</sub>CH(OH)CH<sub>2</sub>CO<sub>2</sub>H</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>HOCH<sub>2</sub>COCH<sub>2</sub>CHO</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> It contains two alcohol groups and one carboxylic acid group: sodium reacts with all three, whereas aqueous sodium hydroxide reacts with the carboxylic acid group only.</p></details>
+:::
+
+::: {.mc-question #hc16-mc-h3 data-answer="C"}
+### Question 15 · 3.4 Choice Hard Q3
+
+The apparatus below shows an organic synthesis reaction:
+
+<img src="../assets/questions/extracted/16/independent/hard-choice-003-001.png" class="question-figure" alt="Apparatus for dehydration or cracking and collection of gas" style="filter: invert(1);">
+
+Which processes could be shown using the above apparatus?
+
+1. Dehydration of ethanol (liquid Z)<br>2. Oxidation of ethanol (liquid Z)<br>3. Cracking of paraffin (liquid Z)
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>1 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 only</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Alcohol dehydration and paraffin cracking can produce gases over a heated catalyst. The apparatus is not the oxidation setup for ethanol.</p></details>
+:::
+
+::: {.mc-question #hc16-mc-h4 data-answer="A"}
+### Question 16 · 3.4 Choice Hard Q4
+
+An organic compound Y with molecular formula <span>C<sub>5</sub>H<sub>12</sub>O</span> is oxidised to compound Z with molecular formula <span>C<sub>5</sub>H<sub>10</sub>O<sub>2</sub></span>.
+
+What could be the structural formula of Y?
+
+1. <span>CH<sub>3</sub>(CH<sub>2</sub>)<sub>4</sub>OH</span><br>2. <span>CH<sub>3</sub>CH<sub>2</sub>CH(CH<sub>2</sub>OH)CH<sub>3</sub></span><br>3. <span>CH<sub>3</sub>C(CH<sub>3</sub>)<sub>2</sub>CH<sub>2</sub>OH</span>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 3</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>3 only</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Each structure is a primary alcohol and can be oxidised to a carboxylic acid with formula <span>C<sub>5</sub>H<sub>10</sub>O<sub>2</sub></span>.</p></details>
+:::
+
+::: {.mc-question #hc16-mc-h5 data-answer="A"}
+### Question 17 · 3.4 Choice Hard Q5
+
+Anumber of alcohols with the formula <span>C<sub>4</sub>H<sub>10</sub>O</span> are separately oxidised. Using 65 g of the alcohols a 55% yield of organic product is achieved.
+
+What mass of product could be obtained?
+
+1. 42.6 g of butanoic acid<br>2. 42.6 g of 2-methylpropanoic acid<br>3. 34.6 g of butanone
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 only</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> The two primary alcohol isomers give acids of the stated mass at 55% yield; the secondary alcohol gives butanone with the stated mass.</p></details>
+:::
+
+::: {.mc-question #hc16-mc-h6 data-answer="B"}
+### Question 18 · 3.4 Choice Hard Q6
+
+In a multi-step synthesis reaction, butanal is converted into a compound Z.
+
+<span>CH<sub>3</sub>(CH<sub>2</sub>)<sub>2</sub>CHO</span> → **HCN, NaCN** → X → **hot dilute H<sub>2</sub>SO<sub>4</sub>** → Y → **CH<sub>3</sub>CH<sub>2</sub>OH, heat, trace of concentrated H<sub>2</sub>SO<sub>4</sub>** → Z
+
+What could Z be?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>CH<sub>3</sub>(CH<sub>2</sub>)<sub>3</sub>COOCH<sub>2</sub>CH<sub>3</sub></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>CH<sub>3</sub>(CH<sub>2</sub>)<sub>2</sub>CH(OH)COOCH<sub>2</sub>CH<sub>3</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>CH<sub>3</sub>(CH<sub>2</sub>)CH(OH)COCH<sub>2</sub>CH<sub>3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>CH<sub>3</sub>(CH<sub>2</sub>)<sub>2</sub>CH(OCH<sub>2</sub>CH<sub>3</sub>)COOH</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Butanal forms a hydroxynitrile, hydrolysis gives 2-hydroxypentanoic acid, and ethanol esterifies the acid.</p></details>
+:::
+
+::: {.mc-question #hc16-mc-h7 data-answer="D"}
+### Question 19 · 3.4 Choice Hard Q7
+
+What will react differently with the two isomeric alcohols, <span>(CH<sub>3</sub>)<sub>3</sub>CCH<sub>2</sub>OH</span> and <span>(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>CH<sub>2</sub>OH</span>?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Sodium</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Acidified aqueous potassium dichromate (VI)</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Phosphorus pentachloride</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Concentrated sulfuric acid</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Both are primary alcohols, but their dehydration products differ because the available adjacent carbons differ.</p></details>
+:::
+
+::: {.mc-question #hc16-mc-h8 data-answer="C"}
+### Question 20 · 3.4 Choice Hard Q8
+
+Compound Q has the molecular formula <span>C<sub>10</sub>H<sub>14</sub>O</span> and is unreactive towards mild oxidising agents.
+
+Which structure formed by the dehydration of compound Q?
+
+<div class="question-figure-grid option-figure-grid"><span><strong>A</strong><img src="../assets/questions/extracted/16/independent/hard-choice-005-000.png" alt="Option A"></span><span><strong>B</strong><img src="../assets/questions/extracted/16/independent/hard-choice-005-001.png" alt="Option B"></span><span><strong>C</strong><img src="../assets/questions/extracted/16/independent/hard-choice-005-002.png" alt="Option C"></span><span><strong>D</strong><img src="../assets/questions/extracted/16/independent/hard-choice-005-003.png" alt="Option D"></span></div>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Structure A</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Structure B</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Structure C</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Structure D</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Q is a tertiary alcohol, so dehydration gives the more substituted alkene shown in structure C.</p></details>
+:::
+
+## Structured questions
+
+### 3.4 Hydroxy Compounds — Structured Questions: Easy
+
+::: {.question-card #hc16-sq-e1}
+### Question 1 · 3.4 SQ Easy Q1
+
+**(a)** Butan-1-ol can undergo different reactions, State the equation for the combustion of butan-1-ol. `[2 marks]`
+
+**(b)** A flow chart for some reactions of butan-2-ol is shown below.
+
+<img src="../assets/questions/extracted/16/independent/sq-easy-002-001.png" class="question-figure" alt="Flow chart for reactions of butan-2-ol" style="filter: invert(1);">
+
+State the reagents and conditions required for reactions 1 and 3. `[3 marks]`
+
+**(c)** Name compound A. `[1 mark]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>**(a)** <span>$\ce{C4H9OH + 6O2 -> 4CO2 + 5H2O}$</span>.</li><li>**(b)** Reaction 1: hot aluminium oxide catalyst, or concentrated sulfuric/phosphoric acid and heat. Reaction 3: sodium or potassium bromide with concentrated acid, or HBr at room temperature, or PBr<sub>3</sub> with heat.</li><li>**(c)** Butanone.</li></ul></details>
+:::
+
+::: {.question-card #hc16-sq-e2}
+### Question 2 · 3.4 SQ Easy Q2
+
+**(a)** State to which class of alcohol the following alcohols belong to in Table 2.1.
+
+| Alcohol | Class of Alcohol |
+|---|---|
+| 2-methylpropan-2-ol | |
+| Butan-1-ol | |
+| Butan-2-ol | |
+| 2-methylpropan-1-ol | |
+
+`[4 marks]`
+
+**(b)** Write equations for
+
+1. The dissociation of water
+2. The dissociation of butan-1-ol
+
+`[2 marks]`
+
+**(c)** Explain why alcohols are weaker acids than water. `[3 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>**(a)** Tertiary; primary; secondary; primary.</li><li>**(b)** <span>$\ce{H2O(l) <=> H+(aq) + OH-(aq)}$</span>; <span>$\ce{CH3CH2CH2CH2OH(aq) <=> CH3CH2CH2CH2O-(aq) + H+(aq)}$</span>.</li><li>**(c)** Alkyl groups have a positive inductive effect and donate electron density to the negatively charged oxygen in the alkoxide ion. The alkoxide ion is more likely to accept H<sup>+</sup> and reform the alcohol.</li></ul></details>
+:::
+
+::: {.question-card #hc16-sq-e3}
+### Question 3 · 3.4 SQ Easy Q3
+
+Three different alcohols, A, B and C are shown in Fig. 3.1.
+
+<img src="../assets/questions/extracted/16/independent/sq-easy-004-001.png" class="question-figure" alt="Displayed formulae of alcohols A, B and C" style="filter: invert(1);">
+
+**(a)** Name alcohol C and state the class of alcohol to which it belongs. `[2 marks]`
+
+**(b)** Alcohol A is refluxed with acidified potassium dichromate.
+
+1. Name the organic product formed.
+2. State the colour change observed in this reaction.
+
+`[2 marks]`
+
+**(c)** Alcohols A, B and C are heated separately with an alkaline solution of iodine. State which alcohol will give a yellow precipitate during this reaction. `[1 mark]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>**(a)** 2-methylpropan-2-ol; tertiary alcohol.</li><li>**(b)** Propanoic acid; orange to green.</li><li>**(c)** Alcohol B.</li></ul></details>
+:::
+
+### 3.4 Hydroxy Compounds — Structured Questions: Medium
+
+::: {.question-card #hc16-sq-m1}
+### Question 4 · 3.4 SQ Medium Q1
+
+Alcohol A has the formula <span>(CH<sub>3</sub>)<sub>3</sub>CCH(OH)CH<sub>3</sub></span> and alcohol B has the formula <span>(CH<sub>3</sub>)<sub>3</sub>CCH<sub>2</sub>CH<sub>2</sub>OH</span>.
+
+**(a)(i)** Draw the displayed formula of alcohol A and state its name in Table 1.1. `[2 marks]`
+
+**(a)(ii)** In Table 1.2 draw the displayed formula of the organic product formed when alcohol A is heated under reflux with acidified potassium dichromate(VI). `[1 mark]`
+
+**(a)(iii)** When alcohol B is heated under reflux with acidified potassium dichromate(VI), a different organic product is formed. Draw the displayed formula of this product in Table 1.3. Explain why this product is different to the one formed in part (ii). `[4 marks]`
+
+**(b)** 2-bromobutane can be prepared by the following reaction:
+
+<span>$\ce{CH3CH(OH)CH2CH3 + Br- -> CH3CH(Br)CH2CH3 + OH-}$</span>
+
+1. Name the type of reaction occurring.
+2. Suggest suitable reagents for this reaction.
+
+`[3 marks]`
+
+**(c)** Explain why both alcohols A and B are soluble in water. `[2 marks]`
+
+**(d)** Alcohols A and B are heated with an alkaline solution of iodine. Complete Table 1.4 stating the observations for each alcohol. `[2 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>**(a)** A is 4,4-dimethylpentan-2-ol and gives the ketone 4,4-dimethylpentan-2-one. B is a primary alcohol and gives 3,3-dimethylbutanal, then the carboxylic acid on reflux; the products differ because A is secondary and B is primary.</li><li>**(b)** Nucleophilic substitution; aqueous bromide / concentrated sulfuric acid to generate HBr, or another suitable source of HBr.</li><li>**(c)** The polar `−OH` group forms hydrogen bonds with water.</li><li>**(d)** Alcohol A: no yellow precipitate. Alcohol B: no yellow precipitate.</li></ul></details>
+:::
+
+::: {.question-card #hc16-sq-m2}
+### Question 5 · 3.4 SQ Medium Q2
+
+**(a)** When pentan-2-ol reacts with concentrated phosphoric acid under reflux, three alkenes are formed, X, Y and Z. X and Y are stereoisomers of one another. Draw the structures of alkenes, X, Y and Z. `[3 marks]`
+
+**(b)** State how the stereoisomers formed in part (a) arise. `[2 marks]`
+
+**(c)** Pentan-2-ol can undergo different reactions. Write the equations for the reaction of pentan-2-ol with the following reagents. You do not need to include state symbols. `[6 marks]`
+
+1. Oxygen
+2. Sodium
+3. Phosphorus(V) chloride
+
+**(d)** Pentan-2-ol can undergo oxidation when reacted with potassium dichromate(VI) to form a ketone. Draw and label the apparatus which would be necessary to ensure that pentan-2-ol was oxidised to the ketone. `[4 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>**(a)** The three products are pent-1-ene, cis-pent-2-ene and trans-pent-2-ene.</li><li>**(b)** Each carbon of the C=C bond has two different atoms/groups attached and the double bond cannot rotate.</li><li>**(c)** <span>$\ce{2CH3CH(OH)CH2CH2CH3 + 15O2 -> 10CO2 + 12H2O}$</span>; <span>$\ce{2CH3CH(OH)CH2CH2CH3 + 2Na -> 2CH3CH(ONa)CH2CH2CH3 + H2}$</span>; <span>$\ce{CH3CH(OH)CH2CH2CH3 + PCl5 -> CH3CH(Cl)CH2CH2CH3 + HCl + POCl3}$</span>.</li><li>**(d)** Use a distillation apparatus: heat the alcohol and oxidising mixture, with a thermometer and condenser leading to a receiving flask, so the ketone distils off before further oxidation.</li></ul></details>
+:::
+
+::: {.question-card #hc16-sq-m3}
+### Question 6 · 3.4 SQ Medium Q3
+
+This question is about the formation of alcohols.
+
+2-bromobutane reacts with OH<sup>−</sup> in aqueous conditions to produce alcohol A.
+
+**(a)** Draw the structure of alcohol A. `[1 mark]`
+
+**(b)** Draw the reaction mechanism for the formation of alcohol A in part (a). `[3 marks]`
+
+**(c)** Alcohol A reacts with ethanoic acid in the presence of concentrated sulfuric acid to form compound B. Draw the structure of compound B. `[1 mark]`
+
+**(d)** Both alcohol A and water can act as weak acids. Explain why alcohol A is a weaker acid than water. `[3 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>**(a)** Butan-2-ol, <span>CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>3</sub></span>.</li><li>**(b)** Nucleophilic substitution: the lone pair on OH<sup>−</sup> attacks the δ<sup>+</sup> carbon and the C–Br bond breaks to Br<sup>−</sup>.</li><li>**(c)** Butan-2-yl ethanoate, <span>CH<sub>3</sub>COOCH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>3</sub></span>.</li><li>**(d)** The alkyl groups have a positive inductive effect and increase electron density on oxygen in the alkoxide ion. The alkoxide ion therefore accepts H<sup>+</sup> more readily than hydroxide, so alcohol A is the weaker acid.</li></ul></details>
+:::
+
+::: {.question-card #hc16-sq-m4}
+### Question 7 · 3.4 SQ Medium Q4
+
+Butan-1-ol can be oxidised by acidified potassium manganate(VII), KMnO<sub>4</sub>, using two different methods.
+
+In the first method, butan-1-ol is added dropwise to acidified potassium manganate(VII), KMnO<sub>4</sub>, and the product is distilled off immediately.
+
+**(a)** Using the symbol `[O]` for the oxidising agent, write an equation for this oxidation of butan-1-ol, showing clearly the structure of the product. State what colour change you would observe. `[2 marks]`
+
+**(b)** In a second method, the mixture of butan-1-ol and acidified potassium manganate(VII), KMnO<sub>4</sub>, is heated under reflux. Identify the product which is obtained by this reaction. `[1 mark]`
+
+**(c)** Give the structures and names of two branched chain alcohols which are both isomers of butan-1-ol. Only Isomer 1 is oxidised when warmed with acidified potassium manganate(VII). `[4 marks]`
+
+**(d)** Write the half equation for the reduction of MnO<sub>4</sub><sup>−</sup> in this reaction. `[2 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>**(a)** <span>$\ce{CH3CH2CH2CH2OH + [O] -> CH3CH2CH2CHO + H2O}$</span>; purple/pink to colourless.</li><li>**(b)** Butanoic acid.</li><li>**(c)** Isomer 1: 2-methylpropan-1-ol, which is primary and oxidises. Isomer 2: 2-methylpropan-2-ol, which is tertiary and does not oxidise under these conditions.</li><li>**(d)** <span>$\ce{MnO4^- + 8H+ + 5e^- -> Mn^{2+} + 4H2O}$</span>.</li></ul></details>
+:::
+
+### 3.4 Hydroxy Compounds — Structured Questions: Hard
+
+::: {.question-card #hc16-sq-h1}
+### Question 8 · 3.4 SQ Hard Q1
+
+Four reactions on butan-2-ol are shown below.
+
+| Reaction | Scheme |
+|---|---|
+| Reaction 1 | Butan-2-ol —<span>H<sub>3</sub>PO<sub>4</sub>, heat</span>→ compound A |
+| Reaction 2 | Butan-2-ol —<span>reagent X</span>→ compound B + HCl + SO<sub>2</sub> |
+| Reaction 3 | Butan-2-ol —<span>PBr<sub>3</sub>, room temp</span>→ compound C |
+| Reaction 4 | Butan-2-ol —<span>reagent Y, room temp</span>→ 2-chlorobutane |
+
+Compound A is a stereoisomer of cis-but-2-ene.
+
+**(a)(i)** Draw the structure of the stereoisomer of cis-but-2-ene. `[1 mark]`
+
+**(a)(ii)** Explain why compound A is less soluble than butan-2-ol. `[2 marks]`
+
+**(b)(i)** The reaction to form 2-chlorobutane produces three products. State the name of reagent Y. `[1 mark]`
+
+**(b)(ii)** Give the formulae of the two other products formed in this reaction. `[2 marks]`
+
+**(c)** Give the equation for the overall reaction between butan-2-ol and phosphorus tribromide which occurs at room temperature. `[2 marks]`
+
+**(d)** Draw the structure of compound B and identify reagent X. `[2 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>**(a)** Draw trans-but-2-ene. Compound A has no polar `−OH` group and cannot hydrogen-bond with water.</li><li>**(b)** Y is phosphorus pentachloride; the other products are HCl and POCl<sub>3</sub>.</li><li>**(c)** <span>$\ce{3CH3CH(OH)CH2CH3 + PBr3 -> 3CH3CH(Br)CH2CH3 + H3PO3}$</span>.</li><li>**(d)** B is 2-chlorobutane and X is thionyl chloride, SOCl<sub>2</sub>.</li></ul></details>
+:::
+
+::: {.question-card #hc16-sq-h2}
+### Question 9 · 3.4 SQ Hard Q2
+
+The structure of glycolic acid is shown in Fig. 2.1.
+
+![Fig. 2.1 Glycolic acid](../assets/questions/extracted/16/independent/sq-hard-004-000.png){.question-figure fig-alt="Displayed structure of glycolic acid"}
+
+**(a)** Complete Table 2.1 to show what you would observe when an aqueous solution of glycolic acid is added separately to each of the reagents. If a reaction occurs, state the functional group of glycolic acid that is responsible for the reaction.
+
+| Reagent | Observation with glycolic acid | Functional group |
+|---|---|---|
+| Mg(s) | | |
+| 2,4-DNPH | | |
+| Acidified KMnO<sub>4</sub> | | |
+
+`[3 marks]`
+
+**(b)** Glycolic acid can also be made by reacting glyoxylic acid with NaBH<sub>4</sub> as shown in Fig. 2.2.
+
+![Fig. 2.2 Formation of glycolic acid](../assets/questions/extracted/16/independent/sq-hard-005-001.png){.question-figure fig-alt="Reduction of glyoxylic acid to glycolic acid"}
+
+1. State the role of NaBH<sub>4</sub> in this reaction.
+2. Write an equation for this reaction using molecular formulae. Use `[H]` to represent NaBH<sub>4</sub>.
+3. Explain why NaBH<sub>4</sub> is a suitable reducing agent for this reaction.
+
+`[4 marks]`
+
+**(c)** When glycolic acid is heated in the presence of a sulfuric acid catalyst, a new compound, Y, <span>C<sub>4</sub>H<sub>4</sub>O<sub>4</sub></span>, is formed. The equation for the reaction is given.
+
+<span>$\ce{2CH2(OH)CO2H -> C4H4O4 + 2H2O}$</span>
+
+The infrared spectrum of Y is shown in Fig. 2.3.
+
+![Fig. 2.3 Infrared spectrum of Y](../assets/questions/extracted/16/independent/sq-hard-006-002.png){.question-figure fig-alt="Infrared spectrum of compound Y"}
+
+1. State how this spectrum differs from an infrared spectrum of glycolic acid. Using Table 2.1, explain your answer with particular reference to the peaks within the range 1500–4000 cm<sup>−1</sup>.
+2. Suggest a structure for Y.
+
+`[4 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>**(a)** Mg: effervescence, carboxylic acid group; 2,4-DNPH: no visible reaction; acidified KMnO<sub>4</sub>: purple to colourless, alcohol group.</li><li>**(b)** NaBH<sub>4</sub> is a reducing agent. <span>$\ce{C2H2O3 + 2[H] -> C2H4O3}$</span>. It reduces the aldehyde group but not the carboxylic acid group.</li><li>**(c)** Y has no carboxylic-acid O–H absorption at 2500–3000 cm<sup>−1</sup> and no alcohol O–H absorption at 3200–3600 cm<sup>−1</sup>; it has an ester C=O absorption. A valid structure is the cyclic diester 1,4-dioxane-2,5-dione.</li></ul></details>
+:::
+
+::: {.question-card #hc16-sq-h3}
+### Question 10 · 3.4 SQ Hard Q3
+
+Compounds W, X and Y are all straight chain carbohydrates with X and Y each containing five carbons. Compound W and a by-product, compound Z, are formed from the reaction between compound X and Y.
+
+Compound X can be fully oxidised by the reaction with acidified potassium manganate(VII) to give compound Y. 5.508 g of compound Y contains 0.054 moles.
+
+**(a)** State the name of compound Y. Justify your answer. `[3 marks]`
+
+**(b)(i)** Draw the full displayed formula of compound W. `[1 mark]`
+
+**(b)(ii)** Explain how compound Z is formed in the reaction. `[1 mark]`
+
+**(c)** Compound X will oxidise to compound Y if allowed to fully oxidise. Explain how a student could stop the full oxidation of compound X. `[4 marks]`
+
+**(d)(i)** Write the structural formula of an isomer of compound X that will not react with acidified potassium manganate(VII). `[1 mark]`
+
+**(d)(ii)** Using your knowledge of bonds present in the oxidation products of different classes of alcohols, suggest why the isomer you have drawn will not react with acidified potassium manganate(VII). `[4 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>**(a)** Y is pentanoic acid. Its molar mass is <span>5.508 ÷ 0.054 = 102.0</span>, matching <span>C<sub>5</sub>H<sub>10</sub>O<sub>2</sub></span>; full oxidation of pentan-1-ol gives pentanoic acid.</li><li>**(b)** W is pentyl pentanoate, <span>CH<sub>3</sub>(CH<sub>2</sub>)<sub>3</sub>COOCH<sub>2</sub>(CH<sub>2</sub>)<sub>3</sub>CH<sub>3</sub></span>. Z is water, formed by condensation of the alcohol and carboxylic acid.</li><li>**(c)** Use excess pentan-1-ol and distil off pentanal immediately as it forms, using a Liebig condenser / a temperature above the aldehyde boiling point.</li><li>**(d)** One valid isomer is 2-methylbutan-2-ol, <span>CH<sub>3</sub>C(OH)(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>3</sub></span>. A tertiary alcohol has no C–H bond on the carbon attached to OH, so it cannot form a C=O bond by oxidation.</li></ul></details>
+:::
+
+## Original question PDFs
+
+- [3.4 Hydroxy Compounds — Choice — Easy](../assets/questions/original-source/3.4_hydroxy_compounds___choice___easy.pdf)
+- [3.4 Hydroxy Compounds — Choice — Medium](../assets/questions/original-source/3.4_hydroxy_compounds___choice___medium.pdf)
+- [3.4 Hydroxy Compounds — Choice — Hard](../assets/questions/original-source/3.4_hydroxy_compounds___choice___hard.pdf)
+- [3.4 Hydroxy Compounds — Structured Questions — Easy](../assets/questions/original-source/3.4_hydroxy_compounds___sq___easy.pdf)
+- [3.4 Hydroxy Compounds — Structured Questions — Medium](../assets/questions/original-source/3.4_hydroxy_compounds___sq___medium.pdf)
+- [3.4 Hydroxy Compounds — Structured Questions — Hard](../assets/questions/original-source/3.4_hydroxy_compounds___sq___hard.pdf)
