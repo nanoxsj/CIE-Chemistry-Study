@@ -1,0 +1,297 @@
+---
+title: "13 An introduction to AS Level organic chemistry"
+subtitle: "Formulae, functional groups, mechanisms, bonding and isomerism"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+# 13 An introduction to AS Level organic chemistry
+
+本章只覆盖 AS 3.1：有机物的表示法、同系物与官能团、命名、反应类型与试剂角色、σ/π 键和杂化，以及结构异构与立体异构。下方题目均来自 **3.1 An Introduction to AS Level Organic Chemistry** 的 AS 原题；无法独立提取的题图没有以截图方式加入。
+
+## Learning objectives
+
+- use molecular, empirical, structural, displayed and skeletal formulae correctly;
+- identify functional groups, homologous series and structural isomerism;
+- apply IUPAC naming rules to simple aliphatic compounds;
+- distinguish electrophiles, nucleophiles and free radicals, and name the mechanism/reaction type;
+- explain σ and π bonds, hybridisation and molecular shape;
+- distinguish E/Z (cis-trans) and optical isomerism.
+
+## 13.1 Formulae, homologous series and functional groups
+
+A **molecular formula** gives the actual number of each atom, for example C<sub>4</sub>H<sub>10</sub>O. An **empirical formula** gives the simplest whole-number ratio, so the empirical formula of C<sub>4</sub>H<sub>10</sub>O is also C<sub>4</sub>H<sub>10</sub>O, but that of C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> is CH<sub>2</sub>O. A **structural formula** groups atoms along the chain, a **displayed formula** shows every bond, and a **skeletal formula** uses line ends/vertices for carbon atoms and omits C-bound H atoms. Hydrogen attached to a heteroatom, for example the O–H hydrogen in an alcohol, is shown.
+
+A **homologous series** is a family of organic compounds with the same functional group and general formula. Consecutive members differ by CH<sub>2</sub>; they have similar chemical properties but show a gradual change in physical properties. A **hydrocarbon** contains hydrogen and carbon only. Important AS patterns are:
+
+| Homologous series | Functional group / general formula | Example suffix |
+|---|---|---|
+| alkane | C<sub>n</sub>H<sub>2n+2</sub>, C–C only | -ane |
+| alkene | C<sub>n</sub>H<sub>2n</sub>, C=C | -ene |
+| halogenoalkane | C–X | fluoro-, chloro-, bromo-, iodo- |
+| alcohol | –OH | -ol |
+| aldehyde | –CHO | -al |
+| ketone | >C=O | -one |
+| carboxylic acid | –COOH | -oic acid |
+| ester | –COO– | alkyl alkanoate |
+| nitrile | –C≡N | -nitrile |
+
+## 13.2 Naming aliphatic compounds
+
+Choose the longest carbon chain containing the highest-priority functional group. Number it from the end that gives the functional group the lowest possible number, then give substituents their locants and list them alphabetically. The stem tells the number of C atoms: meth-, eth-, prop-, but-, pent-, hex-. Include a number before -ene, -ol or -one when its position is not fixed.
+
+For example, CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>3</sub> is **butan-2-ol**, and CH<sub>3</sub>CH(Br)CH(CH<sub>3</sub>)CH<sub>2</sub>OH is **3-bromo-2-methylbutan-1-ol**. In a carboxylic acid the carboxyl carbon is carbon 1 by definition. In an aldehyde, the –CHO carbon is carbon 1 and its hydrogen must not be omitted from a displayed formula.
+
+## 13.3 Characteristic organic reactions and mechanisms
+
+Organic reactions can be described both by reaction type and by mechanism. **Addition** joins atoms to a molecule (often across C=C); **substitution** replaces one atom/group by another; **elimination** removes a small molecule to form a multiple bond; **hydrolysis** breaks a bond using water; **oxidation** raises the oxidation state / adds oxygen / removes hydrogen.
+
+An **electrophile** accepts an electron pair and attacks an electron-rich region, such as the π bond of an alkene. A **nucleophile** donates an electron pair; OH<sup>−</sup>, CN<sup>−</sup> and NH<sub>3</sub> are common examples. A **free radical** has an unpaired electron and is shown with a dot, for example Cl·.
+
+Bond fission is central to mechanisms:
+
+- **Homolytic fission:** one electron goes to each atom, forming radicals: Cl–Cl → 2Cl·.
+- **Heterolytic fission:** both bonding electrons go to one atom, forming ions: C–Br → C<sup>+</sup> + Br<sup>−</sup> (direction depends on relative electronegativity).
+
+Free-radical substitution of an alkane with chlorine under UV light has three stages: **initiation** (Cl–Cl → 2Cl·), **propagation** (radicals react and a new radical is regenerated), and **termination** (two radicals combine). Electrophilic addition occurs when an electrophile accepts the π electrons of an alkene; nucleophilic substitution occurs when a nucleophile replaces a leaving group such as Br<sup>−</sup> in a halogenoalkane.
+
+## 13.4 σ bonds, π bonds, hybridisation and shape
+
+A single bond is one **σ bond**, made by end-on overlap. A double bond contains one σ bond and one **π bond**; a triple bond contains one σ bond and two π bonds. A π bond is made by sideways overlap of unhybridised p orbitals and prevents free rotation about the double bond. This restricted rotation is required for E/Z (cis-trans) isomerism.
+
+| Hybridisation at carbon | Typical bonding | Shape and approximate angle |
+|---|---|---|
+| sp<sup>3</sup> | four σ bonds | tetrahedral, 109.5° |
+| sp<sup>2</sup> | three σ bonds + one unhybridised p orbital | trigonal planar, 120° |
+| sp | two σ bonds + two unhybridised p orbitals | linear, 180° |
+
+Thus each carbon of C=C is sp<sup>2</sup> and trigonal planar. In C≡C each carbon is sp and linear. In methane, one 2s and three 2p orbitals mix to form four equivalent sp<sup>3</sup> orbitals, which repel to a tetrahedral arrangement. Cyclohexane is not planar: sp<sup>3</sup> carbon favours angles close to 109.5°, and a puckered conformation reduces strain.
+
+## 13.5 Structural and stereoisomerism
+
+**Structural isomers** have the same molecular formula but different connectivity. The three types are **chain isomerism** (different carbon skeleton), **positional isomerism** (same functional group in a different position) and **functional-group isomerism** (different functional groups).
+
+**Stereoisomers** have the same connectivity but different arrangement in space. E/Z (cis-trans) isomerism requires restricted rotation about C=C and two different groups attached to each carbon of the double bond. A **chiral centre** is usually a tetrahedral carbon attached to four different groups. A chiral molecule can form a pair of non-superimposable mirror images called **enantiomers**; this is optical isomerism. A molecule with an internal plane of symmetry is not chiral.
+
+## Multiple choice questions
+
+::: {.mc-question #aso-mc-01 data-answer="B"}
+### Question 1 · 3.1 Choice Easy Q1
+<p>Which pairs of homologous series do not have the same carbon:hydrogen ratio?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>aldehydes and ketones</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>alkanes and alkenes</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>carboxylic acids and esters</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>alkenes and aldehydes</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Alkanes have general formula C<sub>n</sub>H<sub>2n+2</sub>, whereas alkenes have C<sub>n</sub>H<sub>2n</sub>.</p></details>
+:::
+
+::: {.mc-question #aso-mc-02 data-answer="C"}
+### Question 2 · 3.1 Choice Easy Q2
+<p>Sucrose is hydrolysed to form glucose and fructose. Which statements are correct?<br>1. Glucose and fructose have the same molecular formula.<br>2. Glucose and fructose are structural isomers.<br>3. The hydrolysis of sucrose is an addition reaction.<br>4. Glucose and fructose have different functional groups.</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 and 2 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1, 2 and 3 only</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>1, 2 and 4 only</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>all four statements</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Glucose and fructose are functional-group structural isomers. Hydrolysis is not addition.</p></details>
+:::
+
+::: {.mc-question #aso-mc-03 data-answer="B"}
+### Question 3 · 3.1 Choice Easy Q3
+<p>Propanone reacts with hydrogen cyanide by a nucleophilic addition mechanism. Which statement is incorrect?</p>
+![Nucleophilic addition mechanism of hydrogen cyanide to propanone](../assets/questions/extracted/13/independent/choice-easy-q3-mechanism.png){.question-figure fig-alt="Curly-arrow mechanism for cyanide addition to propanone"}
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>The carbonyl carbon is electron deficient.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>CN<sup>−</sup> is an electrophile.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>CN<sup>−</sup> donates an electron pair.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>The product contains an additional group.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Cyanide ion is a nucleophile because it donates an electron pair to the δ<sup>+</sup> carbonyl carbon.</p></details>
+:::
+
+::: {.mc-question #aso-mc-04 data-answer="A"}
+### Question 4 · 3.1 Choice Easy Q4
+<p>Which compound can show both optical and geometrical isomerism?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>CH<sub>3</sub>CH=C(CH<sub>3</sub>)CH(OH)CH<sub>3</sub></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>CH<sub>2</sub>=CHCH(OH)CH<sub>3</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>CH<sub>3</sub>CH=C(CH<sub>3</sub>)<sub>2</sub></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>CH<sub>3</sub>CH<sub>2</sub>CH(OH)CH<sub>3</sub></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> The C=C has two different groups on each carbon, and the C bearing OH has four different substituents.</p></details>
+:::
+
+::: {.mc-question #aso-mc-05 data-answer="A"}
+### Question 5 · 3.1 Choice Easy Q6
+<p>Which statement correctly describes electrophilic addition?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>The organic molecule acts as a nucleophile and becomes more saturated.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>The organic molecule acts as an electrophile and becomes more saturated.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>The organic molecule acts as a nucleophile and becomes less saturated.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>The organic molecule acts as an electrophile and becomes less saturated.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> The π electrons of the alkene donate to the electrophile; the double bond becomes a single bond.</p></details>
+:::
+
+::: {.mc-question #aso-mc-06 data-answer="A"}
+### Question 6 · 3.1 Choice Easy Q8
+<p>Which compound can undergo free-radical substitution with chlorine?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>ethane only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>fluoroethane only</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>ethene and ethanal only</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>all four compounds</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> At this level, free-radical substitution is the replacement of H in an alkane by a halogen under UV light.</p></details>
+:::
+
+::: {.mc-question #aso-mc-07 data-answer="C"}
+### Question 7 · 3.1 Choice Easy Q9
+<p>Which species is a nucleophile?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>C<sub>2</sub>H<sub>6</sub></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>H<sup>+</sup></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>OH<sup>−</sup></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Cl<sup>+</sup></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> OH<sup>−</sup> has lone pairs and a negative charge, so it donates an electron pair.</p></details>
+:::
+
+::: {.mc-question #aso-mc-08 data-answer="D"}
+### Question 8 · 3.1 Choice Easy Q10
+<p>What is the lowest number of carbon atoms in a non-cyclic alkane that can have a chiral carbon atom?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>4</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>5</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>6</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>7</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> A carbon needs four different groups; the smallest acyclic alkane able to provide these isomers has seven carbons.</p></details>
+:::
+
+::: {.mc-question #aso-mc-09 data-answer="C"}
+### Question 9 · 3.1 Choice Medium Q1
+<p>How many stereoisomers are possible for γ-linolenic acid, which has three C=C bonds capable of cis-trans isomerism and no chiral centre?</p>
+![Displayed formula of gamma-linolenic acid](../assets/questions/extracted/13/independent/choice-medium-q1-gamma-linolenic-acid.png){.question-figure fig-alt="Displayed formula of gamma-linolenic acid"}
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>2</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>4</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>8</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>16</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Each independent double bond has two arrangements, so 2<sup>3</sup> = 8.</p></details>
+:::
+
+::: {.mc-question #aso-mc-10 data-answer="B"}
+### Question 10 · 3.1 Choice Medium Q2
+<p>How many structural isomers of tribromopropane, C<sub>3</sub>H<sub>5</sub>Br<sub>3</sub>, are possible?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>4</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>5</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>6</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>8</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Enumerating distinct placements of the three Br atoms on the three-carbon chain gives five constitutional isomers.</p></details>
+:::
+
+::: {.mc-question #aso-mc-11 data-answer="C"}
+### Question 11 · 3.1 Choice Medium Q3
+<p>A compound with formula C<sub>8</sub>H<sub>14</sub>O is oxidised to C<sub>8</sub>H<sub>12</sub>O<sub>2</sub>. Which functional group was present in the original compound?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>aldehyde</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>ketone</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>alcohol</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>ester</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Oxidation has added one oxygen and removed two hydrogens, consistent with a primary alcohol forming a carboxylic acid.</p></details>
+:::
+
+::: {.mc-question #aso-mc-12 data-answer="C"}
+### Question 12 · 3.1 Choice Medium Q4
+<p>How many isomeric esters have molecular formula C<sub>5</sub>H<sub>10</sub>O<sub>2</sub>?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>5</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>7</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>9</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>12</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Distribute the five carbons between the alkanoate and alkyl parts, allowing branches where possible.</p></details>
+:::
+
+::: {.mc-question #aso-mc-13 data-answer="B"}
+### Question 13 · 3.1 Choice Medium Q5
+<p>In methyl isocyanate, CH<sub>3</sub>NCO, what is the most likely bond angle around the nitrogen atom?</p>
+<div class="question-figure-grid option-figure-grid"><img src="../assets/questions/extracted/13/independent/choice-medium-q5-option-a.png" alt="Option A methyl isocyanate bond angle diagram"><img src="../assets/questions/extracted/13/independent/choice-medium-q5-option-b.png" alt="Option B methyl isocyanate bond angle diagram"><img src="../assets/questions/extracted/13/independent/choice-medium-q5-option-c.png" alt="Option C methyl isocyanate bond angle diagram"><img src="../assets/questions/extracted/13/independent/choice-medium-q5-option-d.png" alt="Option D methyl isocyanate bond angle diagram"></div>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>90°</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>120°</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>109.5°</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>180°</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Nitrogen is sp<sup>2</sup> hybridised in the N=C arrangement, giving trigonal-planar electron geometry and about 120°.</p></details>
+:::
+
+::: {.mc-question #aso-mc-14 data-answer="C"}
+### Question 14 · 3.1 Choice Medium Q6
+<p>On oxidation of xylitol, which types of organic product can be formed?</p>
+![Displayed structure of xylitol](../assets/questions/extracted/13/independent/choice-medium-q6-xylitol.png){.question-figure fig-alt="Displayed structure of xylitol"}
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>aldehyde only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>aldehyde and carboxylic acid only</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>aldehyde, carboxylic acid and ketone</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>ketone only</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Xylitol has both primary and secondary alcohol groups. Primary alcohol oxidation can give aldehyde/carboxylic acid; secondary alcohol oxidation gives ketone.</p></details>
+:::
+
+::: {.mc-question #aso-mc-15 data-answer="B"}
+### Question 15 · 3.1 Choice Medium Q9
+<p>1-chloroethane, CH<sub>3</sub>CH<sub>2</sub>Cl, reacts with NaOH(aq). What type of reaction is this?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>nucleophilic addition</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>nucleophilic substitution</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>electrophilic addition</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>electrophilic substitution</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> OH<sup>−</sup> donates a lone pair to carbon and replaces the leaving group Cl<sup>−</sup>.</p></details>
+:::
+
+::: {.mc-question #aso-mc-16 data-answer="C"}
+### Question 16 · 3.1 Choice Hard Q1
+<p>Methacrylate acrylonitrile contains carbons that are sp, sp<sup>2</sup> and sp<sup>3</sup> hybridised. What is the most likely bond angle for carbon that is sp<sup>2</sup> hybridised?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>105°</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>109°</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>120°</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>180°</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> sp<sup>2</sup> hybridisation gives three regions of electron density in a trigonal planar arrangement.</p></details>
+:::
+
+::: {.mc-question #aso-mc-17 data-answer="C"}
+### Question 17 · 3.1 Choice Hard Q8
+<p>Including structural and stereoisomers, how many isomeric products are produced when alcoholic NaOH reacts with 2-bromobutane?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>4</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Elimination gives but-1-ene and but-2-ene; but-2-ene has two E/Z forms.</p></details>
+:::
+
+::: {.mc-question #aso-mc-18 data-answer="D"}
+### Question 18 · 3.1 Choice Hard Q9
+<p>How many isomers, including structural and stereoisomers, with formula C<sub>5</sub>H<sub>10</sub> have structures that involve π bonding?</p>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>4</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>5</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>6</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Count the alkene structural isomers and count E/Z forms separately where both double-bond carbons have two different groups.</p></details>
+:::
+
+::: {.mc-question #aso-mc-19 data-answer="D"}
+### Question 19 · 3.1 Choice Hard Q2
+<p>The reaction sequence CH<sub>3</sub>CH=CHCH<sub>3</sub> → CH<sub>3</sub>CH<sub>2</sub>CH(Cl)CH<sub>3</sub> → CH<sub>3</sub>CH<sub>2</sub>CH(OH)CH<sub>3</sub> shows a pair of reaction types. Which row is correct?</p>
+![Reaction sequence from but-2-ene to 2-chlorobutane and butan-2-ol](../assets/questions/extracted/13/independent/choice-hard-q2-reaction-sequence.png){.question-figure fig-alt="Reaction sequence showing electrophilic addition followed by nucleophilic substitution"}
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>electrophilic substitution; nucleophilic addition</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>nucleophilic addition; electrophilic substitution</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>nucleophilic substitution; electrophilic addition</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>electrophilic addition; nucleophilic substitution</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> HCl adds across C=C by electrophilic addition. Aqueous OH<sup>−</sup> then replaces Cl<sup>−</sup> by nucleophilic substitution.</p></details>
+:::
+
+::: {.mc-question #aso-mc-20 data-answer="B"}
+### Question 20 · 3.1 Choice Easy Q7
+<p>Which formula represents 1-fluoro-3-methylbut-2-ene?</p>
+<div class="question-figure-grid option-figure-grid"><img src="../assets/questions/extracted/13/independent/choice-easy-q7-displayed-formula.png" alt="Displayed formula option from the original question"><img src="../assets/questions/extracted/13/independent/choice-easy-q7-skeletal-formula.png" alt="Skeletal formula option from the original question" style="filter: invert(1);"></div>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>CH<sub>2</sub>FC(CH<sub>3</sub>)=CHCH<sub>3</sub></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>CH<sub>2</sub>FCH=C(CH<sub>3</sub>)CH<sub>3</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>CH<sub>3</sub>CHFCH=CH<sub>2</sub></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>CH<sub>2</sub>=C(F)CH(CH<sub>3</sub>)CH<sub>3</sub></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> The parent chain is but-2-ene; F is at carbon 1 and a methyl substituent is at carbon 3.</p></details>
+:::
+
+## Structured questions
+
+::: {.question-card #aso-sq-01}
+### Question 1 · 3.1 SQ Easy Q1(a-b)
+<p><strong>(a)(i)</strong> Define the term hydrocarbon.</p><p><strong>(a)(ii)</strong> Give the general formula for the homologous series of alkanes.</p><p><strong>(a)(iii)</strong> State the formula of an alkane containing five carbon atoms.</p><p><strong>(b)</strong> State three characteristics of a homologous series.</p>
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>A hydrocarbon is a compound containing carbon and hydrogen only.</li><li>C<sub>n</sub>H<sub>2n+2</sub>.</li><li>C<sub>5</sub>H<sub>12</sub>.</li><li>Any three: same functional group; same general formula; adjacent members differ by CH<sub>2</sub>; similar chemical properties; gradual change in physical properties.</li></ol></details>
+:::
+
+::: {.question-card #aso-sq-02}
+### Question 2 · 3.1 SQ Easy Q1(e), Q2(a)
+<p>The compound 2,2-dimethylpentan-3-ol can be represented using different types of formulae. Its structural formula can be shown as C(CH<sub>3</sub>)<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>3</sub>.</p><p><strong>(a)(i)</strong> Give the empirical formula of 2,2-dimethylpentan-3-ol.</p><p><strong>(a)(ii)</strong> Draw the skeletal formula of 2,2-dimethylpentan-3-ol.</p><p><strong>(b)</strong> State the three different types of structural isomerism.</p>
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>Count atoms: molecular formula C<sub>7</sub>H<sub>16</sub>O, so empirical formula C<sub>7</sub>H<sub>16</sub>O.</li><li>A six-carbon zig-zag chain with a methyl branch at C2 and OH at C3; equivalent correctly connected skeletal representation gains credit.</li><li>Chain, positional and functional-group isomerism.</li></ol></details>
+:::
+
+::: {.question-card #aso-sq-03}
+### Question 3 · 3.1 SQ Easy Q2(b)
+<p>State the type of isomerism that occurs between the following pairs of compounds.</p><p><strong>(i)</strong> 2-methylpentane and 2,3-dimethylbutane.</p><p><strong>(ii)</strong> Butan-1-ol and butan-2-ol.</p>
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>Chain isomerism: both are alkanes with the same molecular formula but different carbon skeletons.</li><li>Positional isomerism: both contain the alcohol group, but –OH is at carbon 1 or carbon 2.</li></ol></details>
+:::
+
+::: {.question-card #aso-sq-04}
+### Question 4 · 3.1 SQ Easy Q3(a-b)
+<p><strong>(a)</strong> Free radical substitution reactions involve hydrogen atoms in alkanes being replaced by halogen atoms. Name the three steps involved in a free radical substitution reaction.</p><p><strong>(b)(i)</strong> When a molecule of chlorine, Cl<sub>2</sub>, is exposed to UV light two chlorine radicals are formed. Write an equation for this reaction.</p><p><strong>(b)(ii)</strong> State the type of bond fission involved.</p>
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>Initiation, propagation and termination.</li><li>Cl<sub>2</sub> → 2Cl· (under UV light).</li><li>Homolytic fission: one electron from the Cl–Cl bond goes to each chlorine atom.</li></ol></details>
+:::
+
+::: {.question-card #aso-sq-05}
+### Question 5 · 3.1 SQ Easy Q3(c-d), Q4(a)
+<p><strong>(a)</strong> A–B → A<sup>+</sup> + B<sup>−</sup>, where the more electronegative atom B has taken both electrons from the bond. State the name of this type of bond fission.</p><p><strong>(b)</strong> Name three other types of reaction mechanism.</p><p><strong>(c)</strong> Aliphatic compounds can be organised into three different categories depending on their structure. One category is straight-chain. Name the other two categories.</p>
+<img src="../assets/questions/extracted/13/independent/sq-easy-q3c-heterolytic-fission.png" class="question-figure" alt="Heterolytic bond fission showing both bonding electrons moving to atom B" style="filter: invert(1);">
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>Heterolytic fission.</li><li>Any three appropriate mechanisms: free-radical substitution, electrophilic addition, nucleophilic substitution, nucleophilic addition or electrophilic substitution.</li><li>Branched-chain and cyclic.</li></ol></details>
+:::
+
+::: {.question-card #aso-sq-06}
+### Question 6 · 3.1 SQ Medium Q2(a)
+<p>Explain how the concept of hybridisation can be used to explain the triple bond present in propyne.</p>
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>Each carbon atom in the C≡C triple bond is sp hybridised: one s orbital mixes with one p orbital to form two sp orbitals.</li><li>End-on overlap of an sp orbital from each carbon gives one σ bond.</li><li>Two unhybridised p orbitals remain on each carbon; sideways overlap in two perpendicular planes gives two π bonds. The carbon atoms are linear, with a bond angle of 180°.</li></ol></details>
+:::
+
+::: {.question-card #aso-sq-07}
+### Question 7 · 3.1 SQ Medium Q2(c)
+<p>Complete Table 2.1 to show the hybridisation of the nitrogen atoms in NF<sub>4</sub><sup>+</sup>, N<sub>2</sub>H<sub>2</sub> and N<sub>2</sub>H<sub>4</sub>.</p>
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>NF<sub>4</sub><sup>+</sup>: sp<sup>3</sup>; four σ bonds around N give tetrahedral electron geometry.</li><li>N<sub>2</sub>H<sub>2</sub>: sp<sup>2</sup> at each N; N=N contains one σ and one π bond and has trigonal-planar arrangement about N.</li><li>N<sub>2</sub>H<sub>4</sub>: sp<sup>3</sup> at each N; each N has three σ bonds and one lone pair.</li></ol></details>
+:::
+
+::: {.question-card #aso-sq-08}
+### Question 8 · 3.1 SQ Medium Q3(c)
+<p>There are two possible reactions of 1-bromopropane with sodium hydroxide. Aqueous sodium hydroxide reacts with 1-bromopropane to form compound X and Br<sup>−</sup>.</p><p><strong>(i)</strong> State the role of the aqueous hydroxide ion in this reaction.</p><p><strong>(ii)</strong> Name compound X.</p><p><strong>(iii)</strong> In different reaction conditions, an alternative reaction occurs between hydroxide ion and 1-bromopropane to form propene and a small molecule. State the reaction conditions and name the type of mechanism used in this alternative reaction.</p>
+![Nucleophilic substitution mechanism for 1-bromopropane](../assets/questions/extracted/13/independent/sq-medium-q3c-nucleophilic-substitution.png){.question-figure fig-alt="Hydroxide ion attacking 1-bromopropane to form compound X and bromide ion"}
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>OH<sup>−</sup> acts as a nucleophile (electron-pair donor).</li><li>Propan-1-ol.</li><li>Use hot ethanolic sodium hydroxide; the mechanism is elimination. OH<sup>−</sup> removes H while Br<sup>−</sup> leaves, producing H<sub>2</sub>O and propene.</li></ol></details>
+:::
+
+::: {.question-card #aso-sq-09}
+### Question 9 · 3.1 SQ Medium Q4(a-b)
+<p><strong>(a)(i)</strong> Name the shortest straight-chain alkane to have structural isomers and the isomer.</p><p><strong>(a)(ii)</strong> State the type of isomerism shown by the isomers in part (i).</p><p><strong>(b)(i)</strong> C<sub>4</sub>H<sub>8</sub> exists as several isomers. Name the homologous series that C<sub>4</sub>H<sub>8</sub> belongs to.</p><p><strong>(b)(ii)</strong> Draw the skeletal formulae of two cyclic C<sub>4</sub>H<sub>8</sub> isomers and two C<sub>4</sub>H<sub>8</sub> isomers that show cis/trans isomerism.</p><p><strong>(b)(iii)</strong> There are two unsaturated C<sub>4</sub>H<sub>8</sub> isomers that do not show cis/trans isomerism. Name these isomers and explain why they do not show cis/trans isomerism.</p>
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>Butane and 2-methylpropane; they are chain isomers.</li><li>The homologous series is alkene (although cyclic structural isomers are cycloalkanes).</li><li>Cyclic examples: cyclobutane and methylcyclopropane. Cis/trans examples: cis-but-2-ene and trans-but-2-ene.</li><li>But-1-ene and 2-methylpropene. In each case one carbon of C=C has two identical groups, so two distinct E/Z arrangements are impossible.</li></ol></details>
+:::
+
+::: {.question-card #aso-sq-10}
+### Question 10 · 3.1 SQ Medium Q5(a-c)
+<p><strong>(a)</strong> Explain why cyclohexane C<sub>6</sub>H<sub>12</sub> has a puckered, non-planar shape by making reference to the C–C–C bond angles and the type of hybridisation of carbon in the molecule.</p><p><strong>(b)</strong> Urea, CO(NH<sub>2</sub>)<sub>2</sub>, is present in solution in animal urine. Describe the hybridisation of C and N in the molecule, giving approximate bond angles.</p><p><strong>(c)</strong> Describe the hybridisation of the carbon atom in methane and explain how the concept of hybridisation can be used to explain the shape of the methane molecule.</p>
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li>Each C in cyclohexane is sp<sup>3</sup> hybridised and prefers a tetrahedral angle close to 109.5°. A planar hexagon would force 120° C–C–C angles, so the ring puckers to reduce angle strain.</li><li>Carbonyl C is sp<sup>2</sup>, trigonal planar, approximately 120°. In the simplified bonding model each N is sp<sup>2</sup> because its lone pair is delocalised with the carbonyl group, so the arrangement about N is approximately planar with angles near 120°.</li><li>In methane, one 2s and three 2p orbitals hybridise to form four equivalent sp<sup>3</sup> orbitals. They point to the corners of a tetrahedron, giving four C–H σ bonds with H–C–H angles of 109.5°.</li></ol></details>
+:::
+
+## Original question PDFs
+
+- [3.1 Choice Easy](../assets/questions/original-source/3.1_an_introduction_to_as_level_organic_chemistry___choice___easy.pdf)
+- [3.1 Choice Medium](../assets/questions/original-source/3.1_an_introduction_to_as_level_organic_chemistry___choice___medium.pdf)
+- [3.1 Choice Hard](../assets/questions/original-source/3.1_an_introduction_to_as_level_organic_chemistry___choice___hard.pdf)
+- [3.1 SQ Easy](../assets/questions/original-source/3.1_an_introduction_to_as_level_organic_chemistry___sq___easy.pdf)
+- [3.1 SQ Medium](../assets/questions/original-source/3.1_an_introduction_to_as_level_organic_chemistry___sq___medium.pdf)
+- [3.1 SQ Hard](../assets/questions/original-source/3.1_an_introduction_to_as_level_organic_chemistry___sq___hard.pdf)
