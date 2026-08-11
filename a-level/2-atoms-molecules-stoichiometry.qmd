@@ -24,7 +24,7 @@ format:
 - identify a limiting reagent and calculate theoretical yield and percentage yield;
 - write net ionic equations by removing spectator ions.
 
-## 2.1 Relative masses of atoms and molecules
+## 2.1 Relative Masses of Atoms - Molecules
 
 ::: {.study-card}
 ### Relative isotopic mass and relative atomic mass
@@ -70,7 +70,7 @@ $$M_r[\ce{(NH4)2SO4}]=(2\times14.0)+(8\times1.0)+32.1+(4\times16.0)=132.1$$
 Relative masses are ratios, so they have no units.
 :::
 
-## 2.2 The mole and Avogadro constant
+## 2.2 The Mole - the Avogadro Constant
 
 ::: {.formula-panel}
 ### The mole
@@ -124,7 +124,7 @@ $$n(\text{gas})=\frac{V(\text{gas in dm}^3)}{24.0}$$
 Use $24.0\ \mathrm{dm^3\ mol^{-1}}$ for RTP questions. Convert $\mathrm{cm^3}$ to $\mathrm{dm^3}$ by dividing by 1000.
 :::
 
-## 2.3 Formulae and equations
+## 2.3 Formulas
 
 ::: {.study-card}
 ### Empirical and molecular formulae
@@ -177,7 +177,7 @@ An ionic compound is electrically neutral. Combine ions in the smallest whole-nu
 
 Use brackets around a polyatomic ion when more than one copy is needed. A formula unit is the simplest ratio of ions in the lattice.
 
-![Common ion charges and formula patterns](../assets/notes/atoms-molecules-stoichiometry/common-ion-formula-patterns.png){.concept-figure fig-alt="Common ion charges and formula patterns"}
+![Common ion charges and formula patterns](../assets/notes/stoichiometry-2-rebuilt/stoichiometry-2-3-note-008.png){.note-figure fig-alt="Common ion charges and formula patterns from the periodic table"}
 :::
 
 ::: {.study-card}
@@ -192,7 +192,7 @@ $$\ce{Ag+(aq)+Cl-(aq)->AgCl(s)}$$
 Weak electrolytes such as ethanoic acid are normally kept as molecules in ionic equations.
 :::
 
-## 2.4 Reacting masses, solutions and gases
+## 2.4 Reacting Masses - Volumes (of Solutions - Gases)
 
 ::: {.formula-panel}
 ### The stoichiometry pathway
@@ -268,11 +268,18 @@ The most common errors are forgetting to balance first, using $\mathrm{cm^3}$ in
 
 {{< include 2-atoms-molecules-stoichiometry-structured-selected.qmd >}}
 
-### Original question PDFs
+## Original note PDFs
 
-- [1.2 Atoms, Molecules - Stoichiometry - Structured Questions - Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/atoms-molecules-stoichiometry/1.2-atoms-molecules-stoichiometry-sq-easy.pdf)
-- [1.2 Atoms, Molecules - Stoichiometry - Structured Questions - Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/atoms-molecules-stoichiometry/1.2-atoms-molecules-stoichiometry-sq-medium.pdf)
-- [1.2 Atoms, Molecules - Stoichiometry - Structured Questions - Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/atoms-molecules-stoichiometry/1.2-atoms-molecules-stoichiometry-sq-hard.pdf)
-- [1.2 Atoms, Molecules - Stoichiometry - Multiple Choice - Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/atoms-molecules-stoichiometry/1.2-atoms-molecules-stoichiometry-choice-easy.pdf)
-- [1.2 Atoms, Molecules - Stoichiometry - Multiple Choice - Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/atoms-molecules-stoichiometry/1.2-atoms-molecules-stoichiometry-choice-medium.pdf)
-- [1.2 Atoms, Molecules - Stoichiometry - Multiple Choice - Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/atoms-molecules-stoichiometry/1.2-atoms-molecules-stoichiometry-choice-hard.pdf)
+- [2.1 Relative Masses of Atoms - Molecules](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/notes/stoichiometry-2-rebuilt/2.1_relative_masses_atoms_molecules.pdf)
+- [2.2 The Mole - the Avogadro Constant](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/notes/stoichiometry-2-rebuilt/2.2_mole_avogadro_constant.pdf)
+- [2.3 Formulas](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/notes/stoichiometry-2-rebuilt/2.3_formulas.pdf)
+- [2.4 Reacting Masses - Volumes (of Solutions - Gases)](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/notes/stoichiometry-2-rebuilt/2.4_reacting_masses_volumes.pdf)
+
+## Original question PDFs
+
+- [1.2 Atoms, Molecules - Stoichiometry - Structured Questions - Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.2_atoms_molecules_stoichiometry_sq_easy.pdf)
+- [1.2 Atoms, Molecules - Stoichiometry - Structured Questions - Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.2_atoms_molecules_stoichiometry_sq_medium.pdf)
+- [1.2 Atoms, Molecules - Stoichiometry - Structured Questions - Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.2_atoms_molecules_stoichiometry_sq_hard.pdf)
+- [1.2 Atoms, Molecules - Stoichiometry - Multiple Choice - Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.2_atoms_molecules_stoichiometry_choice_easy.pdf)
+- [1.2 Atoms, Molecules - Stoichiometry - Multiple Choice - Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.2_atoms_molecules_stoichiometry_choice_medium.pdf)
+- [1.2 Atoms, Molecules - Stoichiometry - Multiple Choice - Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.2_atoms_molecules_stoichiometry_choice_hard.pdf)
