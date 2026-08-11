@@ -24,6 +24,14 @@ body { color: var(--chem-ink); }
 .question-card h3 { margin-top: 0; }
 .question-card .subparts { margin: 0.7rem 0 0.85rem 1.15rem; padding-left: 1.25rem; }
 .question-card .subparts li { margin: 0.45rem 0; padding-left: 0.3rem; line-height: 1.55; }
+/* Older question cards store consecutive (a), (b), (c) prompts in one paragraph.
+   Keep each label and its prompt on a clearly separate line. */
+.question-card > p > strong {
+  display: block !important;
+  margin-top: 0.8rem;
+  color: #075985;
+}
+.question-card > p > strong:first-child { margin-top: 0; }
 .clean-diagram { display: block; width: min(100%, 520px); height: auto; margin: 0.85rem auto; padding: 0.45rem; border: 1px solid #d7e1ec; border-radius: 8px; background: #fff; }
 .compact-diagram { width: min(100%, 620px); }
 .question-source-pages { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.75rem; margin: 0.75rem 0 1rem; }
@@ -56,7 +64,12 @@ details.answer-panel summary { cursor: pointer; font-weight: 650; color: #065f46
 .mc-feedback.is-incorrect { color: #b91c1c; }
 .mc-feedback.is-pending { color: #92400e; }
 .question-figure { display: block; width: auto; max-width: 100%; height: auto; margin: 0.8rem auto; border: 1px solid var(--chem-border); border-radius: 8px; background: #fff; }
+.source-preview { margin: 0.65rem 0 0.9rem; }
+.source-preview summary { cursor: pointer; color: var(--chem-accent); font-size: 0.92em; }
+.source-preview .question-figure { max-height: 720px; object-fit: contain; }
 .question-figure-grid { display: grid; gap: 0.65rem; margin: 1rem auto; }
+.option-figure-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 760px; }
+.option-figure-grid img { display: block; width: 100%; max-width: 100%; height: auto; margin: 0 auto; border: 1px solid var(--chem-border); border-radius: 8px; background: #fff; }
 .question-figure-pair { display: flex; align-items: center; justify-content: center; gap: 0.35rem; min-height: 110px; }
 .question-figure-pair img:first-child { width: min(100%, 100px); margin: 0; }
 .question-figure-pair img:last-child { width: min(100%, 160px); margin: 0; border: 0; }
@@ -75,5 +88,6 @@ details.answer-panel summary { cursor: pointer; font-weight: 650; color: #065f46
 .vector-option span { display: block; margin-bottom: 0.25rem; font-weight: 700; color: #075985; }
 .vector-option img { display: block; width: 100%; height: auto; }
 @media (max-width: 500px) { .vector-options { grid-template-columns: 1fr; } }
+@media (max-width: 700px) { .option-figure-grid { grid-template-columns: 1fr; } }
 mjx-container[display="true"] { overflow-x: auto; overflow-y: hidden; padding: 0.2rem 0; }
 @media (max-width: 700px) { .topic-card, .study-card, .formula-panel, .question-card { padding: 0.9rem; } }

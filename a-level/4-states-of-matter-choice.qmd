@@ -1,0 +1,220 @@
+### 4 States of matter - Multiple Choice: Easy
+
+::: {.mc-question #states-choice-easy-q1 data-answer="C"}
+### Question 1 · Giant covalent structure · 1.4 Choice Easy Q1
+
+Which solid has a giant covalent lattice structure?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Calcium fluoride</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Nickel</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Silicon(IV) oxide</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Sulfur</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> $\ce{SiO2}$ contains a giant covalent network. Calcium fluoride is ionic, nickel is metallic and sulfur is simple molecular.</p></details>
+:::
+
+::: {.mc-question #states-choice-easy-q2 data-answer="D"}
+### Question 2 · Structure and melting point · 1.4 Choice Easy Q2
+
+Which substance is expected to have the highest melting point?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Iodine</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Methane</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Sodium</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Diamond</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Diamond has strong covalent bonds throughout a giant lattice.</p></details>
+:::
+
+::: {.mc-question #states-choice-easy-q3 data-answer="A"}
+### Question 3 · Ideal gas equation · 1.4 Choice Easy Q3
+
+Which graph is consistent with an ideal gas at constant pressure and temperature when $pV$ is plotted against $n$?
+
+<div class="question-figure-grid" style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0.5rem;align-items:start;">
+<img src="../assets/questions/original-source/1-4-choice-easy-q3-graph-a.png" alt="Option A graph" style="width:100%;">
+<img src="../assets/questions/original-source/1-4-choice-easy-q3-graph-b.png" alt="Option B graph" style="width:100%;">
+<img src="../assets/questions/original-source/1-4-choice-easy-q3-graph-c.png" alt="Option C graph" style="width:100%;">
+<img src="../assets/questions/original-source/1-4-choice-easy-q3-graph-d.png" alt="Option D graph" style="width:100%;">
+</div>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>A straight line through the origin</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>A decreasing curve</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>A horizontal line above the origin</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>A straight line with a positive intercept</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> From $pV=nRT$, $pV$ is directly proportional to $n$ when $T$ is constant.</p></details>
+:::
+
+::: {.mc-question #states-choice-easy-q4 data-answer="A"}
+### Question 4 · Molar mass from $pV=nRT$ · 1.4 Choice Easy Q4
+
+Which expression gives the molar mass $M$ of a gas sample of mass $m$ grams?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$M=\frac{mRT}{pV}$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$M=\frac{pV}{mRT}$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$M=\frac{mpV}{RT}$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$M=\frac{pV}{m}RT$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Substitute $n=m/M$ into $pV=nRT$ and rearrange.</p></details>
+:::
+
+::: {.mc-question #states-choice-easy-q5 data-answer="B"}
+### Question 5 · Ideal behaviour · 1.4 Choice Easy Q5
+
+Which gas behaves least like an ideal gas at room temperature?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Helium</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Ammonia</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Hydrogen</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Neon</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Ammonia is polar and has relatively strong intermolecular attractions.</p></details>
+:::
+
+::: {.mc-question #states-choice-easy-q6 data-answer="C"}
+### Question 6 · Identifying structures · 1.4 Choice Easy Q6
+
+Substance R conducts when molten but not as a solid, S has a low boiling point and T has a high melting point but does not conduct. Which structures could R, S and T have?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Giant covalent; simple molecular; ionic</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Ionic; giant covalent; simple molecular</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Ionic; simple molecular; giant covalent</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Simple molecular; ionic; giant covalent</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> R is ionic, S is simple molecular and T is giant covalent such as diamond.</p></details>
+:::
+
+::: {.mc-question #states-choice-easy-q7 data-answer="A"}
+### Question 7 · Energy and state changes · 1.4 Choice Easy Q7
+
+Which change is endothermic?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Sublimation of iodine</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Freezing of water</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Condensation of steam</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Formation of a crystal from a liquid</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Sublimation requires energy to overcome attractions and separate particles.</p></details>
+:::
+
+### 4 States of matter - Multiple Choice: Medium
+
+::: {.mc-question #states-choice-medium-q1 data-answer="A"}
+### Question 8 · Conditions for ideal behaviour · 1.4 Choice Medium Q1
+
+Under which conditions does a real gas behave most nearly ideally?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Low pressure and high temperature</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Low pressure and low temperature</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>High pressure and high temperature</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>High pressure and low temperature</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Particles are far apart at low pressure and attractions matter less at high temperature.</p></details>
+:::
+
+::: {.mc-question #states-choice-medium-q2 data-answer="B"}
+### Question 9 · Identifying three structures · 1.4 Choice Medium Q2
+
+Which row correctly identifies X, Y and Z?
+
+| Substance | Melting point / $^\circ\mathrm{C}$ | Boiling point / $^\circ\mathrm{C}$ | Solid conductivity | Liquid conductivity |
+|---|---:|---:|---|---|
+| X | 801 | 1413 | poor | good |
+| Y | 2852 | 3600 | poor | good |
+| Z | 3550 | 4827 | good | unknown |
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>X = $\ce{CaF2}$, Y = $\ce{KCl}$, Z = Cu</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>X = $\ce{NaCl}$, Y = $\ce{MgO}$, Z = graphite</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>X = $\ce{NaBr}$, Y = $\ce{CaO}$, Z = diamond</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>X = $\ce{NaBr}$, Y = $\ce{BaO}$, Z = $\ce{SiO2}$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> X and Y are ionic, with Y having the stronger lattice. Graphite has a high melting point and conducts through delocalised electrons.</p></details>
+:::
+
+::: {.mc-question #states-choice-medium-q3 data-answer="B"}
+### Question 10 · Pressure calculation · 1.4 Choice Medium Q3
+
+A $0.96\ \mathrm{g}$ sample of hydrogen occupies $7.0\times10^{-3}\ \mathrm{m^3}$ at $303\ \mathrm{K}$. What is its pressure? Use $R=8.314\ \mathrm{J\ mol^{-1}\ K^{-1}}$.
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$172.7\ \mathrm{Pa}$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$172.7\ \mathrm{kPa}$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$345.5\ \mathrm{Pa}$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$691.1\ \mathrm{kPa}$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> $n=0.96/2.0=0.48\ \mathrm{mol}$ and $p=nRT/V=1.73\times10^5\ \mathrm{Pa}=172.7\ \mathrm{kPa}$.</p></details>
+:::
+
+::: {.mc-question #states-choice-medium-q4 data-answer="B"}
+### Question 11 · Mass of oxygen · 1.4 Choice Medium Q4
+
+A $5370\ \mathrm{cm^3}$ sample of oxygen is at $60^\circ\mathrm{C}$ and $103000\ \mathrm{Pa}$. What is its mass?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$3.2\ \mathrm{g}$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$6.4\ \mathrm{g}$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$1.8\ \mathrm{g}$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$3.6\ \mathrm{g}$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Use $T=333\ \mathrm{K}$ and $V=5.370\times10^{-3}\ \mathrm{m^3}$. The amount is about $0.200\ \mathrm{mol}$ and the mass is $0.200\times32.0=6.4\ \mathrm{g}$.</p></details>
+:::
+
+::: {.mc-question #states-choice-medium-q5 data-answer="D"}
+### Question 12 · Temperature calculation · 1.4 Choice Medium Q5
+
+A $5.35\ \mathrm{g}$ sample of chlorine gas occupies $1.247\times10^{-3}\ \mathrm{m^3}$ at $1.00\times10^5\ \mathrm{Pa}$. What is its temperature?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$300\ \mathrm{K}$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$250\ \mathrm{K}$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$100\ \mathrm{K}$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$200\ \mathrm{K}$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> $n=5.35/71.0=0.0754\ \mathrm{mol}$ and $T=pV/(nR)\approx200\ \mathrm{K}$.</p></details>
+:::
+
+::: {.mc-question #states-choice-medium-q6 data-answer="A"}
+### Question 13 · Boyle's law · 1.4 Choice Medium Q6
+
+A bubble has volume $200\ \mathrm{cm^3}$ at a pressure of $101\ \mathrm{kPa}$. What is its volume at the sea bed where the pressure is $2020\ \mathrm{kPa}$? Temperature is constant.
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$10\ \mathrm{cm^3}$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$200\ \mathrm{cm^3}$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$100\ \mathrm{cm^3}$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$1000\ \mathrm{cm^3}$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> $p_1V_1=p_2V_2$, so $V_2=101\times200/2020=10\ \mathrm{cm^3}$.</p></details>
+:::
+
+::: {.mc-question #states-choice-medium-q7 data-answer="B"}
+### Question 14 · Gas volume and reacting mass · 1.4 Choice Medium Q7
+
+$$\ce{2Na(s) + 2H2O(l) -> 2NaOH(aq) + H2(g)}$$
+
+What mass of sodium reacts to produce $960\ \mathrm{cm^3}$ of hydrogen at RTP?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$3.68\ \mathrm{g}$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$1.81\ \mathrm{g}$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$0.91\ \mathrm{g}$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$0.46\ \mathrm{g}$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> $n(\ce{H2})=0.960/24.0=0.0400\ \mathrm{mol}$, so $n(\ce{Na})=0.0800\ \mathrm{mol}$ and mass $=0.0800\times23.0=1.84\ \mathrm{g}$.</p></details>
+:::
+
+### 4 States of matter - Multiple Choice: Hard
+
+::: {.mc-question #states-choice-hard-q1 data-answer="D"}
+### Question 15 · Identifying an unknown gas · 1.4 Choice Hard Q1
+
+A $0.300\ \mathrm{dm^3}$ tube is filled with a gas at $27^\circ\mathrm{C}$ and $101\ \mathrm{kPa}$. The mass increases by $1.02\times10^{-3}\ \mathrm{kg}$. Which gas could it be?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Neon</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Helium</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Oxygen</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Krypton</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> $n=pV/RT\approx0.0122\ \mathrm{mol}$. With mass $1.02\ \mathrm{g}$, $M\approx83.6\ \mathrm{g\ mol^{-1}}$, close to krypton.</p></details>
+:::
+
+::: {.mc-question #states-choice-hard-q2 data-answer="B"}
+### Question 16 · Mass from ideal gas data · 1.4 Choice Hard Q2
+
+The volume of a methane sample is $5.25\ \mathrm{dm^3}$ at $50^\circ\mathrm{C}$ and $102\ \mathrm{kPa}$. What is its mass?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$0.0018\ \mathrm{g}$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$3.20\ \mathrm{g}$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$0.0032\ \mathrm{g}$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$0.18\ \mathrm{g}$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> $n=pV/RT\approx0.199\ \mathrm{mol}$; mass $=0.199\times16.0\approx3.20\ \mathrm{g}$.</p></details>
+:::
+
+::: {.mc-question #states-choice-hard-q3 data-answer="C"}
+### Question 17 · Metal oxide and gas volume · 1.4 Choice Hard Q3
+
+A $2.00\ \mathrm{g}$ metal reacts with $599\ \mathrm{cm^3}$ oxygen at $298\ \mathrm{K}$ and $1\ \mathrm{atm}$ to form an oxide containing $\ce{O^{2-}}$. Which metal could be used?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Magnesium</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Calcium</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Sodium</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Potassium</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> The oxygen amount is about $0.0245\ \mathrm{mol}$. The sodium-to-oxygen ratio is consistent with formation of $\ce{Na2O}$ from the given masses.</p></details>
+:::
+
+::: {.mc-question #states-choice-hard-q4 data-answer="C"}
+### Question 18 · Mass of ammonia · 1.4 Choice Hard Q4
+
+A sample of ammonia occupies $5.27\times10^{-5}\ \mathrm{m^3}$ at $60^\circ\mathrm{C}$ and $75\ \mathrm{kPa}$. What is its mass?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$2.4\times10^{-5}\ \mathrm{g}$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$2.5\times10^{-4}\ \mathrm{g}$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$2.4\times10^{-2}\ \mathrm{g}$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$2.5\times10^{-1}\ \mathrm{g}$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> $n=pV/RT\approx1.43\times10^{-3}\ \mathrm{mol}$ and mass $=n\times17.0\approx2.4\times10^{-2}\ \mathrm{g}$.</p></details>
+:::
+
+::: {.mc-question #states-choice-hard-q5 data-answer="C"}
+### Question 19 · Noble gas identification · 1.4 Choice Hard Q5
+
+An unknown noble gas has mass $0.800\ \mathrm{g}$, volume $560\ \mathrm{cm^3}$, pressure $101\ \mathrm{kPa}$ and temperature $340\ \mathrm{K}$. Which gas is it?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Helium</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Neon</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Argon</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Krypton</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> $n=pV/RT\approx0.0200\ \mathrm{mol}$, so $M=0.800/0.0200\approx40.0\ \mathrm{g\ mol^{-1}}$, identifying argon.</p></details>
+:::
+
+::: {.mc-question #states-choice-hard-q6 data-answer="A"}
+### Question 20 · Real-gas deviation · 1.4 Choice Hard Q6
+
+Under which conditions is a real gas most likely to show the greatest deviation from ideal behaviour?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>High pressure and low temperature</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Low pressure and high temperature</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Low pressure and low temperature</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>High pressure and high temperature</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> At high pressure particle volume matters; at low temperature attractions are more significant.</p></details>
+:::

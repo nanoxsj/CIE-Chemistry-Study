@@ -1,6 +1,6 @@
 ---
 title: "16 Hydroxy compounds"
-subtitle: "AS 3.4 Alcohols and hydroxy compounds"
+subtitle: "AS 3.4 Hydroxy Compounds · 16.1 Alcohols"
 format:
   html:
     toc: true
@@ -9,7 +9,7 @@ format:
 
 # 16 Hydroxy compounds
 
-本章只覆盖 AS 3.4 Hydroxy compounds，重点是 **alcohols**。题目使用 AS 原题包中的原文，不改写题干；可独立提取的结构式、流程图和装置图保留为独立图像。A2 的 phenol、diazonium coupling、mesalamine 等内容不放在本章。
+本章只覆盖 AS 3.4 Hydroxy Compounds 中的 **16.1 Alcohols**。题目使用 AS 原题包中的原文，不改写题干；可独立提取的结构式、流程图和装置图保留为独立图像。无法独立提取的整页图片不放入页面；A2 的 phenol、diazonium coupling、mesalamine 等内容不放在本章。
 
 ## Learning objectives
 
@@ -23,7 +23,23 @@ format:
 - describe dehydration as an elimination reaction and predict alkene products;
 - explain esterification, optical isomerism and the triiodomethane test.
 
-## 16.1 Classification and properties of alcohols
+## 16.1 Alcohols
+
+### Preparation of alcohols
+
+Alcohols contain at least one hydroxy group, <span class="chem-formula">−OH</span>. The general formula of a saturated monohydric alcohol is <span class="chem-formula">C<sub>n</sub>H<sub>2n+1</sub>OH</span>. Important AS routes include:
+
+- electrophilic addition of steam to an alkene, using concentrated phosphoric(V) acid as catalyst and heat;
+- nucleophilic substitution of a halogenoalkane with hot aqueous hydroxide;
+- reduction of aldehydes and ketones using <span class="chem-formula">NaBH<sub>4</sub></span> or <span class="chem-formula">LiAlH<sub>4</sub></span>.
+
+![Alcohol oxidation and reaction scheme](../assets/notes/hydroxy-compounds-rebuilt/alcohols-img-052.png){.concept-figure fig-alt="Alcohol oxidation and reaction scheme"}
+
+Cold dilute potassium manganate(VII) oxidises an alkene to a diol without fully breaking the C=C bond. A diol contains two hydroxy groups.
+
+![Dehydration of ethanol to ethene](../assets/notes/hydroxy-compounds-rebuilt/alcohols-img-064.png){.concept-figure fig-alt="Dehydration of ethanol to ethene"}
+
+### Classification and properties of alcohols
 
 An alcohol contains a hydroxyl group, `−OH`, bonded to a saturated carbon atom. The class depends on the number of carbon atoms attached to the carbon bearing `−OH`:
 
@@ -36,6 +52,10 @@ An alcohol contains a hydroxyl group, `−OH`, bonded to a saturated carbon atom
 The oxygen atom in an alcohol is electronegative and has two lone pairs. Alcohol molecules can form hydrogen bonds with water, so lower alcohols are soluble in water. The alkyl group is electron-donating; this makes the alkoxide ion more likely to accept a proton, so alcohols are weaker acids than water.
 
 $$\ce{ROH(aq) <=> RO-(aq) + H+(aq)}$$
+
+Alcohols are weak acids because this equilibrium lies far to the left. An alkyl group has a positive inductive effect and donates electron density towards the negatively charged oxygen in the alkoxide ion, making the alkoxide more likely to accept <span class="chem-formula">H<sup>+</sup></span> and reform the alcohol.
+
+![Weak acidity of ethanol](../assets/notes/hydroxy-compounds-rebuilt/alcohols-img-104.png){.concept-figure fig-alt="Weak acidity of ethanol"}
 
 ## 16.2 Reactions of alcohols
 
@@ -54,6 +74,10 @@ Alcohols react with carboxylic acids in the presence of concentrated sulfuric ac
 Primary alcohols oxidise first to aldehydes and then to carboxylic acids. Distilling the aldehyde off as it forms limits further oxidation; heating under reflux gives the carboxylic acid. Secondary alcohols oxidise to ketones. Tertiary alcohols are not oxidised by acidified dichromate(VI) or manganate(VII) under these conditions because no hydrogen is attached to the carbon bearing `−OH`.
 
 Acidified potassium dichromate(VI) changes from orange to green. Acidified potassium manganate(VII) changes from purple/pink to colourless.
+
+![Controlled oxidation of a primary alcohol](../assets/notes/hydroxy-compounds-rebuilt/alcohols-img-052.png){.concept-figure fig-alt="Controlled oxidation of a primary alcohol"}
+
+Reduction of an aldehyde gives a primary alcohol, while reduction of a ketone gives a secondary alcohol. Carboxylic acids can also be reduced to primary alcohols with suitable strong reducing agents. Ester hydrolysis reforms the alcohol and carboxylic acid; under alkaline conditions the acid product is obtained as its carboxylate salt.
 
 ## 16.4 Dehydration, stereoisomerism and tests
 
@@ -119,7 +143,7 @@ Which sequence of reagents may be used in the laboratory to convert propan-1-ol 
 
 Which diagram gives the skeletal formula of 4-chloropentan-2-ol?
 
-<div class="question-figure-grid option-figure-grid"><span><strong>A</strong><img src="../assets/questions/extracted/16/independent/easy-q4-003-000.png" alt="Option A"></span><span><strong>B</strong><img src="../assets/questions/extracted/16/independent/easy-q4-003-001.png" alt="Option B"></span><span><strong>C</strong><img src="../assets/questions/extracted/16/independent/easy-q4-003-002.png" alt="Option C"></span><span><strong>D</strong><img src="../assets/questions/extracted/16/independent/easy-q4-003-003.png" alt="Option D"></span></div>
+<div class="option-figure-grid"><span><strong>A</strong><img src="../assets/questions/extracted/16/independent/easy-q4-003-000.png" alt="Option A"></span><span><strong>B</strong><img src="../assets/questions/extracted/16/independent/easy-q4-003-001.png" alt="Option B"></span><span><strong>C</strong><img src="../assets/questions/extracted/16/independent/easy-q4-003-002.png" alt="Option C"></span><span><strong>D</strong><img src="../assets/questions/extracted/16/independent/easy-q4-003-003.png" alt="Option D"></span></div>
 
 <div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Diagram A</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Diagram B</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Diagram C</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Diagram D</span></button></div>
 <button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
@@ -227,16 +251,20 @@ Which reagent would produce optical isomers from allyl alcohol?
 
 ### 16 Hydroxy compounds — Multiple Choice: Hard
 
-::: {.mc-question #hc16-mc-h1 data-answer="B"}
-### Question 13 · 3.4 Choice Hard Q1
+::: {.mc-question #hc16-mc-h1 data-answer="C"}
+### Question 13 · 3.4 Choice Hard Q9
 
-Which of the following alcohols would give a positive triiodomethane reaction?
+The foul smell that skunks spray is due to a number of thiols, one of which is methanethiol, <span class="chem-formula">CH<sub>3</sub>SH</span>, which burns as follows.
 
-<img src="../assets/questions/extracted/16/independent/hard-choice-002-001.png" class="question-figure" alt="Eight alcohol structures labelled 1 to 8" style="filter: invert(1);">
+<span class="chem-formula">CH<sub>3</sub>SH + 3O<sub>2</sub> → CO<sub>2</sub> + SO<sub>2</sub> + 2H<sub>2</sub>O</span>
 
-<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 7</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>2, 4 and 7</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>3, 4 and 5</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>6, 7 and 8</span></button></div>
+A sample of 15 cm<sup>3</sup> of methanethiol was exploded with 90 cm<sup>3</sup> of oxygen.
+
+What would be the final volume of the resultant mixture of gases when cooled to room temperature?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>30 cm<sup>3</sup></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>45 cm<sup>3</sup></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>75 cm<sup>3</sup></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>105 cm<sup>3</sup></span></button></div>
 <button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
-<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> The triiodomethane test is positive for ethanol and alcohols containing the `CH3CH(OH)−` group.</p></details>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> 15 cm<sup>3</sup> of methanethiol needs 45 cm<sup>3</sup> of oxygen, leaving 45 cm<sup>3</sup>. It forms 15 cm<sup>3</sup> each of carbon dioxide and sulfur dioxide; water is liquid at room temperature. The final gas volume is <span class="chem-formula">45+15+15=75 cm<sup>3</sup></span>.</p></details>
 :::
 
 ::: {.mc-question #hc16-mc-h2 data-answer="C"}
@@ -256,7 +284,7 @@ What could be the structural formula of J?
 
 The apparatus below shows an organic synthesis reaction:
 
-<img src="../assets/questions/extracted/16/independent/hard-choice-003-001.png" class="question-figure" alt="Apparatus for dehydration or cracking and collection of gas" style="filter: invert(1);">
+![Original organic synthesis apparatus](../assets/questions/extracted/16/rebuilt/hard-choice-003-white.png){.question-figure fig-alt="Apparatus for dehydration or cracking and collection of gas"}
 
 Which processes could be shown using the above apparatus?
 
@@ -326,7 +354,7 @@ Compound Q has the molecular formula <span>C<sub>10</sub>H<sub>14</sub>O</span> 
 
 Which structure formed by the dehydration of compound Q?
 
-<div class="question-figure-grid option-figure-grid"><span><strong>A</strong><img src="../assets/questions/extracted/16/independent/hard-choice-005-000.png" alt="Option A"></span><span><strong>B</strong><img src="../assets/questions/extracted/16/independent/hard-choice-005-001.png" alt="Option B"></span><span><strong>C</strong><img src="../assets/questions/extracted/16/independent/hard-choice-005-002.png" alt="Option C"></span><span><strong>D</strong><img src="../assets/questions/extracted/16/independent/hard-choice-005-003.png" alt="Option D"></span></div>
+<div class="option-figure-grid"><span><strong>A</strong><img src="../assets/questions/extracted/16/independent/hard-choice-005-000.png" alt="Option A"></span><span><strong>B</strong><img src="../assets/questions/extracted/16/independent/hard-choice-005-001.png" alt="Option B"></span><span><strong>C</strong><img src="../assets/questions/extracted/16/independent/hard-choice-005-002.png" alt="Option C"></span><span><strong>D</strong><img src="../assets/questions/extracted/16/independent/hard-choice-005-003.png" alt="Option D"></span></div>
 
 <div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Structure A</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Structure B</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Structure C</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Structure D</span></button></div>
 <button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
@@ -344,7 +372,7 @@ Which structure formed by the dehydration of compound Q?
 
 **(b)** A flow chart for some reactions of butan-2-ol is shown below.
 
-<img src="../assets/questions/extracted/16/independent/sq-easy-002-001.png" class="question-figure" alt="Flow chart for reactions of butan-2-ol" style="filter: invert(1);">
+![Original flow chart for reactions of butan-2-ol](../assets/questions/extracted/16/rebuilt/sq-easy-002-white.png){.question-figure fig-alt="Flow chart for reactions of butan-2-ol"}
 
 State the reagents and conditions required for reactions 1 and 3. `[3 marks]`
 
@@ -384,7 +412,7 @@ State the reagents and conditions required for reactions 1 and 3. `[3 marks]`
 
 Three different alcohols, A, B and C are shown in Fig. 3.1.
 
-<img src="../assets/questions/extracted/16/independent/sq-easy-004-001.png" class="question-figure" alt="Displayed formulae of alcohols A, B and C" style="filter: invert(1);">
+![Original structures of alcohols A, B and C](../assets/questions/extracted/16/rebuilt/sq-easy-004-white.png){.question-figure fig-alt="Displayed formulae of alcohols A, B and C"}
 
 **(a)** Name alcohol C and state the class of alcohol to which it belongs. `[2 marks]`
 
@@ -581,9 +609,9 @@ Compound X can be fully oxidised by the reaction with acidified potassium mangan
 
 ## Original question PDFs
 
-- [3.4 Hydroxy Compounds — Choice — Easy](../assets/questions/original-source/3.4_hydroxy_compounds___choice___easy.pdf)
-- [3.4 Hydroxy Compounds — Choice — Medium](../assets/questions/original-source/3.4_hydroxy_compounds___choice___medium.pdf)
-- [3.4 Hydroxy Compounds — Choice — Hard](../assets/questions/original-source/3.4_hydroxy_compounds___choice___hard.pdf)
-- [3.4 Hydroxy Compounds — Structured Questions — Easy](../assets/questions/original-source/3.4_hydroxy_compounds___sq___easy.pdf)
-- [3.4 Hydroxy Compounds — Structured Questions — Medium](../assets/questions/original-source/3.4_hydroxy_compounds___sq___medium.pdf)
-- [3.4 Hydroxy Compounds — Structured Questions — Hard](../assets/questions/original-source/3.4_hydroxy_compounds___sq___hard.pdf)
+- [3.4 Hydroxy Compounds — Choice — Easy](../assets/questions/original-source/3.4_hydroxy_compounds_choice_easy.pdf)
+- [3.4 Hydroxy Compounds — Choice — Medium](../assets/questions/original-source/3.4_hydroxy_compounds_choice_medium.pdf)
+- [3.4 Hydroxy Compounds — Choice — Hard](../assets/questions/original-source/3.4_hydroxy_compounds_choice_hard.pdf)
+- [3.4 Hydroxy Compounds — Structured Questions — Easy](../assets/questions/original-source/3.4_hydroxy_compounds_sq_easy.pdf)
+- [3.4 Hydroxy Compounds — Structured Questions — Medium](../assets/questions/original-source/3.4_hydroxy_compounds_sq_medium.pdf)
+- [3.4 Hydroxy Compounds — Structured Questions — Hard](../assets/questions/original-source/3.4_hydroxy_compounds_sq_hard.pdf)

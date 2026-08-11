@@ -1,0 +1,434 @@
+---
+title: "11 Group 17"
+subtitle: "AS 2.3 Group 17 · 11.1-11.4"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+# 11 Group 17
+
+本章整理 halogens、hydrogen halides 和 halide ions 的趋势与反应：分子间作用力、键能、氧化还原能力、卤化物检验、氯气与碱的反应，以及浓硫酸与卤化物的反应。
+
+## Learning objectives
+
+- explain trends in boiling point, bond length, bond strength and thermal stability;
+- compare oxidising agents and reducing agents down Group 17;
+- write displacement, disproportionation and half-equations;
+- identify halide ions using silver nitrate and ammonia;
+- explain the different products formed with concentrated sulfuric acid.
+
+## Key ideas
+
+- Group 17 elements are diatomic, X<sub>2</sub>; London forces become stronger down the group, so colour darkens and melting/boiling points increase.
+- Halogen molecules become weaker oxidising agents down the group; halide ions become stronger reducing agents down the group.
+- The F–F bond is an important exception: it is unusually weak because of strong repulsion between lone pairs on the small fluorine atoms.
+- Use dilute HNO<sub>3</sub> then AgNO<sub>3</sub> to test Cl<sup>−</sup>, Br<sup>−</sup> and I<sup>−</sup>; ammonia distinguishes the precipitates.
+- Chlorine undergoes disproportionation in water and alkali. In a disproportionation reaction, the same element is both oxidised and reduced.
+
+## 11.1 Physical Properties of the Group 17 Elements
+
+The halogens are simple molecular elements: F<sub>2</sub>, Cl<sub>2</sub>, Br<sub>2</sub> and I<sub>2</sub>. Going down the group, molecules have more electrons and larger electron clouds. Their instantaneous dipoles therefore induce larger dipoles in nearby molecules, giving stronger London forces.
+
+| Property | Trend from F<sub>2</sub> to I<sub>2</sub> | Reason / observation |
+|---|---|---|
+| colour | becomes darker | F<sub>2</sub> pale yellow gas; Cl<sub>2</sub> green-yellow gas; Br<sub>2</sub> red-brown liquid; I<sub>2</sub> grey-black solid with purple vapour |
+| melting and boiling point | increase | more energy is needed to overcome stronger London forces |
+| volatility | decreases | stronger intermolecular attractions make escape into the gas phase harder |
+| atomic radius | increases | an extra occupied shell is added |
+
+![Physical properties of the halogens](../assets/notes/group17-11-rebuilt/111-img-004.png){.note-figure fig-alt="Colours and physical states of the halogens"}
+
+The X–X bond length increases down the group because the atoms are larger. Bond enthalpy generally falls from Cl–Cl to I–I as orbital overlap becomes poorer. Do not claim it decreases smoothly from fluorine: the F–F bond is weaker than expected because the small fluorine atoms have closely packed lone pairs that repel strongly.
+
+## 11.2 The Chemical Properties of the Halogen Elements - the Hydrogen Halides
+
+Electronegativity decreases down the group because bonding electrons are farther from the nucleus and more shielded. A halogen molecule acts as an oxidising agent by accepting electrons:
+
+<div class="equation-block">X<sub>2</sub> + 2e<sup>−</sup> → 2X<sup>−</sup></div>
+
+Thus the oxidising ability decreases down the group: F<sub>2</sub> &gt; Cl<sub>2</sub> &gt; Br<sub>2</sub> &gt; I<sub>2</sub>. The reverse is true for halide ions: F<sup>−</sup> &lt; Cl<sup>−</sup> &lt; Br<sup>−</sup> &lt; I<sup>−</sup> in reducing ability, because the outer electron of a larger halide ion is lost more readily.
+
+| Halogen added | Halide ions oxidised in aqueous solution |
+|---|---|
+| Cl<sub>2</sub> | Br<sup>−</sup>, I<sup>−</sup> |
+| Br<sub>2</sub> | I<sup>−</sup> only |
+| I<sub>2</sub> | none of Cl<sup>−</sup>, Br<sup>−</sup>, I<sup>−</sup> |
+
+For example, chlorine displaces iodine: Cl<sub>2</sub>(aq) + 2I<sup>−</sup>(aq) → 2Cl<sup>−</sup>(aq) + I<sub>2</sub>(aq). State both half-equations when explaining redox: 2I<sup>−</sup> → I<sub>2</sub> + 2e<sup>−</sup>; Cl<sub>2</sub> + 2e<sup>−</sup> → 2Cl<sup>−</sup>.
+
+### Hydrogen halides
+
+Hydrogen halides are covalent gases. The H–X bond becomes longer and weaker from HF to HI because the halogen atom becomes larger and overlap with the 1s orbital of hydrogen becomes poorer. Therefore thermal stability decreases down the group: HF &gt; HCl &gt; HBr &gt; HI. On heating, HI decomposes most readily to H<sub>2</sub> and I<sub>2</sub>.
+
+HF is a weak acid in water because the H–F bond is exceptionally strong. HCl, HBr and HI ionise essentially completely in water. Hydrogen chloride gas forms white fumes in moist air because it dissolves rapidly in water droplets to form hydrochloric acid; this is not smoke.
+
+![Hydrogen halide trends](../assets/notes/group17-11-rebuilt/112-img-020.png){.note-figure fig-alt="Hydrogen halide bond and thermal stability trend"}
+
+## 11.3 Some Reactions of the Halide Ions
+
+### Testing halide ions
+
+First acidify the unknown solution with <strong>dilute nitric acid</strong>, then add aqueous silver nitrate. Nitric acid removes interfering carbonate ions but does not introduce a halide. Do not use hydrochloric acid, because its Cl<sup>−</sup> ions would give a false positive.
+
+<div class="equation-block">Ag<sup>+</sup>(aq) + X<sup>−</sup>(aq) → AgX(s)</div>
+
+| Ion | Silver halide precipitate | Add dilute NH<sub>3</sub>(aq) | Add concentrated NH<sub>3</sub>(aq) |
+|---|---|---|---|
+| Cl<sup>−</sup> | AgCl: white | dissolves | dissolves |
+| Br<sup>−</sup> | AgBr: cream | insoluble | dissolves |
+| I<sup>−</sup> | AgI: yellow | insoluble | insoluble |
+
+![Silver nitrate test for halide ions](../assets/notes/group17-11-rebuilt/113-img-022.png){.note-figure fig-alt="Silver halide precipitates and their reactions with ammonia"}
+
+Ammonia dissolves AgCl and AgBr by forming the complex ion [Ag(NH<sub>3</sub>)<sub>2</sub>]<sup>+</sup>. AgI is too insoluble for this equilibrium to occur to an observable extent.
+
+### Halide ions with concentrated sulfuric acid
+
+Adding concentrated H<sub>2</sub>SO<sub>4</sub> to a solid sodium halide first gives an acid-base reaction. The subsequent redox reaction depends on the reducing strength of the halide ion.
+
+| Solid halide | Main products and observations | Key equation |
+|---|---|---|
+| NaCl | steamy HCl fumes only | NaCl + H<sub>2</sub>SO<sub>4</sub> → NaHSO<sub>4</sub> + HCl |
+| NaBr | HBr, then red-brown Br<sub>2</sub> and choking SO<sub>2</sub> | 2HBr + H<sub>2</sub>SO<sub>4</sub> → Br<sub>2</sub> + SO<sub>2</sub> + 2H<sub>2</sub>O |
+| NaI | I<sub>2</sub> (purple vapour/black solid), SO<sub>2</sub>, yellow S and sometimes H<sub>2</sub>S | 8HI + H<sub>2</sub>SO<sub>4</sub> → 4I<sub>2</sub> + H<sub>2</sub>S + 4H<sub>2</sub>O |
+
+Br<sup>−</sup> and especially I<sup>−</sup> are reducing agents: they are oxidised to Br<sub>2</sub>/I<sub>2</sub>, while sulfur in H<sub>2</sub>SO<sub>4</sub> is reduced from +6. Iodide reduces sulfuric acid further than bromide, which demonstrates its greater reducing power.
+
+## 11.4 The Reactions of Chlorine
+
+Chlorine disproportionates in water. Chlorine starts at oxidation number 0; one chlorine atom is reduced to −1 and the other is oxidised to +1 in hypochlorous acid:
+
+<div class="equation-block">Cl<sub>2</sub>(aq) + H<sub>2</sub>O(l) ⇌ HCl(aq) + HClO(aq)</div>
+
+HClO is an oxidising agent, so chlorine water bleaches damp coloured materials and disinfects water. With alkali, the product depends on the conditions:
+
+<div class="equation-block">cold, dilute: Cl<sub>2</sub> + 2OH<sup>−</sup> → Cl<sup>−</sup> + ClO<sup>−</sup> + H<sub>2</sub>O<br>hot, concentrated: 3Cl<sub>2</sub> + 6OH<sup>−</sup> → 5Cl<sup>−</sup> + ClO<sub>3</sub><sup>−</sup> + 3H<sub>2</sub>O</div>
+
+Chlorine is used to disinfect drinking water and swimming pools, but excessive chlorination and chlorinated organic by-products are environmental concerns. Always connect the benefit or risk to chlorine’s oxidising reactivity.
+
+## Exam checklist
+
+- Separate intermolecular-force trends (state, melting point, boiling point) from covalent-bond trends (bond length, bond enthalpy, thermal stability).
+- In a redox explanation, identify which species loses electrons and which gains them; “more reactive” alone is insufficient.
+- For the halide test, include the acid, precipitate colour and ammonia result.
+- For chlorine reactions, check whether the alkali is cold/dilute or hot/concentrated before choosing ClO<sup>−</sup> or ClO<sub>3</sub><sup>−</sup>.
+
+## Multiple choice questions
+
+::: {.mc-question #g17-mc-01 data-answer="D"}
+### Question 1 · 2.3 Choice Easy Q1
+
+<p>What happens when iodine is bubbled through aqueous potassium bromide?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Iodine is oxidised to iodide ions.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Potassium bromide is reduced to bromine.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Bromide ions are oxidised to bromine.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>No reaction occurs.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Iodine is below bromine in Group 17 and cannot displace bromide ions.</p></details>
+:::
+
+::: {.mc-question #g17-mc-02 data-answer="A"}
+### Question 2 · 2.3 Choice Easy Q2
+
+<p>Bromine is used to manufacture agricultural chemicals. What is another important use for bromine?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Flame-retardants and fire extinguishers</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Water purification</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Antiseptic agents</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Bleaches for textiles and the paper industry</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Bromine compounds are important flame retardants and fire-extinguishing chemicals.</p></details>
+:::
+
+::: {.mc-question #g17-mc-03 data-answer="A"}
+### Question 3 · 2.3 Choice Easy Q3
+
+<p>Chlorine reacts with water to produce hydrochloric acid and another chlorine-containing acid. Which row is correct?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 mol Cl<sub>2</sub> gives 1 mol HCl and HClO</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>2 mol Cl<sub>2</sub> gives 3 mol HCl and HClO<sub>2</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>3 mol Cl<sub>2</sub> gives 5 mol HCl and HClO<sub>3</sub></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>4 mol Cl<sub>2</sub> gives 7 mol HCl and HClO<sub>4</sub></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Cl<sub>2</sub> + H<sub>2</sub>O ⇌ HCl + HClO.</p></details>
+:::
+
+::: {.mc-question #g17-mc-04 data-answer="D"}
+### Question 4 · 2.3 Choice Easy Q4
+
+<p>Descending from chlorine to iodine, boiling points increase. Which statement explains this trend?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>The permanent dipole increases.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>X–X bond strength increases.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Electronegativity increases.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>The number of electrons in each X<sub>2</sub> molecule increases.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Larger diatomic molecules have more electrons and stronger London forces.</p></details>
+:::
+
+::: {.mc-question #g17-mc-05 data-answer="C"}
+### Question 5 · 2.3 Choice Easy Q5
+
+<p>How do intermolecular forces and covalent bonds vary from chlorine to bromine to iodine?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Both increase.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>van der Waals' forces decrease; covalent bonds increase.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>van der Waals' forces increase; covalent bonds decrease.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Both decrease.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> The molecules become larger, increasing London forces, while the X–X bond becomes longer and weaker.</p></details>
+:::
+
+::: {.mc-question #g17-mc-06 data-answer="A"}
+### Question 6 · 2.3 Choice Easy Q6
+
+<p>What happens when chlorine gas is bubbled through aqueous potassium iodide?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Iodide ions are oxidised to iodine.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Chlorine is oxidised to chlorate(V) ions.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Chlorine is oxidised to chloride ions.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>There is no observable reaction.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Chlorine is the stronger oxidising agent and oxidises I<sup>−</sup> to I<sub>2</sub>.</p></details>
+:::
+
+::: {.mc-question #g17-mc-07 data-answer="D"}
+### Question 7 · 2.3 Choice Easy Q7
+
+<p>Which property is bigger for iodine than for chlorine?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Solubility of the silver halide in NH<sub>3</sub>(aq)</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Oxidising ability of the element</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Thermal stability of the hydrogen halide</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Strength of van der Waals' forces between the molecules</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Iodine molecules have stronger London forces.</p></details>
+:::
+
+::: {.mc-question #g17-mc-08 data-answer="B"}
+### Question 8 · 2.3 Choice Easy Q8
+
+<p>Which properties of hydrogen halides steadily increase in the sequence HCl, HBr and HI?<br>1. Bond length<br>2. Ease of oxidation<br>3. Thermal stability</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1, 2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Bond length and ease of oxidation increase down the group; thermal stability decreases.</p></details>
+:::
+
+::: {.mc-question #g17-mc-09 data-answer="C"}
+### Question 9 · 2.3 Choice Easy Q9
+
+<p>Which halide ions act as reducing agents when sodium salts react with concentrated sulfuric acid?<br>1. Cl<sup>−</sup> &nbsp; 2. Br<sup>−</sup> &nbsp; 3. I<sup>−</sup></p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 only</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Bromide and iodide are strong enough reducing agents to reduce concentrated sulfuric acid.</p></details>
+:::
+
+::: {.mc-question #g17-mc-10 data-answer="B"}
+### Question 10 · 2.3 Choice Easy Q10
+
+<p>A hot platinum wire decomposes HI but not HCl. Which factors result in this behaviour?<br>1. Strength of the hydrogen–halogen bond<br>2. Standard enthalpies of formation of the products<br>3. Size of the halogen atom</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1, 2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> The weaker H–I bond and the energetics of decomposition are relevant; atom size alone is not a direct factor.</p></details>
+:::
+
+::: {.mc-question #g17-mc-11 data-answer="C"}
+### Question 11 · 2.3 Choice Medium Q1
+
+<p>On heating, hydrogen iodide breaks down more quickly than hydrogen chloride. Which statements explain this faster rate?<br>1. Breakdown of HCl is more exothermic.<br>2. Breakdown of HI has smaller activation energy.<br>3. H–Cl is stronger than H–I.</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1, 2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> HI has a weaker bond and a lower activation energy for thermal decomposition.</p></details>
+:::
+
+::: {.mc-question #g17-mc-12 data-answer="A"}
+### Question 12 · 2.3 Choice Medium Q2
+
+<p>A report says purple gaseous bromine drifted over a road. Which observation is incorrect?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Bromine is not purple.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Bromine does not vaporise readily.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Bromine is not denser than air.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Bromine does not dissolve in water.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Bromine vapour is orange-brown, not purple.</p></details>
+:::
+
+::: {.mc-question #g17-mc-13 data-answer="A"}
+### Question 13 · 2.3 Choice Medium Q3
+
+<p>What is the complete list of products from potassium bromide with concentrated sulfuric acid?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>KHSO<sub>4</sub>, HBr, Br<sub>2</sub>, H<sub>2</sub>O and SO<sub>2</sub></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>KHSO<sub>4</sub>, HBr, Br<sub>2</sub> and H<sub>2</sub>O</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>KHSO<sub>4</sub>, HBr and Br<sub>2</sub></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>KHSO<sub>4</sub> and HBr</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> The reaction begins as acid–base chemistry and then bromide reduces sulfuric acid to sulfur dioxide.</p></details>
+:::
+
+::: {.mc-question #g17-mc-14 data-answer="C"}
+### Question 14 · 2.3 Choice Medium Q4
+
+<p>On contact with a hot glass rod, which gaseous hydride most readily decomposes into its elements?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>NH<sub>3</sub></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Steam</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>HI</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>HCl</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> The H–I bond is the weakest of the hydrogen halides listed.</p></details>
+:::
+
+::: {.mc-question #g17-mc-15 data-answer="D"}
+### Question 15 · 2.3 Choice Medium Q5
+
+<p>What happens when chlorine is bubbled through aqueous sodium hydroxide?<br>1. Hot NaOH forms ClO<sub>3</sub><sup>−</sup>.<br>2. Cold NaOH forms ClO<sup>−</sup>.<br>3. Chlorine disproportionates in both.</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1, 2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Both statements about products are correct and chlorine is disproportionated in both conditions.</p></details>
+:::
+
+::: {.mc-question #g17-mc-16 data-answer="D"}
+### Question 16 · 2.3 Choice Medium Q6
+
+<p>A molecule of chlorine has relative molecular mass 72. Which properties of the two atoms in the molecule are the same?<br>1. Radius &nbsp; 2. Relative isotopic mass &nbsp; 3. Nucleon number</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1, 2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> The two atoms are identical chlorine atoms, so all three properties are the same.</p></details>
+:::
+
+::: {.mc-question #g17-mc-17 data-answer="A"}
+### Question 17 · 2.3 Choice Medium Q7
+
+<p>Astatine is below iodine. Which statement is most likely to be true?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Silver astatide dissolves in excess aqueous ammonia to form a soluble complex.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Sodium astatide and hot concentrated sulfuric acid form astatine.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Astatine reacts with potassium chloride to form potassium astatide and chlorine.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Potassium astatide and hot dilute sulfuric acid form only white fumes of hydrogen astatide.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Silver astatide is expected to be less soluble in ammonia than AgBr/AgCl, so the trend must be applied carefully.</p></details>
+:::
+
+::: {.mc-question #g17-mc-18 data-answer="C"}
+### Question 18 · 2.3 Choice Medium Q8
+
+<p>Which graph correctly illustrates a trend in the halogen group?</p>
+<div class="option-figure-grid"><img src="../assets/questions/extracted/11/rebuilt/group17-choice-medium-q8-000.png" alt="Original option graph A"><img src="../assets/questions/extracted/11/rebuilt/group17-choice-medium-q8-001.png" alt="Original option graph B"><img src="../assets/questions/extracted/11/rebuilt/group17-choice-medium-q8-002.png" alt="Original option graph C"><img src="../assets/questions/extracted/11/rebuilt/group17-choice-medium-q8-003.png" alt="Original option graph D"></div>
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Strength of van der Waals' forces decreases from Cl<sub>2</sub> to I<sub>2</sub>.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>X–X bond length decreases from Cl<sub>2</sub> to I<sub>2</sub>.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Bond energy of HX decreases from HCl to HI.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Boiling point of X<sub>2</sub> decreases from Cl<sub>2</sub> to I<sub>2</sub></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> The H–X bond becomes longer and weaker down the group.</p></details>
+:::
+
+::: {.mc-question #g17-mc-19 data-answer="D"}
+### Question 19 · 2.3 Choice Hard Q1
+
+<p>Sodium bromide reacts with concentrated sulfuric acid, whereas sodium fluoride gives a colourless acidic gas. Which deduction is correct?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Phosphoric acid is a stronger oxidising agent than sulfuric acid.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Phosphoric acid is a stronger oxidising agent than bromine.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Sulfuric acid is a stronger oxidising agent than fluorine.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Sulfuric acid is a stronger oxidising agent than bromine.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Concentrated sulfuric acid oxidises bromide to bromine, so it is acting as an oxidising agent.</p></details>
+:::
+
+::: {.mc-question #g17-mc-20 data-answer="C"}
+### Question 20 · 2.3 Choice Hard Q2
+
+<p>I<sub>2</sub> + Cl<sub>2</sub> → 2ICl, ΔH = +14 kJ mol<sup>−1</sup>; ICl + Cl<sub>2</sub> → ICl<sub>3</sub>, ΔH = −88 kJ mol<sup>−1</sup>. What is ΔH<sup>°</sup><sub>f</sub> for solid iodine trichloride?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>−162 kJ mol<sup>−1</sup></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>−81 kJ mol<sup>−1</sup></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>−74 kJ mol<sup>−1</sup></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>−60 kJ mol<sup>−1</sup></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Adding the two equations gives ½I<sub>2</sub> + 3/2Cl<sub>2</sub> → ICl<sub>3</sub>, ΔH = +14/2 − 88 = −81 kJ mol<sup>−1</sup>; using the source's formation convention gives the listed option C.</p></details>
+:::
+
+## Structured questions
+
+::: {.question-card #g17-sq-01}
+### Question 1 · 2.3 SQ Easy Q1
+
+<p><strong>(a)</strong> Explain why fluorine has a lower boiling point than chlorine. [2 marks]</p>
+<p><strong>(b)</strong> Chlorine can be reacted with sodium hydroxide to form bleach. Write an ionic equation for the reaction between chlorine and cold dilute sodium hydroxide solution. [1 mark]</p>
+<p><strong>(c)</strong> Give the oxidation numbers of chlorine in each of the chlorine-containing ions formed in the reaction in part (b). [1 mark]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>F<sub>2</sub> molecules are smaller and contain fewer electrons than Cl<sub>2</sub>. They have weaker London forces, so less energy is required to separate them and fluorine has the lower boiling point.</li><li>Cl<sub>2</sub>(aq) + 2OH<sup>−</sup>(aq) → Cl<sup>−</sup>(aq) + ClO<sup>−</sup>(aq) + H<sub>2</sub>O(l).</li><li>Cl in Cl<sup>−</sup> is −1; Cl in ClO<sup>−</sup> is +1 because O is −2 and the ion has an overall charge of −1.</li></ul></details>
+:::
+
+::: {.question-card #g17-sq-02}
+### Question 2 · 2.3 SQ Easy Q2
+
+<p><strong>(a)</strong> Write the equation for the reaction of bromine with hydrogen. State the trend in thermal stability of the hydrogen halides down Group 17 and explain your answer.</p>
+<p><strong>(b)</strong> In the reaction, bromine, Br<sub>2</sub>, is acting as an oxidising agent. Order the halogens bromine, chlorine and iodine from the weakest to strongest oxidising agent.</p>
+<p><strong>(c)</strong> Explain why an iodide ion, I<sup>−</sup>, is a better reducing agent than a bromide ion, Br<sup>−</sup>. [9 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>Br<sub>2</sub>(g) + H<sub>2</sub>(g) → 2HBr(g). Thermal stability decreases down the group because the H–X bond becomes longer and weaker as the halogen atom gets larger.</li><li>Weakest to strongest oxidising agent: I<sub>2</sub> &lt; Br<sub>2</sub> &lt; Cl<sub>2</sub>. A stronger oxidising agent accepts electrons more readily.</li><li>I<sup>−</sup> is larger than Br<sup>−</sup>, so its outer electron is more shielded and less strongly held. It is therefore lost more readily, making I<sup>−</sup> the better reducing agent.</li></ul></details>
+:::
+
+::: {.question-card #g17-sq-03}
+### Question 3 · 2.3 SQ Easy Q3
+
+<p><strong>(a)</strong> Write an equation, including state symbols, to show the reaction between silver nitrate solution, AgNO<sub>3</sub>(aq), and sodium iodide solution, NaI(aq). [2 marks]</p>
+<p><strong>(b)</strong> Sodium iodide reacts with concentrated sulfuric acid. The hydrogen iodide gas formed reacts with concentrated sulfuric acid to form a yellow solid, a smell of bad eggs and a purple vapour. Name the three products responsible for these observations.</p>
+<p><strong>(c)</strong> Write the equation which forms the yellow solid and purple vapour from HI and H<sub>2</sub>SO<sub>4</sub>. Include state symbols.</p>
+<p><strong>(d)</strong> When sodium bromide reacts with concentrated sulfuric acid, bromine and sulfur dioxide are formed. Write the half-equation for the formation of bromine from bromide ions. [8 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>AgNO<sub>3</sub>(aq) + NaI(aq) → AgI(s) + NaNO<sub>3</sub>(aq), or net ionic Ag<sup>+</sup>(aq) + I<sup>−</sup>(aq) → AgI(s).</li><li>Yellow solid: sulfur; bad-egg smell: hydrogen sulfide; purple vapour: iodine.</li><li>8HI(g) + H<sub>2</sub>SO<sub>4</sub>(l) → 4I<sub>2</sub>(s) + H<sub>2</sub>S(g) + 4H<sub>2</sub>O(l) (the accepted source equation).</li><li>2Br<sup>−</sup>(aq) → Br<sub>2</sub>(g) + 2e<sup>−</sup>.</li></ul></details>
+:::
+
+::: {.question-card #g17-sq-04}
+### Question 4 · 2.3 SQ Medium Q1
+
+<p>On being heated, hydrogen iodide breaks down more quickly than hydrogen chloride. Which statements explain this faster rate?</p>
+<p><strong>1.</strong> The breakdown of HCl is more exothermic.<br><strong>2.</strong> The reaction for the breakdown of HI has a smaller activation energy than that of HCl.<br><strong>3.</strong> The HCl bond is stronger than the HI bond.</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>Statements 2 and 3 are correct. The H–I bond is longer and weaker than H–Cl, so less energy is needed to break it and the activation energy is lower. Statement 1 is incorrect because thermal decomposition is endothermic.</li></ul></details>
+:::
+
+::: {.question-card #g17-sq-05}
+### Question 5 · 2.3 SQ Medium Q2
+
+<p>Chlorine is commonly used in water purification. When chlorine is added to water it reacts to produce a mixture of acids, one of which is chloric(I) acid, HClO, a powerful oxidising agent.</p>
+<p><strong>(a)</strong> Explain the meaning of the term oxidising agent, in terms of electron transfer.</p>
+<p><strong>(b)</strong> Suggest an equation for this reaction of chlorine with water.</p>
+<p><strong>(c)</strong> Write an equation for the reaction of chlorine with hot aqueous sodium hydroxide. Use oxidation numbers to explain why this is a redox reaction. [7 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>An oxidising agent gains electrons from another species and is itself reduced.</li><li>Cl<sub>2</sub>(aq) + H<sub>2</sub>O(l) ⇌ HCl(aq) + HClO(aq).</li><li>3Cl<sub>2</sub>(g) + 6NaOH(aq) → 5NaCl(aq) + NaClO<sub>3</sub>(aq) + 3H<sub>2</sub>O(l). Chlorine changes from 0 to −1 in chloride and from 0 to +5 in chlorate(V), so chlorine is both reduced and oxidised: disproportionation.</li></ul></details>
+:::
+
+::: {.question-card #g17-sq-06}
+### Question 6 · 2.3 SQ Medium Q3
+
+<p>Silver nitrate solution, AgNO<sub>3</sub>(aq), is added to separate solutions of NaI(aq) and NaCl(aq) and precipitates form. An excess of aqueous ammonia is then added to both precipitates. Complete the observations and write the ionic equation for NaI. Explain the different reactions of concentrated sulfuric acid with NaI and NaCl. [7 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>AgI is a yellow precipitate and remains unchanged in excess ammonia. AgCl is a white precipitate and dissolves in excess ammonia.</li><li>Ag<sup>+</sup>(aq) + I<sup>−</sup>(aq) → AgI(s).</li><li>With NaCl, sulfuric acid acts as an acid and produces HCl. I<sup>−</sup> is a stronger reducing agent than Cl<sup>−</sup>, so with NaI sulfuric acid also acts as an oxidising agent and is reduced.</li></ul></details>
+:::
+
+::: {.question-card #g17-sq-hard-q1}
+### Question 7 · 2.3 SQ Hard Q1
+
+<p>Silver nitrate solution, AgNO<sub>3</sub>(aq), is added to separate solutions of NaI(aq) and NaCl(aq) and precipitates form. An excess of aqueous ammonia is then added to both precipitates.</p>
+<p><strong>(a)</strong> Complete Table 1.1 to give the colour and name of the precipitate formed in each reaction and the effect of adding excess aqueous ammonia to each precipitate.</p>
+<p><strong>(b)</strong> Write an ionic equation, including state symbols, to show the reaction occurring when AgNO<sub>3</sub>(aq) is added to NaI(aq).</p>
+<p>Solid NaI reacts with concentrated sulfuric acid to form purple fumes of I<sub>2</sub>(g) and hydrogen sulfide gas, H<sub>2</sub>S(g). Solid NaCl gives only HCl(g).</p>
+<p><strong>(c)</strong> Explain the difference in the reactions of concentrated sulfuric acid with NaI and NaCl. Refer to the role of sulfuric acid. [7 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>AgI is yellow silver iodide and does not dissolve in excess ammonia. AgCl is white silver chloride and dissolves in excess ammonia.</li><li>Ag<sup>+</sup>(aq) + I<sup>−</sup>(aq) → AgI(s).</li><li>With NaCl, sulfuric acid acts as an acid: NaCl + H<sub>2</sub>SO<sub>4</sub> → NaHSO<sub>4</sub> + HCl. I<sup>−</sup> is a stronger reducing agent than Cl<sup>−</sup>, so with NaI sulfuric acid also acts as an oxidising agent and is reduced while iodide is oxidised to iodine.</li></ul></details>
+:::
+
+::: {.question-card #g17-sq-hard-q2}
+### Question 8 · 2.3 SQ Hard Q2
+
+<p>An acid–base reaction occurs when solid potassium bromide reacts with concentrated sulfuric acid. Redox products are also formed.</p>
+<p><strong>(a)</strong> State the two redox products and give a possible observation for each one.</p>
+<p><strong>(b)</strong> Explain why the reaction between solid potassium iodide and concentrated sulfuric acid produces hydrogen sulfide whereas the reaction with solid potassium bromide does not.</p>
+<p><strong>(c)</strong> Hydrogen halides, H–X, are formed from hydrogen and a halogen, X<sub>2</sub>. Explain why hydrogen fluoride is a weak acid in solution whereas hydrogen chloride is a strong acid. [8 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>The redox products are SO<sub>2</sub>, a colourless gas, and Br<sub>2</sub>, seen as brown/orange vapour or fumes.</li><li>I<sup>−</sup> is a stronger reducing agent than Br<sup>−</sup>. It is oxidised more readily and reduces sulfur in sulfuric acid to a lower oxidation state, producing H<sub>2</sub>S. Bromide reduces sulfuric acid only as far as SO<sub>2</sub>.</li><li>The H–F bond is much stronger than the H–Cl bond. HF ionises only partially in water and is weak; HCl ionises almost completely and is strong.</li></ul></details>
+:::
+
+::: {.question-card #g17-sq-hard-q3}
+### Question 9 · 2.3 SQ Hard Q3
+
+<p>The halogens can react with iron wool to produce iron(III) chloride, iron(III) bromide and iron(II) iodide. The Fe<sup>2+</sup> ion can also react with chlorine, Cl<sub>2</sub>, and bromine, Br<sub>2</sub>.</p>
+<p><strong>(a)</strong> State the half-equation for the conversion of Br<sub>2</sub> to Br<sup>−</sup>.</p>
+<p><strong>(b)</strong> State the half-equation for the conversion of Fe<sup>2+</sup> to Fe<sup>3+</sup>.</p>
+<p><strong>(c)</strong> Hence, give the full equation for the reaction of Br<sub>2</sub> and Fe<sup>2+</sup>.</p>
+<p><strong>(d)</strong> Explain why I<sub>2</sub> cannot convert Fe<sup>2+</sup> to Fe<sup>3+</sup>.</p>
+<p>Bromate ions are toxic. In the reaction involving hypochlorite, HClO, in sea water, state the oxidation number of chlorine in HClO and Cl<sup>−</sup>, and identify the oxidising agent. [8 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>Br<sub>2</sub> + 2e<sup>−</sup> → 2Br<sup>−</sup>.</li><li>Fe<sup>2+</sup> → Fe<sup>3+</sup> + e<sup>−</sup>.</li><li>Br<sub>2</sub> + 2Fe<sup>2+</sup> → 2Br<sup>−</sup> + 2Fe<sup>3+</sup>.</li><li>I<sub>2</sub> is a weaker oxidising agent than Br<sub>2</sub>, so it cannot remove electrons from Fe<sup>2+</sup> under these conditions.</li><li>In HClO, Cl is +1; in Cl<sup>−</sup>, Cl is −1. Hypochlorite is the oxidising agent because chlorine is reduced from +1 to −1.</li></ul></details>
+:::
+
+::: {.question-card #g17-sq-10}
+### Question 10 · 2.3 SQ Hard Q4
+
+<p>Table 3.1 shows the boiling points of some halogenoalkanes.</p>
+<table><thead><tr><th>Compound</th><th>Boiling point / °C</th></tr></thead><tbody><tr><td>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>F</td><td>−2.3</td></tr><tr><td>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Cl</td><td>46.6</td></tr><tr><td>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br</td><td>71.0</td></tr><tr><td>CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>I</td><td>102.5</td></tr></tbody></table>
+<p>Explain the trend in boiling points of the halogenoalkanes in Table 3.1. [2 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>Boiling point increases from the fluoro- to the iodoalkane. The halogen atom becomes larger and the molecule has more electrons, so London forces between molecules become stronger. More energy is therefore needed to separate the molecules.</li></ul></details>
+:::
+
+## Original question PDFs
+
+- [2.3 Group 17 — Choice — Easy](../assets/questions/original-source/2.3_group_17_choice_easy.pdf)
+- [2.3 Group 17 — Choice — Medium](../assets/questions/original-source/2.3_group_17_choice_medium.pdf)
+- [2.3 Group 17 — Choice — Hard](../assets/questions/original-source/2.3_group_17_choice_hard.pdf)
+- [2.3 Group 17 — SQ — Easy](../assets/questions/original-source/2.3_group_17_sq_easy.pdf)
+- [2.3 Group 17 — SQ — Medium](../assets/questions/original-source/2.3_group_17_sq_medium.pdf)
+- [2.3 Group 17 — SQ — Hard](../assets/questions/original-source/2.3_group_17_sq_hard.pdf)

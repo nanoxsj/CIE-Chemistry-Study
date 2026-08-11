@@ -1,0 +1,180 @@
+
+### Supplementary consolidation questions
+
+::: {.mc-question #bonding-extra-mc-01 data-answer="C"}
+### Question 29 · Electronegativity trend · 1.3 Supplementary MC1
+
+Which statement correctly describes the trend in electronegativity across Period 3?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>It decreases because atomic radius decreases.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>It decreases because nuclear charge decreases.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>It increases because nuclear charge increases while shielding is similar.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>It stays constant because all atoms have the same number of shells.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Across a period, nuclear charge increases while the bonding electrons remain in the same principal shell, so the attraction for the shared pair increases.</p></details>
+:::
+
+::: {.mc-question #bonding-extra-mc-02 data-answer="D"}
+### Question 30 · Molecular polarity · 1.3 Supplementary MC2
+
+Which molecule is non-polar overall despite containing polar bonds?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>H<sub>2</sub>O</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>NH<sub>3</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>CH<sub>2</sub>Cl<sub>2</sub></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>CO<sub>2</sub></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> CO<sub>2</sub> is linear and symmetrical, so its two C=O bond dipoles cancel.</p></details>
+:::
+
+::: {.mc-question #bonding-extra-mc-03 data-answer="A"}
+### Question 31 · Ionic lattice · 1.3 Supplementary MC3
+
+Why does solid magnesium oxide have a higher melting point than solid sodium chloride?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Mg<sup>2+</sup> and O<sup>2−</sup> have greater charges than Na<sup>+</sup> and Cl<sup>−</sup>.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>MgO contains covalent molecules.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>NaCl has no electrostatic attractions.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>MgO has weaker attractions but more molecules.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> The electrostatic attraction is stronger between ions with charges of 2+ and 2− than between ions with charges of 1+ and 1−.</p></details>
+:::
+
+::: {.mc-question #bonding-extra-mc-04 data-answer="B"}
+### Question 32 · Ionic conductivity · 1.3 Supplementary MC4
+
+Which statement explains why aqueous sodium chloride conducts electricity?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>The covalent bonds in water carry electrons.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Mobile Na<sup>+</sup> and Cl<sup>−</sup> ions carry charge through the solution.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>The solid ionic lattice remains unchanged and conducts.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Only neutral NaCl molecules carry charge.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Dissolving separates the ions and allows them to move, so they can carry electric charge.</p></details>
+:::
+
+::: {.mc-question #bonding-extra-mc-05 data-answer="C"}
+### Question 33 · Metallic bonding · 1.3 Supplementary MC5
+
+Which feature of metals is explained by delocalised electrons?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>They cannot conduct electricity when solid.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>They contain discrete covalent molecules.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>They conduct electricity because electrons move through the lattice.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>They have no attraction between particles.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Delocalised electrons are mobile and carry charge through the metallic lattice.</p></details>
+:::
+
+::: {.mc-question #bonding-extra-mc-06 data-answer="D"}
+### Question 34 · Coordinate bonding · 1.3 Supplementary MC6
+
+In the formation of H<sub>3</sub>O<sup>+</sup> from H<sub>2</sub>O and H<sup>+</sup>, which species donates the electron pair?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>H<sup>+</sup></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Both hydrogen atoms equally</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>The oxygen nucleus</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>The lone pair on oxygen</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Oxygen donates one of its lone pairs to the electron-deficient H<sup>+</sup> ion.</p></details>
+:::
+
+::: {.mc-question #bonding-extra-mc-07 data-answer="A"}
+### Question 35 · Sigma and pi bonds · 1.3 Supplementary MC7
+
+How many sigma and pi bonds are present in ethyne, C<sub>2</sub>H<sub>2</sub>?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>3 sigma and 2 pi</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>2 sigma and 3 pi</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>4 sigma and 1 pi</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>3 sigma and 1 pi</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> The C≡C triple bond contains one sigma and two pi bonds, and the two C-H bonds add two sigma bonds.</p></details>
+:::
+
+::: {.mc-question #bonding-extra-mc-08 data-answer="B"}
+### Question 36 · Bond strength · 1.3 Supplementary MC8
+
+Which bond is shortest and strongest between the same two elements?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Single bond</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Triple bond</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Hydrogen bond</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>London force</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> A triple bond has three shared electron pairs, giving the greatest electron density between the nuclei and the shortest, strongest covalent bond.</p></details>
+:::
+
+::: {.mc-question #bonding-extra-mc-09 data-answer="C"}
+### Question 37 · Molecular shape · 1.3 Supplementary MC9
+
+What is the shape of NH<sub>3</sub>?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Linear</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Trigonal planar</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Trigonal pyramidal</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Tetrahedral</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Nitrogen has three bonding pairs and one lone pair. The lone pair compresses the bond angles, giving a trigonal pyramidal molecular shape.</p></details>
+:::
+
+::: {.mc-question #bonding-extra-mc-10 data-answer="D"}
+### Question 38 · Lone-pair repulsion · 1.3 Supplementary MC10
+
+Which type of electron-pair repulsion is strongest?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Bond pair-bond pair</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Bond pair-single electron</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Bond pair-lone pair</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Lone pair-lone pair</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> A lone pair is concentrated around one atom and repels another lone pair most strongly.</p></details>
+:::
+
+::: {.mc-question #bonding-extra-mc-11 data-answer="A"}
+### Question 39 · Hydrogen bonding · 1.3 Supplementary MC11
+
+Which molecule can form hydrogen bonds with neighbouring molecules?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>CH<sub>3</sub>OH</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>CH<sub>4</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>CO<sub>2</sub></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>CCl<sub>4</sub></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Methanol contains an O-H bond and lone pairs on oxygen, satisfying the hydrogen-bond donor and acceptor requirements.</p></details>
+:::
+
+::: {.mc-question #bonding-extra-mc-12 data-answer="B"}
+### Question 40 · Dot-and-cross diagrams · 1.3 Supplementary MC12
+
+How many valence electrons must be shown in a dot-and-cross diagram of NO<sub>3</sub><sup>−</sup>?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>23</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>24</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>25</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>26</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Nitrogen contributes 5, three oxygen atoms contribute 18 and the negative charge adds one electron: 5 + 18 + 1 = 24.</p></details>
+:::
+
+### Supplementary structured questions
+
+::: {.question-card}
+### Question 16 · Electronegativity and bond polarity · 1.3 Supplementary SQ1
+
+**(a)** Define electronegativity. `[1 mark]`
+
+**(b)** Explain why electronegativity increases across a period. `[2 marks]`
+
+**(c)** Describe the polarity of the C-Cl bond and explain why CCl<sub>4</sub> is non-polar overall. `[3 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li><strong>(a)</strong> The ability of an atom to attract the bonding pair of electrons in a covalent bond.</li><li><strong>(b)</strong> Nuclear charge increases while shielding is similar because electrons are added to the same shell; atomic radius decreases and attraction for the bonding pair increases.</li><li><strong>(c)</strong> Carbon is δ+ and chlorine is δ−. CCl<sub>4</sub> is tetrahedral and symmetrical, so the four bond dipoles cancel.</li></ul></details>
+:::
+
+::: {.question-card}
+### Question 17 · Ionic and metallic structures · 1.3 Supplementary SQ2
+
+**(a)** Describe the structure of a giant ionic lattice. `[2 marks]`
+
+**(b)** Explain why an ionic compound conducts electricity when molten but not when solid. `[2 marks]`
+
+**(c)** Describe metallic bonding and use it to explain electrical conductivity. `[3 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li><strong>(a)</strong> A regular three-dimensional arrangement of oppositely charged ions, with electrostatic attractions acting in all directions.</li><li><strong>(b)</strong> In a solid the ions are fixed; when molten they are mobile and carry charge.</li><li><strong>(c)</strong> Positive metal ions are held by attraction to a sea of delocalised electrons. The electrons can move through the lattice and carry charge.</li></ul></details>
+:::
+
+::: {.question-card}
+### Question 18 · Coordinate bonds and sigma/pi bonds · 1.3 Supplementary SQ3
+
+**(a)** Explain the formation of NH<sub>4</sub><sup>+</sup> from NH<sub>3</sub> and H<sup>+</sup>. `[3 marks]`
+
+**(b)** State the number of sigma and pi bonds in propene, CH<sub>2</sub>=CHCH<sub>3</sub>. `[2 marks]`
+
+**(c)** Explain why a double bond restricts rotation. `[2 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li><strong>(a)</strong> Nitrogen donates a lone pair to H<sup>+</sup>, forming a coordinate N-H bond; the ion has an overall 1+ charge.</li><li><strong>(b)</strong> Six C-H sigma bonds plus two C-C sigma bonds give 8 sigma bonds; the C=C contains 1 pi bond.</li><li><strong>(c)</strong> A double bond contains a sideways-overlap pi bond as well as a sigma bond; rotation would break the pi overlap.</li></ul></details>
+:::
+
+::: {.question-card}
+### Question 19 · Shapes and bond angles · 1.3 Supplementary SQ4
+
+For each species, state the shape and approximate bond angle: CO<sub>2</sub>, BF<sub>3</sub>, CH<sub>4</sub>, NH<sub>3</sub> and H<sub>2</sub>O. `[10 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>CO<sub>2</sub>: linear, 180°.</li><li>BF<sub>3</sub>: trigonal planar, 120°.</li><li>CH<sub>4</sub>: tetrahedral, 109.5°.</li><li>NH<sub>3</sub>: trigonal pyramidal, about 107°.</li><li>H<sub>2</sub>O: bent, about 104.5°.</li><li>Lone pairs repel more strongly than bonding pairs and reduce bond angles.</li></ul></details>
+:::
+
+::: {.question-card}
+### Question 20 · Intermolecular forces and dot-and-cross diagrams · 1.3 Supplementary SQ5
+
+**(a)** Explain why water has a higher boiling point than hydrogen sulfide. `[3 marks]`
+
+**(b)** State the intermolecular forces present between carbon dioxide molecules. `[2 marks]`
+
+**(c)** State the total number of valence electrons in SO<sub>4</sub><sup>2−</sup> and explain how the ion should be represented. `[3 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li><strong>(a)</strong> Water molecules form strong hydrogen bonds because H is directly bonded to O. H<sub>2</sub>S does not form hydrogen bonds, so its intermolecular attractions are weaker.</li><li><strong>(b)</strong> Carbon dioxide is non-polar, so neighbouring molecules experience London dispersion forces only.</li><li><strong>(c)</strong> S contributes 6, four O atoms contribute 24 and the 2− charge contributes 2: 32 electrons. Draw S central with four O atoms, complete octets, place the structure in square brackets and write 2− outside.</li></ul></details>
+:::

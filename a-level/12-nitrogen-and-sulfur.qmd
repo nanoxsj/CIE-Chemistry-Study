@@ -1,0 +1,479 @@
+---
+title: "12 Nitrogen and sulfur"
+subtitle: "Nitrogen compounds, sulfur oxides and atmospheric chemistry"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+# 12 Nitrogen and sulfur
+
+本章覆盖 nitrogen molecule 的稳定性、ammonia 与 ammonium salts、Haber / nitric acid 相关反应、nitrogen oxides、catalytic converters、photochemical smog、acid rain，以及 sulfur dioxide 在大气中的作用。
+
+## Learning objectives
+
+- explain the strength and non-polarity of the N≡N molecule;
+- apply Brønsted–Lowry acid–base theory to ammonia and ammonium ions;
+- balance equations for ammonia oxidation and nitrogen-oxide chemistry;
+- explain catalytic converters, PAN, photochemical smog and acid rain;
+- calculate formulae, oxidation numbers, gas amounts and percentage quantities.
+
+## Key ideas
+
+- N<sub>2</sub> is unreactive because it has a strong triple bond and is non-polar.
+- NH<sub>3</sub> has a lone pair: it is a weak Brønsted–Lowry base, a nucleophile and a ligand; NH<sub>4</sub><sup>+</sup> is tetrahedral.
+- NO and NO<sub>2</sub> form at high temperatures in engines. Catalytic converters use redox chemistry to remove NO<sub>x</sub>, CO and hydrocarbons.
+- NO<sub>x</sub> plus VOCs in sunlight form PAN, a secondary pollutant in photochemical smog.
+- NO<sub>2</sub> catalyses oxidation of SO<sub>2</sub> to SO<sub>3</sub>; sulfuric and nitric acids formed in air contribute to acid rain.
+
+## 12.1 Nitrogen - Sulfur
+
+Nitrogen is present in air as N<sub>2</sub>. Each nitrogen atom has five valence electrons. The atoms share three pairs of electrons, forming an N≡N triple bond consisting of one σ bond and two π bonds. Each nitrogen atom also has one lone pair.
+
+The N≡N bond is very short and has a high bond enthalpy, so a large activation energy is needed before nitrogen can react. N<sub>2</sub> is also non-polar because the two atoms have identical electronegativity and share bonding electrons equally. It is therefore not strongly attracted to other molecules. These are the two required reasons for its low reactivity.
+
+![Formation of the nitrogen triple bond](../assets/notes/nitrogen-sulfur-12-rebuilt/nitrogen-sulfur-note-004.png){.note-figure fig-alt="Formation of an N2 molecule from two nitrogen atoms"}
+
+![Orbital overlap in the nitrogen triple bond](../assets/notes/nitrogen-sulfur-12-rebuilt/nitrogen-sulfur-note-010.png){.note-figure fig-alt="Orbital overlap and the triple bond in nitrogen"}
+
+At the extreme temperatures in lightning or an internal combustion engine, nitrogen reacts with oxygen:
+
+<div class="equation-block">N<sub>2</sub>(g) + O<sub>2</sub>(g) → 2NO(g)<br>2NO(g) + O<sub>2</sub>(g) → 2NO<sub>2</sub>(g)</div>
+
+NO is colourless; NO<sub>2</sub> is a brown, toxic gas. In these reactions nitrogen is oxidised from 0 to +2, then from +2 to +4.
+
+## 12.2 Ammonia and ammonium ions
+
+Ammonia is trigonal pyramidal. Nitrogen has three N–H bonding pairs and one lone pair; the lone pair repels more strongly, so the H–N–H bond angle is about 107°, smaller than the tetrahedral angle. The lone pair can be donated to H<sup>+</sup>, forming a coordinate bond and the ammonium ion:
+
+<div class="equation-block">NH<sub>3</sub> + H<sup>+</sup> → NH<sub>4</sub><sup>+</sup></div>
+
+NH<sub>4</sub><sup>+</sup> is tetrahedral with 109.5° bond angles. After formation, all four N–H bonds have the same length: the coordinate bond is indistinguishable from the other covalent bonds and the positive charge is spread across the ion.
+
+![Ammonia bonding and shape](../assets/notes/nitrogen-sulfur-12-rebuilt/nitrogen-sulfur-note-020.png){.note-figure fig-alt="Covalent bonding, lone pair and pyramidal shape of ammonia"}
+
+![Formation and shape of the ammonium ion](../assets/notes/nitrogen-sulfur-12-rebuilt/nitrogen-sulfur-note-022.png){.note-figure fig-alt="Dative covalent bond and tetrahedral shape of the ammonium ion"}
+
+Ammonia is a weak Brønsted–Lowry base because it accepts protons only partially in water; the equilibrium lies mainly to the left:
+
+<div class="equation-block">NH<sub>3</sub>(aq) + H<sub>2</sub>O(l) ⇌ NH<sub>4</sub><sup>+</sup>(aq) + OH<sup>−</sup>(aq)</div>
+
+It is also a nucleophile because the nitrogen lone pair can be donated to an electron-deficient atom. Industrially, ammonia is made by the Haber process, N<sub>2</sub>(g) + 3H<sub>2</sub>(g) ⇌ 2NH<sub>3</sub>(g). The reaction is exothermic and produces fewer moles of gas; industry uses a compromise temperature, high pressure, an iron catalyst and continuous removal of NH<sub>3</sub>.
+
+In the laboratory, heat ammonium chloride and calcium hydroxide:
+
+<div class="equation-block">2NH<sub>4</sub>Cl(s) + Ca(OH)<sub>2</sub>(s) → CaCl<sub>2</sub>(s) + 2NH<sub>3</sub>(g) + 2H<sub>2</sub>O(l)</div>
+
+Dry NH<sub>3</sub> with CaO, not concentrated H<sub>2</sub>SO<sub>4</sub> or anhydrous CaCl<sub>2</sub> because they react with or absorb ammonia. Confirm ammonia by turning damp red litmus paper blue; it also forms dense white fumes with HCl gas.
+
+![Laboratory preparation and test for ammonia](../assets/notes/nitrogen-sulfur-12-rebuilt/nitrogen-sulfur-note-028.png){.note-figure fig-alt="Laboratory preparation, drying and test of ammonia gas"}
+
+## 12.3 Nitrogen oxides and catalytic converters
+
+NO<sub>x</sub> means nitrogen oxides, principally NO and NO<sub>2</sub>. They are primary pollutants released from high-temperature combustion. A catalytic converter provides a large Pt/Rh-coated surface for redox reactions that convert harmful gases into less harmful products:
+
+<div class="equation-block">2NO(g) + 2CO(g) → N<sub>2</sub>(g) + 2CO<sub>2</sub>(g)<br>2CO(g) + O<sub>2</sub>(g) → 2CO<sub>2</sub>(g)</div>
+
+CO is oxidised to CO<sub>2</sub>; NO is reduced to N<sub>2</sub>. A greater catalyst surface area increases contact and improves removal. Higher engine temperatures increase NO formation because more N<sub>2</sub> molecules have sufficient energy to react. Replacing a fossil fuel with hydrogen does not automatically prevent NO<sub>x</sub>, because the N<sub>2</sub> and O<sub>2</sub> involved come from air.
+
+![Catalytic converter reactions](../assets/notes/nitrogen-sulfur-12-rebuilt/nitrogen-sulfur-note-038.png){.note-figure fig-alt="Reduction of nitrogen oxides in a catalytic converter"}
+
+## 12.4 Photochemical smog and PAN
+
+Car exhaust supplies NO<sub>x</sub> and unburnt hydrocarbons/volatile organic compounds (VOCs). These are <strong>primary pollutants</strong> because they are emitted directly. In sunlight they react to form peroxyacetyl nitrate, PAN, which is a <strong>secondary pollutant</strong>. The term <em>photochemical</em> means that light supplies the energy for the reaction.
+
+![Nitrogen oxides, VOCs and formation of PAN](../assets/notes/nitrogen-sulfur-12-rebuilt/nitrogen-sulfur-note-048.png){.note-figure fig-alt="Photochemical formation of PAN from nitrogen oxides and VOCs"}
+
+PAN and photochemical smog reduce visibility and irritate eyes and the respiratory system; they can also damage plants. Smog is often worse in busy cities on hot, sunny afternoons because both the pollutant concentration and light-driven reaction rate are high.
+
+## 12.5 Sulfur dioxide, nitrogen dioxide and acid rain
+
+SO<sub>2</sub> is released when sulfur-containing fuels are burned. It is a respiratory irritant and can be oxidised in the atmosphere. NO<sub>2</sub> acts as a homogeneous catalyst because it is consumed in one step and regenerated in the next:
+
+<div class="equation-block">NO<sub>2</sub>(g) + SO<sub>2</sub>(g) ⇌ NO(g) + SO<sub>3</sub>(g) &nbsp; ΔH = −168 kJ mol<sup>−1</sup><br>NO(g) + ½O<sub>2</sub>(g) → NO<sub>2</sub>(g)<br>SO<sub>3</sub>(g) + H<sub>2</sub>O(l) → H<sub>2</sub>SO<sub>4</sub>(aq)</div>
+
+As the first reaction is exothermic, lower atmospheric temperature favours the forward direction. Nitrogen dioxide can also form nitric acid directly:
+
+<div class="equation-block">4NO<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + O<sub>2</sub>(g) → 4HNO<sub>3</sub>(aq)</div>
+
+![Formation of nitric acid and acid rain](../assets/notes/nitrogen-sulfur-12-rebuilt/nitrogen-sulfur-note-058.png){.note-figure fig-alt="Formation of nitric acid from nitrogen oxides and acid rain"}
+
+![Catalytic oxidation of sulfur dioxide by nitrogen dioxide](../assets/notes/nitrogen-sulfur-12-rebuilt/nitrogen-sulfur-note-064.png){.note-figure fig-alt="Nitrogen dioxide catalytic cycle leading to sulfuric acid"}
+
+H<sub>2</sub>SO<sub>4</sub> and HNO<sub>3</sub> in rain acidify lakes and soil, harm aquatic organisms, corrode metals and react with carbonate building materials. For example, CaCO<sub>3</sub> + H<sub>2</sub>SO<sub>4</sub> → CaSO<sub>4</sub> + CO<sub>2</sub> + H<sub>2</sub>O.
+
+## 12.6 Fertilisers and exam connections
+
+Ammonium nitrate and ammonium sulfate supply nitrogen for plant growth. Ammonium salts must not be mixed with alkaline lime: OH<sup>−</sup> removes a proton from NH<sub>4</sub><sup>+</sup> and ammonia escapes, reducing fertiliser effectiveness:
+
+<div class="equation-block">NH<sub>4</sub><sup>+</sup>(aq) + OH<sup>−</sup>(aq) → NH<sub>3</sub>(g) + H<sub>2</sub>O(l)</div>
+
+Excess nitrate fertiliser can contaminate water and cause eutrophication. In nitrogen–sulfur redox questions, first balance the equation, then assign oxidation numbers and identify which species is oxidised and reduced. Finally connect the reaction to the named environmental effect.
+
+## Multiple choice questions
+
+::: {.mc-question #ns-mc-01 data-answer="D"}
+### Question 1 · 2.4 Choice Easy Q1
+
+<p>Which gas is present in the largest proportion in exhaust fumes of a car engine?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Carbon monoxide</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Carbon dioxide</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Water vapour</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Nitrogen</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Nitrogen is the major component of the air drawn into the engine.</p></details>
+:::
+
+::: {.mc-question #ns-mc-02 data-answer="A"}
+### Question 2 · 2.4 Choice Easy Q2
+
+<p>Oxidation of ammonia by oxygen: wO<sub>2</sub> + xNH<sub>3</sub> → yNO + zH<sub>2</sub>O. Which values balance the equation?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>w=5, x=4, y=4, z=6</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>w=6, x=4, y=4, z=5</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>w=6, x=5, y=5, z=4</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>w=5, x=6, y=6, z=4</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> 4NH<sub>3</sub> + 5O<sub>2</sub> → 4NO + 6H<sub>2</sub>O.</p></details>
+:::
+
+::: {.mc-question #ns-mc-03 data-answer="C"}
+### Question 3 · 2.4 Choice Easy Q3
+
+<p>Using the Brønsted–Lowry theory, how is ammonia correctly described?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Neutral</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Acid</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Base</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Amphoteric</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Ammonia accepts a proton to form NH<sub>4</sub><sup>+</sup>.</p></details>
+:::
+
+::: {.mc-question #ns-mc-04 data-answer="A"}
+### Question 4 · 2.4 Choice Easy Q4
+
+<p>Which statement correctly describes an ammonium ion, NH<sub>4</sub><sup>+</sup>?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>The bonds are all the same length.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>All bond angles are 107°.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Ammonium ions are unreactive with NaOH(aq).</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Ammonium ions form when ammonia behaves as an acid.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> The coordinate bond formed initially becomes equivalent to the other N–H bonds.</p></details>
+:::
+
+::: {.mc-question #ns-mc-05 data-answer="B"}
+### Question 5 · 2.4 Choice Easy Q5
+
+<p>Which reaction takes place in the atmosphere?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>NO<sub>2</sub> is reduced to NO by CO.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>NO<sub>2</sub> is reduced to NO by SO<sub>2</sub>.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>SO<sub>2</sub> is oxidised to SO<sub>3</sub> by CO<sub>2</sub>.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>CO is spontaneously oxidised to CO<sub>2</sub>.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> SO<sub>2</sub> reduces NO<sub>2</sub> to NO while being oxidised toward sulfur oxides.</p></details>
+:::
+
+::: {.mc-question #ns-mc-06 data-answer="D"}
+### Question 6 · 2.4 Choice Easy Q6
+
+<p>Which reaction in a catalytic converter does not remove hazardous and polluting gases from exhaust fumes?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>CO + O<sub>2</sub> → CO<sub>2</sub></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>CO + NO<sub>x</sub> → CO<sub>2</sub> + N<sub>2</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>HC + NO<sub>x</sub> → H<sub>2</sub>O + CO<sub>2</sub> + N<sub>2</sub></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>HC + NO<sub>x</sub> → H<sub>2</sub>O + CO + N<sub>2</sub></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> The last reaction produces carbon monoxide, which is itself a pollutant.</p></details>
+:::
+
+::: {.mc-question #ns-mc-07 data-answer="C"}
+### Question 7 · 2.4 Choice Easy Q7
+
+<p>Phosphorus forms PCl<sub>5</sub>, but nitrogen cannot form NCl<sub>5</sub>. Why?<br>1. Nitrogen is almost inert.<br>2. Nitrogen cannot have oxidation state +5.<br>3. Nitrogen's outer shell can contain only eight electrons.</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>3 only</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1, 2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Nitrogen is a Period 2 element and cannot expand its octet.</p></details>
+:::
+
+::: {.mc-question #ns-mc-08 data-answer="A"}
+### Question 8 · 2.4 Choice Easy Q8
+
+<p>Which statement about ammonium nitrate fertiliser is not correct?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>It is insoluble in water.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>It consists of 35% nitrogen by mass.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>It can cause environmental problems.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Nitric acid is used in its manufacture.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Ammonium nitrate is soluble in water, so statement A is incorrect.</p></details>
+:::
+
+::: {.mc-question #ns-mc-09 data-answer="B"}
+### Question 9 · 2.4 Choice Easy Q9
+
+<p>Which environmental problem is not made worse by nitrogen oxides in car exhaust fumes?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Photochemical smog</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>The hole in the ozone layer</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Corrosion of buildings</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Acidification of lakes</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Nitrogen oxides contribute to smog, acid rain and corrosion, but are not the direct cause of the ozone hole.</p></details>
+:::
+
+::: {.mc-question #ns-mc-10 data-answer="B"}
+### Question 10 · 2.4 Choice Easy Q10
+
+<p>Which transformations involve sulfur dioxide under atmospheric conditions?<br>1. NO<sub>2</sub> to NO<br>2. NO to NO<sub>2</sub><br>3. CO to CO<sub>2</sub></p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1, 2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> SO<sub>2</sub> participates in the catalytic cycle involving NO<sub>2</sub> and NO; it does not catalyse CO oxidation here.</p></details>
+:::
+
+::: {.mc-question #ns-mc-11 data-answer="D"}
+### Question 11 · 2.4 Choice Medium Q1
+
+<p>What happens when silver chloride dissolves in aqueous ammonia?<br>1. Ammonia forms a complex with Ag<sup>+</sup>.<br>2. A redox reaction occurs.<br>3. Ammonia acts as a Brønsted–Lowry base.</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 only</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> AgCl dissolves by complex formation; there is no redox reaction and no proton transfer.</p></details>
+:::
+
+::: {.mc-question #ns-mc-12 data-answer="B"}
+### Question 12 · 2.4 Choice Medium Q2
+
+<p>O<sub>2</sub> has bond length 1.21 Å and N<sub>2</sub> has bond length 1.09 Å. What best explains the difference?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Oxygen atoms are more electronegative.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Nitrogen has more bonding electrons.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Nitrogen has a smaller atomic radius.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>The oxygen bond is stronger.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> N<sub>2</sub> has a triple bond, whereas O<sub>2</sub> has a double bond; the stronger bond is shorter.</p></details>
+:::
+
+::: {.mc-question #ns-mc-13 data-answer="B"}
+### Question 13 · 2.4 Choice Medium Q3
+
+<p>Which statement about ammonia is completely correct?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Ammonia acts as a nucleophile by accepting an electron pair from bromoethane.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Ammonia can form a coordinate bond with H<sup>+</sup> to form NH<sub>4</sub><sup>+</sup>.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Ammonia is a base and accepts hydroxide ions.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Ammonia is pyramidal with bond angles of 109.5°.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> The lone pair on ammonia forms a coordinate bond to a proton.</p></details>
+:::
+
+::: {.mc-question #ns-mc-14 data-answer="C"}
+### Question 14 · 2.4 Choice Medium Q4
+
+<p>Photochemical smog is produced when 1 acts on 2 and 3. Which row is correct?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Heat / nitrogen / oxygen</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Sunlight / nitrogen oxides / sulfur oxides</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Sunlight / nitrogen oxides / hydrocarbons</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Heat / hydrocarbons / oxygen</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Sunlight drives reactions between nitrogen oxides and unburnt hydrocarbons.</p></details>
+:::
+
+::: {.mc-question #ns-mc-15 data-answer="C"}
+### Question 15 · 2.4 Choice Medium Q5
+
+<p>Lime and ammonium nitrate cannot be used in a mixed form because, if damp:</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Ca(NO<sub>3</sub>)<sub>2</sub> is produced.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>The dry mixture is explosive.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Ammonia is given off.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Nitric acid forms.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> An alkaline compound releases ammonia from the ammonium ion.</p></details>
+:::
+
+::: {.mc-question #ns-mc-16 data-answer="C"}
+### Question 16 · 2.4 Choice Medium Q6
+
+<p>In which reactions does the product turn damp litmus paper blue?<br>1. NH<sub>4</sub>NO<sub>3</sub> + O<sub>2</sub><br>2. NH<sub>4</sub>Cl + NaOH<br>3. NH<sub>3</sub> + H<sub>2</sub>O</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1, 2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Reactions 2 and 3 produce ammonia or an alkaline solution.</p></details>
+:::
+
+::: {.mc-question #ns-mc-17 data-answer="A"}
+### Question 17 · 2.4 Choice Medium Q7
+
+<p>Atmospheric oxides and unburned hydrocarbons produce PAN. Which is unaffected by this reaction?<br>1. Corrosion of architecture<br>2. Lung irritation and difficulty breathing<br>3. Reduction of air clarity</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 only</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> PAN affects respiratory health and visibility; architectural corrosion is associated with acid rain rather than PAN formation.</p></details>
+:::
+
+::: {.mc-question #ns-mc-18 data-answer="C"}
+### Question 18 · 2.4 Choice Medium Q8
+
+<p>8NH<sub>3</sub> + 3Cl<sub>2</sub> → N<sub>2</sub> + 6NH<sub>4</sub>Cl. Which statements are correct?<br>1. Ammonia behaves as a reducing agent.<br>2. The oxidation number of hydrogen changes.<br>3. Ammonia behaves as a base.</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>1 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1, 2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Nitrogen in ammonia is oxidised, while hydrogen keeps oxidation number +1; ammonia also acts as a base in acid–base chemistry.</p></details>
+:::
+
+::: {.mc-question #ns-mc-19 data-answer="C"}
+### Question 19 · 2.4 Choice Hard Q1
+
+<p>Which reaction in a car exhaust has the highest enthalpy change?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>S + O<sub>2</sub> → SO<sub>2</sub></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>CH<sub>4</sub> + 2O<sub>2</sub> → CO<sub>2</sub> + 2H<sub>2</sub>O</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>N<sub>2</sub> + O<sub>2</sub> → 2NO</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>2NO + O<sub>2</sub> → 2NO<sub>2</sub></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Breaking the strong N≡N bond makes formation of NO strongly endothermic.</p></details>
+:::
+
+::: {.mc-question #ns-mc-20 data-answer="B"}
+### Question 20 · 2.4 Choice Hard Q2
+
+<p>Which reaction using ammonia does not involve the nitrogen atom's non-bonding electron pair?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>2NH<sub>3</sub> + Ag<sup>+</sup> → [Ag(NH<sub>3</sub>)<sub>2</sub>]<sup>+</sup></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>2NH<sub>3</sub> + 2Na → 2NaNH<sub>2</sub> + H<sub>2</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>NH<sub>3</sub> + HCl → NH<sub>4</sub>Cl</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>NH<sub>3</sub> + CH<sub>3</sub>I → CH<sub>3</sub>NH<sub>3</sub>I</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> In the reaction with sodium, the N–H bond is deprotonated while the lone pair is retained.</p></details>
+:::
+
+## Structured questions
+
+::: {.question-card #ns-sq-01}
+### Question 1 · 2.4 SQ Easy Q1
+
+<p><strong>(a)</strong> Extreme conditions are required to synthesise ammonia from nitrogen in the Haber process due to the lack of reactivity of the nitrogen molecule. Give two reasons for the lack of reactivity of the nitrogen molecule, N<sub>2</sub>.</p>
+<p><strong>(b)</strong> Under conditions of high temperature, nitrogen and oxygen react together to give oxides of nitrogen.</p>
+<p><strong>(i)</strong> Write an equation for a possible reaction between nitrogen and oxygen.</p>
+<p><strong>(ii)</strong> State two situations, one natural and one as a result of human activities, in which nitrogen and oxygen react together.</p>
+<p><strong>(iii)</strong> State the two main environmental effects of the presence of nitrogen oxides in the atmosphere.</p>
+<p><strong>(c)</strong></p>
+<p><strong>(i)</strong> State how nitrogen monoxide is removed from the exhaust gases of motor vehicles.</p>
+<p><strong>(ii)</strong> Write an equation for this process. [9 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li><strong>Lack of reactivity:</strong> N<sub>2</sub> contains a strong N≡N triple bond with a high bond enthalpy, so considerable energy is needed to break it. The molecule is also non-polar, so it is not strongly attracted to other molecules.</li><li><strong>(b)(i)</strong> A valid balanced equation is N<sub>2</sub>(g) + O<sub>2</sub>(g) → 2NO(g). The alternative  N<sub>2</sub>(g) + 2O<sub>2</sub>(g) → 2NO<sub>2</sub>(g) is also balanced.</li><li><strong>(b)(ii)</strong> Natural situation: lightning. Human activity: combustion in a car or aeroplane engine, or burning fuels in a power station.</li><li><strong>(b)(iii)</strong> Nitrogen oxides contribute to photochemical smog and acid rain.</li><li><strong>(c)(i)</strong> Pass the exhaust gases over a hot catalyst in a catalytic converter, usually containing platinum/rhodium.</li><li><strong>(c)(ii)</strong> 2NO(g) + 2CO(g) → N<sub>2</sub>(g) + 2CO<sub>2</sub>(g). Nitrogen monoxide is reduced and carbon monoxide is oxidised.</li></ol></details>
+:::
+
+::: {.question-card #ns-sq-02}
+### Question 2 · 2.4 SQ Easy Q2
+
+<p><strong>(a)</strong> Nitrogen oxides can react with substances in the air to make secondary pollutants. One of these secondary pollutants is peroxyacetyl nitrate, commonly known as PAN.</p>
+<p><strong>(i)</strong> State the type of compounds that react with nitrogen oxides to form PAN.</p>
+<p><strong>(ii)</strong> PAN is one of the components found in photochemical smog. Explain why the term photochemical is used to describe smog.</p>
+<p><strong>(b)</strong> One of the main reasons for reducing the amounts of oxides of nitrogen in the atmosphere is their contribution to the formation of acid rain.</p>
+<p><strong>(i)</strong> Write an equation for the formation of nitric acid from nitrogen dioxide, NO<sub>2</sub>, in the atmosphere.</p>
+<p><strong>(ii)</strong> State the role that nitrogen dioxide, NO<sub>2</sub>, plays in the oxidation of atmospheric sulfur dioxide, SO<sub>2</sub>, to form acid rain.</p>
+<p><strong>(c)</strong> State the oxidation number of nitrogen in nitrogen monoxide, NO, and nitrogen dioxide, NO<sub>2</sub>. [7 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li><strong>(a)(i)</strong> Unburnt hydrocarbons, also called volatile organic compounds (VOCs), react with nitrogen oxides.</li><li><strong>(a)(ii)</strong> The reactions are initiated or driven by sunlight, so the resulting smog is described as photochemical.</li><li><strong>(b)(i)</strong> 4NO<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + O<sub>2</sub>(g) → 4HNO<sub>3</sub>(aq).</li><li><strong>(b)(ii)</strong> NO<sub>2</sub> acts as a homogeneous catalyst. It reacts with SO<sub>2</sub> to form SO<sub>3</sub> and NO, then NO is oxidised back to NO<sub>2</sub>: NO<sub>2</sub> + SO<sub>2</sub> → NO + SO<sub>3</sub>; NO + ½O<sub>2</sub> → NO<sub>2</sub>. The regenerated NO<sub>2</sub> can repeat the cycle, while SO<sub>3</sub> forms sulfuric acid with water.</li><li><strong>(c)</strong> N in NO is +2; N in NO<sub>2</sub> is +4.</li></ol></details>
+:::
+
+::: {.question-card #ns-sq-03}
+### Question 3 · 2.4 SQ Easy Q3
+
+<p><strong>(a)</strong> Ammonium sulfate is a fertiliser which is manufactured by the reaction between ammonia and sulfuric acid. Ammonia is described as a weak base and sulfuric acid as a strong acid. By using an equation, explain clearly why ammonia can be described as a weak base.</p>
+<p><strong>(b)</strong></p>
+<p><strong>(i)</strong> Write the equation for the neutralisation of aqueous ammonia by dilute sulfuric acid.</p>
+<p><strong>(ii)</strong> State the bond angles between N–H bonds in ammonia and the ammonium ion. Explain any differences.</p>
+<p><strong>(c)</strong> Ammonia can be displaced from an ammonium salt by an acid–base reaction. One such reaction is between ammonium chloride and calcium hydroxide.</p>
+<p><strong>(i)</strong> Write the equation for the reaction between ammonium chloride and calcium hydroxide.</p>
+<p><strong>(ii)</strong> Explain how the presence of ammonia gas can be confirmed. [10 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li><strong>(a)</strong> NH<sub>3</sub> accepts a proton only partially in water: NH<sub>3</sub>(aq) + H<sub>2</sub>O(l) ⇌ NH<sub>4</sub><sup>+</sup>(aq) + OH<sup>−</sup>(aq). The equilibrium lies mainly to the left, so only a small proportion of ammonia molecules form NH<sub>4</sub><sup>+</sup> and OH<sup>−</sup>; this is why ammonia is a weak base.</li><li><strong>(b)(i)</strong> 2NH<sub>3</sub>(aq) + H<sub>2</sub>SO<sub>4</sub>(aq) → (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>(aq).</li><li><strong>(b)(ii)</strong> NH<sub>3</sub> is trigonal pyramidal with an angle of about 107°. NH<sub>4</sub><sup>+</sup> is tetrahedral with bond angles of 109.5°. In NH<sub>3</sub>, the lone pair exerts greater repulsion than a bonding pair and compresses the H–N–H angle. NH<sub>4</sub><sup>+</sup> has four bonding pairs and no lone pair, so the angle is 109.5°.</li><li><strong>(c)(i)</strong> 2NH<sub>4</sub>Cl(s) + Ca(OH)<sub>2</sub>(s) → CaCl<sub>2</sub>(s) + 2NH<sub>3</sub>(g) + 2H<sub>2</sub>O(l).</li><li><strong>(c)(ii)</strong> Hold damp red litmus paper in the gas; it turns blue. Alternatively, ammonia gives dense white fumes when mixed with hydrogen chloride gas.</li></ol></details>
+:::
+
+::: {.question-card #ns-sq-04}
+### Question 4 · 2.4 SQ Medium Q1
+
+<p>Under conditions of high temperature, nitrogen and oxygen react together to give oxides of nitrogen.</p>
+<p><strong>(a)(i)</strong> Draw the dot-and-cross diagram of a molecule of nitrogen.</p>
+<p><strong>(a)(ii)</strong> Suggest and explain why high temperatures are required for oxides of nitrogen to form.</p>
+<p><strong>(b)(i)</strong> Write an equation for a possible reaction between nitrogen and oxygen.</p>
+<p><strong>(b)(ii)</strong> The bond enthalpy of nitrogen is +1000 kJ mol<sup>−1</sup>. Suggest the bond enthalpy of oxygen. Possible bond enthalpy of oxygen: ______ kJ mol<sup>−1</sup>.</p>
+<p><strong>(c)(i)</strong> State two situations, one natural and one as a result of human activities, in which nitrogen and oxygen react together.</p>
+<p><strong>(c)(ii)</strong> State two environmental effects of the presence of nitrogen oxides in the atmosphere.</p>
+<p><strong>(d)</strong> N<sub>2</sub>O<sub>5</sub> is a rare and unstable oxide of nitrogen. State the systematic name of N<sub>2</sub>O<sub>5</sub>. [12 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li><strong>(a)(i)</strong> Show three shared pairs of electrons between the two nitrogen atoms, giving an N≡N triple bond, and one lone pair on each nitrogen atom. Every nitrogen atom must have eight electrons in its outer shell.</li><li><strong>(a)(ii)</strong> Nitrogen is very unreactive because of its strong triple bond, which has a high bond enthalpy and requires much energy to break. N<sub>2</sub> is also non-polar and is not strongly attracted to other molecules.</li><li><strong>(b)(i)</strong> N<sub>2</sub>(g) + O<sub>2</sub>(g) → 2NO(g).</li><li><strong>(b)(ii)</strong> The O=O bond enthalpy should be positive but less than +1000 kJ mol<sup>−1</sup>, because the oxygen double bond is weaker than the nitrogen triple bond.</li><li><strong>(c)(i)</strong> Natural: lightning. Human activity: combustion in an engine or burning fossil fuels in a power station.</li><li><strong>(c)(ii)</strong> Formation of acid rain and photochemical smog.</li><li><strong>(d)</strong> Nitrogen(V) oxide. In N<sub>2</sub>O<sub>5</sub>, oxygen contributes −10 overall, so the two nitrogen atoms contribute +10 and each nitrogen is +5.</li></ol></details>
+:::
+
+::: {.question-card #ns-sq-05}
+### Question 5 · 2.4 SQ Medium Q2
+
+<p>Nitrogen oxides in the atmosphere are homogeneous catalysts in the formation of acid rain.</p>
+<p><strong>(a)</strong> What is meant by the following terms?</p>
+<p><strong>Catalyst:</strong> ________________________________</p>
+<p><strong>Homogeneous:</strong> ________________________________</p>
+<p><strong>(b)</strong> State a major source of nitrogen oxides in the atmosphere, explaining how they are formed.</p>
+<p><strong>(c)</strong> Use equations to describe the chemical role played by nitrogen oxides in the formation of acid rain.</p>
+<p><strong>(d)</strong> Use the following axes in Fig. 1.1 to draw a fully labelled reaction pathway diagram showing the effect of a catalyst on an exothermic reaction. Label the ΔH and E<sub>a</sub> values. [11 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li><strong>(a)</strong> A catalyst increases the rate of a reaction by providing an alternative pathway with a lower activation energy, and is regenerated/not used up. Homogeneous means the catalyst and reactants are in the same phase.</li><li><strong>(b)</strong> A major source is car engines, aircraft engines or power stations. At high temperature, nitrogen and oxygen from air react: N<sub>2</sub>(g) + O<sub>2</sub>(g) → 2NO(g), followed by 2NO(g) + O<sub>2</sub>(g) → 2NO<sub>2</sub>(g).</li><li><strong>(c)</strong> NO<sub>2</sub> + SO<sub>2</sub> → NO + SO<sub>3</sub>; NO + ½O<sub>2</sub> → NO<sub>2</sub>; SO<sub>3</sub> + H<sub>2</sub>O → H<sub>2</sub>SO<sub>4</sub>. The NO<sub>2</sub> is regenerated and therefore catalyses the oxidation of SO<sub>2</sub>. An acceptable direct acid-rain equation is 4NO<sub>2</sub> + 2H<sub>2</sub>O + O<sub>2</sub> → 4HNO<sub>3</sub>.</li><li><strong>(d)</strong> Draw two pathways from the same reactants to the same products. The uncatalysed pathway has a higher peak; the catalysed pathway has a lower peak. Label E<sub>a</sub> from the reactants to each peak and ΔH from reactants to products. For an exothermic reaction, products are at lower energy and ΔH is negative.</li></ol></details>
+:::
+
+::: {.question-card #ns-sq-06}
+### Question 6 · 2.4 SQ Medium Q3
+
+<p>Ammonia, NH<sub>3</sub>, is a colourless, pungent-smelling gas that has been known to man from the beginning of recorded time. Now ammonia is synthesised from its elements in the Haber process.</p>
+<p><strong>(a)(i)</strong> Write an equation for this process.</p>
+<p><strong>(a)(ii)</strong> State the three usual operating conditions of the Haber process.</p>
+<p><strong>(b)</strong> Ammonia can act as a Brønsted–Lowry base. Explain why.</p>
+<p><strong>(c)</strong> 1.50 dm<sup>3</sup> of ammonia gas were dissolved in water to form 300 cm<sup>3</sup> of aqueous alkali at room temperature and pressure.</p>
+<p><strong>(i)</strong> Calculate how many moles of NH<sub>3</sub>(g) were dissolved. Show your working.</p>
+<p><strong>(ii)</strong> Write the equation for the neutralisation of aqueous ammonia by dilute sulfuric acid.</p>
+<p><strong>(iii)</strong> Calculate the volume of 0.80 mol dm<sup>−3</sup> sulfuric acid that is required to neutralise the 300 cm<sup>3</sup> of aqueous ammonia. Show your working.</p>
+<p><strong>(d)(i)</strong> In the boxes below, draw diagrams to show the shapes of an ammonia molecule and an ammonium ion. Clearly show the bond angles on your diagrams.</p>
+<p><strong>(ii)</strong> State the name of the shape of an ammonia molecule and an ammonium ion. [14 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li><strong>(a)(i)</strong> N<sub>2</sub>(g) + 3H<sub>2</sub>(g) ⇌ 2NH<sub>3</sub>(g).</li><li><strong>(a)(ii)</strong> The usual compromise conditions are about 450 °C, about 200 atm, and an iron catalyst.</li><li><strong>(b)</strong> NH<sub>3</sub> has a lone pair on nitrogen which it donates to H<sup>+</sup>; therefore it accepts a proton and is a Brønsted–Lowry base. For example, NH<sub>3</sub> + H<sup>+</sup> → NH<sub>4</sub><sup>+</sup>.</li><li><strong>(c)(i)</strong> At RTP, n = V / V<sub>m</sub> = 1.50 / 24.0 = <strong>0.0625 mol</strong> NH<sub>3</sub>.</li><li><strong>(c)(ii)</strong> 2NH<sub>3</sub>(aq) + H<sub>2</sub>SO<sub>4</sub>(aq) → (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>(aq).</li><li><strong>(c)(iii)</strong> The mole ratio NH<sub>3</sub> : H<sub>2</sub>SO<sub>4</sub> is 2 : 1, so n(H<sub>2</sub>SO<sub>4</sub>) = 0.0625 / 2 = 0.03125 mol. V = n/c = 0.03125 / 0.80 = 0.03906 dm<sup>3</sup> = <strong>39.1 cm<sup>3</sup></strong>.</li><li><strong>(d)</strong> NH<sub>3</sub> is trigonal pyramidal with H–N–H angles of about 107°. NH<sub>4</sub><sup>+</sup> is tetrahedral with angles of 109.5°. The lone pair in NH<sub>3</sub> repels bonding pairs more strongly and compresses the angle; NH<sub>4</sub><sup>+</sup> has four bonding pairs and no lone pair.</li></ol></details>
+:::
+
+::: {.question-card #ns-sq-07}
+### Question 7 · 2.4 SQ Medium Q4
+
+<p><strong>(a)</strong> The high temperatures reached in an internal combustion engine cause nitrogen and oxygen from the air to react. Nitrogen monoxide is formed.</p>
+<p><strong>(i)</strong> Give the equation for this reaction.</p>
+<p><strong>(ii)</strong> Show, using oxidation numbers, that nitrogen has been oxidised.</p>
+<p><strong>(iii)</strong> Nitrogen monoxide will react further with oxygen to form nitrogen dioxide. Give the equation for this oxidation reaction.</p>
+<p><strong>(b)</strong> Nitrogen oxides play a role in the formation of photochemical smog. Explain how.</p>
+<p><strong>(c)</strong> The brown haze associated with photochemical smog is typically worse in cities in the afternoons of hot sunny days. Suggest why.</p>
+<p><strong>(d)</strong> Catalytic converters are fitted to exhaust systems to reduce the pollutants emitted by car engines. Nitrogen oxide, NO, and carbon monoxide, CO, are removed in a catalytic converter, forming nitrogen and carbon dioxide, which are less harmful to human health.</p>
+<p><strong>(i)</strong> Give the balanced symbol equation for the removal of NO and CO.</p>
+<p><strong>(ii)</strong> State, using oxidation numbers, what is acting as a reducing agent in this reaction. [12 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ol><li><strong>(a)(i)</strong> N<sub>2</sub>(g) + O<sub>2</sub>(g) → 2NO(g).</li><li><strong>(a)(ii)</strong> Nitrogen is 0 in N<sub>2</sub> and +2 in NO, so its oxidation number increases from 0 to +2. Nitrogen has therefore been oxidised.</li><li><strong>(a)(iii)</strong> 2NO(g) + O<sub>2</sub>(g) → 2NO<sub>2</sub>(g).</li><li><strong>(b)</strong> Nitrogen oxides react with unburnt hydrocarbons/VOCs in the presence of sunlight to form secondary pollutants such as PAN. These pollutants contribute to photochemical smog.</li><li><strong>(c)</strong> Higher temperature increases reaction rates and strong sunlight provides energy for the photochemical reactions. Pollutants accumulate in cities, where traffic supplies NO<sub>x</sub> and hydrocarbons, producing the brown haze.</li><li><strong>(d)(i)</strong> 2NO(g) + 2CO(g) → N<sub>2</sub>(g) + 2CO<sub>2</sub>(g).</li><li><strong>(d)(ii)</strong> CO is the reducing agent: carbon in CO increases from +2 to +4 in CO<sub>2</sub>, so CO is oxidised while NO is reduced to N<sub>2</sub>.</li></ol></details>
+:::
+
+::: {.question-card #ns-sq-hard-q1}
+### Question 8 · 2.4 SQ Hard Q1
+
+<p>The combustion of fuels in motor vehicles, trains, aeroplanes and power stations produces the pollutant gas NO<sub>2</sub>.</p>
+<p><strong>(a)</strong> Write an equation to show how NO<sub>2</sub> is formed in these situations.</p>
+<p><strong>(b)(i)</strong> State how NO<sub>2</sub> is removed from the exhaust gases of motor vehicles.</p>
+<p><strong>(b)(ii)</strong> Write an equation for this process.</p>
+<p><strong>(c)</strong> Suggest whether production of the pollutant NO<sub>2</sub> would be reduced if fossil fuels were replaced by hydrogen as a fuel for combustion. Explain your answer.</p>
+<p><strong>(d)</strong> In the atmosphere, NO<sub>2</sub> acts as a catalyst for the oxidation of SO<sub>2</sub> to SO<sub>3</sub>.</p>
+<div class="equation-block">NO<sub>2</sub>(g)<br>SO<sub>2</sub>(g) + ½O<sub>2</sub>(g) ⇌ SO<sub>3</sub>(g)</div>
+<p><strong>(i)</strong> What is the environmental significance of this reaction?</p>
+<p>The oxidation takes place in two steps. The initial reaction is between NO<sub>2</sub> and SO<sub>2</sub>.</p>
+<div class="equation-block">Reaction 1: NO<sub>2</sub>(g) + SO<sub>2</sub>(g) ⇌ NO(g) + SO<sub>3</sub>(g) &nbsp; ΔH = −168 kJ mol<sup>−1</sup></div>
+<p><strong>(ii)</strong> Write an equation to show how the NO<sub>2</sub> is regenerated in the second step of the oxidation.</p>
+<p><strong>(iii)</strong> The temperature of the atmosphere decreases with height. Explain how this will affect the position of the equilibrium in reaction 1. [4 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>N<sub>2</sub>(g) + 2O<sub>2</sub>(g) → 2NO<sub>2</sub>(g), or N<sub>2</sub> + O<sub>2</sub> → 2NO followed by 2NO + O<sub>2</sub> → 2NO<sub>2</sub>.</li><li>Use a catalytic converter with a hot Pt/Rh catalyst. For example: 2NO<sub>2</sub> + 4CO → N<sub>2</sub> + 4CO<sub>2</sub>.</li><li>Replacing the fuel does not necessarily reduce NO<sub>2</sub>, because nitrogen and oxygen come from air and react at the high engine temperature.</li><li>SO<sub>3</sub> reacts with water to form sulfuric acid and contributes to acid rain. NO<sub>2</sub> is regenerated by NO + ½O<sub>2</sub> → NO<sub>2</sub>. The first oxidation step is exothermic, so lowering temperature shifts its equilibrium to the right.</li></ul></details>
+:::
+
+::: {.question-card #ns-sq-hard-q2}
+### Question 9 · 2.4 SQ Hard Q2
+
+<p>This question is about ammonia.</p>
+<p><strong>(a)(i)</strong> Explain how ammonia can be prepared from ammonium chloride and calcium hydroxide.</p>
+<p><strong>(a)(ii)</strong> Explain how the presence of ammonia gas can be confirmed.</p>
+<p><strong>(b)</strong> Explain why the reaction between ammonium chloride and calcium hydroxide is an example of an acid–base reaction.</p>
+<p><strong>(c)(i)</strong> Draw a diagram of the ammonium ion showing all of the bonds within the molecule.</p>
+<p><strong>(c)(ii)</strong> The N–H bonds in the ammonium ion have been found to be equal in length. Suggest what this means about the bonds or charge on the ion. [8 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>Mix and warm solid NH<sub>4</sub>Cl and solid Ca(OH)<sub>2</sub>, then dry the ammonia with CaO: 2NH<sub>4</sub>Cl + Ca(OH)<sub>2</sub> → CaCl<sub>2</sub> + 2NH<sub>3</sub> + 2H<sub>2</sub>O.</li><li>Ammonia turns damp red litmus paper blue; white fumes form when it meets HCl.</li><li>NH<sub>4</sub><sup>+</sup> is an acid because NH<sub>4</sub><sup>+</sup> donates H<sup>+</sup>; OH<sup>−</sup> is a base because it accepts H<sup>+</sup> to form water.</li><li>The ion is tetrahedral with one coordinate N→H bond initially. After formation, all four N–H bonds are equivalent and the positive charge is delocalised over the ion.</li></ul></details>
+:::
+
+::: {.question-card #ns-sq-hard-q3}
+### Question 10 · 2.4 SQ Hard Q3
+
+<p>A molecule of nitrogen will only react with oxygen under extreme conditions due to the strong triple bond between nitrogen atoms.</p>
+<p><strong>(a)(i)</strong> State another reason why the nitrogen molecule is so unreactive.</p>
+<p><strong>(a)(ii)</strong> State the type of covalent bonds that exist between the two nitrogen atoms.</p>
+<p><strong>(b)(i)</strong> Write three equations to show the formation of nitrogen(II) oxide, nitrogen(IV) oxide and dilute nitric acid. Include state symbols.</p>
+<p><strong>(b)(ii)</strong> Identify the changes in oxidation number of nitrogen in each reaction and use this to state if nitrogen is oxidised or reduced in each reaction.</p>
+<p><strong>(c)</strong> A car travelled one kilometre and released 0.23 g of an oxide of nitrogen, N<sub>x</sub>O<sub>y</sub>, which occupies 120 cm<sup>3</sup>. Calculate x and y. Assume 1 mol of gas molecules occupies 24.0 dm<sup>3</sup>. [12 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>N<sub>2</sub> is non-polar. The N≡N triple covalent bond contains one sigma bond and two pi bonds.</li><li>Step 1: N<sub>2</sub>(g) + O<sub>2</sub>(g) → 2NO(g). Step 2: 2NO(g) + O<sub>2</sub>(g) → 2NO<sub>2</sub>(g). Step 3: 4NO<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + O<sub>2</sub>(g) → 4HNO<sub>3</sub>(aq).</li><li>N changes 0 to +2 in step 1, +2 to +4 in step 2 and +4 to +5 in the nitric-acid formation step; nitrogen is oxidised in all three steps.</li><li>n(gas) = 0.120/24.0 = 0.00500 mol. M<sub>r</sub>(N<sub>x</sub>O<sub>y</sub>) = 0.23/0.00500 = 46. The formula is NO<sub>2</sub>, so x = <strong>1</strong> and y = <strong>2</strong>.</li></ul></details>
+:::
+
+## Original question PDFs
+
+- [2.4 Nitrogen and sulfur — Choice — Easy](../assets/questions/original-source/2.4_nitrogen___sulfur___choice___easy.pdf)
+- [2.4 Nitrogen and sulfur — Choice — Medium](../assets/questions/original-source/2.4_nitrogen___sulfur___choice___medium.pdf)
+- [2.4 Nitrogen and sulfur — Choice — Hard](../assets/questions/original-source/2.4_nitrogen___sulfur___choice___hard.pdf)
+- [2.4 Nitrogen and sulfur — SQ — Easy](../assets/questions/original-source/2.4_nitrogen___sulfur___sq___easy.pdf)
+- [2.4 Nitrogen and sulfur — SQ — Medium](../assets/questions/original-source/2.4_nitrogen___sulfur___sq___medium.pdf)
+- [2.4 Nitrogen and sulfur — SQ — Hard](../assets/questions/original-source/2.4_nitrogen___sulfur___sq___hard.pdf)
+
+## Original note PDF
+
+- [12.1 Nitrogen - Sulfur](../assets/notes/nitrogen-sulfur-12-rebuilt/12.1_nitrogen_sulfur_note.pdf)

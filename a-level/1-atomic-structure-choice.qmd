@@ -1,0 +1,252 @@
+### 1.1 Atomic Structure - Multiple Choice: Easy
+
+::: {.mc-question #atomic-choice-easy-q1 data-answer="B"}
+### Question 1 · Atomic theory · 1.1 Choice Easy Q1
+
+Which statement from Dalton's atomic theory is still considered correct today?
+
+<div class="mc-options">
+<button class="mc-choice" data-choice="A"><strong>A</strong><span>All matter is made of indivisible atoms.</span></button>
+<button class="mc-choice" data-choice="B"><strong>B</strong><span>All atoms are very small in size.</span></button>
+<button class="mc-choice" data-choice="C"><strong>C</strong><span>All atoms of one element have a different mass from atoms of every other element.</span></button>
+<button class="mc-choice" data-choice="D"><strong>D</strong><span>All atoms of the same element have the same mass.</span></button>
+</div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Atoms are extremely small, but they contain subatomic particles and isotopes exist.</p></details>
+:::
+
+::: {.mc-question #atomic-choice-easy-q2 data-answer="B"}
+### Question 2 · The H₃⁺ ion · 1.1 Choice Easy Q2
+
+The reaction $\ce{H2(g) + H2+(g) -> H(g) + H3+(g)}$ occurs in gas clouds. What is the composition of $\ce{H3+}$?
+
+<div class="mc-options">
+<button class="mc-choice" data-choice="A"><strong>A</strong><span>3 protons, 0 neutrons, 1 electron</span></button>
+<button class="mc-choice" data-choice="B"><strong>B</strong><span>3 protons, 0 neutrons, 2 electrons</span></button>
+<button class="mc-choice" data-choice="C"><strong>C</strong><span>2 protons, 1 neutron, 1 electron</span></button>
+<button class="mc-choice" data-choice="D"><strong>D</strong><span>2 protons, 1 neutron, 2 electrons</span></button>
+</div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Three hydrogen nuclei give three protons and no neutrons; the $+1$ charge means two electrons remain.</p></details>
+:::
+
+::: {.mc-question #atomic-choice-easy-q3 data-answer="D"}
+### Question 3 · Atomic, proton and mass numbers · 1.1 Choice Easy Q3
+
+Which row is correct?
+
+|  | Atomic number is the number of | Proton number is the number of | Mass number is the number of |
+|---|---|---|---|
+| A | atoms | protons | protons |
+| B | electrons | neutrons | nucleons |
+| C | electrons | neutrons | protons |
+| D | protons | protons | nucleons |
+
+<div class="mc-options">
+<button class="mc-choice" data-choice="A"><strong>A</strong><span></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span></span></button>
+</div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Atomic number and proton number are the number of protons; mass number is the number of nucleons.</p></details>
+:::
+
+::: {.mc-question #atomic-choice-easy-q4 data-answer="B"}
+### Question 4 · Subatomic particles in $^{32}_{15}\ce{P^{3-}}$ · 1.1 Choice Easy Q4
+
+What is the composition of the phosphide ion $^{32}_{15}\ce{P^{3-}}$?
+
+|  | Protons | Neutrons | Electrons |
+|---|---:|---:|---:|
+| A | 15 | 17 | 32 |
+| B | 15 | 17 | 18 |
+| C | 17 | 15 | 15 |
+| D | 17 | 15 | 32 |
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Protons $=15$, neutrons $=32-15=17$, and the $3-$ charge gives $15+3=18$ electrons.</p></details>
+:::
+
+::: {.mc-question #atomic-choice-easy-q5 data-answer="C"}
+### Question 5 · Relative charge and mass · 1.1 Choice Easy Q5
+
+Which option correctly describes the relative charges and masses of the subatomic particles?
+
+|  | Proton | Neutron | Electron | Relative mass of an electron |
+|---|---:|---:|---:|---:|
+| A | +1 | 0 | −1 | 1 |
+| B | 0 | +1 | +1 | $\frac{1}{1840}$ |
+| C | +1 | 0 | −1 | $\frac{1}{1840}$ |
+| D | 0 | +1 | −1 | 1 |
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Protons are $+1$, neutrons are neutral, electrons are $-1$, and an electron has a relative mass of about $1/1840$.</p></details>
+:::
+
+::: {.mc-question #atomic-choice-easy-q6 data-answer="A"}
+### Question 6 · Particles in an electric field · 1.1 Choice Easy Q6
+
+The trajectories of protons, neutrons and electrons in an electric field are shown below. Which diagrams are correct?
+
+![Electric-field trajectories for protons, neutrons and electrons](../assets/questions/atomic-structure/choice-easy-q6-electric-field.webp){.question-figure fig-alt="Electric-field trajectories for protons, neutrons and electrons"}
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>2 only</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Neutrons are undeflected; electrons bend towards the positive plate; the proton diagram must bend towards the negative plate.</p></details>
+:::
+
+### 1.1 Atomic Structure - Multiple Choice: Medium
+
+::: {.mc-question #atomic-choice-medium-q1 data-answer="A"}
+### Question 1 · Particle counts · 1.1 Choice Medium Q1
+
+In which species are the numbers of protons, neutrons and electrons all different?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$^{23}\ce{Na+}$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$^{27}\ce{Al}$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$^{19}\ce{F-}$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$^{32}\ce{S^{2-}}$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> $^{23}\ce{Na+}$ has 11 protons, 12 neutrons and 10 electrons.</p></details>
+:::
+
+::: {.mc-question #atomic-choice-medium-q2 data-answer="B"}
+### Question 2 · Why atoms are neutral · 1.1 Choice Medium Q2
+
+Which statement explains why atoms are electrically neutral?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>A proton has a mass 1840 times greater than an electron.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>The charge on an electron is equal and opposite to the charge on a proton.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>The charge difference is balanced by neutrons.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Electrons are in shells while protons are in the nucleus.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> A neutral atom has equal numbers of protons and electrons, whose charges are equal in magnitude and opposite in sign.</p></details>
+:::
+
+::: {.mc-question #atomic-choice-medium-q3 data-answer="C"}
+### Question 3 · Metallic radius down Group 1 · 1.1 Choice Medium Q3
+
+Which statements correctly describe the trend in metallic radius from Na to Rb?
+
+1. It increases moving down the group.<br>2. It increases because extra electron shells are added.<br>3. It decreases because nuclear forces increase.
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 only</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Each step down adds an occupied shell, increasing the distance of the outer electron from the nucleus.</p></details>
+:::
+
+::: {.mc-question #atomic-choice-medium-q4 data-answer="C"}
+### Question 4 · Distribution of mass and charge · 1.1 Choice Medium Q4
+
+Which statements correctly describe the distribution of mass and charge in an atom?
+
+1. Negative charge is concentrated in one area outside the nucleus.<br>2. Mass is concentrated inside the nucleus.<br>3. Negative charge is spread around outside the nucleus.
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1, 2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Nearly all mass is in the small nucleus, while the electron charge is distributed through the space around it.</p></details>
+:::
+
+::: {.mc-question #atomic-choice-medium-q5 data-answer="D"}
+### Question 5 · Unpaired electrons · 1.1 Choice Medium Q5
+
+There are six unpaired electrons in atoms of element Z. What could element Z be?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Sulfur</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Iron</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Carbon</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Chromium</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Chromium is $[\ce{Ar}]4s^1 3d^5$, giving six unpaired electrons.</p></details>
+:::
+
+::: {.mc-question #atomic-choice-medium-q6 data-answer="B"}
+### Question 6 · Second ionisation energy of magnesium · 1.1 Choice Medium Q6
+
+The second ionisation energy of magnesium is $1451\ \mathrm{kJ\ mol^{-1}}$. Which equation represents this statement?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$\ce{Mg+(g) -> Mg^{2+}(g) + e-}$, $\Delta H^\ominus=-1451$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$\ce{Mg+(g) -> Mg^{2+}(g) + e-}$, $\Delta H^\ominus=+1451$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$\ce{Mg(g) -> Mg^{2+}(g) + 2e-}$, $\Delta H^\ominus=+1451$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$\ce{Mg(g) -> Mg+(g) + e-}$, $\Delta H^\ominus=-1451$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> The second electron is removed from $\ce{Mg+}$, and ionisation is endothermic.</p></details>
+:::
+
+::: {.mc-question #atomic-choice-medium-q7 data-answer="D"}
+### Question 7 · Orbital shapes and orientations · 1.1 Choice Medium Q7
+
+The diagram shows three orbitals labelled 1, 2 and 3. What is the correct label for each orbital?
+
+![Three labelled s and p orbitals](../assets/questions/atomic-structure/choice-medium-q7-orbitals.webp){.question-figure fig-alt="Three labelled s and p orbitals"}
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$p_x, p_y, p_z$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$s, p_z, p_y$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$s, p_x, p_z$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$s, p_x, p_y$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Orbital 1 is spherical ($s$); orbitals 2 and 3 point along the $x$- and $y$-axes respectively.</p></details>
+:::
+
+### 1.1 Atomic Structure - Multiple Choice: Hard
+
+::: {.mc-question #atomic-choice-hard-q1 data-answer="B"}
+### Question 1 · Isoelectronic radii · 1.1 Choice Hard Q1
+
+The species $\ce{Cl-}$, $\ce{K+}$ and Ar are isoelectronic. In which order do their radii decrease?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$\ce{K+ > Cl- > Ar}$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$\ce{Cl- > Ar > K+}$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$\ce{K+ > Ar > Cl-}$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$\ce{Ar > K+ > Cl-}$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> With the same number of electrons, the species with more protons has the stronger attraction and smaller radius.</p></details>
+:::
+
+::: {.mc-question #atomic-choice-hard-q2 data-answer="A"}
+### Question 2 · Deflection in an electric field · 1.1 Choice Hard Q2
+
+The trajectories of subatomic particles moving at the same velocity are shown. Which statements are correct?
+
+![Electric-field trajectories of electrons, neutrons and protons](../assets/questions/atomic-structure/choice-hard-q2-electric-field.webp){.question-figure fig-alt="Electric-field trajectories of electrons, neutrons and protons"}
+
+1. The proton and electron are deflected because they are charged.<br>2. Neutrons are undeflected because they have no charge.<br>3. Electrons are deflected more than protons because they have less mass.
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 only</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Charged particles are deflected; neutrons are not, and the much smaller electron mass gives a greater deflection.</p></details>
+:::
+
+::: {.mc-question #atomic-choice-hard-q3 data-answer="C"}
+### Question 3 · Atomic radius across Period 3 · 1.1 Choice Hard Q3
+
+Why does atomic radius decrease across Period 3?
+
+1. Electron shells are added across the period, increasing nuclear attraction.<br>2. Nuclear charge increases as atomic number increases.<br>3. There is a greater attraction between the nucleus and the electrons.
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 only</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Electrons are added to the same shell, not new shells; nuclear charge and attraction increase.</p></details>
+:::
+
+::: {.mc-question #atomic-choice-hard-q4 data-answer="A"}
+### Question 4 · Successive ionisation energies · 1.1 Choice Hard Q4
+
+Element X is in Period 2 and has first seven ionisation energies 1300, 3380, 5330, 7460, 11 010, 13 320 and 71 200 $\mathrm{kJ\ mol^{-1}}$. What is its electronic configuration?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$1s^2 2s^2 2p^4$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$1s^2 2s^2 2p^2$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$1s^2 2s^2 2p^3$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$1s^2 2s^2 2p^6$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> The large jump after the sixth electron shows six outer-shell electrons, so the atom is $1s^2 2s^2 2p^4$.</p></details>
+:::
+
+::: {.mc-question #atomic-choice-hard-q5 data-answer="C"}
+### Question 5 · Oxygen ionisation energies · 1.1 Choice Hard Q5
+
+For successive ionisation energies of oxygen, where is the highest jump expected?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Second ionisation energy</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>First ionisation energy</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Seventh ionisation energy</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Sixth ionisation energy</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Oxygen has six outer-shell electrons; the seventh electron is removed from the inner $1s$ shell.</p></details>
+:::
+
+::: {.mc-question #atomic-choice-hard-q6 data-answer="B"}
+### Question 6 · Isotopes and chemical behaviour · 1.1 Choice Hard Q6
+
+Which statement explains the similarity in chemical behaviour of isotopes of the same element?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>They may have the same configuration, depending on the reaction.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>They have the same electronic configuration.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Their mass numbers are different.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>They have different numbers of neutrons.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Isotopes have the same proton number and, for neutral atoms, the same electron configuration.</p></details>
+:::
+
+::: {.mc-question #atomic-choice-hard-q7 data-answer="D"}
+### Question 7 · Half-filled p orbitals · 1.1 Choice Hard Q7
+
+Which species produces a half-filled set of p orbitals on losing one electron?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$\ce{Li+}$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>F</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$\ce{N+}$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$\ce{N-}$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> $\ce{N-}$ is $1s^2 2s^2 2p^4$; losing one electron gives nitrogen's half-filled $2p^3$.</p></details>
+:::

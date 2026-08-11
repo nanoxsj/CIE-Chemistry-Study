@@ -3,6 +3,28 @@ project:
   output-dir: _site
   render:
     - index.qmd
+    - a-level/1-atomic-structure.qmd
+    - a-level/2-atoms-molecules-stoichiometry.qmd
+    - a-level/3-chemical-bonding.qmd
+    - a-level/4-states-of-matter.qmd
+    - a-level/5-chemical-energetics.qmd
+    - a-level/6-electrochemistry.qmd
+    - a-level/7-equilibria.qmd
+    - a-level/8-reaction-kinetics.qmd
+    - a-level/9-periodic-table-chemical-periodicity.qmd
+    - a-level/10-group-2.qmd
+    - a-level/11-group-17.qmd
+    - a-level/12-nitrogen-and-sulfur.qmd
+    - a-level/13-introduction-to-as-organic-chemistry.qmd
+    - a-level/14-hydrocarbons.qmd
+    - a-level/15-halogen-compounds.qmd
+    - a-level/16-hydroxy-compounds.qmd
+    - a-level/17-carbonyl-compounds.qmd
+    - a-level/18-carboxylic-acids-and-derivatives.qmd
+    - a-level/19-nitrogen-compounds.qmd
+    - a-level/20-polymerisation.qmd
+    - a-level/21-organic-synthesis.qmd
+    - a-level/22-analytical-techniques.qmd
     - a-level/23-chemical-energetics.qmd
     - a-level/24-electrochemistry.qmd
     - a-level/25-equilibria.qmd
@@ -28,6 +50,52 @@ website:
     contents:
       - href: index.qmd
         text: 学习首页
+      - section: "AS Level"
+        contents:
+          - href: a-level/1-atomic-structure.qmd
+            text: "1 Atomic structure"
+          - href: a-level/2-atoms-molecules-stoichiometry.qmd
+            text: "2 Atoms, molecules and stoichiometry"
+          - href: a-level/3-chemical-bonding.qmd
+            text: "3 Chemical bonding"
+          - href: a-level/4-states-of-matter.qmd
+            text: "4 States of matter"
+          - href: a-level/5-chemical-energetics.qmd
+            text: "5 Chemical energetics"
+          - href: a-level/6-electrochemistry.qmd
+            text: "6 Electrochemistry"
+          - href: a-level/7-equilibria.qmd
+            text: "7 Equilibria"
+          - href: a-level/8-reaction-kinetics.qmd
+            text: "8 Reaction kinetics"
+          - href: a-level/9-periodic-table-chemical-periodicity.qmd
+            text: "9 The Periodic Table: chemical periodicity"
+          - href: a-level/10-group-2.qmd
+            text: "10 Group 2"
+          - href: a-level/11-group-17.qmd
+            text: "11 Group 17"
+          - href: a-level/12-nitrogen-and-sulfur.qmd
+            text: "12 Nitrogen and sulfur"
+          - href: a-level/13-introduction-to-as-organic-chemistry.qmd
+            text: "13 An introduction to AS Level organic chemistry"
+          - href: a-level/14-hydrocarbons.qmd
+            text: "14 Hydrocarbons"
+          - href: a-level/15-halogen-compounds.qmd
+            text: "15 Halogen compounds"
+          - href: a-level/16-hydroxy-compounds.qmd
+            text: "16 Hydroxy compounds"
+          - href: a-level/17-carbonyl-compounds.qmd
+            text: "17 Carbonyl compounds"
+          - href: a-level/18-carboxylic-acids-and-derivatives.qmd
+            text: "18 Carboxylic acids and derivatives"
+          - href: a-level/19-nitrogen-compounds.qmd
+            text: "19 Nitrogen compounds"
+          - href: a-level/20-polymerisation.qmd
+            text: "20 Polymerisation"
+          - href: a-level/21-organic-synthesis.qmd
+            text: "21 Organic synthesis"
+          - href: a-level/22-analytical-techniques.qmd
+            text: "22 Analytical techniques"
       - section: "A Level"
         contents:
           - href: a-level/23-chemical-energetics.qmd

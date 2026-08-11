@@ -1,0 +1,418 @@
+---
+title: "20 Polymerisation"
+subtitle: "AS 3.8 Polymerisation"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    smooth-scroll: true
+---
+
+# 20 Polymerisation
+
+本章只覆盖 Cambridge International AS Level Chemistry 9701 的 **3.8 Polymerisation**，知识点对应 **20.1 Addition Polymerisation**。题目来自 Topical Past Papers/AS 中的 3.8 Polymerisation 题库；题目文字、选项、小问编号和分值均按原题保留。页面包含 20 道 multiple-choice questions 和 10 道 structured questions。不能独立提取的整页图不放入页面。
+
+## Learning objectives
+
+- define monomers, polymers, repeating units and addition polymerisation;
+- identify a monomer from a polymer section and draw the repeat unit;
+- explain that the alkene π bond opens and new C–C σ bonds join monomers;
+- write polymerisation equations and name common addition polymers;
+- explain saturation, bond angles, intermolecular forces, density and solubility;
+- evaluate recycling, incineration and landfill;
+- explain the environmental problems caused by PVC combustion.
+
+## 20.1 Addition polymerisation
+
+### Monomers, polymers and repeating units
+
+Addition polymerisation occurs when many monomers containing at least one C=C bond join to form a long-chain polymer as the only product. The monomer is the small reactive molecule; the polymer contains many repeating units. The π part of each C=C is used to form new C–C σ bonds, while the carbon atoms remain connected by the original σ bond.
+
+![General addition polymerisation of ethene and chloroethene](../assets/notes/polymerisation/addition-polymerisation-general.png){.concept-figure fig-alt="General addition polymerisation examples"}
+
+The repeating unit is the smallest group of atoms that repeats along the chain. For a polymer made from one substituted alkene, it contains the two alkene carbons in the main chain. The groups attached to those carbons remain attached; only C=C changes to C–C.
+
+![Displayed formulae for addition polymerisation](../assets/notes/polymerisation/displayed-formulae.png){.concept-figure fig-alt="Displayed formulae showing C=C changing to C-C"}
+
+Examples:
+
+- <span class="chem-formula">CH<sub>2</sub>=CH<sub>2</sub></span> gives <span class="chem-formula">[−CH<sub>2</sub>−CH<sub>2</sub>−]<sub>n</sub></span>, poly(ethene);
+- <span class="chem-formula">CH<sub>2</sub>=CHCH<sub>3</sub></span> gives <span class="chem-formula">[−CH<sub>2</sub>−CH(CH<sub>3</sub>)−]<sub>n</sub></span>, poly(propene);
+- <span class="chem-formula">CH<sub>2</sub>=CHCl</span> gives <span class="chem-formula">[−CH<sub>2</sub>−CHCl−]<sub>n</sub></span>, poly(chloroethene), PVC;
+- <span class="chem-formula">CH<sub>2</sub>=C(CH<sub>3</sub>)<sub>2</sub></span> gives <span class="chem-formula">[−CH<sub>2</sub>−C(CH<sub>3</sub>)<sub>2</sub>−]<sub>n</sub></span>.
+
+The brackets and subscript <span class="chem-formula">n</span> show that the chain continues. An addition-polymer repeat unit does not contain a C=C bond, and monomer residues are joined by C–C bonds rather than O or OH links.
+
+### Working backwards from a polymer
+
+Find the shortest repeating pattern in the carbon backbone, keep substituents attached to the same carbon, remove the continuation bonds, then change the backbone C–C single bond back to C=C.
+
+![Examples of repeat units and corresponding monomers](../assets/notes/polymerisation/repeat-units.png){.concept-figure fig-alt="Examples showing repeat units and corresponding monomers"}
+
+For poly(ethenol), the monomer is <span class="chem-formula">CH<sub>2</sub>=CH(OH)</span> and the repeat unit is <span class="chem-formula">[−CH<sub>2</sub>−CH(OH)−]<sub>n</sub></span>. For poly(prop-2-enoic acid), the monomer is <span class="chem-formula">CH<sub>2</sub>=CHCO<sub>2</sub>H</span>; the hydroxyl or carboxylic acid group is not part of the addition reaction.
+
+![Worked examples of identifying monomers](../assets/notes/polymerisation/worked-examples.png){.concept-figure fig-alt="Worked examples of identifying monomers"}
+
+Ethene-1,2-diol, <span class="chem-formula">CH(OH)=CH(OH)</span>, forms <span class="chem-formula">[−CH(OH)−CH(OH)−]<sub>n</sub></span>.
+
+![Addition polymerisation of ethenol](../assets/notes/polymerisation/ethenol-example.png){.concept-figure fig-alt="Ethenol forming poly(ethenol)"}
+
+![Addition polymerisation of ethene-1,2-diol](../assets/notes/polymerisation/ethene-1-2-diol-example.png){.concept-figure fig-alt="Ethene-1,2-diol forming poly(ethene-1,2-diol)"}
+
+### Structure and disposal
+
+The saturated polymer backbone has tetrahedral carbon atoms, so C–C–C angles are about 109.5°. The alkene monomer has trigonal-planar carbons and angles about 120°. Long chains have many electrons and strong London dispersion forces; branching reduces close packing and density. Non-polar addition polymers are usually insoluble in water and unreactive. Polymers with –OH groups can hydrogen-bond with water.
+
+Geometric isomerism in trans-hept-2-ene comes from restricted rotation around C=C. After polymerisation, rotation about C–C is possible, so the product is poly(hept-2-ene), not poly(trans-hept-2-ene).
+
+Poly(alkenes) are resistant to chemical attack and microorganisms, so they are non-biodegradable and remain in landfill for a long time. Incineration can recover heat but releases carbon dioxide and possibly toxic gases. PVC contains chlorine and can form acidic hydrogen chloride and toxic products such as dioxins. HCl can be removed from waste gas with a base or carbonate. Recycling reduces landfill, emissions and use of fossil-fuel raw materials, but sorting different polymers can be difficult and expensive. Photodegradable polymers absorb light that weakens bonds, but may not receive enough sunlight and may still be oil-based. Biodegradable polyesters contain hydrolysable ester links.
+
+## Multiple choice questions
+
+以下 20 道选择题来自 Easy、Medium、Hard 三份 3.8 Polymerisation Choice 题；答案和解析均根据各自 PDF 后半部分 Model Answers 核对。
+
+### Easy
+
+::: {.mc-question #n20-mc-e1 data-answer="A"}
+### Question 1
+Poly(ethenol) is a polymer used to make dissolvable plastic bags. It can be made by addition polymerisation of <span class="chem-formula">CH<sub>2</sub>=CH(OH)</span>.
+
+Which structure shows a polymer chain consisting of two monomer residues?
+
+<div class="option-figure-grid"><span><strong>A</strong><img src="../assets/questions/extracted/20/independent/mc-easy-q1-option-a.png" alt="Question 1 option A"></span><span><strong>B</strong><img src="../assets/questions/extracted/20/independent/mc-easy-q1-option-b.png" alt="Question 1 option B"></span><span><strong>C</strong><img src="../assets/questions/extracted/20/independent/mc-easy-q1-option-c.png" alt="Question 1 option C"></span><span><strong>D</strong><img src="../assets/questions/extracted/20/independent/mc-easy-q1-option-d.png" alt="Question 1 option D"></span></div>
+
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>A.</strong> Opening the C=C of <span class="chem-formula">CH(OH)=CH<sub>2</sub></span> gives <span class="chem-formula">−CH(OH)−CH<sub>2</sub>−</span>. The two residues are joined only by C–C bonds; the OH groups remain side groups. The other options introduce an incorrect residue or an O/OH link in the main chain.</p></details>
+:::
+
+::: {.mc-question #n20-mc-e2 data-answer="B"}
+### Question 2
+Plastic waste can be incinerated to provide heat for power stations.
+
+Why is PVC, polyvinylchloride, removed from any plastic waste that is to be incinerated?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>It does not burn easily</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Its combustion products are harmful</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>It is easily biodegradable</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>It destroys the ozone layer</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>B.</strong> PVC combustion can produce acidic HCl and toxic products including dioxins and carbon monoxide. PVC burns readily, is not biodegradable, and its incineration does not create the chlorine-radical mechanism responsible for ozone destruction.</p></details>
+:::
+
+::: {.mc-question #n20-mc-e3 data-answer="B"}
+### Question 3
+The diagram below shows 2-methylpropene, <span class="chem-formula">C<sub>4</sub>H<sub>8</sub></span>, a monomer used in the production of synthetic rubber.
+
+![2-methylpropene](../assets/questions/extracted/20/independent/mc-easy-q3-monomer.png){.question-figure fig-alt="2-methylpropene monomer"}
+
+What is the compound formed by 2-methylpropene when it undergoes addition polymerisation?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span><span class="chem-formula">[−CH(CH<sub>3</sub>)−CH(CH<sub>3</sub>)−]<sub>n</sub></span></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span><span class="chem-formula">[−CH<sub>2</sub>−C(CH<sub>3</sub>)<sub>2</sub>−]<sub>n</sub></span></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span><span class="chem-formula">[−CH<sub>2</sub>−CH(CH<sub>2</sub>CH<sub>3</sub>)−]<sub>n</sub></span></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>A repeat unit containing C=C</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>B.</strong> The C=C opens and the second alkene carbon has two methyl groups, giving <span class="chem-formula">[−CH<sub>2</sub>−C(CH<sub>3</sub>)<sub>2</sub>−]<sub>n</sub></span>. A is the repeat unit of poly(but-2-ene), C has the wrong side group, and D incorrectly retains C=C.</p></details>
+:::
+
+::: {.mc-question #n20-mc-e4 data-answer="B"}
+### Question 4
+Why is it difficult to dispose of plastics such as poly(alkenes) and PVC?
+
+1 PVC produces harmful combustion products<br>2 Poly(alkenes) are non-biodegradable<br>3 Poly(alkenes) are highly flammable
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 only</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>B.</strong> PVC combustion gives harmful products and poly(alkenes) are non-biodegradable. Flammability makes incineration possible, so statement 3 is not a disposal difficulty.</p></details>
+:::
+
+::: {.mc-question #n20-mc-e5 data-answer="A"}
+### Question 5
+What is the repeating unit of PVC?
+
+<div class="option-figure-grid"><span><strong>A</strong><img src="../assets/questions/extracted/20/independent/mc-easy-q5-option-a.png" alt="Question 5 option A"></span><span><strong>B</strong><img src="../assets/questions/extracted/20/independent/mc-easy-q5-option-b.png" alt="Question 5 option B"></span><span><strong>C</strong><img src="../assets/questions/extracted/20/independent/mc-easy-q5-option-c.png" alt="Question 5 option C"></span><span><strong>D</strong><img src="../assets/questions/extracted/20/independent/mc-easy-q5-option-d.png" alt="Question 5 option D"></span></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>A.</strong> PVC is poly(chloroethene). <span class="chem-formula">CH<sub>2</sub>=CHCl</span> becomes <span class="chem-formula">[−CH<sub>2</sub>−CHCl−]<sub>n</sub></span>; the repeat unit is saturated and has no C=C.</p></details>
+:::
+
+### Medium
+
+::: {.mc-question #n20-mc-m1 data-answer="A"}
+### Question 6
+Plasticisers, resins and many other chemicals can be made synthetically by polymerisation of a variety of monomers including but-2-en-1-ol, <span class="chem-formula">CH<sub>3</sub>CH=CHCH<sub>2</sub>OH</span>.
+
+Which structure is the repeating unit in poly(but-2-en-1-ol)?
+
+<div class="option-figure-grid"><span><strong>A</strong><img src="../assets/questions/extracted/20/independent/mc-medium-q1-option-a.png" alt="Question 6 option A"></span><span><strong>B</strong><img src="../assets/questions/extracted/20/independent/mc-medium-q1-option-b.png" alt="Question 6 option B"></span><span><strong>C</strong><img src="../assets/questions/extracted/20/independent/mc-medium-q1-option-c.png" alt="Question 6 option C"></span><span><strong>D</strong><img src="../assets/questions/extracted/20/independent/mc-medium-q1-option-d.png" alt="Question 6 option D"></span></div>
+
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>A.</strong> The C=C is between carbons 2 and 3. Those two carbons form the backbone; <span class="chem-formula">CH<sub>3</sub></span> and <span class="chem-formula">CH<sub>2</sub>OH</span> remain substituents. The repeat unit has no C=C.</p></details>
+:::
+
+::: {.mc-question #n20-mc-m2 data-answer="B"}
+### Question 7
+Which statement about PVC is incorrect?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>PVC molecules are saturated</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>The repeat unit of PVC is <span class="chem-formula">(CHClCHCl)−</span></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Combustion of PVC waste produces a highly acidic gas</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>The empirical formula of PVC is the same as the empirical formula of its monomer</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>B.</strong> The correct repeat unit is <span class="chem-formula">[−CH<sub>2</sub>−CHCl−]<sub>n</sub></span>. PVC is saturated, it can produce acidic HCl on combustion, and an addition polymer has the same empirical formula as its monomer.</p></details>
+:::
+
+::: {.mc-question #n20-mc-m3 data-answer="C"}
+### Question 8
+PVC is produced through the polymerisation of chloroethene. How does the carbon-carbon bond in chloroethene compare with that in PVC?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Longer and stronger</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Longer and weaker</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Shorter and stronger</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Shorter and weaker</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>C.</strong> Chloroethene has C=C; PVC has C–C. The double bond has greater bond order, so it is shorter and stronger.</p></details>
+:::
+
+::: {.mc-question #n20-mc-m4 data-answer="B"}
+### Question 9
+What are the C–C–C bond angles along the polymeric chain in PVC?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Half are 109.5° and half are 120°</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>They are all 109.5°</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>They are all 120°</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>They are all 180°</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>B.</strong> The PVC chain is saturated; each backbone carbon is tetrahedral and the C–C–C angle is about 109.5°. 120° belongs to the planar alkene monomer.</p></details>
+:::
+
+::: {.mc-question #n20-mc-m5 data-answer="D"}
+### Question 10
+The absorbent material in babies’ disposable nappies is made from the addition polymer shown.
+
+![Polymer with carboxylic acid side groups](../assets/questions/extracted/20/independent/mc-medium-q5-polymer.png){.question-figure fig-alt="Polymer with carboxylic acid side groups"}
+
+From which monomer could this addition polymer be obtained?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span><span class="chem-formula">HOCH<sub>2</sub>CH<sub>2</sub>CO<sub>2</sub>H</span></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span><span class="chem-formula">HO<sub>2</sub>CCH=CHCO<sub>2</sub>H</span></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span><span class="chem-formula">CH<sub>3</sub>CH(OH)CO<sub>2</sub>H</span></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span><span class="chem-formula">CH<sub>2</sub>=CHCO<sub>2</sub>H</span></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>D.</strong> The repeat unit has two backbone carbons and one <span class="chem-formula">CO<sub>2</sub>H</span> side group. Restoring C=C gives <span class="chem-formula">CH<sub>2</sub>=CHCO<sub>2</sub>H</span>.</p></details>
+:::
+
+::: {.mc-question #n20-mc-m6 data-answer="C"}
+### Question 11
+In the addition polymerisation of alkenes, which types of bond breakage and bond formation occur?
+
+| | Bond breakage | Bond formation |
+|---|---|---|
+| A | σ and π only | σ only |
+| B | σ and π | σ and π |
+| C | π only | σ only |
+| D | π only | σ and π |
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Option A</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Option B</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Option C</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Option D</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>C.</strong> The π part opens; the C–C σ bond remains. New links between monomer residues are C–C σ bonds.</p></details>
+:::
+
+::: {.mc-question #n20-mc-m7 data-answer="D"}
+### Question 12
+Cling film is made through the polymerisation of 1,1-dichloroethene. The product is dense with a high melting point and does not allow gases to pass through which makes it ideal for preserving food.
+
+Which sequence appears in a short length of the polymer chain?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span><span class="chem-formula">−[CH<sub>2</sub>−CCl−CHCl−CH<sub>2</sub>−]−</span></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>A sequence containing only CCl<sub>2</sub> groups</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>A sequence containing alternating CHCl groups</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span><span class="chem-formula">−[CH<sub>2</sub>−CCl<sub>2</sub>−CH<sub>2</sub>−CCl<sub>2</sub>]−</span></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>D.</strong> 1,1-Dichloroethene is <span class="chem-formula">CH<sub>2</sub>=CCl<sub>2</sub></span>; its repeat unit is <span class="chem-formula">−CH<sub>2</sub>−CCl<sub>2</sub>−</span>.</p></details>
+:::
+
+::: {.mc-question #n20-mc-m8 data-answer="C"}
+### Question 13
+Which polymer is not made when 1-hydroxyethene and propene undergo addition polymerisation?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>A chain containing <span class="chem-formula">CH<sub>2</sub>CH(OH)</span> and <span class="chem-formula">CH<sub>2</sub>CH(CH<sub>3</sub>)</span> residues</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>A different sequence of those two residues</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>A chain whose backbone bond is formed through a carbon not from either C=C</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>A homopolymer of 1-hydroxyethene</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>C.</strong> Every backbone carbon must come from one of the original alkene C=C bonds. A structure introducing a backbone carbon from elsewhere cannot be formed by addition polymerisation.</p></details>
+:::
+
+::: {.mc-question #n20-mc-m9 data-answer="B"}
+### Question 14
+The diagram shows a short length of an addition polymer chain. The polymer has a relative molecular mass of approximately 10 000. Approximately how many monomer units are joined together in each polymer molecule?
+
+The repeat unit contains <span class="chem-formula">−CH(OH)−CH(OH)−</span>.
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>80</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>160</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>240</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>320</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>B.</strong> Ethene-1,2-diol is <span class="chem-formula">C<sub>2</sub>H<sub>4</sub>O<sub>2</sub></span>, <span class="chem-formula">M<sub>r</sub>=60</span>. <span class="chem-formula">10 000 ÷ 60 ≈ 167</span>, closest to 160.</p></details>
+:::
+
+::: {.mc-question #n20-mc-m10 data-answer="D"}
+### Question 15
+The addition of four identical monomer molecules produces the naturally occurring molecule shown below. What could be the structural formula of the monomer?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span><span class="chem-formula">CH<sub>2</sub>=C(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>3</sub></span></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span><span class="chem-formula">CH<sub>3</sub>CH=CHCH=CH<sub>2</sub></span></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span><span class="chem-formula">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH=CH<sub>2</sub></span></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span><span class="chem-formula">CH<sub>2</sub>=C(CH<sub>3</sub>)CH=CH<sub>2</sub></span></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>D.</strong> The product is formed from a diene: one C=C participates in addition while the second can remain in the product. The suitable monomer is isoprene, <span class="chem-formula">CH<sub>2</sub>=C(CH<sub>3</sub>)CH=CH<sub>2</sub></span>.</p></details>
+:::
+
+### Hard
+
+::: {.mc-question #n20-mc-h1 data-answer="C"}
+### Question 16
+Kevlar has the structure below. A Kevlar rope is both lighter and stronger when compared to a steel rope of similar dimensions. Which properties of Kevlar are responsible?
+
+1 The Kevlar molecule has no permanent dipole.<br>2 The fibres of Kevlar align due to hydrogen bonding<br>3 The mass per unit length is less in a Kevlar rope than in a steel rope
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 only</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>C.</strong> Kevlar does have permanent dipoles from carbonyl and N–H groups, so 1 is false. Hydrogen bonding aligns fibres, and C/N/O atoms give lower mass per unit length than steel.</p></details>
+:::
+
+::: {.mc-question #n20-mc-h2 data-answer="C"}
+### Question 17
+Which row correctly describes what happens when poly(propene), <span class="chem-formula">(C<sub>3</sub>H<sub>6</sub>)<sub>n</sub></span>, is burned in an excess of air?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Poly(propene) does not burn</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span><span class="chem-formula">n</span> moles O<sub>2</sub>; <span class="chem-formula">3nC+3nH<sub>2</sub>O</span></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span><span class="chem-formula">4½n</span> moles O<sub>2</sub>; <span class="chem-formula">3nCO<sub>2</sub>+3nH<sub>2</sub>O</span></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span><span class="chem-formula">6n</span> moles O<sub>2</sub>; <span class="chem-formula">3nCO<sub>2</sub>+3nH<sub>2</sub>O</span></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>C.</strong> <span class="chem-formula">C<sub>3</sub>H<sub>6</sub>+4½O<sub>2</sub>→3CO<sub>2</sub>+3H<sub>2</sub>O</span>; multiply every coefficient by <span class="chem-formula">n</span>. Excess air means complete combustion.</p></details>
+:::
+
+::: {.mc-question #n20-mc-h3 data-answer="B"}
+### Question 18
+The following diagram represents the structure of a polymer: <span class="chem-formula">[−CH<sub>2</sub>−CH(OH)−CH<sub>2</sub>−CH(OH)−]<sub>n</sub></span>.
+
+By which method can this polymer be made?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Polymerise ethene; hydration</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Polymerise 1,2-dichloroethene; hydrolysis</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Polymerise ethene; oxidation with H<sup>+</sup>/KMnO<sub>4</sub></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Polymerise 1,2-dichloroethene; oxidation with H<sup>+</sup>/KMnO<sub>4</sub></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>B.</strong> Polymerise 1,2-dichloroethene to give a chain with C–Cl substituents, then hydrolyse C–Cl to C–OH. Ethene does not supply the substituents and oxidation is not the appropriate conversion.</p></details>
+:::
+
+::: {.mc-question #n20-mc-h4 data-answer="C"}
+### Question 19
+A 1 mol sample of a monomer undergoes addition polymerisation and is completely polymerised. How many moles of polymer might, theoretically, be formed?
+
+1 1<br>2 <span class="chem-formula">10<sup>−6</sup></span><br>3 <span class="chem-formula">1/(6.02 × 10<sup>23</sup>)</span>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1, 2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>C.</strong> A polymer molecule contains many monomer units, so the amount of polymer is less than 1 mol. Both <span class="chem-formula">10<sup>−6</sup></span> mol and <span class="chem-formula">1/(6.02×10<sup>23</sup>)</span> mol are theoretically possible.</p></details>
+:::
+
+::: {.mc-question #n20-mc-h5 data-answer="C"}
+### Question 20
+Some micro-organisms naturally produce a polymer called PHB (polyhydroxybutyric acid). PHB is readily biodegradable.
+
+What type of reaction will cause PHB to break down?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Addition</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Reduction</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Hydrolysis</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Substitution</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>C.</strong> PHB contains ester links, and hydrolysis uses water to break ester bonds into smaller molecules. Addition, reduction and substitution do not describe this chain breakdown.</p></details>
+:::
+
+## Structured questions
+
+本节从 Easy、Medium、Hard 各组按原题顺序选取 10 道 SQ。答案参考对应 PDF 后半部分的 Model Answers，并补充每个小问的得分点。
+
+### Easy
+
+::: {.question-card #n20-sq-e1}
+### Question 1
+This question is about different polymers. Polymer X can be formed from an alkene. The structure of polymer X is shown in Fig. 1.1.
+
+![Fig. 1.1](../assets/questions/extracted/20/independent/sq-easy-q1-polymer-x.png){.question-figure fig-alt="Polymer X"}
+
+**(a)** State type polymerisation. [1 mark]<br>**(b)** (i) Draw monomer. (ii) Name polymer X. [2 marks]<br>**(c)** Suggest three reasons why disposal of polymer X challenge. [3 marks]
+
+<details class="answer-panel"><summary>Show detailed reference answer</summary><p><strong>(a)</strong> Addition polymerisation. <strong>(b)</strong> Monomer propene, <span class="chem-formula">CH<sub>2</sub>=CHCH<sub>3</sub></span>; polymer X is poly(propene), <span class="chem-formula">[−CH<sub>2</sub>−CH(CH<sub>3</sub>)−]<sub>n</sub></span>. <strong>(c)</strong> Any three: unreactive/resistant to chemical attack; non-biodegradable and persistent in landfill; combustion produces pollutants or carbon dioxide. The key points are three distinct disposal problems.</p></details>
+:::
+
+::: {.question-card #n20-sq-e2}
+### Question 2
+Butene, <span class="chem-formula">C<sub>4</sub>H<sub>8</sub></span>, can exist as three isomers. Isomer A is a position isomer of isomers B and C and does not show geometric isomerism. B and C are geometric isomers. B cis, C trans.
+
+![Fig. 2.1](../assets/questions/extracted/20/independent/sq-easy-q2-isomers.png){.question-figure fig-alt="Butene isomers"}
+
+**(a)** (i) Draw displayed formulae of A, B, C. (ii) Name all three. [6 marks]<br>**(b)** Draw displayed formula of addition polymer formed by isomer A. [1 mark]<br>**(c)** State why two suggested structures are the same addition polymer. [1 mark]
+
+<details class="answer-panel"><summary>Show detailed reference answer</summary><p><strong>(a)</strong> A: but-1-ene, <span class="chem-formula">CH<sub>2</sub>=CHCH<sub>2</sub>CH<sub>3</sub></span>. B: cis-but-2-ene. C: trans-but-2-ene. <strong>(b)</strong> <span class="chem-formula">[−CH<sub>2</sub>−CH(CH<sub>2</sub>CH<sub>3</sub>)−]<sub>n</sub></span>. <strong>(c)</strong> The C=C opens to C–C; free rotation about C–C means the drawings are conformations of the same polymer, not cis/trans polymers.</p></details>
+:::
+
+::: {.question-card #n20-sq-e3}
+### Question 3
+The molecule chloroethene is shown in Fig. 3.1.
+
+![Fig. 3.1](../assets/questions/extracted/20/independent/sq-easy-q3-chloroethene.png){.question-figure fig-alt="Chloroethene"}
+
+Chloroethene is polymerised to poly(chloroethene). **(a)** Give an alternative name. [1 mark] **(b)** Draw the structure including three repeat units. [1 mark] **(c)** State a problem caused by combustion and suggest how effects are reduced. [2 marks]
+
+<details class="answer-panel"><summary>Show detailed reference answer</summary><p><strong>(a)</strong> PVC/polyvinylchloride. <strong>(b)</strong> <span class="chem-formula">−CH<sub>2</sub>−CHCl−CH<sub>2</sub>−CHCl−CH<sub>2</sub>−CHCl−</span>, with continuation bonds. <strong>(c)</strong> Acidic/toxic HCl and other toxic products can be formed; scrub HCl with a base/carbonate or recycle rather than incinerate.</p></details>
+:::
+
+### Medium
+
+::: {.question-card #n20-sq-m1}
+### Question 4
+Addition polymers are made by polymerisation of alkenes. **(a)** Explain addition polymerisation. [2 marks] **(b)** Trans-hept-2-ene can be made into an addition polymer. (i) Give displayed formula. (ii) Draw poly(hept-2-ene) showing two repeat units. [2 marks] **(c)** Suggest why the polymer is not called poly(trans-hept-2-ene). [2 marks] **(d)** Trans-hept-2-ene is a liquid at room temperature and pressure but poly(hept-2-ene) is a solid. Explain the difference. [3 marks]
+
+<details class="answer-panel"><summary>Show detailed reference answer</summary><p><strong>(a)</strong> Many C=C-containing monomers join to form a long chain as the only product; the π bond opens and new C–C σ bonds form. <strong>(b)</strong> trans-hept-2-ene is <span class="chem-formula">CH<sub>3</sub>CH=CHCH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span> with H atoms on opposite sides. Two repeat units: <span class="chem-formula">−[CH(CH<sub>3</sub>)−CH(CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>)]<sub>2</sub>−</span>. <strong>(c)</strong> The polymer has no C=C and can rotate about C–C, so no geometric isomerism exists. <strong>(d)</strong> The polymer has more electrons and stronger London forces; more energy is needed to separate chains, giving higher melting/boiling temperatures and a solid state.</p></details>
+:::
+
+::: {.question-card #n20-sq-m2}
+### Question 5
+Polyvinyl chloride (PVC) is a polymer which is rigid enough for use as a drainpipe and flexible enough for plastic aprons. State the IUPAC name of PVC. Fig. 2.1 shows a section of the PVC polymer.
+
+![Fig. 2.1](../assets/questions/extracted/20/independent/sq-medium-q2-pvc-section.png){.question-figure fig-alt="PVC section"}
+
+**(b)** (i) Draw repeating unit. (ii) Draw structure and state name of monomer. (iii) Write equation for formation of PVC. [4 marks]
+
+<details class="answer-panel"><summary>Show detailed reference answer</summary><p><strong>(a)</strong> Poly(chloroethene). <strong>(b)</strong> Repeat unit <span class="chem-formula">[−CH<sub>2</sub>−CHCl−]<sub>n</sub></span>; monomer <span class="chem-formula">CH<sub>2</sub>=CHCl</span>, chloroethene; equation <span class="chem-formula">nCH<sub>2</sub>=CHCl → [−CH<sub>2</sub>−CHCl−]<sub>n</sub></span>. Use square brackets, continuation bonds and subscript <span class="chem-formula">n</span>.</p></details>
+:::
+
+::: {.question-card #n20-sq-m3}
+### Question 6
+The polymer poly(propene) is formed from the monomer propene. (i) Draw the repeating unit. (ii) Complete Table 2.1 for poly(methylpropene) and poly(ethene): insoluble in water, unreactive, high density. (iii) Explain why the melting point of poly(methylpropene) is much higher than that of methylpropene. [6 marks]
+
+![Poly(propene) figure](../assets/questions/extracted/20/independent/sq-medium-q3-polypropene.png){.question-figure fig-alt="Poly(propene)"}
+
+<details class="answer-panel"><summary>Show detailed reference answer</summary><p><strong>(i)</strong> <span class="chem-formula">[−CH<sub>2</sub>−CH(CH<sub>3</sub>)−]<sub>n</sub></span>. <strong>(ii)</strong> Both polymers are insoluble and unreactive; only poly(ethene) is marked high density because branching makes poly(methylpropene) pack less efficiently. <strong>(iii)</strong> The polymer has longer chains and more electrons, so there are more/stronger London dispersion forces. More energy is needed to overcome them, so its melting point is much higher than that of small methylpropene molecules.</p></details>
+:::
+
+::: {.question-card #n20-sq-m4}
+### Question 7
+Polymers are unreactive compounds due to their long non-polar chain of saturated carbon-carbon and carbon-hydrogen bonds. Though this means that they are safe to use it also means that they are non-biodegradable as they are not attacked by biological agents such as enzymes.
+
+Table 2.2 shows three different ways in which polymers can be disposed of. State the disadvantage of recycling, incineration and landfill. [3 marks]
+
+<details class="answer-panel"><summary>Show detailed reference answer</summary><p><strong>Recycling:</strong> expensive/difficult separation of different polymers. <strong>Incineration:</strong> pollutants/CO<sub>2</sub>/greenhouse gases, or high energy and temperature required. <strong>Landfill:</strong> polymers remain for many years because microorganisms cannot break them down.</p></details>
+:::
+
+### Hard
+
+::: {.question-card #n20-sq-h1}
+### Question 8
+Poly(methyl methacrylate) is used as a glass substitute in Perspex. A section of the polymer chain is shown in Fig. 1.1.
+
+![Fig. 1.1](../assets/questions/extracted/20/independent/sq-hard-q1-pmma-section.png){.question-figure fig-alt="Poly(methyl methacrylate) section"}
+
+**(a)** Draw skeletal formula of monomer. [1 mark] **(b)** Explain why poly(methyl methacrylate) is fairly unreactive. [2 marks] **(c)** (i) Explain how photodegradable polymers are broken down. (ii) Suggest two disadvantages. [3 marks]
+
+<details class="answer-panel"><summary>Show detailed reference answer</summary><p><strong>(a)</strong> Methyl methacrylate: <span class="chem-formula">CH<sub>2</sub>=C(CH<sub>3</sub>)CO<sub>2</sub>CH<sub>3</sub></span>, drawn as a skeletal formula. <strong>(b)</strong> The chain is saturated/has only C–C single bonds and its hydrocarbon chain is non-polar. <strong>(c)</strong> It absorbs light that weakens polymer bonds; disadvantages include insufficient sunlight exposure and the fact that it may still be oil-based.</p></details>
+:::
+
+::: {.question-card #n20-sq-h2}
+### Question 9
+**(a)** Explain how p-orbitals are involved in formation of C=C in chloroalkenes. Include a sketch. [2 marks]
+
+Compound Y has six possible structural isomers of <span class="chem-formula">C<sub>3</sub>H<sub>3</sub>Cl<sub>3</sub></span>. Two are shown in Fig. 2.1.
+
+![Fig. 2.1](../assets/questions/extracted/20/independent/sq-hard-q2-isomers.png){.question-figure fig-alt="Trichloropropene isomers"}
+
+**(b)** (i) State IUPAC name of isomer 1. (ii) Draw three other structural isomers that are chloroalkenes. (iii) Show two repeat units for polymer formed by isomer 2. [5 marks]
+
+<details class="answer-panel"><summary>Show detailed reference answer</summary><p><strong>(a)</strong> Each carbon has an unhybridised p orbital perpendicular to its σ-bond plane. Sideways overlap of the adjacent parallel p orbitals forms the π part of C=C; C=C contains one σ and one π bond. <strong>(b)(i)</strong> 1,2,3-trichloropropene. <strong>(ii)</strong> Any three of 1,1,3-trichloropropene, 2,3,3-trichloropropene, 3,3,3-trichloropropene and 1,3,3-trichloropropene, with correct structures. <strong>(iii)</strong> Draw four saturated backbone carbons, retain the chlorine substituents inherited from isomer 2, and show two repeat units with continuation bonds.</p></details>
+:::
+
+::: {.question-card #n20-sq-h3}
+### Question 10
+But-2-ene, <span class="chem-formula">CH<sub>3</sub>CH=CHCH<sub>3</sub></span>, is an important compound obtained from cracking hydrocarbons in crude oil. Some reactions are shown in Fig. 3.1.
+
+![Fig. 3.1](../assets/questions/extracted/20/independent/sq-hard-q3-reactions.png){.question-figure fig-alt="Reactions of but-2-ene"}
+
+**(a)** Give structural formulae of organic compounds A to C. [3 marks] **(b)** Draw a portion of poly(butene) showing two repeat units. [1 mark] **(c)** Explain why there is an increasing demand for polymers to be recycled rather than incinerated. [3 marks]
+
+<details class="answer-panel"><summary>Show detailed reference answer</summary><p><strong>(a)</strong> A <span class="chem-formula">CH<sub>3</sub>CO<sub>2</sub>H</span>; B <span class="chem-formula">CH<sub>3</sub>CH(OH)CH(OH)CH<sub>3</sub></span>; C <span class="chem-formula">CH<sub>3</sub>COCOCH<sub>3</sub></span>. Hot concentrated acidified KMnO<sub>4</sub> cleaves and oxidises to ethanoic acid; cold dilute acidified KMnO<sub>4</sub> gives a diol; further oxidation gives butane-2,3-dione. <strong>(b)</strong> <span class="chem-formula">−[CH(CH<sub>3</sub>)−CH(CH<sub>3</sub>)]<sub>2</sub>−</span>. <strong>(c)</strong> Recycling releases fewer pollutants/greenhouse gases/CO<sub>2</sub>, uses less energy and conserves oil/fossil-fuel raw materials.</p></details>
+:::
+
+## Original question PDFs
+
+- [3.8 Polymerisation — Choice — Easy](../assets/questions/original-source/3.8_polymerisation_choice_easy.pdf)
+- [3.8 Polymerisation — Choice — Medium](../assets/questions/original-source/3.8_polymerisation_choice_medium.pdf)
+- [3.8 Polymerisation — Choice — Hard](../assets/questions/original-source/3.8_polymerisation_choice_hard.pdf)
+- [3.8 Polymerisation — SQ — Easy](../assets/questions/original-source/3.8_polymerisation_sq_easy.pdf)
+- [3.8 Polymerisation — SQ — Medium](../assets/questions/original-source/3.8_polymerisation_sq_medium.pdf)
+- [3.8 Polymerisation — SQ — Hard](../assets/questions/original-source/3.8_polymerisation_sq_hard.pdf)

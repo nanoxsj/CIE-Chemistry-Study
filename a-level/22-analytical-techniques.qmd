@@ -1,0 +1,344 @@
+---
+title: "22 Analytical techniques"
+subtitle: "AS 4.1 Analytical Techniques"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    smooth-scroll: true
+---
+
+# 22 Analytical techniques
+
+本章只覆盖 Cambridge International AS Level Chemistry 9701 的 **4.1 Analytical Techniques**，知识点对应 **22.1 Infrared Spectroscopy** 和 **22.2 Mass Spectrometry**。题目来自 Topical Past Papers/AS 的 4.1 Analytical Techniques 题库；题目保留原题问法、选项结构和小问分值。共 20 道 multiple-choice questions 和 10 道 structured questions。无法独立提取的整页题图不放入页面。
+
+## Learning objectives
+
+- use IR wavenumber ranges to identify functional groups;
+- explain broad and sharp absorptions and the fingerprint region;
+- explain electron bombardment, molecular ions, fragments, base peak and <span class="chem-formula">m/e</span>;
+- calculate relative atomic mass from isotope abundance;
+- use M+, M+1 and M+2 peaks to deduce molecular mass, carbon number and halogen isotopes;
+- combine IR and mass-spectrometry evidence to identify an unknown.
+
+## 22.1 Infrared Spectroscopy
+
+Infrared spectroscopy identifies compounds from changes in atomic vibrations when bonds absorb IR radiation. A spectrophotometer passes IR radiation through a sample and records transmitted intensity. Different bonds absorb at characteristic wavenumbers because vibration depends on bond strength and the masses of the bonded atoms. The spectrum is plotted as transmittance against wavenumber in cm<sup>−1</sup>; an absorption is usually a downward peak.
+
+![IR spectra of propanone and propan-2-ol](../assets/notes/analytical-techniques/note-ir-img-012.png){.concept-figure fig-alt="IR spectra of propanone and propan-2-ol"}
+
+| Bond | Functional group(s) | Characteristic range / cm<sup>−1</sup> |
+|---|---|---:|
+| C–O | hydroxy, ester | 1040–1300 |
+| C=C | aromatic compound, alkene | 1500–1680 |
+| C=O | amide | 1640–1690 |
+| C=O | carbonyl, carboxyl | 1670–1740 |
+| C=O | ester | 1710–1750 |
+| C≡N | nitrile | 2200–2250 |
+| C–H | alkane | 2850–2950 |
+| O–H | carboxyl | 2500–3000 |
+| N–H | amine, amide | 3300–3500 |
+| O–H | hydroxy | 3200–3600 |
+
+Hydrogen bonding makes O–H absorptions broad. Carbonyl absorptions are normally strong and sharp. IR is excellent for functional groups but is not always sufficient for a complete structure: bands may overlap, while the fingerprint region below about 1500 cm<sup>−1</sup> is most useful by comparison with a reference spectrum. A strong sharp peak near 1710 cm<sup>−1</sup> indicates C=O in propanone; a broad peak near 3200–3500 cm<sup>−1</sup> indicates O–H in propan-2-ol.
+
+## 22.2 Mass Spectrometry
+
+High-energy electrons remove an electron from a molecule:
+
+<span class="chem-formula">M → M<sup>•+</sup> + e<sup>−</sup></span>
+
+The positively charged molecular ion can fragment into positive ions, neutral molecules and radicals. Only positive ions reach the detector. Ions are separated by their mass-to-charge ratio, <span class="chem-formula">m/e</span>; a smaller value is deflected more strongly. The base peak is the most abundant ion and is assigned 100%, not necessarily the molecular ion.
+
+![Mass-spectrometry ion formation](../assets/notes/analytical-techniques/note-ms-img-004.png){.concept-figure fig-alt="Mass spectrometry ion formation"}
+
+For isotopes:
+
+<span class="chem-formula">A<sub>r</sub> = ((abundance<sub>1</sub> × mass<sub>1</sub>) + (abundance<sub>2</sub> × mass<sub>2</sub>) + …) ÷ total abundance</span>
+
+The molecular ion peak normally has the highest <span class="chem-formula">m/e</span>, ignoring heavier-isotope peaks, and gives the relative molecular mass. Common fragments include <span class="chem-formula">CH<sub>3</sub><sup>+</sup></span> (15), <span class="chem-formula">C<sub>2</sub>H<sub>5</sub><sup>+</sup></span> (29), <span class="chem-formula">C<sub>3</sub>H<sub>7</sub><sup>+</sup></span> (43), <span class="chem-formula">C<sub>4</sub>H<sub>9</sub><sup>+</sup></span> (57), and <span class="chem-formula">CH<sub>2</sub>OH<sup>+</sup></span> (31).
+
+The M+1 peak is mainly caused by <sup>13</sup>C (about 1.1%). Thus:
+
+<span class="chem-formula">number of C atoms = (100 × abundance of M+1) ÷ (1.1 × abundance of M<sup>+</sup>)</span>
+
+One chlorine atom gives M and M+2 in a 3:1 ratio; two chlorine atoms give M, M+2 and M+4 in a 9:6:1 ratio. One bromine atom gives two approximately equal peaks; two bromine atoms give 1:2:1.
+
+## Multiple-choice questions
+
+以下 20 道选择题按 Easy、Medium、Hard 题库选取；答案和解释均根据对应 PDF 后半部分 Model Answers 核对。
+
+### Easy
+
+::: {.mc-question #n22-mc-e1 data-answer="D"}
+### Question 1
+Which of the following corresponds to the base peak in a mass spectrum?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>The ion with the lowest <span class="chem-formula">m/e</span></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>The molecular ion</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Any fragment ion</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>The most abundant ion</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>D.</strong> The base peak is the most abundant positive ion and is assigned 100% relative abundance. It is not necessarily the molecular ion.</p></details>
+:::
+
+::: {.mc-question #n22-mc-e2 data-answer="C"}
+### Question 2
+Which fragment would produce the tallest peak at <span class="chem-formula">m/e=55</span> in the mass spectrum of ricinoleic acid?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span><span class="chem-formula">CH<sub>2</sub>CO<sub>2</sub><sup>+</sup></span></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span><span class="chem-formula">CH=CHCHOH<sup>+</sup></span></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span><span class="chem-formula">C<sub>4</sub>H<sub>7</sub><sup>+</sup></span></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span><span class="chem-formula">COOH<sup>+</sup></span></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>C.</strong> <span class="chem-formula">C<sub>4</sub>H<sub>7</sub><sup>+</sup></span> has mass <span class="chem-formula">4(12)+7=55</span>; the other choices have masses 58, 56 and 45.</p></details>
+:::
+
+::: {.mc-question #n22-mc-e3 data-answer="D"}
+### Question 3
+In a mass spectrometer, the ions are separated. Which species will be deflected to the greatest extent?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span><sup>37</sup>Na<sup>+</sup></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span><sup>35</sup>Na<sup>+</sup></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span><sup>37</sup>Na</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span><sup>35</sup>Na<sup>2+</sup></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>D.</strong> Deflection depends on <span class="chem-formula">m/e</span>. <sup>35</sup>Na<sup>2+</sup> has <span class="chem-formula">35÷2=17.5</span>, the smallest value; neutral Na is not deflected.</p></details>
+:::
+
+::: {.mc-question #n22-mc-e4 data-answer="A"}
+### Question 4
+Which statement about propanal, <span class="chem-formula">CH<sub>3</sub>CH<sub>2</sub>CHO</span>, and propanone, <span class="chem-formula">CH<sub>3</sub>COCH<sub>3</sub></span>, is not correct?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>The molecular ion peaks have different <span class="chem-formula">m/e</span> values</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>They have different fragmentation patterns</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Both show IR absorption due to a carbonyl group</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>They have different fingerprint regions</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>A.</strong> Both have formula <span class="chem-formula">C<sub>3</sub>H<sub>6</sub>O</span>, so both molecular ions are at <span class="chem-formula">m/e=58</span>. Their fragments and fingerprint regions can differ.</p></details>
+:::
+
+::: {.mc-question #n22-mc-e5 data-answer="C"}
+### Question 5
+Silicon has isotopes <sup>28</sup>Si (81.21%), <sup>29</sup>Si (14.10%) and <sup>30</sup>Si (4.69%). What is its relative atomic mass to 1 decimal place?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>29.8</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>29.0</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>28.2</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>28.0</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>C.</strong> <span class="chem-formula">A<sub>r</sub>=(81.21×28+14.10×29+4.69×30)÷100=28.2348≈28.2</span>.</p></details>
+:::
+
+### Medium
+
+::: {.mc-question #n22-mc-m1 data-answer="D"}
+### Question 6
+Which alcohol is not likely to have a fragment ion at <span class="chem-formula">m/e=43</span>?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span><span class="chem-formula">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>OH</span></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span><span class="chem-formula">CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span><span class="chem-formula">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH</span></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span><span class="chem-formula">CH<sub>3</sub>CH<sub>2</sub>CH(OH)CH<sub>3</sub></span></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>D.</strong> A 43 ion can be <span class="chem-formula">C<sub>3</sub>H<sub>7</sub><sup>+</sup></span>, such as <span class="chem-formula">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub><sup>+</sup></span> or <span class="chem-formula">(CH<sub>3</sub>)<sub>2</sub>CH<sup>+</sup></span>. Butan-2-ol contains neither fragment.</p></details>
+:::
+
+::: {.mc-question #n22-mc-m2 data-answer="A"}
+### Question 7
+Which compound is not likely to have a fragment ion at <span class="chem-formula">m/e=43</span>?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Propanoic acid</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Propanal</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Propanone</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Propan-1-ol</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>A.</strong> The common 43 ions include <span class="chem-formula">C<sub>3</sub>H<sub>7</sub><sup>+</sup></span> and <span class="chem-formula">CH<sub>3</sub>CO<sup>+</sup></span>. Propanoic acid does not contain a suitable three-carbon or acetyl fragment; it can give a 57 ion.</p></details>
+:::
+
+::: {.mc-question #n22-mc-m3 data-answer="A"}
+### Question 8
+How many molecular ion peaks are possible for <span class="chem-formula">C<sub>4</sub>H<sub>8</sub>Cl<sub>4</sub></span>, if only chlorine isotopes are considered?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>5</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>4</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>2</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>A.</strong> Four chlorine atoms can contain 0, 1, 2, 3 or 4 atoms of <sup>37</sup>Cl, giving five mass groups from M to M+8.</p></details>
+:::
+
+::: {.mc-question #n22-mc-m4 data-answer="B"}
+### Question 9
+Bromine isotopes <sup>79</sup>Br and <sup>81</sup>Br have almost equal abundances. Which statement is correct for <span class="chem-formula">C<sub>3</sub>H<sub>7</sub>Br</span>?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span><sup>79</sup>Br is more reactive</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>There are two molecular ion peaks at 122 and 124</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>The atomic radius of <sup>79</sup>Br is smaller</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>The first ionisation energy of <sup>79</sup>Br is lower</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>B.</strong> <sup>79</sup>Br gives molecular ion <span class="chem-formula">m/e=122</span> and <sup>81</sup>Br gives 124; their heights are similar. Isotopes have essentially identical chemical and atomic properties.</p></details>
+:::
+
+::: {.mc-question #n22-mc-m5 data-answer="A"}
+### Question 10
+Which alcohol is likely to have a fragment ion at <span class="chem-formula">m/e=31</span>?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span><span class="chem-formula">(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>OH</span></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span><span class="chem-formula">CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub></span></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span><span class="chem-formula">CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>C(OH)(CH<sub>3</sub>)<sub>2</sub></span></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span><span class="chem-formula">CH<sub>3</sub>CH<sub>2</sub>CH(OH)CH<sub>3</sub></span></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>A.</strong> <span class="chem-formula">CH<sub>2</sub>OH<sup>+</sup></span> has mass 31 and is present at the end of 2-methylpropan-1-ol.</p></details>
+:::
+
+::: {.mc-question #n22-mc-m6 data-answer="A"}
+### Question 11
+Which pair of compounds both have a singly charged peak at <span class="chem-formula">m/e=29</span>?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Propan-1-ol and propanal</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Propanal and propanone</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Propan-2-ol and propanal</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Propan-1-ol and propan-2-ol</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>A.</strong> Both can form <span class="chem-formula">C<sub>2</sub>H<sub>5</sub><sup>+</sup></span>, whose mass is 29. Propanone cannot form this ethyl fragment.</p></details>
+:::
+
+::: {.mc-question #n22-mc-m7 data-answer="D"}
+### Question 12
+An IR spectrum has a peak at 1680–1695 cm<sup>−1</sup> and no broad peak at 3200–3600 cm<sup>−1</sup>. Which compound is consistent with the spectrum?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Propan-1-ol</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Propan-2-ol</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Propanal</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Propanone</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>D.</strong> The peak is C=O; no broad O–H peak excludes both alcohols. The data match propanone.</p></details>
+:::
+
+::: {.mc-question #n22-mc-m8 data-answer="C"}
+### Question 13
+Which ketone is not expected to have a fragment ion at <span class="chem-formula">m/e=57</span>?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Hexan-3-one</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Pentan-3-one</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>3-methylbutanone</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Butanone</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>C.</strong> The 57 ion can be <span class="chem-formula">C<sub>4</sub>H<sub>9</sub><sup>+</sup></span> or <span class="chem-formula">C<sub>2</sub>H<sub>5</sub>CO<sup>+</sup></span>; 3-methylbutanone cannot form either fragment.</p></details>
+:::
+
+::: {.mc-question #n22-mc-m9 data-answer="C"}
+### Question 14
+How many molecular ion peaks are possible for <span class="chem-formula">Cl<sub>2</sub></span>?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>5</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>4</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>2</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>C.</strong> The isotope combinations are 35–35, 35–37 and 37–37, giving M, M+2 and M+4.</p></details>
+:::
+
+::: {.mc-question #n22-mc-m10 data-answer="D"}
+### Question 15
+Which statement about <span class="chem-formula">CH<sub>3</sub>Br</span> is correct?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>One molecular ion peak at 44</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>One molecular ion peak at 95</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>The last two peaks have a 3:1 ratio at 94 and 96</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>The last two peaks are equal in size at 94 and 96</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>D.</strong> <sup>79</sup>Br gives 94 and <sup>81</sup>Br gives 96; their abundances are approximately equal, so the molecular-ion peaks are equal.</p></details>
+:::
+
+### Hard
+
+::: {.mc-question #n22-mc-h1 data-answer="C"}
+### Question 16
+Which species produces a peak at <span class="chem-formula">m/e=28</span> in a mass spectrum of iron?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span><sup>84</sup>Kr<sup>3+</sup></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span><sup>28</sup>Si<sup>+</sup></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span><sup>56</sup>Fe<sup>2+</sup></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span><sup>58</sup>Fe<sup>+</sup></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>C.</strong> <span class="chem-formula">m/e=56÷2=28</span>. A pure iron sample excludes krypton and silicon; <sup>58</sup>Fe<sup>+</sup> would be at 58.</p></details>
+:::
+
+::: {.mc-question #n22-mc-h2 data-answer="D"}
+### Question 17
+Two stable isotopes of bromine have relative masses 79 and 81. Which is the correct pattern of peaks in the mass spectrum of molecular bromine?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Only one molecular-ion peak at 160</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Two molecular-ion peaks at 158 and 162 only</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Three molecular-ion peaks with equal abundance</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Peaks at 158, 160 and 162 in a 1:2:1 pattern</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>D.</strong> The combinations 79+79, 79+81 and 81+81 give 158, 160 and 162. The middle combination has twice the probability. Br<sup>+</sup> fragments also give 79 and 81.</p></details>
+:::
+
+::: {.mc-question #n22-mc-h3 data-answer="A"}
+### Question 18
+Three mass spectra are shown for compounds with formula <span class="chem-formula">C<sub>4</sub>H<sub>10</sub>O</span>. Which feature confirms the molecular formula?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>All three molecular-ion peaks occur at 74</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>All spectra have a peak at 13</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>All molecular-ion peaks occur at 73</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>All spectra have a peak at 33</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>A.</strong> <span class="chem-formula">M<sub>r</sub>=4(12)+10+16=74</span>, so the molecular-ion peak is at 74. Fragment peaks do not establish the complete formula.</p></details>
+:::
+
+::: {.mc-question #n22-mc-h4 data-answer="B"}
+### Question 19
+An IR spectrum has strong absorption at 1670–1740 cm<sup>−1</sup> and a broad absorption at 3200–3600 cm<sup>−1</sup>, but not at 2500–3000 cm<sup>−1</sup>. Which functional-group combination is present?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Carboxylic acid only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Separate C=O and O–H groups</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>C=C and C=O only</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>C=C and O–H only</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>B.</strong> The strong peak is C=O and the broad 3200–3600 cm<sup>−1</sup> peak is alcohol O–H. A carboxylic-acid O–H would be in the lower 2500–3000 cm<sup>−1</sup> range.</p></details>
+:::
+
+::: {.mc-question #n22-mc-h5 data-answer="D"}
+### Question 20
+In the mass spectrum of trifluoroacetic acid, <span class="chem-formula">CF<sub>3</sub>CO<sub>2</sub>H</span>, intense peaks occur at <span class="chem-formula">m/e=69</span> and 45. The 69 peak has an M+1 peak at 70 of about 1.1%. Which statement is not supported?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>C–C bond cleavage occurs</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Fluorine is monoisotopic</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span><span class="chem-formula">[HO<sub>2</sub>C]<sup>+</sup></span> is a fragment ion</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>The molecule fragments by sequential loss of F atoms</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><strong>D.</strong> The peaks are explained by C–C cleavage into <span class="chem-formula">[CF<sub>3</sub>]<sup>+</sup></span> and <span class="chem-formula">[HO<sub>2</sub>C]<sup>+</sup></span>. The M+1 peak is consistent with <sup>13</sup>C, not sequential loss of F atoms.</p></details>
+:::
+
+## Structured questions
+
+以下 10 道大题按 Easy 3 题、Medium 4 题、Hard 3 题选取；小问与分值保留，解答根据各 PDF 后半部分 Model Answers 展开。
+
+### Easy
+
+::: {.question-card #n22-sq-e1}
+### Question 1 — Easy
+There are three possible isomers, A, B and C, with the molecular formula <span class="chem-formula">C<sub>3</sub>H<sub>8</sub>O</span>. Isomers A and B are positional isomers of each other. Isomer C is a functional group isomer of A and B. A student calculates that the percentage by mass of carbon in all three isomers is 60.0%. Calculate the percentage by mass of hydrogen and oxygen in all three isomers. **[2 marks]** The infrared spectrum of isomer C does not have a peak in 3200–3600 cm<sup>−1</sup>. (i) Using the spectrum and Table 1.1, suggest a structure for C. (ii) Suggest which bonds the highlighted peak around 1130 cm<sup>−1</sup> could represent. **[2 marks]** Isomers A and B both have a peak at 3200–3600 cm<sup>−1</sup>. State two possible chemical names. **[1 mark]** Isomer A has a major peak at <span class="chem-formula">m/e=31</span>. Suggest, with a reason, which compound is A. **[2 marks]**
+
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><span class="chem-formula">M<sub>r</sub>=60</span>. H: <span class="chem-formula">(8÷60)×100=13.3%</span>; O: <span class="chem-formula">(16÷60)×100=26.7%</span>. With no O–H peak, C is <span class="chem-formula">CH<sub>3</sub>CH<sub>2</sub>OCH<sub>3</sub></span>; the 1130 cm<sup>−1</sup> peak is C–O. A and B are propan-1-ol and propan-2-ol. A is propan-1-ol because it forms <span class="chem-formula">CH<sub>2</sub>OH<sup>+</sup></span> at 31.</p></details>
+:::
+
+::: {.question-card #n22-sq-e2}
+### Question 2 — Easy
+Using mass spectroscopy, a sample of boron was found to contain <sup>10</sup>B and <sup>11</sup>B with relative abundance 20% and 80%. Calculate the relative atomic mass. **[2 marks]** Write the equation for formation of the molecular ion of octane and predict its <span class="chem-formula">m/e</span>. **[2 marks]** Butane has a molecular ion peak at 58.0. Explain the smaller peak at 59.0. **[2 marks]** Which alkane has the higher M+1 peak, octane or butane? Give a reason. **[1 mark]**
+
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><span class="chem-formula">A<sub>r</sub>=(20×10+80×11)÷100=10.8</span>. <span class="chem-formula">C<sub>8</sub>H<sub>18</sub>→C<sub>8</sub>H<sub>18</sub><sup>•+</sup>+e<sup>−</sup></span>; <span class="chem-formula">m/e=114</span>. The 59 peak is M+1 from one <sup>13</sup>C atom. Octane has the larger M+1 because it has more carbon atoms.</p></details>
+:::
+
+::: {.question-card #n22-sq-e3}
+### Question 3 — Easy
+Spectrum Y has an absorption at 1700–1750 cm<sup>−1</sup>. Spectrum Z has absorptions at 2500–3000 cm<sup>−1</sup> and 1700–1750 cm<sup>−1</sup>. Identify the type of compound responsible for each spectrum and the bonds responsible. **[2 marks]** Explain how IR confirms a carbonyl group. **[1 mark]** State the bonds responsible for the absorptions at 3400 cm<sup>−1</sup> in ethanol and 1720 cm<sup>−1</sup> in ethanal. Explain why 3400 cm<sup>−1</sup> does not appear in ethanal. **[2 marks]**
+
+<details class="answer-panel"><summary>Show detailed explanation</summary><p>Y is an aldehyde or ketone: C=O at 1700–1750 cm<sup>−1</sup>. Z is a carboxylic acid: C=O and carboxyl O–H at 2500–3000 cm<sup>−1</sup>. C=O is confirmed by absorption in its characteristic range. Ethanol gives O–H at 3400; ethanal gives C=O at 1720 and has no O–H bond.</p></details>
+:::
+
+### Medium
+
+::: {.question-card #n22-sq-m1}
+### Question 4 — Medium
+Compound X contains carbon, hydrogen and oxygen only. Its mass spectrum has peaks at 102 (100) and 103 (6.5). A molecule contains 6 carbon atoms. Demonstrate this using the figure. Suggest its molecular formula, the fragment formula at <span class="chem-formula">m/e=31</span>, and the functional group using the IR spectrum. **[2+1+1+1 marks]**
+
+<details class="answer-panel"><summary>Show detailed explanation</summary><p><span class="chem-formula">n=(100×6.5)÷(1.1×100)=5.91≈6</span>. Mass 102 minus 72 for six C leaves 30: one O and 14 H, so <span class="chem-formula">C<sub>6</sub>H<sub>14</sub>O</span>. The 31 ion is <span class="chem-formula">CH<sub>2</sub>OH<sup>+</sup></span>. A broad peak near 3300 shows hydroxy; one oxygen excludes carboxyl.</p></details>
+:::
+
+::: {.question-card #n22-sq-m2}
+### Question 5 — Medium
+From the mass spectrum of magnesium, complete the relative abundances of <sup>24</sup>Mg, <sup>25</sup>Mg and <sup>26</sup>Mg. Calculate <span class="chem-formula">A<sub>r</sub></span> to two decimal places. Give the full electronic configuration of <sup>26</sup>Mg<sup>2+</sup>. Boron has <sup>10</sup>B and <sup>11</sup>B and <span class="chem-formula">A<sub>r</sub>=10.8</span>; deduce each abundance. **[1+1+1+3 marks]**
+
+<details class="answer-panel"><summary>Show detailed explanation</summary><p>Read approximately 78–79%, 10% and 11–12%. Using 78%, 10%, 12%: <span class="chem-formula">A<sub>r</sub>=(0.78×24)+(0.10×25)+(0.12×26)=24.34</span>. Configuration: <span class="chem-formula">1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup></span>. Let <sup>10</sup>B be x%: <span class="chem-formula">10x+11(100−x)=1080</span>, so x=20%; <sup>11</sup>B=80%.</p></details>
+:::
+
+::: {.question-card #n22-sq-m3}
+### Question 6 — Medium
+Three compounds X, Y and Z have the same molecular formula. Explain why exact mass would not distinguish them. Identify which compound gives the IR spectrum and explain. Explain why IR alone cannot distinguish X and Y. Explain how mass spectrometry can distinguish X and Y. **[2+2+2+3 marks]**
+
+<details class="answer-panel"><summary>Show detailed explanation</summary><p>The molecular ions have the same mass because the formula is the same. The spectrum is Z because it has O–H at 3200–3600 and/or C=C at 1620–1680. X and Y both show the same C=O absorption, so IR has no key distinguishing peak. Their fragment patterns differ: X can give 15, 29, 43, 57, while Y can give 13, 15, 28, 29, 42, 43, 57.</p></details>
+:::
+
+::: {.question-card #n22-sq-m4}
+### Question 7 — Medium
+The isomers A and B, <span class="chem-formula">C<sub>3</sub>H<sub>6</sub>O</span>, both form an orange precipitate with 2,4-DNPH. A is unbranched and reacts with alkaline aqueous iodine to produce a yellow precipitate. B does not react with alkaline aqueous iodine. It contains a chiral centre and produces a silver mirror with Tollens’ reagent. Draw the yellow precipitate. Give structural formulae of A and B. Explain chiral centre. **[1+2+3 marks]**
+
+<details class="answer-panel"><summary>Show detailed explanation</summary><p>The yellow precipitate is tri-iodomethane, <span class="chem-formula">CHI<sub>3</sub></span>. A is propan-2-one, <span class="chem-formula">CH<sub>3</sub>COCH<sub>3</sub></span>, consistent with the iodoform test. B is propanal, <span class="chem-formula">CH<sub>3</sub>CH<sub>2</sub>CHO</span>, consistent with Tollens’ test; use the source figure when checking the chiral-centre wording. A chiral centre is a tetrahedral atom bonded to four different groups, giving non-superimposable mirror images.</p></details>
+:::
+
+### Hard
+
+::: {.question-card #n22-sq-h1}
+### Question 8 — Hard
+Compound B contains carbon, hydrogen and oxygen. Its composition is 69.7% carbon, 18.6% oxygen and the remainder hydrogen. The M+1 peak is at <span class="chem-formula">m/z=87</span>. Calculate the molecular formula. Its IR has a sharp peak at 1705 cm<sup>−1</sup> and its mass spectrum has a fragment at <span class="chem-formula">m/e=28</span>. Give two possible structures and explain. Identify the ion at <span class="chem-formula">m/e=29</span> and explain how its abundance distinguishes the isomers. **[3+3+3 marks]**
+
+<details class="answer-panel"><summary>Show detailed explanation</summary><p>H=11.7%; moles C=5.80, O=1.16, H=11.7, ratio 5:1:10, so <span class="chem-formula">C<sub>5</sub>H<sub>10</sub>O</span>, mass 86 and M+1=87. C=O at 1705 and the 28 carbonyl fragment support pentan-2-one or pentan-3-one. The 29 ion is <span class="chem-formula">C<sub>2</sub>H<sub>5</sub><sup>+</sup></span>; pentan-3-one can form two such fragments and should have the higher peak.</p></details>
+:::
+
+::: {.question-card #n22-sq-h2}
+### Question 9 — Hard
+Compound C has an IR peak near 2250 cm<sup>−1</sup> and molecular ion at <span class="chem-formula">m/e=55</span>. Identify it and explain. Give two ways M+1 at 56 could form. Calculate the elemental composition of an 8.0 g sample. Suggest reagents for conversion into D and justify using IR. **[3+1+2+2 marks]**
+
+<details class="answer-panel"><summary>Show detailed explanation</summary><p>2250 cm<sup>−1</sup> indicates C≡N. <span class="chem-formula">55−26=29</span> gives an ethyl group, so C is propanenitrile, <span class="chem-formula">C<sub>2</sub>H<sub>5</sub>CN</span>. M+1 can be <sup>13</sup>C or proton addition. Percentages are C 65.45%, H 9.09%, N 25.45%; in 8.0 g: 5.24 g C, 0.73 g H, 2.04 g N. Use H<sub>2</sub>/Ni or LiAlH<sub>4</sub>/dry ether; C≡N disappears and N–H at 3300–3500 appears.</p></details>
+:::
+
+::: {.question-card #n22-sq-h3}
+### Question 10 — Hard
+Alcohol E oxidises to form a carboxylic acid. Suggest what this tells you about its structure. Draw fully displayed formulae and give systematic names of the four possible primary-alcohol isomers. A major mass-spectrum peak is at <span class="chem-formula">m/e=45</span>; draw the species responsible. E has a branched chain: identify the isomer and explain. **[1+4+1+1 marks]**
+
+<details class="answer-panel"><summary>Show detailed explanation</summary><p>E is a primary alcohol. The four isomers are pentan-1-ol, 3-methylbutan-1-ol, 2-methylbutan-1-ol and 2,2-dimethylpropan-1-ol. The 45 ion is <span class="chem-formula">CH<sub>2</sub>CH<sub>2</sub>OH<sup>+</sup></span>. The branched isomer that contains this sequence is 3-methylbutan-1-ol.</p></details>
+:::
+
+## Source PDFs
+
+- [4.1 Analytical Techniques — Choice Easy](../assets/questions/original-source/4.1_analytical_techniques_choice_easy.pdf)
+- [4.1 Analytical Techniques — Choice Medium](../assets/questions/original-source/4.1_analytical_techniques_choice_medium.pdf)
+- [4.1 Analytical Techniques — Choice Hard](../assets/questions/original-source/4.1_analytical_techniques_choice_hard.pdf)
+- [4.1 Analytical Techniques — SQ Easy](../assets/questions/original-source/4.1_analytical_techniques_sq_easy.pdf)
+- [4.1 Analytical Techniques — SQ Medium](../assets/questions/original-source/4.1_analytical_techniques_sq_medium.pdf)
+- [4.1 Analytical Techniques — SQ Hard](../assets/questions/original-source/4.1_analytical_techniques_sq_hard.pdf)

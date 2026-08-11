@@ -1,0 +1,192 @@
+---
+title: "9 The Periodic Table: chemical periodicity"
+subtitle: "Trends in atomic structure, physical properties and chemical properties"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+include-in-header:
+  - text: |
+      <style>
+      .option-figure-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 760px; }
+      .option-figure-grid img { display: block; width: 100%; max-width: 100%; height: auto; margin: 0 auto; border: 1px solid #dbe5f0; border-radius: 8px; background: #fff; }
+      @media (max-width: 700px) { .option-figure-grid { grid-template-columns: 1fr; } }
+      </style>
+---
+
+# 9 The Periodic Table: chemical periodicity
+
+本章介绍元素在周期表中的位置与电子排布之间的关系，并用核电荷、电子层数、屏蔽效应和结构类型解释周期性。题目覆盖 Period 3 的物理性质、氧化物和氯化物，也延伸到相邻周期元素的比较。
+
+## Learning objectives
+
+学完本章后，你应该能够：
+
+- explain how groups and periods relate to electron configurations;
+- predict trends in atomic radius, ionic radius, first ionisation energy and electronegativity;
+- explain the structures and physical properties of Period 3 elements;
+- classify Period 3 oxides as basic, amphoteric or acidic;
+- write equations for reactions of oxides and chlorides with water, acids and alkalis;
+- use successive ionisation energies to identify groups and oxidation states.
+
+## 9.1 Periodicity of Physical Properties of the Elements in Period 3
+
+The **period number** is the number of occupied electron shells. For main-group elements, the **group number** is related to the number of electrons in the outer shell. Elements in the same group have similar chemical properties because they have similar outer-shell configurations.
+
+Across a period, proton number increases while electrons are added to the same principal shell. The nuclear charge therefore increases, whereas shielding changes much less. Down a group, an extra occupied shell is added at each step, so shielding and the distance of the outer electron from the nucleus increase.
+
+For a main-group atom, first write the electron configuration before predicting an ion: sodium, magnesium and aluminium lose outer electrons to form Na<sup>+</sup>, Mg<sup>2+</sup> and Al<sup>3+</sup>; phosphorus, sulfur and chlorine can gain electrons in ionic compounds. The periodic-table position predicts common ion charge, but transition-metal charges must be stated separately.
+
+![Period 3 electron structures](../assets/notes/periodicity-9-rebuilt/periodicity-9-1-note-026.png){.note-figure fig-alt="Electron-shell structures across Period 3"}
+
+### Atomic radius and ionic radius
+
+Atomic radius generally **decreases across a period** because the increasing nuclear charge attracts the outer electrons more strongly while they remain in the same shell. It **increases down a group** because the outer electrons are in shells farther from the nucleus and are more shielded.
+
+For isoelectronic ions, the species with more protons has the smaller radius. For example:
+
+$$\ce{Mg^{2+} < Na+ < Ne < F- < O^{2-}}$$
+
+All five species have ten electrons, but the nuclear charge increases from left to right in this comparison.
+
+When comparing a cation with its atom, the cation is smaller because it has lost an electron shell or because fewer electrons are repelled by one another. An anion is larger than its atom because added electrons increase electron-electron repulsion while nuclear charge is unchanged.
+
+![Atomic-radius trend across Period 3](../assets/notes/periodicity-9-rebuilt/periodicity-9-1-note-020.png){.note-figure fig-alt="Atomic radius decreases across Period 3"}
+
+![Ionic radii of Period 3 ions](../assets/notes/periodicity-9-rebuilt/periodicity-9-1-note-032.png){.note-figure fig-alt="Ionic radii of common Period 3 ions"}
+
+### First ionisation energy
+
+The first ionisation energy is the energy required to remove one mole of electrons from one mole of gaseous atoms to form one mole of gaseous singly charged ions:
+
+$$\ce{X(g) -> X+(g) + e-}$$
+
+It generally increases across a period because nuclear attraction increases and atomic radius decreases. It decreases down a group because the outer electron is farther from the nucleus and more shielded.
+
+There are two important Period 3 exceptions. Aluminium has a lower first ionisation energy than magnesium because the electron removed from Al is in a higher-energy 3p orbital. Sulfur has a lower value than phosphorus because sulfur has a paired 3p electron, so electron–electron repulsion makes removal easier.
+
+The definition must include all four parts: energy required; one mole of electrons; one mole of gaseous atoms; one mole of gaseous 1+ ions. The large jump in successive ionisation energies occurs when removal starts from an inner shell, so it identifies the number of outer electrons.
+
+Successive ionisation energies show the group number from the position of the large jump. A large jump after the second electron, for example, indicates two outer-shell electrons and therefore Group 2.
+
+### Electronegativity
+
+Electronegativity is the ability of an atom to attract the bonding pair of electrons in a covalent bond. It generally increases across a period and decreases down a group. A smaller atom with a greater effective nuclear charge attracts bonding electrons more strongly.
+
+Electronegativity helps explain the change from ionic bonding at the left of Period 3 to more covalent bonding at the right. It also helps predict the polarity and hydrolysis of covalent chlorides.
+
+### Physical properties across Period 3
+
+The melting points of Period 3 elements rise from sodium to magnesium and aluminium because metallic bonding becomes stronger as the number of delocalised electrons and the positive charge of the ions increase. Silicon has a very high melting point because it has a giant covalent structure.
+
+Phosphorus, sulfur, chlorine and argon are simple molecular or atomic substances. Their melting points are much lower than silicon's. Sulfur has a higher melting point than phosphorus and chlorine because it exists as larger $\ce{S8}$ molecules with stronger London forces.
+
+![Period 3 melting-point trend](../assets/notes/periodicity-9-rebuilt/periodicity-9-1-note-044.png){.note-figure fig-alt="Melting-point trend across Period 3"}
+
+Electrical conductivity also follows structure. Sodium, magnesium and aluminium conduct as metals, silicon is a semiconductor, and the simple molecular substances do not conduct electricity in the solid state.
+
+| Region of Period 3 | Structure | Consequence |
+|---|---|---|
+| Na, Mg, Al | giant metallic lattice | conduct in solid and liquid states; high melting points from strong metallic bonding |
+| Si | giant covalent lattice | very high melting point; semiconductor because some electrons can be promoted into a conduction band |
+| P<sub>4</sub>, S<sub>8</sub>, Cl<sub>2</sub> | simple molecules | low melting points; weak London forces between molecules |
+| Ar | monatomic | lowest melting point in this part of the period because it has the weakest London forces |
+
+Do not describe the strong covalent bonds inside P<sub>4</sub>, S<sub>8</sub> or Cl<sub>2</sub> as the bonds being broken on melting: it is the weak intermolecular forces that are overcome.
+
+## 9.2 Periodicity of Chemical Properties of the Elements in Period 3
+
+### Oxides across Period 3
+
+The oxides become less ionic and more covalent from left to right:
+
+| Oxide | Structure / bonding | Acid–base character |
+|---|---|---|
+| $\ce{Na2O}$, $\ce{MgO}$ | giant ionic | basic |
+| $\ce{Al2O3}$ | giant lattice with significant covalent character | amphoteric |
+| $\ce{SiO2}$ | giant covalent | acidic oxide |
+| $\ce{P4O10}$, $\ce{SO2}$, $\ce{Cl2O7}$ | simple covalent molecules | acidic |
+
+Basic oxides react with water to form hydroxides, while acidic oxides react with water to form acids:
+
+$$\ce{Na2O(s) + H2O(l) -> 2NaOH(aq)}$$
+$$\ce{SO2(g) + H2O(l) <=> H2SO3(aq)}$$
+
+Aluminium oxide is amphoteric:
+
+$$\ce{Al2O3(s) + 6HCl(aq) -> 2AlCl3(aq) + 3H2O(l)}$$
+$$\ce{Al2O3(s) + 2OH-(aq) + 3H2O(l) -> 2[Al(OH)4]-(aq)}$$
+
+Silicon dioxide is an acidic oxide but is insoluble in water. It reacts with strong alkalis, for example SiO<sub>2</sub>(s) + 2OH<sup>−</sup>(aq) → SiO<sub>3</sub><sup>2−</sup>(aq) + H<sub>2</sub>O(l). Across the period, oxide bonding changes from ionic to covalent as the cation charge increases and size decreases, increasing polarising power.
+
+![Structures of Period 3 oxides](../assets/notes/periodicity-9-rebuilt/periodicity-9-2-note-044.png){.note-figure fig-alt="Giant ionic, giant covalent and simple molecular oxide structures"}
+
+### Chlorides across Period 3
+
+Sodium chloride and magnesium chloride are predominantly ionic solids. Aluminium chloride has substantial covalent character, while SiCl<sub>4</sub>, PCl<sub>3</sub> and PCl<sub>5</sub> are simple covalent chlorides. Covalent chlorides hydrolyse because water molecules attack the electron-deficient central atom and HCl is produced, giving acidic solutions/fumes.
+
+Examples:
+
+$$\ce{SiCl4(l) + 2H2O(l) -> SiO2(s) + 4HCl(aq)}$$
+$$\ce{PCl3(l) + 3H2O(l) -> H3PO3(aq) + 3HCl(aq)}$$
+$$\ce{PCl5(s) + 4H2O(l) -> H3PO4(aq) + 5HCl(aq)}$$
+
+| Chloride | Structure / behaviour with water | Explanation to use |
+|---|---|---|
+| NaCl | ionic; dissolves without appreciable hydrolysis | ions are not sufficiently polarising to make water acidic |
+| MgCl<sub>2</sub> | ionic; aqueous solution is weakly acidic | hydrated Mg<sup>2+</sup> polarises O–H bonds in coordinated water |
+| AlCl<sub>3</sub> | covalent character; hydrolyses to an acidic solution | small, highly charged Al<sup>3+</sup> strongly polarises water / chloride bonding |
+| SiCl<sub>4</sub>, PCl<sub>3</sub>, PCl<sub>5</sub> | react vigorously with water, producing HCl | simple covalent molecules with polar bonds and an electron-deficient central atom |
+
+The hydrolysis of SiCl<sub>4</sub> is possible because silicon can accept electron density from water and the Si–Cl bonds are polar. Carbon tetrachloride does not hydrolyse appreciably: carbon cannot expand its outer shell in the same way and the C–Cl bonds are less susceptible to nucleophilic attack.
+
+![Sodium reacting with water](../assets/notes/periodicity-9-rebuilt/periodicity-9-2-note-012.png){.note-figure fig-alt="Sodium reacting with water"}
+
+## 9.3 Chemical Periodicity of Other Elements
+
+![Using periodicity to predict unfamiliar elements](../assets/notes/periodicity-9-rebuilt/periodicity-9-3-note-004.png){.note-figure fig-alt="Decision process for predicting properties of unfamiliar elements"}
+
+The same reasoning can be applied below Period 3. For example, oxides of Group 13 elements become more basic down the group, while oxides of Group 16 elements become more acidic across a period. Always identify the structure first, then relate the physical or chemical property to:
+
+1. nuclear charge and electron configuration;
+2. shell number and shielding;
+3. ionic, giant covalent or simple molecular structure;
+4. the polarity and hydrolysis of covalent bonds.
+
+## Chapter checklist
+
+- [ ] I can explain atomic-radius and first-ionisation-energy trends.
+- [ ] I can explain the Mg/Al and P/S first-ionisation-energy exceptions.
+- [ ] I can rank isoelectronic ions by radius.
+- [ ] I can relate Period 3 melting points and conductivity to structure.
+- [ ] I can classify Period 3 oxides and write their acid–base reactions.
+- [ ] I can explain why silicon and phosphorus chlorides hydrolyse.
+- [ ] I can use successive ionisation energies to identify a group.
+- [ ] I can distinguish atomic-radius, ionic-radius and isoelectronic comparisons.
+- [ ] I can predict a Period 3 property from structure before trying to memorise data.
+- [ ] I can choose the correct hydrolysis equation and explain why a chloride solution is acidic.
+
+## Multiple choice questions
+
+{{< include 9-periodic-table-chemical-periodicity-choice.qmd >}}
+
+## Structured questions
+
+{{< include 9-periodic-table-chemical-periodicity-structured-selected.qmd >}}
+
+## Original question PDFs
+
+页面中的图表使用 PDF 内独立嵌入的图像对象提取，不使用整页截图；PDF 内为矢量绘制且没有独立图像对象的图形不强行转换。
+
+- [2.1 The Periodic Table: Chemical Periodicity - Choice - Easy](../assets/questions/original-source/2.1_periodic_table_chemical_periodicity_choice_easy.pdf)
+- [2.1 The Periodic Table: Chemical Periodicity - Choice - Medium](../assets/questions/original-source/2.1_periodic_table_chemical_periodicity_choice_medium.pdf)
+- [2.1 The Periodic Table: Chemical Periodicity - Choice - Hard](../assets/questions/original-source/2.1_periodic_table_chemical_periodicity_choice_hard.pdf)
+- [2.1 The Periodic Table: Chemical Periodicity - Structured Questions - Easy](../assets/questions/original-source/2.1_periodic_table_chemical_periodicity_sq_easy.pdf)
+- [2.1 The Periodic Table: Chemical Periodicity - Structured Questions - Medium](../assets/questions/original-source/2.1_periodic_table_chemical_periodicity_sq_medium.pdf)
+- [2.1 The Periodic Table: Chemical Periodicity - Structured Questions - Hard](../assets/questions/original-source/2.1_periodic_table_chemical_periodicity_sq_hard.pdf)
+
+## Original note PDFs
+
+- [9.1 Periodicity of Physical Properties of the Elements in Period 3](../assets/notes/periodicity-9-rebuilt/9.1_periodicity_physical_properties.pdf)
+- [9.2 Periodicity of Chemical Properties of the Elements in Period 3](../assets/notes/periodicity-9-rebuilt/9.2_periodicity_chemical_properties.pdf)
+- [9.3 Chemical Periodicity of Other Elements](../assets/notes/periodicity-9-rebuilt/9.3_chemical_periodicity_other_elements.pdf)

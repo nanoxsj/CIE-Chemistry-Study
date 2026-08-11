@@ -1,6 +1,6 @@
 ---
 title: "14 Hydrocarbons"
-subtitle: "Alkanes, alkenes, crude oil and reactions"
+subtitle: "AS 3.2 Hydrocarbons · 14.1 Alkanes · 14.2 Alkenes"
 format:
   html:
     toc: true
@@ -9,7 +9,7 @@ format:
 
 # 14 Hydrocarbons
 
-本章只覆盖 AS 3.2 Hydrocarbons：alkanes、alkenes、crude oil、cracking、combustion、free-radical substitution、electrophilic addition、oxidation 和 addition polymerisation。题目均来自 **3.2 Hydrocarbons** 原题；不能独立提取的题图未使用截图替代。
+本章覆盖 AS 3.2 Hydrocarbons 的 **14.1 Alkanes** 与 **14.2 Alkenes**，并补充 crude oil、cracking、combustion、oxidation 和 addition polymerisation 等考点。题目均来自 **3.2 Hydrocarbons** 原题；可独立提取的结构式、流程图、曲线图和装置图保留为独立图像，不能独立提取的整页图片不放入页面。
 
 ## Learning objectives
 
@@ -19,9 +19,11 @@ format:
 - use bromine water and manganate(VII) reactions to identify C=C;
 - explain addition polymerisation and environmental effects of vehicle emissions.
 
-## 14.1 Alkanes and free-radical substitution
+## 14.1 Alkanes
 
 Alkanes are saturated hydrocarbons with the general formula C<sub>n</sub>H<sub>2n+2</sub>. They are relatively unreactive because C–C and C–H bonds have high bond enthalpies and are almost non-polar. They undergo combustion and, with halogens under UV light, free-radical substitution.
+
+![Non-polar C–C and C–H bonds in an alkane](../assets/notes/hydrocarbons14-rebuilt/alkanes-img-094.png){.concept-figure fig-alt="Non-polar C-C and C-H bonds in an alkane"}
 
 For chlorination of methane:
 
@@ -29,17 +31,23 @@ For chlorination of methane:
 
 Initiation makes radicals, propagation uses and regenerates a radical, and termination removes radicals. Homolytic fission splits the bonding pair equally: Cl–Cl → 2Cl·.
 
-## 14.2 Crude oil, fractionation and cracking
+![Propagation steps in free-radical substitution](../assets/notes/hydrocarbons14-rebuilt/alkanes-img-040.png){.concept-figure fig-alt="Propagation steps in the free-radical substitution of ethane"}
+
+### Crude oil, fractionation and cracking
 
 Crude oil is a mixture of hydrocarbons, mainly alkanes. Fractional distillation separates fractions by boiling point: larger molecules have stronger London forces and higher boiling points. A fraction contains hydrocarbons with a range of chain lengths, not one pure compound.
 
 **Cracking** breaks larger saturated hydrocarbons into smaller, more useful molecules, producing alkanes and alkenes. It is carried out by vaporising the fraction and passing it over a hot catalyst such as alumina/silica, or by strong heating. It meets demand for small fuel molecules and for alkene feedstock. For example:
 
+![Fractional distillation of crude oil](../assets/notes/hydrocarbons14-rebuilt/alkanes-img-068.png){.concept-figure fig-alt="Fractional distillation of crude oil"}
+
 <div class="equation-block">C<sub>8</sub>H<sub>18</sub> → C<sub>5</sub>H<sub>12</sub> + C<sub>3</sub>H<sub>6</sub></div>
 
-## 14.3 Alkenes and electrophilic addition
+## 14.2 Alkenes
 
 Alkenes contain C=C and have general formula C<sub>n</sub>H<sub>2n</sub> for an open-chain molecule with one double bond. The π bond is electron-rich and weaker than the σ bond, so it reacts with electrophiles. In electrophilic addition, the alkene first donates π electrons to an electrophile, forming a carbocation; a negative ion then bonds to the positive carbon.
+
+![Bromine addition to ethene and the bromine-water test](../assets/notes/hydrocarbons14-rebuilt/alkenes-img-004.png){.concept-figure fig-alt="Electrophilic addition of bromine to ethene and decolourisation of bromine water"}
 
 | Reagent and conditions | Product / observation |
 |---|---|
@@ -53,13 +61,17 @@ Alkenes contain C=C and have general formula C<sub>n</sub>H<sub>2n</sub> for an 
 
 The more stable carbocation is formed more readily; this explains the major product in addition of HBr to an unsymmetrical alkene.
 
-## 14.4 Combustion, emissions and catalytic converters
+![Electrophilic addition mechanism of bromine](../assets/notes/hydrocarbons14-rebuilt/alkenes-img-120.png){.concept-figure fig-alt="Electrophilic addition mechanism showing a carbocation intermediate"}
+
+![Major and minor products from addition to an unsymmetrical alkene](../assets/notes/hydrocarbons14-rebuilt/alkenes-img-144.png){.concept-figure fig-alt="Major and minor products from electrophilic addition to propene"}
+
+## 14.3 Combustion, emissions and catalytic converters
 
 Complete combustion has excess oxygen and makes CO<sub>2</sub> and H<sub>2</sub>O. Incomplete combustion, when oxygen is limited, produces CO and/or carbon. Carbon monoxide binds strongly to haemoglobin and reduces oxygen transport. High-temperature engines also form NO<sub>x</sub>; NO<sub>x</sub> and unburnt hydrocarbons contribute to photochemical smog.
 
 Catalytic converters use redox reactions to reduce NO<sub>x</sub> to N<sub>2</sub> and oxidise CO/hydrocarbons to CO<sub>2</sub> and H<sub>2</sub>O, for example 2CO + 2NO → 2CO<sub>2</sub> + N<sub>2</sub>.
 
-## 14.5 Addition polymerisation
+## 14.4 Addition polymerisation
 
 In addition polymerisation, many alkene monomers join when the C=C opens, forming only C–C σ bonds in the backbone. The repeat unit is shown in brackets with continuation bonds, for example poly(propene): [–CH<sub>2</sub>–CH(CH<sub>3</sub>)–]<sub>n</sub>. No small molecule is eliminated.
 
@@ -104,7 +116,7 @@ In addition polymerisation, many alkene monomers join when the C=C opens, formin
 
 ::: {.mc-question #hc-mc-07 data-answer="B"}
 ### Question 7 · 3.2 Choice Easy Q7
-![Polymer sequence used to identify the monomer](../assets/questions/extracted/14/independent/choice-easy-q7-polymer.png){.question-figure fig-alt="Displayed polymer chain with chlorine substituents"}
+![Polymer sequence used to identify the monomer](../assets/questions/extracted/14/rebuilt/choice-easy-q7-polymer.png){.question-figure fig-alt="Displayed polymer chain with chlorine substituents"}
 <p>Which monomer could produce a polymer with repeating unit –CH<sub>2</sub>–CH(Cl)–?</p>
 <div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>CHCl=CHCl</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>CH<sub>2</sub>=CHCl</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>CH<sub>3</sub>CCl=CHCl</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>CH<sub>3</sub>CCl=CH<sub>2</sub></span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Addition polymerisation opens the double bond while retaining the Cl substituent.</p></details>
 :::
@@ -147,7 +159,7 @@ In addition polymerisation, many alkene monomers join when the C=C opens, formin
 
 ::: {.mc-question #hc-mc-14 data-answer="D"}
 ### Question 14 · 3.2 Choice Medium Q4
-<img src="../assets/questions/extracted/14/independent/choice-medium-q4-apparatus.png" class="question-figure" alt="Cracking apparatus with pentane on mineral fibre, aluminium oxide and collection over water" style="filter: invert(1);">
+<img src="../assets/questions/extracted/14/rebuilt/choice-medium-q4-apparatus.png" class="question-figure" alt="Cracking apparatus with pentane on mineral fibre, aluminium oxide and collection over water">
 <p>Which hydrocarbon would not be collected on heating pentane over aluminium oxide?</p>
 <div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>CH<sub>4</sub></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>CH<sub>3</sub>CH<sub>3</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>CH<sub>3</sub>CH<sub>2</sub>CH=CH<sub>2</sub></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>CH<sub>3</sub>(CH<sub>2</sub>)<sub>8</sub>CH<sub>3</sub></span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> A cracking reaction cannot make a ten-carbon product from pentane.</p></details>
 :::
@@ -172,7 +184,7 @@ In addition polymerisation, many alkene monomers join when the C=C opens, formin
 
 ::: {.mc-question #hc-mc-18 data-answer="C"}
 ### Question 18 · 3.2 Choice Hard Q3
-![Structure of acrylic acid with labelled bond angles](../assets/questions/extracted/14/independent/choice-hard-q3-acrylic-acid.png){.question-figure fig-alt="Displayed structure of acrylic acid with bond angles X and Y"}
+![Structure of acrylic acid with labelled bond angles](../assets/questions/extracted/14/rebuilt/choice-hard-q3-acrylic-acid.png){.question-figure fig-alt="Displayed structure of acrylic acid with bond angles X and Y"}
 <p>Acrylic acid is produced from propene. Which statement about acrylic acid is not correct?</p>
 <div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Both indicated carbon bond angles are approximately 120°.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>It decolourises aqueous bromine.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>It gives an orange precipitate with 2,4-dinitrophenylhydrazine reagent.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>It reacts with an alcohol to give an ester.</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> A carboxylic acid does not contain an aldehyde or ketone carbonyl required for the 2,4-DNPH test.</p></details>
 :::
@@ -185,7 +197,7 @@ In addition polymerisation, many alkene monomers join when the C=C opens, formin
 
 ::: {.mc-question #hc-mc-20 data-answer="C"}
 ### Question 20 · 3.2 Choice Hard Q7
-![Polymer repeat unit used in the question](../assets/questions/extracted/14/independent/choice-hard-q7-polymer.png){.question-figure fig-alt="Polymer chain with hydroxyl groups on alternating carbon atoms"}
+![Polymer repeat unit used in the question](../assets/questions/extracted/14/rebuilt/choice-hard-q7-polymer.png){.question-figure fig-alt="Polymer chain with hydroxyl groups on alternating carbon atoms"}
 <p>A possible polymer has repeat unit –CH<sub>2</sub>–CH(OH)–. By which method might this polymer be made?</p>
 <div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>polymerise ethene followed by hydration</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>polymerise ethene followed by oxidation with cold acidified KMnO<sub>4</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>polymerise 1,2-dichloroethene followed by hydrolysis</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>polymerise 1,2-dichloroethene followed by oxidation with cold acidified KMnO<sub>4</sub></span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Hydrolysis replaces Cl by OH on the polymer chain.</p></details>
 :::
@@ -205,7 +217,7 @@ In addition polymerisation, many alkene monomers join when the C=C opens, formin
 
 ::: {.question-card #hc-sq-03}
 ### Question 2 · 3.2 SQ Easy Q2(a-d)
-<img src="../assets/questions/extracted/14/independent/sq-easy-q2-mechanism.png" class="question-figure" alt="Propene reacting with hydrogen bromide through a carbocation intermediate" style="filter: invert(1);">
+<img src="../assets/questions/extracted/14/rebuilt/sq-easy-q2-mechanism.png" class="question-figure" alt="Propene reacting with hydrogen bromide through a carbocation intermediate">
 <p>This question is about the reactions of propene. Complete the flowchart below to show the major organic product formed in each of the addition reactions.</p>
 <p><strong>(b)</strong> Use ‘curly’ arrows to complete the mechanism for the formation of the major product when propene, CH<sub>3</sub>CH=CH<sub>2</sub>, reacts with hydrogen bromide, HBr.</p>
 <p><strong>(c)</strong> Draw the displayed formula of the minor product formed from the reaction of propene and hydrogen bromide.</p>
@@ -226,8 +238,8 @@ In addition polymerisation, many alkene monomers join when the C=C opens, formin
 
 ::: {.question-card #hc-sq-06}
 ### Question 4 · 3.2 SQ Medium Q1(a-d)
-![Fig. 4.1 Cyclohexane to chlorocyclohexane to cyclohexene](../assets/questions/extracted/14/independent/sq-medium-q1-fig-4-1.png){.question-figure fig-alt="Reaction scheme converting cyclohexane to chlorocyclohexane and then cyclohexene"}
-![Table 4.1 Free-radical substitution mechanism](../assets/questions/extracted/14/independent/sq-medium-q1-table-4-1.png){.question-figure fig-alt="Completion table for initiation, propagation and termination steps"}
+![Fig. 4.1 Cyclohexane to chlorocyclohexane to cyclohexene](../assets/questions/extracted/14/rebuilt/sq-medium-q1-fig-4-1.png){.question-figure fig-alt="Reaction scheme converting cyclohexane to chlorocyclohexane and then cyclohexene"}
+![Table 4.1 Free-radical substitution mechanism](../assets/questions/extracted/14/rebuilt/sq-medium-q1-table-4-1.png){.question-figure fig-alt="Completion table for initiation, propagation and termination steps"}
 <p>A reaction scheme involving cyclohexane is shown in Fig. 4.1. Reaction 1 involves a free radical substitution mechanism.</p>
 <p><strong>(a)</strong> State the essential condition required for reaction 1 to occur.</p>
 <p><strong>(b)</strong> Complete Table 4.1 to give details of the mechanism in reaction 1. Include curly arrows to show the movement of electrons occurring in the termination step.</p>
@@ -238,7 +250,7 @@ In addition polymerisation, many alkene monomers join when the C=C opens, formin
 
 ::: {.question-card #hc-sq-07}
 ### Question 5 · 3.2 SQ Medium Q2(a-d)
-![Electrophilic addition prompt for pent-2-ene and hydrogen bromide](../assets/questions/extracted/14/independent/sq-medium-q2-mechanism.png){.question-figure fig-alt="Pent-2-ene and hydrogen bromide setup for drawing the electrophilic addition mechanism"}
+![Electrophilic addition prompt for pent-2-ene and hydrogen bromide](../assets/questions/extracted/14/rebuilt/sq-medium-q2-mechanism.png){.question-figure fig-alt="Pent-2-ene and hydrogen bromide setup for drawing the electrophilic addition mechanism"}
 <p>This question is about alkenes with the molecular formula C<sub>5</sub>H<sub>10</sub>.</p>
 <p><strong>(a)</strong> Draw the skeletal formulae of three branched-chain alkenes with the molecular formula C<sub>5</sub>H<sub>10</sub>.</p>
 <p><strong>(b)(i)</strong> An alcohol can react with concentrated phosphoric acid, H<sub>3</sub>PO<sub>4</sub>, to form pent-2-ene. Give the formula of the alcohol that will form only pent-2-ene during this reaction.</p>
@@ -263,7 +275,7 @@ In addition polymerisation, many alkene monomers join when the C=C opens, formin
 
 ::: {.question-card #hc-sq-10}
 ### Question 7 · 3.2 SQ Medium Q4(a-d)
-![Reaction flowchart for propene](../assets/questions/extracted/14/independent/sq-medium-q4-flowchart.png){.question-figure fig-alt="Flowchart showing propene reacting with steam, acidified potassium manganate(VII) and bromine"}
+![Reaction flowchart for propene](../assets/questions/extracted/14/rebuilt/sq-medium-q4-flowchart.png){.question-figure fig-alt="Flowchart showing propene reacting with steam, acidified potassium manganate(VII) and bromine"}
 <p>This question is about alkanes and alkenes. Propene and propane can be produced from the cracking of hexane, C<sub>6</sub>H<sub>14</sub>.</p>
 <p><strong>(a)</strong> Explain why propane is relatively unreactive.</p>
 <p><strong>(b)</strong> Describe and give the result of a test that can be done to distinguish between the two hydrocarbons.</p>
@@ -299,7 +311,7 @@ In addition polymerisation, many alkene monomers join when the C=C opens, formin
 
 ::: {.question-card #hc-sq-13}
 ### Question 10 · 3.2 SQ Hard Q3(a-b)
-<img src="../assets/questions/extracted/14/independent/sq-hard-q3-fig-3-1.png" class="question-figure" alt="Displayed structures comparing a mono-unsaturated oil with a polyunsaturated oil" style="filter: invert(1);">
+<img src="../assets/questions/extracted/14/rebuilt/sq-hard-q3-fig-3-1.png" class="question-figure" alt="Displayed structures comparing a mono-unsaturated oil with a polyunsaturated oil">
 <p>A student investigates the amount of C=C bonds in a molecule of cooking oil by titrating samples with bromine water.</p>
 <p><strong>(a)</strong> Suggest two improvements that the student could make to the procedure to obtain more consistent results.</p>
 <p><strong>(b)</strong> Use the student’s titration results, the approximate M<sub>r</sub> of the cooking oil, its density, the volume of one drop and the concentration of bromine water to deduce the number of C=C double bonds in a molecule of the oil. Show your working.</p>
@@ -310,9 +322,9 @@ In addition polymerisation, many alkene monomers join when the C=C opens, formin
 
 ## Original question PDFs
 
-- [3.2 Choice Easy](../assets/questions/original-source/3.2_hydrocarbons___choice___easy.pdf)
-- [3.2 Choice Medium](../assets/questions/original-source/3.2_hydrocarbons___choice___medium.pdf)
-- [3.2 Choice Hard](../assets/questions/original-source/3.2_hydrocarbons___choice___hard.pdf)
-- [3.2 SQ Easy](../assets/questions/original-source/3.2_hydrocarbons___sq___easy.pdf)
-- [3.2 SQ Medium](../assets/questions/original-source/3.2_hydrocarbons___sq___medium.pdf)
-- [3.2 SQ Hard](../assets/questions/original-source/3.2_hydrocarbons___sq___hard.pdf)
+- [3.2 Choice Easy](../assets/questions/original-source/3.2_hydrocarbons_choice_easy.pdf)
+- [3.2 Choice Medium](../assets/questions/original-source/3.2_hydrocarbons_choice_medium.pdf)
+- [3.2 Choice Hard](../assets/questions/original-source/3.2_hydrocarbons_choice_hard.pdf)
+- [3.2 SQ Easy](../assets/questions/original-source/3.2_hydrocarbons_sq_easy.pdf)
+- [3.2 SQ Medium](../assets/questions/original-source/3.2_hydrocarbons_sq_medium.pdf)
+- [3.2 SQ Hard](../assets/questions/original-source/3.2_hydrocarbons_sq_hard.pdf)

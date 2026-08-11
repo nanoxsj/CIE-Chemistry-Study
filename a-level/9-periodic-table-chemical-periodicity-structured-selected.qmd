@@ -1,0 +1,136 @@
+### 9 The Periodic Table: chemical periodicity — Structured Questions: Easy
+
+::: {.question-card}
+### Question 1 · Atomic radius and conductivity · 2.1 SQ Easy Q1
+
+Fig. 1.1 shows the electrical conductivity trend across Period 3.
+
+![Electrical conductivity across Period 3](../assets/questions/original-source/2-1-sq-easy-q1-figure.png){.question-figure fig-alt="Electrical conductivity graph from sodium to argon"}
+
+**(a)** State and explain the general trend in atomic radius across Period 3. `[3 marks]`
+
+**(b)** Explain why aluminium has a much higher electrical conductivity than sulfur. Refer to the structure of both elements. `[2 marks]`  
+**(c)** Explain why aluminium has a higher electrical conductivity than magnesium. `[2 marks]`
+
+**(d)** The melting points of three successive elements in Period 3 are Al = 660 °C, Si = 1410 °C and P = 44 °C. Explain, referring to structure and bonding, why the melting point of silicon is high and phosphorus is low. `[6 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li><strong>(a)</strong> Atomic radius decreases from Na to Ar. Proton number/nuclear charge increases while electrons are added to the same shell; shielding is similar, so attraction to the outer electrons increases.</li><li><strong>(b)</strong> Aluminium has a metallic lattice with delocalised electrons. Sulfur is simple molecular and has no mobile charged particles.</li><li><strong>(c)</strong> Aluminium has more delocalised electrons and stronger metallic bonding than magnesium.</li><li><strong>(d)</strong> Silicon has a giant covalent lattice with many strong covalent bonds that must be broken. Phosphorus exists as simple molecular <span>P<sub>4</sub></span>; only weak London forces between molecules need to be overcome.</li></ul></details>
+:::
+
+::: {.question-card}
+### Question 2 · Period 3 oxides · 2.1 SQ Easy Q2
+
+Consider the oxides <span>$\ce{Na2O, MgO, Al2O3, SiO2, P4O10}$</span> and <span>$\ce{SO2}$</span>.
+
+The melting points of some oxides from sodium to sulfur are: Na<sub>2</sub>O 1193 K, MgO 3173 K, Al<sub>2</sub>O<sub>3</sub> 2313 K, SiO<sub>2</sub> 1883 K, P<sub>4</sub>O<sub>10</sub> 613 K and SO<sub>2</sub> 198 K.
+
+**(a)** State what is broken when Na<sub>2</sub>O, SiO<sub>2</sub> and P<sub>4</sub>O<sub>10</sub> are melted. `[3 marks]`  
+**(b)** Give one oxide that reacts with water to produce a hydroxide, one that produces an acid, and one that has no reaction with water. `[3 marks]`  
+**(c)** For MgO, Al<sub>2</sub>O<sub>3</sub> and SO<sub>2</sub>, state whether a reaction occurs with aqueous HCl and with aqueous NaOH. `[3 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li><strong>(a)</strong> In Na<sub>2</sub>O, ionic attractions are broken; in SiO<sub>2</sub>, covalent bonds are broken; in P<sub>4</sub>O<sub>10</sub>, intermolecular forces are overcome.</li><li><strong>(b)</strong> Hydroxide: Na<sub>2</sub>O; acid: SO<sub>2</sub>; no reaction: SiO<sub>2</sub>.</li><li><strong>(c)</strong> MgO reacts with HCl but not NaOH; Al<sub>2</sub>O<sub>3</sub> reacts with both; SO<sub>2</sub> reacts with NaOH but not HCl.</li></ul></details>
+:::
+
+::: {.question-card}
+### Question 3 · Period 3 chlorides · 2.1 SQ Easy Q3
+
+**(a)** Write the balanced equation for aluminium reacting with chlorine. `[2 marks]`  
+**(b)** Complete the oxidation numbers of the Period 3 elements in their chlorides: NaCl, MgCl<sub>2</sub>, AlCl<sub>3</sub>, SiCl<sub>4</sub>, PCl<sub>3</sub> and SCl<sub>2</sub>. `[4 marks]`  
+**(c)** Magnesium chloride is dissolved in water. State an observation and predict the pH. `[2 marks]`  
+**(d)** Write the equation for the hydrolysis of phosphorus pentachloride. `[2 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li><strong>(a)</strong> <span>$\ce{2Al + 3Cl2 -> 2AlCl3}$</span>.</li><li><strong>(b)</strong> Na +1, Mg +2, Al +3, Si +4, P +3 and S +2 for the formulas shown.</li><li><strong>(c)</strong> It dissolves to give a colourless solution with no fumes; pH is approximately 7.</li><li><strong>(d)</strong> <span>$\ce{PCl5 + 4H2O -> H3PO4 + 5HCl}$</span>.</li></ul></details>
+:::
+
+### 9 The Periodic Table: chemical periodicity — Structured Questions: Medium
+
+::: {.question-card}
+### Question 4 · Periodic position and ionisation energy · 2.1 SQ Medium Q1
+
+Fig. 1.1 shows part of the periodic table. Fig. 1.2 shows the first ionisation energies of six consecutive elements, A–F.
+
+![Part of the periodic table](../assets/questions/original-source/2-1-sq-medium-q1-fig1-1.png){.question-figure fig-alt="Partial periodic table with labelled elements"}
+![Successive first ionisation energies](../assets/questions/original-source/2-1-sq-medium-q1-fig1-2.png){.question-figure fig-alt="Bar chart of first ionisation energies for A to F"}
+
+**(a)(i)** Identify the element whose atom forms a soluble hydroxide and an insoluble sulfate. `[1 mark]`  
+**(a)(ii)** Identify the most volatile element in a group that contains elements in all three states of matter at room temperature and pressure. `[1 mark]`  
+**(a)(iii)** Identify the element that forms the largest cation. `[1 mark]`  
+**(b)** Define first ionisation energy. `[2 marks]`  
+**(c)** Explain why the first ionisation energy of B is lower than that of A in Fig. 1.2. `[2 marks]`  
+**(d)** Fig. 1.3 is a blank graph for the atomic-radius trend across a period. Sketch the trend and explain it. `[3 marks]`
+
+![Blank atomic-radius trend graph](../assets/questions/original-source/2-1-sq-medium-q1-fig1-3.png){.question-figure fig-alt="Blank graph for atomic radius against atomic number"}
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li><strong>(a)</strong> (i) Mg; (ii) F; (iii) Cs.</li><li><strong>(b)</strong> The energy required to remove one mole of electrons from one mole of gaseous atoms to form one mole of gaseous singly charged ions.</li><li><strong>(c)</strong> B is at the start of a new period/shell, so its outer electron is farther from the nucleus and more shielded.</li><li><strong>(d)</strong> The curve decreases across the period. Nuclear charge increases while electrons enter the same shell, so effective attraction increases.</li></ul></details>
+:::
+
+::: {.question-card}
+### Question 5 · Classifying Period 3 oxides · 2.1 SQ Medium Q2
+
+**(a)** Classify each of <span>$\ce{Na2O, MgO, Al2O3, SiO2, P4O10, SO2}$</span> as basic, amphoteric or acidic. `[3 marks]`  
+**(b)** Write equations for sodium oxide and sulfur dioxide reacting with water, and state the approximate pH of each solution. `[4 marks]`  
+**(c)** State the oxidation numbers of sodium in <span>$\ce{Na2O}$</span> and sulfur in <span>$\ce{SO2}$</span>. `[2 marks]`  
+**(d)** Explain why sodium oxide has a much higher melting point than sulfur dioxide. `[3 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li><strong>(a)</strong> Basic: <span>Na<sub>2</sub>O</span>, <span>MgO</span>; amphoteric: <span>Al<sub>2</sub>O<sub>3</sub></span>; acidic: <span>SiO<sub>2</sub></span>, <span>P<sub>4</sub>O<sub>10</sub></span>, <span>SO<sub>2</sub></span>.</li><li><strong>(b)</strong> <span>$\ce{Na2O + H2O -> 2NaOH}$</span>, alkaline pH; <span>$\ce{SO2 + H2O <=> H2SO3}$</span>, acidic pH.</li><li><strong>(c)</strong> Na is +1; S is +4.</li><li><strong>(d)</strong> Sodium oxide is giant ionic, with strong electrostatic attraction throughout the lattice. Sulfur dioxide is simple molecular, so only weak intermolecular forces are overcome.</li></ul></details>
+:::
+
+::: {.question-card}
+### Question 6 · Melting point and electronegativity · 2.1 SQ Medium Q3
+
+Fig. 3.1 shows Period 3 melting points. Fig. 3.2 is a blank graph for electronegativity.
+
+![Period 3 melting points](../assets/questions/original-source/2-1-sq-medium-q3-fig3-1.png){.question-figure fig-alt="Melting point bar chart for Period 3"}
+
+**(a)** Explain the rise in melting point from sodium to aluminium. `[3 marks]`  
+**(b)** Explain why silicon has a much higher melting point than the other Period 3 elements. `[2 marks]`  
+**(c)** Explain the variation from phosphorus to argon. `[3 marks]`  
+**(d)** Define electronegativity and sketch its trend on Fig. 3.2. `[3 marks]`
+
+![Blank electronegativity trend graph](../assets/questions/original-source/2-1-sq-medium-q3-fig3-2.png){.question-figure fig-alt="Blank graph for electronegativity across Period 3"}
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li><strong>(a)</strong> Metallic bonding strengthens as the number of delocalised electrons and the charge density of the metal ions increase.</li><li><strong>(b)</strong> Silicon has a giant covalent structure; many strong covalent bonds must be broken.</li><li><strong>(c)</strong> P, S, Cl and Ar are simple molecular/atomic substances. Their melting points depend mainly on London forces; <span>S<sub>8</sub></span> is larger than <span>P<sub>4</sub></span>, while chlorine and argon have weaker attractions.</li><li><strong>(d)</strong> Electronegativity is the attraction of an atom for the bonding electron pair. It increases from Na to Cl because nuclear charge increases and atomic radius decreases.</li></ul></details>
+:::
+
+::: {.question-card}
+### Question 7 · Chloride structure and hydrolysis · 2.1 SQ Medium Q4
+
+**(a)** Write the equation for phosphorus reacting with chlorine to form phosphorus pentachloride. `[2 marks]`  
+**(b)** Explain the high melting point of sodium chloride. `[2 marks]`  
+**(c)** Explain why silicon tetrachloride is a liquid with a low melting point. `[2 marks]`  
+**(d)** Write an equation for the hydrolysis of silicon tetrachloride and state the pH of the final solution. `[3 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li><strong>(a)</strong> <span>$\ce{P4 + 10Cl2 -> 4PCl5}$</span>.</li><li><strong>(b)</strong> Sodium chloride has a giant ionic lattice with strong attraction between oppositely charged ions.</li><li><strong>(c)</strong> Silicon tetrachloride is made of simple covalent molecules; only weak London forces act between molecules.</li><li><strong>(d)</strong> <span>$\ce{SiCl4 + 2H2O -> SiO2 + 4HCl}$</span>. The solution is acidic.</li></ul></details>
+:::
+
+### 9 The Periodic Table: chemical periodicity — Structured Questions: Hard
+
+::: {.question-card}
+### Question 8 · Acid–base reactions of oxides · 2.1 SQ Hard Q1
+
+**(a)** Write equations for sodium oxide and sulfur dioxide reacting with water, and state one observation for each. `[4 marks]`  
+**(b)** Write the net ionic equation for sodium silicate reacting with nitric acid to form silicic acid. `[2 marks]`  
+**(c)** Oxide A is amphoteric. Write equations for its reactions with potassium hydroxide and nitric acid. `[4 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li><strong>(a)</strong> <span>$\ce{Na2O + H2O -> 2NaOH}$</span>, alkaline solution; <span>$\ce{SO2 + H2O <=> H2SO3}$</span>, acidic solution.</li><li><strong>(b)</strong> <span>$\ce{SiO3^{2-} + 2H+ -> H2SiO3}$</span>.</li><li><strong>(c)</strong> For <span>Al<sub>2</sub>O<sub>3</sub></span>: <span>$\ce{Al2O3 + 2OH- + 3H2O -> 2[Al(OH)4]-}$</span>; <span>$\ce{Al2O3 + 6HNO3 -> 2Al(NO3)3 + 3H2O}$</span>.</li></ul></details>
+:::
+
+::: {.question-card}
+### Question 9 · Phosphorus(V) oxide · 2.1 SQ Hard Q2
+
+**(a)** Describe the change in acid–base character of the Period 3 oxides from sodium to chlorine and explain it using electronegativity. `[4 marks]`  
+**(b)** Write the equation for phosphorus(V) oxide reacting with water and state the pH of the product. Explain why phosphorus(V) oxide has a low melting point. `[4 marks]`  
+**(c)** Write the equation for phosphorus(V) oxide reacting with aqueous sodium hydroxide. State whether phosphorus is oxidised or reduced in this reaction. `[3 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li><strong>(a)</strong> The oxides change from basic through amphoteric to acidic. Electronegativity increases across the period, so bonding becomes more covalent and the oxides are less able to supply oxide ions; covalent oxides form acidic solutions.</li><li><strong>(b)</strong> <span>$\ce{P4O10 + 6H2O -> 4H3PO4}$</span>; pH is below 7. It is simple molecular, so only weak intermolecular forces act between molecules.</li><li><strong>(c)</strong> <span>$\ce{P4O10 + 12NaOH -> 4Na3PO4 + 6H2O}$</span>. Phosphorus remains at +5, so this is not a redox reaction.</li></ul></details>
+:::
+
+::: {.question-card}
+### Question 10 · Silicon chloride and silicon dioxide · 2.1 SQ Hard Q3
+
+**(a)** Silicon reacts with chlorine to form silicon tetrachloride. Describe the bonding and shape in a molecule of <span>$\ce{SiCl4}$</span>. `[3 marks]`  
+**(b)** Explain why <span>$\ce{SiCl4}$</span> hydrolyses but <span>$\ce{CCl4}$</span> does not hydrolyse appreciably. `[4 marks]`  
+**(c)** Write an equation showing the acidic reaction of silicon dioxide with aqueous sodium hydroxide. Explain why silicon dioxide does not react with hydrochloric acid. `[4 marks]`
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li><strong>(a)</strong> Four polar covalent Si–Cl bonds; tetrahedral shape with bond angle approximately 109.5°.</li><li><strong>(b)</strong> Silicon can accept electron density from water and can expand its valence shell in the hydrolysis process. Carbon is smaller and cannot expand its outer shell; the C–Cl bonds are not attacked appreciably by water.</li><li><strong>(c)</strong> <span>$\ce{SiO2 + 2OH- -> SiO3^{2-} + H2O}$</span> (or the molecular equation with sodium hydroxide). Silicon dioxide is an acidic covalent oxide and has no basic oxide ions/available basic sites to neutralise hydrochloric acid.</li></ul></details>
+:::

@@ -1,0 +1,235 @@
+### 8 Reaction kinetics - Multiple Choice: Easy
+
+::: {.mc-question #reaction-kinetics-choice-easy-q1 data-answer="A"}
+### Question 1 · Activation energy · 1.8 Choice Easy Q1
+
+Which of the following factors can affect the value of the activation energy of a reaction?
+
+1. The presence of a catalyst<br>2. Changes in temperature<br>3. Changes in the concentration of the reactants
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>3 only</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1, 2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> A catalyst provides an alternative pathway with a different, lower activation energy. Temperature and concentration change the rate but not E<sub>a</sub>.</p></details>
+:::
+
+::: {.mc-question #reaction-kinetics-choice-easy-q2 data-answer="B"}
+### Question 2 · Catalysts and palladium ions · 1.8 Choice Easy Q2
+
+Butadiene is oxidised to crotonaldehyde using a hot aqueous solution of palladium(II) ions, Pd<sup>2+</sup>(aq), which catalyse the reaction. Which statement about the action of Pd<sup>2+</sup>(aq) ions is <em>not</em> correct?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Pd<sup>2+</sup>(aq) lowers the activation energy.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Pd<sup>2+</sup>(aq) increases the energy of the reacting molecules.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>The reaction proceeds by a different route when Pd<sup>2+</sup>(aq) is used.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Changing the concentration of Pd<sup>2+</sup>(aq) affects the rate.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> A catalyst does not increase the energy of reacting particles; it lowers E<sub>a</sub> by providing an alternative pathway.</p></details>
+:::
+
+::: {.mc-question #reaction-kinetics-choice-easy-q3 data-answer="B"}
+### Question 3 · Maxwell-Boltzmann distribution and catalysts · 1.8 Choice Easy Q3
+
+The original figure shows two activation energies, E<sub>a1</sub> and E<sub>a2</sub>, on a Maxwell-Boltzmann distribution. One is for a catalysed reaction and the other for an uncatalysed reaction. When a catalyst is used, which pair is correct?
+
+![Maxwell-Boltzmann distribution with two activation energies](../assets/questions/original-source/1-8-choice-easy-q3-figure.png){.question-figure fig-alt="Maxwell-Boltzmann distribution with two activation energies"}
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>E<sub>a1</sub>: uncatalysed, fewer effective collisions; E<sub>a2</sub>: catalysed, more effective collisions</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>E<sub>a1</sub>: catalysed, more effective collisions; E<sub>a2</sub>: uncatalysed, fewer effective collisions</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>E<sub>a1</sub>: uncatalysed, more effective collisions; E<sub>a2</sub>: catalysed, fewer effective collisions</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>E<sub>a1</sub>: catalysed, fewer effective collisions; E<sub>a2</sub>: uncatalysed, more effective collisions</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> The catalysed pathway has the lower activation energy, so a larger proportion of molecules can make effective collisions.</p></details>
+:::
+
+::: {.mc-question #reaction-kinetics-choice-easy-q4 data-answer="B"}
+### Question 4 · Temperature and forward/reverse rates · 1.8 Choice Easy Q4
+
+For the Haber process, $$\ce{N2(g) + 3H2(g) <=> 2NH3(g)}\qquad \Delta H=-93\ \mathrm{kJ\ mol^{-1}}$$ what happens to the rate of the forward and reverse reactions when temperature is increased?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>There is no effect on either rate.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Both forward and reverse rates increase.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Only the forward rate increases.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Only the reverse rate increases.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Higher temperature increases the fraction of particles with energy at least E<sub>a</sub> for both directions, so both rates increase.</p></details>
+:::
+
+::: {.mc-question #reaction-kinetics-choice-easy-q5 data-answer="C"}
+### Question 5 · Temperature and effective collisions · 1.8 Choice Easy Q5
+
+Why does a mixture of hydrogen and bromine react faster at 500 K than at 400 K?
+
+1. A higher proportion of effective collisions occurs at 500 K.<br>2. Hydrogen and bromine molecules collide more frequently at 500 K.<br>3. The activation energy is lower at 500 K.
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>3 only</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1, 2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> The proportion of particles with energy above E<sub>a</sub> increases and collisions are more frequent. E<sub>a</sub> itself does not change with temperature.</p></details>
+:::
+
+::: {.mc-question #reaction-kinetics-choice-easy-q6 data-answer="C"}
+### Question 6 · Pressure and gaseous reaction rate · 1.8 Choice Easy Q6
+
+When the pressure of a fixed mass of gaseous reactants is raised at constant temperature, the rate increases. Which statement explains this observation?
+
+1. Raising pressure lowers E<sub>a</sub>.<br>2. More molecules have energy greater than E<sub>a</sub> at higher pressure.<br>3. More collisions occur per second when pressure increases.
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>3 only</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1, 2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Pressure changes the concentration and collision frequency, but not the energy distribution or E<sub>a</sub>.</p></details>
+:::
+
+::: {.mc-question #reaction-kinetics-choice-easy-q7 data-answer="D"}
+### Question 7 · Temperature and reaction rate · 1.8 Choice Easy Q7
+
+What is the main reason for the increase in reaction rate with increasing temperature?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>The activation energy decreases.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>The activation energy increases.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>The molecules collide more frequently.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>More molecules have energy greater than the activation energy.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> The key effect is the increased proportion of molecules with energy at least E<sub>a</sub>, producing more effective collisions.</p></details>
+:::
+
+::: {.mc-question #reaction-kinetics-choice-easy-q8 data-answer="D"}
+### Question 8 · Activation energy of the reverse reaction · 1.8 Choice Easy Q8
+
+The original reaction pathway diagram is for $$\ce{Z(g)+Y(g) <=> X(g)+W(g)}$$. What statement is true about the reverse reaction, $$\ce{W(g)+X(g) <=> Y(g)+Z(g)}$$?
+
+![Reaction pathway diagram for the forward reaction](../assets/questions/original-source/1-8-choice-easy-q8-figure.png){.question-figure fig-alt="Reaction pathway diagram for the forward reaction"}
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>It has a smaller activation energy and a negative ΔH.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>It has a smaller activation energy and a positive ΔH.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>It has a larger activation energy and a negative ΔH.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>It has a larger activation energy and a positive ΔH.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> The reverse reaction starts at the product energy, so its activation energy is larger; the forward reaction is exothermic and the reverse is endothermic.</p></details>
+:::
+
+::: {.mc-question #reaction-kinetics-choice-easy-q9 data-answer="C"}
+### Question 9 · Temperature increase of 10 °C · 1.8 Choice Easy Q9
+
+A student measures a reaction at 40 °C and 50 °C and observes that the rate roughly doubles. What explains this observation?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Raising the temperature by 10 °C doubles the average molecular velocity.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Raising the temperature by 10 °C doubles the average kinetic energy of each molecule.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Raising the temperature increases the number of molecules above a minimum energy.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Raising the temperature doubles the number of collisions in a given time.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> A small temperature increase can greatly increase the fraction of molecules with energy ≥ E<sub>a</sub>; neither average speed nor collision frequency simply doubles.</p></details>
+:::
+
+::: {.mc-question #reaction-kinetics-choice-easy-q10 data-answer="B"}
+### Question 10 · How catalysts work · 1.8 Choice Easy Q10
+
+Which statements correctly describe how a catalyst works?
+
+1. A catalyst has no effect on the enthalpy change of the reaction.<br>2. A catalyst increases the rate of the reverse reaction.<br>3. A catalyst increases the average kinetic energy of the reacting particles.
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>3 only</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1, 2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> A catalyst does not change ΔH and speeds both forward and reverse reactions. It does not increase particle kinetic energy.</p></details>
+:::
+
+### 8 Reaction kinetics - Multiple Choice: Medium
+
+::: {.mc-question #reaction-kinetics-choice-medium-q1 data-answer="A"}
+### Question 11 · Boltzmann distribution peak · 1.8 Choice Medium Q1
+
+The original Boltzmann distribution graph has a point X at the most probable energy. If temperature is increased, what happens to X?
+
+![Boltzmann distribution graph showing point X](../assets/questions/original-source/1-8-choice-medium-q1-figure.png){.question-figure fig-alt="Boltzmann distribution graph showing point X"}
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Fewer molecules possess the most probable energy, so X shifts to the right.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Fewer molecules possess the most probable energy, so X shifts to the left.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>More molecules possess the most probable energy, so X shifts to the left.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>X stays in the same position but the area under the curve increases.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> The distribution becomes broader, lower and shifted to higher energy.</p></details>
+:::
+
+::: {.mc-question #reaction-kinetics-choice-medium-q2 data-answer="B"}
+### Question 12 · Activation energy on a pathway diagram · 1.8 Choice Medium Q2
+
+The original diagram shows an endothermic reaction pathway with energy levels E<sub>1</sub>, E<sub>2</sub> and E<sub>3</sub>. Which expression represents the activation energy for the forward reaction?
+
+![Endothermic reaction pathway diagram](../assets/questions/original-source/1-8-choice-medium-q2-figure.png){.question-figure fig-alt="Endothermic reaction pathway diagram"}
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>E<sub>1</sub> − E<sub>2</sub></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>E<sub>2</sub> − E<sub>1</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>E<sub>2</sub> − E<sub>3</sub></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>E<sub>3</sub> − E<sub>2</sub></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Forward activation energy is the energy difference from the reactants to the transition-state maximum.</p></details>
+:::
+
+::: {.mc-question #reaction-kinetics-choice-medium-q4 data-answer="D"}
+### Question 13 · Forward activation energy · 1.8 Choice Medium Q4
+
+In the original reaction pathway diagram, E<sub>1</sub>, E<sub>2</sub> and E<sub>3</sub> label the energy levels of the products, reactants and transition state. Which expression correctly represents the activation energy of the forward reaction?
+
+![Reaction pathway with E1, E2 and E3](../assets/questions/original-source/1-8-choice-medium-q4-figure.png){.question-figure fig-alt="Reaction pathway with E1, E2 and E3"}
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>E<sub>1</sub> − E<sub>2</sub></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>E<sub>2</sub> − E<sub>1</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>E<sub>2</sub> − E<sub>3</sub></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>E<sub>3</sub> − E<sub>2</sub></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Activation energy is the energy from the reactants to the transition state, represented here by E<sub>3</sub> − E<sub>2</sub>.</p></details>
+:::
+
+::: {.mc-question #reaction-kinetics-choice-medium-q5 data-answer="B"}
+### Question 14 · Catalyst and E<sub>a</sub> position · 1.8 Choice Medium Q5
+
+In the original Boltzmann distribution, E<sub>a</sub> is marked for the uncatalysed reaction. Which labelled position would represent E<sub>a</sub> when an effective catalyst is used?
+
+![Boltzmann distribution showing activation-energy positions](../assets/questions/original-source/1-8-choice-medium-q5-figure.png){.question-figure fig-alt="Boltzmann distribution showing activation-energy positions"}
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>The far-left position</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>The position to the left of the original E<sub>a</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>The original E<sub>a</sub> position</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>The position to the right of the original E<sub>a</sub></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> A catalyst lowers the activation energy, so the E<sub>a</sub> marker moves left on the energy axis.</p></details>
+:::
+
+::: {.mc-question #reaction-kinetics-choice-medium-q7 data-answer="A"}
+### Question 15 · Catalyst and Boltzmann distribution · 1.8 Choice Medium Q7
+
+The original distribution has a peak labelled Q. What happens when an effective catalyst is added?
+
+![Boltzmann distribution with peak Q](../assets/questions/original-source/1-8-choice-medium-q7-figure.png){.question-figure fig-alt="Boltzmann distribution with peak Q"}
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>The peak height remains the same and the activation energy moves left.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>The peak height decreases and the activation energy moves left.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>The peak height remains the same and the activation energy moves right.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>The peak height decreases and the activation energy moves right.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> The catalyst does not change the number or energy distribution of molecules; it lowers E<sub>a</sub>.</p></details>
+:::
+
+::: {.mc-question #reaction-kinetics-choice-medium-q8 data-answer="A"}
+### Question 16 · Dilution and rate · 1.8 Choice Medium Q8
+
+Reaction 1 uses 1.5 g solid calcium carbonate and 100 cm<sup>3</sup> of 0.5 mol dm<sup>−3</sup> HCl. In reaction 2, 100 cm<sup>3</sup> distilled water is added to the same volume of acid before the calcium carbonate. Reaction 1 is faster. Which hypothesis correctly explains the difference?
+
+1. Adding water reduces collision frequency.<br>2. Adding water reduces the proportion of effective collisions.<br>3. Adding water reduces the proportion of particles possessing E<sub>a</sub>.
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>3 only</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1, 2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Dilution reduces concentration and collision frequency. It does not change the energy distribution, orientation requirement or E<sub>a</sub>.</p></details>
+:::
+
+### 8 Reaction kinetics - Multiple Choice: Hard
+
+::: {.mc-question #reaction-kinetics-choice-hard-q1 data-answer="B"}
+### Question 17 · Photochemical catalysts · 1.8 Choice Hard Q1
+
+Photochromic glass darkens in bright light and becomes transparent again in dim light. The original question gives three reactions involving Ag<sup>+</sup>, Cu<sup>+</sup>, Cu<sup>2+</sup>, Cl<sup>−</sup> and Ag. Which statement is correct?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Ag<sup>+</sup> ions are oxidised in reaction 1.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Cu<sup>+</sup> and Cu<sup>2+</sup> ions act as catalysts.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Cu<sup>+</sup> ions act as an oxidising agent in reaction 2.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Reaction 2 is the reaction in which light is absorbed.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> The copper ions participate in a cycle and are regenerated, so they catalyse the reversible photochromic process.</p></details>
+:::
+
+::: {.mc-question #reaction-kinetics-choice-hard-q2 data-answer="A"}
+### Question 18 · Concentration and collision frequency · 1.8 Choice Hard Q2
+
+When 1 cm<sup>3</sup> of 0.1 mol dm<sup>−3</sup> HCl is added to 10 cm<sup>3</sup> of 0.02 mol dm<sup>−3</sup> Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub>, a pale yellow precipitate forms slowly. Repeating the experiment with 0.05 mol dm<sup>−3</sup> Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub> makes the precipitate form more quickly. Why?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>The reactant particles collide more frequently at the higher thiosulfate concentration.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>The collisions are more violent at the higher thiosulfate concentration.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>The activation energy is lower at the higher thiosulfate concentration.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>The reaction proceeds by a different pathway.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Higher concentration means more reacting particles per unit volume and therefore a higher collision frequency.</p></details>
+:::
+
+::: {.mc-question #reaction-kinetics-choice-hard-q4 data-answer="A"}
+### Question 19 · Vapour pressure and temperature · 1.8 Choice Hard Q4
+
+A quantity of solid Y is placed in an evacuated vessel and held at different temperatures. The mass of Y in the vapour state is calculated from pressure measurements. The original graph levels off at mass m above temperature T. Which statements can be deduced?
+
+![Mass of vapour against temperature graph](../assets/questions/original-source/1-8-choice-hard-q4-figure.png){.question-figure fig-alt="Mass of vapour against temperature graph"}
+
+1. The mass of Y used was m.<br>2. The vapour pressure was constant for all temperatures above T.<br>3. Liquid appeared at temperature T.
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 3</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1, 2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Once the mass of vapour reaches m, all solid has vaporised. The graph does not show that vapour pressure is constant or that liquid appeared.</p></details>
+:::
+
+::: {.mc-question #reaction-kinetics-choice-hard-q5 data-answer="D"}
+### Question 20 · Hydrogen peroxide decomposition · 1.8 Choice Hard Q5
+
+Curve 1 in the original graph was obtained from the decomposition of 100 cm<sup>3</sup> of 1.0 mol dm<sup>−3</sup> hydrogen peroxide in the presence of MnO<sub>2</sub>. Which alteration would produce curve 2, which has a slower initial rate but a larger final volume of oxygen?
+
+![Hydrogen peroxide oxygen-volume graph](../assets/questions/original-source/1-8-choice-hard-q5-figure.png){.question-figure fig-alt="Hydrogen peroxide oxygen-volume graph"}
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Raising the temperature</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Adding more MnO<sub>2</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Adding water</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Adding some 0.1 mol dm<sup>−3</sup> hydrogen peroxide</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Adding lower-concentration H<sub>2</sub>O<sub>2</sub> slows the initial rate but increases the total amount of H<sub>2</sub>O<sub>2</sub> available, so more oxygen is eventually formed.</p></details>
+:::

@@ -1,0 +1,296 @@
+### 3 Chemical bonding - Multiple Choice: Easy
+
+::: {.mc-question #bonding-choice-easy-q1 data-answer="B"}
+### Question 1 · Coordinate bonding · 1.3 Choice Easy Q1
+
+Phosphine, $\ce{PH3}$, reacts with a hydrogen ion to form $\ce{PH4+}$. Which type of bond is formed between P and H in this reaction?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Hydrogen bond</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Coordinate covalent bond</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Ionic bond</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Metallic bond</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> The lone pair on phosphorus is donated to the electron-deficient $\ce{H+}$ ion.</p></details>
+:::
+
+::: {.mc-question #bonding-choice-easy-q2 data-answer="D"}
+### Question 2 · Bonding in iodine and silver · 1.3 Choice Easy Q2
+
+Which forces act between neighbouring iodine molecules in solid iodine and between particles in solid silver?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Metallic bonds; covalent bonds</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Ionic bonds; metallic bonds</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Covalent bonds; covalent bonds</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>London dispersion forces; metallic bonds</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> $\ce{I2}$ molecules are held together by London forces; silver has a lattice of metal ions and delocalised electrons.</p></details>
+:::
+
+::: {.mc-question #bonding-choice-easy-q3 data-answer="D"}
+### Question 3 · More than one type of bonding · 1.3 Choice Easy Q3
+
+Which solid contains more than one type of bonding?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Diamond</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Sodium chloride</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Iron</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Ice</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Ice contains covalent bonds within water molecules and hydrogen bonds between molecules.</p></details>
+:::
+
+::: {.mc-question #bonding-choice-easy-q4 data-answer="B"}
+### Question 4 · Shape of hydrazine · 1.3 Choice Easy Q4
+
+What is the shape around each nitrogen atom in hydrazine, $\ce{N2H4}$?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Trigonal planar, $120^\circ$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Trigonal pyramidal, about $107^\circ$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Linear, $180^\circ$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Square planar, $90^\circ$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Each N has three bonding pairs and one lone pair. Lone-pair repulsion reduces the tetrahedral angle to about $107^\circ$.</p></details>
+:::
+
+::: {.mc-question #bonding-choice-easy-q5 data-answer="C"}
+### Question 5 · Bond dipoles · 1.3 Choice Easy Q5
+
+Which bond polarity assignment is not correct?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$\ce{C^{\delta+}-O^{\delta-}}$ in propanol</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$\ce{C^{\delta+}=O^{\delta-}}$ in propanal</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$\ce{C^{\delta+}-H^{\delta-}}$ in propane</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$\ce{C^{\delta+}-Cl^{\delta-}}$ in chloropropane</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Carbon is slightly more electronegative than hydrogen, so the C--H bond is treated as approximately non-polar rather than with H as $\delta-$.</p></details>
+:::
+
+::: {.mc-question #bonding-choice-easy-q6 data-answer="B"}
+### Question 6 · Formation of ammonium · 1.3 Choice Easy Q6
+
+Which statement correctly describes the formation of $\ce{NH4+}$ from $\ce{NH3}$ and $\ce{H+}$?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Hydrogen donates one electron to nitrogen.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Nitrogen donates its lone pair to hydrogen.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Four electrons are transferred from nitrogen to hydrogen.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>The hydrogen ion supplies a lone pair.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> The N lone pair forms the fourth N--H coordinate bond.</p></details>
+:::
+
+::: {.mc-question #bonding-choice-easy-q7 data-answer="C"}
+### Question 7 · Shapes of boron compounds · 1.3 Choice Easy Q7
+
+What are the shapes around boron in $\ce{BF3}$ and $\ce{BH4-}$?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Pyramidal; tetrahedral</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Pyramidal; square planar</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Trigonal planar; tetrahedral</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Trigonal planar; square planar</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> $\ce{BF3}$ has three bonding pairs; $\ce{BH4-}$ has four.</p></details>
+:::
+
+::: {.mc-question #bonding-choice-easy-q8 data-answer="A"}
+### Question 8 · Electronegativity trend · 1.3 Choice Easy Q8
+
+Which atom is most electronegative?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Cl</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Mg</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Br</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Na</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Electronegativity decreases down Group 17, so chlorine is more electronegative than bromine.</p></details>
+:::
+
+::: {.mc-question #bonding-choice-easy-q9 data-answer="B"}
+### Question 9 · Ionic or covalent · 1.3 Choice Easy Q9
+
+Which compound is not an ionic compound?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$\ce{CaCO3}$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$\ce{CH3OH}$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$\ce{NaOH}$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$\ce{BaCl2}$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Methanol is a molecular covalent substance. The other compounds contain ions, even though carbonate or hydroxide also contain covalent bonds internally.</p></details>
+:::
+
+::: {.mc-question #bonding-choice-easy-q10 data-answer="D"}
+### Question 10 · Metallic bonding definition · 1.3 Choice Easy Q10
+
+Which statement describes metallic bonding?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Attraction between oppositely charged ions</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Attraction between permanent molecular dipoles</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Attraction between shared pairs and two nuclei only</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Attraction between positive metal ions and delocalised electrons</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> This is the definition of metallic bonding.</p></details>
+:::
+
+::: {.mc-question #bonding-choice-easy-q11 data-answer="B"}
+### Question 11 · Number of bonding types · 1.3 Choice Easy Q11
+
+Which material contains only one main type of bonding in its solid structure?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Graphite</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Brass</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Ice</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Iodine crystals</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Brass is an alloy with metallic bonding. Graphite, ice and iodine have bonding within particles plus intermolecular attractions.</p></details>
+:::
+
+::: {.mc-question #bonding-choice-easy-q12 data-answer="B"}
+### Question 12 · Hydrolysis of silicon tetrachloride · 1.3 Choice Easy Q12
+
+What happens when $\ce{SiCl4}$ is added to water?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>It reacts to give only an acidic solution.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>It reacts to give a precipitate and an acidic solution.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>It reacts to give a precipitate and a neutral solution.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>It dissolves to give only a neutral solution.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Hydrolysis forms solid $\ce{SiO2}$ and hydrochloric acid.</p></details>
+:::
+
+
+
+### 3 Chemical bonding - Multiple Choice: Medium
+
+::: {.mc-question #bonding-choice-medium-q1 data-answer="C"}
+### Question 15 · Equilibrium and molecular shape · 1.3 Choice Medium Q1
+
+For $\ce{PCl5(g) <=> PCl3(g) + Cl2(g)}$, the percentage yield of $\ce{PCl3}$ increases from 13% at $160^\circ\mathrm{C}$ to 100% at $300^\circ\mathrm{C}$. What is correct?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>The reaction is exothermic; $\ce{PCl3}$ is pyramidal.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>The reaction is exothermic; $\ce{PCl3}$ is trigonal planar.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>The reaction is endothermic; $\ce{PCl3}$ is pyramidal.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>The reaction is endothermic; $\ce{PCl3}$ is trigonal planar.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Higher temperature favours the endothermic forward reaction. $\ce{PCl3}$ has three bonds and one lone pair, giving a pyramidal shape.</p></details>
+:::
+
+::: {.mc-question #bonding-choice-medium-q2 data-answer="C"}
+### Question 16 · Bonding in nitrogen · 1.3 Choice Medium Q2
+
+Which feature is not present in a nitrogen molecule, $\ce{N2}$?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Two lone pairs in total</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Three shared electron pairs</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Three $\pi$ bonds</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>A bond angle of $180^\circ$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> A triple bond contains one $\sigma$ bond and two $\pi$ bonds.</p></details>
+:::
+
+
+::: {.mc-question #bonding-choice-medium-q4 data-answer="B"}
+### Question 18 · Lone pairs on a central atom · 1.3 Choice Medium Q4
+
+Which ion has three lone pairs around its central atom?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$\ce{PF6-}$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$\ce{ClF2-}$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$\ce{BF4-}$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$\ce{SF6}$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> In $\ce{ClF2-}$, chlorine has two bonding pairs and three lone pairs.</p></details>
+:::
+
+::: {.mc-question #bonding-choice-medium-q5 data-answer="B"}
+### Question 19 · London forces only · 1.3 Choice Medium Q5
+
+Which change of state involves overcoming only London dispersion forces?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$\ce{C3H6(l) -> C3H6(s)}$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$\ce{CO2(l) -> CO2(g)}$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$\ce{H2O(s) -> H2O(l)}$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$\ce{C2H5OH(l) -> C2H5OH(g)}$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Carbon dioxide is non-polar and has no permanent dipole or hydrogen bonding.</p></details>
+:::
+
+::: {.mc-question #bonding-choice-medium-q6 data-answer="C"}
+### Question 20 · Cyanate ion · 1.3 Choice Medium Q6
+
+What is the formula of the cyanate ion in ammonium cyanate?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$\ce{CO-}$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$\ce{NO-}$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$\ce{CNO-}$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$\ce{CNO2-}$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Ammonium cyanate is $\ce{NH4OCN}$ and contains the cyanate ion $\ce{OCN-}$, written here as $\ce{CNO-}$.</p></details>
+:::
+
+::: {.mc-question #bonding-choice-medium-q7 data-answer="C"}
+### Question 21 · Bond comparison in hydrogen halides · 1.3 Choice Medium Q7
+
+Which pair of words does not correctly complete the statement: “The bond ___ between H and the halogen in HBr is ___ than in HI”?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>length; shorter</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>energy; greater</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>angle; smaller</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>polarity; greater</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Hydrogen halides are diatomic, so a bond angle is not defined.</p></details>
+:::
+
+
+::: {.mc-question #bonding-choice-medium-q9 data-answer="B"}
+### Question 23 · Sigma and pi bonds · 1.3 Choice Medium Q9
+
+How many $\sigma$ and $\pi$ bonds are in ethene, $\ce{C2H4}$?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>4 $\sigma$, 1 $\pi$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>5 $\sigma$, 1 $\pi$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>5 $\sigma$, 2 $\pi$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>6 $\sigma$, 1 $\pi$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> There are four C--H $\sigma$ bonds and one C--C $\sigma$ bond, plus one C--C $\pi$ bond.</p></details>
+:::
+
+
+
+
+
+### 3 Chemical bonding - Multiple Choice: Hard
+
+::: {.mc-question #bonding-choice-hard-q1 data-answer="B"}
+### Question 28 · Hydrogen bonding with methanal · 1.3 Choice Hard Q1
+
+Hydrogen bonding occurs between liquid methanal, $\ce{HCHO}$, and a second liquid $Y$. Which substance is most likely to be $Y$?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$\ce{CH3CO2CH3}$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$\ce{CH3OH}$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$\ce{CH3COCH3}$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$\ce{CH3CHO}$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Methanol has an O--H hydrogen-bond donor and oxygen lone pairs; the carbonyl oxygen of methanal can accept the hydrogen bond.</p></details>
+:::
+
+::: {.mc-question #bonding-choice-hard-q2 data-answer="C"}
+### Question 29 · Bond energy down a group · 1.3 Choice Hard Q2
+
+Why does the rate of hydrolysis of $\ce{R-Cl}$, $\ce{R-Br}$ and $\ce{R-I}$ generally increase from chlorine to iodine?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>The first ionisation energy of the halogen increases.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>The silver halide solubility increases from chloride to iodide.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>The R--X bond energy decreases from R--Cl to R--I.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>The R--X bond polarity increases from R--Cl to R--I.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> The larger iodine atom forms a longer, weaker R--I bond that breaks more readily.</p></details>
+:::
+
+::: {.mc-question #bonding-choice-hard-q3 data-answer="A"}
+### Question 30 · Electronegativity and covalent bonding · 1.3 Choice Hard Q3
+
+Which atom is most likely to form a covalent bond with fluorine rather than an ionic bond, based on the smallest electronegativity difference?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>H, $\chi=2.20$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Cu, $\chi=1.95$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Mg, $\chi=1.30$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>K, $\chi=0.82$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Hydrogen has the closest electronegativity to fluorine among the options, so the H--F bond is covalent and strongly polar.</p></details>
+:::
+
+::: {.mc-question #bonding-choice-hard-q4 data-answer="D"}
+### Question 31 · Dipoles in molecules · 1.3 Choice Hard Q4
+
+Which description of dipoles in $\ce{CHCl3}$ and $\ce{Br2}$ is correct?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Induced only in both molecules</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Induced only in $\ce{CHCl3}$; induced and permanent in $\ce{Br2}$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Induced and permanent in both</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Induced and permanent in $\ce{CHCl3}$; induced only in $\ce{Br2}$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> $\ce{CHCl3}$ is polar, while symmetrical $\ce{Br2}$ is non-polar but still has temporary dipoles.</p></details>
+:::
+
+::: {.mc-question #bonding-choice-hard-q5 data-answer="C"}
+### Question 32 · Ionic lattice and bonding types · 1.3 Choice Hard Q5
+
+Hydroxyapatite contains calcium, hydroxide and phosphate ions. Which statement is correct?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>It contains only metallic bonding.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Strontium forms covalent bonds with phosphate ions.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Strontium ions are similar enough in size to replace calcium ions in the lattice.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Phosphate ions are held together by metallic bonding.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Similar-sized ions can occupy similar lattice sites; the bonding between calcium/strontium ions and anions is ionic.</p></details>
+:::
+
+::: {.mc-question #bonding-choice-hard-q6 data-answer="A"}
+### Question 33 · Conductivity and lattice structure · 1.3 Choice Hard Q6
+
+Which substance is expected to have a high melting point and conduct electricity when molten but not when solid?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>A giant ionic compound</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>A simple molecular compound</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>A noble gas</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>A molecular non-polar liquid</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Strong ionic attractions give a high melting point; mobile ions in the molten state carry charge.</p></details>
+:::
+
+::: {.mc-question #bonding-choice-hard-q7 data-answer="D"}
+### Question 34 · Expanded electron-pair arrangement · 1.3 Choice Hard Q7
+
+What is the shape of $\ce{PF6-}$?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Tetrahedral</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Trigonal pyramidal</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Trigonal bipyramidal</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Octahedral</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Six bonding pairs around phosphorus repel to an octahedral arrangement.</p></details>
+:::
+
+::: {.mc-question #bonding-choice-hard-q8 data-answer="B"}
+### Question 35 · Hydrogenation of an alkene · 1.3 Choice Hard Q8
+
+Which feature disappears when $\ce{C2H4}$ is converted to $\ce{C2H6}$ by hydrogenation?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>The C--C $\sigma$ bond</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>The C--C $\pi$ bond</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>All C--H $\sigma$ bonds</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>All electron pairs on carbon</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Hydrogen adds across the double bond, converting the $\pi$ component into two new C--H bonds.</p></details>
+:::
+
+::: {.mc-question #bonding-choice-hard-q9 data-answer="B"}
+### Question 36 · Overall dipole and symmetry · 1.3 Choice Hard Q9
+
+Which molecule has the largest overall dipole?
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>$\ce{CCl4}$</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>$\ce{CH2Cl2}$</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>$\ce{BF3}$</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>$\ce{CO2}$</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> The tetrahedral $\ce{CH2Cl2}$ molecule is not symmetrical enough for its bond dipoles to cancel.</p></details>
+:::
+
+
+

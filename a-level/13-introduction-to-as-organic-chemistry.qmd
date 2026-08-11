@@ -1,6 +1,6 @@
 ---
 title: "13 An introduction to AS Level organic chemistry"
-subtitle: "Formulae, functional groups, mechanisms, bonding and isomerism"
+subtitle: "AS 3.1 · Formulas, functional groups, reactions, bonding and isomerism"
 format:
   html:
     toc: true
@@ -20,7 +20,7 @@ format:
 - explain σ and π bonds, hybridisation and molecular shape;
 - distinguish E/Z (cis-trans) and optical isomerism.
 
-## 13.1 Formulae, homologous series and functional groups
+## 13.1 Formulas, Functional Groups - the Naming of Organic Compounds
 
 A **molecular formula** gives the actual number of each atom, for example C<sub>4</sub>H<sub>10</sub>O. An **empirical formula** gives the simplest whole-number ratio, so the empirical formula of C<sub>4</sub>H<sub>10</sub>O is also C<sub>4</sub>H<sub>10</sub>O, but that of C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> is CH<sub>2</sub>O. A **structural formula** groups atoms along the chain, a **displayed formula** shows every bond, and a **skeletal formula** uses line ends/vertices for carbon atoms and omits C-bound H atoms. Hydrogen attached to a heteroatom, for example the O–H hydrogen in an alcohol, is shown.
 
@@ -38,13 +38,15 @@ A **homologous series** is a family of organic compounds with the same functiona
 | ester | –COO– | alkyl alkanoate |
 | nitrile | –C≡N | -nitrile |
 
-## 13.2 Naming aliphatic compounds
+![Functional groups in important AS organic families](../assets/notes/organic-as-13-rebuilt/formulas-img-010.png){.concept-figure fig-alt="Functional groups in important AS organic families"}
+
+### Naming organic compounds
 
 Choose the longest carbon chain containing the highest-priority functional group. Number it from the end that gives the functional group the lowest possible number, then give substituents their locants and list them alphabetically. The stem tells the number of C atoms: meth-, eth-, prop-, but-, pent-, hex-. Include a number before -ene, -ol or -one when its position is not fixed.
 
 For example, CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>3</sub> is **butan-2-ol**, and CH<sub>3</sub>CH(Br)CH(CH<sub>3</sub>)CH<sub>2</sub>OH is **3-bromo-2-methylbutan-1-ol**. In a carboxylic acid the carboxyl carbon is carbon 1 by definition. In an aldehyde, the –CHO carbon is carbon 1 and its hydrogen must not be omitted from a displayed formula.
 
-## 13.3 Characteristic organic reactions and mechanisms
+## 13.2 Characteristic Organic Reactions
 
 Organic reactions can be described both by reaction type and by mechanism. **Addition** joins atoms to a molecule (often across C=C); **substitution** replaces one atom/group by another; **elimination** removes a small molecule to form a multiple bond; **hydrolysis** breaks a bond using water; **oxidation** raises the oxidation state / adds oxygen / removes hydrogen.
 
@@ -57,7 +59,9 @@ Bond fission is central to mechanisms:
 
 Free-radical substitution of an alkane with chlorine under UV light has three stages: **initiation** (Cl–Cl → 2Cl·), **propagation** (radicals react and a new radical is regenerated), and **termination** (two radicals combine). Electrophilic addition occurs when an electrophile accepts the π electrons of an alkene; nucleophilic substitution occurs when a nucleophile replaces a leaving group such as Br<sup>−</sup> in a halogenoalkane.
 
-## 13.4 σ bonds, π bonds, hybridisation and shape
+![Addition, substitution and elimination reactions](../assets/notes/organic-as-13-rebuilt/reactions-img-040.png){.concept-figure fig-alt="Examples of addition, substitution and elimination reactions"}
+
+## 13.3 Shapes of Organic Molecules; σ - π Bonds
 
 A single bond is one **σ bond**, made by end-on overlap. A double bond contains one σ bond and one **π bond**; a triple bond contains one σ bond and two π bonds. A π bond is made by sideways overlap of unhybridised p orbitals and prevents free rotation about the double bond. This restricted rotation is required for E/Z (cis-trans) isomerism.
 
@@ -69,11 +73,15 @@ A single bond is one **σ bond**, made by end-on overlap. A double bond contains
 
 Thus each carbon of C=C is sp<sup>2</sup> and trigonal planar. In C≡C each carbon is sp and linear. In methane, one 2s and three 2p orbitals mix to form four equivalent sp<sup>3</sup> orbitals, which repel to a tetrahedral arrangement. Cyclohexane is not planar: sp<sup>3</sup> carbon favours angles close to 109.5°, and a puckered conformation reduces strain.
 
-## 13.5 Structural and stereoisomerism
+![σ and π bonding in ethene](../assets/notes/organic-as-13-rebuilt/shapes-img-024.png){.concept-figure fig-alt="Sigma and pi bonding in ethene"}
+
+## 13.4 Isomerism. Structural Isomerism - Stereoisomerism
 
 **Structural isomers** have the same molecular formula but different connectivity. The three types are **chain isomerism** (different carbon skeleton), **positional isomerism** (same functional group in a different position) and **functional-group isomerism** (different functional groups).
 
 **Stereoisomers** have the same connectivity but different arrangement in space. E/Z (cis-trans) isomerism requires restricted rotation about C=C and two different groups attached to each carbon of the double bond. A **chiral centre** is usually a tetrahedral carbon attached to four different groups. A chiral molecule can form a pair of non-superimposable mirror images called **enantiomers**; this is optical isomerism. A molecule with an internal plane of symmetry is not chiral.
+
+![Geometric isomerism caused by restricted rotation](../assets/notes/organic-as-13-rebuilt/isomerism-img-060.png){.concept-figure fig-alt="Cis-trans isomerism in alkenes and rings"}
 
 ## Multiple choice questions
 
@@ -94,7 +102,7 @@ Thus each carbon of C=C is sp<sup>2</sup> and trigonal planar. In C≡C each car
 ::: {.mc-question #aso-mc-03 data-answer="B"}
 ### Question 3 · 3.1 Choice Easy Q3
 <p>The following mechanism shows hydrogen cyanide reacting with propanone. Which of the following statements is incorrect?</p>
-![Original nucleophilic-addition mechanism](../assets/questions/extracted/13/independent/choice-easy-q3-mechanism.png){.question-figure fig-alt="Hydrogen cyanide reacting with propanone by nucleophilic addition"}
+![Original nucleophilic-addition mechanism](../assets/questions/extracted/13/rebuilt/choice-easy-q3-mechanism.png){.question-figure fig-alt="Hydrogen cyanide reacting with propanone by nucleophilic addition"}
 <div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Heterolytic bond breaking is involved.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>CN<sup>−</sup> is an electrophile.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>This is an addition reaction.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Propanone is a ketone.</span></button></div>
 <button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><ul><li><strong>B.</strong> CN<sup>−</sup> donates an electron pair and is therefore a nucleophile, not an electrophile.</li></ul></details>
 :::
@@ -123,7 +131,7 @@ Thus each carbon of C=C is sp<sup>2</sup> and trigonal planar. In C≡C each car
 ::: {.mc-question #aso-mc-07 data-answer="C"}
 ### Question 7 · 3.1 Choice Medium Q1
 <p>Evening primrose oil has been shown to reduce high blood pressure and improve heart health. The oil is made from seeds, within which the active compound gamma-linolenic acid is found. How many stereoisomers does gamma-linolenic acid have?</p>
-![Displayed formula of gamma-linolenic acid](../assets/questions/extracted/13/independent/choice-medium-q1-gamma-linolenic-acid.png){.question-figure fig-alt="Displayed formula of gamma-linolenic acid"}
+![Displayed formula of gamma-linolenic acid](../assets/questions/extracted/13/rebuilt/choice-medium-q1-gamma-linolenic-acid.png){.question-figure fig-alt="Displayed formula of gamma-linolenic acid"}
 <div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>6</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>8</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>4</span></button></div>
 <button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><ul><li><strong>C.</strong> The molecule has three independent C=C bonds capable of E/Z isomerism, giving 2<sup>3</sup> = 8 stereoisomers.</li></ul></details>
 :::
@@ -138,7 +146,7 @@ Thus each carbon of C=C is sp<sup>2</sup> and trigonal planar. In C≡C each car
 ::: {.mc-question #aso-mc-09 data-answer="C"}
 ### Question 9 · 3.1 Choice Medium Q5
 <p>Methyl isocyanate, CH<sub>3</sub>NCO, is a toxic liquid used in the production of adhesives. The sequence of atoms is H<sub>3</sub>C–N=C=O. What is the approximate angle between the bonds formed by the N atom?</p>
-<div class="question-figure-grid option-figure-grid"><img src="../assets/questions/extracted/13/independent/choice-medium-q5-option-a.png" alt="Option A"><img src="../assets/questions/extracted/13/independent/choice-medium-q5-option-b.png" alt="Option B"><img src="../assets/questions/extracted/13/independent/choice-medium-q5-option-c.png" alt="Option C"><img src="../assets/questions/extracted/13/independent/choice-medium-q5-option-d.png" alt="Option D"></div>
+<div class="question-figure-grid option-figure-grid"><img src="../assets/questions/extracted/13/rebuilt/choice-medium-q5-option-a.png" alt="Option A"><img src="../assets/questions/extracted/13/rebuilt/choice-medium-q5-option-b.png" alt="Option B"><img src="../assets/questions/extracted/13/rebuilt/choice-medium-q5-option-c.png" alt="Option C"><img src="../assets/questions/extracted/13/rebuilt/choice-medium-q5-option-d.png" alt="Option D"></div>
 <div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>180°</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>109°</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>120°</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>104°</span></button></div>
 <button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><ul><li><strong>C.</strong> The nitrogen is approximately sp<sup>2</sup> hybridised in the N=C arrangement, so the angle is about 120°.</li></ul></details>
 :::
@@ -146,7 +154,7 @@ Thus each carbon of C=C is sp<sup>2</sup> and trigonal planar. In C≡C each car
 ::: {.mc-question #aso-mc-10 data-answer="C"}
 ### Question 10 · 3.1 Choice Medium Q6
 <p>Xylitol is an artificial sweetener used in toothpastes and chewing gum to improve their taste without impairing dental hygiene. Which functional groups could be produced if xylitol is oxidised under suitable conditions?<br>1. Alkene<br>2. Aldehyde<br>3. Carboxylic acid<br>4. Ketone</p>
-![Displayed structure of xylitol](../assets/questions/extracted/13/independent/choice-medium-q6-xylitol.png){.question-figure fig-alt="Displayed structure of xylitol"}
+![Displayed structure of xylitol](../assets/questions/extracted/13/rebuilt/choice-medium-q6-xylitol.png){.question-figure fig-alt="Displayed structure of xylitol"}
 <div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>2 only</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2, 3 and 4</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>2 and 4</span></button></div>
 <button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><ul><li><strong>C.</strong> Primary alcohol groups can oxidise to aldehydes and carboxylic acids, while secondary alcohol groups can oxidise to ketones.</li></ul></details>
 :::
@@ -175,7 +183,7 @@ Thus each carbon of C=C is sp<sup>2</sup> and trigonal planar. In C≡C each car
 ::: {.mc-question #aso-mc-14 data-answer="D"}
 ### Question 14 · 3.1 Choice Hard Q2
 <p>The reaction sequence below shows a pair of reaction types.<br>CH<sub>3</sub>CH=CHCH<sub>3</sub> → CH<sub>3</sub>CH<sub>2</sub>CH(Cl)CH<sub>3</sub> → CH<sub>3</sub>CH<sub>2</sub>CH(OH)CH<sub>3</sub><br>Which row in the table correctly shows the two reaction types?</p>
-![Original reaction sequence](../assets/questions/extracted/13/independent/choice-hard-q2-reaction-sequence.png){.question-figure fig-alt="Reaction sequence from but-2-ene to a chloroalkane and an alcohol"}
+![Original reaction sequence](../assets/questions/extracted/13/rebuilt/choice-hard-q2-reaction-sequence.png){.question-figure fig-alt="Reaction sequence from but-2-ene to a chloroalkane and an alcohol"}
 <div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Nucleophilic addition; nucleophilic substitution</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Electrophilic addition; electrophilic substitution</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Nucleophilic addition; electrophilic substitution</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Electrophilic addition; nucleophilic substitution</span></button></div>
 <button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p><details class="answer-panel"><summary>Show explanation</summary><ul><li><strong>D.</strong> Addition of HCl across C=C is electrophilic addition; aqueous OH<sup>−</sup> replacing Cl<sup>−</sup> is nucleophilic substitution.</li></ul></details>
 :::
@@ -264,7 +272,7 @@ Thus each carbon of C=C is sp<sup>2</sup> and trigonal planar. In C≡C each car
 <p><strong>(b)(ii)</strong> State the type of bond fission involved.</p>
 <p><strong>(c)</strong> Fig. 3.1 shows the breaking of a covalent bond, where the more electronegative atom B has taken both electrons from the bond to form a negative ion. State the name of this type of bond fission.</p>
 <p><strong>(d)</strong> Name three other types of reaction mechanism.</p>
-<img src="../assets/questions/extracted/13/independent/sq-easy-q3c-heterolytic-fission.png" class="question-figure" alt="Heterolytic bond fission showing both bonding electrons moving to atom B" style="filter: invert(1);">
+<img src="../assets/questions/extracted/13/rebuilt/sq-easy-q3c-heterolytic-fission.png" class="question-figure" alt="Heterolytic bond fission showing both bonding electrons moving to atom B">
 <details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li><strong>(a)</strong> Initiation, propagation and termination.</li><li><strong>(b)(i)</strong> Cl<sub>2</sub> → 2Cl· under UV light.</li><li><strong>(b)(ii)</strong> Homolytic fission.</li><li><strong>(c)</strong> Heterolytic fission.</li><li><strong>(d)</strong> Any three: free-radical substitution, electrophilic addition, nucleophilic substitution, nucleophilic addition or electrophilic substitution.</li></ul></details>
 :::
 
@@ -325,7 +333,7 @@ Thus each carbon of C=C is sp<sup>2</sup> and trigonal planar. In C≡C each car
 <p><strong>(d)</strong> Pentanal reacts with hydrogen cyanide ions to form 2-hydroxyhexanenitrile.</p>
 <p><strong>(d)(i)</strong> In terms of orbitals and bonding, explain why the carbonyl carbon is trigonal planar.</p>
 <p><strong>(d)(ii)</strong> State the shape and bond angle adopted by the carbonyl carbon after reaction with hydrogen cyanide.</p>
-<img src="../assets/questions/extracted/13/independent/sq-medium-q3c-nucleophilic-substitution.png" class="question-figure" alt="Hydroxide ion attacking 1-bromopropane to form compound X and bromide ion">
+<img src="../assets/questions/extracted/13/rebuilt/sq-medium-q3c-nucleophilic-substitution.png" class="question-figure" alt="Hydroxide ion attacking 1-bromopropane to form compound X and bromide ion">
 <details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li><strong>(a)</strong> Gasoline is an alkane; give the name and formula shown in Fig. 3.1.</li><li><strong>(b)</strong> Free-radical substitution; the four products are positional isomers.</li><li><strong>(c)</strong> OH<sup>−</sup> is a nucleophile; X is propan-1-ol; hot ethanolic hydroxide gives elimination.</li><li><strong>(d)(i)</strong> The carbonyl carbon is sp<sup>2</sup> hybridised with three regions of electron density, giving trigonal-planar geometry.</li><li><strong>(d)(ii)</strong> After CN<sup>−</sup> addition it is sp<sup>3</sup>, tetrahedral, with an angle close to 109.5°.</li></ul></details>
 :::
 
@@ -354,9 +362,9 @@ Thus each carbon of C=C is sp<sup>2</sup> and trigonal planar. In C≡C each car
 
 ## Original question PDFs
 
-- [3.1 Choice Easy](../assets/questions/original-source/3.1_an_introduction_to_as_level_organic_chemistry___choice___easy.pdf)
-- [3.1 Choice Medium](../assets/questions/original-source/3.1_an_introduction_to_as_level_organic_chemistry___choice___medium.pdf)
-- [3.1 Choice Hard](../assets/questions/original-source/3.1_an_introduction_to_as_level_organic_chemistry___choice___hard.pdf)
-- [3.1 SQ Easy](../assets/questions/original-source/3.1_an_introduction_to_as_level_organic_chemistry___sq___easy.pdf)
-- [3.1 SQ Medium](../assets/questions/original-source/3.1_an_introduction_to_as_level_organic_chemistry___sq___medium.pdf)
-- [3.1 SQ Hard](../assets/questions/original-source/3.1_an_introduction_to_as_level_organic_chemistry___sq___hard.pdf)
+- [3.1 Choice Easy](../assets/questions/original-source/3.1_organic_as_choice_easy.pdf)
+- [3.1 Choice Medium](../assets/questions/original-source/3.1_organic_as_choice_medium.pdf)
+- [3.1 Choice Hard](../assets/questions/original-source/3.1_organic_as_choice_hard.pdf)
+- [3.1 SQ Easy](../assets/questions/original-source/3.1_organic_as_sq_easy.pdf)
+- [3.1 SQ Medium](../assets/questions/original-source/3.1_organic_as_sq_medium.pdf)
+- [3.1 SQ Hard](../assets/questions/original-source/3.1_organic_as_sq_hard.pdf)

@@ -1,6 +1,6 @@
 ---
 title: "15 Halogen compounds"
-subtitle: "Halogenoalkanes, nucleophilic substitution and CFCs"
+subtitle: "AS 3.3 Halogen Compounds · 15.1 Halogenoalkanes"
 format:
   html:
     toc: true
@@ -9,7 +9,7 @@ format:
 
 # 15 Halogen compounds
 
-本章只覆盖 AS 3.3 Halogen Compounds：halogenoalkanes 的命名、反应和机制，C–X 键与水解速率，以及 CFCs 和 ozone depletion。下方题目来自 **3.3 Halogen Compounds** 原题；无法独立提取的题图没有截图加入。
+本章只覆盖 AS 3.3 Halogen Compounds 中的 **15.1 Halogenoalkanes**。题目使用 AS 原题包中的原文，不改写题干；可独立提取的结构式、流程图、曲线图和装置图保留为独立图像。无法独立提取的整页图片不放入页面。
 
 ## Learning objectives
 
@@ -25,6 +25,18 @@ A halogenoalkane has a halogen attached to an alkyl group, R–X. The carbon bon
 
 The C–X bond strength decreases down the group: C–F > C–Cl > C–Br > C–I. Thus iodoalkanes hydrolyse fastest and chloroalkanes slowest (among Cl, Br and I). In warm ethanol/water with aqueous AgNO<sub>3</sub>, released halide gives AgCl white, AgBr cream, or AgI yellow precipitate. The rate follows RI > RBr > RCl because less bond energy is needed to break C–I.
 
+### Core diagrams from the original 15.1 Note
+
+The following independent diagrams are re-extracted from the original Note PDF and composited onto a white background. They summarise the three classes of halogenoalkane and the polarity of the C–X bond.
+
+![Classification of primary, secondary and tertiary halogenoalkanes](../assets/notes/halogenoalkanes-rebuilt/halogenoalkanes-img-031.png){.concept-figure fig-alt="Primary, secondary and tertiary halogenoalkanes"}
+
+![Polarity of the carbon–halogen bond](../assets/notes/halogenoalkanes-rebuilt/halogenoalkanes-img-037.png){.concept-figure fig-alt="Partial charges and polarity of the C-X bond"}
+
+The carbon atom is δ<sup>+</sup> and can be attacked by a nucleophile. When halogenoalkanes are prepared from alkenes, HX undergoes electrophilic addition; the more stable carbocation pathway gives the major product.
+
+![Electrophilic addition of hydrogen halide or halogen](../assets/notes/halogenoalkanes-rebuilt/halogenoalkanes-img-013.png){.concept-figure fig-alt="Electrophilic addition to alkenes forming halogenoalkanes"}
+
 ## 15.2 Nucleophilic substitution
 
 Nucleophiles donate a lone pair to the δ<sup>+</sup> carbon and replace X<sup>−</sup>. Aqueous OH<sup>−</sup> gives an alcohol; ethanolic CN<sup>−</sup> gives a nitrile; excess ethanolic NH<sub>3</sub> under pressure gives an amine.
@@ -39,6 +51,8 @@ Primary halogenoalkanes normally react by **S<sub>N</sub>2**: one concerted step
 
 Hot ethanolic OH<sup>−</sup> promotes elimination: H and X are removed from adjacent atoms to form C=C, for example CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br + OH<sup>−</sup> → CH<sub>3</sub>CH=CH<sub>2</sub> + H<sub>2</sub>O + Br<sup>−</sup>. Aqueous OH<sup>−</sup> instead favours substitution. Halogenoalkanes are also formed by free-radical substitution of alkanes with Cl<sub>2</sub>/UV, and by electrophilic addition of HX or X<sub>2</sub> to alkenes.
 
+![Free-radical substitution of ethane by chlorine](../assets/notes/halogenoalkanes-rebuilt/halogenoalkanes-img-008.png){.concept-figure fig-alt="Initiation, propagation and termination in free-radical substitution"}
+
 ## 15.4 CFCs and ozone depletion
 
 CFCs were useful as refrigerants and propellants because they are inert, non-flammable and non-toxic at ground level. Strong C–F bonds help their stability. Their long lifetime lets them diffuse to the stratosphere, where UV radiation causes homolytic bond fission and releases chlorine radicals.
@@ -52,7 +66,7 @@ Chlorine radical is regenerated, so one radical can catalyse the destruction of 
 ::: {.mc-question #hal-mc-01 data-answer="C"}
 ### Question 1 · 3.3 Choice Easy Q1
 <p>X and Y convert 1-bromopropane into butanoic acid via a nitrile. What are X and Y?</p>
-<img src="../assets/questions/extracted/15/independent/choice-easy-q1-figure.png" class="question-figure" alt="Reaction sequence from 1-bromopropane to butanoic acid via a nitrile" style="filter: invert(1);">
+<img src="../assets/questions/extracted/15/rebuilt/choice-easy-q1-figure.png" class="question-figure" alt="Reaction sequence from 1-bromopropane to butanoic acid via a nitrile">
 <div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>NH<sub>3</sub>; HCl(aq)</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>KCN in ethanol; NaOH(aq)</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>KCN in ethanol; HCl(aq)</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>HCN; NaOH(aq)</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> CN<sup>−</sup> substitutes for Br then acid hydrolysis converts –CN into –COOH.</p></details>
 :::
 
@@ -103,7 +117,7 @@ Chlorine radical is regenerated, so one radical can catalyse the destruction of 
 
 ::: {.mc-question #hal-mc-11 data-answer="B"}
 ### Question 11 · 3.3 Choice Medium Q2
-![Two-step conversion of bromoethane to chloroethane](../assets/questions/extracted/15/independent/choice-medium-q2-figure.png){.question-figure fig-alt="Reaction sequence from bromoethane to ethanol to chloroethane"}
+![Two-step conversion of bromoethane to chloroethane](../assets/questions/extracted/15/rebuilt/choice-medium-q2-figure.png){.question-figure fig-alt="Reaction sequence from bromoethane to ethanol to chloroethane"}
 <p>Chloroethane is formed from bromoethane in two steps: C<sub>2</sub>H<sub>5</sub>Br → C<sub>2</sub>H<sub>5</sub>OH → C<sub>2</sub>H<sub>5</sub>Cl. Which statements are correct? 1 Step X involves nucleophilic substitution. 2 Hot aqueous sodium hydroxide is used in X. 3 Hot aqueous sodium chloride is the only possible reagent in Y.</p><div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 only</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> The alcohol can be converted with several chlorinating reagents, not only NaCl(aq).</p></details>
 :::
 
@@ -139,7 +153,7 @@ Chlorine radical is regenerated, so one radical can catalyse the destruction of 
 
 ::: {.mc-question #hal-mc-18 data-answer="C"}
 ### Question 18 · 3.3 Choice Hard Q1
-<img src="../assets/questions/extracted/15/independent/choice-hard-q1-graph.png" class="question-figure" alt="Graph comparing moles of sodium halide formed from Y and chloroethane over time" style="filter: invert(1);">
+<img src="../assets/questions/extracted/15/rebuilt/choice-hard-q1-graph.png" class="question-figure" alt="Graph comparing moles of sodium halide formed from Y and chloroethane over time">
 <p>Hydrolysis of CH<sub>3</sub>CH<sub>2</sub>Cl and Y gives more sodium halide from Y in the same time. Which compounds could be Y? 1 ClCH<sub>2</sub>CH<sub>2</sub>Cl  2 CH<sub>3</sub>CH<sub>2</sub>Br  3 CH<sub>3</sub>CH<sub>2</sub>I</p><div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 only</span></button></div><button class="check-answer">Check answer</button><p class="mc-feedback"></p><details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Bromo- and iodoethane hydrolyse faster because C–Br/C–I are weaker; a dichloro compound does not have a faster C–Cl bond.</p></details>
 :::
 
@@ -157,8 +171,8 @@ Chlorine radical is regenerated, so one radical can catalyse the destruction of 
 
 ::: {.question-card #hal-sq-01}
 ### Question 1 · 3.3 SQ Easy Q1(a-d)
-<img src="../assets/questions/extracted/15/independent/sq-easy-q1-fig-1-1.png" class="question-figure" alt="Displayed formula of a bromoalkane" style="filter: invert(1);">
-![Fig. 1.2 Structure of the corresponding chloroalkane](../assets/questions/extracted/15/independent/sq-easy-q1-fig-1-2.png){.question-figure fig-alt="Displayed formula of the corresponding chloroalkane"}
+<img src="../assets/questions/extracted/15/rebuilt/sq-easy-q1-fig-1-1.png" class="question-figure" alt="Displayed formula of a bromoalkane">
+![Fig. 1.2 Structure of the corresponding chloroalkane](../assets/questions/extracted/15/rebuilt/sq-easy-q1-fig-1-2.png){.question-figure fig-alt="Displayed formula of the corresponding chloroalkane"}
 <p><strong>(a)(i)</strong> Name the compound shown in Fig. 1.1.</p>
 <p><strong>(a)(ii)</strong> State the class of halogenoalkane to which this compound belongs.</p>
 <p><strong>(b)</strong> State the colour of the precipitate formed in the reaction between the halogenoalkane in Fig. 1.1 and acidified silver nitrate, AgNO<sub>3</sub>.</p>
@@ -180,7 +194,7 @@ Chlorine radical is regenerated, so one radical can catalyse the destruction of 
 
 ::: {.question-card #hal-sq-03}
 ### Question 3 · 3.3 SQ Easy Q3(a-c)
-<img src="../assets/questions/extracted/15/independent/sq-easy-q3-fig-3-1.png" class="question-figure" alt="Incomplete two-step SN1 mechanism for 2-bromo-2-methylpropane with hydroxide ions" style="filter: invert(1);">
+<img src="../assets/questions/extracted/15/rebuilt/sq-easy-q3-fig-3-1.png" class="question-figure" alt="Incomplete two-step SN1 mechanism for 2-bromo-2-methylpropane with hydroxide ions">
 <p><strong>(a)(i)</strong> State what is meant by the term tertiary halogenoalkane.</p>
 <p><strong>(a)(ii)</strong> Tertiary halogenoalkanes react via an S<sub>N</sub>1 mechanism, whereas primary halogenoalkanes react via an S<sub>N</sub>2 mechanism. Explain what the numbers 1 and 2 refer to in S<sub>N</sub>1 and S<sub>N</sub>2.</p>
 <p><strong>(b)(i)</strong> 2-bromo-2-methylpropane reacts with hydroxide ions via an S<sub>N</sub>1 mechanism. Complete the reaction mechanism shown in Fig. 3.1, clearly showing partial charges, full charges and the transfer of electrons.</p>
@@ -207,8 +221,8 @@ Chlorine radical is regenerated, so one radical can catalyse the destruction of 
 
 ::: {.question-card #hal-sq-05}
 ### Question 5 · 3.3 SQ Medium Q2(a-e)
-![Fig. 2.1 Reaction scheme from 1-chloropropane](../assets/questions/extracted/15/independent/sq-medium-q2-fig-2-1.png){.question-figure fig-alt="Reaction scheme showing 1-chloropropane forming propene, butanenitrile and propan-1-amine"}
-![Fig. 2.2 Concentration-time graph](../assets/questions/extracted/15/independent/sq-medium-q2-fig-2-2.png){.question-figure fig-alt="Concentration of a tertiary chloroalkane plotted against time"}
+![Fig. 2.1 Reaction scheme from 1-chloropropane](../assets/questions/extracted/15/rebuilt/sq-medium-q2-fig-2-1.png){.question-figure fig-alt="Reaction scheme showing 1-chloropropane forming propene, butanenitrile and propan-1-amine"}
+![Fig. 2.2 Concentration-time graph](../assets/questions/extracted/15/rebuilt/sq-medium-q2-fig-2-2.png){.question-figure fig-alt="Concentration of a tertiary chloroalkane plotted against time"}
 <p>1-chloropropane can react to form organic products as shown in the reaction scheme in Fig. 2.1.</p>
 <p><strong>(a)(i)</strong> State the reagent and conditions used in Reaction 1.</p>
 <p><strong>(a)(ii)</strong> Identify a suitable reagent for Reaction 2 and include a reason why this is a particularly useful type of reaction in organic chemistry.</p>
@@ -248,7 +262,7 @@ Chlorine radical is regenerated, so one radical can catalyse the destruction of 
 
 ::: {.question-card #hal-sq-08}
 ### Question 8 · 3.3 SQ Hard Q3(a-c)
-<img src="../assets/questions/extracted/15/independent/sq-hard-q3-fig-3-1.png" class="question-figure" alt="Reaction scheme showing compound G forming compound H and a nitrile" style="filter: invert(1);">
+<img src="../assets/questions/extracted/15/rebuilt/sq-hard-q3-fig-3-1.png" class="question-figure" alt="Reaction scheme showing compound G forming compound H and a nitrile">
 <p>Compound G is a chloroalkane that can undergo two different reactions as outlined in Fig. 3.1. Compound H is an alkene which does not exhibit geometric isomerism.</p>
 <p><strong>(a)</strong> Draw the skeletal structures of compounds G and H.</p>
 <p><strong>(b)</strong> State the reagents and conditions required for reaction A.</p>
@@ -258,7 +272,7 @@ Chlorine radical is regenerated, so one radical can catalyse the destruction of 
 
 ::: {.question-card #hal-sq-09}
 ### Question 9 · 3.3 SQ Hard Q4(a-f)
-![Apparatus for producing and collecting gaseous butenes](../assets/questions/extracted/15/independent/sq-hard-q4-apparatus.png){.question-figure fig-alt="Gas syringe and reflux condenser apparatus for producing gaseous butenes"}
+![Apparatus for producing and collecting gaseous butenes](../assets/questions/extracted/15/rebuilt/sq-hard-q4-apparatus.png){.question-figure fig-alt="Gas syringe and reflux condenser apparatus for producing gaseous butenes"}
 <p>Bromobutanes react with hot ethanolic potassium hydroxide solution to produce gaseous butenes. In the experiment, 0.0080 mol of liquid 1-bromobutane is injected into hot ethanolic KOH and 22.0 cm<sup>3</sup> of but-1-ene is collected after cooling to 25 °C.</p>
 <p><strong>(a)</strong> State the purpose of the condenser.</p>
 <p><strong>(b)</strong> Describe a chemical test and the expected observation to identify the functional group of the gas.</p>
@@ -273,7 +287,7 @@ Chlorine radical is regenerated, so one radical can catalyse the destruction of 
 
 ::: {.question-card #hal-sq-10}
 ### Question 10 · 3.3 SQ Medium Q3(a-d)
-![Fig. 3.1 Reaction scheme for 1-bromobutane](../assets/questions/extracted/15/independent/sq-medium-q3-fig-3-1.png){.question-figure fig-alt="Reaction scheme showing reactions of 1-bromobutane with aqueous and ethanolic sodium hydroxide"}
+![Fig. 3.1 Reaction scheme for 1-bromobutane](../assets/questions/extracted/15/rebuilt/sq-medium-q3-fig-3-1.png){.question-figure fig-alt="Reaction scheme showing reactions of 1-bromobutane with aqueous and ethanolic sodium hydroxide"}
 <p>One method of making 1-bromobutane in the laboratory uses powdered potassium bromide, water, butan-1-ol and concentrated sulfuric acid.</p>
 <p><strong>(a)</strong> Write an equation for each of the two stages: formation of HBr, and reaction of butan-1-ol with HBr.</p>
 <p><strong>(b)</strong> State two different ways that 1-bromobutane can be prepared. Include the reagents and conditions.</p>
@@ -285,9 +299,9 @@ Chlorine radical is regenerated, so one radical can catalyse the destruction of 
 
 ## Original question PDFs
 
-- [3.3 Choice Easy](../assets/questions/original-source/3.3_halogen_compounds___choice___easy.pdf)
-- [3.3 Choice Medium](../assets/questions/original-source/3.3_halogen_compounds___choice___medium.pdf)
-- [3.3 Choice Hard](../assets/questions/original-source/3.3_halogen_compounds___choice___hard.pdf)
-- [3.3 SQ Easy](../assets/questions/original-source/3.3_halogen_compounds___sq___easy.pdf)
-- [3.3 SQ Medium](../assets/questions/original-source/3.3_halogen_compounds___sq___medium.pdf)
-- [3.3 SQ Hard](../assets/questions/original-source/3.3_halogen_compounds___sq___hard.pdf)
+- [3.3 Choice Easy](../assets/questions/original-source/3.3_halogen_compounds_choice_easy.pdf)
+- [3.3 Choice Medium](../assets/questions/original-source/3.3_halogen_compounds_choice_medium.pdf)
+- [3.3 Choice Hard](../assets/questions/original-source/3.3_halogen_compounds_choice_hard.pdf)
+- [3.3 SQ Easy](../assets/questions/original-source/3.3_halogen_compounds_sq_easy.pdf)
+- [3.3 SQ Medium](../assets/questions/original-source/3.3_halogen_compounds_sq_medium.pdf)
+- [3.3 SQ Hard](../assets/questions/original-source/3.3_halogen_compounds_sq_hard.pdf)

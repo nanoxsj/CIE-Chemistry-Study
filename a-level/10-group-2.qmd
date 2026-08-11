@@ -1,0 +1,450 @@
+---
+title: "10 Group 2"
+subtitle: "Trends, reactions and compounds of the Group 2 metals"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+# 10 Group 2
+
+本章围绕 Group 2 metals 及其 compounds 的周期性趋势、与水/氧气/酸的反应、氢氧化物和硫酸盐溶解性，以及硝酸盐和碳酸盐的热分解展开。题目保留 AS topical past paper 的原题表述和来源编号。
+
+## Learning objectives
+
+- explain the trends in atomic radius, first ionisation energy and reactivity down Group 2;
+- compare the solubility and alkalinity of Group 2 hydroxides and sulfates;
+- write equations for reactions with oxygen, water, acids and heat;
+- explain the thermal stability of Group 2 nitrates and carbonates;
+- apply observations, formulae, mole ratios and state symbols to unfamiliar compounds.
+
+![First and second ionisation energies of Group 2 metals](../assets/notes/group2-10-rebuilt/group2-note-044.png){.note-figure fig-alt="First and second ionisation energies of beryllium, magnesium, calcium, strontium and barium"}
+
+## Key ideas
+
+- Group 2 metals have an outer configuration of <code>ns<sup>2</sup></code> and form M<sup>2+</sup> ions by losing both outer electrons.
+- Down the group: atomic radius and shielding increase; first and second ionisation energies decrease; metals react more readily with water and acids.
+- Solubility of hydroxides increases down the group, while solubility of sulfates decreases down the group.
+- Carbonates and nitrates become more thermally stable down the group because the larger M<sup>2+</sup> ions have lower polarising power.
+- A good trend explanation must state both the observed trend and the particle-level reason; do not write only “more reactive down the group”.
+
+## 10.1 Similarities - Trends in the Properties of the Group 2 Metals, Magnesium to Barium, - Their Compounds
+
+Each Group 2 atom has two electrons in its highest occupied shell. When moving from Mg to Ba, an extra electron shell is added each time. The outer electrons are therefore farther from the nucleus and are more shielded by inner electrons. Although nuclear charge increases, the increased distance and shielding dominate: the attraction between the nucleus and an outer electron is weaker.
+
+![Electron configurations and atomic radii of Group 2 metals](../assets/notes/group2-10-rebuilt/group2-note-050.png){.note-figure fig-alt="Electron configurations and relative atomic radii of beryllium, magnesium, calcium, strontium and barium"}
+
+| Trend down Group 2 | Explanation |
+|---|---|
+| atomic radius increases | an additional occupied shell is added |
+| first and second ionisation energies decrease | outer electrons are farther from the nucleus and more shielded |
+| reactivity increases | the two outer electrons are lost more easily to form M<sup>2+</sup> |
+
+The melting points are not a simple trend. Metallic bonding depends on the attraction between M<sup>2+</sup> ions and delocalised electrons, but also on ion size and crystal structure; answer from data rather than assuming a monotonic pattern.
+
+![Density trend down Group 2](../assets/notes/group2-10-rebuilt/group2-note-056.png){.note-figure fig-alt="Density values for Group 2 metals"}
+
+![Melting-point data for Group 2 metals](../assets/notes/group2-10-rebuilt/group2-note-062.png){.note-figure fig-alt="Melting-point values for Group 2 metals"}
+
+## 10.2 Reactions of Group 2 metals
+
+All the metals are reducing agents: the metal loses two electrons and is oxidised from 0 to +2. Their reactions become increasingly vigorous down the group.
+
+| Reagent | Equation / observation |
+|---|---|
+| oxygen | 2M(s) + O<sub>2</sub>(g) → 2MO(s). Magnesium burns with an intense white flame to give white MgO. |
+| cold water | Ca, Sr and Ba react: M(s) + 2H<sub>2</sub>O(l) → M(OH)<sub>2</sub>(aq) + H<sub>2</sub>(g). Hydrogen gives effervescence; the hydroxide makes the solution alkaline. |
+| water or steam with Mg | Mg reacts only very slowly with cold water. With steam: Mg(s) + H<sub>2</sub>O(g) → MgO(s) + H<sub>2</sub>(g). |
+| dilute acid | M(s) + 2H<sup>+</sup>(aq) → M<sup>2+</sup>(aq) + H<sub>2</sub>(g). The metal is oxidised and H<sup>+</sup> is reduced. |
+
+For comparisons, make the observation precise: barium reacts more vigorously and faster than calcium with cold water because Ba atoms lose their outer electrons more readily. Magnesium is also used to reduce titanium(IV) chloride in titanium extraction: TiCl<sub>4</sub> + 2Mg → Ti + 2MgCl<sub>2</sub>.
+
+## 10.3 Hydroxides, sulfates and calcium compounds
+
+The overall enthalpy change of solution depends on lattice breaking and hydration of ions. The balance changes down Group 2, giving two opposite solubility trends.
+
+| Compound family | Trend down Group 2 | Consequence to remember |
+|---|---|---|
+| M(OH)<sub>2</sub> | solubility increases | saturated Ca(OH)<sub>2</sub>, Sr(OH)<sub>2</sub> and Ba(OH)<sub>2</sub> become progressively more alkaline |
+| MSO<sub>4</sub> | solubility decreases | MgSO<sub>4</sub> is soluble; CaSO<sub>4</sub> is sparingly soluble; BaSO<sub>4</sub> is very insoluble |
+
+![Solubility and alkalinity of Group 2 hydroxides](../assets/notes/group2-10-rebuilt/group2-note-086.png){.note-figure fig-alt="Solubility and alkalinity of Group 2 hydroxides increase down the group"}
+
+![Solubility of Group 2 sulfates](../assets/notes/group2-10-rebuilt/group2-note-092.png){.note-figure fig-alt="Solubility of Group 2 sulfates decreases down the group"}
+
+The insolubility of BaSO<sub>4</sub> explains two common applications. A soluble sulfate can precipitate toxic Ba<sup>2+</sup> ions: Ba<sup>2+</sup>(aq) + SO<sub>4</sub><sup>2−</sup>(aq) → BaSO<sub>4</sub>(s). Conversely, barium sulfate itself is safe enough to swallow as a contrast medium because it is insoluble and is not absorbed significantly by the body.
+
+The lime cycle is a connected set of calcium reactions:
+
+<div class="equation-block">CaCO<sub>3</sub>(s) → CaO(s) + CO<sub>2</sub>(g) &nbsp; <em>calcination</em><br>CaO(s) + H<sub>2</sub>O(l) → Ca(OH)<sub>2</sub>(s) &nbsp; <em>slaking</em><br>Ca(OH)<sub>2</sub>(aq) + CO<sub>2</sub>(g) → CaCO<sub>3</sub>(s) + H<sub>2</sub>O(l) &nbsp; <em>carbonation</em></div>
+
+CaO and Ca(OH)<sub>2</sub> neutralise acidic soil; CaCO<sub>3</sub> is limestone/marble and is used in building materials; CaO is used in cement and glass manufacture. The neutralisation of acidic soil is OH<sup>−</sup>(aq) + H<sup>+</sup>(aq) → H<sub>2</sub>O(l).
+
+## 10.4 Carbonates and nitrates on heating
+
+All Group 2 carbonates decompose on strong heating to the oxide and carbon dioxide. All Group 2 nitrates decompose to the oxide, nitrogen dioxide and oxygen:
+
+<div class="equation-block">MCO<sub>3</sub>(s) → MO(s) + CO<sub>2</sub>(g)<br>2M(NO<sub>3</sub>)<sub>2</sub>(s) → 2MO(s) + 4NO<sub>2</sub>(g) + O<sub>2</sub>(g)</div>
+
+Thermal stability increases down the group. A small M<sup>2+</sup> ion has high charge density and strongly polarises the carbonate or nitrate ion, distorting bonds within the anion and making it easier to decompose. Larger ions such as Ba<sup>2+</sup> have lower polarising power, so their salts need more heating.
+
+Useful observations are: CO<sub>2</sub> turns limewater milky; NO<sub>2</sub> is brown; O<sub>2</sub> relights a glowing splint. State the observation and then identify the gas.
+
+## 10.5 Exam method checklist
+
+- Use an ionic equation when the question concerns the reacting ions, for example Ba<sup>2+</sup> + SO<sub>4</sub><sup>2−</sup> → BaSO<sub>4</sub>.
+- Distinguish “more alkaline saturated solution” from “stronger base”: the pH trend comes from greater solubility and hence a greater concentration of OH<sup>−</sup>.
+- For thermal stability, link smaller cation → greater polarising power → more distortion of the anion → easier decomposition.
+- In calculations, write the balanced equation first, then follow the mole ratio and only convert units at the final step.
+
+## Multiple choice questions
+
+::: {.mc-question #group2-mc-01 data-answer="B"}
+### Question 1 · 2.2 Choice Easy Q1
+
+<p>Samples of barium and calcium are added separately to beakers of cold water which contain a few drops of litmus solution. Which observations will be made with only the calcium and not with the barium?<br>1. A gas is evolved<br>2. A white suspension appears in the water<br>3. The solution turns blue</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>2 only</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1, 2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Calcium hydroxide is less soluble than barium hydroxide, so calcium gives the white suspension; both metals give hydrogen and an alkaline solution.</p></details>
+:::
+
+::: {.mc-question #group2-mc-02 data-answer="D"}
+### Question 2 · 2.2 Choice Easy Q2
+
+<p>The sketch graph shows the variation of one physical or chemical property with another for the Group 2 elements. What are the correct labels for the axes?</p>
+![Original graph extracted from the question PDF](../assets/questions/extracted/10/group2-choice-easy-q2-figure.png){.question-figure fig-alt="Original Group 2 graph"}
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>First ionisation energy / atomic number</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>First ionisation energy / atomic radius</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Atomic number / melting point</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Atomic number / mass number</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> The plotted trend follows increasing atomic number and increasing mass down Group 2.</p></details>
+:::
+
+::: {.mc-question #group2-mc-03 data-answer="A"}
+### Question 3 · 2.2 Choice Easy Q3
+
+<p>X is a Group 2 metal. It forms a hydroxide which is more soluble than calcium hydroxide. It forms a sulfate which is more soluble than barium sulfate. What could be the identity of X?<br>1. Strontium<br>2. Beryllium<br>3. Magnesium</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1, 2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Strontium hydroxide is more soluble than calcium hydroxide and strontium sulfate is more soluble than barium sulfate.</p></details>
+:::
+
+::: {.mc-question #group2-mc-04 data-answer="C"}
+### Question 4 · 2.2 Choice Easy Q4
+
+<p>The Group 1 metals have lower melting points than the Group 2 metals. Which factors result in Group 2 metals having higher melting points?<br>1. Group 1 metals have higher first ionisation energy than the corresponding Group 1 metal<br>2. There are smaller interatomic distances in the metallic lattices of Group 2 metals<br>3. More electrons are available from each Group 2 metal atom for bonding the atom into the metallic lattice</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1, 2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> The smaller distance and two delocalised electrons strengthen metallic bonding; statement 1 is false.</p></details>
+:::
+
+::: {.mc-question #group2-mc-05 data-answer="D"}
+### Question 5 · 2.2 Choice Easy Q5
+
+<p>Pieces of pure solid magnesium and calcium are burned separately with oxygen and then reacted separately with cold water. Which row correctly describes the observations?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Mg: white flame; Ca: red flame; Mg + water: rapid bubbling; Ca + water: slow bubbling</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Mg: red flame; Ca: white flame; Mg + water: rapid bubbling; Ca + water: slow bubbling</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Mg: red flame; Ca: white flame; Mg + water: slow bubbling; Ca + water: rapid bubbling</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Mg: white flame; Ca: red flame; Mg + water: slow bubbling; Ca + water: rapid bubbling</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Magnesium burns with a bright white flame, calcium gives a brick-red flame, and reactivity with water increases down the group.</p></details>
+:::
+
+::: {.mc-question #group2-mc-06 data-answer="A"}
+### Question 6 · 2.2 Choice Easy Q6
+
+<p>What happens when a piece of strontium is placed in cold water?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>A vigorous effervescence occurs.</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Bubbles of gas form slowly on the strontium.</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>The strontium floats on the surface and reacts quickly.</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>The strontium glows and a white solid is produced.</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Strontium reacts readily with cold water, producing hydrogen and soluble strontium hydroxide.</p></details>
+:::
+
+::: {.mc-question #group2-mc-07 data-answer="C"}
+### Question 7 · 2.2 Choice Easy Q7
+
+<p>When barium is burned in oxygen, what colour is the flame?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Green</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>White</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Red</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Yellow</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Barium compounds give a green flame test.</p></details>
+:::
+
+::: {.mc-question #group2-mc-08 data-answer="C"}
+### Question 8 · 2.2 Choice Easy Q8
+
+<p>Which statements about calcium oxide are correct?<br>1. It is produced when calcium nitrate is heated.<br>2. It can be reduced by heating with magnesium.<br>3. It reacts with cold water.</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1 only</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>1 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>2 and 3</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Calcium nitrate decomposes to calcium oxide, and calcium oxide reacts with water. Magnesium cannot reduce calcium oxide under these conditions.</p></details>
+:::
+
+::: {.mc-question #group2-mc-09 data-answer="A"}
+### Question 9 · 2.2 Choice Easy Q9
+
+<p>The oxides BaO, CaO, MgO and SrO all produce alkaline solutions when added to water. Which oxide produces a saturated solution with the highest pH?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>BaO</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>CaO</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>MgO</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>SrO</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> The solubility of Group 2 hydroxides increases down the group, so saturated barium hydroxide has the greatest hydroxide concentration.</p></details>
+:::
+
+::: {.mc-question #group2-mc-10 data-answer="A"}
+### Question 10 · 2.2 Choice Easy Q10
+
+<p>Rat poison needs to be insoluble in rainwater but soluble at the low pH of stomach contents. What is a suitable barium compound?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Barium carbonate</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Barium chloride</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Barium hydroxide</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Barium sulfate</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Barium carbonate is insoluble in water but reacts with acid in the stomach.</p></details>
+:::
+
+::: {.mc-question #group2-mc-11 data-answer="B"}
+### Question 11 · 2.2 Choice Medium Q1
+
+<p>In a firework, magnesium is the fuel and barium nitrate is the oxidising agent. Which solid products are produced when the firework is lit?<br>1. BaO<br>2. MgO<br>3. Mg(NO<sub>3</sub>)<sub>2</sub></p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 only</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> Barium nitrate supplies oxygen: barium oxide and magnesium oxide are the solid products.</p></details>
+:::
+
+::: {.mc-question #group2-mc-12 data-answer="A"}
+### Question 12 · 2.2 Choice Medium Q2
+
+<p>Group 2 nitrates undergo thermal decomposition: X(NO<sub>3</sub>)<sub>2</sub> → XO + 2NO<sub>2</sub> + ½O<sub>2</sub>. Which nitrate requires the highest temperature?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Barium nitrate</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Calcium nitrate</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Magnesium nitrate</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Strontium nitrate</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>A.</strong> Thermal stability increases down Group 2, so barium nitrate requires the strongest heating.</p></details>
+:::
+
+::: {.mc-question #group2-mc-13 data-answer="C"}
+### Question 13 · 2.2 Choice Medium Q3
+
+<p>The diagram shows some applications of compounds of Group 2 elements. Which numbered links are correct?</p>
+
+![Original Group 2 applications diagram](../assets/questions/extracted/10/group2-choice-medium-q3-figure.png){.question-figure fig-alt="Original Group 2 applications diagram"}
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>4 and 5 only; 1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>4 and 6 only; 1, 2 and 3</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>5 only; 1 and 3 only</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>6 only; 1 and 3 only</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Calcium carbonate is used as a building material and to adjust soil pH, while magnesium oxide is used as a refractory lining in furnaces or kilns.</p></details>
+:::
+
+::: {.mc-question #group2-mc-14 data-answer="D"}
+### Question 14 · 2.2 Choice Medium Q4
+
+<p>Which mass of solid residue is obtained from the thermal decomposition of 5.10 g of anhydrous calcium nitrate?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>0.70 g</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>0.87 g</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>1.40 g</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1.74 g</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Ca(NO<sub>3</sub>)<sub>2</sub> → CaO + 2NO<sub>2</sub> + ½O<sub>2</sub>; 5.10/164 × 56 = 1.74 g.</p></details>
+:::
+
+::: {.mc-question #group2-mc-15 data-answer="B"}
+### Question 15 · 2.2 Choice Medium Q5
+
+<p>32.3 g of anhydrous magnesium nitrate is heated until no further reaction takes place. What mass of oxygen is produced?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>8.32 g</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>3.52 g</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>12.48 g</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>19.2 g</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> One mole of Mg(NO<sub>3</sub>)<sub>2</sub> gives half a mole of O<sub>2</sub>; the calculated mass is about 3.52 g.</p></details>
+:::
+
+::: {.mc-question #group2-mc-16 data-answer="C"}
+### Question 16 · 2.2 Choice Medium Q6
+
+<p>Lime is added to damp soil followed by ammonium sulfate. Which substances are formed?<br>1. Sulfuric acid<br>2. Calcium sulfate<br>3. Ammonia</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 only</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> The alkaline lime releases ammonia from ammonium sulfate and forms calcium sulfate.</p></details>
+:::
+
+::: {.mc-question #group2-mc-17 data-answer="D"}
+### Question 17 · 2.2 Choice Medium Q7
+
+<p>As you go down Group 2, what are the trends in the properties shown?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Carbonate decomposition temperature decreases; first ionisation energy decreases</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Carbonate decomposition temperature decreases; first ionisation energy increases</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Both increase</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Carbonate decomposition temperature increases; first ionisation energy decreases</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Carbonate thermal stability increases down the group, while first ionisation energy decreases.</p></details>
+:::
+
+::: {.mc-question #group2-mc-18 data-answer="C"}
+### Question 18 · 2.2 Choice Hard Q1
+
+<p>Solids Q, R, S and T are compounds of two different Group 2 metals. A few of the uses of these are detailed below.</p>
+<p>Compound Q is used as a refractory lining material in kilns.</p>
+<p>Compound R is used as a building material. It can also be heated in a kiln to form compound S. When S is hydrated, it forms compound T, which is used agriculturally to treat soils.</p>
+<p>Which statements about these compounds are correct?</p>
+<p><strong>1.</strong> More acid is neutralised by 1.0 g of R than by 1.0 g of Q.<br><strong>2.</strong> The M<sub>r</sub> of R is greater than the M<sub>r</sub> of S by 44.0.<br><strong>3.</strong> The metallic element in S reacts with cold water more rapidly than the metallic element in Q.</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>1, 2 and 3</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>1 and 2</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>2 and 3</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>1 only</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>C.</strong> Q is MgO, R is CaCO<sub>3</sub>, S is CaO and T is Ca(OH)<sub>2</sub>; statements 2 and 3 are correct.</p></details>
+
+:::
+
+::: {.mc-question #group2-mc-19 data-answer="B"}
+### Question 19 · 2.2 Choice Hard Q2
+
+<p>An anhydrous nitrate of a Group 2 metal was thermally decomposed. 6.00 g was used, and 3.06 g of gas was produced. What is the nitrate compound?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>Beryllium nitrate</span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>Strontium nitrate</span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>Magnesium nitrate</span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Calcium nitrate</span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>B.</strong> The mass of gas matches the decomposition of strontium nitrate.</p></details>
+:::
+
+::: {.mc-question #group2-mc-20 data-answer="D"}
+### Question 20 · 2.2 Choice Hard Q3
+
+<p>A mixture of 2 Group 2 compounds, Y, was thermally decomposed. This reaction produced a white solid and only two gaseous products. One of the gaseous products relights a glowing splint. What could be the components of mixture Y?</p>
+
+<div class="mc-options"><button class="mc-choice" data-choice="A"><strong>A</strong><span>MgCl<sub>2</sub> and CaCO<sub>3</sub></span></button><button class="mc-choice" data-choice="B"><strong>B</strong><span>MgCO<sub>3</sub> and Ca(NO<sub>3</sub>)<sub>2</sub></span></button><button class="mc-choice" data-choice="C"><strong>C</strong><span>MgO and CaSO<sub>4</sub></span></button><button class="mc-choice" data-choice="D"><strong>D</strong><span>Mg(NO<sub>3</sub>)<sub>2</sub> and Ca(NO<sub>3</sub>)<sub>2</sub></span></button></div>
+<button class="check-answer">Check answer</button><p class="mc-feedback" aria-live="polite"></p>
+<details class="answer-panel"><summary>Show explanation</summary><p><strong>D.</strong> Both nitrates decompose to oxides, nitrogen dioxide and oxygen; oxygen relights a glowing splint.</p></details>
+:::
+
+## Structured questions
+
+::: {.question-card #group2-sq-01}
+### Question 1 · 2.2 SQ Easy Q1
+
+<p><strong>(a)</strong> Give the name of a Group 2 element that burns in air to give a white flame and write the balanced equation. [3 marks]</p>
+<p><strong>(b)</strong> Give the reagent and condition required for magnesium to form magnesium hydroxide and write the equation with state symbols. [3 marks]</p>
+<p><strong>(c)</strong> Calcium is added to hydrochloric acid. Give one observation and write the balanced equation with state symbols. [3 marks]</p>
+<p><strong>(d)</strong> Compare the reactions of barium with hydrochloric acid and sulfuric acid, including equations with state symbols. [5 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li><strong>(a)</strong> Magnesium (or beryllium) burns with a bright white flame: 2Mg(s) + O<sub>2</sub>(g) → 2MgO(s). The formula and balancing each earn a mark.</li><li><strong>(b)</strong> Use cold water: Mg(s) + 2H<sub>2</sub>O(l) → Mg(OH)<sub>2</sub>(s) + H<sub>2</sub>(g). Magnesium reacts slowly, and the sparingly soluble hydroxide forms a suspension.</li><li><strong>(c)</strong> Expected observation: effervescence and the metal gradually dissolves. Ca(s) + 2HCl(aq) → CaCl<sub>2</sub>(aq) + H<sub>2</sub>(g).</li><li><strong>(d)</strong> With hydrochloric acid, barium gives hydrogen and soluble barium chloride: Ba(s) + 2HCl(aq) → BaCl<sub>2</sub>(aq) + H<sub>2</sub>(g). With sulfuric acid, a white insoluble BaSO<sub>4</sub> coating forms: Ba(s) + H<sub>2</sub>SO<sub>4</sub>(aq) → BaSO<sub>4</sub>(s) + H<sub>2</sub>(g). The coating limits contact between barium and acid, so the reaction soon slows.</li></ul></details>
+:::
+
+::: {.question-card #group2-sq-02}
+### Question 2 · 2.2 SQ Easy Q2
+
+<p><strong>(a)</strong> Describe the general trends in solubility and pH of Group 2 hydroxides down the group.</p>
+<p><strong>(b)</strong> 3.71 g of Ca(OH)<sub>2</sub> is added to hydrochloric acid. Write the equation and calculate the mass of calcium chloride produced.</p>
+<p><strong>(c)</strong> Explain why effervescence stops when strontium carbonate reacts with sulfuric acid. [8 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li><strong>(a)</strong> Solubility increases down Group 2. A saturated solution therefore contains a greater concentration of OH<sup>−</sup>, so pH and alkaline strength increase down the group.</li><li><strong>(b)</strong> Ca(OH)<sub>2</sub>(s) + 2HCl(aq) → CaCl<sub>2</sub>(aq) + 2H<sub>2</sub>O(l). n[Ca(OH)<sub>2</sub>] = 3.71/74.1 = 0.0501 mol. The mole ratio to CaCl<sub>2</sub> is 1:1, so m[CaCl<sub>2</sub>] = 0.0501 × 111.0 = <strong>5.56 g</strong>.</li><li><strong>(c)</strong> SrCO<sub>3</sub>(s) + H<sub>2</sub>SO<sub>4</sub>(aq) → SrSO<sub>4</sub>(s) + CO<sub>2</sub>(g) + H<sub>2</sub>O(l). The insoluble SrSO<sub>4</sub> forms a coating on the carbonate, preventing acid from reaching the remaining solid even though reactants remain.</li></ul></details>
+:::
+
+::: {.question-card #group2-sq-medium-q1}
+### Question 3 · 2.2 SQ Medium Q1
+
+<p><strong>(a)</strong> State and explain the trend in atomic radius from beryllium to strontium.</p>
+<p><strong>(b)</strong> Write the equation for magnesium burning in oxygen and state an observation.</p>
+<p><strong>(c)</strong> Write equations for formation of magnesium hydroxide and calcium hydroxide from the metals, then give an approximate pH and one use for each hydroxide.</p>
+<p><strong>(d)</strong> Compare observations when calcium and barium are added separately to water. [12 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li><strong>(a)</strong> Atomic radius increases from Be to Sr. Each step adds an electron shell; increased shielding and greater distance from the nucleus outweigh the increase in nuclear charge.</li><li><strong>(b)</strong> 2Mg(s) + O<sub>2</sub>(g) → 2MgO(s). Magnesium burns with an intense bright white light and produces a white solid.</li><li><strong>(c)</strong> Mg(s) + 2H<sub>2</sub>O(l) → Mg(OH)<sub>2</sub>(s) + H<sub>2</sub>(g); Ca(s) + 2H<sub>2</sub>O(l) → Ca(OH)<sub>2</sub>(aq) + H<sub>2</sub>(g). Both are alkaline; calcium hydroxide gives the higher pH. Mg(OH)<sub>2</sub> is used as an antacid, while Ca(OH)<sub>2</sub> is used to neutralise acidic soil.</li><li><strong>(d)</strong> Both produce effervescence and an alkaline solution. Barium reacts more vigorously: hydrogen is evolved faster and the metal may move/fizz rapidly. Calcium reacts more slowly and can form a white suspension of Ca(OH)<sub>2</sub>.</li></ul></details>
+:::
+
+::: {.question-card #group2-sq-medium-q2}
+### Question 4 · 2.2 SQ Medium Q2
+
+<p><strong>(a)</strong> Write the equation for barium with cold water.</p>
+<p><strong>(b)</strong> Explain why saturated barium hydroxide is more alkaline than saturated magnesium hydroxide.</p>
+<p><strong>(c)</strong> Write ionic equations for a carbonate test using hydrochloric acid and limewater.</p>
+<p><strong>(d)</strong> Calculate the minimum mass of Mg(OH)<sub>2</sub> needed to neutralise 0.210 mol HCl. [8 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li><strong>(a)</strong> Ba(s) + 2H<sub>2</sub>O(l) → Ba(OH)<sub>2</sub>(aq) + H<sub>2</sub>(g).</li><li><strong>(b)</strong> Ba(OH)<sub>2</sub> is much more soluble than Mg(OH)<sub>2</sub>. Its saturated solution therefore contains more OH<sup>−</sup> ions per unit volume and has the higher pH.</li><li><strong>(c)</strong> Carbonate test: CO<sub>3</sub><sup>2−</sup>(aq) + 2H<sup>+</sup>(aq) → CO<sub>2</sub>(g) + H<sub>2</sub>O(l); limewater test: CO<sub>2</sub>(g) + Ca(OH)<sub>2</sub>(aq) → CaCO<sub>3</sub>(s) + H<sub>2</sub>O(l). The observation is effervescence followed by cloudy limewater.</li><li><strong>(d)</strong> Mg(OH)<sub>2</sub> + 2HCl → MgCl<sub>2</sub> + 2H<sub>2</sub>O. Thus n[Mg(OH)<sub>2</sub>] = 0.210/2 = 0.105 mol, and m = 0.105 × 58.3 = <strong>6.12 g</strong> (or 6.09 g with the data-booklet M<sub>r</sub>).</li></ul></details>
+:::
+
+::: {.question-card #group2-sq-medium-q3}
+### Question 5 · 2.2 SQ Medium Q3
+
+<p><strong>(a)</strong> Calcium carbonate is an insoluble solid that can be used to lower the acidity of lake water. Explain why the rate of this reaction decreases when the water temperature falls. [3 marks]</p>
+<p><strong>(b)</strong> Calcium carbonate reacts with lactic acid to form calcium lactate. State the two other products of the reaction. [1 mark]</p>
+<p><strong>(c)</strong> Magnesium can be used to extract titanium.</p>
+<p><strong>(i)</strong> Write an equation to show how magnesium is used as the reducing agent in the reaction of magnesium with titanium(IV) chloride.</p>
+<p><strong>(ii)</strong> Explain, in terms of oxidation numbers, why magnesium is the reducing agent.</p>
+<p><strong>(iii)</strong> The excess magnesium used in this extraction is removed by reacting it with dilute sulfuric acid to form magnesium sulfate. Explain why the magnesium sulfate formed is easy to separate from the titanium. [4 marks]</p>
+<p><strong>(d)</strong> Strontium metal is used in the manufacture of alloys. Explain why strontium has a higher melting point than barium. [2 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li><strong>Rate:</strong> when temperature falls, particles have lower average kinetic energy. Fewer collisions have energy greater than or equal to the activation energy, so the successful-collision frequency and reaction rate decrease.</li><li><strong>Products:</strong> calcium lactate, water and carbon dioxide. The carbonate ion is converted into CO<sub>2</sub>, giving effervescence.</li><li><strong>Extraction:</strong> 2Mg(s) + TiCl<sub>4</sub>(l) → 2MgCl<sub>2</sub>(l) + Ti(s). Mg changes from 0 to +2 and is oxidised; Ti changes from +4 to 0 and is reduced, so Mg is the reducing agent. MgCl<sub>2</sub> is soluble in dilute sulfuric acid/water while titanium is a solid, so the products can be separated by filtration.</li><li><strong>Melting point:</strong> Sr atoms are smaller than Ba atoms, so the metallic attraction/charge density is greater and more energy is needed to melt strontium.</li></ul></details>
+:::
+
+::: {.question-card #group2-sq-medium-q4}
+### Question 6 · 2.2 SQ Medium Q4
+
+<p><strong>(a)</strong> Calcium carbonate, calcium oxide and calcium hydroxide are connected by the lime cycle. Write three balanced chemical equations to demonstrate the reactions that occur in the lime cycle. Include state symbols. [4 marks]</p>
+<p><strong>(b)</strong></p>
+<p><strong>(i)</strong> Explain how solid calcium hydroxide increases the pH of acidic soil. [3 marks]</p>
+<p><strong>(ii)</strong> Write an ionic equation to show the reaction that causes the pH of the soil to increase. [1 mark]</p>
+<p><strong>(c)</strong> When calcium carbonate is heated strongly it undergoes a process called calcination.</p>
+<p><strong>(i)</strong> What is the chemical reaction that is described by calcination?</p>
+<p><strong>(ii)</strong> Explain why strontium carbonate has greater thermal stability than calcium carbonate. [4 marks]</p>
+<p><strong>(d)</strong> A sample of hydrated calcium nitrate crystals was gently heated in a test tube. With further heating, a mixture of two gases was evolved.</p>
+<p><strong>(i)</strong> Identify the coloured gas and give its colour.</p>
+<p><strong>(ii)</strong> Identify and describe a test, including the result, for the colourless gas. [2 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li><strong>Lime cycle:</strong> CaCO<sub>3</sub>(s) → CaO(s) + CO<sub>2</sub>(g); CaO(s) + H<sub>2</sub>O(l) → Ca(OH)<sub>2</sub>(s); Ca(OH)<sub>2</sub>(aq) + CO<sub>2</sub>(g) → CaCO<sub>3</sub>(s) + H<sub>2</sub>O(l).</li><li><strong>Soil:</strong> Ca(OH)<sub>2</sub> dissolves to provide OH<sup>−</sup>, which neutralises acidic H<sup>+</sup>: H<sup>+</sup>(aq) + OH<sup>−</sup>(aq) → H<sub>2</sub>O(l).</li><li><strong>Calcination:</strong> thermal decomposition by strong heating. SrCO<sub>3</sub> is more stable because the larger Sr<sup>2+</sup> ion has lower charge density and polarises CO<sub>3</sub><sup>2−</sup> less than Ca<sup>2+</sup>.</li><li><strong>Gas tests:</strong> NO<sub>2</sub> is the coloured brown gas. O<sub>2</sub> is colourless and relights a glowing splint.</li></ul></details>
+:::
+
+::: {.question-card #group2-sq-medium-q5}
+### Question 7 · 2.2 SQ Medium Q5
+
+<p><strong>(a)</strong> Explain why the first ionisation energy of calcium is greater than that of strontium. [2 marks]</p>
+<p><strong>(b)</strong> Strontium chloride is used in toothpaste for sensitive teeth.</p>
+<p><strong>(i)</strong> Write a balanced chemical equation to show the formation of strontium chloride from strontium and hydrochloric acid. Include state symbols.</p>
+<p><strong>(ii)</strong> Suggest why this reaction is not used to produce strontium chloride on an industrial scale. [3 marks]</p>
+<p><strong>(c)</strong> Magnesium sulfate solution can be given as first aid to someone who has accidentally swallowed barium chloride. Explain, with the help of an ionic equation, why drinking magnesium sulfate solution is an effective treatment for barium poisoning. [2 marks]</p>
+<p><strong>(d)</strong> Milk of magnesia, Mg(OH)<sub>2</sub>, and calcium carbonate can both be used in the effective relief of acid indigestion. By comparing the chemical equations for their reactions with hydrochloric acid, justify which remedy might cause a person taking it to have wind. [2 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li><strong>(a)</strong> Calcium's outer electron is in a shell closer to the nucleus and experiences less shielding than strontium's. It is therefore held more strongly, so more energy is required: IE(Ca) &gt; IE(Sr).</li><li><strong>(b)</strong> Sr(s) + 2HCl(aq) → SrCl<sub>2</sub>(aq) + H<sub>2</sub>(g). This is not an industrial route because the metal is expensive/reactive, the reaction produces flammable hydrogen and the process is difficult to control at scale.</li><li><strong>(c)</strong> Ba<sup>2+</sup>(aq) + SO<sub>4</sub><sup>2−</sup>(aq) → BaSO<sub>4</sub>(s). Insoluble BaSO<sub>4</sub> removes soluble toxic Ba<sup>2+</sup> from solution, making magnesium sulfate an effective treatment.</li><li><strong>(d)</strong> Mg(OH)<sub>2</sub> + 2HCl → MgCl<sub>2</sub> + 2H<sub>2</sub>O, whereas CaCO<sub>3</sub> + 2HCl → CaCl<sub>2</sub> + H<sub>2</sub>O + CO<sub>2</sub>. Calcium carbonate can cause wind because CO<sub>2</sub> gas is produced.</li></ul></details>
+:::
+
+::: {.question-card #group2-sq-hard-q1}
+### Question 8 · 2.2 SQ Hard Q1
+
+<p>This question is about Group 2 elements.</p>
+<p>Barium is silvery white but blackens when exposed to air. This is due to the formation of barium nitride and one other compound. Write balanced symbol equations for the two separate reactions. Include state symbols. [2 marks]</p>
+<p>Barium can also react with water. A student reacted 0.20 g of barium with 250 cm<sup>3</sup> of water.</p>
+<p><strong>(a)</strong> Calculate the volume of gas, in cm<sup>3</sup>, produced in this reaction under standard temperature and pressure.</p>
+<p><strong>(b)</strong> Calculate the concentration, in mol dm<sup>−3</sup>, of the barium hydroxide solution produced. [4 marks]</p>
+<p><strong>(c)</strong> Describe and explain the trend in the reactivity of Group 2 elements with water. [5 marks]</p>
+<p><strong>(d)</strong> Explain why the reaction of calcium with water is a redox reaction. Use oxidation numbers in your answer. [2 marks]</p>
+<p><strong>(e)</strong> The trend in solubility and strength as a base can also be observed going down Group 2. Explain how these two trends are connected. [3 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>2Ba(s) + O<sub>2</sub>(g) → 2BaO(s), and 3Ba(s) + N<sub>2</sub>(g) → Ba<sub>3</sub>N<sub>2</sub>(s).</li><li>Ba(s) + 2H<sub>2</sub>O(l) → Ba(OH)<sub>2</sub>(aq) + H<sub>2</sub>(g). n(Ba) = 0.20/137.3 = 1.46 × 10<sup>−3</sup> mol. The ratio Ba:H<sub>2</sub> is 1:1, so V(H<sub>2</sub>) = 1.46 × 10<sup>−3</sup> × 24 000 = <strong>35.0 cm<sup>3</sup></strong>. n[Ba(OH)<sub>2</sub>] = 1.46 × 10<sup>−3</sup> mol and c = 0.00146/0.250 = <strong>0.00584 mol dm<sup>−3</sup></strong>.</li><li>Reactivity increases down the group. Atomic radius and shielding increase, so the outer electrons are less strongly attracted and are removed more readily.</li><li>Ca changes from oxidation number 0 to +2 and is oxidised. Hydrogen changes from +1 in water to 0 in H<sub>2</sub> and is reduced; oxidation and reduction occur together.</li><li>Solubility of the hydroxides increases down the group. More hydroxide dissolves, producing a higher OH<sup>−</sup> concentration and therefore a stronger alkaline solution.</li></ul></details>
+:::
+
+::: {.question-card #group2-sq-hard-q2}
+### Question 9 · 2.2 SQ Hard Q2
+
+<p>Group 2 hydroxides, M(OH)<sub>2</sub>, can be used to neutralise acids. Samples of calcium, strontium and barium are reacted with water to form their hydroxides. The resulting solutions are then filtered to collect the precipitates.</p>
+<p><strong>(a)</strong> Explain the trend in the expected mass for the precipitates.</p>
+<p><strong>(b)</strong> A student determined that a 50 cm<sup>3</sup> solution of an unknown Group 2 metal hydroxide contained 802 mg of the metal hydroxide. Identify the metal hydroxide in the unknown sample. Show your working. [2 marks]</p>
+<p><strong>(c)</strong> Magnesium hydroxide reacts with sulfuric acid. Write the balanced symbol equation, including state symbols.</p>
+<p><strong>(d)</strong> Barium hydroxide also reacts with sulfuric acid. State any differences in the observations, if any, between the reaction of magnesium hydroxide with sulfuric acid and barium hydroxide with sulfuric acid. Explain your answer. [5 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>Hydroxide solubility increases from calcium to barium, so the mass of undissolved precipitate decreases down the group.</li><li>802 mg in 50 cm<sup>3</sup> = 0.802/0.050 = 16.04 g dm<sup>−3</sup>. Comparing with the data, this identifies strontium hydroxide.</li><li>Mg(OH)<sub>2</sub>(s) + H<sub>2</sub>SO<sub>4</sub>(aq) → MgSO<sub>4</sub>(aq) + 2H<sub>2</sub>O(l).</li><li>With barium hydroxide, a white precipitate of BaSO<sub>4</sub> forms: Ba(OH)<sub>2</sub>(aq) + H<sub>2</sub>SO<sub>4</sub>(aq) → BaSO<sub>4</sub>(s) + 2H<sub>2</sub>O(l). Magnesium sulfate remains soluble, so no persistent sulfate precipitate is seen in the magnesium reaction.</li></ul></details>
+:::
+
+::: {.question-card #group2-sq-hard-q3}
+### Question 10 · 2.2 SQ Hard Q3
+
+<p>This question is about Group 2 compounds.</p>
+<p><strong>(a)</strong> Write an equation showing the thermal decomposition of calcium nitrate, Ca(NO<sub>3</sub>)<sub>2</sub>.</p>
+<p><strong>(b)</strong> State and explain how the thermal stabilities of the nitrates vary down Group 2.</p>
+<p><strong>(c)</strong> Predict what you would see if a sample of lithium nitrate was heated. [5 marks]</p>
+<p>The nitrates of calcium, strontium or barium are often added to firework mixtures to produce red or green flames. Calculate the volume of gas given off at room temperature and pressure when a 10.0 g sample of the mixture decomposes. Show your working. [3 marks]</p>
+<p>One of the major ores of magnesium is dolomite, CaMg(CO<sub>3</sub>)<sub>2</sub>. Calculate the percentage loss in mass when a sample of dolomite is heated at a high temperature until the reaction has finished. Show your working. [3 marks]</p>
+
+<details class="answer-panel"><summary>Show mark scheme / model answer</summary><ul><li>2Ca(NO<sub>3</sub>)<sub>2</sub>(s) → 2CaO(s) + 4NO<sub>2</sub>(g) + O<sub>2</sub>(g).</li><li>Thermal stability increases down Group 2 because larger M<sup>2+</sup> ions have lower charge density and polarise nitrate ions less.</li><li>Lithium nitrate gives lithium oxide, nitrogen dioxide and oxygen on heating.</li><li>For the firework, n[Sr(NO<sub>3</sub>)<sub>2</sub>] = 10.0/211.6 = 0.0473 mol. The original equation gives four moles of gas per mole of mixture, so n(gas) = 0.189 mol and V = 0.189 × 24.0 = <strong>4.54 dm<sup>3</sup></strong> at room conditions.</li><li>CaMg(CO<sub>3</sub>)<sub>2</sub> → CaO + MgO + 2CO<sub>2</sub>. M<sub>r</sub> = 184.4 and mass of CO<sub>2</sub> lost = 88.0; percentage loss = 88.0/184.4 × 100 = <strong>47.7%</strong>.</li></ul></details>
+:::
+
+## Original question PDFs
+
+- [2.2 Group 2 — Choice — Easy](../assets/questions/original-source/2.2_group_2___choice___easy.pdf)
+- [2.2 Group 2 — Choice — Medium](../assets/questions/original-source/2.2_group_2___choice___medium.pdf)
+- [2.2 Group 2 — Choice — Hard](../assets/questions/original-source/2.2_group_2___choice___hard.pdf)
+- [2.2 Group 2 — SQ — Easy](../assets/questions/original-source/2.2_group_2___sq___easy.pdf)
+- [2.2 Group 2 — SQ — Medium](../assets/questions/original-source/2.2_group_2___sq___medium.pdf)
+- [2.2 Group 2 — SQ — Hard](../assets/questions/original-source/2.2_group_2___sq___hard.pdf)
+
+## Original note PDF
+
+- [10.1 Similarities - Trends in the Properties of the Group 2 Metals, Magnesium to Barium, - Their Compounds](../assets/notes/group2-10-rebuilt/10.1_group2_note.pdf)

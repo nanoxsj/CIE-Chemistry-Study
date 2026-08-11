@@ -7,6 +7,120 @@ subtitle: "2025–2027 syllabus · 9701"
 
 ## 已完成内容
 
+## AS Level
+
+::: {.topic-card}
+### [1 Atomic structure](a-level/1-atomic-structure.qmd)
+
+- Subatomic particles、isotopes、electronic structure、orbitals、first and successive ionisation energies
+- 20 道 Multiple Choice Questions 与 10 道 Structured Questions
+:::
+
+::: {.topic-card}
+### [2 Atoms, molecules and stoichiometry](a-level/2-atoms-molecules-stoichiometry.qmd)
+
+- Relative masses、the mole、formulae、reacting masses、solutions 与 gas volumes
+- 20 道 Multiple Choice Questions 与 10 道 Structured Questions
+:::
+
+::: {.topic-card}
+### [3 Chemical bonding](a-level/3-chemical-bonding.qmd)
+
+- Electronegativity、ionic/metallic/covalent/coordinate bonding、shapes、intermolecular forces 与 dot-and-cross diagrams
+- 40 道 Multiple Choice Questions 与 20 道 Structured Questions
+:::
+
+::: {.topic-card}
+### [4 States of matter](a-level/4-states-of-matter.qmd)
+
+- Particle model、solid structures、state changes、ideal gases、real gases 与 $pV=nRT$
+- 20 道 Multiple Choice Questions 与 10 道 Structured Questions
+:::
+
+::: {.topic-card}
+### [5 Chemical energetics](a-level/5-chemical-energetics.qmd)
+
+- Energy changes、calorimetry、bond enthalpy 与 Hess’ law
+- 20 道 Multiple Choice Questions 与 10 道 Structured Questions
+:::
+
+::: {.topic-card}
+### [6 Electrochemistry](a-level/6-electrochemistry.qmd)
+
+- Oxidation numbers、redox reactions、disproportionation、halogen displacement 与 oxidising/reducing agents
+- 20 道 Multiple Choice Questions 与 10 道 Structured Questions
+:::
+
+::: {.topic-card}
+### [7 Equilibria](a-level/7-equilibria.qmd)
+
+- Dynamic equilibrium、Le Chatelier’s principle、$K_c$、$K_p$ 与 acid–base titrations
+- 20 道 Multiple Choice Questions 与 10 道 Structured Questions
+:::
+
+::: {.topic-card}
+### [8 Reaction kinetics](a-level/8-reaction-kinetics.qmd)
+
+- Rates、collision theory、Maxwell–Boltzmann distributions、energy profiles 与 catalysts
+- 20 道 Multiple Choice Questions 与 10 道 Structured Questions
+:::
+
+::: {.topic-card}
+### [9 The Periodic Table: chemical periodicity](a-level/9-periodic-table-chemical-periodicity.qmd)
+
+- Atomic radius、first ionisation energy、electronegativity、Period 3 structures、oxides 与 chlorides
+- 20 道 Multiple Choice Questions 与 10 道 Structured Questions
+:::
+
+::: {.topic-card}
+### [10 Group 2](a-level/10-group-2.qmd)
+
+- Group 2 trends、hydroxides、sulfates、nitrates、carbonates 与 reactions
+- 20 道 Multiple Choice Questions 与 10 道 Structured Questions；原题 PDF 放在页面末尾
+:::
+
+::: {.topic-card}
+### [11 Group 17](a-level/11-group-17.qmd)
+
+- Halogen trends、halide tests、displacement、disproportionation 与 hydrogen halides
+- 20 道 Multiple Choice Questions 与 10 道 Structured Questions；原题 PDF 放在页面末尾
+:::
+
+::: {.topic-card}
+### [12 Nitrogen and sulfur](a-level/12-nitrogen-and-sulfur.qmd)
+
+- Ammonia、nitrogen oxides、catalytic converters、PAN、photochemical smog 与 acid rain
+- 20 道 Multiple Choice Questions 与 10 道 Structured Questions；原题 PDF 放在页面末尾
+:::
+
+::: {.topic-card}
+### [13 An introduction to AS Level organic chemistry](a-level/13-introduction-to-as-organic-chemistry.qmd)
+
+- Formulae、functional groups、nomenclature、organic reaction mechanisms、bonding 与 isomerism
+- 20 道 Multiple Choice Questions 与 10 道 Structured Questions；原题 PDF 放在页面末尾
+:::
+
+::: {.topic-card}
+### [14 Hydrocarbons](a-level/14-hydrocarbons.qmd)
+
+- Alkanes、alkenes、cracking、combustion、catalytic converters 与 addition polymerisation
+- 20 道 Multiple Choice Questions 与 10 道 Structured Questions；原题 PDF 放在页面末尾
+:::
+
+::: {.topic-card}
+### [15 Halogen compounds](a-level/15-halogen-compounds.qmd)
+
+- Halogenoalkanes、nucleophilic substitution、hydrolysis、CFCs 与 ozone depletion
+- 20 道 Multiple Choice Questions 与 10 道 Structured Questions；原题 PDF 放在页面末尾
+:::
+
+::: {.topic-card}
+### [16 Hydroxy compounds](a-level/16-hydroxy-compounds.qmd)
+
+- AS 3.4 Alcohols and hydroxy compounds：alcohol classification、solubility、reactions、oxidation、dehydration、esterification、optical isomerism 与 triiodomethane test
+- 20 道 Multiple Choice Questions 与 10 道 Structured Questions；题目保持原文，可独立提取的题图单独保留
+:::
+
 ::: {.topic-card}
 ### [23 Chemical energetics](a-level/23-chemical-energetics.qmd)
 
