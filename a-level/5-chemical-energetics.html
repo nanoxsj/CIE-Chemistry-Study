@@ -405,15 +405,15 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
   <li><a href="#key-ideas" id="toc-key-ideas" class="nav-link" data-scroll-target="#key-ideas">Key ideas</a></li>
-  <li><a href="#energy-changes-in-reactions" id="toc-energy-changes-in-reactions" class="nav-link" data-scroll-target="#energy-changes-in-reactions">5.1 Energy changes in reactions</a>
+  <li><a href="#enthalpy-change-δh" id="toc-enthalpy-change-δh" class="nav-link" data-scroll-target="#enthalpy-change-δh">5.1 Enthalpy Change, ΔH</a>
   <ul class="collapse">
   <li><a href="#exothermic-and-endothermic-changes" id="toc-exothermic-and-endothermic-changes" class="nav-link" data-scroll-target="#exothermic-and-endothermic-changes">Exothermic and endothermic changes</a></li>
   <li><a href="#reaction-profiles" id="toc-reaction-profiles" class="nav-link" data-scroll-target="#reaction-profiles">Reaction profiles</a></li>
   <li><a href="#standard-enthalpy-changes" id="toc-standard-enthalpy-changes" class="nav-link" data-scroll-target="#standard-enthalpy-changes">Standard enthalpy changes</a></li>
+  <li><a href="#calorimetry" id="toc-calorimetry" class="nav-link" data-scroll-target="#calorimetry">Calorimetry</a></li>
+  <li><a href="#bond-enthalpy" id="toc-bond-enthalpy" class="nav-link" data-scroll-target="#bond-enthalpy">Bond enthalpy</a></li>
   </ul></li>
-  <li><a href="#calorimetry" id="toc-calorimetry" class="nav-link" data-scroll-target="#calorimetry">5.2 Calorimetry</a></li>
-  <li><a href="#bond-enthalpy" id="toc-bond-enthalpy" class="nav-link" data-scroll-target="#bond-enthalpy">5.3 Bond enthalpy</a></li>
-  <li><a href="#hess-law" id="toc-hess-law" class="nav-link" data-scroll-target="#hess-law">5.4 Hess’ law</a></li>
+  <li><a href="#hesss-law" id="toc-hesss-law" class="nav-link" data-scroll-target="#hesss-law">5.2 Hess’s Law</a></li>
   <li><a href="#chapter-checklist" id="toc-chapter-checklist" class="nav-link" data-scroll-target="#chapter-checklist">Chapter checklist</a></li>
   <li><a href="#multiple-choice-questions" id="toc-multiple-choice-questions" class="nav-link" data-scroll-target="#multiple-choice-questions">Multiple choice questions</a>
   <ul class="collapse">
@@ -458,6 +458,7 @@ window.Quarto = {
   <li><a href="#example-10-hydrogenation-and-polymerisation-of-propene-1.5-sq-hard-q3" id="toc-example-10-hydrogenation-and-polymerisation-of-propene-1.5-sq-hard-q3" class="nav-link" data-scroll-target="#example-10-hydrogenation-and-polymerisation-of-propene-1.5-sq-hard-q3">Example 10 · Hydrogenation and polymerisation of propene · 1.5 SQ Hard Q3</a></li>
   </ul></li>
   <li><a href="#original-question-pdfs" id="toc-original-question-pdfs" class="nav-link" data-scroll-target="#original-question-pdfs">Original question PDFs</a></li>
+  <li><a href="#original-note-pdfs" id="toc-original-note-pdfs" class="nav-link" data-scroll-target="#original-note-pdfs">Original note PDFs</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -509,13 +510,25 @@ window.Quarto = {
 <li>Hess cycles are sign-and-coefficient exercises: reverse an equation, reverse ΔH; multiply an equation, multiply ΔH.</li>
 </ul>
 </section>
-<section id="energy-changes-in-reactions" class="level2">
-<h2 class="anchored" data-anchor-id="energy-changes-in-reactions">5.1 Energy changes in reactions</h2>
+<section id="enthalpy-change-δh" class="level2">
+<h2 class="anchored" data-anchor-id="enthalpy-change-δh">5.1 Enthalpy Change, ΔH</h2>
 <section id="exothermic-and-endothermic-changes" class="level3 study-card">
 <h3 class="anchored" data-anchor-id="exothermic-and-endothermic-changes">Exothermic and endothermic changes</h3>
 <p>An <strong>exothermic</strong> reaction transfers energy from the reacting system to the surroundings. The surroundings warm and <span class="math inline">\(ΔH\)</span> is negative. Combustion and most strong acid–alkali neutralisations are exothermic.</p>
 <p>An <strong>endothermic</strong> reaction takes in energy from the surroundings. The surroundings cool and <span class="math inline">\(ΔH\)</span> is positive. Bond breaking is endothermic; bond making is exothermic.</p>
 </section>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/energetics-5-rebuilt/energetics-5-1-note-008.png" class="note-figure img-fluid figure-img" alt="Energy level diagram for an exothermic reaction"></p>
+<figcaption>Exothermic energy change</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/energetics-5-rebuilt/energetics-5-1-note-025.png" class="note-figure img-fluid figure-img" alt="Reaction profile showing activation energy and enthalpy change"></p>
+<figcaption>Reaction profile and activation energy</figcaption>
+</figure>
+</div>
 <section id="reaction-profiles" class="level3 formula-panel">
 <h3 class="anchored" data-anchor-id="reaction-profiles">Reaction profiles</h3>
 <p>On an energy profile, the vertical difference between reactants and products is the enthalpy change:</p>
@@ -529,9 +542,8 @@ window.Quarto = {
 <p>The standard enthalpy change of neutralisation, <span class="math inline">\(ΔH_{neut}^\ominus\)</span>, is the enthalpy change when one mole of water is formed by reaction between an acid and an alkali under standard conditions. Standard conditions here are <span class="math inline">\(298\ \mathrm{K}\)</span> and <span class="math inline">\(101\ \mathrm{kPa}\)</span>.</p>
 </section>
 <p>Elements in their standard states have <span class="math inline">\(ΔH_f^\ominus=0\)</span>, for example C(graphite), H<sub>2</sub>(g) and O<sub>2</sub>(g). Do not use an allotrope or an incorrect state: diamond is not the standard state of carbon, and H<sub>2</sub>O(l) and H<sub>2</sub>O(g) have different enthalpies of formation.</p>
-</section>
-<section id="calorimetry" class="level2">
-<h2 class="anchored" data-anchor-id="calorimetry">5.2 Calorimetry</h2>
+<section id="calorimetry" class="level3">
+<h3 class="anchored" data-anchor-id="calorimetry">Calorimetry</h3>
 <p>The heat transferred to a solution is approximated by:</p>
 <p><span class="math display">\[q=mc\Delta T\]</span></p>
 <p>where <span class="math inline">\(q\)</span> is in J, <span class="math inline">\(m\)</span> is the mass of solution in g, <span class="math inline">\(c\)</span> is the specific heat capacity in <span class="math inline">\(\mathrm{J\ g^{-1}\ K^{-1}}\)</span>, and <span class="math inline">\(\Delta T\)</span> is the temperature change. For dilute aqueous solutions, <span class="math inline">\(1\ \mathrm{cm^3}\)</span> is usually taken as <span class="math inline">\(1\ \mathrm{g}\)</span>.</p>
@@ -552,21 +564,34 @@ window.Quarto = {
 <p>Experimental values are often less exothermic than standard values because heat is lost to the surroundings, combustion may be incomplete, some heat warms the apparatus, and the reactants may not be in their standard states. Insulation, a lid, stirring, a copper spiral and complete combustion reduce these errors.</p>
 <p>In calculations, the solution gains <span class="math inline">\(q=mcΔT\)</span>; the reacting system loses the same magnitude of energy in an exothermic reaction. Divide by the moles of the species named in the definition, such as moles of water formed for neutralisation or moles of fuel burned for combustion.</p>
 </section>
-<section id="bond-enthalpy" class="level2">
-<h2 class="anchored" data-anchor-id="bond-enthalpy">5.3 Bond enthalpy</h2>
+<section id="bond-enthalpy" class="level3">
+<h3 class="anchored" data-anchor-id="bond-enthalpy">Bond enthalpy</h3>
 <p>The <strong>average bond enthalpy</strong> is the energy needed to break one mole of a particular type of bond in gaseous molecules, averaged over a range of compounds. It is positive because bond breaking requires energy.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/energetics-5-rebuilt/energetics-5-1-note-071.png" class="note-figure img-fluid figure-img" alt="Bond breaking absorbs energy and bond making releases energy"></p>
+<figcaption>Bond breaking and bond making</figcaption>
+</figure>
+</div>
 <p>Use:</p>
 <p><span class="math display">\[\Delta H_r^\ominus=\sum E(\text{bonds broken})-\sum E(\text{bonds formed})\]</span></p>
 <p>Count every bond in the balanced equation. The answer is an estimate because average bond enthalpies are used; the exact bond strength depends on the molecule.</p>
 <p>Write the balanced equation and draw/display the bonds before calculating. Break all bonds in the reactants, form all bonds in the products, then use broken − formed. Bond enthalpy calculations are especially unreliable when a product is not gaseous, because average bond enthalpies refer to gaseous molecules.</p>
 </section>
-<section id="hess-law" class="level2">
-<h2 class="anchored" data-anchor-id="hess-law">5.4 Hess’ law</h2>
+</section>
+<section id="hesss-law" class="level2">
+<h2 class="anchored" data-anchor-id="hesss-law">5.2 Hess’s Law</h2>
 <p>Hess’ law states that the overall enthalpy change is independent of the route taken between the same initial and final states. Therefore, equations may be reversed and multiplied, provided their enthalpy changes are reversed and multiplied in the same way.</p>
 <p>For formation data:</p>
 <p><span class="math display">\[\Delta H_r^\ominus=\sum \Delta H_f^\ominus(\text{products})-\sum \Delta H_f^\ominus(\text{reactants})\]</span></p>
 <p>For combustion data, construct a cycle in which both the reactants and products burn to the same final products, usually <span class="math inline">\(\ce{CO2(g)}\)</span> and <span class="math inline">\(\ce{H2O(l)}\)</span>. Keep coefficients, state symbols and signs consistent.</p>
 <p>Before calculating, mark the start and end of the required equation. Follow any alternative route with arrows: moving against an arrow reverses the sign of ΔH. This prevents the most common Hess-law error, which is combining correct numerical values with the wrong signs.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/notes/energetics-5-rebuilt/energetics-5-2-note-004.png" class="note-figure img-fluid figure-img" alt="Direct and indirect routes between the same initial and final states"></p>
+<figcaption>Hess’s law routes</figcaption>
+</figure>
+</div>
 <div class="worked-example">
 <p><span class="we-tag">Worked example · Formation from combustion data</span></p>
 <section id="propanol" class="level3">
@@ -1613,12 +1638,19 @@ Show mark scheme / model answer
 <section id="original-question-pdfs" class="level2">
 <h2 class="anchored" data-anchor-id="original-question-pdfs">Original question PDFs</h2>
 <ul>
-<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/chemical-energetics/1.5-chemical-energetics-choice-easy.pdf">1.5 Chemical Energetics - Choice - Easy</a></li>
-<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/chemical-energetics/1.5-chemical-energetics-choice-medium.pdf">1.5 Chemical Energetics - Choice - Medium</a></li>
-<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/chemical-energetics/1.5-chemical-energetics-choice-hard.pdf">1.5 Chemical Energetics - Choice - Hard</a></li>
-<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/chemical-energetics/1.5-chemical-energetics-sq-easy.pdf">1.5 Chemical Energetics - Structured Questions - Easy</a></li>
-<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/chemical-energetics/1.5-chemical-energetics-sq-medium.pdf">1.5 Chemical Energetics - Structured Questions - Medium</a></li>
-<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/resources/original-papers/chemical-energetics/1.5-chemical-energetics-sq-hard.pdf">1.5 Chemical Energetics - Structured Questions - Hard</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.5_chemical_energetics_choice_easy.pdf">1.5 Chemical Energetics - Choice - Easy</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.5_chemical_energetics_choice_medium.pdf">1.5 Chemical Energetics - Choice - Medium</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.5_chemical_energetics_choice_hard.pdf">1.5 Chemical Energetics - Choice - Hard</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.5_chemical_energetics_sq_easy.pdf">1.5 Chemical Energetics - Structured Questions - Easy</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.5_chemical_energetics_sq_medium.pdf">1.5 Chemical Energetics - Structured Questions - Medium</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.5_chemical_energetics_sq_hard.pdf">1.5 Chemical Energetics - Structured Questions - Hard</a></li>
+</ul>
+</section>
+<section id="original-note-pdfs" class="level2">
+<h2 class="anchored" data-anchor-id="original-note-pdfs">Original note PDFs</h2>
+<ul>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/notes/energetics-5-rebuilt/5.1_enthalpy_change.pdf">5.1 Enthalpy Change, ΔH</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/notes/energetics-5-rebuilt/5.2_hess_law.pdf">5.2 Hess’s Law</a></li>
 </ul>
 
 
@@ -1747,7 +1779,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/nanoxsj\.github\.io\/CIE-Chemistry-Study\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

@@ -1843,12 +1843,12 @@ Show detailed reference answer
 <section id="original-question-pdfs" class="level2">
 <h2 class="anchored" data-anchor-id="original-question-pdfs">Original question PDFs</h2>
 <ul>
-<li><a href="../assets/questions/original-source/3.7_nitrogen_compounds___choice___easy.pdf">3.7 Nitrogen compounds - Choice - Easy</a></li>
-<li><a href="../assets/questions/original-source/3.7_nitrogen_compounds___choice___medium.pdf">3.7 Nitrogen compounds - Choice - Medium</a></li>
-<li><a href="../assets/questions/original-source/3.7_nitrogen_compounds___choice___hard.pdf">3.7 Nitrogen compounds - Choice - Hard</a></li>
-<li><a href="../assets/questions/original-source/3.7_nitrogen_compounds___sq___easy.pdf">3.7 Nitrogen compounds - SQ - Easy</a></li>
-<li><a href="../assets/questions/original-source/3.7_nitrogen_compounds___sq___medium.pdf">3.7 Nitrogen compounds - SQ - Medium</a></li>
-<li><a href="../assets/questions/original-source/3.7_nitrogen_compounds___sq___hard.pdf">3.7 Nitrogen compounds - SQ - Hard</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.7_nitrogen_compounds___choice___easy.pdf">3.7 Nitrogen compounds - Choice - Easy</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.7_nitrogen_compounds___choice___medium.pdf">3.7 Nitrogen compounds - Choice - Medium</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.7_nitrogen_compounds___choice___hard.pdf">3.7 Nitrogen compounds - Choice - Hard</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.7_nitrogen_compounds___sq___easy.pdf">3.7 Nitrogen compounds - SQ - Easy</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.7_nitrogen_compounds___sq___medium.pdf">3.7 Nitrogen compounds - SQ - Medium</a></li>
+<li><a href="https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.7_nitrogen_compounds___sq___hard.pdf">3.7 Nitrogen compounds - SQ - Hard</a></li>
 </ul>
 
 
@@ -1977,7 +1977,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/nanoxsj\.github\.io\/CIE-Chemistry-Study\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
