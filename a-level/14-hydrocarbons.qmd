@@ -322,9 +322,9 @@ In addition polymerisation, many alkene monomers join when the C=C opens, formin
 
 ## Original question PDFs
 
-- [3.2 Choice Easy](../assets/questions/original-source/3.2_hydrocarbons_choice_easy.pdf)
-- [3.2 Choice Medium](../assets/questions/original-source/3.2_hydrocarbons_choice_medium.pdf)
-- [3.2 Choice Hard](../assets/questions/original-source/3.2_hydrocarbons_choice_hard.pdf)
-- [3.2 SQ Easy](../assets/questions/original-source/3.2_hydrocarbons_sq_easy.pdf)
-- [3.2 SQ Medium](../assets/questions/original-source/3.2_hydrocarbons_sq_medium.pdf)
-- [3.2 SQ Hard](../assets/questions/original-source/3.2_hydrocarbons_sq_hard.pdf)
+- [3.2 Choice Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.2_hydrocarbons_choice_easy.pdf)
+- [3.2 Choice Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.2_hydrocarbons_choice_medium.pdf)
+- [3.2 Choice Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.2_hydrocarbons_choice_hard.pdf)
+- [3.2 SQ Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.2_hydrocarbons_sq_easy.pdf)
+- [3.2 SQ Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.2_hydrocarbons_sq_medium.pdf)
+- [3.2 SQ Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.2_hydrocarbons_sq_hard.pdf)

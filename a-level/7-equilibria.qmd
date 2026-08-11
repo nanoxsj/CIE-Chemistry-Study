@@ -193,14 +193,14 @@ Always use the sum of all partial pressures to check the total pressure.
 
 ## Original question PDFs
 
-- [1.7 Equilibria - Choice - Easy](../assets/questions/original-source/1.7_equilibria_choice_easy.pdf)
-- [1.7 Equilibria - Choice - Medium](../assets/questions/original-source/1.7_equilibria_choice_medium.pdf)
-- [1.7 Equilibria - Choice - Hard](../assets/questions/original-source/1.7_equilibria_choice_hard.pdf)
-- [1.7 Equilibria - Structured Questions - Easy](../assets/questions/original-source/1.7_equilibria_sq_easy.pdf)
-- [1.7 Equilibria - Structured Questions - Medium](../assets/questions/original-source/1.7_equilibria_sq_medium.pdf)
-- [1.7 Equilibria - Structured Questions - Hard](../assets/questions/original-source/1.7_equilibria_sq_hard.pdf)
+- [1.7 Equilibria - Choice - Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.7_equilibria_choice_easy.pdf)
+- [1.7 Equilibria - Choice - Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.7_equilibria_choice_medium.pdf)
+- [1.7 Equilibria - Choice - Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.7_equilibria_choice_hard.pdf)
+- [1.7 Equilibria - Structured Questions - Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.7_equilibria_sq_easy.pdf)
+- [1.7 Equilibria - Structured Questions - Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.7_equilibria_sq_medium.pdf)
+- [1.7 Equilibria - Structured Questions - Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.7_equilibria_sq_hard.pdf)
 
 ## Original note PDFs
 
-- [7.1 Chemical Equilibria. Reversible Reactions - Dynamic Equilibrium](../assets/notes/equilibria-7-rebuilt/7.1_chemical_equilibria_dynamic_equilibrium.pdf)
-- [7.2 Brønsted–Lowry Theory of Acids - Bases](../assets/notes/equilibria-7-rebuilt/7.2_bronsted_lowry_acids_bases.pdf)
+- [7.1 Chemical Equilibria. Reversible Reactions - Dynamic Equilibrium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/notes/equilibria-7-rebuilt/7.1_chemical_equilibria_dynamic_equilibrium.pdf)
+- [7.2 Brønsted–Lowry Theory of Acids - Bases](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/notes/equilibria-7-rebuilt/7.2_bronsted_lowry_acids_bases.pdf)

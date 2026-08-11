@@ -299,9 +299,9 @@ Chlorine radical is regenerated, so one radical can catalyse the destruction of 
 
 ## Original question PDFs
 
-- [3.3 Choice Easy](../assets/questions/original-source/3.3_halogen_compounds_choice_easy.pdf)
-- [3.3 Choice Medium](../assets/questions/original-source/3.3_halogen_compounds_choice_medium.pdf)
-- [3.3 Choice Hard](../assets/questions/original-source/3.3_halogen_compounds_choice_hard.pdf)
-- [3.3 SQ Easy](../assets/questions/original-source/3.3_halogen_compounds_sq_easy.pdf)
-- [3.3 SQ Medium](../assets/questions/original-source/3.3_halogen_compounds_sq_medium.pdf)
-- [3.3 SQ Hard](../assets/questions/original-source/3.3_halogen_compounds_sq_hard.pdf)
+- [3.3 Choice Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.3_halogen_compounds_choice_easy.pdf)
+- [3.3 Choice Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.3_halogen_compounds_choice_medium.pdf)
+- [3.3 Choice Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.3_halogen_compounds_choice_hard.pdf)
+- [3.3 SQ Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.3_halogen_compounds_sq_easy.pdf)
+- [3.3 SQ Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.3_halogen_compounds_sq_medium.pdf)
+- [3.3 SQ Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.3_halogen_compounds_sq_hard.pdf)

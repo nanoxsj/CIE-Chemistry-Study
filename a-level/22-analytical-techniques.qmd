@@ -336,9 +336,9 @@ Alcohol E oxidises to form a carboxylic acid. Suggest what this tells you about 
 
 ## Source PDFs
 
-- [4.1 Analytical Techniques — Choice Easy](../assets/questions/original-source/4.1_analytical_techniques_choice_easy.pdf)
-- [4.1 Analytical Techniques — Choice Medium](../assets/questions/original-source/4.1_analytical_techniques_choice_medium.pdf)
-- [4.1 Analytical Techniques — Choice Hard](../assets/questions/original-source/4.1_analytical_techniques_choice_hard.pdf)
-- [4.1 Analytical Techniques — SQ Easy](../assets/questions/original-source/4.1_analytical_techniques_sq_easy.pdf)
-- [4.1 Analytical Techniques — SQ Medium](../assets/questions/original-source/4.1_analytical_techniques_sq_medium.pdf)
-- [4.1 Analytical Techniques — SQ Hard](../assets/questions/original-source/4.1_analytical_techniques_sq_hard.pdf)
+- [4.1 Analytical Techniques — Choice Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/4.1_analytical_techniques_choice_easy.pdf)
+- [4.1 Analytical Techniques — Choice Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/4.1_analytical_techniques_choice_medium.pdf)
+- [4.1 Analytical Techniques — Choice Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/4.1_analytical_techniques_choice_hard.pdf)
+- [4.1 Analytical Techniques — SQ Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/4.1_analytical_techniques_sq_easy.pdf)
+- [4.1 Analytical Techniques — SQ Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/4.1_analytical_techniques_sq_medium.pdf)
+- [4.1 Analytical Techniques — SQ Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/4.1_analytical_techniques_sq_hard.pdf)

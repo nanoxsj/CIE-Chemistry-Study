@@ -267,9 +267,9 @@ The nitrogen atom has no lone pair remaining in $\ce{NH4+}$, and the ion is draw
 
 ## Original question PDFs
 
-- [1.3 Chemical Bonding - Choice - Easy](../assets/questions/original-source/1.3_chemical_bonding_choice_easy.pdf)
-- [1.3 Chemical Bonding - Choice - Medium](../assets/questions/original-source/1.3_chemical_bonding_choice_medium.pdf)
-- [1.3 Chemical Bonding - Choice - Hard](../assets/questions/original-source/1.3_chemical_bonding_choice_hard.pdf)
-- [1.3 Chemical Bonding - Structured Questions - Easy](../assets/questions/original-source/1.3_chemical_bonding_sq_easy.pdf)
-- [1.3 Chemical Bonding - Structured Questions - Medium](../assets/questions/original-source/1.3_chemical_bonding_sq_medium.pdf)
-- [1.3 Chemical Bonding - Structured Questions - Hard](../assets/questions/original-source/1.3_chemical_bonding_sq_hard.pdf)
+- [1.3 Chemical Bonding - Choice - Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.3_chemical_bonding_choice_easy.pdf)
+- [1.3 Chemical Bonding - Choice - Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.3_chemical_bonding_choice_medium.pdf)
+- [1.3 Chemical Bonding - Choice - Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.3_chemical_bonding_choice_hard.pdf)
+- [1.3 Chemical Bonding - Structured Questions - Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.3_chemical_bonding_sq_easy.pdf)
+- [1.3 Chemical Bonding - Structured Questions - Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.3_chemical_bonding_sq_medium.pdf)
+- [1.3 Chemical Bonding - Structured Questions - Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.3_chemical_bonding_sq_hard.pdf)

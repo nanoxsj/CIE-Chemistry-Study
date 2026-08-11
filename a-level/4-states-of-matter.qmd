@@ -194,14 +194,14 @@ When determining a gas molar mass experimentally, a higher pressure generally gi
 
 ## Original note PDFs
 
-- [4.1 The Gaseous State. Ideal - Real Gases - pV = nRT](../assets/notes/states-4-rebuilt/4.1_gaseous_state_ideal_real_gases.pdf)
-- [4.2 Bonding - Structure](../assets/notes/states-4-rebuilt/4.2_bonding_structure.pdf)
+- [4.1 The Gaseous State. Ideal - Real Gases - pV = nRT](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/notes/states-4-rebuilt/4.1_gaseous_state_ideal_real_gases.pdf)
+- [4.2 Bonding - Structure](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/notes/states-4-rebuilt/4.2_bonding_structure.pdf)
 
 ## Original question PDFs
 
-- [1.4 States of Matter - Choice - Easy](../assets/questions/original-source/1.4_states_of_matter_choice_easy.pdf)
-- [1.4 States of Matter - Choice - Medium](../assets/questions/original-source/1.4_states_of_matter_choice_medium.pdf)
-- [1.4 States of Matter - Choice - Hard](../assets/questions/original-source/1.4_states_of_matter_choice_hard.pdf)
-- [1.4 States of Matter - Structured Questions - Easy](../assets/questions/original-source/1.4_states_of_matter_sq_easy.pdf)
-- [1.4 States of Matter - Structured Questions - Medium](../assets/questions/original-source/1.4_states_of_matter_sq_medium.pdf)
-- [1.4 States of Matter - Structured Questions - Hard](../assets/questions/original-source/1.4_states_of_matter_sq_hard.pdf)
+- [1.4 States of Matter - Choice - Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.4_states_of_matter_choice_easy.pdf)
+- [1.4 States of Matter - Choice - Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.4_states_of_matter_choice_medium.pdf)
+- [1.4 States of Matter - Choice - Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.4_states_of_matter_choice_hard.pdf)
+- [1.4 States of Matter - Structured Questions - Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.4_states_of_matter_sq_easy.pdf)
+- [1.4 States of Matter - Structured Questions - Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.4_states_of_matter_sq_medium.pdf)
+- [1.4 States of Matter - Structured Questions - Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.4_states_of_matter_sq_hard.pdf)

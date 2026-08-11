@@ -362,9 +362,9 @@ Thus each carbon of C=C is sp<sup>2</sup> and trigonal planar. In C≡C each car
 
 ## Original question PDFs
 
-- [3.1 Choice Easy](../assets/questions/original-source/3.1_organic_as_choice_easy.pdf)
-- [3.1 Choice Medium](../assets/questions/original-source/3.1_organic_as_choice_medium.pdf)
-- [3.1 Choice Hard](../assets/questions/original-source/3.1_organic_as_choice_hard.pdf)
-- [3.1 SQ Easy](../assets/questions/original-source/3.1_organic_as_sq_easy.pdf)
-- [3.1 SQ Medium](../assets/questions/original-source/3.1_organic_as_sq_medium.pdf)
-- [3.1 SQ Hard](../assets/questions/original-source/3.1_organic_as_sq_hard.pdf)
+- [3.1 Choice Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.1_organic_as_choice_easy.pdf)
+- [3.1 Choice Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.1_organic_as_choice_medium.pdf)
+- [3.1 Choice Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.1_organic_as_choice_hard.pdf)
+- [3.1 SQ Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.1_organic_as_sq_easy.pdf)
+- [3.1 SQ Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.1_organic_as_sq_medium.pdf)
+- [3.1 SQ Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.1_organic_as_sq_hard.pdf)

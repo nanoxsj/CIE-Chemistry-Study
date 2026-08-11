@@ -649,9 +649,9 @@ Draw the mechanism for the reaction of propanal with the mixture of NaCN and HCN
 
 ## Original question PDFs
 
-- [3.5 Carbonyl compounds — Choice — Easy](../assets/questions/original-source/3.5_carbonyl_compounds___choice___easy.pdf)
-- [3.5 Carbonyl compounds — Choice — Medium](../assets/questions/original-source/3.5_carbonyl_compounds___choice___medium.pdf)
-- [3.5 Carbonyl compounds — Choice — Hard](../assets/questions/original-source/3.5_carbonyl_compounds___choice___hard.pdf)
-- [3.5 Carbonyl compounds — Structured Questions — Easy](../assets/questions/original-source/3.5_carbonyl_compounds___sq___easy.pdf)
-- [3.5 Carbonyl compounds — Structured Questions — Medium](../assets/questions/original-source/3.5_carbonyl_compounds___sq___medium.pdf)
-- [3.5 Carbonyl compounds — Structured Questions — Hard](../assets/questions/original-source/3.5_carbonyl_compounds___sq___hard.pdf)
+- [3.5 Carbonyl compounds — Choice — Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.5_carbonyl_compounds___choice___easy.pdf)
+- [3.5 Carbonyl compounds — Choice — Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.5_carbonyl_compounds___choice___medium.pdf)
+- [3.5 Carbonyl compounds — Choice — Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.5_carbonyl_compounds___choice___hard.pdf)
+- [3.5 Carbonyl compounds — Structured Questions — Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.5_carbonyl_compounds___sq___easy.pdf)
+- [3.5 Carbonyl compounds — Structured Questions — Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.5_carbonyl_compounds___sq___medium.pdf)
+- [3.5 Carbonyl compounds — Structured Questions — Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.5_carbonyl_compounds___sq___hard.pdf)

@@ -432,9 +432,9 @@ Compounds W, X and Y contain carbon, hydrogen and oxygen only. X and Y are strai
 
 ## Original question PDFs
 
-- [3.9 Organic Synthesis — Choice — Easy](../assets/questions/original-source/3.9_organic_synthesis_choice_easy.pdf)
-- [3.9 Organic Synthesis — Choice — Medium](../assets/questions/original-source/3.9_organic_synthesis_choice_medium.pdf)
-- [3.9 Organic Synthesis — Choice — Hard](../assets/questions/original-source/3.9_organic_synthesis_choice_hard.pdf)
-- [3.9 Organic Synthesis — SQ — Easy](../assets/questions/original-source/3.9_organic_synthesis_sq_easy.pdf)
-- [3.9 Organic Synthesis — SQ — Medium](../assets/questions/original-source/3.9_organic_synthesis_sq_medium.pdf)
-- [3.9 Organic Synthesis — SQ — Hard](../assets/questions/original-source/3.9_organic_synthesis_sq_hard.pdf)
+- [3.9 Organic Synthesis — Choice — Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.9_organic_synthesis_choice_easy.pdf)
+- [3.9 Organic Synthesis — Choice — Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.9_organic_synthesis_choice_medium.pdf)
+- [3.9 Organic Synthesis — Choice — Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.9_organic_synthesis_choice_hard.pdf)
+- [3.9 Organic Synthesis — SQ — Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.9_organic_synthesis_sq_easy.pdf)
+- [3.9 Organic Synthesis — SQ — Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.9_organic_synthesis_sq_medium.pdf)
+- [3.9 Organic Synthesis — SQ — Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.9_organic_synthesis_sq_hard.pdf)

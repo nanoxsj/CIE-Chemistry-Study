@@ -161,13 +161,13 @@ For a halogen displacement, write the two half-equations to prove electron trans
 
 ## Original note PDFs
 
-- [6.1 Redox Processes. Electron Transfer - Changes in Oxidation Number (Oxidation State)](../assets/notes/electrochemistry-6-rebuilt/6.1_redox_processes_electron_transfer_oxidation_number.pdf)
+- [6.1 Redox Processes. Electron Transfer - Changes in Oxidation Number (Oxidation State)](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/notes/electrochemistry-6-rebuilt/6.1_redox_processes_electron_transfer_oxidation_number.pdf)
 
 ## Original question PDFs
 
-- [1.6 Electrochemistry - Choice - Easy](../assets/questions/original-source/1.6_electrochemistry_choice_easy.pdf)
-- [1.6 Electrochemistry - Choice - Medium](../assets/questions/original-source/1.6_electrochemistry_choice_medium.pdf)
-- [1.6 Electrochemistry - Choice - Hard](../assets/questions/original-source/1.6_electrochemistry_choice_hard.pdf)
-- [1.6 Electrochemistry - Structured Questions - Easy](../assets/questions/original-source/1.6_electrochemistry_sq_easy.pdf)
-- [1.6 Electrochemistry - Structured Questions - Medium](../assets/questions/original-source/1.6_electrochemistry_sq_medium.pdf)
-- [1.6 Electrochemistry - Structured Questions - Hard](../assets/questions/original-source/1.6_electrochemistry_sq_hard.pdf)
+- [1.6 Electrochemistry - Choice - Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.6_electrochemistry_choice_easy.pdf)
+- [1.6 Electrochemistry - Choice - Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.6_electrochemistry_choice_medium.pdf)
+- [1.6 Electrochemistry - Choice - Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.6_electrochemistry_choice_hard.pdf)
+- [1.6 Electrochemistry - Structured Questions - Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.6_electrochemistry_sq_easy.pdf)
+- [1.6 Electrochemistry - Structured Questions - Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.6_electrochemistry_sq_medium.pdf)
+- [1.6 Electrochemistry - Structured Questions - Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.6_electrochemistry_sq_hard.pdf)

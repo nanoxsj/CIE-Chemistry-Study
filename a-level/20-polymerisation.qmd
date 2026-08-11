@@ -410,9 +410,9 @@ But-2-ene, <span class="chem-formula">CH<sub>3</sub>CH=CHCH<sub>3</sub></span>, 
 
 ## Original question PDFs
 
-- [3.8 Polymerisation — Choice — Easy](../assets/questions/original-source/3.8_polymerisation_choice_easy.pdf)
-- [3.8 Polymerisation — Choice — Medium](../assets/questions/original-source/3.8_polymerisation_choice_medium.pdf)
-- [3.8 Polymerisation — Choice — Hard](../assets/questions/original-source/3.8_polymerisation_choice_hard.pdf)
-- [3.8 Polymerisation — SQ — Easy](../assets/questions/original-source/3.8_polymerisation_sq_easy.pdf)
-- [3.8 Polymerisation — SQ — Medium](../assets/questions/original-source/3.8_polymerisation_sq_medium.pdf)
-- [3.8 Polymerisation — SQ — Hard](../assets/questions/original-source/3.8_polymerisation_sq_hard.pdf)
+- [3.8 Polymerisation — Choice — Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.8_polymerisation_choice_easy.pdf)
+- [3.8 Polymerisation — Choice — Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.8_polymerisation_choice_medium.pdf)
+- [3.8 Polymerisation — Choice — Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.8_polymerisation_choice_hard.pdf)
+- [3.8 Polymerisation — SQ — Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.8_polymerisation_sq_easy.pdf)
+- [3.8 Polymerisation — SQ — Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.8_polymerisation_sq_medium.pdf)
+- [3.8 Polymerisation — SQ — Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.8_polymerisation_sq_hard.pdf)

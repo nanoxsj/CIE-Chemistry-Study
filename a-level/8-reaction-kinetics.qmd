@@ -189,15 +189,15 @@ Safety points include using eye protection, controlling exothermic reactions and
 
 页面中的图表使用 PDF 内独立嵌入的图像对象提取，不使用整页截图；PDF 内为矢量绘制且没有独立图像对象的图形不强行转换。
 
-- [1.8 Reaction Kinetics - Choice - Easy](../assets/questions/original-source/1.8_reaction_kinetics_choice_easy.pdf)
-- [1.8 Reaction Kinetics - Choice - Medium](../assets/questions/original-source/1.8_reaction_kinetics_choice_medium.pdf)
-- [1.8 Reaction Kinetics - Choice - Hard](../assets/questions/original-source/1.8_reaction_kinetics_choice_hard.pdf)
-- [1.8 Reaction Kinetics - Structured Questions - Easy](../assets/questions/original-source/1.8_reaction_kinetics_sq_easy.pdf)
-- [1.8 Reaction Kinetics - Structured Questions - Medium](../assets/questions/original-source/1.8_reaction_kinetics_sq_medium.pdf)
-- [1.8 Reaction Kinetics - Structured Questions - Hard](../assets/questions/original-source/1.8_reaction_kinetics_sq_hard.pdf)
+- [1.8 Reaction Kinetics - Choice - Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.8_reaction_kinetics_choice_easy.pdf)
+- [1.8 Reaction Kinetics - Choice - Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.8_reaction_kinetics_choice_medium.pdf)
+- [1.8 Reaction Kinetics - Choice - Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.8_reaction_kinetics_choice_hard.pdf)
+- [1.8 Reaction Kinetics - Structured Questions - Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.8_reaction_kinetics_sq_easy.pdf)
+- [1.8 Reaction Kinetics - Structured Questions - Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.8_reaction_kinetics_sq_medium.pdf)
+- [1.8 Reaction Kinetics - Structured Questions - Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.8_reaction_kinetics_sq_hard.pdf)
 
 ## Original note PDFs
 
-- [8.1 Rate of Reaction](../assets/notes/kinetics-8-rebuilt/8.1_rate_of_reaction.pdf)
-- [8.2 Effect of Temperature on Reaction Rates - the Concept of Activation Energy](../assets/notes/kinetics-8-rebuilt/8.2_temperature_activation_energy.pdf)
-- [8.3 Homogeneous - Heterogeneous Catalysts](../assets/notes/kinetics-8-rebuilt/8.3_homogeneous_heterogeneous_catalysts.pdf)
+- [8.1 Rate of Reaction](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/notes/kinetics-8-rebuilt/8.1_rate_of_reaction.pdf)
+- [8.2 Effect of Temperature on Reaction Rates - the Concept of Activation Energy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/notes/kinetics-8-rebuilt/8.2_temperature_activation_energy.pdf)
+- [8.3 Homogeneous - Heterogeneous Catalysts](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/notes/kinetics-8-rebuilt/8.3_homogeneous_heterogeneous_catalysts.pdf)

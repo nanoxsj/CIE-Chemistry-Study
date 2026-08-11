@@ -178,15 +178,15 @@ The same reasoning can be applied below Period 3. For example, oxides of Group 1
 
 页面中的图表使用 PDF 内独立嵌入的图像对象提取，不使用整页截图；PDF 内为矢量绘制且没有独立图像对象的图形不强行转换。
 
-- [2.1 The Periodic Table: Chemical Periodicity - Choice - Easy](../assets/questions/original-source/2.1_periodic_table_chemical_periodicity_choice_easy.pdf)
-- [2.1 The Periodic Table: Chemical Periodicity - Choice - Medium](../assets/questions/original-source/2.1_periodic_table_chemical_periodicity_choice_medium.pdf)
-- [2.1 The Periodic Table: Chemical Periodicity - Choice - Hard](../assets/questions/original-source/2.1_periodic_table_chemical_periodicity_choice_hard.pdf)
-- [2.1 The Periodic Table: Chemical Periodicity - Structured Questions - Easy](../assets/questions/original-source/2.1_periodic_table_chemical_periodicity_sq_easy.pdf)
-- [2.1 The Periodic Table: Chemical Periodicity - Structured Questions - Medium](../assets/questions/original-source/2.1_periodic_table_chemical_periodicity_sq_medium.pdf)
-- [2.1 The Periodic Table: Chemical Periodicity - Structured Questions - Hard](../assets/questions/original-source/2.1_periodic_table_chemical_periodicity_sq_hard.pdf)
+- [2.1 The Periodic Table: Chemical Periodicity - Choice - Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.1_periodic_table_chemical_periodicity_choice_easy.pdf)
+- [2.1 The Periodic Table: Chemical Periodicity - Choice - Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.1_periodic_table_chemical_periodicity_choice_medium.pdf)
+- [2.1 The Periodic Table: Chemical Periodicity - Choice - Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.1_periodic_table_chemical_periodicity_choice_hard.pdf)
+- [2.1 The Periodic Table: Chemical Periodicity - Structured Questions - Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.1_periodic_table_chemical_periodicity_sq_easy.pdf)
+- [2.1 The Periodic Table: Chemical Periodicity - Structured Questions - Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.1_periodic_table_chemical_periodicity_sq_medium.pdf)
+- [2.1 The Periodic Table: Chemical Periodicity - Structured Questions - Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.1_periodic_table_chemical_periodicity_sq_hard.pdf)
 
 ## Original note PDFs
 
-- [9.1 Periodicity of Physical Properties of the Elements in Period 3](../assets/notes/periodicity-9-rebuilt/9.1_periodicity_physical_properties.pdf)
-- [9.2 Periodicity of Chemical Properties of the Elements in Period 3](../assets/notes/periodicity-9-rebuilt/9.2_periodicity_chemical_properties.pdf)
-- [9.3 Chemical Periodicity of Other Elements](../assets/notes/periodicity-9-rebuilt/9.3_chemical_periodicity_other_elements.pdf)
+- [9.1 Periodicity of Physical Properties of the Elements in Period 3](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/notes/periodicity-9-rebuilt/9.1_periodicity_physical_properties.pdf)
+- [9.2 Periodicity of Chemical Properties of the Elements in Period 3](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/notes/periodicity-9-rebuilt/9.2_periodicity_chemical_properties.pdf)
+- [9.3 Chemical Periodicity of Other Elements](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/notes/periodicity-9-rebuilt/9.3_chemical_periodicity_other_elements.pdf)

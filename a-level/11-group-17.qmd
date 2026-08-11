@@ -426,9 +426,9 @@ Chlorine is used to disinfect drinking water and swimming pools, but excessive c
 
 ## Original question PDFs
 
-- [2.3 Group 17 — Choice — Easy](../assets/questions/original-source/2.3_group_17_choice_easy.pdf)
-- [2.3 Group 17 — Choice — Medium](../assets/questions/original-source/2.3_group_17_choice_medium.pdf)
-- [2.3 Group 17 — Choice — Hard](../assets/questions/original-source/2.3_group_17_choice_hard.pdf)
-- [2.3 Group 17 — SQ — Easy](../assets/questions/original-source/2.3_group_17_sq_easy.pdf)
-- [2.3 Group 17 — SQ — Medium](../assets/questions/original-source/2.3_group_17_sq_medium.pdf)
-- [2.3 Group 17 — SQ — Hard](../assets/questions/original-source/2.3_group_17_sq_hard.pdf)
+- [2.3 Group 17 — Choice — Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.3_group_17_choice_easy.pdf)
+- [2.3 Group 17 — Choice — Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.3_group_17_choice_medium.pdf)
+- [2.3 Group 17 — Choice — Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.3_group_17_choice_hard.pdf)
+- [2.3 Group 17 — SQ — Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.3_group_17_sq_easy.pdf)
+- [2.3 Group 17 — SQ — Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.3_group_17_sq_medium.pdf)
+- [2.3 Group 17 — SQ — Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.3_group_17_sq_hard.pdf)

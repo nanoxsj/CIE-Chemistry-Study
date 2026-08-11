@@ -438,13 +438,13 @@ Useful observations are: CO<sub>2</sub> turns limewater milky; NO<sub>2</sub> is
 
 ## Original question PDFs
 
-- [2.2 Group 2 — Choice — Easy](../assets/questions/original-source/2.2_group_2___choice___easy.pdf)
-- [2.2 Group 2 — Choice — Medium](../assets/questions/original-source/2.2_group_2___choice___medium.pdf)
-- [2.2 Group 2 — Choice — Hard](../assets/questions/original-source/2.2_group_2___choice___hard.pdf)
-- [2.2 Group 2 — SQ — Easy](../assets/questions/original-source/2.2_group_2___sq___easy.pdf)
-- [2.2 Group 2 — SQ — Medium](../assets/questions/original-source/2.2_group_2___sq___medium.pdf)
-- [2.2 Group 2 — SQ — Hard](../assets/questions/original-source/2.2_group_2___sq___hard.pdf)
+- [2.2 Group 2 — Choice — Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.2_group_2___choice___easy.pdf)
+- [2.2 Group 2 — Choice — Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.2_group_2___choice___medium.pdf)
+- [2.2 Group 2 — Choice — Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.2_group_2___choice___hard.pdf)
+- [2.2 Group 2 — SQ — Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.2_group_2___sq___easy.pdf)
+- [2.2 Group 2 — SQ — Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.2_group_2___sq___medium.pdf)
+- [2.2 Group 2 — SQ — Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.2_group_2___sq___hard.pdf)
 
 ## Original note PDF
 
-- [10.1 Similarities - Trends in the Properties of the Group 2 Metals, Magnesium to Barium, - Their Compounds](../assets/notes/group2-10-rebuilt/10.1_group2_note.pdf)
+- [10.1 Similarities - Trends in the Properties of the Group 2 Metals, Magnesium to Barium, - Their Compounds](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/notes/group2-10-rebuilt/10.1_group2_note.pdf)

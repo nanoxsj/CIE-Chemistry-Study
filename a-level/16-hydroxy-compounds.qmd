@@ -609,9 +609,9 @@ Compound X can be fully oxidised by the reaction with acidified potassium mangan
 
 ## Original question PDFs
 
-- [3.4 Hydroxy Compounds — Choice — Easy](../assets/questions/original-source/3.4_hydroxy_compounds_choice_easy.pdf)
-- [3.4 Hydroxy Compounds — Choice — Medium](../assets/questions/original-source/3.4_hydroxy_compounds_choice_medium.pdf)
-- [3.4 Hydroxy Compounds — Choice — Hard](../assets/questions/original-source/3.4_hydroxy_compounds_choice_hard.pdf)
-- [3.4 Hydroxy Compounds — Structured Questions — Easy](../assets/questions/original-source/3.4_hydroxy_compounds_sq_easy.pdf)
-- [3.4 Hydroxy Compounds — Structured Questions — Medium](../assets/questions/original-source/3.4_hydroxy_compounds_sq_medium.pdf)
-- [3.4 Hydroxy Compounds — Structured Questions — Hard](../assets/questions/original-source/3.4_hydroxy_compounds_sq_hard.pdf)
+- [3.4 Hydroxy Compounds — Choice — Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.4_hydroxy_compounds_choice_easy.pdf)
+- [3.4 Hydroxy Compounds — Choice — Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.4_hydroxy_compounds_choice_medium.pdf)
+- [3.4 Hydroxy Compounds — Choice — Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.4_hydroxy_compounds_choice_hard.pdf)
+- [3.4 Hydroxy Compounds — Structured Questions — Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.4_hydroxy_compounds_sq_easy.pdf)
+- [3.4 Hydroxy Compounds — Structured Questions — Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.4_hydroxy_compounds_sq_medium.pdf)
+- [3.4 Hydroxy Compounds — Structured Questions — Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/3.4_hydroxy_compounds_sq_hard.pdf)

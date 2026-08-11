@@ -159,14 +159,14 @@ $$\Delta H_f^\ominus=3(-394)+3(-286)-(-1816)=-224\ \mathrm{kJ\ mol^{-1}}$$
 
 ## Original question PDFs
 
-- [1.5 Chemical Energetics - Choice - Easy](../assets/questions/original-source/1.5_chemical_energetics_choice_easy.pdf)
-- [1.5 Chemical Energetics - Choice - Medium](../assets/questions/original-source/1.5_chemical_energetics_choice_medium.pdf)
-- [1.5 Chemical Energetics - Choice - Hard](../assets/questions/original-source/1.5_chemical_energetics_choice_hard.pdf)
-- [1.5 Chemical Energetics - Structured Questions - Easy](../assets/questions/original-source/1.5_chemical_energetics_sq_easy.pdf)
-- [1.5 Chemical Energetics - Structured Questions - Medium](../assets/questions/original-source/1.5_chemical_energetics_sq_medium.pdf)
-- [1.5 Chemical Energetics - Structured Questions - Hard](../assets/questions/original-source/1.5_chemical_energetics_sq_hard.pdf)
+- [1.5 Chemical Energetics - Choice - Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.5_chemical_energetics_choice_easy.pdf)
+- [1.5 Chemical Energetics - Choice - Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.5_chemical_energetics_choice_medium.pdf)
+- [1.5 Chemical Energetics - Choice - Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.5_chemical_energetics_choice_hard.pdf)
+- [1.5 Chemical Energetics - Structured Questions - Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.5_chemical_energetics_sq_easy.pdf)
+- [1.5 Chemical Energetics - Structured Questions - Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.5_chemical_energetics_sq_medium.pdf)
+- [1.5 Chemical Energetics - Structured Questions - Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/1.5_chemical_energetics_sq_hard.pdf)
 
 ## Original note PDFs
 
-- [5.1 Enthalpy Change, ΔH](../assets/notes/energetics-5-rebuilt/5.1_enthalpy_change.pdf)
-- [5.2 Hess’s Law](../assets/notes/energetics-5-rebuilt/5.2_hess_law.pdf)
+- [5.1 Enthalpy Change, ΔH](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/notes/energetics-5-rebuilt/5.1_enthalpy_change.pdf)
+- [5.2 Hess’s Law](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/notes/energetics-5-rebuilt/5.2_hess_law.pdf)

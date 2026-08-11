@@ -467,13 +467,13 @@ Excess nitrate fertiliser can contaminate water and cause eutrophication. In nit
 
 ## Original question PDFs
 
-- [2.4 Nitrogen and sulfur — Choice — Easy](../assets/questions/original-source/2.4_nitrogen___sulfur___choice___easy.pdf)
-- [2.4 Nitrogen and sulfur — Choice — Medium](../assets/questions/original-source/2.4_nitrogen___sulfur___choice___medium.pdf)
-- [2.4 Nitrogen and sulfur — Choice — Hard](../assets/questions/original-source/2.4_nitrogen___sulfur___choice___hard.pdf)
-- [2.4 Nitrogen and sulfur — SQ — Easy](../assets/questions/original-source/2.4_nitrogen___sulfur___sq___easy.pdf)
-- [2.4 Nitrogen and sulfur — SQ — Medium](../assets/questions/original-source/2.4_nitrogen___sulfur___sq___medium.pdf)
-- [2.4 Nitrogen and sulfur — SQ — Hard](../assets/questions/original-source/2.4_nitrogen___sulfur___sq___hard.pdf)
+- [2.4 Nitrogen and sulfur — Choice — Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.4_nitrogen___sulfur___choice___easy.pdf)
+- [2.4 Nitrogen and sulfur — Choice — Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.4_nitrogen___sulfur___choice___medium.pdf)
+- [2.4 Nitrogen and sulfur — Choice — Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.4_nitrogen___sulfur___choice___hard.pdf)
+- [2.4 Nitrogen and sulfur — SQ — Easy](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.4_nitrogen___sulfur___sq___easy.pdf)
+- [2.4 Nitrogen and sulfur — SQ — Medium](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.4_nitrogen___sulfur___sq___medium.pdf)
+- [2.4 Nitrogen and sulfur — SQ — Hard](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/questions/original-source/2.4_nitrogen___sulfur___sq___hard.pdf)
 
 ## Original note PDF
 
-- [12.1 Nitrogen - Sulfur](../assets/notes/nitrogen-sulfur-12-rebuilt/12.1_nitrogen_sulfur_note.pdf)
+- [12.1 Nitrogen - Sulfur](https://raw.githubusercontent.com/nanoxsj/CIE-Chemistry-Study/main/assets/notes/nitrogen-sulfur-12-rebuilt/12.1_nitrogen_sulfur_note.pdf)
