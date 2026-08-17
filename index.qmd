@@ -1,125 +1,168 @@
 ---
-title: "CIE Chemistry 学习页面"
+title: "CIE Chemistry Study Hub"
 subtitle: "2025–2027 syllabus · 9701"
+page-layout: full
+body-class: home-page
 ---
 
-本网站按 Cambridge International AS & A Level Chemistry 9701 考纲组织。每一章把考纲、核心概念、例题和专题真题放在同一学习路径中。知识点采用中英混排：关键专有名词与定义保留英文原文，便于对照考纲与考试表达。
+::: {.home-hero}
+<div class="home-kicker">Cambridge International AS & A Level · 9701</div>
 
-## 已完成内容
+# Chemistry Study Hub
 
-## AS Level
+One study path for syllabus knowledge, worked examples and topical past-paper questions. Each chapter combines core concepts, original question images and detailed answers for exam practice.
+
+<div class="home-actions">
+<a class="home-action primary" href="a-level/1-atomic-structure.html">Explore AS Level</a>
+<a class="home-action" href="a-level/23-chemical-energetics.html">Explore A Level</a>
+</div>
+:::
+
+## AS Level · Chapters 1–22
+
+Choose a chapter to begin. Key terminology remains in English so that the notes stay aligned with the CIE 9701 syllabus and exam wording.
+
+::: {.course-grid .as-level}
 
 ::: {.topic-card}
 ### [1 Atomic structure](a-level/1-atomic-structure.qmd)
 
 - Subatomic particles、isotopes、electronic structure、orbitals、first and successive ionisation energies
-- 20 道 Multiple Choice Questions 与 10 道 Structured Questions
 :::
 
 ::: {.topic-card}
 ### [2 Atoms, molecules and stoichiometry](a-level/2-atoms-molecules-stoichiometry.qmd)
 
 - Relative masses、the mole、formulae、reacting masses、solutions 与 gas volumes
-- 20 道 Multiple Choice Questions 与 10 道 Structured Questions
 :::
 
 ::: {.topic-card}
 ### [3 Chemical bonding](a-level/3-chemical-bonding.qmd)
 
 - Electronegativity、ionic/metallic/covalent/coordinate bonding、shapes、intermolecular forces 与 dot-and-cross diagrams
-- 40 道 Multiple Choice Questions 与 20 道 Structured Questions
 :::
 
 ::: {.topic-card}
 ### [4 States of matter](a-level/4-states-of-matter.qmd)
 
 - Particle model、solid structures、state changes、ideal gases、real gases 与 $pV=nRT$
-- 20 道 Multiple Choice Questions 与 10 道 Structured Questions
 :::
 
 ::: {.topic-card}
 ### [5 Chemical energetics](a-level/5-chemical-energetics.qmd)
 
 - Energy changes、calorimetry、bond enthalpy 与 Hess’ law
-- 20 道 Multiple Choice Questions 与 10 道 Structured Questions
 :::
 
 ::: {.topic-card}
 ### [6 Electrochemistry](a-level/6-electrochemistry.qmd)
 
 - Oxidation numbers、redox reactions、disproportionation、halogen displacement 与 oxidising/reducing agents
-- 20 道 Multiple Choice Questions 与 10 道 Structured Questions
 :::
 
 ::: {.topic-card}
 ### [7 Equilibria](a-level/7-equilibria.qmd)
 
 - Dynamic equilibrium、Le Chatelier’s principle、$K_c$、$K_p$ 与 acid–base titrations
-- 20 道 Multiple Choice Questions 与 10 道 Structured Questions
 :::
 
 ::: {.topic-card}
 ### [8 Reaction kinetics](a-level/8-reaction-kinetics.qmd)
 
 - Rates、collision theory、Maxwell–Boltzmann distributions、energy profiles 与 catalysts
-- 20 道 Multiple Choice Questions 与 10 道 Structured Questions
 :::
 
 ::: {.topic-card}
 ### [9 The Periodic Table: chemical periodicity](a-level/9-periodic-table-chemical-periodicity.qmd)
 
 - Atomic radius、first ionisation energy、electronegativity、Period 3 structures、oxides 与 chlorides
-- 20 道 Multiple Choice Questions 与 10 道 Structured Questions
 :::
 
 ::: {.topic-card}
 ### [10 Group 2](a-level/10-group-2.qmd)
 
 - Group 2 trends、hydroxides、sulfates、nitrates、carbonates 与 reactions
-- 20 道 Multiple Choice Questions 与 10 道 Structured Questions；原题 PDF 放在页面末尾
 :::
 
 ::: {.topic-card}
 ### [11 Group 17](a-level/11-group-17.qmd)
 
 - Halogen trends、halide tests、displacement、disproportionation 与 hydrogen halides
-- 20 道 Multiple Choice Questions 与 10 道 Structured Questions；原题 PDF 放在页面末尾
 :::
 
 ::: {.topic-card}
 ### [12 Nitrogen and sulfur](a-level/12-nitrogen-and-sulfur.qmd)
 
 - Ammonia、nitrogen oxides、catalytic converters、PAN、photochemical smog 与 acid rain
-- 20 道 Multiple Choice Questions 与 10 道 Structured Questions；原题 PDF 放在页面末尾
 :::
 
 ::: {.topic-card}
 ### [13 An introduction to AS Level organic chemistry](a-level/13-introduction-to-as-organic-chemistry.qmd)
 
 - Formulae、functional groups、nomenclature、organic reaction mechanisms、bonding 与 isomerism
-- 20 道 Multiple Choice Questions 与 10 道 Structured Questions；原题 PDF 放在页面末尾
 :::
 
 ::: {.topic-card}
 ### [14 Hydrocarbons](a-level/14-hydrocarbons.qmd)
 
 - Alkanes、alkenes、cracking、combustion、catalytic converters 与 addition polymerisation
-- 20 道 Multiple Choice Questions 与 10 道 Structured Questions；原题 PDF 放在页面末尾
 :::
 
 ::: {.topic-card}
 ### [15 Halogen compounds](a-level/15-halogen-compounds.qmd)
 
 - Halogenoalkanes、nucleophilic substitution、hydrolysis、CFCs 与 ozone depletion
-- 20 道 Multiple Choice Questions 与 10 道 Structured Questions；原题 PDF 放在页面末尾
 :::
 
 ::: {.topic-card}
 ### [16 Hydroxy compounds](a-level/16-hydroxy-compounds.qmd)
 
 - AS 3.4 Alcohols and hydroxy compounds：alcohol classification、solubility、reactions、oxidation、dehydration、esterification、optical isomerism 与 triiodomethane test
-- 20 道 Multiple Choice Questions 与 10 道 Structured Questions；题目保持原文，可独立提取的题图单独保留
 :::
+
+::: {.topic-card}
+### [17 Carbonyl compounds](a-level/17-carbonyl-compounds.qmd)
+
+- Carbonyl structure、nucleophilic addition、oxidation and reduction of aldehydes and ketones、chemical tests 与 identification strategies
+:::
+
+::: {.topic-card}
+### [18 Carboxylic acids and derivatives](a-level/18-carboxylic-acids-and-derivatives.qmd)
+
+- Carboxylic acids、esters、acidity、esterification、hydrolysis、nitrile reactions 与 acyl-derivative chemistry
+:::
+
+::: {.topic-card}
+### [19 Nitrogen compounds](a-level/19-nitrogen-compounds.qmd)
+
+- Primary amines、nitriles、hydroxynitriles、nucleophilic addition、hydrolysis、reduction 与 synthesis pathways
+:::
+
+::: {.topic-card}
+### [20 Polymerisation](a-level/20-polymerisation.qmd)
+
+- Addition polymerisation、repeat units、monomers、displayed and structural formulae 与 polymer structures
+:::
+
+::: {.topic-card}
+### [21 Organic synthesis](a-level/21-organic-synthesis.qmd)
+
+- Functional-group interconversion、reagents and conditions、reaction pathways、selectivity 与 multi-step synthesis
+:::
+
+::: {.topic-card}
+### [22 Analytical techniques](a-level/22-analytical-techniques.qmd)
+
+- Infrared spectroscopy、mass spectrometry、functional-group identification、molecular ions、fragmentation 与 combined analysis
+:::
+
+:::
+
+## A Level · Chapters 23–37
+
+The A Level chapters extend the same workflow with syllabus notes, worked examples, original diagrams and structured-question answers.
+
+::: {.course-grid .a-level}
 
 ::: {.topic-card}
 ### [23 Chemical energetics](a-level/23-chemical-energetics.qmd)
@@ -128,17 +171,13 @@ subtitle: "2025–2027 syllabus · 9701"
 - 23.2 Enthalpies of solution & hydration：溶解焓、水合焓、能量循环与影响水合焓的因素
 - 23.3 Entropy change：熵的定义、状态与溶解过程的熵变、标准熵变计算
 - 23.4 Gibbs free energy change：$\Delta G^\ominus=\Delta H^\ominus-T\Delta S^\ominus$、反应可行性判断与温度影响
-- 22 道完整 Structured Questions（Easy/Medium/Hard 全覆盖），每题附按 PDF Model Answers 整理的逐点答案与分值；带图的题保留原始题目图，原始专题 PDF 可直接打开
 :::
-
-后续章节将沿用相同结构制作。
 
 ::: {.topic-card}
 ### [24 Electrochemistry](a-level/24-electrochemistry.qmd)
 
 - 24.1 Electrolysis：Faraday、$Q=It$、$F=Le$、electroplating 与 Avogadro constant calculations
 - 24.2 Standard electrode potentials, standard cell potentials and the Nernst equation：SHE、half-cells、cell diagrams、salt bridge、$E^\ominus_{\mathrm{cell}}$、Nernst equation、Gibbs energy 与氧化还原可行性
-- 18 道精选 Structured Questions（24.1/24.2，Easy/Medium/Hard），每题附按 Model Answers 整理的逐点答案与计算过程；AS 1.6 的定性 Electrolysis 内容不在本章范围内
 :::
 
 ::: {.topic-card}
@@ -146,7 +185,6 @@ subtitle: "2025–2027 syllabus · 9701"
 
 - 25.1 Acids and bases：Brønsted–Lowry acids and bases、conjugate pairs、pH、$K_a$、p$K_a$、$K_w$、strong / weak acids、buffers、blood bicarbonate buffer、$K_{sp}$ 与 common-ion effect
 - 25.2 Partition coefficients：$K_{pc}$ 定义、计算、相对溶解度与 solute / solvent polarity
-- 13 道相关 Structured Questions（Easy/Medium/Hard），每题保留完整英文题目、分问、计算步骤和最终答案；旧题包中不属于新考纲 25 的 entropy、Gibbs、Group 2 carbonate 和有机反应题不纳入
 :::
 
 ::: {.topic-card}
@@ -154,14 +192,12 @@ subtitle: "2025–2027 syllabus · 9701"
 
 - 26.1 Simple rate equations, orders of reaction and rate constants：rate equation、orders、initial rates、graphs、half-life、$k$、mechanisms、rate-determining steps、Arrhenius relationship
 - 26.2 Homogeneous and heterogeneous catalysts (AL)：adsorption、bond weakening、desorption、Haber process、catalytic converters、Fe$^{2+}$/Fe$^{3+}$ cycle 与 nitrogen oxides catalysis
-- 11 道完整 Structured Questions（Easy/Medium/Hard），保留完整英文题目、题目图、计算步骤与 model answers
 :::
 
 ::: {.topic-card}
 ### [27 Group 2](a-level/27-group-2.qmd)
 
 - 27.1 Similarities and trends in the properties of the Group 2 metals, magnesium to barium, and their compounds (AL)：ionic radius、charge density、polarisation、nitrate/carbonate thermal stability、water reactions、hydroxide/sulfate solubility、lattice energy、hydration enthalpy 与 enthalpy of solution
-- 10 道完整 Structured Questions（Easy/Medium/Hard），保留完整英文题目、所有分问、可独立提取的原始题目图、完整解答步骤与最终答案
 :::
 
 ::: {.topic-card}
@@ -172,7 +208,6 @@ subtitle: "2025–2027 syllabus · 9701"
 - 28.3 Colour of complexes：degenerate / non-degenerate d orbitals、octahedral / tetrahedral splitting、visible-light absorption 与 complementary colours
 - 28.4 Stereoisomerism：cis–trans geometrical isomerism 与 optical isomerism
 - 28.5 Stability constants：$K_{\mathrm{stab}}$ 表达式、ligand exchange 和稳定性比较
-- 17 道完整 Structured Questions：6.2 Easy/Medium（本地无 Hard 题包）以及 6.3 Easy/Medium/Hard；题图使用从 PDF 独立提取的局部图片，答案保留完整解题步骤
 :::
 
 ::: {.topic-card}
@@ -182,21 +217,18 @@ subtitle: "2025–2027 syllabus · 9701"
 - 29.2 Characteristic Organic Reactions (AL)：electrophilic substitution 与 addition–elimination 两类机制术语
 - 29.3 Shapes of Aromatic Organic Molecules; σ - π Bonds：benzene 的平面结构、$sp^2$ hybridisation、$\sigma$ bonds 与 delocalised $\pi$ system
 - 29.4 Isomerism Optical：chiral centre、enantiomers、plane-polarised light、racemic mixture 与 chiral catalysts 在药物合成中的意义
-- 13 道完整 Structured Questions（7.1 Easy/Medium/Hard），保留完整英文题目、所有分问、独立提取的局部题图与完整解答步骤
 :::
 
 ::: {.topic-card}
 ### [30 Hydrocarbons](a-level/30-hydrocarbons.qmd)
 
 - 30.1 Arenes：benzene 的结构与芳香稳定性、electrophilic substitution、nitration、halogenation、Friedel–Crafts alkylation/acylation、methylbenzene 的 side-chain reactions、oxidation、hydrogenation、aryl halides 与合成路线
-- 6 道完整 Structured Questions（7.2 Easy/Hard；当前题包没有 Medium），保留完整英文题目、所有分问、PDF 独立提取并合成白底的局部题图与完整解答步骤
 :::
 
 ::: {.topic-card}
 ### [31 Halogen compounds](a-level/31-halogen-compounds.qmd)
 
 - 31.1 Halogen compounds：benzene 与 methylbenzene 的 halogenation、electrophilic substitution、2,4-directing effects、side-chain free-radical substitution、halogenoalkanes 与 halogenoarenes 的 nucleophilic substitution reactivity、C–X bond 的 partial double-bond character 与 aromatic synthesis
-- 9 道完整 Structured Questions（7.3 Easy/Medium/Hard），保留完整英文题目、所有分问、从 PDF 独立提取并合成白底的局部题图与完整解答步骤
 :::
 
 ::: {.topic-card}
@@ -204,7 +236,6 @@ subtitle: "2025–2027 syllabus · 9701"
 
 - 32.1 Alcohols (AL)：acyl chlorides、nucleophilic acyl substitution、ester formation 与 phenoxide 的生成
 - 32.2 Phenol：weak acidity、phenoxide、bromination、nitration、diazonium coupling、1-naphthol 与 mesalamine synthesis
-- 11 道完整 Structured Questions（7.4 Easy/Medium/Hard），保留完整英文题目、所有分问、局部题目图与完整 model answers
 :::
 
 ::: {.topic-card}
@@ -213,7 +244,6 @@ subtitle: "2025–2027 syllabus · 9701"
 - 33.1 Carboxylic acids：oxidation、weak acidity、carboxylate-ion delocalisation、substituent effects 与 acyl-chloride preparation
 - 33.2 Esters：esterification、condensation、hydrolysis、naming 与 reversible equilibrium
 - 33.3 Acyl chlorides：nucleophilic addition–elimination、hydrolysis、ester/amides/phenyl esters、relative reactivity 与 synthesis routes
-- 8 道完整 Structured Questions（7.5 Easy/Medium；当前题包没有独立 Hard），保留完整英文题目、所有分问、PDF 独立提取的局部题图与完整解答步骤
 :::
 
 ::: {.topic-card}
@@ -223,7 +253,6 @@ subtitle: "2025–2027 syllabus · 9701"
 - 34.2 Phenylamine and azo compounds：nitrobenzene reduction、bromination、diazonium salts、azo coupling 与 azo dyes
 - 34.3 Amides：formation、acid/alkaline hydrolysis、LiAlH₄ reduction 与 amides 的 weak basicity
 - 34.4 Amino acids：zwitterions、isoelectric point、electrophoresis、peptide bonds 与 condensation polymers
-- 8 道完整 Structured Questions（7.6 Easy/Medium；当前题包没有独立 Hard），保留完整英文题目、所有分问、从 PDF 直接提取的局部题图与完整解答步骤
 :::
 
 ::: {.topic-card}
@@ -232,7 +261,6 @@ subtitle: "2025–2027 syllabus · 9701"
 - 35.1 Condensation Polymerisation：polyesters、polyamides、polyurethanes、amino-acid polymers、ester/amide/urethane links 与由 repeat unit 反推 monomers
 - 35.2 Predicting the Type of Polymerisation：addition polymerisation、co-polymers、condensation polymerisation 的判断依据与结构识别
 - 35.3 Degradable Polymers：polyalkenes 的难降解性、photodegradable polymers、polyester/polyamide 的 acid and alkaline hydrolysis
-- 10 道完整 Structured Questions（7.7 Easy/Medium/Hard），保留完整英文题目、所有分问、直接从 PDF 提取并合成白底的题目图与完整解答步骤
 :::
 
 ::: {.topic-card}
@@ -240,7 +268,6 @@ subtitle: "2025–2027 syllabus · 9701"
 
 - 36.1 Organic synthesis：multiple functional groups、functional-group interconversion、aromatic and aliphatic synthetic routes、multi-step synthesis 与 route analysis
 - 重点掌握试剂和条件、反应类型、selectivity、by-products、separation，以及由目标分子倒推合成路线
-- 14 道完整 Structured Questions（7.8 Easy/Medium/Hard），保留完整英文题目、所有分问、从 PDF 独立提取的局部题图与完整解答步骤
 :::
 
 ::: {.topic-card}
@@ -250,5 +277,6 @@ subtitle: "2025–2027 syllabus · 9701"
 - 37.2 Gas-Liquid Chromatography：carrier gas、stationary phase、retention time、peak area 与 chromatogram interpretation
 - 37.3 Carbon-13 NMR Spectroscopy：equivalent carbon environments、symmetry、chemical shifts 与 TMS reference
 - 37.4 Proton (¹H) NMR Spectroscopy：chemical shift、integration、splitting、$n+1$ rule，以及 MS/IR/NMR 综合鉴定
-- 14 道完整 Structured Questions（8.1 Easy/Medium/Hard），保留完整英文题目、所有分问、PDF 独立提取的局部题图与完整解答步骤
+:::
+
 :::
